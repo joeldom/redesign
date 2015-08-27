@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/main.css">
 		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/font-awesome-4_3.css">
 		<script src="http://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
+
 		<style type="text/css">
       #featured{background-color: white; display: table; margin-left: 8px; margin-right: 8px;}
       #featured .col-md-8, #featured .col-lg-8, #featured .col-md-4, #featured .col-lg-4{padding-left: 0; padding-right: 0;}
@@ -18,26 +19,39 @@
       #featured .featured-info{padding: 0 6px 3px 18px;}
       .carousel-control{top:150px;}
       .tile-graphic .tile-title{text-shadow: none;}
+			.module.module-hero{
+				border-top: 3px solid #bbb;
+			}
       @media (min-width: 992px) {
         #featured .featured-image{padding-right: 0;}
-        #projects .row .col-md-4 .row .col-xs-12 article{max-height: 193px;overflow: hidden;}
+        #projects .row .col-sm-4 article{max-height: 193px;overflow: hidden;}
       }
       @media (min-width: 1380px) {
-        #projects .row .col-md-4 .row .col-xs-12 article{max-height: 230px;overflow: hidden;}
+				#projects .row .col-sm-4 article{max-height: 230px;overflow: hidden}
       }
+			@media (max-width: 767px){
+				#projects .row .col-sm-4 article{max-height: 142px;overflow: hidden}
+			}
       .tile-graphic.tile-medium .tile-title:hover{background: rgba(256, 256, 256, 1);color:#5f5f5f;}
       @media (max-width: 767px){
         #featured{margin-left: 5px; margin-right: 5px;}
       }
+			button{background: transparent;border:none;color: white;}
+			h4, .h4{font-size: 1.15em !important;}
+			#blog-list .row [class*="col-"] .row{margin-bottom: 10px;}
+			#blog-list h1, #blog-list h2, #blog-list h3, #blog-list h4, #blog-list h5, #blog-list h6{
+				margin-top:.5em; margin-bottom:.5em;
+			}
+			#blog-list [class*="col-"] > h4{margin-top: 0;}
+			#blog-list ul{margin-left: 0;padding-left: 5px;font-size: .85em;}
+			#blog-list li{margin-bottom: .5em;}
     </style>
 
-<!-- / Google Analytics by Yoast -->
-<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
-<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.joeldombek.com/blog/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.joeldombek.com/blog/wp-includes/wlwmanifest.xml" />
-
-<link rel='shortlink' href='http://www.joeldombek.com/' />
+		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.joeldombek.com/blog/xmlrpc.php?rsd" />
+		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.joeldombek.com/blog/wp-includes/wlwmanifest.xml" />
+		<link rel='shortlink' href='http://www.joeldombek.com/' />
 	</head>
 	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
 
@@ -131,11 +145,11 @@
 
 				</div>
 				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					<
+					&ltrif;
           <span class="sr-only">Prev</span>
 				</a>
 				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					>
+					&rtrif;
 					<span class="sr-only">Next</span>
 				</a>
 			</div>
@@ -145,8 +159,8 @@
 
       <div class="row">
         <div id="featured">
-          <div class="col-md-8 featured-image"><img src="img/tabbed2.png"/></div>
-          <div class="col-md-4 featured-info">
+          <div class="col-sm-8 featured-image"><img src="img/tabbed2.png"/></div>
+          <div class="col-sm-4 featured-info">
             <h3>Featured</h3>
             <p>Content Exceprt from full-length post. kept at around 140 char and has a <a href="#">Read More</a> link at the end.</p>
           </div>
@@ -158,21 +172,21 @@
       <div id="projects">
         <div class="row">
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
 						<article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
 							<a href="#">
 								<h2 class="tile-title">Project Name</h2>
 								<img src="img/tile.png" class="" alt="" />
               </a>
 					</div><!-- /tile -->
-          <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
             <article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
               <a href="#">
                 <h2 class="tile-title">Project Name</h2>
                 <img src="img/tile.png" class="" alt="" />
               </a>
           </div><!-- /tile -->
-          <div class="col-md-4 col-sm-6 col-xs-12">
+          <div class="col-sm-4 col-xs-12">
             <article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
               <a href="#">
                 <h2 class="tile-title">Project Name</h2>
@@ -182,7 +196,7 @@
 
 				</div><!-- /row -->
         <div class="row">
-          <div class="col-sm-6 col-lg-8">
+          <div class="col-sm-8">
             <article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
               <a href="#">
                 <h2 class="tile-title">Project Name</h2>
@@ -190,7 +204,7 @@
               </a>
           </div><!-- /tile -->
 
-          <div class="col-sm-6 col-lg-4">
+          <div class="col-sm-4">
             <div class="row">
           <div class="col-xs-12">
             <article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
@@ -215,6 +229,268 @@
 
 			</div><!-- /projects -->
 		</div><!-- /container -->
+
+		<div class="module module-hero">
+
+			<!-- full res size -->
+			<img src="img/hero.png">
+			<div class="module-content palette-grey40  palette-inverse">
+          <div class="container">
+            <h1 class="module-title">Method</h1>
+            <p>Published: <time datetime="March 11th, 2015" pubdate="">March 11th, 2015</time></p>
+            <!-- <p class="byline"><em>Written by <a href="#">Joel</a></em><br></p> -->
+            <p class="download pull-right hidden-sm"><a href="#" target="_blank">Download PDF <i class="fa fa-file-pdf-o"></i></a></p>
+            <div class="addthis_toolbox">
+            <a class="class" href="#"><i class="fa fa-behance"></i></a>
+            <a class="class" href="#"><i class="fa fa-facebook-official"></i></a>
+            <a class="class" href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+          </div>
+        </div>
+		</div>
+
+		<div class="container">
+			<div class="module module-article">
+			  <aside class="author overlap-sm col-sm-4 pull-right hidden-xs">
+			  	<span class="author-headshot"><img src="http://placehold.it/640x640" alt="Joel D"></span>
+			  	<div class="author-about">
+			  		<h2 class="author-title h4">Info Section</h2>
+			  		<p>Words about myself. This will be where i throw a little bio. This could accompany my resume.</p>
+			  	</div>
+			  </aside>
+
+
+			  			  <h3>Header h3</h3>
+<p class="lead">Brands are no longer definitive. They are temporal. Brands are informed by multiple voices, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.</p>
+<p class="lead">Adherence to a big idea and endless repetition of centralized, fixed rules can make a brand seem unresponsive, mechanized, inhuman, and out of step with its audience. But without repetition, how does a brand create consistency? And without consistency, how does a brand maintain value?</p>
+<h4>Header h4</h4>
+<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+<p class="callout" style="color: #7ea29a;">Callout Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante.</p>
+<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+<h5>Header h5</h5>
+<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+
+
+			<!-- Display a comma separated list of the Post's Categories. -->
+			<!-- <p class="postmetadata">Filed under: </p> -->
+			<!-- <p class="postmetadate">Posted On:  by Joel</p> -->
+			<!--  -->
+
+
+
+
+			  </div><!-- /module-article -->
+		</div>
+
+
+
+
+		<div class="module module-hero">
+
+			<!-- full res size -->
+			<img src="img/hero.png">
+			<div class="module-content palette-grey40  palette-inverse">
+          <div class="container">
+            <h1 class="module-title">Method</h1>
+            <p>Published: <time datetime="March 11th, 2015" pubdate="">March 11th, 2015</time></p>
+            <!-- <p class="byline"><em>Written by <a href="#">Joel</a></em><br></p> -->
+            <p class="download pull-right hidden-sm"><a href="#" target="_blank">Download PDF <i class="fa fa-file-pdf-o"></i></a></p>
+            <div class="addthis_toolbox">
+            <a class="class" href="#"><i class="fa fa-behance"></i></a>
+            <a class="class" href="#"><i class="fa fa-facebook-official"></i></a>
+            <a class="class" href="#"><i class="fa fa-twitter"></i></a>
+          </div>
+          </div>
+        </div>
+		</div>
+
+
+
+		<div class="container">
+			<!-- MODULE TYPES -->
+			<!-- module-overlay module-content module-aside .module-related .module-title module-hero-->
+
+			<!-- MODULE CHILD ELEMENTS -->
+			<!-- .intro .author-about aside -->
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Header h3</h3>
+					<p class="lead">Brands are no longer definitive. They are temporal. Brands are informed by multiple voices, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.</p>
+					<p class="lead">Adherence to a big idea and endless repetition of centralized, fixed rules can make a brand seem unresponsive, mechanized, inhuman, and out of step with its audience. But without repetition, how does a brand create consistency? And without consistency, how does a brand maintain value?</p>
+				</div><!-- /col-sm-4 -->
+				<div class="col-md-8">
+					<img src="img/tile.png"/>
+				</div>
+			</div>
+
+			<div class="col-md-8 col-md-offset-4">
+				<h4>Header h4</h4>
+				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+				<p class="callout" style="color: #7ea29a;">Callout Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante.</p>
+				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+				<h5>Header h5</h5>
+				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+			</div>
+
+			<div class="module-hero">
+				<img src="img/tile.png"/>
+				<div class="module-overlay palette-grey40  palette-inverse">
+					<h4>Header h4</h4>
+					<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+				</div>
+			</div>
+		</div><!-- /container -->
+
+
+
+
+
+
+
+		<aside class="container">
+			<div class="module module-related row">
+				<header class="module-header col-sm-12"><h2 class="module-title h4">Related</h2></header>
+				<div class="col-sm-4">
+					<article class="tile tile-text">
+						<header class="tile-header">
+							<p><small>Branding </small></p>
+							<h3 class="tile-title"><a href="http://www.joeldombek.com/work/joel-dombek-logo/ ">My Logo</a></h3>
+						</header>
+						<div class="tile-excerpt hidden-sm">
+							<p>My Personal Logo/Identity This is my personal logo. This believe it or not took several years to develop/transition into. The […]</p>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-4">
+					<article class="tile tile-text">
+						<header class="tile-header">
+							<p><small>Branding </small></p>
+							<h3 class="tile-title"><a href="http://www.joeldombek.com/work/budget-kitchen-bath/ ">Budget Kitchen &amp; Bath</a></h3>
+						</header>
+						<div class="tile-excerpt hidden-sm">
+							<p>Budget Kitchen &amp; Bath This project was done while at Guaranteed Results Marketing. Creating both the layout, framework and branding, […]</p>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-4">
+					<article class="tile tile-text">
+						<header class="tile-header">
+							<p><small>Branding </small></p>
+							<h3 class="tile-title"><a href="http://www.joeldombek.com/work/guaranteed-results-marketing/ ">Guaranteed Results Marketing</a></h3>
+						</header>
+						<div class="tile-excerpt hidden-sm">
+							<p>This is a project I was creative director on starting with the logo for a internet marketing firm. It’s goal was to create a platform for small business to leverage themselves in an online market. Through a visual redesign and implementation of a CMS (Content Management System) so that SEO (Search Engine Optimization) driven content could easily be added.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</aside>
+
+
+
+
+		<!-- BLOG MAIN SECTION -->
+		<div class="module module-hero">
+
+			<div class="module-content palette-grey40  palette-inverse">
+          <div class="container">
+            <h1 class="module-title">BLOG</h1>
+						<div class="dropdown">
+							<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Dropdown trigger<span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" aria-labelledby="dLabel">
+								<li>One</li>
+								<li>Two</li>
+								<li>Three</li>
+							</ul>
+						</div>
+          </div>
+        </div>
+		</div>
+		<div id="blog-list" class="container">
+
+			<div class="row">
+				<div class="col-md-9">
+
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/tile.png"/>
+						</div><!-- /col-md-6 -->
+						<div class="col-md-6">
+							<small>Catagory 1</small>
+							<h4>Header 4</h4>
+							<small>Date: 00 / 00 / 000</small>
+							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+						</div><!-- /col-md-6 -->
+					</div><!-- /row -->
+
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/tile.png"/>
+						</div><!-- /col-md-6 -->
+						<div class="col-md-6">
+							<small>Catagory 1</small>
+							<h4>Header 4</h4>
+							<small>Date: 00 / 00 / 000</small>
+							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+						</div><!-- /col-md-6 -->
+					</div><!-- /row -->
+
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/tile.png"/>
+						</div><!-- /col-md-6 -->
+						<div class="col-md-6">
+							<small>Catagory 1</small>
+							<h4>Header 4</h4>
+							<small>Date: 00 / 00 / 000</small>
+							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+						</div><!-- /col-md-6 -->
+					</div><!-- /row -->
+
+					<div class="row">
+						<div class="col-md-6">
+							<img src="img/tile.png"/>
+						</div><!-- /col-md-6 -->
+						<div class="col-md-6">
+							<small>Catagory 1</small>
+							<h4>Header 4</h4>
+							<small>Date: 00 / 00 / 000</small>
+							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+						</div><!-- /col-md-6 -->
+					</div><!-- /row -->
+
+				</div><!-- /col-md-9 -->
+				<div id="blog-recent-list" class="col-md-2 col-md-offset-1">
+					<h4>Recent Posts</h4>
+					<ul>
+						<li><a href="#kanye-west-yeezus/">Kanye West Yeezus</a></li>
+						<li><a href="#sass-compass-in-wordpress/">Sass &amp; Compass in WordPress</a></li>
+						<li><a href="#content-strategy-wordpress-edit-post/">Content Strategy</a></li>
+						<li><a href="#pretty-code-blocks/">&lt;Pre&gt;tty Code Blocks</a></li>
+						<li><a href="#lightweight-design/">Lightweight Design</a></li>
+						<li><a href="#game-of-thrones-rebranded/">Game of Thrones Rebranded</a></li>
+						<li><a href="#edge-of-space-jump/">Edge of Space Jump</a></li>
+						<li><a href="#glitch-itecture/">Glitch-itecture</a></li>
+						<li><a href="#frances-the-mute-review/">Frances the Mute – Review</a></li>
+						<li><a href="#first-things-first/">First Things First</a></li>
+						<li><a href="#blue-velvet-review/">Blue Velvet – Review</a></li>
+						<li><a href="#magic-information-miracle-of-technology/">Magic Information</a></li>
+						<li><a href="#site-announcements/">Site Announcements</a></li>
+						<li><a href="#repeating-patterns-design-trends/">Design Trends</a></li>
+					</ul>
+				</div><!-- /col-md-3 -->
+
+			</div><!-- /row -->
+
+
+		</div><!-- /container -->
+
+
+
 
 		<div class="container">
 			<footer class="footer" itemscope="" itemtype="http://schema.org/Organization">
@@ -286,6 +562,8 @@
     $('#myTabs a[href="#profile"]').tab('show') // Select tab by name
     $('#myTabs a[href="#messages"]').tab('show') // Select tab by name
     $('#myTabs a[href="#settings"]').tab('show') // Select tab by name
+
+		$('.dropdown-toggle').dropdown()
     </script>
 	</body>
 </html>
