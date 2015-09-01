@@ -3,12 +3,17 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- Design Refferences -->
+<!-- http://www.ibm.com/en-us/homepage-a.html -->
+
 <html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 		<title>Joel Dombek | Portfolio</title>
 		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/main.css">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/font-awesome-4_3.css">
 		<script src="http://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
 
@@ -35,6 +40,10 @@
       .tile-graphic.tile-medium .tile-title:hover{background: rgba(256, 256, 256, 1);color:#5f5f5f;}
       @media (max-width: 767px){
         #featured{margin-left: 5px; margin-right: 5px;}
+				.blog-list-row [class*="col-"]:first-child{padding-left: 0;padding-right: 0;}
+				.form-group{width: 75%;display: inline-block;}
+				input.search{padding: .95em !important;}
+				.form-inline .btn-primary{width: 25%;padding: .95em !important;}
       }
 			button{background: transparent;border:none;color: white;}
 			h4, .h4{font-size: 1.15em !important;}
@@ -45,7 +54,28 @@
 			#blog-list [class*="col-"] > h4{margin-top: 0;}
 			#blog-list ul{margin-left: 0;padding-left: 5px;font-size: .85em;}
 			#blog-list li{margin-bottom: .5em;}
+			.blog-list-row:hover{background-color: white;}
+			.blog-list-row [class*="col-"]:first-child{padding-left: 0;}
+			.blog-list-row [class*="col-"] .pull-right{margin-bottom: 15px;}
 			/*resolve arrow in hero sizing*/
+			.form-inline .btn-primary{margin-left: -5px;padding:.35em;vertical-align: baseline;border-left: 1px solid #eee;background-color: white;color:#545454;}
+			.form-inline .btn-primary:hover{color:black;}
+			input.search {padding: .35em;border-radius: 0;font-size: 14px;}
+
+			/* TABS */
+			.nav > li > a{padding:0 15px 10px 0;border:none;border-bottom-style: none;}
+			.nav-tabs > li.active > a, .nav-tabs > li.active > a:link{background-color: none !important; border:none;border-bottom-style: none;}
+			.nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background-color: none;border-bottom-style: none;}
+			.nav-tabs > li > a:hover{background-color: none !important; border-bottom:2px solid white;}
+
+			#blog-section .nav-tabs > li > a{
+				background-color: none !important;
+				background: none;
+			}
+			#blog-section .nav-tabs > li > a:hover, #blog-section .nav-tabs > li > a:focus,
+			#blog-section .nav-tabs > li.active > a:hover, #blog-section .nav-tabs > li.active > a:focus {
+        border: none;
+        border-bottom: 2px solid white;}
     </style>
 
 		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
@@ -397,72 +427,126 @@
 		<!-- BLOG MAIN SECTION -->
 		<div class="module module-hero">
 
-			<div class="module-content palette-grey40  palette-inverse">
+			<div id="blog-section" class="module-content palette-grey40  palette-inverse">
           <div class="container">
             <h1 class="module-title">BLOG</h1>
-						<div class="dropdown">
-							<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Dropdown trigger<span class="caret"></span>
-							</button>
-							<ul class="dropdown-menu" aria-labelledby="dLabel">
-								<li>One</li>
-								<li>Two</li>
-								<li>Three</li>
-							</ul>
-						</div>
-          </div>
-        </div>
-		</div>
+						<div class="row">
+							<div class="col-xs-12">
+								<ul class="nav nav-tabs" role="tablist">
+									<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Main</a></li>
+									<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+									<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+									<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+								</ul>
+								<!-- Tab panes -->
+								<div class="tab-content">
+									<div role="tabpanel" class="tab-pane active" id="home"></div>
+									<div role="tabpanel" class="tab-pane" id="profile">
+										<ul class="list-inline">
+											<li><a href="#">One</a></li>
+											<li><a href="#">Two</a></li>
+											<li><a href="#">Three</a></li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="messages">
+										<ul class="list-inline">
+											<li><a href="#">Four</a></li>
+											<li><a href="#">Five</a></li>
+											<li><a href="#">Six</a></li>
+										</ul>
+									</div>
+									<div role="tabpanel" class="tab-pane" id="settings">
+										<ul class="list-inline">
+											<li><a href="#">Seven</a></li>
+											<li><a href="#">Eight</a></li>
+											<li><a href="#">Nine</a></li>
+											<li><a href="#">Ten</a></li>
+										</ul>
+									</div>
+								</div>
+								<!-- Tab panes -->
+							</div>
+
+							<div class="addthis_toolbox">
+								<form class="form-inline">
+									<div class="form-group">
+										<div class="input-group">
+											<input type="text" class="search" id="exampleInputAmount" placeholder="Amount">
+										</div>
+									</div>
+									<button type="submit" class="btn btn-primary">Search</button>
+								</form>
+							</div><!-- /addthis_toolbox -->
+						</div><!-- /row -->
+
+
+
+					</div><!-- /container -->
+				</div><!-- /module-content palette-grey40  palette-inverse -->
+			</div><!-- /module module-hero -->
 		<div id="blog-list" class="container">
 
 			<div class="row">
 				<div class="col-md-9">
 
-					<div class="row">
+					<div class="row blog-list-row">
 						<div class="col-md-6">
-							<img src="img/tile.png"/>
+							<a href="#">
+								<img src="img/tile.png"/>
+							</a>
 						</div><!-- /col-md-6 -->
 						<div class="col-md-6">
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<a class="pull-right" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
-					<div class="row">
+					<div class="row blog-list-row">
 						<div class="col-md-6">
-							<img src="img/tile.png"/>
+							<a href="#">
+								<img src="img/tile.png"/>
+							</a>
 						</div><!-- /col-md-6 -->
 						<div class="col-md-6">
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<a class="pull-right" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
-					<div class="row">
+					<div class="row blog-list-row">
 						<div class="col-md-6">
-							<img src="img/tile.png"/>
+							<a href="#">
+								<img src="img/tile.png"/>
+							</a>
 						</div><!-- /col-md-6 -->
 						<div class="col-md-6">
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<a class="pull-right" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
-					<div class="row">
+					<div class="row blog-list-row">
 						<div class="col-md-6">
-							<img src="img/tile.png"/>
+							<a href="#">
+								<img src="img/tile.png"/>
+							</a>
+
 						</div><!-- /col-md-6 -->
 						<div class="col-md-6">
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<a class="pull-right" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
@@ -554,6 +638,7 @@
 		</div><!-- /container -->
 
 		<script src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/js/main-1.2.13.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.2.2'></script>
     <script>
