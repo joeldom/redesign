@@ -96,10 +96,11 @@
 			/*TAG CLOUD*/
 			.tagcloud .tag{display: inline-block; padding: 1px 2px;font-size:.85em;}
 			/*PAGEINATION*/
-			.pagination{margin-left: 0;padding-left: 5px;font-size: .85em;list-style-type: none;display: inline-block;}
+			.pagination{margin-left: 0;padding: 0;font-size: 1em;list-style-type: none;display: inline-block;}
 			.pagination li{display: inline-block;}
-			.pagination a{padding: 5px 10px;text-decoration: none;border: none;}
+			.pagination a{padding: 8px 14px;text-decoration: none;border: none;}
 			.pagination a:hover{background: white; color:black;}
+			.pagination li.current a{border-bottom: 1px solid #545454;}
     </style>
 
 		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
@@ -539,7 +540,7 @@
 					<div class="row blog-list-row">
 						<div class="col-md-6">
 							<a class="post-image-link" href="#">
-								<!-- <img src="img/tilex2x.png"/> -->
+								<img src="img/tilex2x.png"/>
 							</a>
 						</div><!-- /col-md-6 -->
 						<div class="col-md-6">
@@ -622,9 +623,13 @@
 
 			</div><!-- /row -->
 
+
+
+		</div><!-- /container -->
+		<div class="container">
 			<div class="module module-related row">
 				<!-- BEGIN PAGEINATION -->
-				<div class="col-xs-12">
+				<div class="">
 					<ul class="pagination">
 						<li><a href="http://www.joeldombek.com/blog/">BACK</a></li>
 						<li><a href="http://www.joeldombek.com/blog/">1</a></li>
@@ -638,8 +643,7 @@
 					</ul>
 				</div>
 			</div>
-
-
+			<br/><br/>
 		</div><!-- /container -->
 
 		<div class="module module-hero">
