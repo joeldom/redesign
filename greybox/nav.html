@@ -50,26 +50,8 @@
       button{background: transparent;border:none;color: white;}
 
       /*==========*/
-      /*TYPOGRAPHY CHANGES*/
+
       h4, .h4{font-size: 1.15em !important;}
-      blockquote::before {content:"“" !important;}
-      blockquote::after {content:"”" !important;}
-
-      /*COLOR PALETTE*/
-    .vert-align {position: relative;line-height:95px;/*top: 45%;transform: translateY(-50%);*/}
-      #color-palette p{height:100px;text-align:center;vertical-align:middle;color:white;padding:5px;}
-      #color-palette p.fifty{height: 50px;margin: 0}
-
-      .palette-teal {color: #7ea29a;}
-        .palette-teal2.palette-inverse {background-color: #7ea29a;}
-      .palette-teal2 {color: #7DB9B3;}
-        .palette-teal2.palette-inverse {background-color: #7DB9B3;}
-      .palette-lavender {color: #BFC3EC;}/*ACB0DD*/
-        .palette-lavender.palette-inverse {background-color: #BFC3EC;}
-
-
-
-
 			#blog-list .row [class*="col-"] .row{margin-bottom: 10px;}
 			#blog-list h1, #blog-list h2, #blog-list h3, #blog-list h4, #blog-list h5, #blog-list h6{
 				margin-top:.5em; margin-bottom:.5em;
@@ -90,11 +72,9 @@
 			.blog-list-row [class*="col-"]:first-child{padding-left: 0;}
 			.blog-list-row [class*="col-"] .pull-right{margin-bottom: 15px;}
 			/*resolve arrow in hero sizing*/
-			.form-inline .btn-primary{margin-left: -5px;padding:.55em;vertical-align: baseline;border-left: 1px solid #eee;background-color: white;color:#545454;}
+			.form-inline .btn-primary{margin-left: -5px;padding:.35em;vertical-align: baseline;border-left: 1px solid #eee;background-color: white;color:#545454;}
 			.form-inline .btn-primary:hover{color:black;}
-			input.search {padding: .55em;border-radius: 0;font-size: 14px;}
-      #c_form input, #c_form textarea, #c_form select{background: none;background-color: none;border-bottom: 1px solid #545454;border-radius: 0;}
-      #c_form select{-webkit-appearance: none; -moz-appearance: none;}
+			input.search {padding: .35em;border-radius: 0;font-size: 14px;}
 
 			/*READ MORE LINK STYLING*/
 			#blog-list .read-more{background: white; padding: 12px 24px; border: none;}
@@ -121,7 +101,7 @@
 			#blog-section .nav-tabs > li > a:hover, #blog-section .nav-tabs > li > a:focus,
 			#blog-section .nav-tabs > li.active > a:hover, #blog-section .nav-tabs > li.active > a:focus {
         border: none;
-        border-bottom: 4px solid white;}
+        border-bottom: 2px solid white;}
 			/*BLOG LIST POSTS*/
 			.blog-list-row a.post-image-link{min-height: 228px;display: block;}
 			@media (max-width: 991px){
@@ -133,7 +113,7 @@
 			.pagination{margin-left: 0;padding: 0;font-size: 1em;list-style-type: none;display: inline-block;}
 			.pagination li{display: inline-block;}
 			.pagination a{padding: 8px 14px;text-decoration: none;border: none;}
-			.pagination a:hover{border-bottom: 1px solid #545454; color:black;}
+			.pagination a:hover{background: white; color:black;}
 			.pagination li.current a{border-bottom: 1px solid #545454;}
     </style>
   </head>
@@ -321,7 +301,7 @@
 			<img src="img/herox2x.png">
 			<div class="module-content palette-grey40  palette-inverse">
           <div class="container">
-            <h1 class="module-title">Typography</h1>
+            <h1 class="module-title">Method</h1>
             <p>Published: <time datetime="March 11th, 2015" pubdate="">March 11th, 2015</time></p>
             <!-- <p class="byline"><em>Written by <a href="#">Joel</a></em><br></p> -->
             <p class="download pull-right hidden-sm"><a href="#" target="_blank">Download PDF <i class="fa fa-file-pdf-o"></i></a></p>
@@ -357,10 +337,7 @@
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 				<p class="callout" style="color: #7ea29a;">Callout Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante.</p>
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
-				<figure class="quote palette-lavender">
-          <blockquote class="h2">... <cite>Experience Design</cite> both brings about a new level of understanding and asserts the value of this rapidly evolving field.</blockquote>
-          <figcaption><b>John Maeda</b><br>President, Rhode Island School of Design</figcaption>
-        </figure>
+        <blockquote class="h2">... <cite>Experience Design</cite> both brings about a new level of understanding and asserts the value of this rapidly evolving field.</blockquote>
 				<h5>Header h5</h5>
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 
@@ -773,7 +750,7 @@
 									<p>
 										<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit">
 											<img class="ajax-loader" src="http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
-									</p><br/><br/><br/><br/>
+									</p>
 									<div class="wpcf7-response-output wpcf7-display-none"></div>
 								</form>
 							</div>
@@ -783,176 +760,6 @@
 				<!--Contact sidebar -->
 			</div><!-- /row -->
 		</div><!-- /container -->
-		<div class="module module-hero">
-
-			<!-- full res size -->
-			<!-- <img src="img/herox2x.png"> -->
-			<div class="module-content palette-grey40  palette-inverse">
-					<div class="container">
-						<h1 class="module-title">Color Palette</h1>
-						<p>Published: <time datetime="March 11th, 2015" pubdate="">December 10th, 2015</time></p>
-						<!-- <p class="byline"><em>Written by <a href="#">Joel</a></em><br></p> -->
-						<p class="download pull-right hidden-sm"><a href="#" target="_blank">Download PDF <i class="fa fa-file-pdf-o"></i></a></p>
-						<div class="addthis_toolbox">
-						<a class="class" href="#"><i class="fa fa-behance"></i></a>
-						<a class="class" href="#"><i class="fa fa-facebook-official"></i></a>
-						<a class="class" href="#"><i class="fa fa-twitter"></i></a>
-					</div>
-					</div>
-				</div>
-		</div>
-		<div id="color-palette" class="container">
-			<div class="module row">
-				<div class="col-sm-2">
-					<p style="background-color:#f6f6f6;">
-						<span class="vert-align">grey05 #f6f6f6</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#ebebeb;">
-						<span class="vert-align">grey10 #ebebeb</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#dedede;">
-						<span class="vert-align">grey15 #dedede</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#cfcfcf;">
-						<span class="vert-align">grey20 #CFCFCF</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#acacac;">
-						<span class="vert-align">grey30 #acacac</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#999999;">
-						<span class="vert-align">grey40 #999999</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#7c7c7c;">
-						<span class="vert-align">grey50 #7C7C7C</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#6b6b6b;">
-						<span class="vert-align">grey60 #6B6B6B</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#5b5b5b;">
-						<span class="vert-align">grey70 #5B5B5B</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#474747;">
-						<span class="vert-align">grey80 #474747</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#5B5868;">
-						<span class="vert-align">bluegrey #5B5868</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#685858;">
-						<span class="vert-align">redgrey #685858</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#686258;">
-						<span class="vert-align">warmgrey70 #686258</spand>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#b0aca8;">
-						<span class="vert-align">warmgrey30 #B0ACA8</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#dfd6d6;">
-						<span class="vert-align">cream #DFD6D6</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#FCEFED;">
-						<span class="vert-align">cream2 #FCEFED</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#BFC3EC;">
-						<span class="vert-align">lavender #BFC3EC</span>
-					</p>
-				</div>
-				<!-- <div class="col-sm-2">
-					<p style="background-color:#f04e55;">
-						<span class="vert-align">coral #f04e55</span>
-					</p>
-				</div> -->
-				<!-- <div class="col-sm-2">
-					<p style="background-color:#d89aa7;">
-						<span class="vert-align">pink #d89aa7</span>
-					</p>
-				</div> -->
-				<div class="col-sm-2">
-					<p style="background-color:#6e0808;">
-						<span class="vert-align">burgundy #6E0808</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#BA6C65;">
-						<span class="vert-align">blush #BA6C65</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#192241;">
-						<span class="vert-align">navy #192241</span>
-					</p>
-				</div>
-				<!-- <div class="col-sm-2">
-					<p style="background-color:#6b8c4c;">
-						<span class="vert-align">lime #6b8c4c</span>
-					</p>
-				</div> -->
-				<div class="col-sm-2">
-					<p style="background-color:#aaa52d;">
-						<span class="vert-align">mustard #AAA52D</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#D6CFB9;">
-						<span class="vert-align">sand #D6CFB9</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#7ea29a;">
-						<span class="vert-align">teal #7EA29A</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#7DB9B3;">
-						<span class="vert-align">teal2 #7DB9B3</span>
-					</p>
-				</div>
-				<!--
-						opt #9AB5C1 #9AB5C1 #74698C #C1867B
-						opt #A21232 #1A1831 #20615B #DECE9C
-						opt #83AFA6 #58727F #E5E5E5 #D3A284 *
-						opt #D9DAD7 #C24D2C #3E4A61 #1A2639
-
-
-
-				-->
-
-
-			</div>
-		</div><!-- /color-palette -->
-
-
 
 		<div class="container">
 			<footer class="footer" itemscope="" itemtype="http://schema.org/Organization">
