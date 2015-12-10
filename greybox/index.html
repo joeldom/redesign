@@ -51,6 +51,11 @@
 
       /*==========*/
       /*TYPOGRAPHY CHANGES*/
+			#featured{position: relative;}
+			#featured .featured-info{position: absolute; bottom:0;right:0;}
+			#featured h1,#featured h2,#featured h3,#featured h4,#featured h5,#featured h6{margin:.5em 0;}
+			#featured h1 a, #feaured h2 a, #featured h3 a, #featured h4 a, #featured h5 a{color: #3F3F3F;border: none;}
+			#featured p{letter-spacing: .005em;font-size: 12px;margin-bottom: 12px;}
       h4, .h4{font-size: 1.15em !important;}
       blockquote::before {content:"“" !important;}
       blockquote::after {content:"”" !important;}
@@ -262,8 +267,10 @@
 					<div class="row">
 						<div class="col-sm-8 featured-image"><img src="img/tabbedx2x.png"/></div>
 	          <div class="col-sm-4 featured-info">
-	            <h3>Featured</h3>
-	            <p>Content Exceprt from full-length post. kept at around 140 char and has a <a href="#">Read More</a> link at the end.</p>
+							<br><br><br><br>
+	            <h5 class="palette-teal" style="text-transform:uppercase;">Featured</h5>
+							<h4><a href="#">Deciding for the User</a></h4>
+	            <p>Content Exceprt from full-length post. Kept at around 140 char and has a link to the full article at the end. This is an excerpt. <a href="#">Read&nbsp;More</a></p>
 	          </div>
 					</div>
         </div><!-- /featured -->
