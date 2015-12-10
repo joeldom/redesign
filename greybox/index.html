@@ -94,7 +94,17 @@
 			.form-inline .btn-primary:hover{color:black;}
 			input.search {padding: .55em;border-radius: 0;font-size: 14px;}
       #c_form input, #c_form textarea, #c_form select{background: none;background-color: none;border-bottom: 1px solid #545454;border-radius: 0;}
-      #c_form select{-webkit-appearance: none; -moz-appearance: none;}
+      #c_form select{appearance:none;-webkit-appearance: none; -moz-appearance: none;padding: .35em 0;}
+			#c_form select:after,#c_form .wpcf7-form-control-wrap.Chooseone:after{content:'\2261';margin-left: -12px;vertical-align: -webkit-baseline-middle;font-size: 12px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}/* 2195 2261 */
+			#c_form select:focus,#c_form select:active{outline: none;}
+			#c_form input[type="submit"]{border:1px solid #545454; border-radius: 25px;display: inline-block;font-family:sans-serif;height: 50px;background: none;line-height: 50px;padding: 0;font-weight: bold;}
+			@media (min-width: 992px) {
+				#c_form input[type="submit"]{width: 200px;}
+			}
+			@media (max-width: 767px){
+				#c_form input[type="submit"]{width: 100%;}
+			}
+			/*STYLE AJAX LOADER FOR SUBMIT*/
 
 			/*READ MORE LINK STYLING*/
 			#blog-list .read-more{background: white; padding: 12px 24px; border: none;}
@@ -348,6 +358,13 @@
         <p class="intro">
           Intro Paragraph. Testing for styling of character entity sizing issues and formatting with inline elements. HTML character entities: &ltrif; &rtrif;
         </p>
+
+				<p>
+					&ltrif;&rtrif;
+				</p>
+				<p>
+					&lt; &gt; &amp; &nbsp; &copy;
+				</p>
 
 				<h3>Header h3</h3>
 				<p class="lead">Brands are no longer definitive. They are temporal. Brands are informed by multiple voices, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.</p>
@@ -739,13 +756,13 @@
 									<p>Your Name
 										<span class="required">(required)</span><br>
 										<span class="wpcf7-form-control-wrap your-name">
-											<input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
+											<input type="text" name="your-name" value="First Name" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false">
 										</span>
 									</p>
 									<p>Your Email
 										<span class="required">(required)</span><br>
 										<span class="wpcf7-form-control-wrap your-email">
-											<input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false">
+											<input type="email" name="your-email" value="name@email.com" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false">
 										</span>
 									</p>
 									<p>Subject<br>
