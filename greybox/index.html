@@ -4,8 +4,17 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<!-- Design Refferences -->
-<!-- http://www.ibm.com/en-us/homepage-a.html -->
+<!--///////////////////////////////////////////////////////
+			DESIGN REFFERENCES
+			method: http://method.com/work/coda
+			pitchfork: http://pitchfork.com/
+			expdesign: http://experiencedesignthebook.com/
+			ibm: http://www.ibm.com/en-us/homepage-a.html
+			coinbase: https://www.coinbase.com/charts
+			exch coinbase: https://exchange.coinbase.com/
+			dropbox: https://www.dropbox.com/home/Resume
+			welathfront: https://www.wealthfront.com/
+////////////////////////////////////////////////////////-->
 
 <html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
 	<head>
@@ -15,7 +24,8 @@
     <!-- Linked Files -->
 		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/main.css">
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
-		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/font-awesome-4_3.css">
+		<!-- <link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/font-awesome-4_3.css"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel='shortlink' href='http://www.joeldombek.com/' />
     <!-- Top Scripts -->
 		<script src="http://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
@@ -72,10 +82,17 @@
           STATS & REVIEW
       ###########################*/
 			.stats-hero{
-				background-image: linear-gradient(to bottom, #8385c3, #8385c3);
 				display: block;
 				width:100%;
 				height: 400px;
+			}
+			.stats-hero.purple{
+				/*background-image: linear-gradient(to bottom, #8385c3, #8385c3);*/
+				background-color: #8385c3;
+			}
+			.stats-hero.red{
+				/*background-image: linear-gradient(to bottom, #8385c3, #8385c3);*/
+				background-color: #EF4544;
 			}
 
       /*##########################
@@ -101,6 +118,15 @@
         .palette-olivegrey.palette-inverse {background-color: #62645c;}
 			.palette-purple {color: #8385c3;}/*ACB0DD*/
 				.palette-lavender.palette-inverse {background-color: #8385c3;}
+
+			@media (min-width: 768px){
+					.module-hero .module-overlay .module-title{
+						border-bottom: 1px solid #545454;
+					}
+					.module-hero .module-overlay.palette-inverse .module-title{
+						border-bottom: 1px solid #FFFFFF;
+					}
+				}
 
 			.module-article .author-about{background-color: white;}
 
@@ -213,12 +239,11 @@
 			@media (max-width: 767px){
 				#c_form input[type="submit"]{width: 100%;}
 			}
+			#c_form .ajax-loader{margin: -36px 0 0 20px;padding: 0;text-align: left;background: none;font-size: 1.25em;}
 			/*
 			- Set -moz-appearance to none. This will "reset" the styling of the element;
 			- Set text-indent to 0.01px. This will "push" the text a tiny bit[1] to the right;
 			- Set text-overflow to '' (an empty string). This will change anything that extends beyond the element's width to... nothing - and this includes the infamous arrow!
-
-
 			*/
 			/*STYLE AJAX LOADER FOR SUBMIT*/
 
@@ -281,8 +306,6 @@
 					<li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
 					<li data-target="#hero-carousel" data-slide-to="1"></li>
 					<li data-target="#hero-carousel" data-slide-to="2"></li>
-					<li data-target="#hero-carousel" data-slide-to="3"></li>
-					<li data-target="#hero-carousel" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
@@ -293,7 +316,7 @@
 									<div class="container">
 										<p class="category">Category 1</p>
 										<h2 class="tile-title">I design integrated brand, product, and service experiences.</h2>
-										<p>Sub caption<br> content across two lines <span class="cta icon-chevron-right"></span></p>
+										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
 									</div>
 								</div>
 							</a>
@@ -308,7 +331,7 @@
 									<div class="container">
 										<p class="category">Category 2</p>
 										<h2 class="tile-title">Project tagline that describes simply.</h2>
-										<p>Sub caption<br> content across two lines <span class="caret"></span></p>
+										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
 									</div>
 								</div>
 							</a>
@@ -323,7 +346,7 @@
 									<div class="container">
 										<p class="category">User Experience</p>
 										<h2 class="tile-title">Deciding for the User</h2>
-										<p>When you design you are making descions for the people you plan on using it. <span class="caret"></span></p>
+										<p>When you design you are making descions for the people you plan on using it. <i class="fa fa-angle-right"></i></p>
 									</div>
 								</div>
 							</a>
@@ -331,14 +354,14 @@
 					</div><!-- /end item -->
 
 				</div>
-				<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-					&ltrif;
+				<a class="left carousel-control" href="#hero-carousel" role="button" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
           <span class="sr-only">Prev</span>
 				</a>
-				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-					&rtrif;
+				<a class="right carousel-control" href="#hero-carousel" role="button" data-slide="next">
+					<i class="fa fa-angle-right"></i>
 					<span class="sr-only">Next</span>
-				</a> -->
+				</a>
 			</div><!-- /carousel-inner -->
 		</div><!-- /module-hero -->
 
@@ -489,7 +512,7 @@
 		</div>
 
 		<div class="module-hero">
-			<div class="stats-hero">
+			<div class="stats-hero purple">
 
 			</div>
 			<div class="module-overlay">
@@ -499,6 +522,125 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="module-hero">
+			<div class="stats-hero red">
+
+			</div>
+			<div class="module-overlay">
+				<div class="container">
+					<p class="category">QUOTES / INSIGHT NO: 103</p>
+					<p class="module-title">If today feels like yesterday, somethings wrong.</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- QUOTES CAROUSEL START -->
+		<!-- <div class="module-hero">
+			<div class="carousel slide" id="quote-carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+					<li data-target="#quote-carousel" data-slide-to="1"></li>
+					<li data-target="#quote-carousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+
+					<div class="item active">
+						<div class="stats-hero red"></div>
+						<div class="module-overlay">
+							<div class="container">
+								<p class="category">QUOTES / INSIGHT NO: 106</p>
+								<p class="module-title"><s>Good</s>. <s>Better</s>. <u>Best</u>.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="stats-hero red"></div>
+						<div class="module-overlay">
+							<div class="container">
+								<p class="category">QUOTES / INSIGHT NO: 104</p>
+								<p class="module-title">If today feels like yesterday, somethings wrong.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="stats-hero red"></div>
+						<div class="module-overlay">
+							<div class="container">
+								<p class="category">QUOTES / INSIGHT NO: 105</p>
+								<p class="module-title">Give a shit.</p>
+							</div>
+						</div>
+					</div>
+
+					<a class="left carousel-control" href="#quote-carousel" role="button" data-slide="prev">
+						<i class="fa fa-angle-left"></i>
+	          <span class="sr-only">Prev</span>
+					</a>
+					<a class="right carousel-control" href="#quote-carousel" role="button" data-slide="next">
+						<i class="fa fa-angle-right"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+		</div> -->
+		<!-- QUOTES CAROUSEL END -->
+
+
+		<div class="module-hero">
+			<div id="carousel-quotes" class="carousel slide" data-ride="carousel">
+			      <!-- Indicators -->
+			      <ol class="carousel-indicators">
+			        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+			        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+			        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+			      </ol>
+			      <div class="carousel-inner" role="listbox">
+
+							<div class="item active">
+								<div class="stats-hero red"></div>
+								<div class="module-overlay">
+									<div class="container">
+										<p class="category">QUOTES / INSIGHT NO: 106</p>
+										<p class="module-title"><s>Good</s>. <s>Better</s>. <u>Best</u>.</p>
+									</div>
+								</div>
+							</div>
+
+			        <div class="item">
+								<div class="stats-hero red"></div>
+								<div class="module-overlay">
+									<div class="container">
+										<p class="category">QUOTES / INSIGHT NO: 104</p>
+										<p class="module-title">If today feels like yesterday, somethings wrong.</p>
+									</div>
+								</div>
+			        </div>
+
+			        <div class="item">
+								<div class="stats-hero red"></div>
+								<div class="module-overlay">
+									<div class="container">
+										<p class="category">QUOTES / INSIGHT NO: 105</p>
+										<p class="module-title">Give a shit.</p>
+									</div>
+								</div>
+			        </div>
+			      </div>
+			      <a class="left carousel-control" href="#carousel-quotes" role="button" data-slide="prev">
+							<i class="fa fa-angle-left"></i>
+		          <span class="sr-only">Prev</span>
+			      </a>
+			      <a class="right carousel-control" href="#carousel-quotes" role="button" data-slide="next">
+							<i class="fa fa-angle-right"></i>
+							<span class="sr-only">Next</span>
+			      </a>
+			    </div>
+				</div>
+
+
 
 
 
@@ -542,7 +684,7 @@
 				<p class="lead">Brands are no longer definitive. They are temporal. Brands are informed by multiple voices, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.</p>
 				<p class="lead">Adherence to a big idea and endless repetition of centralized, fixed rules can make a brand seem unresponsive, mechanized, inhuman, and out of step with its audience. But without repetition, how does a brand create consistency? And without consistency, how does a brand maintain value?</p>
 				<!-- ########################################################################
-				SHOUDL BREAK INTO SEPERATE COL-MD-4 SECTION TO ALLOW FOR IMAGES ALONG SIDE
+				SHOULD BREAK INTO SEPERATE COL-MD-4 SECTION TO ALLOW FOR IMAGES ALONG SIDE
 				########################################################################-->
 				<h4>Header h4</h4>
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
@@ -947,7 +1089,8 @@
 									</p>
 									<p>
 										<input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit">
-											<img class="ajax-loader" src="http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
+											<!-- <img class="ajax-loader" src="http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"> -->
+											<span class="ajax-loader"><i class="fa fa-circle-o-notch fa-spin"></i></span>
 									</p><br/><br/><br/><br/>
 									<div class="wpcf7-response-output wpcf7-display-none"></div>
 								</form>
@@ -1050,29 +1193,29 @@
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#b0aca8;">
-						<span class="vert-align">warmgrey30 #B0ACA8</span>
+						<span class="vert-align">warmgrey30 <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#dfd6d6;">
-						<span class="vert-align">cream #DFD6D6</span>
+						<span class="vert-align">cream <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#FCEFED;">
-						<span class="vert-align">cream2 #FCEFED</span>
+						<span class="vert-align">cream2 <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#BFC3EC;">
-						<span class="vert-align">lavender #BFC3EC</span>
+						<span class="vert-align">lavender <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
-				<!-- <div class="col-sm-2">
+				<div class="col-sm-2">
 					<p style="background-color:#f04e55;">
-						<span class="vert-align">coral #f04e55</span>
+						<span class="vert-align">coral <i class="fa fa-heart"></i></span>
 					</p>
-				</div> -->
+				</div>
 				<!-- <div class="col-sm-2">
 					<p style="background-color:#d89aa7;">
 						<span class="vert-align">pink #d89aa7</span>
@@ -1080,17 +1223,17 @@
 				</div> -->
 				<div class="col-sm-2">
 					<p style="background-color:#6e0808;">
-						<span class="vert-align">burgundy #6E0808</span>
+						<span class="vert-align">burgundy <i class="fa fa-heart-o"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#BA6C65;">
-						<span class="vert-align">blush #BA6C65</span>
+						<span class="vert-align">blush <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#192241;">
-						<span class="vert-align">navy #192241</span>
+						<span class="vert-align">navy <i class="fa fa-heart-o"></i></span>
 					</p>
 				</div>
 				<!-- <div class="col-sm-2">
@@ -1100,22 +1243,22 @@
 				</div> -->
 				<div class="col-sm-2">
 					<p style="background-color:#aaa52d;">
-						<span class="vert-align">mustard #AAA52D</span>
+						<span class="vert-align">mustard <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#D6CFB9;">
-						<span class="vert-align">sand #D6CFB9</span>
+						<span class="vert-align">sand <i class="fa fa-heart-o"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#7ea29a;">
-						<span class="vert-align">teal #7EA29A</span>
+						<span class="vert-align">teal <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#7DB9B3;">
-						<span class="vert-align">teal2 #7DB9B3</span>
+						<span class="vert-align">teal2 <i class="fa fa-heart-o"></i></span>
 					</p>
 				</div>
 				<!--
@@ -1133,12 +1276,12 @@
 
 				<div class="col-sm-2">
 					<p style="background-color:#565894;">
-						<span class="vert-align">purple 1 #565894</span>
+						<span class="vert-align">purple 1 <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#f66a47;">
-						<span class="vert-align">orange #f66a47</span>
+						<span class="vert-align">orange <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
@@ -1170,7 +1313,7 @@
               <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li>
               <li><a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
               <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-              <li><a href="http://www.joeldombek.com/contact/"><i class="fa fa-linkedin"></i> Resume</a></li>
+              <li><a href="http://www.joeldombek.com/contact/"><i class="fa fa-file-pdf-o"></i> Resume</a></li>
             </ul>
             <p><small>&copy; Joel Dombek 2015 V4.12.08.11.47</small></p>
           </div>
@@ -1218,9 +1361,10 @@
 		</div><!-- /container -->
 
     <!-- Scripts -->
-    <script src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/js/main-1.2.13.min.js"></script>
-		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
-    <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
-
+		<script src="js/main-1.2.13.min.js"></script>
+		<script src="js/angular.min.js"></script>
+		<!-- <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+    <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script> -->
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
 
   </body>
