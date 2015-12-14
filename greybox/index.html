@@ -4,10 +4,8 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<!--
-		Design Refferences
-		http://www.ibm.com/en-us/homepage-a.html
--->
+<!-- Design Refferences -->
+<!-- http://www.ibm.com/en-us/homepage-a.html -->
 
 <html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
 	<head>
@@ -19,11 +17,6 @@
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/css/font-awesome-4_3.css">
     <link rel='shortlink' href='http://www.joeldombek.com/' />
-
-		<!--
-			BOOSTRAP CDN LINK \\ NEEDS TO HAVE OVERWRITES ADDED TO INCLUDE 3.36
-			<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
-		-->
     <!-- Top Scripts -->
 		<script src="http://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
@@ -70,8 +63,6 @@
       /*COLOR PALETTE*/
     .vert-align {position: relative;line-height:95px;/*top: 45%;transform: translateY(-50%);*/}
       #color-palette p{height:100px;text-align:center;vertical-align:middle;color:white;padding:5px;}
-      #color-palette p{border:2px solid #f4f4f4}
-      #color-palette p:hover{border:2px solid white}
       #color-palette p.fifty{height: 50px;margin: 0}
 
       .palette-teal {color: #7ea29a;}
@@ -109,7 +100,6 @@
 			input.search {padding: .55em;border-radius: 0;font-size: 14px;}
       #c_form input, #c_form textarea, #c_form select{background: none;background-color: none;border-bottom: 1px solid #545454;border-radius: 0;}
       #c_form select{appearance:none;-webkit-appearance: none; -moz-appearance: none;padding: .35em 0;}
-      /*NEEDS MOBILE WORKAROUND*/
 			#c_form select:after,#c_form .wpcf7-form-control-wrap.Chooseone:after{content:'\2261';margin-left: -12px;vertical-align: -webkit-baseline-middle;font-size: 12px;-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}/* 2195 2261 */
 			#c_form select:focus,#c_form select:active{outline: none;}
 			#c_form input[type="submit"]{border:1px solid #545454; border-radius: 25px;display: inline-block;font-family:sans-serif;height: 50px;background: none;line-height: 50px;padding: 0;font-weight: bold;}
@@ -127,8 +117,6 @@
 
 			*/
 			/*STYLE AJAX LOADER FOR SUBMIT*/
-
-      .sidebar p, .sidebar li{margin-bottom:2px;padding:24px 36px;background-color: white;}
 
 			/*READ MORE LINK STYLING*/
 			#blog-list .read-more{background: white; padding: 12px 24px; border: none;}
@@ -169,18 +157,52 @@
 			.pagination a{padding: 8px 14px;text-decoration: none;border: none;}
 			.pagination a:hover{border-bottom: 1px solid #545454; color:black;}
 			.pagination li.current a{border-bottom: 1px solid #545454;}
-<<<<<<< HEAD
 
 
 			#wrapper, #noise{position:absolute;width:100%;height:100%;overflow:hidden;}
-=======
-      @media (max-width: 767px){
-        .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"]{margin-left: -8px}
-      }
->>>>>>> origin/gh-pages
     </style>
   </head>
-  <body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
+	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
+    <!-- Navigation Section -->
+    <div id="navbar" class="navbar navbar-fixed-top" role="banner">
+			<div class="container">
+				<a class="navbar-brand" href="http://www.joeldombek.com/">JOEL<strong>DOMBEK</strong></a>
+				<nav class="navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-right" role="navigation">
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Work</a>
+							<ul class="dropdown-menu">
+								<li class=""><a href="http://www.joeldombek.com/work/">All</a></li>
+								<li class=""><a href="#">Brand</a></li>
+								<li class=""><a href="#">Web</a></li>
+								<li class=""><a href="#">Interface</a></li>
+								<li class=""><a href="#">Print</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Ideas</a>
+							<ul class="dropdown-menu">
+								<li class=""><a href="#">Quotes</a></li>
+								<li class=""><a href="http://www.joeldombek.com/ideas/inspiration/">Inspiration</a></li>
+								<li class=""><a href="http://www.joeldombek.com/blog/">Blog</a></li>
+							</ul>
+						</li>
+						<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Info</a>
+							<ul class="dropdown-menu">
+								<li class=""><a href="http://www.joeldombek.com/about/">About</a></li>
+								<li class=""><a href="#">How I Work</a></li>
+								<li class=""><a href="http://www.joeldombek.com/resume/">Resume</a></li>
+								<li class=""><a href="http://www.joeldombek.com/contact/">Contact</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+				<button type="button" class="navbar-toggle">
+					<!-- <span href="#menu" class="box-shadow-menu"></span> -->
+					<!-- <span href="#menu" class="gradient-menu"></span> -->
+					<img width="25px" height="14px" src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/navicon.png" alt="Menu">
+				</button>
+			</div>
+		</div>
+    <!-- End Navigation Section -->
 
 
     <!-- module-hero -->
@@ -207,14 +229,14 @@
 									<div class="container">
 										<p class="category">Category 1</p>
 										<h2 class="tile-title">I design integrated brand, product, and service experiences.</h2>
-										<p>Sub caption content across two lines <span class="caret"></span></p>
+										<p>Sub caption<br> content across two lines <span class="cta icon-chevron-right"></span></p>
 									</div>
 								</div>
 							</a>
 						</article>
 					</div><!-- /end item -->
 
-          <div class="item">
+					<div class="item">
 						<article class="tile tile-graphic tile-carousel tile-large">
 							<a href="/14-redesign/ideas-post.html">
 								<div class="hero-cover" style="background-image: url(img/herox2x.png);"></div>
@@ -222,28 +244,12 @@
 									<div class="container">
 										<p class="category">Category 2</p>
 										<h2 class="tile-title">Project tagline that describes simply.</h2>
-										<p>Sub caption<br> content across two lines <span class="caret"></span></p>
+										<p>Sub caption<br> content across two lines &rtrif; <!-- <span class="cta icon-chevron-right"></span>--></p>
 									</div>
 								</div>
 							</a>
 						</article>
 					</div><!-- /end item -->
-
-          <div class="item">
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
-								<div class="hero-cover" style="background-image: url(img/hero4.png);"></div>
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<div class="container">
-										<p class="category">User Experience</p>
-										<h2 class="tile-title">Deciding for the User</h2>
-										<p>When you design you are making descions for the people you plan on using it. <span class="caret"></span></p>
-									</div>
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
 
 				</div>
 				<!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -457,47 +463,6 @@
 		</div><!-- /container -->
 
 
-		<div class="module module-hero">
-			<!-- full res size -->
-			<img src="img/herox2x.png">
-			<div class="module-content palette-grey40  palette-inverse">
-					<div class="container">
-						<h1 class="module-title">Article / Sidebar</h1>
-						<p>Published: <time datetime="March 11th, 2015" pubdate="">March 11th, 2015</time></p>
-						<!-- <p class="byline"><em>Written by <a href="#">Joel</a></em><br></p> -->
-						<p class="download pull-right hidden-sm"><a href="#" target="_blank">Download PDF <i class="fa fa-file-pdf-o"></i></a></p>
-						<div class="addthis_toolbox">
-						<a class="class" href="#"><i class="fa fa-behance"></i></a>
-						<a class="class" href="#"><i class="fa fa-facebook-official"></i></a>
-						<a class="class" href="#"><i class="fa fa-twitter"></i></a>
-					</div>
-					</div>
-				</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-
-				<div class="col-sm-8 body">
-          <p>For any organization, thriving in an “adapt-or-die” world that changes at the relentless pace of technology is a continual challenge. For experience design firm, <a href="http://method.com" target="_blank"> Method</a>, it also presents a tremendous opportunity to build loyalty and adapt over time. With over 15 years of helping clients build better end-to-end customer experiences at Method, Chief Strategy Officer, Patrick Newbery, and CEO, Kevin Farnham, argue that experience design is the key building block for businesses that want to grow and innovate.</p>
-          <p>In their new book, <em>Experience Design: A Framework for Integrating Brand, Experience, and Value</em>, Newbery and Farnham build a common ground of understanding for design and business to help approach and solve these urgent and ongoing business challenges.</p>
-          <figure class="quote palette-coral">
-            <blockquote class="h2">We believe that using an approach such as experience design can redefine how business and design work together to create value in more efficient ways that also help business be more nimble and proactive in negotiating change.</blockquote>
-            <figcaption>excerpt from page 83</figcaption>
-          </figure>
-          <p>Experience design is based on using the concept behind the brand as a way to identify and define value for customers. And this becomes the purpose and intent of the business—to deliver products, services, and experiences that deliver the value that the brand represents, and reinforces the unique brand meaning. But it also means measuring that value from the customer’s perspective, and continually investigating new areas of value that are natural extensions for the brand.</p>
-          <p>Experience design provides a way for the business and the designer to both discuss objectives and options. It creates a way for business to invite design to the table earlier, and understand how design can help solve problems. And it also helps businesses rethink how they engage design partners in ways that are more likely to produce success with less risk.</p>
-          <p>In a robust and thought-provoking analysis, Newbery and Farnham provide business leaders with insight into ways to integrate brand purpose into products and service value and across the entire journey a customer has with a business. The goal is to build a strategic approach for helps business engage their customers through experiences that deliver value and strengthen the relationship between business and customer.</p>
-        </div>
-				<div class="col-sm-4 sidebar overlap-sm">
-					<p><strong>Order a copy today,</strong> start changing the world tomorrow.</p>
-					<ul class="list-unstyled">
-						<li><a href="http://www.amazon.com/Experience-Design-Framework-Integrating-Brand/dp/1118609638/" target="_blank">Buy on Amazon</a></li>
-						<li><a href="http://www.barnesandnoble.com/w/experience-design-patrick-newbery/1115192492" target="_blank">Buy on Barnes &amp; Noble</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
 
 
 
@@ -752,9 +717,6 @@
 		</div><!-- /container -->
 
 
-		<div class="container" style="height:400px;background-color:teal;display:block;postion:relative;width:auto;padding:0;">
-			<div style"" id="noise"><canvas></canvas></div>
-		</div>
 
 
 
@@ -1012,10 +974,13 @@
 					</p>
 				</div>
 				<!--
-						option #9AB5C1 #9AB5C1 #74698C #C1867B
-						option #A21232 #1A1831 #20615B #DECE9C
-						option #83AFA6 #58727F #E5E5E5 #D3A284 *
-						option #D9DAD7 #C24D2C #3E4A61 #1A2639
+						opt #9AB5C1 #9AB5C1 #74698C #C1867B
+						opt #A21232 #1A1831 #20615B #DECE9C
+						opt #83AFA6 #58727F #E5E5E5 #D3A284 *
+						opt #D9DAD7 #C24D2C #3E4A61 #1A2639
+
+
+
 				-->
 
 
@@ -1027,41 +992,21 @@
 		<div class="container">
 			<footer class="footer" itemscope="" itemtype="http://schema.org/Organization">
 				<div class="row">
-					<!--
-						USE hidden-xs TO SHOW/HIDE  .visible-xs
-						So, for extra small (xs) screens for example, the available .visible-*-* classes are: .visible-xs-block, .visible-xs-inline, and .visible-xs-inline-block.
-
-						The classes .visible-xs, .visible-sm, .visible-md, and .visible-lg also exist, but are deprecated as of v3.2.0. They are approximately equivalent to .visible-*-block, except with additional special cases for toggling <table>-related elements.
-					-->
-					<a class="footer-name col-sm-4" href="#" itemprop="name"
-						style="
-							text-decoration:none !important;
-							border:none;
-							font-size:1.25em;
-							vert-align:middle;
-							display:block;
-						">
-						JOEL<strong>DOMBEK</strong>
-						<br><br><br><br>
-					</a>
-
-					<!-- <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="logo">
-					<img src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/logo.png" style="width: auto;max-height:75px;padding: 0 25px;"></a> -->
-
+					<a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name"><!-- JOEL<strong>DOMBEK</strong> -->
+					<img src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/logo.png" style="width: auto;max-height:75px;padding: 0 25px;"></a>
           <div class="col-xs-6 col-sm-2">
           	<a href="http://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br>
             <ul class="list-unstyled">
               <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li>
               <li><a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-							<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> Instagram</a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
               <li><a href="http://www.joeldombek.com/contact/"><i class="fa fa-linkedin"></i> Resume</a></li>
             </ul>
+            <p><small>&copy; Joel Dombek 2015 V4.12.08.11.47</small></p>
           </div>
-
-          <div class="col-xs-12 col-sm-6">
+          <div class="col-xs-12 col-sm-8">
             <div class="row">
-              <div class="col-sm-12">
+              <div class="col-sm-4">
                 <address itemscope="" itemtype="http://schema.org/LocalBusiness">
                   <a href="#"><strong itemprop="name">San Francisco</strong></a><br>
                   <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
@@ -1072,9 +1017,30 @@
                   </span><br>
                   <span itemprop="telephone">+1.415.901.6300</span>
                 </address>
-								<p>&copy; Joel Dombek 2015 V4.12.08.13.40</p>
               </div>
-
+              <div class="col-sm-4">
+                <address itemscope="" itemtype="http://schema.org/LocalBusiness">
+                  <a href="#"><strong itemprop="name">New York</strong></a><br>
+                  <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">151 Lafayette Street<br>Floor 5</span><br>
+                    <span itemprop="addressLocality">New York</span>,
+                    <span itemprop="addressRegion">NYspan&gt;
+                    <span itemprop="postalCode">10013</span>
+                  </span><br>
+                  <span itemprop="telephone">+1.212.981.9499</span>
+                </span></address>
+              </div>
+              <div class="col-sm-4">
+                <address itemscope="" itemtype="http://schema.org/LocalBusiness">
+                  <a href="#"><strong itemprop="name">London</strong></a><br>
+                  <span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+                    <span itemprop="streetAddress">The Tea Building, Studio 7.01<br>56 Shoreditch High Street</span><br>
+                    <span itemprop="addressLocality">London</span>,
+                    <span itemprop="postalCode">E1 6JJ</span>
+                  </span><br>
+                  <span itemprop="telephone">+44.20.3051.7935</span>
+                </address>
+              </div>
             </div>
           </div>
         </div>
@@ -1083,12 +1049,8 @@
 
     <!-- Scripts -->
     <script src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/js/main-1.2.13.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script>
 
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/stats.js/r14/Stats.min.js"></script>
-		<script src="js/index.js"></script>
-		<script src="js/gradi.js"></script>
+
   </body>
