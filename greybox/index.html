@@ -62,12 +62,21 @@
       }
       button{background: transparent;border:none;color: white;}
 
+			/*##########################
+          CAROUSEL
+      ###########################*/
+			.carousel-control{text-shadow: 0 !important;}
+			.left.carousel-control i{margin: 3px 0 0 -8px}
+			.right.carousel-control i{margin: 3px -8px 0 0}
 
       /*##########################
           TYPOGRAPHY CHANGES
       ###########################*/
 			#featured{position: relative;}
 			#featured .featured-info{position: absolute; bottom:0;right:0;}
+			@media (max-width: 767px){
+				#featured .featured-info{position: relative;}
+      }
 			#featured h1,#featured h2,#featured h3,#featured h4,#featured h5,#featured h6{margin:.5em 0;}
 			#featured h1 a, #feaured h2 a, #featured h3 a, #featured h4 a, #featured h5 a{color: #3F3F3F;border: none;}
 			#featured p{letter-spacing: .005em;font-size: 12px;margin-bottom: 12px;}
@@ -87,12 +96,31 @@
 				height: 400px;
 			}
 			.stats-hero.purple{
-				/*background-image: linear-gradient(to bottom, #8385c3, #8385c3);*/
 				background-color: #8385c3;
 			}
 			.stats-hero.red{
-				/*background-image: linear-gradient(to bottom, #8385c3, #8385c3);*/
 				background-color: #EF4544;
+			}
+			.stats-hero.blush{
+				background-color: #BD473D;
+			}
+			.stats-hero.cream{
+				background-color: #F7CDC7;
+			}
+			.stats-hero.mustard{
+				background-color: #B9B445; /*aaa52d*/
+			}
+			.stats-hero.sand{
+				background-color: #D6CFB9;
+			}
+			.stats-hero.teal{
+				background-color: #7ea29a;
+			}
+			.stats-hero.navydark{
+				background-color: #37477D;
+			}
+			.stats-hero.navy{
+				background-color: #5C6FAF;
 			}
 
       /*##########################
@@ -125,6 +153,10 @@
 					}
 					.module-hero .module-overlay.palette-inverse .module-title{
 						border-bottom: 1px solid #FFFFFF;
+					}
+					/*unfinished*/
+					.module-hero .module-overlay[class*="opaque-"]{
+						color: white;
 					}
 				}
 
@@ -512,95 +544,20 @@
 		</div>
 
 		<div class="module-hero">
-			<div class="stats-hero purple">
-
-			</div>
-			<div class="module-overlay">
-				<div class="container">
-					<p class="category">YEAR IN REVIEW</p>
-					<p class="module-title">The numbers won't tell the whole story but will offer some insight.</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="module-hero">
-			<div class="stats-hero red">
-
-			</div>
-			<div class="module-overlay">
-				<div class="container">
-					<p class="category">QUOTES / INSIGHT NO: 103</p>
-					<p class="module-title">If today feels like yesterday, somethings wrong.</p>
-				</div>
-			</div>
-		</div>
-
-		<!-- QUOTES CAROUSEL START -->
-		<!-- <div class="module-hero">
-			<div class="carousel slide" id="quote-carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#quote-carousel" data-slide-to="1"></li>
-					<li data-target="#quote-carousel" data-slide-to="2"></li>
-				</ol>
-				<div class="carousel-inner">
-
-					<div class="item active">
-						<div class="stats-hero red"></div>
-						<div class="module-overlay">
-							<div class="container">
-								<p class="category">QUOTES / INSIGHT NO: 106</p>
-								<p class="module-title"><s>Good</s>. <s>Better</s>. <u>Best</u>.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="stats-hero red"></div>
-						<div class="module-overlay">
-							<div class="container">
-								<p class="category">QUOTES / INSIGHT NO: 104</p>
-								<p class="module-title">If today feels like yesterday, somethings wrong.</p>
-							</div>
-						</div>
-					</div>
-
-					<div class="item">
-						<div class="stats-hero red"></div>
-						<div class="module-overlay">
-							<div class="container">
-								<p class="category">QUOTES / INSIGHT NO: 105</p>
-								<p class="module-title">Give a shit.</p>
-							</div>
-						</div>
-					</div>
-
-					<a class="left carousel-control" href="#quote-carousel" role="button" data-slide="prev">
-						<i class="fa fa-angle-left"></i>
-	          <span class="sr-only">Prev</span>
-					</a>
-					<a class="right carousel-control" href="#quote-carousel" role="button" data-slide="next">
-						<i class="fa fa-angle-right"></i>
-						<span class="sr-only">Next</span>
-					</a>
-				</div>
-			</div>
-		</div> -->
-		<!-- QUOTES CAROUSEL END -->
-
-
-		<div class="module-hero">
 			<div id="carousel-quotes" class="carousel slide" data-ride="carousel">
 			      <!-- Indicators -->
 			      <ol class="carousel-indicators">
-			        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+			        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 			        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-			        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+							<li data-target="#myCarousel" data-slide-to="2" class=""></li>
+							<li data-target="#myCarousel" data-slide-to="3" class=""></li>
+							<li data-target="#myCarousel" data-slide-to="4" class=""></li>
+							<li data-target="#myCarousel" data-slide-to="5" class=""></li>
 			      </ol>
 			      <div class="carousel-inner" role="listbox">
 
 							<div class="item active">
-								<div class="stats-hero red"></div>
+								<div class="stats-hero navy2"></div>
 								<div class="module-overlay">
 									<div class="container">
 										<p class="category">QUOTES / INSIGHT NO: 106</p>
@@ -610,7 +567,7 @@
 							</div>
 
 			        <div class="item">
-								<div class="stats-hero red"></div>
+								<div class="stats-hero blush"></div>
 								<div class="module-overlay">
 									<div class="container">
 										<p class="category">QUOTES / INSIGHT NO: 104</p>
@@ -619,8 +576,8 @@
 								</div>
 			        </div>
 
-			        <div class="item">
-								<div class="stats-hero red"></div>
+							<div class="item">
+								<div class="stats-hero purple"></div>
 								<div class="module-overlay">
 									<div class="container">
 										<p class="category">QUOTES / INSIGHT NO: 105</p>
@@ -628,6 +585,37 @@
 									</div>
 								</div>
 			        </div>
+
+							<div class="item">
+								<div class="stats-hero teal"></div>
+								<div class="module-overlay">
+									<div class="container">
+										<p class="category">QUOTES / INSIGHT NO: 107</p>
+										<p class="module-title">Delight your fucking audience.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="stats-hero mustard"></div>
+								<div class="module-overlay">
+									<div class="container">
+										<p class="category">QUOTES / INSIGHT NO: 108</p>
+										<p class="module-title">Punch anyone right in the mouth if they tell you you can't.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="stats-hero cream"></div>
+								<div class="module-overlay">
+									<div class="container">
+										<p class="category">QUOTES / INSIGHT NO: 109</p>
+										<p class="module-title">Punch anyone right in the mouth if they tell you you can't.</p>
+									</div>
+								</div>
+							</div>
+
 			      </div>
 			      <a class="left carousel-control" href="#carousel-quotes" role="button" data-slide="prev">
 							<i class="fa fa-angle-left"></i>
@@ -1211,11 +1199,11 @@
 						<span class="vert-align">lavender <i class="fa fa-heart"></i></span>
 					</p>
 				</div>
-				<div class="col-sm-2">
+				<!-- <div class="col-sm-2">
 					<p style="background-color:#f04e55;">
 						<span class="vert-align">coral <i class="fa fa-heart"></i></span>
 					</p>
-				</div>
+				</div> -->
 				<!-- <div class="col-sm-2">
 					<p style="background-color:#d89aa7;">
 						<span class="vert-align">pink #d89aa7</span>
@@ -1228,22 +1216,22 @@
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#BA6C65;">
-						<span class="vert-align">blush <i class="fa fa-heart"></i></span>
+						<span class="vert-align">blush <i class="fa fa-star"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
-					<p style="background-color:#192241;">
-						<span class="vert-align">navy <i class="fa fa-heart-o"></i></span>
+					<p style="background-color:#37477D;">
+						<span class="vert-align">navy <i class="fa fa-star"></i></span>
 					</p>
 				</div>
-				<!-- <div class="col-sm-2">
-					<p style="background-color:#6b8c4c;">
-						<span class="vert-align">lime #6b8c4c</span>
+				<div class="col-sm-2">
+					<p style="background-color:#F7CDC7;">
+						<span class="vert-align">cream <i class="fa fa-star"></i></span>
 					</p>
-				</div> -->
+				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#aaa52d;">
-						<span class="vert-align">mustard <i class="fa fa-heart"></i></span>
+						<span class="vert-align">mustard <i class="fa fa-star"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
@@ -1253,7 +1241,7 @@
 				</div>
 				<div class="col-sm-2">
 					<p style="background-color:#7ea29a;">
-						<span class="vert-align">teal <i class="fa fa-heart"></i></span>
+						<span class="vert-align">teal <i class="fa fa-star"></i></span>
 					</p>
 				</div>
 				<div class="col-sm-2">
@@ -1266,13 +1254,7 @@
 						opt #A21232 #1A1831 #20615B #DECE9C
 						opt #83AFA6 #58727F #E5E5E5 #D3A284 *
 						opt #D9DAD7 #C24D2C #3E4A61 #1A2639
-
-
-
 				-->
-				<br>
-				<hr>
-				<br>
 
 				<div class="col-sm-2">
 					<p style="background-color:#565894;">
