@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+
+<body>
+<div data-ng-controller="SimpleController">
+Name:
+</br>
+<input type="text" data-ng-model="name" >
+</br>
+<ul>
+<li data-ng-repeat="stud in studenti | filter:name | orderBy:'city'">
+{{ stud.name | uppercase }} - {{ stud.city | lowercase }}
+</li>
+</ul>
+</div>
+<script src="js\angular.min.js"></script>
+<script>
+	function SimpleController($scope){
+		$scope.studenti = [
+		{name:'John Doe', city:'Zagreb'},
+		{name:'Marija Doe', city:'Rijeka'},
+		{name:'Božo Doe', city:'Rijeka'}
+	];
+}
+</script>
+
+</body>
+</html>

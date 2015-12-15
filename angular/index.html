@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app>
+<html data-ng-app="">
   <head>
     <meta charset="UTF-8" />
     <title>angular.js</title>
@@ -16,13 +16,38 @@
         display: block;
         padding: 20px;
       }
+      li{
+        display: block;
+        background-color: white;
+        padding: 20px;
+      }
     </style>
   </head>
-  <body ng-init="names=['Joel D','Kyle M', 'Dan L']">
-    <div class="form">
-      Name: {{name}}<br>
-      <input type="text" ng-model="name" />
+  <body>
+    <div class="container" data-ng-controller="SimpleController">
+      <div class="form">
+        Name:
+        <br/>
+        <input type="text" data-ng-model="name" />
+        <br/>
+      </div>
+      <ul>
+        <li data-ng-repeat="cust in customers | filter:name | orderBy:'city'">
+          {{ cust.name }} - {{ cust.city }}</li>
+      </ul>
     </div>
     <script src="js/angular.min.js"></script>
+    <script>
+      function SimpleController($scope) {
+
+        $scope.customers = [
+          { name: 'Joel Dombek', city: 'Pittsburgh'},
+          { name: 'Dan Lexie', city: 'Nanticoke'},
+          { name: 'Kyle Makavensky', city: 'Glen Lyon'},
+          { name: 'Patty Paulson', city: 'New York'},
+          { name: 'Joel Dombek', city: 'Pittsburgh'}
+        ];
+      }
+    </script>
   </body>
 </html>
