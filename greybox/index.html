@@ -84,6 +84,8 @@
       h4, .h4{font-size: 1.15em !important;}
       blockquote::before {content:"“" !important;}
       blockquote::after {content:"”" !important;}
+			figcaption{color: #545454;}
+			mark{background-color: #FFFF9E; color: #545454;}
       /*DISPLAYS LIGHTER THAN NON_ITALIC*/
       /*cite{font-style: italic;}*/
 
@@ -96,36 +98,27 @@
 				width:100%;
 				height: 400px;
 			}
-			.stats-hero.purple{
-				background-color: #8385c3;
-			}
-			.stats-hero.red{
-				background-color: #EF4544;
-			}
-			.stats-hero.blush{
-				background-color: #BD473D;
-			}
-			.stats-hero.cream{
-				background-color: #F7CDC7;
-			}
-			.stats-hero.mustard{
-				background-color: #B9B445; /*aaa52d*/
-			}
-			.stats-hero.sand{
-				background-color: #D6CFB9;
-			}
-			.stats-hero.teal{
-				background-color: #7ea29a;
-			}
-			.stats-hero.navydark{
-				background-color: #37477D;
-			}
-			.stats-hero.navy{
-				background-color: #5C6FAF;
-			}
+			.stats-hero.purple{background-color: #8385c3;}
+			.stats-hero.red{background-color: #EF4544;}
+			.stats-hero.blush{background-color: #BD473D;}
+			.stats-hero.cream{background-color: #CFAAA5;}
+			.stats-hero.mustard{background-color: #B9B445; /*aaa52d*/}
+			.stats-hero.sand{background-color: #D6CFB9;}
+			.stats-hero.teal{background-color: #7ea29a;}
+			.stats-hero.navydark{background-color: #37477D;}
+			.stats-hero.navy{background-color: #5C6FAF;}
+			.stats-hero.orange{background-color: #C75134;}
+
+			.stats-hero img{max-width: 100% !important;}
 
       /*##########################
           COLOR PALETTE
+
+					opt #9AB5C1 #9AB5C1 #74698C #C1867B
+					opt #A21232 #1A1831 #20615B #DECE9C
+					opt #83AFA6 #58727F #E5E5E5 #D3A284 *
+					opt #D9DAD7 #C24D2C #3E4A61 #1A2639
+
       ###########################*/
       .vert-align {position: relative;line-height:95px;/*top: 45%;transform: translateY(-50%);*/}
       #color-palette p{height:100px; text-align:center; vertical-align:middle; color:white;padding:5px;}
@@ -141,12 +134,14 @@
         .palette-teal.palette-inverse {background-color: #7ea29a;}
       .palette-teal2 {color: #7DB9B3;}
         .palette-teal2.palette-inverse {background-color: #7DB9B3;}
-      .palette-lavender {color: #BFC3EC;}/*ACB0DD*/
+      .palette-lavender {color: #BFC3EC;}
         .palette-lavender.palette-inverse {background-color: #BFC3EC;}
       .palette-olivegrey {color: #62645c;}
         .palette-olivegrey.palette-inverse {background-color: #62645c;}
-			.palette-purple {color: #8385c3;}/*ACB0DD*/
+			.palette-purple {color: #8385c3;}
 				.palette-lavender.palette-inverse {background-color: #8385c3;}
+			.palette-orange {color: #C75134;}
+				.palette-orange.palette-inverse {background-color: #C75134;}
 
 			@media (min-width: 768px){
 					.module-hero .module-overlay .module-title{
@@ -194,12 +189,6 @@
 			@media (max-width: 767px){
 				#c_form input[type="submit"]{width: 100%;}
 			}
-			/*
-			- Set -moz-appearance to none. This will "reset" the styling of the element;
-			- Set text-indent to 0.01px. This will "push" the text a tiny bit[1] to the right;
-			- Set text-overflow to '' (an empty string). This will change anything that extends beyond the element's width to... nothing - and this includes the infamous arrow!
-
-
 
       /*##########################
           READ MORE LINK
@@ -215,7 +204,6 @@
 			.read-morev5{
 				border:1px solid #545454; border-radius: 3px;display: inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
 			.read-morev3:hover, .read-morev4:hover{color:black;border:1px solid black;}
-
 
       /*##########################
           BLOG TABS
@@ -234,14 +222,12 @@
 				.blog-list-row a.post-image-link{min-height: 10px;}
 			}
 
-
 			/*##########################
           SIDEBAR
       ###########################*/
 			.tagcloud .tag{display: inline-block; padding: 1px 2px;font-size:.85em;}
       .sidebar p strong{display: block;}
       .sidebar p, .sidebar li{margin-bottom:2px;padding:24px 36px;background-color: white;}
-
 
 			/*##########################
           PAGEINATION
@@ -273,15 +259,6 @@
 				#c_form input[type="submit"]{width: 100%;}
 			}
 			#c_form .ajax-loader{margin: -36px 0 0 20px;padding: 0;text-align: left;background: none;font-size: 1.25em;}
-			/*
-			- Set -moz-appearance to none. This will "reset" the styling of the element;
-			- Set text-indent to 0.01px. This will "push" the text a tiny bit[1] to the right;
-			- Set text-overflow to '' (an empty string). This will change anything that extends beyond the element's width to... nothing - and this includes the infamous arrow!
-			*/
-			/*STYLE AJAX LOADER FOR SUBMIT*/
-
-
-			#wrapper, #noise{position:absolute;width:100%;height:100%;overflow:hidden;}
     </style>
   </head>
 	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
@@ -519,17 +496,17 @@
 			  </aside>
 
         <p class="intro">
-          Brands are no longer definitive. They are temporal. Brands are informed by multiple voices, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.
+          Brands are no longer definitive. They are temporal. <b>Brands are informed by multiple voices</b>, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.
         </p>
 
 				<h3>Header h3</h3>
 				<p class="lead">Brands are no longer definitive. They are temporal. Brands are informed by multiple voices, and they exist in multiple mediums and through multiple contexts. The media that a brand inhabits is no longer fixed or linear, it is iterative, with no beginning, no end, and little permanency.</p>
-				<p class="lead">Adherence to a big idea and endless repetition of centralized, fixed rules can make a brand seem unresponsive, mechanized, inhuman, and out of step with its audience. But without repetition, how does a brand create consistency? And without consistency, how does a brand maintain value?</p>
+				<p class="lead">Adherence to a big idea and endless <strong>repetition of centralized</strong>, fixed rules can make a brand seem unresponsive, mechanized, inhuman, and out of step with its audience. But without repetition, how does a brand create consistency? And without consistency, how does a brand maintain value?</p>
 
         <h4>Header h4</h4>
-				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis <mark>ipsum eu, porttitor diam. Phasellus ac efficitur magna</mark>. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 				<p class="callout" style="color: #7ea29a;">Callout Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante.</p>
-				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, <u>scelerisque</u> in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, <em>sed tempor </em>risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 				<figure class="quote palette-purple">
           <blockquote class="h2">... <cite>Experience Design</cite> both brings about a new level of understanding and asserts the value of this rapidly evolving field.</blockquote>
           <figcaption><b>John Maeda</b><br>President, Rhode Island School of Design</figcaption>
@@ -614,6 +591,18 @@
 									<div class="container">
 										<p class="category">QUOTES / INSIGHT NO: 109</p>
 										<p class="module-title">If the users can't find it, the functionality isn't there.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="stats-hero orange">
+									<img src="img/ux.png"/>
+								</div>
+								<div class="module-overlay">
+									<div class="container">
+										<!-- <p class="category">QUOTES / INSIGHT NO: 109</p>
+										<p class="module-title">If the users can't find it, the functionality isn't there.</p> -->
 									</div>
 								</div>
 							</div>
@@ -990,11 +979,6 @@
 
 
 
-
-
-
-
-
 		<div class="module module-hero">
 
 			<!-- full res size -->
@@ -1110,178 +1094,50 @@
 				</div>
 		</div>
 		<div id="color-palette" class="container">
-			<div class="module row">
-				<div class="col-sm-2">
-					<p style="background-color:#f6f6f6;">
-						<span class="vert-align">grey05 #f6f6f6</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#ebebeb;">
-						<span class="vert-align">grey10 #ebebeb</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#dedede;">
-						<span class="vert-align">grey15 #dedede</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#cfcfcf;">
-						<span class="vert-align">grey20 #CFCFCF</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#acacac;">
-						<span class="vert-align">grey30 #acacac</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#999999;">
-						<span class="vert-align">grey40 #999999</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#7c7c7c;">
-						<span class="vert-align">grey50 #7C7C7C</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#6b6b6b;">
-						<span class="vert-align">grey60 #6B6B6B</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#5b5b5b;">
-						<span class="vert-align">grey70 #5B5B5B</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#474747;">
-						<span class="vert-align">grey80 #474747</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#5B5868;">
-						<span class="vert-align">bluegrey #5B5868</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#685858;">
-						<span class="vert-align">redgrey #685858</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#62645c;">
-						<span class="vert-align">olivegrey70 #62645c</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#686258;">
-						<span class="vert-align">warmgrey70 #686258</spand>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#b0aca8;">
-						<span class="vert-align">warmgrey30 <i class="fa fa-heart"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#dfd6d6;">
-						<span class="vert-align">cream <i class="fa fa-heart"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#FCEFED;">
-						<span class="vert-align">cream2 <i class="fa fa-heart"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#BFC3EC;">
-						<span class="vert-align">lavender <i class="fa fa-heart"></i></span>
-					</p>
-				</div>
-				<!-- <div class="col-sm-2">
-					<p style="background-color:#f04e55;">
-						<span class="vert-align">coral <i class="fa fa-heart"></i></span>
-					</p>
-				</div> -->
-				<!-- <div class="col-sm-2">
-					<p style="background-color:#d89aa7;">
-						<span class="vert-align">pink #d89aa7</span>
-					</p>
-				</div> -->
-				<div class="col-sm-2">
-					<p style="background-color:#6e0808;">
-						<span class="vert-align">burgundy <i class="fa fa-heart-o"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#BA6C65;">
-						<span class="vert-align">blush <i class="fa fa-star"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#37477D;">
-						<span class="vert-align">navy <i class="fa fa-star"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#F7CDC7;">
-						<span class="vert-align">cream <i class="fa fa-star"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#aaa52d;">
-						<span class="vert-align">mustard <i class="fa fa-star"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#D6CFB9;">
-						<span class="vert-align">sand <i class="fa fa-heart-o"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#7ea29a;">
-						<span class="vert-align">teal <i class="fa fa-star"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#7DB9B3;">
-						<span class="vert-align">teal2 <i class="fa fa-heart-o"></i></span>
-					</p>
-				</div>
-				<!--
-						opt #9AB5C1 #9AB5C1 #74698C #C1867B
-						opt #A21232 #1A1831 #20615B #DECE9C
-						opt #83AFA6 #58727F #E5E5E5 #D3A284 *
-						opt #D9DAD7 #C24D2C #3E4A61 #1A2639
-				-->
+			<div class="row">
+				<div class="col-sm-12"><h4><i class="fa fa-sliders"></i> Palette | Grey</h4></div>
 
-				<div class="col-sm-2">
-					<p style="background-color:#565894;">
-						<span class="vert-align">purple 1 <i class="fa fa-heart"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-color:#f66a47;">
-						<span class="vert-align">orange <i class="fa fa-heart"></i></span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-image:linear-gradient(to bottom, #565894, #8385c3);">
-						<span class="vert-align">purple grad</span>
-					</p>
-				</div>
-				<div class="col-sm-2">
-					<p style="background-image:linear-gradient(to bottom, #565894, #BFC3EC);">
-						<span class="vert-align">purple grad</span>
-					</p>
-				</div>
+				<div class="col-sm-2"><p style="background-color:#f6f6f6;"><span class="vert-align">grey05 #f6f6f6</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#ebebeb;"><span class="vert-align">grey10 #ebebeb</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#dedede;"><span class="vert-align">grey15 #dedede</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#cfcfcf;"><span class="vert-align">grey20 #CFCFCF</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#acacac;"><span class="vert-align">grey30 #acacac</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#999999;"><span class="vert-align">grey40 #999999</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#7c7c7c;"><span class="vert-align">grey50 #7C7C7C</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#6b6b6b;"><span class="vert-align">grey60 #6B6B6B</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#5b5b5b;"><span class="vert-align">grey70 #5B5B5B</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#474747;"><span class="vert-align">grey80 #474747</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#5B5868;"><span class="vert-align">bluegrey #5B5868</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#685858;"><span class="vert-align">redgrey #685858</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#62645c;"><span class="vert-align">olivegrey70 #62645c</span></p></div>
+				<div class="col-sm-2"><p style="background-color:#686258;"><span class="vert-align">warmgrey70 #686258</spand></p></div>
+				<div class="col-sm-2"><p style="background-color:#b0aca8;"><span class="vert-align">warmgrey30 <i class="fa fa-heart"></i></span></p></div>
+			</div><!-- /row -->
+			<div class="row">
+				<div class="col-sm-12"><h4><i class="fa fa-sliders"></i> Palette | Soft</h4></div>
 
+				<div class="col-sm-2"><p style="background-color:#CFAAA5;"><span class="vert-align">cream <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#FCEFED;"><span class="vert-align">cream2 <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#dfd6d6;"><span class="vert-align">cream2 <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#BFC3EC;"><span class="vert-align">lavender <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#6e0808;"><span class="vert-align">burgundy <i class="fa fa-heart-o"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#BA6C65;"><span class="vert-align">blush <i class="fa fa-star"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#37477D;"><span class="vert-align">navy <i class="fa fa-star"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#F7CDC7;"><span class="vert-align">cream <i class="fa fa-star"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#aaa52d;"><span class="vert-align">mustard <i class="fa fa-star"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#D6CFB9;"><span class="vert-align">sand <i class="fa fa-heart-o"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#7ea29a;"><span class="vert-align">teal <i class="fa fa-star"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#7DB9B3;"><span class="vert-align">teal2 <i class="fa fa-heart-o"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#565894;"><span class="vert-align">purple 1 <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#C75134;"><span class="vert-align">orange <i class="fa fa-heart"></i></span></p></div>
+			</div><!-- /row -->
+			<div class="row">
+				<div class="col-sm-12"><h4><i class="fa fa-sliders"></i> Palette | Vibrant</h4></div>
 
+				<div class="col-sm-2"><p style="background-color:#f04e55;"><span class="vert-align">coral <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#d89aa7;"><span class="vert-align">pink #d89aa7</span></p></div>
 
-			</div>
+			</div><!-- /row -->
 		</div><!-- /color-palette -->
 
 
@@ -1352,3 +1208,4 @@
 		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
 
   </body>
+</html>
