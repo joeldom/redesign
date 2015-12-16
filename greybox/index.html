@@ -14,6 +14,13 @@
 			exch coinbase: https://exchange.coinbase.com/
 			dropbox: https://www.dropbox.com/home/Resume
 			welathfront: https://www.wealthfront.com/
+
+			NOTES:
+			use SVG icons for hero sections with graphics
+			-http://webdesign.tutsplus.com/articles/manipulating-svg-icons-withsimple-css--webdesign-15694
+			-http://tutsplus.github.io/Styling-Iconic/theming/index.html
+			-Advice shuffle from GFDA jQuery https://cdn.shopify.com/s/files/1/0201/8578/t/4/assets/advice.js?13716389383775519554
+
 ////////////////////////////////////////////////////////-->
 
 <html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
@@ -33,6 +40,8 @@
 		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 
     <style type="text/css">
+
+		.carousel-indicators{top:20px;}
       /*##########################
           FEATURED
       ###########################*/
@@ -51,6 +60,7 @@
       }
       @media (max-width: 767px){
         #projects .row .col-sm-4 article{max-height: 142px;overflow: hidden}
+				.carousel-control{display: none;}
       }
       .tile-graphic.tile-medium .tile-title:hover{background: rgba(256, 256, 256, 1);color:#5f5f5f;}
       @media (max-width: 767px){
@@ -96,7 +106,8 @@
 			.stats-hero{
 				display: block;
 				width:100%;
-				height: 400px;
+				/*min-height: 400px;*/
+				position: relative;
 			}
 			.stats-hero.purple{background-color: #8385c3;}
 			.stats-hero.red{background-color: #EF4544;}
@@ -110,6 +121,40 @@
 			.stats-hero.orange{background-color: #C75134;}
 
 			.stats-hero img{max-width: 100% !important;}
+			.stats-hero .quote-wrapper{
+				width: 100%;
+				display: block;
+				padding: 0;
+				position: absolute;
+				bottom: 50px;
+			}
+			.quote-wrapper .num{
+				font-size: .9em;
+			}
+			.quote-wrapper .quote{
+				font-size: 3em;
+				font-weight: 900;
+				line-height: 1em;
+				margin:0;
+				margin-top: 0;
+				margin-bottom: 0;
+				padding-bottom: 24px;
+				border-bottom: 1px solid #545454;
+			}
+			@media screen and (min-width: 769px){
+				.quote-wrapper .quote{font-size: 3em;}
+			}
+			@media screen and (min-width: 992px){
+				.quote-wrapper .quote{font-size: 5em;}
+			}
+			#quotes .container{position: relative;min-height: 400px;}
+			@media (max-width: 767px){
+				#quotes .carousel-indicators{top:20px}
+				#quotes .carousel-control.right,#quotes .carousel-control.left{top:345px;}
+				#quotes .container{position: relative;min-height: 350px;}
+				.stats-hero .quote-wrapper{padding: 10px;}
+			}
+
 
       /*##########################
           COLOR PALETTE
@@ -317,6 +362,7 @@
 					<li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
 					<li data-target="#hero-carousel" data-slide-to="1"></li>
 					<li data-target="#hero-carousel" data-slide-to="2"></li>
+					<li data-target="#hero-carousel" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="item active">
@@ -363,6 +409,22 @@
 							</a>
 						</article>
 					</div><!-- /end item -->
+
+					<div class="item">
+						<div class="stats-hero navy">
+							<div class="container">
+								<img style="margin:110px 0;vert-align:middle;" src="img/ux.png"/>
+							</div>
+						</div>
+						<article class="tile tile-graphic tile-carousel tile-large">
+							<a href="/14-redesign/ideas-post.html">
+								<div class="tile-excerpt palette-grey20 palette-inverse">
+									<div class="container">
+									</div>
+								</div>
+							</a>
+						</article>
+					</div>
 
 				</div>
 				<a class="left carousel-control" href="#hero-carousel" role="button" data-slide="prev">
@@ -522,7 +584,7 @@
 			</div><!-- /module-article -->
 		</div>
 
-		<div class="module-hero">
+		<div id="quotes" class="module-hero">
 			<div id="carousel-quotes" class="carousel slide" data-ride="carousel">
 			      <!-- Indicators -->
 			      <ol class="carousel-indicators">
@@ -536,6 +598,29 @@
 			      <div class="carousel-inner" role="listbox">
 
 							<div class="item active">
+								<div class="stats-hero orange">
+								<div class="container">
+										<div class="quote-wrapper">
+											<div class="num">
+												Quotes No. 106
+											</div>
+											<div class="quote">
+												Computers are to design as microwaves are to cooking.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item">
+								<div class="stats-hero navy">
+									<div class="container">
+										<img style="margin:110px 0;vert-align:middle;" src="img/ux.png"/>
+									</div>
+								</div>
+							</div>
+
+							<!-- <div class="item">
 								<div class="stats-hero blush"></div>
 								<div class="module-overlay">
 									<div class="container">
@@ -601,11 +686,9 @@
 								</div>
 								<div class="module-overlay">
 									<div class="container">
-										<!-- <p class="category">QUOTES / INSIGHT NO: 109</p>
-										<p class="module-title">If the users can't find it, the functionality isn't there.</p> -->
 									</div>
 								</div>
-							</div>
+							</div> -->
 
 			      </div>
 			      <a class="left carousel-control" href="#carousel-quotes" role="button" data-slide="prev">
