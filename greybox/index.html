@@ -21,6 +21,7 @@
 			bounce exhange: http://www.bounceexchange.com/			******
 			http://google.github.io/material-design-icons/			**********
 			https://design.google.com/icons/										**********
+			https://github.com/google/code-prettify							********
 
 			NOTES:
 			use SVG icons for hero sections with graphics
@@ -120,6 +121,19 @@
 					margin-bottom: 2.5em;
 				}
 			}
+			@media (min-width: 768px){
+				.module-article pre{
+					margin-right: 41.66666666666667%;
+					margin-top: 0;
+					padding: 10px;
+					background-color: #545454;
+					color: white;
+				}
+			}
+
+			pre
+
+			/* !!! ADJUST HR !!! */
 			hr.dashed{display: block; width: 100%; border-bottom: 2px dashed #545454;}
 			mark{background-color: #FFFF9E; color: #545454;}
       /*DISPLAYS LIGHTER THAN NON_ITALIC*/
@@ -666,6 +680,18 @@
         </figure>
 				<h5>Header h5</h5>
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+
+				<h5>Pre Code</h5>
+				<pre class="prettyprint lang-html">/*Column Gutters*/
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+https://github.com/google/code-prettify
+				</pre>
+
 
 			<!-- Display a comma separated list of the Post's Categories. -->
 			<!-- <p class="postmetadata">Filed under: </p> -->
@@ -1424,7 +1450,7 @@
 		<div class="module module-hero">
 			<div id="blog-section" class="module-content palette-grey40  palette-inverse">
 				<div class="container">
-					<h1 class="module-title">Known Languages &amp; Frameworks</h1>
+					<h1 class="module-title">Languages &amp; Frameworks</h1>
 					<p>Published: <time datetime="January 5th, 2016" pubdate="">January 5th, 2016</time></p>
 					<!-- <p class="byline"><em>Written by <a href="#">Joel</a></em><br></p> -->
 					<p class="download pull-right hidden-sm"><a href="#" target="_blank">Download PDF <i class="fa fa-file-pdf-o"></i></a></p>
@@ -1746,6 +1772,7 @@
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script> -->
 		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 		<script>
 			/*
 			 * Replace all SVG images with inline SVG
