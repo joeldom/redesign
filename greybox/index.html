@@ -56,6 +56,8 @@
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
 		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
 
+		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst&amp;lang=css" defer="defer"></script>
+
     <style type="text/css">
 
 		.carousel-indicators{top:20px;}
@@ -124,16 +126,15 @@
 				}
 			}
 			@media (min-width: 768px){
-				.module-article pre{
+				.module-article pre.prettyprint{
 					margin-right: 41.66666666666667%;
 					margin-top: 0;
 					padding: 10px;
-					background-color: #545454;
-					color: white;
 				}
 			}
-
-			pre
+			pre.prettyprint{
+				border-radius: 0px !important;
+			}
 
 			/* !!! ADJUST HR !!! */
 			hr.dashed{display: block; width: 100%; border-bottom: 2px dashed #545454;}
@@ -684,7 +685,7 @@
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 
 				<h5>Pre Code</h5>
-				<pre class="prettyprint lang-html">/*Column Gutters*/
+				<pre class="prettyprint lang-css">
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
     position: relative;
     min-height: 1px;
@@ -1774,7 +1775,7 @@ https://github.com/google/code-prettify
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script> -->
 		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+		<!-- <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script> -->
 		<script>
 			/*
 			 * Replace all SVG images with inline SVG
