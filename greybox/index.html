@@ -62,10 +62,20 @@
 		/*##########################
 				NAVBAR
 		###########################*/
-		.navbar{padding: 5px 11px;}
-		.navbar-toggle{
-			padding: 5px 0 0 20px;
+		@media screen and (max-width: 767px){
+			body{padding: 54px 11px 6px;}
+			.navbar{padding: 5px 11px;}
+			.navbar-toggle{
+				padding: 5px 0 0 20px;
+			}
 		}
+		@media screen and (min-width: 768px){
+			body{
+				padding: 80px 18px 6px;
+			}
+		}
+
+		/**/
 
 		.carousel-indicators{top:20px;}
       /*##########################
