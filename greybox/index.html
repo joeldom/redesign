@@ -59,6 +59,10 @@
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=default" defer="defer"></script>
 
     <style type="text/css">
+		/*a{
+			transition: none !important;
+			-webkit-transition: none !important;
+		}*/
 		/*##########################
 				NAVBAR
 		###########################*/
@@ -69,11 +73,11 @@
 				padding: 15px 0 0 20px;
 			}
 		}
-		@media screen and (min-width: 768px){
+		/*@media screen and (min-width: 768px){
 			body{
 				padding: 80px 18px 6px;
 			}
-		}
+		}*/
 
 		/**/
 
@@ -305,7 +309,16 @@
 						color: white;
 					}
 				}
-
+			.diag{
+				background-image: url(img/diag.png);
+				background-position: left top;
+				background-repeat: repeat;
+			}
+			.dkgrid{
+				background-image: url(img/dkgrid.png);
+				background-position: left top;
+				background-repeat: repeat;
+			}
 			.module-article .author-about{background-color: white;}
 			/*##########################
           LANGUAGE & FRAMEWORKS
@@ -435,12 +448,14 @@
 			.tagcloud .tag{display: inline-block; padding: 1px 2px;font-size:.85em;color: inherit;}
       .sidebar p strong{display: block;}
       .sidebar p, .sidebar li a{
-				margin-bottom:2px;
+				/*margin-bottom:2px;*/
+				margin-bottom:0px;
 				padding:24px 36px;
 				background-color: white;
 				position: relative;
+				border-bottom: 1px dotted #d7d7d7;
 			}
-			.sidebar li a{display: block; text-decoration: none;border: none;font-weight: bold;}
+			.sidebar li a{display: block; text-decoration: none;font-weight: bold;}
 			.sidebar li a .bitcoin, .sidebar li a .amazon{
 				background-color: white;
 				border: 1px solid white;
@@ -742,6 +757,73 @@
         </div>
 		</div> -->
 
+		<!--=============================================================
+				VIDEO HERO SECTION MP4
+
+			<div class="ge-module module-video bg-black no-padding is-active" data-name="module-video" data-video-src="http://www.ge.com/digital/sites/default/files/IOT%20final_web%20overlay.mp4" ,="" data-poster="http://www.ge.com/digital/sites/default/files/styles/1280xunlimited/public/IOT.jpg" data-auto-loop="1" data-background-video="1" data-auto-play="1" data-auto-detect-scroll="0" mid="module-792" id="module-792">
+
+				<span class="mejs-offscreen">Video Player</span>
+				<div id="mep_0" class="mejs-container svg video-player ge-skin mejs-video is-active" tabindex="0" role="application" aria-label="Video Player" style="width: 1219px; height: 761px;">
+				<div class="mejs-inner">
+					<div class="mejs-mediaelement">
+
+						<video class="video-player ge-skin" width="1219" height="761" poster="http://www.ge.com/digital/sites/default/files/styles/1280xunlimited/public/IOT.jpg" id="video-player-module-792" src="http://www.ge.com/digital/sites/default/files/IOT%20final_web%20overlay.mp4" style="width: 100%; height: 100%;">
+
+						</video>
+					</div>
+					<div class="mejs-layers">
+						<div class="mejs-poster mejs-layer" style="width: 100%; height: 100%; display: none; background-image: url(&quot;http://www.ge.com/digital/sites/default/files/styles/1280xunlimited/public/IOT.jpg&quot;);">
+							<img width="100%" height="100%" alt="" src="http://www.ge.com/digital/sites/default/files/styles/1280xunlimited/public/IOT.jpg">
+						</div>
+						<div class="mejs-overlay mejs-layer" style="width: 100%; height: 100%; display: none;">
+							<div class="mejs-overlay-loading">
+							<span></span>
+						</div>
+					</div>
+					<div class="mejs-overlay mejs-layer" style="display: none; width: 100%; height: 100%;">
+						<div class="mejs-overlay-error"></div>
+					</div>
+					<div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 100%; height: 100%; display: none;">
+						<div class="mejs-overlay-button"></div>
+					</div>
+				</div>
+				<div class="mejs-controls" style="visibility: visible; display: block;">
+					<div class="mejs-button mejs-playpause-button mejs-pause">
+						<button type="button" aria-controls="mep_0" title="Pause" aria-label="Pause"></button>
+					</div>
+					<div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider" aria-label="Time Slider" aria-valuemin="0" aria-valuemax="28.416" aria-valuenow="3.932084" aria-valuetext="00:03" role="slider" tabindex="0">
+						<span class="mejs-time-buffering" style="display: none;"></span>
+						<span class="mejs-time-loaded" style="width: 0px;"></span>
+						<span class="mejs-time-current" style="width: 0px;"></span>
+						<span class="mejs-time-handle" style="left: -11px;"></span>
+						<span class="mejs-time-float">
+							<span class="mejs-time-float-current">00:00</span>
+							<span class="mejs-time-float-corner"></span>
+						</span>
+					</span>
+				</div>
+				<div class="mejs-time" role="timer" aria-live="off">
+				<span class="mejs-currenttime">00:03</span>
+			</div>
+			<div class="mejs-button mejs-volume-button mejs-mute">
+				<button type="button" aria-controls="mep_0" title="Mute Toggle" aria-label="Mute Toggle"></button>
+				<a href="javascript:void(0);" class="mejs-volume-slider">
+					<span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span>
+					<div class="mejs-volume-total"></div><div class="mejs-volume-current"></div>
+					<div class="mejs-volume-handle"></div>
+				</a>
+			</div>
+		</div>
+		<div class="mejs-clear"></div>
+	</div>
+</div>
+						<a href="#" class="close-btn small white tag-event-bind" data-tracking-key="Close video popup"></a>
+					</div>
+
+		================================================================-->
+
+
+
 		<div class="module-hero">
       <p>
         <img src="img/herox2x.png">
@@ -822,6 +904,48 @@
 
 			</div><!-- /module-article -->
 		</div>
+		<!-- RELATED SECTION START -->
+		<aside class="container">
+			<div class="module module-related row">
+				<header class="module-header col-sm-12"><h2 class="module-title h4">Related</h2></header>
+				<div class="col-sm-4">
+					<article class="tile tile-text">
+						<header class="tile-header">
+							<p><small>Branding </small></p>
+							<h3 class="tile-title"><a href="http://www.joeldombek.com/work/joel-dombek-logo/ ">My Logo</a></h3>
+						</header>
+						<div class="tile-excerpt hidden-sm">
+							<p>My Personal Logo/Identity This is my personal logo. This believe it or not took several years to develop/transition into. The […]</p>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-4">
+					<article class="tile tile-text">
+						<header class="tile-header">
+							<p><small>Branding </small></p>
+							<h3 class="tile-title"><a href="http://www.joeldombek.com/work/budget-kitchen-bath/ ">Budget Kitchen &amp; Bath</a></h3>
+						</header>
+						<div class="tile-excerpt hidden-sm">
+							<p>Budget Kitchen &amp; Bath This project was done while at Guaranteed Results Marketing. Creating both the layout, framework and branding, […]</p>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-sm-4">
+					<article class="tile tile-text">
+						<header class="tile-header">
+							<p><small>Branding </small></p>
+							<h3 class="tile-title"><a href="http://www.joeldombek.com/work/guaranteed-results-marketing/ ">Guaranteed Results Marketing</a></h3>
+						</header>
+						<div class="tile-excerpt hidden-sm">
+							<p>This is a project I was creative director on starting with the logo for a internet marketing firm. It’s goal was to create a platform for small business to leverage themselves in an online market. Through a visual redesign and implementation of a CMS (Content Management System) so that SEO (Search Engine Optimization) driven content could easily be added.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</aside>
+		<!-- RELATED SECTION END -->
 
 		<div class="module module-hero">
 			<!-- full res size -->
@@ -875,17 +999,16 @@
 					<!-- ########################################################################
 					SHOULD BREAK INTO SEPERATE COL-MD-4 SECTION TO ALLOW FOR IMAGES ALONG SIDE
 					########################################################################-->
+					<div style="width:100%;">
+						<!-- SPOTIFY RESPONSIVE PLAYER -->
+						<iframe src="https://embed.spotify.com/?uri=spotify:user:joeldombek:playlist:7ofhmgRPvpUG8Q4i81HuAT&theme=white" width="340" height="80" frameborder="0" allowtransparency="true"></iframe>
+					</div><!-- end respondify -->
 					<h4>Header h4</h4>
 					<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 					<p class="callout" style="color: #7ea29a;">Callout Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante.</p>
 					<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 					<h5>Header h5</h5>
 					<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
-
-					<div style="width:100%;">
-						<!-- SPOTIFY RESPONSIVE PLAYER -->
-						<iframe src="https://embed.spotify.com/?uri=spotify:user:joeldombek:playlist:7ofhmgRPvpUG8Q4i81HuAT&theme=white" width="340" height="80" frameborder="0" allowtransparency="true"></iframe>
-					</div><!-- end respondify -->
 				</div>
 			</div>
 
@@ -902,6 +1025,7 @@
 			</div>
 		</div><!-- /container -->
 
+		<!-- RELATED SECTION START -->
 		<aside class="container">
 			<div class="module module-related row">
 				<header class="module-header col-sm-12"><h2 class="module-title h4">Related</h2></header>
@@ -942,6 +1066,7 @@
 				</div>
 			</div>
 		</aside>
+		<!-- RELATED SECTION END -->
 
 
 		<div class="module module-hero">
@@ -1150,7 +1275,7 @@
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
-							<a class="pull-right read-morev2" href="#">Read more</a>
+							<a class="pull-right read-morev4" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
@@ -1165,7 +1290,7 @@
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
-							<a class="pull-right read-morev3" href="#">Read more</a>
+							<a class="pull-right read-morev4" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
