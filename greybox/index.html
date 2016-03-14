@@ -78,13 +78,13 @@
 		/*##########################
 				NAVBAR
 		###########################*/
-		/*@media screen and (max-width: 767px){
+		@media screen and (max-width: 767px){
 			body{padding: 68px 11px 6px;}
 			.navbar{padding: 12px 11px;}
 			.navbar-toggle{
 				padding: 15px 0 0 20px;
 			}
-		}*/
+		}
 		/*@media screen and (min-width: 768px){
 			body{
 				padding: 80px 18px 6px;
@@ -2130,9 +2130,8 @@
 		</script>
 		<script>
 			$('iframe').load( function() {
-				$('iframe').contents().find('class="main"')
-				//.append($("<style type='text/css'>  .main{border:none !important;}  </style>"));
-				.append($('class="main" style="border:none !important;"'));
+				$('iframe').contents().find("head")
+				.append($("<style type='text/css'>  .main{border:none !important;}  </style>"));
 			});
 		</script>
 		<script>
