@@ -134,6 +134,28 @@
         input.search{padding: .95em !important;}
         .form-inline .btn-primary{width: 25%;padding: .95em !important;}
       }
+			#overlay {
+				position: fixed;
+				top: 0; bottom: 0;
+				right: 0; left: 0;
+				display: none;
+				background: white;
+			}
+
+			#overlay input {
+				padding: 20px;
+				font-size: 16px;
+				border: 0;
+				margin: 40px;
+			}
+			#overlay input:focus { outline: none; }
+			#overlay #close {
+				position: absolute;
+				top: 20px;
+				right: 20px;
+				font-weight: bold;
+				/* http://jsfiddle.net/peduarte/VeRMW/?utm_source=website&utm_medium=embed&utm_campaign=VeRMW */
+			}
       button{background: transparent;border:none;color: white;}
 
 			/*##########################
@@ -1221,6 +1243,7 @@
 		<!-- BLOG MAIN SECTION -->
 		<div class="module module-hero">
 
+			<!-- THIS ISN'T ACTIVATING THE TABS -->
 			<div id="blog-section" class="module-content palette-grey40  palette-inverse">
           <div class="container">
             <h1 class="module-title">BLOG</h1>
@@ -1231,6 +1254,7 @@
 									<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
 									<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
 									<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+									<li id="search" class="pull-right"><a href="#"><i class="material-icons">search</i> Search</a></li>
 								</ul>
 								<!-- Tab panes -->
 								<div class="tab-content">
@@ -1261,17 +1285,17 @@
 								<!-- Tab panes -->
 							</div>
 
-							<div class="addthis_toolbox">
+							<!-- <div class="addthis_toolbox">
 								<form class="form-inline">
 									<div class="form-group">
 										<div class="input-group">
 											<input type="text" class="search" id="exampleInputAmount" placeholder="Amount">
 										</div>
 									</div>
-									<button type="submit" class="btn btn-primary">Search</button>
+									<button type="submit" class="btn btn-primary"><i class="material-icons">search</i>Search</button>
 								</form>
-							</div><!-- /addthis_toolbox -->
-						</div><!-- /row -->
+							</div> /addthis_toolbox
+						</div>--><!-- /row -->
 
 
 
@@ -2075,6 +2099,11 @@
 			</footer>
 		</div><!-- /container -->
 
+		<div id="overlay">
+    	<input type="text" value="Search...">
+    	<span id="close">Close</span>
+		</div>
+
     <!-- Scripts -->
 		<script src="js/main-1.2.13.min.js"></script>
 		<script src="js/angular.min.js"></script>
@@ -2208,6 +2237,25 @@
 					google.maps.event.trigger(map, "resize");
 					map.setCenter(center);
 				});
+		</script>
+
+		<script type="text/javascript">
+		//OVERLAY SEARCH
+		$(document).ready(function(){
+    	var $overlay = $('#overlay');
+    	$('#search').click(function(){
+        if ( $overlay.is(':visible') ) {
+            $overlay.fadeOut();
+        } else {
+            $overlay.fadeIn();
+        }
+    	});
+
+    	$('#close').click(function(){
+        $overlay.fadeOut();
+    	});
+
+		});
 		</script>
 
   </body>

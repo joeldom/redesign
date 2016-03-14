@@ -1,0 +1,156 @@
+//_form.scss
+address {
+  margin-bottom: 18px;
+  font-style: normal;
+  line-height: 1.2857142857142858;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 18px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #62645c;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  &[type="search"], &[type="text"], &[type="submit"], &[type="email"], textarea, select,{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  &[type="radio"], &[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+  }
+  &[type="file"] {
+    display: block;
+  }
+}
+
+select {
+  &[multiple], &[size] {
+    height: auto;
+  }
+  optgroup {
+    font-size: inherit;
+    font-style: inherit;
+    font-family: inherit;
+  }
+}
+
+input {
+  &[type="file"]:focus, &[type="radio"]:focus, &[type="checkbox"]:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+  &[type="number"] {
+    &::-webkit-outer-spin-button, &::-webkit-inner-spin-button {
+      height: auto;
+    }
+  }
+}
+.status i{
+	border: 1px solid white;
+	font-size: .5em;
+	padding: .12em;
+	vertical-align: middle;
+}
+@-webkit-keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
+}
+#c_form{
+	p{margin-bottom: 1.25em;}
+	input, textarea, select{margin: 4px 0 0 0;padding: .35em 0; color: $textcolor;}
+	.required{color: $linkhovercolor;}
+	img{width: auto;height: auto;max-height: 100%;}
+	input[type="submit"], select{
+		background: white;
+		color: $textcolor;
+		padding: 1em;
+		font-weight: 500;
+		border: none;
+		&:hover{
+			color: black;
+		}
+	}
+	input[type="submit"]{
+		width: 50%;
+		@media (max-width: 768px){width: 100%;}
+	}
+	select{
+		font-weight: 400;width: 50%;
+		@media (max-width: 768px){width: 100%;}
+	}
+	textarea{
+		width: 80%;
+		height: 150px;
+		margin: 0;
+		overflow: auto;
+		border: none;
+		outline: none;
+		color: $textcolor;
+		@media (max-width: 768px){width: 100%;}
+	}
+	.wpcf7-response-output{margin: 0;}
+	.wpcf7-not-valid-tip, .wpcf7-validation-errors{
+		border: none;
+	}
+	.wpcf7-validation-errors{
+		margin: 2em 0 0;
+		padding: 0;
+		font-weight: 500;
+		@media (max-width: 768px){
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+		}
+	}
+	span.wpcf7-not-valid-tip{
+		left:50px;
+		@media (max-width: 768px){left: 50%;}
+	}
+	.wpcf7-not-valid-tip{
+		background: white;
+		box-shadow: 5px 5px 25px rgba(0,0,0,.125);
+		-webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+    padding: .75em;
+	}
+	.ajax-loader{
+		margin: -31px 0 0 10px;
+		text-align: center; 
+		width: auto;
+		padding: 0 1em;
+		height: 16px;
+		display: block;
+		background: white;
+	}
+}
