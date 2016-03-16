@@ -26,12 +26,22 @@
 			NOTES:
 			use SVG icons for hero sections with graphics
 			-http://webdesign.tutsplus.com/articles/manipulating-svg-icons-withsimple-css--webdesign-15694
-			-http://tutsplus.github.io/Styling-Iconic/theming/index.html
-			-Advice shuffle from GFDA jQuery https://cdn.shopify.com/s/files/1/0201/8578/t/4/assets/advice.js?13716389383775519554
-			-SVG icons need sized and framed properly in Language-Icon section
-			-downloading and using strict image SVg files is easier to scale and would work better for 3rd party icons
-			-https://sarasoueidan.com/blog/svg-coordinate-systems/
+			- http://webdesign.tutsplus.com/articles/manipulating-svg-icons-withsimple-css--webdesign-15694
+			- http://tutsplus.github.io/Styling-Iconic/theming/index.html
+			- Advice shuffle from GFDA jQuery https://cdn.shopify.com/s/files/1/0201/8578/t/4/assets/advice.js?13716389383775519554
+			- SVG icons need sized and framed properly in Language-Icon section
+			- downloading and using strict image SVG files is easier to scale and would work better for 3rd party icons
+			- https://sarasoueidan.com/blog/svg-coordinate-systems/
 
+			TO DO:
+			[ ] Isotope & Lazy loading <div>'s content - JSFiddle Lazyload & Isotope http://jsfiddle.net/arthurc/ZnEhn/
+			[ ] Video Player in Hero Module - GE has a nice codebase
+			[/] Resume / Career Timeline (Kickstarter) - http://kck.st/23LAfo7 > http://joeldom.github.io/redesign/timeline/
+			[ ] Custom Shortlink URL - Share Better - http://bit.ly/1LxtklZ
+			[X] Responsive Spotify Player
+			[/] Sticky sidebar for blog related posts
+			[X] SVG logos for Languages/Applications sections > Resume/Experience
+			[ ] Twitter Feed and Share Options
 ////////////////////////////////////////////////////////-->
 
 <html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
@@ -59,6 +69,9 @@
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=default" defer="defer"></script>
 
     <style type="text/css">
+		body{
+			background-color: #f6f6f6;
+		}
 		/*a{
 			transition: none !important;
 			-webkit-transition: none !important;
@@ -66,21 +79,19 @@
 		/*##########################
 				NAVBAR
 		###########################*/
-		@media screen and (max-width: 767px){
+		/*@media screen and (max-width: 767px){
 			body{padding: 68px 11px 6px;}
 			.navbar{padding: 12px 11px;}
 			.navbar-toggle{
 				padding: 15px 0 0 20px;
 			}
-		}
+		}*/
 		/*@media screen and (min-width: 768px){
 			body{
 				padding: 80px 18px 6px;
 			}
 		}*/
-
 		/**/
-
 		.carousel-indicators{top:20px;}
       /*##########################
           FEATURED
@@ -110,7 +121,6 @@
 					position: absolute;
 					bottom: 10px;
 				}
-
         #projects .row .col-sm-4 article{max-height: 142px;overflow: hidden}
 				.carousel-control{display: none;}
       }
@@ -122,37 +132,13 @@
         input.search{padding: .95em !important;}
         .form-inline .btn-primary{width: 25%;padding: .95em !important;}
       }
-			#overlay {
-				position: fixed;
-				top: 0; bottom: 0;
-				right: 0; left: 0;
-				display: none;
-				background: white;
-			}
-
-			#overlay input {
-				padding: 20px;
-				font-size: 16px;
-				border: 0;
-				margin: 40px;
-			}
-			#overlay input:focus { outline: none; }
-			#overlay #close {
-				position: absolute;
-				top: 20px;
-				right: 20px;
-				font-weight: bold;
-				/* http://jsfiddle.net/peduarte/VeRMW/?utm_source=website&utm_medium=embed&utm_campaign=VeRMW */
-			}
       button{background: transparent;border:none;color: white;}
-
 			/*##########################
           CAROUSEL
       ###########################*/
 			.carousel-control{text-shadow: 0 !important;}
 			.left.carousel-control i{margin: 3px 0 0 -8px}
 			.right.carousel-control i{margin: 3px -8px 0 0}
-
       /*##########################
           TYPOGRAPHY CHANGES
       ###########################*/
@@ -195,7 +181,6 @@
 					overflow-x: auto;
 				}
 			}
-
 			/* !!! ADJUST HR !!! */
 			hr.dashed{display: block; width: 100%; border-bottom: 2px dashed #545454;}
 			mark{background-color: #FFFF9E; color: #545454;}
@@ -210,12 +195,9 @@
 				top: .25em;
 				width: 24px;
 			}
-
-
 			/*##########################
           STATS & REVIEW
       ###########################*/
-
 			/*http://jsfiddle.net/wuSF7/462/*/
 			.svg-fontend path {fill: #5C6FAF !imporant;}
 			@media (min-width: 768px){
@@ -249,7 +231,6 @@
 			.stats-hero.orange{background-color: #C75134;}
 			.stats-hero.grey90{background-color: #353535;}
 			.stats-hero.passion{background-color: #D2595E;}
-
 			.stats-hero img{max-width: 100% !important;}
 			.stats-hero .quote-inner{
 				width: 100%;
@@ -285,16 +266,12 @@
 				#quotes .container{position: relative;min-height: 350px;}
 				.stats-hero .quote-inner{padding: 10px;}
 			}
-
-
       /*##########################
           COLOR PALETTE
-
 					opt #9AB5C1 #9AB5C1 #74698C #C1867B
 					opt #A21232 #1A1831 #20615B #DECE9C
 					opt #83AFA6 #58727F #E5E5E5 #D3A284 *
 					opt #D9DAD7 #C24D2C #3E4A61 #1A2639
-
       ###########################*/
       .vert-align {position: relative;line-height:95px;/*top: 45%;transform: translateY(-50%);*/}
       #color-palette p{height:100px; text-align:center; vertical-align:middle; color:white;padding:5px;}
@@ -305,7 +282,6 @@
       #color-palette p{height:100px;text-align:center;vertical-align:middle;color:white;padding:5px;}
       #color-palette p.fifty{height: 50px;margin: 0}
       .module-title p{color: #62645c; text-shadow: none;}
-
       .palette-teal {color: #7ea29a;}
         .palette-teal.palette-inverse {background-color: #7ea29a;}
       .palette-teal2 {color: #7DB9B3;}
@@ -318,7 +294,6 @@
 				.palette-lavender.palette-inverse {background-color: #8385c3;}
 			.palette-orange {color: #C75134;}
 				.palette-orange.palette-inverse {background-color: #C75134;}
-
 			@media (min-width: 768px){
 					.module-hero .module-overlay .module-title{
 						border-bottom: 1px solid #545454;
@@ -351,7 +326,6 @@
 			}
 			#language-icon .icon{font-size: 5em;height: 100px;line-height: 100px;}
 			#language-icon .name{}
-
       /*##########################
           BLOG SECTION
       ###########################*/
@@ -368,8 +342,6 @@
 			.blog-list-row [class*="col-"]:first-child{padding-left: 0;}
 			.blog-list-row [class*="col-"] .pull-right{margin-bottom: 15px;}
 			/*resolve arrow in hero sizing*/
-
-
 			#c_form p{margin-bottom: 2.5em;}
 			#c_form input{color: #545454;}
 			.form-inline .btn-primary{margin-left: -5px;padding:.55em;vertical-align: baseline;border-left: 1px solid #eee;background-color: white;color:#545454;}
@@ -388,14 +360,13 @@
 			}
 
 			/*##########################
-<<<<<<< HEAD
 					SPOTIFY PLAYER
 			###########################*/
-			#container > div.main, #spotify .main{border: none !important;}
+
+			container > div.main, .spotify .main, .spotify *{border: none !important;}
+			.theme-white #container .main, {border:none !important;}
 
 			/*##########################
-=======
->>>>>>> parent of b4ce392... +
 					SOCIAL BELOW
 			###########################*/
 			.social:before{
@@ -438,7 +409,6 @@
 				display: inline-block;
 				color: white;
 			}
-
       /*##########################
           READ MORE LINK
       ###########################*/
@@ -454,7 +424,6 @@
 				border:1px solid #545454; border-radius: 3px;display: inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
 			.read-morev3:hover{color:black;border:1px solid black;}
 			.read-morev4:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
-
       /*##########################
           BLOG TABS
       ###########################*/
@@ -465,13 +434,11 @@
 			#blog-section .nav-tabs > li > a{background-color: none !important; background: none;}
 			#blog-section .nav-tabs > li > a:hover, #blog-section .nav-tabs > li > a:focus,
 			#blog-section .nav-tabs > li.active > a:hover, #blog-section .nav-tabs > li.active > a:focus {border: none; border-bottom: 4px solid white;}
-
 			/*BLOG LIST POSTS*/
 			.blog-list-row a.post-image-link{min-height: 228px;display: block;border: none;}
 			@media (max-width: 991px){
 				.blog-list-row a.post-image-link{min-height: 10px;}
 			}
-
 			/*##########################
           SIDEBAR
       ###########################*/
@@ -520,7 +487,6 @@
 				-webkit-transform: rotate(7deg);
 				transform: rotate(7deg);
 			}*/
-
 			/*##########################
           PAGEINATION
       ###########################*/
@@ -532,7 +498,6 @@
       @media (max-width: 767px){
         .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"]{margin-left: -8px}
       }
-
       /*##########################
           FORM
       ###########################*/
@@ -552,6 +517,40 @@
 				#c_form input[type="submit"]{width: 100%;}
 			}
 			#c_form .ajax-loader{margin: -36px 0 0 20px;padding: 0;text-align: left;background: none;font-size: 1.25em;}
+
+			/*##########################
+          Overlay Search
+      ###########################*/
+			#overlay-search {
+				position: fixed;
+				top: 0; bottom: 0;
+				right: 0; left: 0;
+				display: none;
+				background: rgba(255,255,255,.95);
+				z-index: 9999;
+			}
+			#overlay-search input {
+				padding: 20px;
+				font-size: 6em;
+				font-weight: 900;
+				border: 0;
+				margin: 40px;
+			}
+			#overlay-search input:focus { outline: none; }
+			#overlay-search .searchHint{
+				position: absolute;
+				top:20px; left:20px;
+				margin: 0 0 0 40px;
+				color: #c3c3c3;
+				vertical-align: top;
+			}
+			#overlay-search #close {
+				position: absolute;
+				top: 20px;
+				right: 20px;
+				font-weight: bold;
+				cursor: pointer;
+			}
     </style>
   </head>
 	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
@@ -789,16 +788,12 @@
 
 		<!--=============================================================
 				VIDEO HERO SECTION MP4
-
 			<div class="ge-module module-video bg-black no-padding is-active" data-name="module-video" data-video-src="http://www.ge.com/digital/sites/default/files/IOT%20final_web%20overlay.mp4" ,="" data-poster="http://www.ge.com/digital/sites/default/files/styles/1280xunlimited/public/IOT.jpg" data-auto-loop="1" data-background-video="1" data-auto-play="1" data-auto-detect-scroll="0" mid="module-792" id="module-792">
-
 				<span class="mejs-offscreen">Video Player</span>
 				<div id="mep_0" class="mejs-container svg video-player ge-skin mejs-video is-active" tabindex="0" role="application" aria-label="Video Player" style="width: 1219px; height: 761px;">
 				<div class="mejs-inner">
 					<div class="mejs-mediaelement">
-
 						<video class="video-player ge-skin" width="1219" height="761" poster="http://www.ge.com/digital/sites/default/files/styles/1280xunlimited/public/IOT.jpg" id="video-player-module-792" src="http://www.ge.com/digital/sites/default/files/IOT%20final_web%20overlay.mp4" style="width: 100%; height: 100%;">
-
 						</video>
 					</div>
 					<div class="mejs-layers">
@@ -849,7 +844,6 @@
 </div>
 						<a href="#" class="close-btn small white tag-event-bind" data-tracking-key="Close video popup"></a>
 					</div>
-
 		================================================================-->
 
 
@@ -1029,8 +1023,7 @@
 					<!-- ########################################################################
 					SHOULD BREAK INTO SEPERATE COL-MD-4 SECTION TO ALLOW FOR IMAGES ALONG SIDE
 					########################################################################-->
-
-					<div #spotify style="width:100%;">
+					<div class="spotify" style="width:100%;">
 						<!-- SPOTIFY RESPONSIVE PLAYER -->
 						<iframe src="https://embed.spotify.com/?uri=spotify:user:joeldombek:playlist:7ofhmgRPvpUG8Q4i81HuAT&theme=white" width="340" height="80" frameborder="0" allowtransparency="true"></iframe>
 					</div><!-- end respondify -->
@@ -1044,14 +1037,13 @@
 			</div>
 
 			<!-- <div class="col-md-8 col-md-offset-4">
-
 			</div> -->
 
 			<div class="module-hero">
 				<img src="img/tilex2x.png"/>
 				<div class="module-overlay palette-grey40  palette-inverse">
 					<h4>Header h4</h4>
-					<p>Normal Paragraph over and image with filler. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa.</p>
+					<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
 				</div>
 			</div>
 		</div><!-- /container -->
@@ -1233,18 +1225,16 @@
 		<!-- BLOG MAIN SECTION -->
 		<div class="module module-hero">
 
-			<!-- THIS ISN'T ACTIVATING THE TABS -->
 			<div id="blog-section" class="module-content palette-grey40  palette-inverse">
           <div class="container">
             <h1 class="module-title">BLOG</h1>
 						<div class="row">
-							<div class="col-xs-12">
+							<div class="col-xs-10">
 								<ul class="nav nav-tabs" role="tablist">
 									<li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Main</a></li>
 									<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
 									<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
 									<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-									<li id="search" class="pull-right"><a href="#"><i class="material-icons">search</i> Search</a></li>
 								</ul>
 								<!-- Tab panes -->
 								<div class="tab-content">
@@ -1275,6 +1265,10 @@
 								<!-- Tab panes -->
 							</div>
 
+							<div class="col-xs-2">
+								<a id="search" href="#"><i class="material-icons">search</i> Search</a>
+							</div>
+
 							<!-- <div class="addthis_toolbox">
 								<form class="form-inline">
 									<div class="form-group">
@@ -1282,10 +1276,11 @@
 											<input type="text" class="search" id="exampleInputAmount" placeholder="Amount">
 										</div>
 									</div>
-									<button type="submit" class="btn btn-primary"><i class="material-icons">search</i>Search</button>
+									<button type="submit" class="btn btn-primary">Search</button>
 								</form>
-							</div> /addthis_toolbox
-						</div>--><!-- /row -->
+							</div> -->
+							<!-- /addthis_toolbox -->
+						</div><!-- /row -->
 
 
 
@@ -1307,7 +1302,7 @@
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
-							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
 							<a class="pull-right read-morev4" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
@@ -1322,7 +1317,7 @@
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
-							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
 							<a class="pull-right read-morev4" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
@@ -1337,7 +1332,7 @@
 							<small>Catagory 1</small>
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
-							<p>Excpert of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+							<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
 							<a class="pull-right read-morev4" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
@@ -2089,9 +2084,12 @@
 			</footer>
 		</div><!-- /container -->
 
-		<div id="overlay">
-    	<input type="text" value="Search...">
-    	<span id="close">Close</span>
+		<!-- Search Overlay -->
+		<div id="overlay-search">
+    	<input name="Search" type="text" onfocus="if(this.value == 'value') { this.value = ''; }" value="Search" />
+			<p></p>
+			<div class="searchHint">Search anytime by typing</div>
+    	<span id="close"><a href="#blog-section" style="text-decoration:none;"><i class="material-icons">clear</i> Close</a></span>
 		</div>
 
     <!-- Scripts -->
@@ -2110,7 +2108,6 @@
 				$(this).attr('src',$(this).attr('src'));
 			});
 			}
-
 			$(document).ready(function(){
 			respondify();
 			});
@@ -2127,11 +2124,9 @@
 				var imgID = $img.attr('id');
 				var imgClass = $img.attr('class');
 				var imgURL = $img.attr('src');
-
 				jQuery.get(imgURL, function(data) {
 						// Get the SVG tag, ignore the rest
 						var $svg = jQuery(data).find('svg');
-
 						// Add replaced image's ID to the new SVG
 						if(typeof imgID !== 'undefined') {
 								$svg = $svg.attr('id', imgID);
@@ -2140,21 +2135,22 @@
 						if(typeof imgClass !== 'undefined') {
 								$svg = $svg.attr('class', imgClass+' replaced-svg');
 						}
-
 						// Remove any invalid XML tags as per http://validator.w3.org
 						$svg = $svg.removeAttr('xmlns:a');
-
 						// Check if the viewport is set, if the viewport is not set the SVG wont't scale.
 						if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
 								$svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
 						}
-
 						// Replace image with new SVG
 						$img.replaceWith($svg);
-
 				}, 'xml');
-
 			});
+		</script>
+		<script>
+			$('iframe').contents().find('class="main"')
+				//.append($("<style type='text/css'>  .main{border:none !important;}  </style>"));
+				.append($('class="main" style="border:none !important;"'));
+				});
 		</script>
 		<!-- GOOGLE MAPS CUSTOM SCRIPT -->
 		<script type="text/javascript">
@@ -2178,7 +2174,6 @@
 					{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#d6d6d6"}]},
 					{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{},
 					{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#dadada"}]}]
-
 				var varLatLng = '40.4397, -79.9764';
 				var myOptions = {
 					zoom:14,
@@ -2198,7 +2193,6 @@
 				};
 				map = new google.maps.Map(document.getElementById("map-jd"), myOptions);
 				map.setOptions({styles: stylesArray});
-
 				var pinLocation = new google.maps.LatLng(40.441415, -79.997022);
 				var marker = new google.maps.Marker({
 					map: map,
@@ -2220,11 +2214,10 @@
 					map.setCenter(center);
 				});
 		</script>
-
 		<script type="text/javascript">
 		//OVERLAY SEARCH
 		$(document).ready(function(){
-    	var $overlay = $('#overlay');
+    	var $overlay = $('#overlay-search');
     	$('#search').click(function(){
         if ( $overlay.is(':visible') ) {
             $overlay.fadeOut();
@@ -2232,13 +2225,70 @@
             $overlay.fadeIn();
         }
     	});
-
     	$('#close').click(function(){
         $overlay.fadeOut();
     	});
+		});
+		</script>
 
+		<script type="text/javascript">
+		//focus search input
+		$(document).on('keydown', function(){
+			var input = $('input[name="Search"]');
+			if(!input.is(':focus')) {
+				input.focus();
+			}
+		});
+		</script>
+		<script>
+			//Element State Change for Inputs
+			// Compare the textbox's current and last value.  Report a change to the console.
+function watchTextbox() {
+  var txtInput = $('#Search');
+  var lastValue = txtInput.data('lastValue');
+  var currentValue = txtInput.val();
+  if (lastValue != currentValue) {
+    console.log('Value changed from ' + lastValue + ' to ' + currentValue);
+    txtInput.data('lastValue', currentValue);
+  }
+}
+
+// Record the initial value of the textbox.
+$('#Search').data('lastValue', $('#Search').val());
+
+// Bind to the keypress and user-defined set event.
+$('#Search').bind('keypress set', null, watchTextbox);
+
+// Example of JS code triggering the user event
+$('#btnSetText').click(function (ev) {
+  $('#Search').val('abc def').trigger('set');
+}); 100);
+
+		</script>
+		<script>
+		$.event.special.inputchange = {
+		    setup: function() {
+		        var self = this, val;
+		        $.data(this, 'timer', window.setInterval(function() {
+		            val = self.value;
+		            if ( $.data( self, 'cache') != val ) {
+		                $.data( self, 'cache', val );
+		                $( self ).trigger( 'inputchange' );
+		            }
+		        }, 20));
+		    },
+		    teardown: function() {
+		        window.clearInterval( $.data(this, 'timer') );
+		    },
+		    add: function() {
+		        $.data(this, 'cache', this.value);
+		    }
+		};
+
+		$('#Search').on('inputchange', function() {
+		    $('p').text(this.value);
 		});
 		</script>
 
   </body>
-</html>
+</html>«»
