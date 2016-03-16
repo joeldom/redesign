@@ -413,17 +413,9 @@
           READ MORE LINK
       ###########################*/
 			/*READ MORE LINK STYLING*/
-			#blog-list .read-more{background: white; padding: 12px 24px; border: none;}
-			#blog-list .read-more:hover{color:black;}
-			.read-morev2{background-color:#fafafb;;border:1px solid #e6e6e8;border-radius:18px;color:black;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
-			.read-morev3{
-				border:1px solid #545454; border-radius: 20px;display: inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
-			.read-morev4{
+			.read-more{
 				border:1px solid #545454; border-radius: 20px;display: inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
-			.read-morev5{
-				border:1px solid #545454; border-radius: 3px;display: inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:36px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
-			.read-morev3:hover{color:black;border:1px solid black;}
-			.read-morev4:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
+			.read-more:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
       /*##########################
           BLOG TABS
       ###########################*/
@@ -530,26 +522,37 @@
 				z-index: 9999;
 			}
 			#overlay-search input {
+				background: none;
 				padding: 20px;
-				font-size: 6em;
+				font-size: 7em;
+				letter-spacing: -.035em!important;
+				white-space: pre-wrap!important;
+				word-wrap: break-word;
+				text-rendering: geometricPrecision;
 				font-weight: 900;
 				border: 0;
-				margin: 40px;
+				margin: 40px 25px 0;
 			}
 			#overlay-search input:focus { outline: none; }
 			#overlay-search .searchHint{
 				position: absolute;
-				top:20px; left:20px;
-				margin: 0 0 0 40px;
+				top:25px; left:20px;
+				margin: 0 0 0 25px;
 				color: #c3c3c3;
 				vertical-align: top;
 			}
 			#overlay-search #close {
 				position: absolute;
-				top: 20px;
-				right: 20px;
+				top: 0; right:0;
+				padding: 25px;
 				font-weight: bold;
 				cursor: pointer;
+			}
+			#search, #close a{text-decoration: none;border: none;}
+			#close i{vertical-align: middle;}
+			#overlay-results{padding: 0 50px;}
+			#overlay-results .result-readmore{
+				height: 100px;
 			}
     </style>
   </head>
@@ -585,6 +588,7 @@
 								<li class=""><a href="http://www.joeldombek.com/contact/">Contact</a></li>
 							</ul>
 						</li>
+						<li><a id="nav-search" href="#"><i class="material-icons">search</i></a></li>
 					</ul>
 				</nav>
 				<button type="button" class="navbar-toggle">
@@ -617,36 +621,6 @@
 					<div class="item active">
 						<article class="tile tile-graphic tile-carousel tile-large">
 							<a href="/14-redesign/ideas-post.html">
-								<div class="hero-cover" style="background-image: url(img/herox2x.png);"></div>
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<div class="container">
-										<p class="category">Category 1</p>
-										<h2 class="tile-title">I design integrated brand, product, and service experiences.</h2>
-										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
-									</div>
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
-					<div class="item">
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
-								<div class="hero-cover" style="background-image: url(img/herox2x.png);"></div>
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<div class="container">
-										<p class="category">Category 2</p>
-										<h2 class="tile-title">Project tagline that describes simply.</h2>
-										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
-									</div>
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
-					<div class="item">
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
 								<div class="hero-cover" style="background-image: url(img/hero4.png);"></div>
 								<div class="tile-excerpt palette-grey20 palette-inverse">
 									<div class="container">
@@ -677,7 +651,37 @@
 								</div>
 							</a>
 						</article>
-					</div>
+					</div><!-- /end item -->
+
+					<div class="item">
+						<article class="tile tile-graphic tile-carousel tile-large">
+							<a href="/14-redesign/ideas-post.html">
+								<div class="hero-cover" style="background-image: url(img/herox2x.png);"></div>
+								<div class="tile-excerpt palette-grey20 palette-inverse">
+									<div class="container">
+										<p class="category">Category 2</p>
+										<h2 class="tile-title">Project tagline that describes simply.</h2>
+										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
+									</div>
+								</div>
+							</a>
+						</article>
+					</div><!-- /end item -->
+
+					<div class="item">
+						<article class="tile tile-graphic tile-carousel tile-large">
+							<a href="/14-redesign/ideas-post.html">
+								<div class="hero-cover" style="background-image: url(img/herox2x.png);"></div>
+								<div class="tile-excerpt palette-grey20 palette-inverse">
+									<div class="container">
+										<p class="category">Category 1</p>
+										<h2 class="tile-title">I design integrated brand, product, and service experiences.</h2>
+										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
+									</div>
+								</div>
+							</a>
+						</article>
+					</div><!-- /end item -->
 
 				</div>
 				<a class="left carousel-control" href="#hero-carousel" role="button" data-slide="prev">
@@ -1303,7 +1307,7 @@
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
-							<a class="pull-right read-morev4" href="#">Read more</a>
+							<a class="pull-right read-more" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
@@ -1318,7 +1322,7 @@
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
-							<a class="pull-right read-morev4" href="#">Read more</a>
+							<a class="pull-right read-more" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
@@ -1333,7 +1337,7 @@
 							<h4>Header 4</h4>
 							<small>Date: 00 / 00 / 000</small>
 							<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
-							<a class="pull-right read-morev4" href="#">Read more</a>
+							<a class="pull-right read-more" href="#">Read more</a>
 						</div><!-- /col-md-6 -->
 					</div><!-- /row -->
 
@@ -1728,6 +1732,7 @@
 				<div class="col-sm-2"><p style="background-color:#686258;"><span class="vert-align">warmgrey70 #686258</spand></p></div>
 				<div class="col-sm-2"><p style="background-color:#b0aca8;"><span class="vert-align">warmgrey30 <i class="fa fa-heart"></i></span></p></div>
 			</div><!-- /row -->
+
 			<div class="row">
 				<div class="col-sm-12"><h4><i class="fa fa-sliders"></i> Palette | Soft</h4></div>
 
@@ -1744,6 +1749,8 @@
 				<div class="col-sm-2"><p style="background-color:#7ea29a;"><span class="vert-align">teal <i class="fa fa-star"></i></span></p></div>
 				<div class="col-sm-2"><p style="background-color:#565894;"><span class="vert-align">purple 1 <i class="fa fa-heart"></i></span></p></div>
 				<div class="col-sm-2"><p style="background-color:#C75134;"><span class="vert-align">orange <i class="fa fa-heart"></i></span></p></div>
+				<div class="col-sm-2"><p style="background-color:#4D6974;"><span class="vert-align">steel <i class="fa fa-heart"></i></span></p></div>
+
 			</div><!-- /row -->
 			<div class="row">
 				<div class="col-sm-12"><h4><i class="fa fa-sliders"></i> Palette | Vibrant</h4></div>
@@ -2090,6 +2097,39 @@
 			<p></p>
 			<div class="searchHint">Search anytime by typing</div>
     	<span id="close"><a href="#blog-section" style="text-decoration:none;"><i class="material-icons">clear</i> Close</a></span>
+			<div id="overlay-results">
+
+				<div class="row result-list-row">
+					<div class="col-xs-2">
+						<a class="post-image-link" href="#">
+							<img src="img/tilex2x.png">
+						</a>
+					</div><!-- /col-xs-2 -->
+					<div class="col-xs-8">
+						<h4>Header 4</h4>
+						<small>Date: 00 / 00 / 000</small>
+						<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+					</div><!-- /col-xs-6 -->
+					<div class="col-xs-2 result-readmore">
+						<a class="read-more" href="#">Read more</a>
+					</div>
+				</div><!-- result-list-row -->
+
+				<div class="row result-list-row">
+					<div class="col-xs-2">
+						<a class="post-image-link" href="#">
+							<img src="img/tilex2x.png">
+						</a>
+					</div><!-- /col-xs-2 -->
+					<div class="col-xs-10">
+						<h4>Header 4</h4>
+						<small>Date: 00 / 00 / 000</small>
+						<p>Excerpt of the post. Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla.</p>
+						<a class="pull-right read-more" href="#">Read more</a>
+					</div><!-- /col-xs-6 -->
+				</div><!-- result-list-row -->
+
+			</div>
 		</div>
 
     <!-- Scripts -->
@@ -2218,7 +2258,7 @@
 		//OVERLAY SEARCH
 		$(document).ready(function(){
     	var $overlay = $('#overlay-search');
-    	$('#search').click(function(){
+    	$('#search, #nav-search').click(function(){
         if ( $overlay.is(':visible') ) {
             $overlay.fadeOut();
         } else {
