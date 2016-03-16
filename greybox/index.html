@@ -25,22 +25,12 @@
 
 			NOTES:
 			use SVG icons for hero sections with graphics
-			- http://webdesign.tutsplus.com/articles/manipulating-svg-icons-withsimple-css--webdesign-15694
-			- http://tutsplus.github.io/Styling-Iconic/theming/index.html
-			- Advice shuffle from GFDA jQuery https://cdn.shopify.com/s/files/1/0201/8578/t/4/assets/advice.js?13716389383775519554
-			- SVG icons need sized and framed properly in Language-Icon section
-			- downloading and using strict image SVG files is easier to scale and would work better for 3rd party icons
-			- https://sarasoueidan.com/blog/svg-coordinate-systems/
-
-			TO DO:
-			[ ] Isotope & Lazy loading <div>'s content - JSFiddle Lazyload & Isotope http://jsfiddle.net/arthurc/ZnEhn/
-			[ ] Video Player in Hero Module - GE has a nice codebase
-			[/] Resume / Career Timeline (Kickstarter) - http://kck.st/23LAfo7 > http://joeldom.github.io/redesign/timeline/
-			[ ] Custom Shortlink URL - Share Better - http://bit.ly/1LxtklZ
-			[X] Responsive Spotify Player
-			[/] Sticky sidebar for blog related posts
-			[X] SVG logos for Languages/Applications sections > Resume/Experience
-			[ ] Twitter Feed and Share Options
+			-http://webdesign.tutsplus.com/articles/manipulating-svg-icons-withsimple-css--webdesign-15694
+			-http://tutsplus.github.io/Styling-Iconic/theming/index.html
+			-Advice shuffle from GFDA jQuery https://cdn.shopify.com/s/files/1/0201/8578/t/4/assets/advice.js?13716389383775519554
+			-SVG icons need sized and framed properly in Language-Icon section
+			-downloading and using strict image SVg files is easier to scale and would work better for 3rd party icons
+			-https://sarasoueidan.com/blog/svg-coordinate-systems/
 
 ////////////////////////////////////////////////////////-->
 
@@ -65,11 +55,12 @@
 		<script src="http://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
 		<script type='text/javascript' src='http://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=default" defer="defer"></script>
 
     <style type="text/css">
 		body{
-			background-color: #f6f6f6;
+			background-color: #e7e7e7;
 		}
 		/*a{
 			transition: none !important;
@@ -354,7 +345,6 @@
 				background-repeat: repeat;
 			}
 			.module-article .author-about{background-color: white;}
-
 			/*##########################
           LANGUAGE & FRAMEWORKS
       ###########################*/
@@ -401,11 +391,14 @@
 			}
 
 			/*##########################
+<<<<<<< HEAD
 					SPOTIFY PLAYER
 			###########################*/
 			#container > div.main, #spotify .main{border: none !important;}
 
 			/*##########################
+=======
+>>>>>>> parent of b4ce392... +
 					SOCIAL BELOW
 			###########################*/
 			.social:before{
@@ -2215,7 +2208,6 @@
 					position: pinLocation,
 					animation: google.maps.Animation.DROP,
 					icon: {
-						//THIS NEEDS UPDATED
 						url: "http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/map-pin.png",
 						scaledSize: new google.maps.Size(30, 46) // pixels
 					}
