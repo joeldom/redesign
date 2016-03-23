@@ -199,10 +199,32 @@
 				width: 24px;
 			}
 			@media (min-width: 768px){
-				.module-article > .well, .module-article .panel, .module-article .embed-responsive{margin-right: 42.666667%;padding-right: 8px}
+				.module-article > .well, .module-article .panel, .module-article .embed-responsive {margin-right: 42.666667%;padding-right: 8px}
+				.module-article > .newsletter-signup{margin-right: 42.666667%;}
 			}
+
 			.panel{min-height: 20px; padding: 15px;background-color: #fff;border: 1px solid transparent;box-shadow: 0 1px 1px rgba(0,0,0,.05);-webkit-box-shadow:0 1px 1px rgba(0,0,0,.05);border-radius: 1px;}
 			.well{min-height: 20px; padding: 15px;background-color: #f5f5f5;border: 1px solid #e3e3e3;box-shadow: inset 0 1px 1px rgba(0,0,0,.05);-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.05);border-radius: 1px;}
+
+			.newsletter-signup{
+				background-color: #474747;
+				color: white;
+				text-align: center;
+				min-height: 100pxp;
+				padding: 2em;
+				position: relative;
+				border-radius: 3px;
+			}
+			.newsletter-signup input{
+				height: 50px;
+			}
+			.newsletter-signup form label{
+				position: absolute;
+				top: 0;
+				left: 0;
+				margin: 17px 0 0 20px;
+				color: #545454;
+			}
 			/*##########################
           STATS & REVIEW
       ###########################*/
@@ -286,13 +308,13 @@
       #color-palette p{border:2px solid #f4f4f4}
       #color-palette p:hover{border:2px solid white}
       /*COLOR PALETTE*/
-    .vert-align {position: relative;line-height:95px;/*top: 45%;transform: translateY(-50%);*/}
+    .vert-align {position: relative;line-height:95px;/*top: 45%;transform: translateY(-50%);*/}q
       #color-palette p{height:100px;text-align:center;vertical-align:middle;color:white;padding:5px;}
       #color-palette p.fifty{height: 50px;margin: 0}
       .module-title p{color: #62645c; text-shadow: none;}
       .palette-teal {color: #7ea29a;}
         .palette-teal.palette-inverse {background-color: #7ea29a;}
-      .palette-teal2 {color: #7DB9B3;}
+      .palette-teal2 {color: #7DqqqBq9B3;}
         .palette-teal2.palette-inverse {background-color: #7DB9B3;}
       .palette-lavender {color: #BFC3EC;}
         .palette-lavender.palette-inverse {background-color: #BFC3EC;}
@@ -519,6 +541,13 @@
 			#c_form select:focus,#c_form select:active{outline: none;}
 			#c_form input[type="submit"]{border:1px solid #545454; border-radius: 25px;display: inline-block;font-family:sans-serif;height: 50px;background: none;line-height: 50px;padding: 0;font-weight: bold;}
 			#c_form input[type="submit"]:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
+
+			input[type="submit"]{border:1px solid #545454; border-radius: 25px;display: inline-block;font-family:sans-serif;height: 50px;background: none;line-height: 50px;padding: 0;font-weight: bold;}
+			input[type="submit"]:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
+
+			.palette-inverse input[type="submit"]{border:1px solid #fff; border-radius: 25px;display: inline-block;font-family:sans-serif;height: 50px;background: none;line-height: 50px;padding: 0;font-weight: bold; color: white;}
+			.palette-inverse input[type="submit"]:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
+
 			@media (min-width: 992px) {
 				#c_form input[type="submit"]{width: 200px;}
 			}
@@ -927,8 +956,29 @@
 					</div>
 				</div>
 
-				<h6>Header h5</h6>
+				<h6>Header h6</h6>
 				<p>Normal Paragraph with filler lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in elit varius, viverra nisl eget, ornare odio. Proin sit amet tellus nulla. Aliquam lacus ante, scelerisque in congue vitae, porttitor nec massa. Ut massa libero, congue ac faucibus id, interdum a ante. Praesent vel lectus varius, venenatis ipsum eu, porttitor diam. Phasellus ac efficitur magna. Duis fermentum augue velit, id pretium turpis euismod ut. Suspendisse lobortis bibendum elit, sed tempor risus dignissim faucibus. Suspendisse sed massa id nibh dictum elementum ut nec dolor. Sed id dui eget ipsum scelerisque pharetra sed ut dolor. Duis sed nisl eget tellus posuere elementum ac id massa.</p>
+
+				<div class="newsletter-signup palette-inverse">
+					<div class="newsletter-content">
+					    <h2>Design tips, tricks, and freebies. Delivered weekly.</h2>
+
+					    <p>Join over 1 million designers who get our content first.</p>
+							<form class="signup-form" data-url="https://www.invisionapp.com/api/designDisruptorsMailingList" novalidate="novalidate">
+								<div class="row">
+									<div class="col-md-8">
+										<label for="news_signup_email">Email Address...</label>
+										<input type="text" name="email" id="news_signup_email" value=""><br class="hidden-md"><br class="hidden-md">
+									</div>
+									<div class="col-md-4">
+										<input class="read-more" type="submit" name="" value="Subscribe">
+									</div>
+								</div>
+					    </form>
+
+					    <p class="footnote">Give it a try. It only takes a click to unsubscribe.</p>
+					</div>
+				</div>
 
 				<h5><i class="material-icons">code</i> Pre Code: CSS</h5>
 				<pre class="prettyprint lang-css">
