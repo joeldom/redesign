@@ -256,3 +256,16 @@ ul{
     }
   }
 }
+
+@media (min-width: 768px){
+    .module-hero .module-overlay .module-title{
+      border-bottom: 1px solid #545454;
+    }
+    .module-hero .module-overlay.palette-inverse .module-title{
+      border-bottom: 1px solid #FFFFFF;
+    }
+    /*unfinished*/
+    .module-hero .module-overlay[class*="opaque-"]{
+      color: white;
+    }
+  }

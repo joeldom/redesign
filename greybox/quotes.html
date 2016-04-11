@@ -73,6 +73,28 @@
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=default" defer="defer"></script>
 
     <style type="text/css">
+		ul#cyclelist, #shuffle {
+	font-family: 'Oswald', "News Gothic MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #545454;
+	font-weight: 900;
+	/*text-shadow: 5px 5px 0px #ddd;*/
+	text-transform: none;;
+	padding: 12px 0 0 0;
+	margin-top: -10px;
+	line-height: 1em;
+	display: block;
+	font-size: 7em;
+	width:100%;
+	position:relative;
+	overflow:visible;
+	height:300px;
+}
+		ul#cyclelist li, #shuffle .quote{
+			overflow: hidden;
+			height: 300px;
+			position: absolute;
+			opacity: 0;
+		}
 		/*a{
 			transition: none !important;
 			-webkit-transition: none !important;
@@ -307,7 +329,7 @@
       #color-palette p.fifty{height: 50px;margin: 0}
       .module-title p{color: #62645c; text-shadow: none;}
 
-			
+
 			.diag{
 				background-image: url(img/diag.png);
 				background-position: left top;
@@ -395,100 +417,40 @@
 		</div>
     <!-- End Navigation Section -->
 
+		<div id="quotes" class="module-hero">
+			<div id="carousel-quotes" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
 
-    <!-- module-hero -->
-		<div class="module-hero">
-			<header class="header-home">
-				<div class="container">
-					<h1 class="assistive-text">JoelDombek</h1>
-				</div>
-			</header>
-			<!-- BUG
-			Fix sizing jittering of hero images and text -->
-			<div class="carousel slide" id="hero-carousel">
-				<ol class="carousel-indicators">
-					<li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
-					<li data-target="#hero-carousel" data-slide-to="1"></li>
-					<li data-target="#hero-carousel" data-slide-to="2"></li>
-					<li data-target="#hero-carousel" data-slide-to="3"></li>
-				</ol>
-				<div class="carousel-inner">
 					<div class="item active">
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
-								<div class="hero-cover" style="background-image: url(img/hero4.png);"></div>
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<div class="container">
-										<p class="category">User Experience</p>
-										<h2 class="tile-title">Deciding for the User</h2>
-										<p>When you design you are making descions for the people you plan on using it. <i class="fa fa-angle-right"></i></p>
-									</div>
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
-					<div class="item">
-						<div class="stats-hero navy">
-							<div class="container">
-								<!-- <span style="display: inline-block;height: 100%;vertical-align: middle;"></span> -->
-								<div class="vert-img">
-									<img src="img/ux.png"/>
-								</div>
-								<!-- <span style="display: inline-block;height: 100%;vertical-align: middle;"></span> -->
-							</div>
-						</div>
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<div class="container">
-									</div>
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
-					<div class="item">
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
-								<div class="hero-cover" style="background-image: url(img/ello.jpg);background-position:0 200;"></div>
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<div class="container">
-										<p class="category">Post-Modern</p>
-										<h2 class="tile-title">Project tagline that describes simply.</h2>
-										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
-									</div>
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
-					<div class="item">
-						<article class="tile tile-graphic tile-carousel tile-large">
-							<a href="/14-redesign/ideas-post.html">
-								<div class="hero-cover" style="background-image: url(img/hero5.jpg);"></div>
-								<div class="tile-excerpt palette-grey20 palette-inverse">
-									<!-- <div class="container">
-										<p class="category">Category 1</p>
-										<h2 class="tile-title">I design integrated brand, product, and service experiences.</h2>
-										<p>Sub caption<br> content across two lines <i class="fa fa-angle-right"></i></p>
-									</div> -->
-								</div>
-							</a>
-						</article>
-					</div><!-- /end item -->
-
+					  <div class="stats-hero teal">
+					    <div class="container">
+					      <div class="quote-outer">
+					        <div class="quote-inner">
+					          <div class="num">Quotes No. <script>document.write(10 + 80);</script></div>
+					          <div id"shuffle">
+											<li class="quote">Delight your audience.</li>
+											<li class="quote">Don't make excuses.</li><li class="quote">There is no box.</li><li class="quote">Less is more.</li><li class="quote">Make it responsive.</li><li class="quote">Nothing is final.</li><li class="quote">Use more white space.</li><li class="quote">stay up all night.</li><li class="quote">Get up early.</li><li class="quote">sans-serif.</li><li class="quote">cmd+s</li><li class="quote">make it asymmetrical.</li><li class="quote">have a reason.</li><li class="quote">Math is easy; design is hard.</li><li class="quote">don't over think it.</li><li class="quote">always be ready.</li><li class="quote">begin with the end in mind.</li><li class="quote">design in constraints.</li><li class="quote">inspiration has <br>an expiration.</li><li class="quote">measure twice, <br>cut once.</li><li class="quote">aim high.</li><li class="quote">the logo is not the brand.</li><li class="quote">you know good design when you use it.</li><li class="quote">know your demographic.</li><li class="quote">improve daily.</li><li class="quote">drink more coffee.</li><li class="quote">sass is more</li><li class="quote">freelance ain't free.</li><li class="quote">reinvent the wheel.</li><li class="quote">make mistakes.</li><li class="quote">assume nothing.</li><li class="quote">learn to take advice.</li><li class="quote">love what you do.</li><li class="quote">design from your heart.</li><li class="quote">think different.</li><li class="quote">give more than you promise.</li><li alt="Graphic Design">design is art that's used.</li><li class="quote">art + science = design</li><li class="textlrg">cmd+z</li><li class="quote">design to express, <br>not to impress.</li><li class="quote">question everything.</li><li class="quote">don't get comfortable.</li><li class="quote">let accidents happen.</li><li class="quote">optimize your images.</li><li class="quote">validate your markup.</li><li class="quote">design isn't just what it looks like.</li><li class="quote">use spellcheck.</li><li class="quote">have a workflow.</li><li class="quote">say something.</li><li class="quote">get it done.</li><li class="quote">have a plan.</li><li class="quote">use one space after a period.</li><li class="quote">promote yourself.</li><li class="quote">use a grid.</li><li class="quote">Have a clear hierarchy.</li><li class="quote">comment your code.</li><li class="quote">forget the grid.</li><li class="quote">make your own rules.</li><li class="quote">rag your type.</li><li class="quote">give it some gusto.</li><li class="quote">avoid the norm.</li><li class="quote">create something cmd+n.</li><li class="quote">don't have a plan.</li><li class="quote">design is a lifestyle.</li><li class="quote">get rid of the drop shadow.</li><li class="quote">be concise.</li><li class="quote">make something that wasn’t there before.</li><li alt="Web Design">&lt;br&gt; the norm.</li><li class="quote">do it again.</li><li class="quote">be accountable.</li><li class="quote">keep calm &amp; trendy slogan.</li><li class="quote">give away everything you know.</li><li class="quote">usable does not make it beautiful.</li><li class="quote">use more #FFFFFF space.</li><li class="quote">loading...</li><li class="quote">all caps.</li><li class="quote">kern.</li><li class="quote">design creates culture.</li><li class="quote">yes is more.</li><li class="quote">pick better clients.</li><li class="quote">change your routine.</li><li class="quote">make something.</li><li class="quote">design is how it works.</li><li class="quote">be dependable.</li><li class="quote">stay passionate.</li><li class="quote">good art inspires; good design motivates.</li><li class="quote">be more efficient.</li><li class="quote">love typography.</li><li class="quote">design is where science and art break even.</li><li class="quote">form versus function.</li><li class="quote">computers can't design.</li><li class="quote">design for emotion.</li><li class="quote">think outside the &lt;div&gt;</li><li class="quote">do it right the first time.</li><li class="quote">&lt;head&gt; over &lt;body&gt;<li class="quote">be &lt;strong&gt;.</li><li class="quote">learn from your peers.</li><li class="quote">get rid of more.</li><li class="quote">wake up!</li><li class="quote">make it sustainable.</li><li class="quote">ask for help.</li><li class="quote">make it extensible.</li><li alt="Web Design">code is poetry.</li><li class="quote">clean up your url's.</li><li class="quote">have discipline.</li><li class="quote">read this.</li><li class="quote">be honest with yourself.</li><li class="quote">find a hobby.</li><li class="quote">everything is designed.</li><li class="quote">b&amp;w</li><li class="quote">describe the problem.</li><li class="quote">few things are designed well.</li><li class="quote">people ignore design that ignores people.</li><li class="quote">good design is obvious.</li><li class="quote">great design is transparent.</li><li class="quote">form follows function.</li><li class="quote">the logo is not the brand.</li><li class="quote">it's not just a job.</li><li class="quote">get in over your head.</li><li class="quote">stay hungry, stay foolish.</li><li class="quote">design is intelligence made visible.</li><li class="quote">content precedes design.</li><li class="quote">use a concept.</li><li class="quote">dream on.</li><li class="quote"> test. test. test.</li><li class="quote">sell out.</li><li class="quote">deliver ideas.</li><li class="quote">hello world.</li><li class="quote">respond to a need.</li><li class="quote">photoshop is a privilege, not a right.</li><li class="quote">make it consistent.</li><li class="quote">don't forget spellchek.</li><li class="quote">simplicity is the ultimate sophistication.</li><li class="quote">wanting something isn't good enough.</li><li alt="Web Design">the sky is not the limit.</li><li class="quote">minimal isn't the same as simple.</li><li class="quote">don't settle for usable.</li><li class="quote">you won't get it right the first time.</li><li class="textlrg">minify.</li><li class="quote">think more, design less.</li><li class="quote">if design isn't profitable, then it's art.</li><li class="quote">good ideas never go out of style.</li><li class="quote">if the users can’t find it, the function’s not there.</li><li class="quote">legibility is not the same thing as readability.</li><li class="quote">code doesn't do anything you don't tell it to do.</li><li class="quote">computers are useless. they can only give you answers.</li><li class="quote">a good design is driven by needs and defined by constraints.</li><li class="quote">there is no excellent beauty that hath not some strangeness in the proportion.</li><li class="quote">technology over technique produces emotionless design.</li><li class="quote">talent hits a target no one else can hit; Genius hits a target no one else can see.</li><li class="quote">designers shooting for usable is like a chef shooting for edible.</li><li class="quote">information is cheap, meaning is expensive.</li><li class="quote">will design for money</li><li class="quote">it's easy to be different, it's difficult to be better.</li><li class="quote">Computers are to design as microwaves are to cooking.</li><li class="quote">Typography is a beautiful group of letters, not a group of beautiful letters.</li><li class="quote">To envision what will be, you must remove yourself from the constant concern for what already is.</li><li class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li class="quote">don't go for a "wow" factor, go for an "of course" reaction.</li><li class="quote">code is meant to be read by humans and only incidentally for computers to execute.</li>
+										</div>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+					</div>
 				</div>
-				<a class="left carousel-control" href="#hero-carousel" role="button" data-slide="prev">
-					<i class="fa fa-angle-left"></i>
-          <span class="sr-only">Prev</span>
-				</a>
-				<a class="right carousel-control" href="#hero-carousel" role="button" data-slide="next">
-					<i class="fa fa-angle-right"></i>
-					<span class="sr-only">Next</span>
-				</a>
-			</div><!-- /carousel-inner -->
-		</div><!-- /module-hero -->
+			</div>
+		</div>
+
+		<!-- QUOTES -->
+		<div class="container">
+			<button href="#collapse1" class="nav-toggle" style="color:black;outline:none;border:none;"><i class="material-icons">clear</i></button>
+			<div id="collapse1"><!-- collapse1 -->
+				<div id="largetext" style="">
+					<ul id="cyclelist">
+
+					</ul>
+				</div><!-- largetext -->
+			</div><!-- collapse1 -->
+		</div>
 
     <!-- Greybox Elements -->
     <div class="container">
@@ -2027,6 +1989,7 @@
 
     <!-- Scripts -->
 		<script src="js/main-1.2.13.min.js"></script>
+		<script src="js/quotes.js"></script>
 		<script src="js/angular.min.js"></script>
 		<!-- <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script> -->
