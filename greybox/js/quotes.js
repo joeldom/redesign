@@ -25,12 +25,8 @@
 
 })(jQuery);
 
-
-document.getElementById("demo").innerHTML = 5 + 6;
-
 // Shuffle all list items within a list:
-//$('ul#cyclelist li').shuffle();
-$('shuffle li').shuffle();
+$('ul#cyclelist li').shuffle();
 
 
 //Cycle Through a List
@@ -38,8 +34,8 @@ $(document).ready(function() {
 	var j = 0;
 	var delay = 10000; //millisecond delay between cycles
 	function cycleThru(){
-		var jmax = $("shuffle li").length -1;
-		$("shuffle li:eq(" + j + ")")
+		var jmax = $("ul#cyclelist li").length -1;
+		$("ul#cyclelist li:eq(" + j + ")")
 			.animate({"opacity" : "1"}, 900)
 			.animate({"opacity" : "1"}, delay)
 			.animate({"opacity" : "0"}, 400, function(){
