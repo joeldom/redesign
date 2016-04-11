@@ -95,3 +95,6 @@
     }
   }
 }
+@media (max-width: 767px){
+  .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"]{margin-left: -8px}
+}

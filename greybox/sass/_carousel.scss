@@ -207,6 +207,7 @@
   -webkit-border-radius: 31px;
   -moz-border-radius: 31px;
   border-radius: 31px;
+  text-shadow: 0 !important;
   font-size: 15px;
   height: 31px;
   line-height: 31px;
@@ -265,3 +266,9 @@
 	width: 100%;
 	height: 400px;
 }
+/*##########################
+    CAROUSEL
+###########################*/
+.carousel-control{}
+.left.carousel-control i{margin: 3px 0 0 -8px}
+.right.carousel-control i{margin: 3px -8px 0 0}

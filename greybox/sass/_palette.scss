@@ -113,3 +113,43 @@ a.palette-inverse {
     color: #fff;
   }
 }
+.palette-teal {
+  color: #7ea29a;
+  &.palette-inverse {
+    background-color: #7ea29a;
+  }
+}
+.palette-teal2 {
+  color: #7DB9B3;
+  &.palette-inverse {
+    background-color: #7DB9B3;
+  }
+}
+.palette-lavender {
+  color: #BFC3EC;
+  &.palette-inverse {
+    background-color: #BFC3EC;
+  }
+}
+.palette-olivegrey {
+  color: #62645c;
+  &.palette-inverse {
+    background-color: #62645c;
+  }
+}
+.palette-purple {
+  color: #565894;
+  &.palette-inverse {
+    background-color: #565894;
+  }
+}
+.pallette-lavender-vib{
+  color: #8385c3;
+  &.palette-inverse {
+    background-color: #8385c3;
+  }
+}
+.palette-orange {
+  color: #C75134;
+  &.palette-inverse {background-color: #C75134;}
+}

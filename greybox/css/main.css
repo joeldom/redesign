@@ -3291,6 +3291,7 @@ th.hidden-lg, td.hidden-lg {
 .fa-medium:before {
   content: "\f23a"; }
 
+/*body background color*/
 /* body text color */
 /* #62645c */
 /* default link color */
@@ -3306,7 +3307,7 @@ body {
   font-size: 14px;
   line-height: 1.2857142857142858;
   color: #545454;
-  background-color: #f4f4f4; }
+  background-color: #f6f6f6; }
 
 input, button, select, textarea {
   font-family: inherit;
@@ -5548,6 +5549,7 @@ ul{
   -webkit-border-radius: 31px;
   -moz-border-radius: 31px;
   border-radius: 31px;
+  text-shadow: 0 !important;
   font-size: 15px;
   height: 31px;
   line-height: 31px;
@@ -5592,6 +5594,15 @@ ul{
   background-position: center center;
   width: 100%;
   height: 400px; }
+
+/*##########################
+    CAROUSEL
+###########################*/
+.left.carousel-control i {
+  margin: 3px 0 0 -8px; }
+
+.right.carousel-control i {
+  margin: 3px -8px 0 0; }
 
 .navbar {
   position: relative;
@@ -6579,6 +6590,9 @@ body.modal-open, .modal-open .navbar-fixed-top {
       opacity: 1;
       filter: alpha(opacity=100); }
 
+@media (max-width: 767px) {
+  .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"] {
+    margin-left: -8px; } }
 .google-map {
   width: 100%;
   min-height: 300px; }
@@ -6725,6 +6739,41 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
 a.palette-inverse:hover, a.palette-inverse:focus {
   color: #fff; }
 
+.palette-teal {
+  color: #7ea29a; }
+  .palette-teal.palette-inverse {
+    background-color: #7ea29a; }
+
+.palette-teal2 {
+  color: #7DB9B3; }
+  .palette-teal2.palette-inverse {
+    background-color: #7DB9B3; }
+
+.palette-lavender {
+  color: #BFC3EC; }
+  .palette-lavender.palette-inverse {
+    background-color: #BFC3EC; }
+
+.palette-olivegrey {
+  color: #62645c; }
+  .palette-olivegrey.palette-inverse {
+    background-color: #62645c; }
+
+.palette-purple {
+  color: #565894; }
+  .palette-purple.palette-inverse {
+    background-color: #565894; }
+
+.pallette-lavender-vib {
+  color: #8385c3; }
+  .pallette-lavender-vib.palette-inverse {
+    background-color: #8385c3; }
+
+.palette-orange {
+  color: #C75134; }
+  .palette-orange.palette-inverse {
+    background-color: #C75134; }
+
 address {
   margin-bottom: 18px;
   font-style: normal;
@@ -6869,6 +6918,175 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
   height: 16px;
   display: block;
   background: white; }
+
+#c_form p {
+  margin-bottom: 2.5em; }
+
+#c_form input {
+  color: #545454; }
+
+.form-inline .btn-primary {
+  margin-left: -5px;
+  padding: .55em;
+  vertical-align: baseline;
+  border-left: 1px solid #eee;
+  background-color: white;
+  color: #545454; }
+
+.form-inline .btn-primary:hover {
+  color: black; }
+
+input.search {
+  padding: .55em;
+  border-radius: 0;
+  font-size: 14px; }
+
+#c_form input, #c_form textarea, #c_form select {
+  background: none;
+  background-color: none;
+  border-bottom: 1px solid #545454;
+  border-radius: 0; }
+
+#c_form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: .35em 0; }
+
+#c_form select:after, #c_form .wpcf7-form-control-wrap.Chooseone:after {
+  content: '\2261';
+  margin-left: -12px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* 2195 2261 */
+#c_form select:focus, #c_form select:active {
+  outline: none; }
+
+#c_form input[type="submit"] {
+  border: 1px solid #545454;
+  border-radius: 25px;
+  display: inline-block;
+  font-family: sans-serif;
+  height: 50px;
+  background: none;
+  line-height: 50px;
+  padding: 0;
+  font-weight: bold; }
+
+@media (min-width: 992px) {
+  #c_form input[type="submit"] {
+    width: 200px; } }
+@media (max-width: 767px) {
+  #c_form input[type="submit"] {
+    width: 100%; } }
+.form-inline .btn-primary {
+  margin-left: -5px;
+  padding: .55em;
+  vertical-align: baseline;
+  border-left: 1px solid #eee;
+  background-color: white;
+  color: #545454; }
+
+.form-inline .btn-primary:hover {
+  color: black; }
+
+input.search {
+  padding: .55em;
+  border-radius: 0;
+  font-size: 14px; }
+
+#c_form input, #c_form textarea, #c_form select {
+  background: none;
+  background-color: none;
+  border-bottom: 1px solid #545454;
+  border-radius: 0; }
+
+#c_form select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: .35em 0; }
+
+/*NEEDS MOBILE WORKAROUND*/
+#c_form select:after, #c_form .wpcf7-form-control-wrap.Chooseone:after {
+  content: '\2261';
+  margin-left: -12px;
+  vertical-align: -webkit-baseline-middle;
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* 2195 2261 */
+#c_form select:focus, #c_form select:active {
+  outline: none; }
+
+#c_form input[type="submit"] {
+  border: 1px solid #545454;
+  border-radius: 25px;
+  display: inline-block;
+  font-family: sans-serif;
+  height: 50px;
+  background: none;
+  line-height: 50px;
+  padding: 0;
+  font-weight: bold; }
+
+#c_form input[type="submit"]:hover {
+  border: 1px solid white;
+  /*e6e6e8*/
+  background: white;
+  color: #545454; }
+
+input[type="submit"] {
+  border: 1px solid #545454;
+  border-radius: 25px;
+  display: inline-block;
+  font-family: sans-serif;
+  height: 50px;
+  background: none;
+  line-height: 50px;
+  padding: 0;
+  font-weight: bold; }
+
+input[type="submit"]:hover {
+  border: 1px solid white;
+  /*e6e6e8*/
+  background: white;
+  color: #545454; }
+
+.palette-inverse input[type="submit"] {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  display: inline-block;
+  font-family: sans-serif;
+  height: 50px;
+  background: none;
+  line-height: 50px;
+  padding: 0;
+  font-weight: bold;
+  color: white; }
+
+.palette-inverse input[type="submit"]:hover {
+  border: 1px solid white;
+  /*e6e6e8*/
+  background: white;
+  color: #545454; }
+
+@media (min-width: 992px) {
+  #c_form input[type="submit"] {
+    width: 200px; } }
+@media (max-width: 767px) {
+  #c_form input[type="submit"] {
+    width: 100%; } }
+#c_form .ajax-loader {
+  margin: -36px 0 0 20px;
+  padding: 0;
+  text-align: left;
+  background: none;
+  font-size: 1.25em; }
 
 .assistive-text, .screen-reader-text {
   position: absolute !important;
