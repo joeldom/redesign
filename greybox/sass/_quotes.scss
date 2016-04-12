@@ -49,6 +49,13 @@ ul#cyclelist li, #shuffle .quote{
     .quote-toggle{opacity:1;}
   }
 }
+.stats-hero .quote-inner{
+  width: 100%;
+  display: block;
+  padding: 0;
+  position: absolute;
+  bottom: 50px;
+}
 .quote .num{
   font-size: .2em;
   font-weight: 400;
@@ -76,6 +83,7 @@ ul#cyclelist li, #shuffle .quote{
     padding:10px;
     bottom:25px;
   }
+
 }
 .quote-inner .quote{
   color: white;
