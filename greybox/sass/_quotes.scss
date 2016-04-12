@@ -45,6 +45,9 @@ ul#cyclelist li, #shuffle .quote{
   &:hover .quote-toggle{opacity:1;}
   &:hover button i{background: rgba(255,255,255,.75);@include transition;}
   @include transition;
+  @media (max-width: 767px){
+    .quote-toggle{opacity:1;}
+  }
 }
 .quote .num{
   font-size: .2em;
@@ -53,9 +56,25 @@ ul#cyclelist li, #shuffle .quote{
   height: 65px;
 }
 @media (max-width: 767px){
+  .toggle{
+    position:absolute;
+    right:13px;
+  }
+  .toggle .quote-toggle{
+    width:200px;
+    font-size:1.25em;
+  }
+  #quotes .quote-outer{
+    min-height:300px;
+  }
   .quote .num{
     font-size:.35em;
     height:50px;
+    margin-top:13px;
+  }
+  .stats-hero .quote-inner{
+    padding:10px;
+    bottom:25px;
   }
 }
 .quote-inner .quote{
