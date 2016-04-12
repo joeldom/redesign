@@ -48,13 +48,13 @@ ul#cyclelist li, #shuffle .quote{
 }
 .quote .num{
   font-size: .2em;
-  font-weight: 200;
+  font-weight: 400;
   color:#545454;
   height: 65px;
 }
 @media (max-width: 767px){
   .quote .num{
-    font-size:1em;
+    font-size:.35em;
     height:50px;
   }
 }
