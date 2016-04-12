@@ -73,27 +73,45 @@
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=default" defer="defer"></script>
 
     <style type="text/css">
+		.toggle{
+			margin-bottom: -15px;
+		}
+		.toggle .quote-toggle{
+			color: #545454;
+			outline: none;
+			border: none;
+			position: relative;
+			z-index: 99;
+			text-align: right;
+			width: 100%;
+			display: block;
+			font-size: .8em;
+			padding: 0;
+			opacity: .5;
+			vertical-align: bottom;
+		}
 		ul#cyclelist, #shuffle {
-	font-family: 'Oswald', "News Gothic MT", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #545454;
-	font-weight: 900;
-	/*text-shadow: 5px 5px 0px #ddd;*/
-	text-transform: none;;
-	padding: 12px 0 0 0;
-	margin-top: -10px;
-	line-height: 1em;
-	display: block;
-	font-size: 1em;
-	width:100%;
-	position:relative;
-	overflow:visible;
-	height:300px;
-}
+			color: #545454;
+			font-weight: 900;
+			/*text-shadow: 5px 5px 0px #ddd;*/
+			text-transform: none;;
+			padding: 12px 0 0 0;
+			margin-top: -10px;
+			line-height: 1em;
+			display: block;
+			font-size: 1em;
+			width:100%;
+			position:relative;
+			overflow:visible;
+			height:300px;
+		}
 		ul#cyclelist li, #shuffle .quote{
 			overflow: hidden;
-			height: 300px;
+			/*height: 300px;*/
 			position: absolute;
+			bottom:0;
 			opacity: 0;
+			width: 100%;
 		}
 		/*a{
 			transition: none !important;
@@ -285,8 +303,11 @@
 				position: absolute;
 				bottom: 50px;
 			}
-			.quote-inner .num{
-				font-size: .9em;
+			.quote .num{
+				font-size: .2em;
+				font-weight: 200;
+				color:#545454;
+				height: 65px;
 			}
 			.quote-inner .quote{
 				color: white;
@@ -416,40 +437,221 @@
 			</div>
 		</div>
     <!-- End Navigation Section -->
+		<div class="row toggle">
+			<div class="container">
+				<button href="#collapse1" class="quote-toggle"><i class="material-icons">clear</i></button>
+			</div>
+		</div>
+			<div id="quotes" class="module-hero">
+				<div id="collapse1">
+				<div id="carousel-quotes" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
 
-		<div id="quotes" class="module-hero">
-			<div id="carousel-quotes" class="carousel slide" data-ride="carousel">
-				<div class="carousel-inner" role="listbox">
+						<div class="item active">
+						  <div class="stats-hero teal">
+						    <div class="container">
+						      <div class="quote-outer">
+						        <div class="quote-inner">
+						          <!-- <div class="num">Design Quotes N<sup>o</sup> <script>document.write(10 + 80);</script></div> -->
 
-					<div class="item active">
-					  <div class="stats-hero teal">
-					    <div class="container">
-					      <div class="quote-outer">
-					        <div class="quote-inner">
-					          <div class="num">Quotes No. <script>document.write(10 + 80);</script></div>
-					          <ul id="cyclelist">
-											<li class="quote">Delight your audience.</li>
-											<li class="quote">Don't make excuses.</li><li class="quote">There is no box.</li><li class="quote">Less is more.</li><li class="quote">Make it responsive.</li><li class="quote">Nothing is final.</li><li class="quote">Use more white space.</li><li class="quote">stay up all night.</li><li class="quote">Get up early.</li><li class="quote">sans-serif.</li><li class="quote">cmd+s</li><li class="quote">make it asymmetrical.</li><li class="quote">have a reason.</li><li class="quote">Math is easy; design is hard.</li><li class="quote">don't over think it.</li><li class="quote">always be ready.</li><li class="quote">begin with the end in mind.</li><li class="quote">design in constraints.</li><li class="quote">inspiration has <br>an expiration.</li><li class="quote">measure twice, <br>cut once.</li><li class="quote">aim high.</li><li class="quote">the logo is not the brand.</li><li class="quote">you know good design when you use it.</li><li class="quote">know your demographic.</li><li class="quote">improve daily.</li><li class="quote">drink more coffee.</li><li class="quote">sass is more</li><li class="quote">freelance ain't free.</li><li class="quote">reinvent the wheel.</li><li class="quote">make mistakes.</li><li class="quote">assume nothing.</li><li class="quote">learn to take advice.</li><li class="quote">love what you do.</li><li class="quote">design from your heart.</li><li class="quote">think different.</li><li class="quote">give more than you promise.</li><li class="quote">design is art that's used.</li><li class="quote">art + science = design</li><li class="quote">cmd+z</li><li class="quote">design to express, <br>not to impress.</li><li class="quote">question everything.</li><li class="quote">don't get comfortable.</li><li class="quote">let accidents happen.</li><li class="quote">optimize your images.</li><li class="quote">validate your markup.</li><li class="quote">design isn't just what it looks like.</li><li class="quote">use spellcheck.</li><li class="quote">have a workflow.</li><li class="quote">say something.</li><li class="quote">get it done.</li><li class="quote">have a plan.</li><li class="quote">use one space after a period.</li><li class="quote">promote yourself.</li><li class="quote">use a grid.</li><li class="quote">Have a clear hierarchy.</li><li class="quote">comment your code.</li><li class="quote">forget the grid.</li><li class="quote">make your own rules.</li><li class="quote">rag your type.</li><li class="quote">give it some gusto.</li><li class="quote">avoid the norm.</li><li class="quote">create something cmd+n.</li><li class="quote">don't have a plan.</li><li class="quote">design is a lifestyle.</li><li class="quote">get rid of the drop shadow.</li><li class="quote">be concise.</li><li class="quote">make something that wasn’t there before.</li><li class="quote">&lt;br&gt; the norm.</li><li class="quote">do it again.</li><li class="quote">be accountable.</li><li class="quote">keep calm &amp; trendy slogan.</li><li class="quote">give away everything you know.</li><li class="quote">usable does not make it beautiful.</li><li class="quote">use more #FFFFFF space.</li><li class="quote">loading...</li><li class="quote">all caps.</li><li class="quote">kern.</li><li class="quote">design creates culture.</li><li class="quote">yes is more.</li><li class="quote">pick better clients.</li><li class="quote">change your routine.</li><li class="quote">make something.</li><li class="quote">design is how it works.</li><li class="quote">be dependable.</li><li class="quote">stay passionate.</li><li class="quote">good art inspires; good design motivates.</li><li class="quote">be more efficient.</li><li class="quote">love typography.</li><li class="quote">design is where science and art break even.</li><li class="quote">form versus function.</li><li class="quote">computers can't design.</li><li class="quote">design for emotion.</li><li class="quote">think outside the &lt;div&gt;</li><li class="quote">do it right the first time.</li><li class="quote">&lt;head&gt; over &lt;body&gt;<li class="quote">be &lt;strong&gt;.</li><li class="quote">learn from your peers.</li><li class="quote">get rid of more.</li><li class="quote">wake up!</li><li class="quote">make it sustainable.</li><li class="quote">ask for help.</li><li class="quote">make it extensible.</li><li class="quote">code is poetry.</li><li class="quote">clean up your url's.</li><li class="quote">have discipline.</li><li class="quote">read this.</li><li class="quote">be honest with yourself.</li><li class="quote">find a hobby.</li><li class="quote">everything is designed.</li><li class="quote">b&amp;w</li><li class="quote">describe the problem.</li><li class="quote">few things are designed well.</li><li class="quote">people ignore design that ignores people.</li><li class="quote">good design is obvious.</li><li class="quote">great design is transparent.</li><li class="quote">form follows function.</li><li class="quote">the logo is not the brand.</li><li class="quote">it's not just a job.</li><li class="quote">get in over your head.</li><li class="quote">stay hungry, stay foolish.</li><li class="quote">design is intelligence made visible.</li><li class="quote">content precedes design.</li><li class="quote">use a concept.</li><li class="quote">dream on.</li><li class="quote"> test. test. test.</li><li class="quote">sell out.</li><li class="quote">deliver ideas.</li><li class="quote">hello world.</li><li class="quote">respond to a need.</li><li class="quote">photoshop is a privilege, not a right.</li><li class="quote">make it consistent.</li><li class="quote">don't forget spellchek.</li><li class="quote">simplicity is the ultimate sophistication.</li><li class="quote">wanting something isn't good enough.</li><li class="quote">the sky is not the limit.</li><li class="quote">minimal isn't the same as simple.</li><li class="quote">don't settle for usable.</li><li class="quote">you won't get it right the first time.</li><li class="quote">minify.</li><li class="quote">think more, design less.</li><li class="quote">if design isn't profitable, then it's art.</li><li class="quote">good ideas never go out of style.</li><li class="quote">if the users can’t find it, the function’s not there.</li><li class="quote">legibility is not the same thing as readability.</li><li class="quote">code doesn't do anything you don't tell it to do.</li><li class="quote">computers are useless. they can only give you answers.</li><li class="quote">a good design is driven by needs and defined by constraints.</li><li class="quote">there is no excellent beauty that hath not some strangeness in the proportion.</li><li class="quote">technology over technique produces emotionless design.</li><li class="quote">talent hits a target no one else can hit; Genius hits a target no one else can see.</li><li class="quote">designers shooting for usable is like a chef shooting for edible.</li><li class="quote">information is cheap, meaning is expensive.</li><li class="quote">will design for money</li><li class="quote">it's easy to be different, it's difficult to be better.</li><li class="quote">Computers are to design as microwaves are to cooking.</li><li class="quote">Typography is a beautiful group of letters, not a group of beautiful letters.</li><li class="quote">To envision what will be, you must remove yourself from the constant concern for what already is.</li><li class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li><li class="quote">don't go for a "wow" factor, go for an "of course" reaction.</li><li class="quote">code is meant to be read by humans and only incidentally for computers to execute.</li>
-										</ul>
-					        </div>
-					      </div>
-					    </div>
-					  </div>
+						          <ul id="cyclelist">
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 100</div>Delight your audience.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 2</div>Don't make excuses.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 3</div>There is no box.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 4</div>Less is more.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 5</div>Make it responsive.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 6</div>Nothing is final.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 7</div>Use more white space.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 8</div>Stay up all night.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 9</div>Get up early.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 10</div>Sans-serif.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 11</div>Cmd+S</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 12</div>Make it asymmetrical.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 13</div>Have a reason.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 14</div>Math is easy; Design is hard.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 15</div>Don't over think it.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 16</div>Always be ready.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 17</div>Begin with the end in mind.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 18</div>Design in constraints.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 19</div>Inspiration has an expiration.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 20</div>Measure twice, cut once.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 21</div>Aim high.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 22</div>The logo is not the brand.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 23</div>You know good design when you use it.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 24</div>Know your demographic.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 25</div>Improve daily.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 26</div>Drink more coffee.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 27</div>Sass is more</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 28</div>Freelance ain't free.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 29</div>Reinvent the wheel.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 30</div>Make mistakes.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 31</div>Assume nothing.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 32</div>Learn to take advice.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 33</div>Love what you do.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 34</div>Design from your heart.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 35</div>Think different.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 36</div>Give more than you promise.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 37</div>Design is Art that's used.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 38</div>Art + Science = Design</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 39</div>Cmd+Z</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 40</div>Design to express, <br>not to impress.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 41</div>Question everything.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 42</div>Don't get comfortable.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 43</div>Let accidents happen.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 44</div>Optimize your images.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 45</div>Validate your markup.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 46</div>Design isn't just what it looks like.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 47</div>Use spellcheck.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 48</div>Have a workflow.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 49</div>Say something.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 50</div>Get it done.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 51</div>Have a plan.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 52</div>Use one space after a period.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 53</div>Promote yourself.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 54</div>Use a grid.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 55</div>Have a clear hierarchy.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 56</div>Comment your code.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 57</div>Forget the grid.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 58</div>Make your own rules.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 59</div>Rag your type.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 60</div>Give it some gusto.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 61</div>Avoid the norm.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 62</div>Create something CMD+Z.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 63</div>Don't have a plan.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 64</div>Design is a lifestyle.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 65</div>Get rid of the drop shadow.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 66</div>Be concise.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 67</div>Make something that wasn’t there before.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 68</div>&lt;br&gt; the norm.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 69</div>Do it again.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 70</div>Be accountable.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 71</div>Keep calm &amp; trendy slogan.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 72</div>Give away everything you know.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 73</div>Usable does not make it beautiful.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 74</div>Use more #FFFFFF space.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 75</div>Loading...</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 76</div>ALL CAPS.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 77</div>Kern.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 78</div>Design creates culture.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 79</div>Yes is more.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 80</div>Pick better clients.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 81</div>Change your routine.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 82</div>Make something.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 83</div>Design is how it works.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 84</div>Be dependable.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 85</div>Stay passionate.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 86</div>Good art inspires; good design motivates.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 87</div>Be more efficient.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 88</div>Love typography.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 89</div>Design is where science and art break even.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 90</div>Form versus function.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 91</div>Computers can't design.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 92</div>Design for emotion.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 93</div>Think outside the &lt;div&gt;</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 94</div>Do it right the first time.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 95</div>&lt;head&gt; over &lt;body&gt;</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 96</div>Be <strong style="color:#545454">&lt;strong&gt;</strong>.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 97</div>Learn from your peers.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 98</div>Get rid of more.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 99</div>Wake up!</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 100</div>Make it sustainable.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 101</div>Ask for help.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 102</div>Make it extensible.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 103</div>Code is poetry.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 104</div>Clean up your URL's.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 105</div>Have discipline.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 106</div>Read this.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 107</div>Be honest with yourself.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 108</div>Find a hobby.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 109</div>Everything is designed.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 110</div>B&amp;W</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 111</div>Describe the problem.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 112</div>Few things are designed well.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 113</div>People ignore design that ignores people.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 114</div>Good design is obvious.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 115</div>Great design is transparent.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 116</div>Form follows function.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 117</div>The logo is not the brand.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 118</div>It's not just a job.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 119</div>Get in over your head.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 120</div>Stay hungry, stay foolish.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 121</div>Design is intelligence made visible.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 122</div>Content precedes design.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 123</div>Use a concept.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 124</div>Dream on.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 125</div>Test. Test. Test.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 126</div>Sell out.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 127</div>Deliver ideas.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 128</div>Hello world.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 129</div>Respond to a need.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 130</div>Photoshop is a privilege, not a right.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 131</div>Make it consistent.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 132</div>Don't forget spellchek.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 133</div>Simplicity is the ultimate sophistication.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 134</div>Wanting something isn't good enough.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 135</div>The sky is not the limit.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 136</div>Minimal isn't the same as simple.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 137</div>Don't settle for usable.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 138</div>You won't get it right the first time.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 139</div>Minify.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 140</div>Think more, design less.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 141</div>If design isn't profitable, then it's art.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 142</div>Good ideas never go out of style.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 143</div>If the users can’t find it, the function’s not there.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 144</div>Legibility is not the same thing as readability.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 145</div>Code doesn't do anything you don't tell it to do.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 146</div>Computers are useless. they can only give you answers.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 147</div>A good design is driven by needs and defined by constraints.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 148</div>There is no excellent beauty that hath not some strangeness in the proportion.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 149</div>Technology over technique produces emotionless design.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 150</div>Talent hits a target no one else can hit; Genius hits a target no one else can see.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 151</div>Designers shooting for usable is like a chef shooting for edible.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 152</div>Information is cheap, meaning is expensive.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 153</div>Will design for $</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 154</div>It's easy to be different, it's difficult to be better.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 155</div>Computers are to design as microwaves are to cooking.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 156</div>Typography is a beautiful group of letters, not a group of beautiful letters.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 157</div>To envision what will be, you must remove yourself from the constant concern for what already is.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 158</div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 159</div>Don't go for a "wow" factor, go for an "of course" reaction.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 160</div>Code is meant to be read by humans and only incidentally for computers to execute.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 161</div>Dress for the job you want, not the job you have.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 162</div>Make Time.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 163</div>Never tell anyone how long it took you.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 164</div>Dreams don't work unless you do.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 165</div>If you were waiting for a sign, this is it.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 166</div>git-Commit More.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 167</div>Just Do It.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 168</div>Think Different.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 169</div>It' all E=MC<sup>2</sup></li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 170</div>Be Agile.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 171</div>Think Different.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 172</div>Never make it "POP"</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 173</div>Be <strong style="color:#545454">BOLD</strong>.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 174</div>Be <strong style="color:#545454">LOUD</strong>.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 175</div><span style="font-family:serif;">Don't forget, Serifs can be pretty too.</span></li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 176</div>Oxford Comma or GTFO.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 177</div>Make it more Swiss.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 175</div>Start a side project.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 176</div>Learn to say no.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 177</div>It's what you leave out.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 178</div>Keep a sketchbook.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 179</div>Use a pen and paper once and awhile.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 180</div>Fall in love with your work.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 181</div>Be your own boss.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 182</div>Think laterally.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 183</div>Don't be trendy.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 175</div>Risk everything.</li>
+												<li class="quote"><div class="num">Design Quotes N<sup>o</sup> 175</div>Be decisive.</li>
+											</ul>
+						        </div>
+						      </div>
+						    </div>
+						  </div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-
-		<!-- QUOTES -->
-		<div class="container">
-			<button href="#collapse1" class="nav-toggle" style="color:black;outline:none;border:none;"><i class="material-icons">clear</i></button>
-			<div id="collapse1"><!-- collapse1 -->
-				<div id="largetext" style="">
-					<ul id="cyclelist">
-
-					</ul>
-				</div><!-- largetext -->
-			</div><!-- collapse1 -->
 		</div>
 
     <!-- Greybox Elements -->
@@ -1354,7 +1556,7 @@
 						<div class="container">
 								<div class="quote-outer">
 									<div class="quote-inner">
-										<div class="num">Quotes No. 106</div>
+										<div class="num">Design Quotes N<sup>o</sup> 106</div>
 										<div class="quote">Computers are to design as microwaves are to cooking.</div>
 									</div>
 								</div>
@@ -1391,7 +1593,7 @@
 									<!-- <img style="width:60%;display:block;margin:auto 0;vert-align:middle;position:absolute;top:50%;bottom:50%;" src="img/front-end.png"/> -->
 									<!-- <img class="svg svg-frontend" style="width:60%;display:block;margin:auto 0;vert-align:middle;position:absolute;top:50%;bottom:50%;" src="img/ux-logo.svg" alt="UX Logo"> -->
 									<div class="quote-inner">
-										<div class="num">Quotes No. 106</div>
+										<div class="num">Design Quotes N<sup>o</sup> 106</div>
 										<div class="quote">Computers are to design as microwaves are to cooking.</div>
 									</div>
 								</div>
@@ -1404,7 +1606,7 @@
 					    <div class="container">
 					      <div class="quote-outer">
 					        <div class="quote-inner">
-					          <div class="num">Quotes No. 103</div>
+					          <div class="num">Design Quotes N<sup>o</sup> 103</div>
 					          <div class="quote"><s>Good</s>. <s>Better</s>. <u>Best</u>.</div>
 					        </div>
 					      </div>
@@ -1417,7 +1619,7 @@
 					    <div class="container">
 					      <div class="quote-outer">
 					        <div class="quote-inner">
-					          <div class="num">Quotes No. 104</div>
+					          <div class="num">Design Quotes N<sup>o</sup> 104</div>
 					          <div class="quote">If today feels like yesterday, somethings wrong.</div>
 					        </div>
 					      </div>
@@ -1430,7 +1632,7 @@
 					    <div class="container">
 					      <div class="quote-outer">
 					        <div class="quote-inner">
-					          <div class="num">Quotes No. 105</div>
+					          <div class="num">Design Quotes N<sup>o</sup> 105</div>
 					          <div class="quote"><u>Always</u> give a shit.</div>
 					        </div>
 					      </div>
@@ -1443,7 +1645,7 @@
 					    <div class="container">
 					      <div class="quote-outer">
 					        <div class="quote-inner">
-					          <div class="num">Quotes No. 106</div>
+					          <div class="num">Design Quotes N<sup>o</sup> 106</div>
 					          <div class="quote">Delight your audience.</div>
 					        </div>
 					      </div>
@@ -1456,7 +1658,7 @@
 					    <div class="container">
 					      <div class="quote-outer">
 					        <div class="quote-inner">
-					          <div class="num">Quotes No. 107</div>
+					          <div class="num">Design Quotes N<sup>o</sup> 107</div>
 					          <div class="quote">Punch anyone right in the mouth if they tell you that you can't.</div>
 					        </div>
 					      </div>
@@ -1469,7 +1671,7 @@
 					    <div class="container">
 					      <div class="quote-outer">
 					        <div class="quote-inner">
-					          <div class="num">Quotes No. 108</div>
+					          <div class="num">Design Quotes N<sup>o</sup> 108</div>
 					          <div class="quote">If the users can't find it, the functionality isn't there.</div>
 					        </div>
 					      </div>
