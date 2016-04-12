@@ -1,0 +1,84 @@
+//_quotes.scss
+.toggle{
+  margin-bottom: -15px;
+}
+.toggle .quote-toggle{
+  color: #545454;
+  outline: none;
+  border: none;
+  position: relative;
+  z-index: 99;
+  text-align: right;
+  width: 100%;
+  display: block;
+  font-size: .8em;
+  padding: 0;
+  opacity: .5;
+  vertical-align: bottom;
+}
+ul#cyclelist, #shuffle {
+  color: $textcolor;
+  font-weight: 900;
+  /*text-shadow: 5px 5px 0px #ddd;*/
+  text-transform: none;;
+  padding: 12px 0 0 0;
+  margin-top: -10px;
+  line-height: 1em;
+  display: block;
+  font-size: 1em;
+  width:100%;
+  position:relative;
+  overflow:visible;
+  height:300px;
+}
+ul#cyclelist li, #shuffle .quote{
+  overflow: hidden;
+  /*height: 300px;*/
+  position: absolute;
+  bottom:0;
+  opacity: 0;
+  width: 100%;
+}
+
+.toggle{
+  .quote-toggle{opacity:0;}
+  &:hover .quote-toggle{opacity:1;}
+  &:hover button i{background: rgba(255,255,255,.75);@include transition;}
+  @include transition;
+}
+.quote .num{
+  font-size: .2em;
+  font-weight: 200;
+  color:#545454;
+  height: 65px;
+}
+@media (max-width: 767px){
+  .quote .num{
+    font-size:1em;
+    height:50px;
+  }
+}
+.quote-inner .quote{
+  color: white;
+  font-size: 3em;
+  font-weight: 900;
+  line-height: 1em;
+  margin:0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #545454;
+}
+@media screen and (min-width: 769px){
+  .quote-inner .quote{font-size: 3em;}
+}
+@media screen and (min-width: 992px){
+  .quote-inner .quote{font-size: 5em;}
+}
+#quotes .quote-outer{position: relative;min-height: 400px;}
+@media (max-width: 767px){
+  #quotes .carousel-indicators{top:20px}
+  #quotes .carousel-control.right,#quotes .carousel-control.left{top:345px;}
+  /*#quotes .container{position: relative;min-height: 350px;}*/
+  .stats-hero .quote-inner{padding: 10px;}
+}

@@ -6656,14 +6656,42 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
 #map-jd > div > div:nth-child(1) > div:nth-child(3) > div:nth-child(4) > div > div:nth-child(1) > div:nth-child(1) {
   border-top-color: transparent !important; }
 
+.palette-white {
+  color: #545454;
+  background-color: white; }
+  .palette-white a:hover {
+    color: #545454; }
+    .palette-white a:hover p {
+      color: #545454; }
+    .palette-white a:hover .tile-category {
+      color: #7EA29A;
+      border-bottom: 1px solid #7EA29A;
+      -moz-transition: all 1s;
+      -o-transition: all 1s;
+      -webkit-transition: all 1s;
+      transition: all 1s; }
+  .palette-white a .tile-category {
+    color: #545454;
+    border-bottom: 1px dotted #545454;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s; }
+
 .palette-grey05 {
   color: #f6f6f6; }
+  .palette-grey05.palette-inverse {
+    background-color: #f6f6f6; }
 
 .palette-grey10 {
   color: #ebebeb; }
+  .palette-grey10.palette-inverse {
+    background-color: #ebebeb; }
 
 .palette-grey15 {
   color: #dedede; }
+  .palette-grey15.palette-inverse {
+    background-color: #dedede; }
 
 .palette-grey20 {
   color: #cfcfcf; }
@@ -6672,6 +6700,8 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
 
 .palette-grey30 {
   color: #acacac; }
+  .palette-grey30.palette-inverse {
+    background-color: #acacac; }
 
 .palette-grey40 {
   color: #999999; }
@@ -6680,15 +6710,23 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
 
 .palette-grey50 {
   color: #7c7c7c; }
+  .palette-grey50.palette-inverse {
+    background-color: #7c7c7c; }
 
 .palette-grey60 {
   color: #6b6b6b; }
+  .palette-grey60.palette-inverse {
+    background-color: #6b6b6b; }
 
 .palette-grey70 {
   color: #5b5b5b; }
+  .palette-grey70.palette-inverse {
+    background-color: #5b5b5b; }
 
 .palette-grey80 {
   color: #474747; }
+  .palette-grey80.palette-inverse {
+    background-color: #474747; }
 
 .palette-blue {
   color: #5B5868; }
@@ -6713,7 +6751,7 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
 .palette-pink {
   color: #d89aa7; }
   .palette-pink.palette-inverse {
-    background-color: #6d2330; }
+    background-color: #d89aa7; }
 
 .palette-burgundy {
   color: #712332; }
@@ -6729,6 +6767,11 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
   color: #6b8c4c; }
   .palette-lime.palette-inverse {
     background-color: #80c342; }
+
+.palette-navy {
+  color: #37477D; }
+  .palette-navy.palette-inverse {
+    background-color: #37477D; }
 
 .palette-inverse {
   color: #fff;

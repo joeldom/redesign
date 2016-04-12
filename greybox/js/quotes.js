@@ -65,3 +65,17 @@ $('.quote-toggle').click(function(){
       }
     });
   });
+
+
+
+//random color class
+var testArray = [1,2,3,4,5];
+Shuffle(testArray);
+//$(testArray).shuffle();
+console.log(testArray);
+// jQuery to dump out new values to element with ID of 'dump'
+$(function() {
+   for (var i=0;i<testArray.length;i++) {
+      $("#dump").append(testArray[i]);
+   }
+});
