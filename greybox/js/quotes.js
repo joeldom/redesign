@@ -20,6 +20,12 @@
         });
 
         return $(shuffled);
+        var color = ["navy","teal","mustard"];
+        var color = colors[Math.floor(colors.length * Math.random())];
+        $(function(){
+          $("#dump").append(color[i]);
+          console.log(color);
+        });
 
     };
 
@@ -49,7 +55,6 @@ $(document).ready(function() {
 
 
 
-
 // http://api.jquery.com/slideToggle/
 $('.quote-toggle').click(function(){
   //get collapse content selector
@@ -67,15 +72,8 @@ $('.quote-toggle').click(function(){
   });
 
 
-
-//random color class
-var testArray = [1,2,3,4,5];
-Shuffle(testArray);
-//$(testArray).shuffle();
-console.log(testArray);
-// jQuery to dump out new values to element with ID of 'dump'
-$(function() {
-   for (var i=0;i<testArray.length;i++) {
-      $("#dump").append(testArray[i]);
-   }
+$(document).ready(function() {
+    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush", "", "", ""),
+    randno = quotes[Math.floor( Math.random() * quotes.length )];
+    $('.stats-hero').addClass( randno );
 });
