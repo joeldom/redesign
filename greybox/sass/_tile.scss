@@ -41,9 +41,9 @@
 .tile-carousel .category {
   margin-bottom: 12px!important;
 }
-/* 
+/*
 
-				START OF TILE-GRAPHIC & TILE-TITLE 
+				START OF TILE-GRAPHIC & TILE-TITLE
 
 */
 .tile-graphic {
@@ -337,11 +337,11 @@
       width: 100%;
       padding: 1.5em .5em;
       background: none;
-      @include transition(all 0.3s ease-in-out);
-      
+//      @include transition(all 0.3s ease-in-out);
+
       	&:hover{
 	      	background: $transgrey1;
-	      	@include transition(all 0.3s ease-in-out);
+//	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-medium .tile-title {
@@ -354,11 +354,11 @@
       width: 100%;
       padding: 1.15em .5em;
       background: none;
-      @include transition(all 0.3s ease-in-out);
-      
+//      @include transition(all 0.3s ease-in-out);
+
       	&:hover{
 	      	background: $transgrey1;
-	      	@include transition(all 0.3s ease-in-out);
+//	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-large {
@@ -501,8 +501,8 @@
     }
   }
 }
-/* 
+/*
 
-				END OF TILE-GRAPHIC & TILE-TITLE 
+				END OF TILE-GRAPHIC & TILE-TITLE
 
 */;
