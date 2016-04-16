@@ -5418,15 +5418,6 @@ ul{
     line-height: 1.0909090909090908; }
   .tile-people.tile-large .tile-title {
     left: 49px; } }
-.tile-graphic.tile-medium .tile-title:hover {
-  background: white;
-  color: #5f5f5f; }
-
-/*
-
-				END OF TILE-GRAPHIC & TILE-TITLE
-
-*/
 .carousel {
   position: relative; }
 
