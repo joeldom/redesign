@@ -1,4 +1,5 @@
 /*
+<<<<<<< HEAD
 Error: File to import not found or unreadable: compass/css3/transition.
        Load paths:
          /Users/joeldombek/Projects/redesign/greybox/sass
@@ -44,8 +45,98 @@ Backtrace:
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
 /Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+=======
+Error: Undefined mixin 'fast-transition'.
+        on line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss, in `fast-transition'
+        from line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss
+        from line 2304 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/main.scss
+
+521:     color: #8a6d3b;
+522:   }
+523:   .form-control {
+524:     border-color: #8a6d3b;
+525:     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+526:     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+527:     &:focus {
+528:       border-color: #66512c;
+529:       -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+530:       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+531:     }
+
+Backtrace:
+/Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss:526:in `fast-transition'
+/Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss:526
+/Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/main.scss:2304
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:349:in `block in visit_mixin'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:98:in `with_mixin'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:347:in `visit_mixin'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `map'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `block in with_import'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:88:in `with_import'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/base.rb:18:in `execute'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:52:in `block in <main>'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `call'
+/Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `<main>'
+>>>>>>> origin/gh-pages
 */
 body:before {
   white-space: pre;
   font-family: monospace;
+<<<<<<< HEAD
   content: "Error: File to import not found or unreadable: compass/css3/transition.\A        Load paths:\A          /Users/joeldombek/Projects/redesign/greybox/sass\A          Sass::Globbing::Importer\A         on line 1 of /Users/joeldombek/Projects/redesign/greybox/sass/main.scss\A \A 1: @import \"compass/css3/transition\";\A 2: @import url(\"http://fast.fonts.net/t/1.css?apiType=css&projectid=5cff4beb-9d80-4122-b00d-c4420417aa8e\");\A 3: @import 'warning';\A 4: @import 'reset';\A 5: @import 'bootstrap';\A 6: @import 'icon';"; }
+=======
+  content: "Error: Undefined mixin 'fast-transition'.\A         on line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss, in `fast-transition'\A         from line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss\A         from line 2304 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/main.scss\A \A 521:     color: #8a6d3b;\A 522:   }\A 523:   .form-control {\A 524:     border-color: #8a6d3b;\A 525:     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\A 526:     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\A 527:     &:focus {\A 528:       border-color: #66512c;\A 529:       -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;\A 530:       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;\A 531:     }"; }
+>>>>>>> origin/gh-pages

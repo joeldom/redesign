@@ -20,6 +20,12 @@
         });
 
         return $(shuffled);
+        var color = ["navy","teal","mustard"];
+        var color = colors[Math.floor(colors.length * Math.random())];
+        $(function(){
+          $("#dump").append(color[i]);
+          console.log(color);
+        });
 
     };
 
@@ -49,7 +55,6 @@ $(document).ready(function() {
 
 
 
-
 // http://api.jquery.com/slideToggle/
 $('.quote-toggle').click(function(){
   //get collapse content selector
@@ -65,3 +70,10 @@ $('.quote-toggle').click(function(){
       }
     });
   });
+
+
+$(document).ready(function() {
+    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush"),
+    randno = quotes[Math.floor( Math.random() * quotes.length )];
+    $('.stats-hero').addClass( randno );
+});
