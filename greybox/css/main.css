@@ -1,4 +1,51 @@
 /*
+<<<<<<< HEAD
+Error: File to import not found or unreadable: compass/css3/transition.
+       Load paths:
+         /Users/joeldombek/Projects/redesign/greybox/sass
+         Sass::Globbing::Importer
+        on line 1 of /Users/joeldombek/Projects/redesign/greybox/sass/main.scss
+
+1: @import "compass/css3/transition";
+2: @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=5cff4beb-9d80-4122-b00d-c4420417aa8e");
+3: @import 'warning';
+4: @import 'reset';
+5: @import 'bootstrap';
+6: @import 'icon';
+
+Backtrace:
+/Users/joeldombek/Projects/redesign/greybox/sass/main.scss:1
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+=======
 Error: Undefined mixin 'fast-transition'.
         on line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss, in `fast-transition'
         from line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss
@@ -83,8 +130,13 @@ Backtrace:
 /Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:52:in `block in <main>'
 /Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `call'
 /Users/dksc102725/Desktop/::03 App/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `<main>'
+>>>>>>> origin/gh-pages
 */
 body:before {
   white-space: pre;
   font-family: monospace;
+<<<<<<< HEAD
+  content: "Error: File to import not found or unreadable: compass/css3/transition.\A        Load paths:\A          /Users/joeldombek/Projects/redesign/greybox/sass\A          Sass::Globbing::Importer\A         on line 1 of /Users/joeldombek/Projects/redesign/greybox/sass/main.scss\A \A 1: @import \"compass/css3/transition\";\A 2: @import url(\"http://fast.fonts.net/t/1.css?apiType=css&projectid=5cff4beb-9d80-4122-b00d-c4420417aa8e\");\A 3: @import 'warning';\A 4: @import 'reset';\A 5: @import 'bootstrap';\A 6: @import 'icon';"; }
+=======
   content: "Error: Undefined mixin 'fast-transition'.\A         on line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss, in `fast-transition'\A         from line 526 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/_tile.scss\A         from line 2304 of /Users/dksc102725/Desktop/::10 Redesign/repo/redesign/greybox/sass/main.scss\A \A 521:     color: #8a6d3b;\A 522:   }\A 523:   .form-control {\A 524:     border-color: #8a6d3b;\A 525:     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\A 526:     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);\A 527:     &:focus {\A 528:       border-color: #66512c;\A 529:       -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;\A 530:       box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;\A 531:     }"; }
+>>>>>>> origin/gh-pages

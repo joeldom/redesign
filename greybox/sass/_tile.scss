@@ -340,11 +340,10 @@
       width: 100%;
       padding: 1.5em .5em;
       background: none;
-      @include transition(all 0.3s ease-in-out);
-
+//      @include transition(all 0.3s ease-in-out);
       	&:hover{
 	      	background: $transgrey1;
-	      	@include transition(all 0.3s ease-in-out);
+//	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-medium .tile-title {
@@ -357,6 +356,7 @@
       width: 100%;
       padding: 1.15em .5em;
       background: none;
+//      @include transition(all 0.3s ease-in-out);
 			+ p {
 				font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 				line-height: 1.1;
@@ -373,11 +373,11 @@
 					color: #d2d0cd;
 				}
 			}
-      @include transition(all 0.3s ease-in-out);
+//      @include transition(all 0.3s ease-in-out);
 
       	&:hover{
 	      	background: $transgrey1;
-	      	@include transition(all 0.3s ease-in-out);
+//	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-large {
@@ -520,10 +520,3 @@
     }
   }
 }
-
-.tile-graphic.tile-medium .tile-title:hover{background: rgba(256, 256, 256, 1);color:#5f5f5f;}
-/*
-
-				END OF TILE-GRAPHIC & TILE-TITLE
-
-*/;

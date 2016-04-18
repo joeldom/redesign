@@ -9,13 +9,13 @@
       .tile-category{
         color:$linkhovercolor;
         border-bottom:1px solid $linkhovercolor;
-        @include transition;
+//        @include transition;
       }
     }
     .tile-category{
       color:$textcolor;
       border-bottom:1px dotted $textcolor;
-      @include transition;
+//      @include transition;
     }
   }
 }
