@@ -43,7 +43,7 @@ ul#cyclelist li, #shuffle .quote{
 .toggle{
   .quote-toggle{opacity:0;}
   &:hover .quote-toggle{opacity:1;}
-  &:hover button i{background: rgba(255,255,255,.75);@include transition;}
+  &:hover button i{background: rgba(255,255,255,1);@include transition;}
   @include transition;
   @media (max-width: 767px){
     .quote-toggle{opacity:1;}
