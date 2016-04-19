@@ -7,6 +7,9 @@
 
 
 ////////////////////////////////////////*/
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -5050,7 +5053,18 @@ ul{
   display: block;
   position: relative; }
   .tile > a {
-    border-width: 0; }
+    border-width: 0;
+    background: rgba(255, 255, 255, 0);
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .tile a:hover h2 {
+    background: white;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
   .tile p {
     margin-bottom: 0; }
   .tile [data-picture] {
@@ -5303,9 +5317,17 @@ ul{
     display: block;
     width: 100%;
     padding: 1.5em .5em;
-    background: none; }
+    background: none;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
     .tile-graphic.tile-small .tile-title:hover {
-      background: rgba(186, 186, 186, 0.7); }
+      background: rgba(186, 186, 186, 0.7);
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
   .tile-graphic.tile-medium .tile-title {
     /* bottom: 30px; */
     font-size: 20px;
@@ -5315,7 +5337,15 @@ ul{
     display: block;
     width: 100%;
     padding: 1.15em .5em;
-    background: none; }
+    background: none;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
     .tile-graphic.tile-medium .tile-title + p {
       font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 1.1;
@@ -5331,7 +5361,12 @@ ul{
         line-height: 1;
         color: #d2d0cd; }
     .tile-graphic.tile-medium .tile-title:hover {
-      background: rgba(186, 186, 186, 0.7); }
+      color: #545454;
+      background: white;
+      -moz-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
   .tile-graphic.tile-large .tile-excerpt {
     bottom: 60px;
     padding: 0 22px; }
@@ -5418,6 +5453,7 @@ ul{
     line-height: 1.0909090909090908; }
   .tile-people.tile-large .tile-title {
     left: 49px; } }
+/*TILE HYBRID SIZES*/
 .carousel {
   position: relative; }
 
@@ -8045,3 +8081,69 @@ input[type="submit"]:hover {
 .social span a:hover span.hint {
   display: inline-block;
   color: white; }
+
+body * {
+  background-color: none !important; }
+
+body * * {
+  background-color: none !important; }
+
+body * * * {
+  background-color: none !important; }
+
+body * * * * {
+  background-color: none !important; }
+
+body * * * * * {
+  background-color: none !important; }
+
+body * * * * * * {
+  background-color: none !important; }
+
+div * {
+  background-color: none !important; }
+
+div * * {
+  background-color: none !important; }
+
+div * * * {
+  background-color: none !important; }
+
+div * * * * {
+  background-color: none !important; }
+
+div * * * * * {
+  background-color: none !important; }
+
+div * * * * * * {
+  background-color: none !important; }
+
+#flat * {
+  background-color: none !important; }
+
+#flat * * {
+  background-color: none !important; }
+
+#flat * * * {
+  background-color: none !important; }
+
+#flat * * * * {
+  background-color: none !important; }
+
+#flat * * * * * {
+  background-color: none !important; }
+
+#flat * * * * * * {
+  background-color: none !important; }
+
+body, .navbar, .stats-hero, #carousel-quotes > div > div > div, #flat article.tile-hybrid *, .quote-inner .quote, #featured {
+  background-color: #D6DEEA !important;
+  color: #262a2b !important; }
+
+a:hover {
+  color: #ff4632; }
+
+.quote-outer {
+  border-top: 1px solid #262a2b; }
+
+/*# sourceMappingURL=global.css.map */

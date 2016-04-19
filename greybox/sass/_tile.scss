@@ -12,7 +12,15 @@
   position: relative;
   > a {
     border-width: 0;
+		background: rgba(255,255,255,0);
+		@include transition(all 0.3s ease-in-out);
   }
+	a{
+		&:hover h2{
+			background: rgba(255,255,255,1);
+			@include transition(all 0.3s ease-in-out);
+		}
+	}
   p {
     margin-bottom: 0;
   }
@@ -340,10 +348,10 @@
       width: 100%;
       padding: 1.5em .5em;
       background: none;
-//      @include transition(all 0.3s ease-in-out);
+      @include transition(all 0.3s ease-in-out);
       	&:hover{
 	      	background: $transgrey1;
-//	      	@include transition(all 0.3s ease-in-out);
+	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-medium .tile-title {
@@ -356,7 +364,7 @@
       width: 100%;
       padding: 1.15em .5em;
       background: none;
-//      @include transition(all 0.3s ease-in-out);
+      @include transition(all 0.3s ease-in-out);
 			+ p {
 				font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 				line-height: 1.1;
@@ -373,11 +381,12 @@
 					color: #d2d0cd;
 				}
 			}
-//      @include transition(all 0.3s ease-in-out);
+      @include transition(all 0.3s ease-in-out);
 
       	&:hover{
-	      	background: $transgrey1;
-//	      	@include transition(all 0.3s ease-in-out);
+					color: $textcolor;
+	      	background: white;
+	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-large {
@@ -520,3 +529,5 @@
     }
   }
 }
+
+/*TILE HYBRID SIZES*/

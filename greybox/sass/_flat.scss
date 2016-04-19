@@ -1,0 +1,45 @@
+//_flat.scss
+@import 'flat-fonts';
+
+$bodycolor: #D6DEEA;
+$textcolor: #262a2b;
+$linkcolor: #ff4632;
+
+//
+body *{ background-color: none !important; }
+body * *{ background-color: none !important; }
+body * * *{ background-color: none !important; }
+body * * * *{ background-color: none !important; }
+body * * * * *{ background-color: none !important; }
+body * * * * * *{ background-color: none !important; }
+
+div *{ background-color: none !important; }
+div * *{ background-color: none !important; }
+div * * *{ background-color: none !important; }
+div * * * *{ background-color: none !important; }
+div * * * * *{ background-color: none !important; }
+div * * * * * *{ background-color: none !important; }
+
+#flat *{ background-color: none !important; }
+#flat * *{ background-color: none !important; }
+#flat * * *{ background-color: none !important; }
+#flat * * * *{ background-color: none !important; }
+#flat * * * * *{ background-color: none !important; }
+#flat * * * * * *{ background-color: none !important; }
+
+body, .navbar, .stats-hero, #carousel-quotes > div > div > div, #flat article.tile-hybrid *, .quote-inner .quote, #featured{
+  background-color:$bodycolor !important;
+  color:$textcolor !important;
+  //font-family: $cousine;
+}
+a{
+  &:hover{
+    color: $linkcolor;
+  }
+}
+h1, h2, h3, h4, h5, h6{
+  //font-family: $oldstandard;
+}
+.quote-outer{
+  border-top: 1px solid $textcolor;
+}
