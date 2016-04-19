@@ -15,12 +15,12 @@
 		background: rgba(255,255,255,0);
 		@include transition(all 0.3s ease-in-out);
   }
-	a{
+	/*a{
 		&:hover h2{
 			background: rgba(255,255,255,1);
 			@include transition(all 0.3s ease-in-out);
 		}
-	}
+	}*/
   p {
     margin-bottom: 0;
   }

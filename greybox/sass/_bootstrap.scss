@@ -43,6 +43,17 @@
   }
 }
 
+@media (min-width: 1480px) {
+  .container {
+    width: 1480px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    width: 1580px;
+  }
+}
 .row {
   margin-left: -8px;
   margin-right: -8px;

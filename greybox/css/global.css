@@ -252,6 +252,12 @@ table {
 @media (min-width: 1380px) {
   .container {
     width: 1156px; } }
+@media (min-width: 1480px) {
+  .container {
+    width: 1480px; } }
+@media (min-width: 1600px) {
+  .container {
+    width: 1580px; } }
 .row {
   margin-left: -8px;
   margin-right: -8px; }
@@ -5048,16 +5054,16 @@ ul{
 .tile {
   margin-bottom: 18px;
   display: block;
-  position: relative; }
+  position: relative;
+  /*a{
+  	&:hover h2{
+  		background: rgba(255,255,255,1);
+  		@include transition(all 0.3s ease-in-out);
+  	}
+  }*/ }
   .tile > a {
     border-width: 0;
     background: rgba(255, 255, 255, 0);
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out; }
-  .tile a:hover h2 {
-    background: white;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
