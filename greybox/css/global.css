@@ -7,9 +7,6 @@
 
 
 ////////////////////////////////////////*/
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -8081,69 +8078,5 @@ input[type="submit"]:hover {
 .social span a:hover span.hint {
   display: inline-block;
   color: white; }
-
-body * {
-  background-color: none !important; }
-
-body * * {
-  background-color: none !important; }
-
-body * * * {
-  background-color: none !important; }
-
-body * * * * {
-  background-color: none !important; }
-
-body * * * * * {
-  background-color: none !important; }
-
-body * * * * * * {
-  background-color: none !important; }
-
-div * {
-  background-color: none !important; }
-
-div * * {
-  background-color: none !important; }
-
-div * * * {
-  background-color: none !important; }
-
-div * * * * {
-  background-color: none !important; }
-
-div * * * * * {
-  background-color: none !important; }
-
-div * * * * * * {
-  background-color: none !important; }
-
-#flat * {
-  background-color: none !important; }
-
-#flat * * {
-  background-color: none !important; }
-
-#flat * * * {
-  background-color: none !important; }
-
-#flat * * * * {
-  background-color: none !important; }
-
-#flat * * * * * {
-  background-color: none !important; }
-
-#flat * * * * * * {
-  background-color: none !important; }
-
-body, .navbar, .stats-hero, #carousel-quotes > div > div > div, #flat article.tile-hybrid *, .quote-inner .quote, #featured {
-  background-color: #D6DEEA !important;
-  color: #262a2b !important; }
-
-a:hover {
-  color: #ff4632; }
-
-.quote-outer {
-  border-top: 1px solid #262a2b; }
 
 /*# sourceMappingURL=global.css.map */
