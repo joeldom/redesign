@@ -3315,6 +3315,12 @@ body {
   color: #545454;
   background-color: #f6f6f6; }
 
+.wrapper {
+  background-color: #f6f6f6;
+  margin-bottom: 200px;
+  z-index: 1;
+  padding-bottom: 20px; }
+
 input, button, select, textarea {
   font-family: inherit;
   font-size: inherit;
@@ -4297,18 +4303,19 @@ a.list-group-item {
   font-weight: 700;
   src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
   src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"), url("../fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"), url("../fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"), url("../fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg"); }
-body {
+/*CHANGED TO WRAPPER*/
+.wrapper {
   padding: 42px 11px 6px; }
 
 [data-picture] img {
   width: 100%; }
 
 @media (min-width: 768px) {
-  body {
+  .wrapper {
     padding: 81px 18px 6px;
     -webkit-transition: padding .2s ease;
     transition: padding .2s ease; }
-    body.open, body.in {
+    .wrapper.open, .wrapper.in {
       padding-top: 80px; }
 
   [data-picture].picturefill-small {
@@ -4318,7 +4325,7 @@ body {
   [data-picture].picturefill-large {
     min-height: 444px; } }
 @media (min-width: 992px) {
-  body {
+  .wrapper {
     padding-left: 22px;
     padding-right: 22px; }
 
@@ -4329,7 +4336,7 @@ body {
   [data-picture].picturefill-large {
     min-height: 588px; } }
 @media (min-width: 1380px) {
-  body {
+  .wrapper {
     padding-left: 34px;
     padding-right: 34px; }
 
@@ -5266,6 +5273,8 @@ ul{
       margin-right: 16.666666666666664%; }
     .tile-hybrid.tile-medium a {
       min-height: 414px; }
+    .tile-hybrid.tile-large .tile-category {
+      position: absolute; }
     .tile-hybrid.tile-large a {
       min-height: 588px; }
     .tile-hybrid .tile-excerpt {
@@ -5456,7 +5465,17 @@ ul{
     line-height: 1.0909090909090908; }
   .tile-people.tile-large .tile-title {
     left: 49px; } }
-/*TILE HYBRID SIZES*/
+@media (max-width: 1380px) {
+  #projects .col-sm-4 .tile-medium {
+    max-height: 318px;
+    overflow: hidden; } }
+@media (max-width: 992px) {
+  #featured .featured-image {
+    padding-right: 0; }
+
+  #projects .col-sm-4 .tile-medium {
+    max-height: 193px;
+    overflow: hidden; } }
 .carousel {
   position: relative; }
 
@@ -6950,18 +6969,45 @@ body.modal-open, .modal-open .navbar-fixed-top {
         .modal.custom-modal .modal-dialog .modal-body .modalImg img {
           width: 100%;
           height: auto; } }
+.footer-para {
+  background-color: #2a2a2a;
+  height: 200px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  color: white; }
+  .footer-para a {
+    color: white;
+    border-bottom: none; }
+    .footer-para a:hover, .footer-para a:focus {
+      color: #7EA29A; }
+  .footer-para #back-top {
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+    .footer-para #back-top a {
+      color: white;
+      font-size: 2em;
+      opacity: .5; }
+      .footer-para #back-top a:hover {
+        opacity: 1; }
+      .footer-para #back-top a i {
+        border: 2px solid white;
+        width: 38px;
+        padding: 4px;
+        border-radius: 30px; }
+
 .footer {
-  border-top: 1px solid #d2d0cd;
-  color: #878c8c;
   font-size: 12px;
   line-height: 18px;
   margin-top: 36px;
   padding-top: 36px;
-  padding-bottom: 1px; }
-  .footer a {
-    color: #878c8c; }
-    .footer a:hover, .footer a:focus {
-      color: #7EA29A; }
+  padding-bottom: 1px;
+  padding-left: 7px;
+  padding-right: 7px;
+  position: relative; }
   .footer address {
     line-height: 18px;
     margin: 0 0 36px; }
@@ -7245,6 +7291,11 @@ a.palette-inverse:hover, a.palette-inverse:focus {
   .palette-orange.palette-inverse {
     background-color: #C75134; }
 
+.palette-gold {
+  color: #f5c429; }
+  .palette-gold.palette-inverse {
+    background-color: #f5c429; }
+
 .stats-hero.purple {
   background-color: #8385c3; }
 
@@ -7284,6 +7335,9 @@ a.palette-inverse:hover, a.palette-inverse:focus {
 
 .stats-hero.steel {
   background-color: #4D6974; }
+
+.stats-hero.gold {
+  background-color: #f5c429; }
 
 address {
   margin-bottom: 18px;

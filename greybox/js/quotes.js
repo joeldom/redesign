@@ -73,7 +73,33 @@ $('.quote-toggle').click(function(){
 
 
 $(document).ready(function() {
-    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush"),
+    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush", "gold"),
     randno = quotes[Math.floor( Math.random() * quotes.length )];
     $('.stats-hero').addClass( randno );
+});
+
+$(document).ready(function(){
+
+	// hide #back-top first
+	$("#back-top").hide();
+
+	// fade in #back-top
+	$(function () {
+		$(window).scroll(function () {
+			if ($(this).scrollTop() > 450) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
+		});
+
+		// scroll body to 0px on click
+		$('#back-top a').click(function () {
+			$('body,html').animate({
+				scrollTop: 0
+			}, 800);
+			return false;
+		});
+	});
+
 });

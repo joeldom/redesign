@@ -1,8 +1,41 @@
 //_flat-fonts.scss
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic);
-@import url(https://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic);
-@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700);
+@import url('http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic');
+@import url('https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700');
 
+@font-face {
+  font-family: 'menloregular';
+  src: url('../font/menlo-regular-webfont.eot');
+  src: url('../font/menlo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/menlo-regular-webfont.woff2') format('woff2'),
+       url('../font/menlo-regular-webfont.woff') format('woff'),
+       url('../font/menlo-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url('../font/proximanova-bold-webfont.eot');
+  src: url('../font/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/proximanova-bold-webfont.woff2') format('woff2'),
+       url('../font/proximanova-bold-webfont.woff') format('woff'),
+       url('../font/proximanova-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'freightbig_probold';
+  src: url('../font/freightbigprobold-regular-webfont.eot');
+  src: url('../font/freightbigprobold-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../font/freightbigprobold-regular-webfont.woff2') format('woff2'),
+       url('../font/freightbigprobold-regular-webfont.woff') format('woff'),
+       url('../font/freightbigprobold-regular-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 $ubuntu: 'Ubuntu', sans-serif;
 $cousine: 'Cousine', monospace;
 $oldstandard: 'Old Standard', serif;
+$menlo: 'menloregular', monospace;
+$proxima: 'proxima_nova_rgbold', sans-serif;
+$freight: 'freightbig_probold', Georgia, serif;

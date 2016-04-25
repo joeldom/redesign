@@ -104,13 +104,8 @@
       #featured .featured-info{padding: 0 12px 3px 18px;}
       .carousel-control{top:150px;}
       .tile-graphic .tile-title{text-shadow: none;}
-      @media (min-width: 992px) {
-        #featured .featured-image{padding-right: 0;}
-        #projects .row .col-sm-4 article{max-height: 193px;overflow: hidden;}
-      }
-      @media (min-width: 1380px) {
-        #projects .row .col-sm-4 article{max-height: 230px;overflow: hidden}
-      }
+
+
       @media (max-width: 767px){
 				/*ADJUSTING TILE Excerpt 1.4*/
 				.tile-graphic.tile-large .tile-excerpt[class*="palette-"]{
@@ -303,6 +298,8 @@
     </style>
   </head>
 	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
+	<div class="wrapper">
+
     <!-- Navigation Section -->
     <div id="navbar" class="navbar navbar-fixed-top" role="banner">
 			<div class="container">
@@ -836,10 +833,18 @@
 		<!-- RELATED SECTION END -->
 
 		<div class="container">
+
+		</div><!-- /container -->
+</div>
+<div class="footer-para">
+	<div class="container">
+		<div class="row">
+
 			<footer class="footer" itemscope="" itemtype="http://schema.org/Organization">
+				<span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
 				<div class="row">
 					<a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name"><!-- JOEL<strong>DOMBEK</strong> -->
-					<img src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/logo.png" style="width: auto;max-height:75px;padding: 0 25px;"></a>
+					<img src="/img/logo.png" style="width: auto;max-height:75px;padding: 0 25px;"></a>
           <!-- <div class="col-xs-6 col-sm-2">
           	<a href="http://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br>
             <ul class="list-unstyled">
@@ -850,7 +855,11 @@
             </ul>
             <p><small>&copy; Joel Dombek 2016 V4.12.08.11.47</small></p>
           </div> -->
-          <div class="col-xs-12 col-sm-3 col-sm-offset-7">
+					<div class="col-xs-12 col-sm-5">
+						This is the Graphic / Web design portfolio &amp; blog of Joel Dombek who has 9+ years experience in: logo design, identity design, graphic design, advertising, marketing, web design, and UX design. Read the rest of my <a href="#">Resume</a> here.<br/><br/>
+						<a href="#">Home</a>&nbsp;| <a href="#">All Work</a>&nbsp;| <a href="#">Blog</a>&nbsp;| <a href="#">Ideas</a>&nbsp;| <a href="#">Quotes</a>&nbsp;| <a href="#">About</a>&nbsp;| <a href="#">Resume</a> | <a href="#">Contact</a>&nbsp;| <a href="#">Search</a>
+					</div>
+          <div class="col-xs-12 col-sm-3 col-sm-offset-2">
 						<div class="row">
 
 							<div class="col-sm-6">
@@ -899,8 +908,10 @@
           </div>
         </div>
 			</footer>
-		</div><!-- /container -->
-
+		</div>
+	</div>
+</div>
+<!-- WRAPPER -->
 		<!-- Search Overlay -->
 		<div id="overlay-search">
     	<input name="Search" type="text" onfocus="if(this.value == 'value') { this.value = ''; }" value="Search" />

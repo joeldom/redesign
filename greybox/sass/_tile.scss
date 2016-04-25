@@ -272,12 +272,19 @@
         margin-right: 16.666666666666664%;
       }
     }
-    &.tile-medium a {
-      min-height: 414px;
-    }
-    &.tile-large a {
-      min-height: 588px;
-    }
+    &.tile-medium {
+			a {
+	      min-height: 414px;
+	    }
+		}
+    &.tile-large {
+			.tile-category{
+				position:absolute;
+			}
+			a {
+	      min-height: 588px;
+	    }
+		}
     .tile-excerpt {
       bottom: 18px;
       margin-right: 25%;
@@ -530,4 +537,14 @@
   }
 }
 
-/*TILE HYBRID SIZES*/
+@media (max-width: 1380px) {
+	#projects{
+		.col-sm-4{
+			.tile-medium{max-height: 318px;overflow: hidden}
+		}
+	}
+}
+@media (max-width: 992px) {
+	#featured .featured-image{padding-right: 0;}
+	#projects .col-sm-4 .tile-medium{max-height: 193px;overflow: hidden;}
+}
