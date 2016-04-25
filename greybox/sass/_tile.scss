@@ -548,3 +548,9 @@
 	#featured .featured-image{padding-right: 0;}
 	#projects .col-sm-4 .tile-medium{max-height: 193px;overflow: hidden;}
 }
+@media (max-width: 767px){
+	#projects .row .col-sm-4 article{
+		max-height:335px;
+		overflow:hidden;
+	}
+}
