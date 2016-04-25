@@ -6985,8 +6985,8 @@ body.modal-open, .modal-open .navbar-fixed-top {
       color: #7EA29A; }
   .footer-para #back-top {
     position: absolute;
-    right: 0px;
-    top: 0px; }
+    right: 8px;
+    top: -18px; }
     .footer-para #back-top a {
       color: white;
       font-size: 2em;
@@ -6995,7 +6995,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
         opacity: 1; }
       .footer-para #back-top a i {
         border: 2px solid white;
-        width: 38px;
+        width: 36px;
         padding: 4px;
         border-radius: 30px; }
 
