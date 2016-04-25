@@ -3317,7 +3317,7 @@ body {
 
 .wrapper {
   background-color: #f6f6f6;
-  margin-bottom: 200px;
+  margin-bottom: 250px;
   z-index: 1;
   padding-bottom: 20px; }
 
@@ -6971,13 +6971,14 @@ body.modal-open, .modal-open .navbar-fixed-top {
           height: auto; } }
 .footer-para {
   background-color: #2a2a2a;
-  height: 200px;
+  height: 250px;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   z-index: -1;
-  color: white; }
+  color: white;
+  padding: 20px 0; }
   .footer-para a {
     color: white;
     border-bottom: none; }
@@ -6986,7 +6987,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
   .footer-para #back-top {
     position: absolute;
     right: 8px;
-    top: -18px; }
+    top: -30px; }
     .footer-para #back-top a {
       color: white;
       font-size: 2em;
