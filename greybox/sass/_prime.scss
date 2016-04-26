@@ -22,11 +22,16 @@ input, button, select, textarea {
   font-size: inherit;
   line-height: inherit;
 }
-
+p{
+  a{
+    position:relative;
+  }
+}
 a {
   color: $linkcolor ;/* #545454 #62645c */
   text-decoration: none;
   outline: none;
+
   &:hover {
     color: $linkhovercolor;
     text-decoration: underline;
@@ -2075,3 +2080,6 @@ aside.pull-right figcaption {
   padding-right: 33.33333%;
   margin-bottom: 20px;
 }
+#container > div.main{border:none !important;}
+.theme-white .extra, .theme-white .main{border-color:white !important;}
+iframe *, iframe * *, iframe * * *, iframe * * * *, iframe * * * * *, iframe * * * * * *{border-color:white !important;border:none !important;}

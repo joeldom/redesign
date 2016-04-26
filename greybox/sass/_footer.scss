@@ -135,9 +135,10 @@
   text-align: center;
   top: .25em;
   width: 24px;
+  font-size:1.11em !important;
 }
 @media (max-width: 767px){
-  .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"], .footer [class^="material-icons"]{margin-left: 0px}
+  .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"], .footer [class^="material-icons"]{margin-left: 0px;}
   .wrapper{margin-bottom:400px;}
   .footer-para{
     height:400px;

@@ -17,7 +17,7 @@
 }
 .social span a{text-decoration: none;border: none;}
 .social span a:hover{color: black;}
-.social span a span.hint{
+a span.hint, .social span a span.hint, .read-time a span.hint{
   pointer-events: none;
   display: none;
   position: absolute;
@@ -25,7 +25,8 @@
   left: 0;
   height: 2rem;
   line-height: 2rem;
-  background-color: #545454;
+  background-color: $textcolor;
+  font-weight:400;
   border-radius: 1rem;
   padding: 0 0.6875rem;
   color: white !important;
@@ -35,7 +36,10 @@
   -webkit-transform: translateX(calc(-50% + 20px));
   -ms-transform: translateX(calc(-50% + 20px));
 }
-.social span a:hover span.hint{
+.read-time a span.hint{
+  left:17px;
+}
+a:hover span.hint, .social span a:hover span.hint, .read-time a:hover span.hint{
   display: inline-block;
   color: white;
 }
