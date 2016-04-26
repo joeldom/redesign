@@ -7,6 +7,11 @@
 
 
 ////////////////////////////////////////*/
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic");
+@import url("https://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic");
+@import url("https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800,800italic,700italic,700,600italic,600,400italic,300italic,300");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black");
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
@@ -5283,9 +5288,12 @@ ul{
       padding-left: 15px;
       padding-right: 0;
       position: absolute; }
+      .tile-hybrid .tile-excerpt h1, .tile-hybrid .tile-excerpt h2, .tile-hybrid .tile-excerpt h3, .tile-hybrid .tile-excerpt h4, .tile-hybrid .tile-excerpt h5, .tile-hybrid .tile-excerpt h6 {
+        margin: .5em 0; }
     .tile-hybrid .tile-title {
       margin-right: 0;
-      font-size: 18px; }
+      font-size: 18px;
+      margin-top: .5em; }
     .tile-hybrid .tile-hybrid .tile-title + p {
       margin-top: 10px; }
     .tile-hybrid .tile-category {
@@ -7098,21 +7106,31 @@ body.modal-open, .modal-open .navbar-fixed-top {
       position: relative;
       display: block;
       width: 40px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      top: -40px;
+      right: initial; }
 
   .footer {
     padding: 20px; }
     .footer .list-unstyled {
-      width: 178px;
-      margin: 20px auto; }
+      display: table !important;
+      text-align: center;
+      margin: 20px auto 40px auto; }
       .footer .list-unstyled li {
-        display: inline-block; }
-        .footer .list-unstyled li a i, .footer .list-unstyled li a .material-icons {
-          width: 42px;
-          border: 1px solid white;
-          border-radius: 40px;
-          font-size: 1.75em;
-          padding: 10px; }
+        display: table-cell;
+        width: 60px; }
+        .footer .list-unstyled li a {
+          opacity: .5; }
+          .footer .list-unstyled li a:hover {
+            opacity: 1;
+            color: white; }
+          .footer .list-unstyled li a i, .footer .list-unstyled li a .material-icons {
+            width: 42px;
+            height: 43px;
+            border: 2px solid white;
+            border-radius: 40px;
+            font-size: 1.75em !important;
+            padding: 10px; }
     .footer .text-right {
       text-align: center; } }
 .google-map {
@@ -8178,5 +8196,24 @@ input[type="submit"]:hover {
 .social span a:hover span.hint {
   display: inline-block;
   color: white; }
+
+@font-face {
+  font-family: 'menloregular';
+  src: url("../font/menlo-regular-webfont.eot");
+  src: url("../font/menlo-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/menlo-regular-webfont.woff2") format("woff2"), url("../font/menlo-regular-webfont.woff") format("woff"), url("../font/menlo-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url("../font/proximanova-bold-webfont.eot");
+  src: url("../font/proximanova-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../font/proximanova-bold-webfont.woff2") format("woff2"), url("../font/proximanova-bold-webfont.woff") format("woff"), url("../font/proximanova-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'freightbig_probold';
+  src: url("../font/freightbigprobold-regular-webfont.eot");
+  src: url("../font/freightbigprobold-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/freightbigprobold-regular-webfont.woff2") format("woff2"), url("../font/freightbigprobold-regular-webfont.woff") format("woff"), url("../font/freightbigprobold-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 
 /*# sourceMappingURL=global.css.map */

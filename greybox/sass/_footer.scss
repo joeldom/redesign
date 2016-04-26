@@ -146,21 +146,29 @@
       display:block;
       width:40px;
       margin:0 auto;
+      top:-40px;
+      right:initial;
     }
   }
   .footer{
     padding: 20px;
     .list-unstyled{
-      width:178px;
-      margin: 20px auto;
+//      width:178px;
+      display:table !important;
+      text-align:center;
+      margin: 20px auto 40px auto;
       li{
-        display:inline-block;
+        display:table-cell;
+        width:60px;
         a{
+          opacity:.5;
+          &:hover{opacity:1;color:white;}
           i, .material-icons{
             width:42px;
-            border:1px solid white;
+            height:43px;
+            border:2px solid white;
             border-radius:40px;
-            font-size:1.75em;
+            font-size:1.75em !important;
             padding:10px;
           }
         }
