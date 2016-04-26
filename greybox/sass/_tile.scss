@@ -1,4 +1,17 @@
 //_tile.scss
+/*.edgeless [class*=' col-'], .edgeless .row [class*=' col-'], .edgeless .tile{
+	margin:0;
+	padding:0;
+	margin-bottom:0;
+	padding-left:0;
+	padding-right:0;
+}
+.edgeless{
+	.row{
+		margin-left:0;
+		margin-right:0;
+	}
+}*/
 #inspiration p{
 	margin: 0;
 	clear: both;
