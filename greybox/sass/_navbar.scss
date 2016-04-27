@@ -181,7 +181,7 @@
 	width: 30px;
   position: relative;
   float: right;
-  right:10px;
+  //right:10px;
   margin-right: 0;/* 36px */
   padding: 9px 10px;
   margin-top: 4px;
@@ -570,7 +570,7 @@
 }
 .navbar {
   background-color: #fff;
-  padding: 0 11px;
+  padding: 10px 11px;
 }
 
 .navbar-brand {
@@ -644,8 +644,8 @@
   color: #fff;
   height: 30px;
   padding: 0;
-  position: absolute;
-  right: -30px;
+//  position: absolute;
+//  right: -30px;
   top: 3px;
   width: 30px;
   z-index: 2;
@@ -826,19 +826,26 @@
 }
 /* =============================== CHANGE
 
- PASTED FROM HEADER.PHP MARCH 12th 2015 
- 
+ PASTED FROM HEADER.PHP MARCH 12th 2015
+
  =================================*/
-.navbar-toggle{background-color: transparent;width: 45px;right:10px;margin-right: 0;padding: 0 0 0 20px;}
+.navbar-toggle{
+  background-color: transparent;
+  width: 100px;
+//  right:10px;
+  margin-right: 0;
+//  padding: 0 0 0 20px;
+  text-align:right;
+}
 .navbar-toggle img{width: 25px;height: auto;}
 			.navbar-toggle:focus{outline: none;}
-	        
+
 			.box-shadow-menu {position: relative;padding-left: 1.25em;text-indent: -9999px;text-decoration: none !important;}
 			.box-shadow-menu:before{content: "";position: absolute;left: 0;top: 0;width: 1.8em;height: 0.15em;background: #545454;box-shadow: 0 0.5em 0 0 #545454,0 1em 0 0 #545454;}
-	        
+
 			.border-menu{position: relative;padding-left: 1.25em;}
 			.border-menu:before {content: "";position: absolute;top: 0.25em;left: 0;width: 1em;height: 0.125em;border-top: 0.375em double #000;border-bottom: 0.125em solid #000;}
-	        
+
 			.gradient-menu {padding-left: 1.25em;position: relative;}
 			.gradient-menu:before {content: "";position: absolute;left: 0;top: 0px;bottom: 0.21em;width: 1.65em;background: linear-gradient(to bottom, #545454, #545454 20%, white 20%, white 40%, #545454 40%, #545454 60%, white 60%, white 80%, #545454 80%, #545454 100%);}
 			.navbar-toggle:hover .gradient-menu:before{background: linear-gradient(to bottom, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black 100%);}

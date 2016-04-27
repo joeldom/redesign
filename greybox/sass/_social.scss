@@ -11,6 +11,11 @@
   overflow: hidden;
   width: 25%;
 }
+@media (max-width: 767px){
+  .social:before, .module-related:before{
+//    width:100%;
+  }
+}
 .social span{
   margin-right: 20px;
   position: relative;

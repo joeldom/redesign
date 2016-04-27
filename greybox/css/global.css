@@ -3388,67 +3388,6 @@ hr {
   clip: rect(0, 0, 0, 0);
   border: 0; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit; }
-
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
-  font-weight: normal;
-  line-height: 1;
-  color: #d2d0cd; }
-
-h1, h2, h3 {
-  margin-top: 18px;
-  margin-bottom: 9px; }
-
-h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
-  font-size: 65%; }
-
-h4, h5, h6 {
-  margin-top: 9px;
-  margin-bottom: 9px; }
-
-h4 small, h5 small, h6 small, h4 .small, h5 .small, h6 .small {
-  font-size: 75%; }
-
-h1, .h1 {
-  font-size: 36px; }
-
-h2, .h2 {
-  font-size: 30px; }
-
-h3, .h3 {
-  font-size: 24px; }
-
-h4, .h4 {
-  font-size: 18px; }
-
-h5, .h5 {
-  font-size: 14px; }
-
-h6, .h6 {
-  font-size: 12px; }
-
-p {
-  margin: 0 0 9px; }
-
-.lead {
-  margin-bottom: 18px;
-  font-size: 16px;
-  font-weight: 200;
-  line-height: 1.4; }
-
-@media (min-width: 768px) {
-  .lead {
-    font-size: 21px; } }
-small, .small {
-  font-size: 85%; }
-
-cite {
-  font-style: normal; }
-
 .text-muted {
   color: #d2d0cd; }
 
@@ -4308,7 +4247,7 @@ a.list-group-item {
   src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"), url("../fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"), url("../fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"), url("../fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg"); }
 /*CHANGED TO WRAPPER*/
 .wrapper {
-  padding: 42px 11px 6px; }
+  padding: 65px 11px 6px; }
 
 [data-picture] img {
   width: 100%; }
@@ -5515,6 +5454,67 @@ ul{
 .tile-excerpt h1, .tile-excerpt h2, .tile-excerpt h3, .tile-excerpt h4, .tile-excerpt h5, .tile-excerpt h6, .featured-info h1, .featured-info h2, .featured-info h3, .featured-info h4, .featured-info h5, .featured-info h6 {
   margin: .25em 0; }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit; }
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #d2d0cd; }
+
+h1, h2, h3 {
+  margin-top: 18px;
+  margin-bottom: 9px; }
+
+h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
+  font-size: 65%; }
+
+h4, h5, h6 {
+  margin-top: 9px;
+  margin-bottom: 9px; }
+
+h4 small, h5 small, h6 small, h4 .small, h5 .small, h6 .small {
+  font-size: 75%; }
+
+h1, .h1 {
+  font-size: 36px; }
+
+h2, .h2 {
+  font-size: 30px; }
+
+h3, .h3 {
+  font-size: 24px; }
+
+h4, .h4 {
+  font-size: 1.15em; }
+
+h5, .h5 {
+  font-size: 14px; }
+
+h6, .h6 {
+  font-size: 12px; }
+
+p {
+  margin: 0 0 9px; }
+
+.lead {
+  margin-bottom: 18px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4; }
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px; } }
+small, .small {
+  font-size: 85%; }
+
+cite {
+  font-style: normal; }
+
 #featured {
   position: relative; }
 
@@ -6311,7 +6311,6 @@ fieldset[disabled] .btn-primary.active {
   width: 30px;
   position: relative;
   float: right;
-  right: 10px;
   margin-right: 0;
   /* 36px */
   padding: 9px 10px;
@@ -6586,7 +6585,7 @@ fieldset[disabled] .btn-primary.active {
       background-color: transparent; } }
 .navbar {
   background-color: #fff;
-  padding: 0 11px; }
+  padding: 10px 11px; }
 
 .navbar-brand {
   border-width: 0;
@@ -6650,8 +6649,6 @@ fieldset[disabled] .btn-primary.active {
   color: #fff;
   height: 30px;
   padding: 0;
-  position: absolute;
-  right: -30px;
   top: 3px;
   width: 30px;
   z-index: 2; }
@@ -6802,15 +6799,14 @@ fieldset[disabled] .btn-primary.active {
     padding-right: 34px; } }
 /* =============================== CHANGE
 
- PASTED FROM HEADER.PHP MARCH 12th 2015 
- 
+ PASTED FROM HEADER.PHP MARCH 12th 2015
+
  =================================*/
 .navbar-toggle {
   background-color: transparent;
-  width: 45px;
-  right: 10px;
+  width: 100px;
   margin-right: 0;
-  padding: 0 0 0 20px; }
+  text-align: right; }
 
 .navbar-toggle img {
   width: 25px;
@@ -7117,7 +7113,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
         opacity: 1; }
       .footer-para #back-top a i {
         border: 2px solid white;
-        width: 36px;
+        width: 38px;
         padding: 4px;
         border-radius: 30px; }
 
