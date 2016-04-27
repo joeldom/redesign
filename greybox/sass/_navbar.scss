@@ -3,7 +3,7 @@
   position: relative;
   min-height: 42px;
   margin-bottom: 18px;
-  border: 1px solid transparent;
+  //border: 1px solid transparent;
   &:before {
     content: " ";
     display: table;
@@ -652,11 +652,12 @@
   .icon-bar {
     background-color: white;
     border: none;
-    left: 50%;
+//    left: 50%;
+    right:0;
     margin: -1px 0 0 -9px;
     position: absolute;
     top: 37%;
-    width: 17px;
+    width: 115px;
     color:$textcolor;
     .material-icons{
       font-size:26px !important;
@@ -665,6 +666,7 @@
   .icon-chevron-up {
     color:$textcolor;
     display: none;
+    text-align:right;
     .material-icons{
       font-size:26px !important;
     }
@@ -840,7 +842,14 @@
  PASTED FROM HEADER.PHP MARCH 12th 2015
 
  =================================*/
-.navbar-toggle{background-color: transparent;width: 45px;right:10px;margin-right: 0;padding: 0 0 0 20px;}
+.navbar-toggle{
+  background-color: transparent;
+  width: 120px;
+  right:10px;
+  margin-right: 0;
+  text-align:right;
+//  padding: 0 0 0 20px;
+}
 .navbar-toggle img{width: 25px;height: auto;}
 			.navbar-toggle:focus{outline: none;}
 

@@ -6183,8 +6183,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar {
   position: relative;
   min-height: 42px;
-  margin-bottom: 18px;
-  border: 1px solid transparent; }
+  margin-bottom: 18px; }
   .navbar:before {
     content: " ";
     display: table; }
@@ -6657,17 +6656,18 @@ fieldset[disabled] .btn-primary.active {
   .navbar-toggle .icon-bar {
     background-color: white;
     border: none;
-    left: 50%;
+    right: 0;
     margin: -1px 0 0 -9px;
     position: absolute;
     top: 37%;
-    width: 17px;
+    width: 115px;
     color: #545454; }
     .navbar-toggle .icon-bar .material-icons {
       font-size: 26px !important; }
   .navbar-toggle .icon-chevron-up {
     color: #545454;
-    display: none; }
+    display: none;
+    text-align: right; }
     .navbar-toggle .icon-chevron-up .material-icons {
       font-size: 26px !important; }
 
@@ -6817,10 +6817,10 @@ fieldset[disabled] .btn-primary.active {
  =================================*/
 .navbar-toggle {
   background-color: transparent;
-  width: 45px;
+  width: 120px;
   right: 10px;
   margin-right: 0;
-  padding: 0 0 0 20px; }
+  text-align: right; }
 
 .navbar-toggle img {
   width: 25px;
