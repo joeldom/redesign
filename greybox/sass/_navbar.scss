@@ -181,7 +181,7 @@
 	width: 30px;
   position: relative;
   float: right;
-  //right:10px;
+  right:10px;
   margin-right: 0;/* 36px */
   padding: 9px 10px;
   margin-top: 4px;
@@ -570,7 +570,7 @@
 }
 .navbar {
   background-color: #fff;
-  padding: 10px 11px;
+  padding: 0 11px;
 }
 
 .navbar-brand {
@@ -644,8 +644,8 @@
   color: #fff;
   height: 30px;
   padding: 0;
-//  position: absolute;
-//  right: -30px;
+  position: absolute;
+  right: -30px;
   top: 3px;
   width: 30px;
   z-index: 2;
@@ -829,14 +829,7 @@
  PASTED FROM HEADER.PHP MARCH 12th 2015
 
  =================================*/
-.navbar-toggle{
-  background-color: transparent;
-  width: 100px;
-//  right:10px;
-  margin-right: 0;
-//  padding: 0 0 0 20px;
-  text-align:right;
-}
+.navbar-toggle{background-color: transparent;width: 45px;right:10px;margin-right: 0;padding: 0 0 0 20px;}
 .navbar-toggle img{width: 25px;height: auto;}
 			.navbar-toggle:focus{outline: none;}
 

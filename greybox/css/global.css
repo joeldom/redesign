@@ -4247,7 +4247,7 @@ a.list-group-item {
   src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"), url("../fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"), url("../fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"), url("../fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg"); }
 /*CHANGED TO WRAPPER*/
 .wrapper {
-  padding: 65px 11px 6px; }
+  padding: 42px 11px 6px; }
 
 [data-picture] img {
   width: 100%; }
@@ -6311,6 +6311,7 @@ fieldset[disabled] .btn-primary.active {
   width: 30px;
   position: relative;
   float: right;
+  right: 10px;
   margin-right: 0;
   /* 36px */
   padding: 9px 10px;
@@ -6585,7 +6586,7 @@ fieldset[disabled] .btn-primary.active {
       background-color: transparent; } }
 .navbar {
   background-color: #fff;
-  padding: 10px 11px; }
+  padding: 0 11px; }
 
 .navbar-brand {
   border-width: 0;
@@ -6649,6 +6650,8 @@ fieldset[disabled] .btn-primary.active {
   color: #fff;
   height: 30px;
   padding: 0;
+  position: absolute;
+  right: -30px;
   top: 3px;
   width: 30px;
   z-index: 2; }
@@ -6804,9 +6807,10 @@ fieldset[disabled] .btn-primary.active {
  =================================*/
 .navbar-toggle {
   background-color: transparent;
-  width: 100px;
+  width: 45px;
+  right: 10px;
   margin-right: 0;
-  text-align: right; }
+  padding: 0 0 0 20px; }
 
 .navbar-toggle img {
   width: 25px;
