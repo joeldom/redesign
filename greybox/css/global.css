@@ -3311,7 +3311,7 @@ html {
 body {
   font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
-  line-height: 1.2857142857142858;
+  line-height: 1.7857142857142858;
   color: #545454;
   background-color: #f6f6f6; }
 
@@ -4254,7 +4254,7 @@ a.list-group-item {
 
 @media (min-width: 768px) {
   .wrapper {
-    padding: 81px 18px 6px;
+    padding: 75px 18px 6px;
     -webkit-transition: padding .2s ease;
     transition: padding .2s ease; }
     .wrapper.open, .wrapper.in {
@@ -4305,7 +4305,8 @@ ul, ol {
 
 blockquote {
   border: 0;
-  padding: 0; }
+  padding: 0;
+  font-weight: 600; }
   blockquote:before {
     content: "â€œ"; }
   blockquote:after {
@@ -4854,7 +4855,7 @@ ul{
     .module-hero .module-overlay .module-title {
       margin: 0; }
   .module-hero .module-title {
-    margin: 12px 0 6px;
+    margin: 34px 0 6px;
     font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
@@ -4919,7 +4920,7 @@ ul{
       padding-left: 18px;
       padding-right: 18px; }
     .module-hero .module-content {
-      font-size: 18px;
+      font-size: 14px;
       letter-spacing: 0;
       line-height: 1.3333333333333333;
       font-weight: 500; }
@@ -4993,7 +4994,7 @@ ul{
       line-height: .96;
       text-indent: -0.06em; }
     .module-hero .module-content .module-title {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 1.2; } }
 @media (min-width: 1380px) {
   .module-hero {
@@ -5016,6 +5017,9 @@ ul{
   /*unfinished*/
   .module-hero .module-overlay[class*="opaque-"] {
     color: white; } }
+.sidebar .list-unstyled {
+  margin: 0; }
+
 #inspiration p {
   margin: 0;
   clear: both; }
@@ -5490,7 +5494,7 @@ h6, .h6 {
   font-size: 12px; }
 
 p {
-  margin: 0 0 9px; }
+  margin: 0 0 5px; }
 
 @media (max-width: 768px) {
   h1, .h1 {
@@ -5498,6 +5502,9 @@ p {
 
   h2, .h2 {
     font-size: 30px; }
+
+  blockquote.h2 {
+    font-weight: 600; }
 
   h3, .h3 {
     font-size: 24px; }
