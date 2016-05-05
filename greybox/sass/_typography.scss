@@ -58,6 +58,9 @@ h6, .h6 {
 p {
   margin: 0 0 5px;
 }
+blockquote.h2{
+  font-weight:600;
+}
 @media (max-width: 768px) {
   h1, .h1 {
     font-size: 36px;
@@ -65,9 +68,6 @@ p {
 
   h2, .h2 {
     font-size: 30px;
-  }
-  blockquote.h2{
-    font-weight:600;
   }
 
   h3, .h3 {
@@ -142,7 +142,7 @@ cite {
 h4, .h4{font-size: 1.15em !important;}
 blockquote::before {content:"“" !important;}
 blockquote::after {content:"”" !important;}
-figcaption{color: #545454;}
+figcaption{color: inherit;font-weight:bold;}
 @media (min-width: 768px){
   .module-article > hr.dashed{
     display: block;

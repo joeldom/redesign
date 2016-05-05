@@ -288,3 +288,21 @@ ul{
       margin:0;
     }
   }
+.single-article{
+  .module-overlay{
+    bottom:-18px;
+    .module-title{
+      border-bottom:none;
+    }
+  }
+}
+@media (min-width: 1380px) {
+  .single-article{
+    .container{
+      max-width:1080px;
+      .body{
+        margin-top:20px;
+      }
+    }
+  }
+}

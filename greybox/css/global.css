@@ -5020,6 +5020,16 @@ ul{
 .sidebar .list-unstyled {
   margin: 0; }
 
+.single-article .module-overlay {
+  bottom: -18px; }
+  .single-article .module-overlay .module-title {
+    border-bottom: none; }
+
+@media (min-width: 1380px) {
+  .single-article .container {
+    max-width: 1080px; }
+    .single-article .container .body {
+      margin-top: 20px; } }
 #inspiration p {
   margin: 0;
   clear: both; }
@@ -5496,15 +5506,15 @@ h6, .h6 {
 p {
   margin: 0 0 5px; }
 
+blockquote.h2 {
+  font-weight: 600; }
+
 @media (max-width: 768px) {
   h1, .h1 {
     font-size: 36px; }
 
   h2, .h2 {
     font-size: 30px; }
-
-  blockquote.h2 {
-    font-weight: 600; }
 
   h3, .h3 {
     font-size: 24px; }
@@ -5584,7 +5594,8 @@ blockquote::after {
   content: "”" !important; }
 
 figcaption {
-  color: #545454; }
+  color: inherit;
+  font-weight: bold; }
 
 @media (min-width: 768px) {
   .module-article > hr.dashed {
@@ -7505,6 +7516,9 @@ a.palette-inverse:hover, a.palette-inverse:focus {
   .palette-gold.palette-inverse {
     background-color: #f5c429; }
 
+.palette-inverse .read-more {
+  border: 1px solid white; }
+
 .stats-hero.purple {
   background-color: #8385c3; }
 
@@ -8232,12 +8246,41 @@ input[type="submit"]:hover {
   display: block; }
 
 .sidebar p, .sidebar li a {
-  /*margin-bottom:2px;*/
   margin-bottom: 0px;
   padding: 24px 36px;
   background-color: white;
   position: relative;
   border-bottom: 1px dotted #d7d7d7; }
+.sidebar .quote-toggle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+  width: 100%;
+  text-align: right;
+  outline: none;
+  z-index: 2;
+  opacity: .75; }
+  .sidebar .quote-toggle:hover {
+    opacity: 1; }
+  .sidebar .quote-toggle i {
+    background-color: white;
+    color: #545454;
+    font-size: .8em !important;
+    vertical-align: top; }
+.sidebar .promo {
+  padding: 0px;
+  position: relative; }
+  .sidebar .promo div {
+    padding: 20px; }
+  .sidebar .promo p {
+    background-color: #474747;
+    border-bottom: none;
+    margin: 0 0 1em 0;
+    font-size: 2em;
+    line-height: 1.2em;
+    font-weight: 900;
+    padding: 0; }
 
 .sidebar li a {
   display: block;

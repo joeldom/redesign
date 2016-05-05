@@ -84,9 +84,9 @@
 }
 
 .palette-grey80 {
-  color: #474747;
+  color: $grey80;
   &.palette-inverse {
-    background-color: #474747;
+    background-color: $grey80;
   }
 }
 
@@ -209,6 +209,11 @@ a.palette-inverse {
   &.palette-inverse {background-color: #f5c429;}
 }
 
+.palette-inverse{
+  .read-more{
+    border:1px solid white;
+  }
+}
 
 .stats-hero.purple{background-color: #8385c3;}
 .stats-hero.red{background-color: #EF4544;}

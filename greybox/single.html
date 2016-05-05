@@ -24,6 +24,7 @@
 			https://github.com/google/code-prettify							********
 			material design: https://getmdl.io/components/
 			http://www.garbett.com.au/design/
+			http://styleguide.devbproto.com/styleguide
 
 			NOTES:
 			use SVG icons for hero sections with graphics
@@ -239,7 +240,7 @@
 
     </style>
   </head>
-	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
+	<body class="single-article">
 	<div class="wrapper">
 
     <!-- Navigation Section -->
@@ -294,15 +295,21 @@
 
 
 		<div class="module-hero">
-			<img id="collapse1" src="img/herox2x.png">
-			<div class="module-content palette-grey40  palette-inverse">
-					<div class="container">
-						<h1 class="module-title">Single Article</h1>
-						<p>Published: <time datetime="March 11th, 2016" pubdate="">May 11th, 2016</time></p>
-						<p class="byline"><em>Written by <a href="#">Joel<span class="hint">Say Hi</span></a></em><br></p>
-						<p class="hidden-xs read-time pull-right"><a href="#"><i class="fa fa-eye"></i> 10 MINS <span class="hint">Est. Read Time</span></a></p>
-					</div>
+			<p><img id="collapse1" src="img/herox2x.png"></p>
+			<div class="module-overlay">
+        <div class="container">
+					<p class="category">TYPOGRAPHY</p>
+          <p class="module-title">What will your customers experience today?</p>
+        </div>
+      </div>
+			<!-- <div class="module-content palette-grey40  palette-inverse">
+				<div class="container">
+					<h1 class="module-title">Single Article</h1>
+					<p>Published: <time datetime="March 11th, 2016" pubdate="">May 11th, 2016</time></p>
+					<p class="byline"><em>Written by <a href="#">Joel<span class="hint">Say Hi</span></a></em><br></p>
+					<p class="hidden-xs read-time pull-right"><a href="#"><i class="fa fa-eye"></i> 10 MINS <span class="hint">Est. Read Time</span></a></p>
 				</div>
+			</div> -->
 		</div>
 
 		<!-- <div class="module-hero">
@@ -333,6 +340,7 @@
         </div><!--/col-->
 
 				<div class="col-sm-4 sidebar overlap-sm">
+					<span class="author-headshot"><img src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/me-bw.jpg" alt="Joel D" /></span>
 					<p><strong>Order a copy today,</strong> start changing the world tomorrow.</p>
 					<ul class="list-unstyled">
 						<li><a href="#" target="_blank">Buy on Amazon <span class="amazon"><i class="fa fa-amazon"></i></span></a></li>
@@ -345,9 +353,12 @@
 							</div><!-- end respondify -->
 						</li>
 					</ul>
-					<div class="promo palette-grey80 palette-inverse">
-						Like what you see? Lets work together!
-						<div class="text-center"><a class="read-more center-block" href="#">Load More</a></div>
+					<div class="promo">
+						<button href="#collapse2" class="quote-toggle"><i class="material-icons">clear</i></button>
+						<div id="collapse2" class="palette-grey80 palette-inverse">
+							<p>Like what you see? Lets work together!</p>
+							<div class="text-center"><a class="read-more center-block" href="#">Contact</a></div>
+						</div>
 					</div>
 				</div><!--/col-->
 				<div class="col-sm-12 social">
