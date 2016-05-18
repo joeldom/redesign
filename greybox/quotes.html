@@ -23,6 +23,7 @@
 			https://design.google.com/icons/										**********
 			https://github.com/google/code-prettify							********
 			material design: https://getmdl.io/components/
+			http://www.garbett.com.au/design/
 
 			NOTES:
 			use SVG icons for hero sections with graphics
@@ -72,7 +73,7 @@
 
 		<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=default" defer="defer"></script>
 
-    <style type="text/css">
+		<style type="text/css">
 		/*a{
 			transition: none !important;
 			-webkit-transition: none !important;
@@ -80,7 +81,6 @@
 		/*##########################
 				NAVBAR
 		###########################*/
-		#navbar .material-icons{vertical-align: middle;font-size: 18px !important;}
 		/*@media screen and (max-width: 767px){
 			body{padding: 68px 11px 6px;}
 			.navbar{padding: 12px 11px;}
@@ -104,13 +104,8 @@
       #featured .featured-info{padding: 0 12px 3px 18px;}
       .carousel-control{top:150px;}
       .tile-graphic .tile-title{text-shadow: none;}
-      @media (min-width: 992px) {
-        #featured .featured-image{padding-right: 0;}
-        #projects .row .col-sm-4 article{max-height: 193px;overflow: hidden;}
-      }
-      @media (min-width: 1380px) {
-        #projects .row .col-sm-4 article{max-height: 230px;overflow: hidden}
-      }
+
+
       @media (max-width: 767px){
 				/*ADJUSTING TILE Excerpt 1.4*/
 				.tile-graphic.tile-large .tile-excerpt[class*="palette-"]{
@@ -123,7 +118,6 @@
 					position: absolute;
 					bottom: 10px;
 				}
-        #projects .row .col-sm-4 article{max-height: 142px;overflow: hidden}
 				.carousel-control{display: none;}
       }
       @media (max-width: 767px){
@@ -183,14 +177,6 @@
       /*DISPLAYS LIGHTER THAN NON_ITALIC*/
       /*cite{font-style: italic;}*/
 			.material-icons {font-size: inherit !important;vertical-align: bottom;}
-			.footer [class^="material-icons"]{
-				float: left;
-				margin-left: -24px;
-				position: relative;
-				text-align: center;
-				top: .25em;
-				width: 24px;
-			}
 			@media (min-width: 768px){
 				.module-article > .well, .module-article .panel, .module-article .embed-responsive {margin-right: 42.666667%;padding-right: 8px}
 				.module-article > .newsletter-signup{margin-right: 42.666667%;}
@@ -303,6 +289,8 @@
     </style>
   </head>
 	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
+	<div class="wrapper">
+
     <!-- Navigation Section -->
     <div id="navbar" class="navbar navbar-fixed-top" role="banner">
 			<div class="container">
@@ -615,13 +603,15 @@
 								<h2 class="tile-title">Project Name</h2>
 								<img src="img/tilex2x.png" class="" alt="" />
               </a>
-					</div><!-- /tile -->
+						</article>
+					</div><!-- /col -->
           <div class="col-sm-4 col-xs-12">
             <article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
               <a href="#">
                 <h2 class="tile-title">Project Name</h2>
                 <img src="img/tilex2x.png" class="" alt="" />
               </a>
+						</article>
           </div><!-- /tile -->
           <div class="col-sm-4 col-xs-12">
             <article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
@@ -629,6 +619,7 @@
                 <h2 class="tile-title">Project Name</h2>
                 <img src="img/tilex2x.png" class="" alt="" />
               </a>
+						</article>
           </div><!-- /tile -->
 
 				</div><!-- /row -->
@@ -639,6 +630,7 @@
                 <h2 class="tile-title">Project Name</h2>
                 <img src="img/tilex2x.png" class="" alt="" />
               </a>
+						</article>
           </div><!-- /tile -->
 
           <div class="col-sm-4">
@@ -649,6 +641,7 @@
                 <h2 class="tile-title">Project Name</h2>
                 <img src="img/tilex2x.png" class="" alt="" />
               </a>
+						</article>
           </div><!-- /tile -->
 
           <div class="col-xs-12">
@@ -657,6 +650,7 @@
                 <h2 class="tile-title">Project Name</h2>
                 <img src="img/tilex2x.png" class="" alt="" />
               </a>
+						</article>
           </div><!-- /tile -->
         </div>
         </div><!-- /col-md-4 -->
@@ -720,8 +714,8 @@
 							<p>
 								<img src="img/tilex2x.png" class="" alt="" />
 							</p>
-							<p class="tile-category">Category</p>
 							<div class="tile-excerpt">
+								<h5 class="palette-teal" style="text-transform:uppercase;">Featured</h5>
 								<h2 class="tile-title">Client Project</h2>
 								<p>XVXVXV has worked with XVXVXV on a multi-phase, multi-year engagement to re-envision their end-to-end customer journey, informing the out-of-box and packaging experience, in-store and service experience, and the design of smartphone interfaces and ecosystems. Improving their...</p>
 							</div>
@@ -729,6 +723,52 @@
 					</article>
 				</div>
 			</div>
+
+			<div class="row">
+
+				<div class="col-sm-4 col-xs-12">
+					<article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
+						<a href="#">
+							<h2 class="tile-title">Project Name</h2>
+							<img src="img/tilex2x.png" class="" alt="" />
+						</a>
+					</article>
+				</div><!-- /col -->
+				<div class="col-sm-4 col-xs-12">
+					<article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
+						<a href="#">
+							<h2 class="tile-title">Project Name</h2>
+							<img src="img/tilex2x.png" class="" alt="" />
+						</a>
+					</article>
+				</div><!-- /tile -->
+				<div class="col-sm-4 col-xs-12">
+					<article class="tile tile-graphic tile-medium palette-grey20 palette-inverse">
+						<a href="#">
+							<h2 class="tile-title">Project Name</h2>
+							<img src="img/tilex2x.png" class="" alt="" />
+						</a>
+					</article>
+				</div><!-- /tile -->
+
+			</div><!-- row -->
+
+			<div class="row">
+        <div class="col-sm-12">
+          <article class="tile tile-hybrid tile-large palette-white">
+						<a href="/studios/people">
+							<p>
+								<img src="img/tilex2x.png"></span>
+							</p>
+							<div class="tile-excerpt">
+								<h5 class="palette-teal" style="text-transform:uppercase;">Category</h5>
+								<h2 class="tile-title">A Passionate Team</h2>
+								<p>Our global team represents the best and most talented leaders in their crafts. Our clients can expect passionate, inspired teams to collaborate with them to create brilliant solutions.</p>
+							</div>
+						</a>
+					</article>
+        </div>
+      </div>
 
 		</div><!-- container -->
 
@@ -784,10 +824,18 @@
 		<!-- RELATED SECTION END -->
 
 		<div class="container">
+
+		</div><!-- /container -->
+</div>
+<div class="footer-para">
+	<div class="container">
+		<div class="row">
+
 			<footer class="footer" itemscope="" itemtype="http://schema.org/Organization">
+				<span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
 				<div class="row">
 					<a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name"><!-- JOEL<strong>DOMBEK</strong> -->
-					<img src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/logo.png" style="width: auto;max-height:75px;padding: 0 25px;"></a>
+					<img src="img/logo.png" style="width: auto;max-height:75px;padding: 0 25px;"></a>
           <!-- <div class="col-xs-6 col-sm-2">
           	<a href="http://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br>
             <ul class="list-unstyled">
@@ -798,24 +846,39 @@
             </ul>
             <p><small>&copy; Joel Dombek 2016 V4.12.08.11.47</small></p>
           </div> -->
-          <div class="col-xs-12 col-sm-3 col-sm-offset-7">
+					<div class="col-xs-12 col-sm-5">
+						This is the Graphic / Web design portfolio &amp; blog of Joel Dombek who has 9+ years experience in: logo design, identity design, graphic design, advertising, marketing, web design, and UX design. Read the rest of my <a href="#">Resume</a> here.
+
+						<ul class="list-unstyled hidden-sm hidden-md hidden-lg">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Work</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Ideas</a></li>
+							<li><a href="#">Quotes</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Resume</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Search</a></li>
+						</ul>
+					</div>
+          <div class="col-xs-12 col-sm-3 col-sm-offset-2">
 						<div class="row">
 
-							<div class="col-sm-6">
+							<div class="col-sm-6 col-xs-12">
 								<!-- <a href="http://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
 								<ul class="list-unstyled">
 									<!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
-									<li><a href="#" target="_blank"><i class="material-icons">&#xE0E1;</i> General</a></li>
-									<li><a href="#" target="_blank"><i class="fa fa-twitter"></i> Twitter</a></li>
-									<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></li>
-									<li><a href="http://www.joeldombek.com/contact/"><i class="fa fa-file-pdf-o"></i> Resume</a></li>
+									<li><a href="#" target="_blank"><i class="material-icons">&#xE0E1;</i><span class="hidden-xs"> General</span></a></li>
+									<li><a href="#" target="_blank"><i class="fa fa-twitter"></i><span class="hidden-xs"> Twitter</span></a></li>
+									<li><a href="#" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a></li>
+									<li><a href="http://www.joeldombek.com/contact/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a></li>
 								</ul>
 							</div>
 
-							<div class="col-sm-6">
+							<div class="col-sm-6 col-xs-12">
 								<p class="text-right">
-									JOEL<strong>DOMBEK</strong><br/>
-									<small>V4.12.08.11.47<br/>&copy; 2016</small></p>
+									JOEL<strong>DOMBEK</strong><br class="hidden-xs"/>
+									<small>V4.12.08.11.47<br class="hidden-xs"/> &copy; 2016</small></p>
 									<br/><br/><br/>
 							</div>
 
@@ -847,8 +910,10 @@
           </div>
         </div>
 			</footer>
-		</div><!-- /container -->
-
+		</div>
+	</div>
+</div>
+<!-- WRAPPER -->
 		<!-- Search Overlay -->
 		<div id="overlay-search">
     	<input name="Search" type="text" onfocus="if(this.value == 'value') { this.value = ''; }" value="Search" />

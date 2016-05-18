@@ -25,7 +25,15 @@
   position: relative;
   > a {
     border-width: 0;
+		background: rgba(255,255,255,0);
+		@include transition(all 0.3s ease-in-out);
   }
+	/*a{
+		&:hover h2{
+			background: rgba(255,255,255,1);
+			@include transition(all 0.3s ease-in-out);
+		}
+	}*/
   p {
     margin-bottom: 0;
   }
@@ -277,22 +285,33 @@
         margin-right: 16.666666666666664%;
       }
     }
-    &.tile-medium a {
-      min-height: 414px;
-    }
-    &.tile-large a {
-      min-height: 588px;
-    }
-    .tile-excerpt {
+    &.tile-medium {
+			a {
+	      min-height: 414px;
+	    }
+		}
+    &.tile-large {
+			.tile-category{
+				position:absolute;
+			}
+			a {
+	      min-height: 588px;
+	    }
+		}
+    .tile-excerpt, .featured-info{
       bottom: 18px;
       margin-right: 25%;
       padding-left: 15px;
       padding-right: 0;
       position: absolute;
+			h1,h2,h3,h4,h5,h6{
+				margin:.25em 0;
+			}
     }
     .tile-title {
       margin-right: 0;
 			font-size:18px;
+			margin-top:.5em;
     }
 		.tile-hybrid .tile-title+p{
 			margin-top:10px;
@@ -353,10 +372,10 @@
       width: 100%;
       padding: 1.5em .5em;
       background: none;
-//      @include transition(all 0.3s ease-in-out);
+      @include transition(all 0.3s ease-in-out);
       	&:hover{
 	      	background: $transgrey1;
-//	      	@include transition(all 0.3s ease-in-out);
+	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-medium .tile-title {
@@ -369,7 +388,7 @@
       width: 100%;
       padding: 1.15em .5em;
       background: none;
-//      @include transition(all 0.3s ease-in-out);
+      @include transition(all 0.3s ease-in-out);
 			+ p {
 				font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 				line-height: 1.1;
@@ -386,11 +405,12 @@
 					color: #d2d0cd;
 				}
 			}
-//      @include transition(all 0.3s ease-in-out);
+      @include transition(all 0.3s ease-in-out);
 
       	&:hover{
-	      	background: $transgrey1;
-//	      	@include transition(all 0.3s ease-in-out);
+					color: $textcolor;
+	      	background: white;
+	      	@include transition(all 0.3s ease-in-out);
 				}
     }
     &.tile-large {
@@ -532,4 +552,22 @@
       left: 49px;
     }
   }
+}
+
+@media (max-width: 1380px) {
+	#projects{
+		.col-sm-4{
+			.tile-medium{max-height: 318px;overflow: hidden}
+		}
+	}
+}
+@media (max-width: 992px) {
+	#featured .featured-image{padding-right: 0;}
+	#projects .col-sm-4 .tile-medium{max-height: 193px;overflow: hidden;}
+}
+@media (max-width: 767px){
+	#projects .row .col-sm-4 article{
+		max-height:335px;
+		overflow:hidden;
+	}
 }

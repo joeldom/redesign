@@ -204,6 +204,11 @@ a.palette-inverse {
   color: #C75134;
   &.palette-inverse {background-color: #C75134;}
 }
+.palette-gold {
+  color: #f5c429;
+  &.palette-inverse {background-color: #f5c429;}
+}
+
 
 .stats-hero.purple{background-color: #8385c3;}
 .stats-hero.red{background-color: #EF4544;}
@@ -218,3 +223,4 @@ a.palette-inverse {
 .stats-hero.grey90{background-color: #353535;}
 .stats-hero.passion{background-color: #D2595E;}
 .stats-hero.steel{background-color: #4D6974;}
+.stats-hero.gold{background-color: #f5c429;}

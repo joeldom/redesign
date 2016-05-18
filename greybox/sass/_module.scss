@@ -192,16 +192,30 @@ ul{
       right: 0;
       top: 0;
     }
-    .download {
-      font-size: 14px;
+    .download{
+      font-size: 1em;
       font-weight: 200;
       letter-spacing: .005em;
       line-height: 1.2857142857142858;
       margin: 0;
       position: absolute;
       right: 0;
-      top: 67px;
+      top: 55px;
       white-space: nowrap;
+    }
+    .read-time{
+      font-size: .8em;
+      font-weight: 500;
+      letter-spacing: .005em;
+      line-height: 1.2857142857142858;
+      margin: 0;
+      position: absolute;
+      right: 0;
+      top: 55px;
+      white-space: nowrap;
+      i{
+        font-size:1.11em;
+      }
     }
   }
 }

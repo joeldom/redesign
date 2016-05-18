@@ -43,9 +43,9 @@ ul#cyclelist li, #shuffle .quote{
 .toggle{
   .quote-toggle{opacity:0;}
   &:hover .quote-toggle{opacity:1;}
-  &:hover button i{background: rgba(255,255,255,.75);
-//    @include transition;
-  }
+  &:hover button i{background: rgba(255,255,255,1);@include transition;}
+  @include transition;
+
   @media (max-width: 767px){
     .quote-toggle{opacity:1;}
   }
@@ -59,9 +59,13 @@ ul#cyclelist li, #shuffle .quote{
 }
 .quote .num{
   font-size: .2em;
-  font-weight: 400;
+  font-weight: 500;
   color:#545454;
   height: 65px;
+  sup{
+    font-weight:900;
+    top:-0.4em;
+  }
 }
 #quotes .quote-outer{position: relative;min-height: 400px;}
 @media (min-width: 768px){

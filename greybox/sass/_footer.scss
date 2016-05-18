@@ -1,19 +1,52 @@
 //_footer.scss
-
+.footer-para{
+  background-color: #2a2a2a;
+  height:$footer-height;
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  z-index:-1;
+  color:white;
+  padding:20px 0;
+  a{
+  color:white;
+  border-bottom:none;
+    &:hover, &:focus {
+      color: $linkhovercolor;
+    }
+  }
+  #back-top{
+    position:absolute;
+    right:8px;
+    top:-30px;
+    a{
+      color:white;
+      font-size:2em;
+      opacity:.5;
+      &:hover{
+        opacity:1;
+      }
+      i{
+        border:2px solid white;
+        width:36px;
+        padding:4px;
+        border-radius:30px;
+      }
+    }
+  }
+}
 .footer {
-  border-top: 1px solid #d2d0cd;
-  color: #878c8c;
+//  border-top: 1px solid #d2d0cd;
+//  color: #878c8c;
   font-size: 12px;
   line-height: 18px;
   margin-top: 36px;
   padding-top: 36px;
   padding-bottom: 1px;
-  a {
-    color: #878c8c;
-    &:hover, &:focus {
-      color: $linkhovercolor;
-    }
-  }
+  padding-left:7px;
+  padding-right:7px;
+  position:relative;
   address {
     line-height: 18px;
     margin: 0 0 36px;
@@ -95,6 +128,55 @@
     }
   }
 }
+.footer [class^="material-icons"]{
+  float: left;
+  margin-left: -24px;
+  position: relative;
+  text-align: center;
+  top: .25em;
+  width: 24px;
+  font-size:1.11em !important;
+}
 @media (max-width: 767px){
-  .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"]{margin-left: -8px}
+  .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"], .footer [class^="material-icons"]{margin-left: 0px;}
+  .wrapper{margin-bottom:400px;}
+  .footer-para{
+    height:400px;
+    #back-top{
+      position:relative;
+      display:block;
+      width:40px;
+      margin:0 auto;
+      top:-40px;
+      right:initial;
+    }
+  }
+  .footer{
+    padding: 20px;
+    .list-unstyled{
+//      width:178px;
+      display:table !important;
+      text-align:center;
+      margin: 20px auto 40px auto;
+      li{
+        display:table-cell;
+        width:60px;
+        a{
+          opacity:.5;
+          &:hover{opacity:1;color:white;}
+          i, .material-icons{
+            width:42px;
+            height:43px;
+            border:2px solid white;
+            border-radius:40px;
+            font-size:1.75em !important;
+            padding:10px;
+          }
+        }
+      }
+    }
+    .text-right{
+      text-align:center;
+    }
+  }
 }
