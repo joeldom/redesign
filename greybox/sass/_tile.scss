@@ -137,7 +137,7 @@
       color: #d2d0cd;
     }
     + p {
-      margin-top: 18px;
+      margin-top: .25em;
     }
   }
 }
@@ -300,9 +300,9 @@
 		}
     .tile-excerpt, .featured-info{
       bottom: 18px;
-      margin-right: 25%;
+//      margin-right: 25%;
       padding-left: 15px;
-      padding-right: 0;
+      padding-right: 15px;
       position: absolute;
 			h1,h2,h3,h4,h5,h6{
 				margin:.25em 0;
@@ -310,7 +310,7 @@
     }
     .tile-title {
       margin-right: 0;
-			font-size:18px;
+			font-size:1.15em;
 			margin-top:.5em;
     }
 		.tile-hybrid .tile-title+p{

@@ -24,6 +24,7 @@
 			https://github.com/google/code-prettify							********
 			material design: https://getmdl.io/components/
 			http://www.garbett.com.au/design/
+			http://styleguide.devbproto.com/styleguide
 
 			NOTES:
 			use SVG icons for hero sections with graphics
@@ -128,54 +129,6 @@
       }
       button{background: transparent;border:none;color: white;}
 
-      /*##########################
-          TYPOGRAPHY CHANGES
-      ###########################*/
-			#featured{position: relative;}
-			#featured .featured-info{position: absolute; bottom:0;right:0;}
-			@media (max-width: 767px){
-				#featured .featured-info{position: relative;}
-      }
-			#featured h1,#featured h2,#featured h3,#featured h4,#featured h5,#featured h6{margin:.5em 0;}
-			#featured h1 a, #feaured h2 a, #featured h3 a, #featured h4 a, #featured h5 a{color: #3F3F3F;border: none;}
-			#featured p{letter-spacing: .005em;font-size: .95em;margin-bottom: 12px;line-height: 1.75em;}
-			.intro, .callout{font-weight: 600 !important;letter-spacing: 0;line-height: 1.25em;}
-      h4, .h4{font-size: 1.15em !important;}
-      blockquote::before {content:"“" !important;}
-      blockquote::after {content:"”" !important;}
-			figcaption{color: #545454;}
-			@media (min-width: 768px){
-				.module-article > hr.dashed{
-					display: block;
-					width: 30%;
-					border-bottom: 1px solid #545454;
-					border-top:none;
-					margin-right: 57.66666666666667%;
-					margin-top: 2.5em;
-					margin-bottom: 2.5em;
-				}
-			}
-			@media (min-width: 768px){
-				.module-article pre.prettyprint{
-					margin-right: 41.66666666666667%;
-					margin-top: 0;
-					padding: 10px;
-					border: 1px solid #CCC;
-					max-height: 400px;
-					white-space: pre-wrap;
-					white-space: -moz-pre-wrap !important;
-					white-space: -pre-wrap;
-					white-space: -o-pre-wrap;
-					word-wrap: break-word;
-					overflow-x: auto;
-				}
-			}
-			/* !!! ADJUST HR !!! */
-			hr.dashed{display: block; width: 100%; border-bottom: 2px dashed #545454;}
-			mark{background-color: #FFFF9E; color: #545454;}
-      /*DISPLAYS LIGHTER THAN NON_ITALIC*/
-      /*cite{font-style: italic;}*/
-			.material-icons {font-size: inherit !important;vertical-align: bottom;}
 			@media (min-width: 768px){
 				.module-article > .well, .module-article .panel, .module-article .embed-responsive {margin-right: 42.666667%;padding-right: 8px}
 				.module-article > .newsletter-signup{margin-right: 42.666667%;}
@@ -287,7 +240,7 @@
 
     </style>
   </head>
-	<body class="home page page-id-1281 page-template page-template-template_home page-template-template_home-php">
+	<body class="single-article">
 	<div class="wrapper">
 
     <!-- Navigation Section -->
@@ -325,9 +278,11 @@
 					</ul>
 				</nav>
 				<button type="button" class="navbar-toggle">
+					<span class="icon-bar" style="display: block;"><i class="material-icons">dehaze</i></span>
+					<span class="icon-chevron-up" style="display: none;"><i class="material-icons">clear</i></span>
 					<!-- <span href="#menu" class="box-shadow-menu"></span> -->
 					<!-- <span href="#menu" class="gradient-menu"></span> -->
-					<img width="25px" height="14px" src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/navicon.png" alt="Menu">
+					<!-- <img width="25px" height="14px" src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/navicon.png" alt="Menu"> -->
 				</button>
 			</div>
 		</div>
@@ -340,15 +295,21 @@
 
 
 		<div class="module-hero">
-			<img id="collapse1" src="img/herox2x.png">
-			<div class="module-content palette-grey40  palette-inverse">
-					<div class="container">
-						<h1 class="module-title">Single Article</h1>
-						<p>Published: <time datetime="March 11th, 2016" pubdate="">May 11th, 2016</time></p>
-						<p class="byline"><em>Written by <a href="#">Joel<span class="hint">Say Hi</span></a></em><br></p>
-						<p class="read-time pull-right"><a href="#"><i class="fa fa-eye"></i> 10 MINS <span class="hint">Est. Read Time</span></a></p>
-					</div>
+			<p><img id="collapse1" src="img/herox2x.png"></p>
+			<div class="module-overlay">
+        <div class="container">
+					<p class="category">TYPOGRAPHY</p>
+          <p class="module-title">What will your customers experience today?</p>
+        </div>
+      </div>
+			<!-- <div class="module-content palette-grey40  palette-inverse">
+				<div class="container">
+					<h1 class="module-title">Single Article</h1>
+					<p>Published: <time datetime="March 11th, 2016" pubdate="">May 11th, 2016</time></p>
+					<p class="byline"><em>Written by <a href="#">Joel<span class="hint">Say Hi</span></a></em><br></p>
+					<p class="hidden-xs read-time pull-right"><a href="#"><i class="fa fa-eye"></i> 10 MINS <span class="hint">Est. Read Time</span></a></p>
 				</div>
+			</div> -->
 		</div>
 
 		<!-- <div class="module-hero">
@@ -379,6 +340,7 @@
         </div><!--/col-->
 
 				<div class="col-sm-4 sidebar overlap-sm">
+					<span class="author-headshot"><img src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/me-bw.jpg" alt="Joel D" /></span>
 					<p><strong>Order a copy today,</strong> start changing the world tomorrow.</p>
 					<ul class="list-unstyled">
 						<li><a href="#" target="_blank">Buy on Amazon <span class="amazon"><i class="fa fa-amazon"></i></span></a></li>
@@ -391,6 +353,13 @@
 							</div><!-- end respondify -->
 						</li>
 					</ul>
+					<div class="promo">
+						<button href="#collapse2" class="quote-toggle"><i class="material-icons">clear</i></button>
+						<div id="collapse2" class="palette-grey80 palette-inverse">
+							<p class="text-center">Like what you see? Lets work together!</p>
+							<div class="text-center"><a class="read-more center-block" href="#">Contact&nbsp;Me</a></div>
+						</div>
+					</div>
 				</div><!--/col-->
 				<div class="col-sm-12 social">
 					<span class="post-views">
@@ -438,8 +407,8 @@
 
 		<!-- RELATED SECTION START -->
 		<aside class="container">
-			<div class="module module-related row">
-				<header class="module-header col-sm-12"><h2 class="module-title h4">Related</h2></header>
+			<div class="module row">
+				<header class="module-header module-related col-sm-12"><h2 class="module-title h4">Related</h2></header>
 				<div class="col-sm-4">
 					<article class="tile tile-text">
 						<header class="tile-header">
@@ -506,15 +475,10 @@
 						This is the Graphic / Web design portfolio &amp; blog of Joel Dombek who has 9+ years experience in: logo design, identity design, graphic design, advertising, marketing, web design, and UX design. Read the rest of my <a href="#">Resume</a> here.
 
 						<ul class="list-unstyled hidden-sm hidden-md hidden-lg">
-							<li><a href="#">Home</a></li>
 							<li><a href="#">Work</a></li>
 							<li><a href="#">Blog</a></li>
-							<li><a href="#">Ideas</a></li>
-							<li><a href="#">Quotes</a></li>
 							<li><a href="#">About</a></li>
-							<li><a href="#">Resume</a></li>
 							<li><a href="#">Contact</a></li>
-							<li><a href="#">Search</a></li>
 						</ul>
 					</div>
           <div class="col-xs-12 col-sm-3 col-sm-offset-2">
@@ -660,26 +624,61 @@
 		</div><!-- overlay-search -->
 
     <!-- Scripts -->
+		<!-- <script>
+    	(function($, inActiveTab, undefined) {
 
+			$(function () {
+			  var message = "Hey! Come back!";
+			  var original;
 
+			  $(window).focus(function() {
+			    if(original) {
+			      document.title = original;
+			    }
+			  }).blur(function() {
+			    var title = $('title').text();
+			    if(title != message) {
+			      original = title;
+			    }
+			    document.title = message;
+			  });
+			});
 
-<script type="text/javascript">
-function EasyPeasyParallax() {
-	scrollPos = $(this).scrollTop();
-	$('#banner').css({
-		'background-position' : '50% ' + (-scrollPos/4)+"px"
+      }(window.jQuery, window.inActiveTab));
+    </script> -->
+
+		<script type="text/javascript">
+			var space = " ";
+			var speed = "50";
+			var pos = 0;
+			var msg = "Welcome to my site I hope you enjoy it as much as I enjoyed making it,";
+			function Scroll()
+				{
+					document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+					pos++;
+					if (pos > msg.length) pos = 0;
+					window.setTimeout("Scroll()", speed);
+				}
+				Scroll();
+		</script>
+
+	<script type="text/javascript">
+	function EasyPeasyParallax() {
+		scrollPos = $(this).scrollTop();
+		$('#banner').css({
+			'background-position' : '50% ' + (-scrollPos/4)+"px"
+		});
+		$('#bannertext').css({
+			'margin-top': (scrollPos/4)+"px",
+			'opacity': 1-(scrollPos/250)
+		});
+	}
+	$(document).ready(function(){
+		$(window).scroll(function() {
+			EasyPeasyParallax();
+		});
 	});
-	$('#bannertext').css({
-		'margin-top': (scrollPos/4)+"px",
-		'opacity': 1-(scrollPos/250)
-	});
-}
-$(document).ready(function(){
-	$(window).scroll(function() {
-		EasyPeasyParallax();
-	});
-});
-</script>
+	</script>
 		<style type="text/css" id="cssID">.main{border-color:white !important; border:none !important;}#container > div.main{border:none !important;}
 		.theme-white .extra, .theme-white .main{border-color:white !important;}
 		iframe *, iframe * *, iframe * * *, iframe * * * *, iframe * * * * *, iframe * * * * * *{border-color:white !important;border:none !important;}</style>
@@ -701,7 +700,7 @@ $(document).ready(function(){
         //Or $("#iFrameID").contents().find("head")[0].appendChild($('#cssID')[0]);
     });
 </script>
-		<script src="js/main-1.2.13.min.js"></script>
+		<script src="js/main.js"></script>
 		<script src="js/quotes.js"></script>
 		<!-- <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
     <script type='text/javascript' src='http://www.joeldombek.com/blog/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3'></script> -->

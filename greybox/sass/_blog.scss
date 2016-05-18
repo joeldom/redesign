@@ -42,13 +42,46 @@
   #blog-recent-list li a{text-decoration: none;border: none;}
 }
 .sidebar p strong{display: block;}
-.sidebar p, .sidebar li a{
-  /*margin-bottom:2px;*/
-  margin-bottom:0px;
-  padding:24px 36px;
-  background-color: white;
-  position: relative;
-  border-bottom: 1px dotted #d7d7d7;
+.sidebar{
+  p, li a{
+    margin-bottom:0px;
+    padding:24px 36px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px dotted #d7d7d7;
+  }
+  .quote-toggle{
+    position:absolute;
+    right:0;
+    top:0;
+    padding:0;
+    width:100%;
+    text-align:right;
+    outline:none;
+    z-index:2;
+    opacity:.75;
+    &:hover{opacity:1;}
+    i{
+      background-color:white;
+      color:$textcolor;
+      font-size:.8em !important;
+      vertical-align:top;
+    }
+  }
+  .promo{
+    padding:0px;
+    position:relative;
+     &> div{padding:50px 20px;}
+    p{
+      background-color: $grey80;
+      border-bottom: none;
+      margin:0 0 1em 0;
+      font-size:2em;
+      line-height:1.2em;
+      font-weight:900;
+      padding: 0;
+    }
+  }
 }
 .sidebar li a{display: block; text-decoration: none;font-weight: bold;}
 .sidebar li a .bitcoin, .sidebar li a .amazon{

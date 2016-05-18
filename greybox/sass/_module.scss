@@ -60,7 +60,7 @@ ul{
     }
   }
   .module-title {
-    margin: 12px 0 6px;
+    margin: 34px 0 6px;
     font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
@@ -91,7 +91,7 @@ ul{
     display: block;
     content: ' ';
     height: 1px;
-    margin: 36px 8px;
+    margin: 36px 0px;
     overflow: hidden;
     width: 25%;
   }
@@ -152,7 +152,7 @@ ul{
       padding-right: 18px;
     }
     .module-content {
-      font-size: 18px;
+      font-size: 14px;
       letter-spacing: 0;
       line-height: 1.3333333333333333;
       font-weight: 500;
@@ -248,7 +248,7 @@ ul{
       text-indent: -0.06em;
     }
     .module-content .module-title {
-      font-size: 30px;
+      font-size: 24px;
       line-height: 1.2;
     }
   }
@@ -283,3 +283,26 @@ ul{
       color: white;
     }
   }
+  .sidebar{
+    .list-unstyled{
+      margin:0;
+    }
+  }
+.single-article{
+  .module-overlay{
+    bottom:-18px;
+    .module-title{
+      border-bottom:none;
+    }
+  }
+}
+@media (min-width: 1380px) {
+  .single-article{
+    .container{
+      max-width:1080px;
+      .body{
+        margin-top:20px;
+      }
+    }
+  }
+}

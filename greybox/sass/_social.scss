@@ -43,3 +43,12 @@ a:hover span.hint, .social span a:hover span.hint, .read-time a:hover span.hint{
   display: inline-block;
   color: white;
 }
+@media (max-width: 768px) {
+  .social{
+    font-size:1.25em;
+    text-align:center;
+  }
+  .module-related:before, .social:before{
+    width: 100% !important;
+  }
+}

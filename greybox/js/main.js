@@ -5010,7 +5010,7 @@ function (a, b) {
             a(".navbar-responsive-collapse", i).css({
                 height: c
             }), a(".navbar-toggle", i).css({
-                top: b - 50
+                top: b - 70
             }).find(".icon-chevron-up, .icon-bar").fadeToggle(350)
         } else a(".navbar-responsive-collapse", i).css({
             height: 0
