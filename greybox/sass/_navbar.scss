@@ -24,7 +24,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar {
     border-radius: 0;
   }
@@ -51,7 +51,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-header {
     float: left;
   }
@@ -88,7 +88,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -116,7 +116,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .container > {
     .navbar-header, .navbar-collapse {
       margin-right: 0;
@@ -130,7 +130,7 @@
   border-width: 0 0 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -143,7 +143,7 @@
   z-index: 1030;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-fixed-top, .navbar-fixed-bottom {
     border-radius: 0;
   }
@@ -171,7 +171,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar > .container .navbar-brand {
     margin-left: -36px;
   }
@@ -202,7 +202,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-toggle {
     display: none;
   }
@@ -238,7 +238,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-nav {
     float: left;
     margin: 0;
@@ -255,7 +255,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-left {
     float: left!important;
     float: left;
@@ -278,7 +278,7 @@
   margin-bottom: 5px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-form {
     .form-group {
       display: inline-block;
@@ -310,7 +310,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-form {
     width: auto;
     border: 0;
@@ -362,7 +362,7 @@
   margin-bottom: 12px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .navbar-text {
     float: left;
     margin-left: 36px;
@@ -727,7 +727,7 @@
   }
   .navbar-nav > li > a, .dropdown-menu > li > a, .dropdown-submenu > li > a {
     display: block;
-    font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $font-family-sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 30px;
@@ -785,7 +785,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: $break-small-min) {
   .navbar {
     padding: 36px 18px 0;
     -webkit-transition: padding .2s ease;
@@ -825,14 +825,14 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: $break-medium) {
   .navbar {
     padding-left: 22px;
     padding-right: 22px;
   }
 }
 
-@media screen and (min-width: 1380px) {
+@media screen and (min-width: $break-large) {
   .navbar {
     padding-left: 34px;
     padding-right: 34px;
@@ -855,11 +855,11 @@
 			.navbar-toggle:focus{outline: none;}
 
 			.box-shadow-menu {position: relative;padding-left: 1.25em;text-indent: -9999px;text-decoration: none !important;}
-			.box-shadow-menu:before{content: "";position: absolute;left: 0;top: 0;width: 1.8em;height: 0.15em;background: #545454;box-shadow: 0 0.5em 0 0 #545454,0 1em 0 0 #545454;}
+			.box-shadow-menu:before{content: "";position: absolute;left: 0;top: 0;width: 1.8em;height: 0.15em;background: $textcolor;box-shadow: 0 0.5em 0 0 $textcolor,0 1em 0 0 $textcolor;}
 
 			.border-menu{position: relative;padding-left: 1.25em;}
 			.border-menu:before {content: "";position: absolute;top: 0.25em;left: 0;width: 1em;height: 0.125em;border-top: 0.375em double #000;border-bottom: 0.125em solid #000;}
 
 			.gradient-menu {padding-left: 1.25em;position: relative;}
-			.gradient-menu:before {content: "";position: absolute;left: 0;top: 0px;bottom: 0.21em;width: 1.65em;background: linear-gradient(to bottom, #545454, #545454 20%, white 20%, white 40%, #545454 40%, #545454 60%, white 60%, white 80%, #545454 80%, #545454 100%);}
+			.gradient-menu:before {content: "";position: absolute;left: 0;top: 0px;bottom: 0.21em;width: 1.65em;background: linear-gradient(to bottom, $textcolor, $textcolor 20%, white 20%, white 40%, $textcolor 40%, $textcolor 60%, white 60%, white 80%, $textcolor 80%, $textcolor 100%);}
 			.navbar-toggle:hover .gradient-menu:before{background: linear-gradient(to bottom, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black 100%);}

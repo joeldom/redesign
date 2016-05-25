@@ -75,7 +75,7 @@
       padding: 12px 10px;
     }
     .tile-title {
-      font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: $font-family-sans-serif;
       line-height: 1.1;
       color: inherit;
       font-size: 30px;
@@ -110,7 +110,7 @@
     text-shadow: 1px 1px 1px rgba(101, 101, 101, 0.2);
   }
   .tile-title {
-    font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $font-family-sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 22px;
@@ -132,7 +132,7 @@
 .tile-people {
   .tile-title {
     bottom: 24px;
-    font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $font-family-sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 30px;
@@ -169,7 +169,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $break-small-max) {
   .tile-graphic.tile-large .tile-excerpt[class*="palette-"] {
     background-color: transparent;
     border-bottom: 2px solid #d2d0cd;
@@ -201,7 +201,7 @@
     }
     &.tile-small .tile-title {
       bottom: 18px;
-      font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: $font-family-sans-serif;
       line-height: 1.1;
       color: inherit;
       font-size: 14px;
@@ -237,7 +237,7 @@
         text-shadow: 1px 1px 1px rgba(101, 101, 101, 0.2);
         + p {
           border-top: 1px solid #fff;
-          font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-family: $font-family-sans-serif;
           line-height: 1.1;
           color: inherit;
           font-size: 14px;
@@ -313,7 +313,7 @@
   .tile-people {
     &.tile-small .tile-title {
       bottom: 18px;
-      font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: $font-family-sans-serif;
       line-height: 1.1;
       color: inherit;
       font-size: 14px;
@@ -336,7 +336,7 @@
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $break-medium) {
   .tile {
     .picturefill-small {
       height: 180px;
@@ -377,7 +377,7 @@
       background: none;
       @include transition(all 0.3s ease-in-out);
 			+ p {
-				font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-family: $font-family-sans-serif;
 				line-height: 1.1;
 				color: inherit;
 				font-size: 36px;
@@ -410,9 +410,9 @@
         letter-spacing: -0.01em;
         line-height: .96;
         text-indent: -0.06em;
-        margin-right: 41.66666666666667%;
+        margin-right: $col-5;
         + p {
-          font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-family: $font-family-sans-serif;
           line-height: 1.1;
           color: inherit;
           font-size: 36px;
@@ -494,7 +494,7 @@
   }
 }
 
-@media (min-width: 1380px) {
+@media (min-width: $break-large) {
   .tile {
     .picturefill-small {
       height: 246px;
@@ -511,7 +511,7 @@
       padding: 0 34px;
     }
     .tile-title + p {
-      padding-right: 41.66666666666667%;
+      padding-right: $col-5;
     }
   }
   .tile-hybrid {
@@ -541,20 +541,93 @@
   }
 }
 
-@media (max-width: 1380px) {
+@media (max-width: $break-large) {
 	#projects{
 		.col-sm-4{
 			.tile-medium{max-height: 318px;overflow: hidden}
 		}
 	}
 }
-@media (max-width: 992px) {
+@media (max-width: $break-medium) {
 	#featured .featured-image{padding-right: 0;}
 	#projects .col-sm-4 .tile-medium{max-height: 193px;overflow: hidden;}
 }
-@media (max-width: 767px){
+@media (max-width: $break-small-max){
 	#projects .row .col-sm-4 article{
 		max-height:335px;
 		overflow:hidden;
+	}
+}
+.related-posts{
+	height:33.333vh;
+	display:block;
+	box-sizing:border-box;
+	margin-bottom:$footer-height;
+	z-index:1;
+	@media (max-width: $break-small-max){
+		margin-bottom:$footer-height * 4.192;
+	}
+}
+
+.grid{
+	.grid-inner{
+		&.full-3{
+			article{
+				width:33.333%;
+				float:left;
+				height:33.333vh;
+				min-height:350px;
+				background-size: cover;
+				background-position: center center;
+				background-color:#BABABA;
+				/*#fff*/
+				position:relative;
+				padding:0 5%;
+				@media (max-width: $break-small-max){
+					height:250px;
+					width:100%;
+				}
+				a{
+					display:table;
+					height:100%;
+					width:100%;
+					text-align:center;
+					position:relative;
+					border:none;
+					.cat:after{
+						height:2px;
+						width:60px;
+						background-color:#fff;
+						content:" ";
+						margin:15px auto 30px auto;
+						display:block;
+						transition:width 0.2s;
+						-webkit-transition:width 0.2s;
+						-moz-transition:width 0.2s;
+						-ms-transition:width 0.2s;
+						-o-transition:width 0.2s;
+					}
+				}
+				.article-inner{
+					display:table-cell;
+					vertical-align:middle;
+				}
+			}
+			article:before{
+				display:block;
+				content:" ";
+				position:absolute;
+				top:0;bottom:0;left:0;right:0;
+				opacity:.25;
+				background-color:rgba(125,125,125,1);
+			}
+			article:hover:before{
+				opacity:.75;
+				cursor:pointer;
+			}
+			article:hover .cat:after{
+				width:100px;
+			}
+		}
 	}
 }
