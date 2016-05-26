@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19115",
 "files": {
 	"\/config.rb": {
 		"fileType": 131072,
@@ -1751,7 +1751,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_blog.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1767,7 +1767,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_bootstrap.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1783,7 +1783,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_button.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1799,7 +1799,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_carousel.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1815,7 +1815,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_colors.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1831,7 +1831,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_flat-fonts.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1847,7 +1847,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_flat.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1863,7 +1863,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_footer.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1879,7 +1879,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_form.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1895,7 +1895,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_googlemap.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1911,7 +1911,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_icon.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1927,7 +1927,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_mixins.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1943,7 +1943,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_modal.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1959,7 +1959,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_module.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1975,7 +1975,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_navbar.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1991,7 +1991,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_overlay.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2007,7 +2007,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_palette.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2023,7 +2023,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_prime.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2039,7 +2039,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_quotes.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2055,7 +2055,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_reset.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2071,7 +2071,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_social.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2087,7 +2087,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_tile.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2103,7 +2103,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_typography.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2119,7 +2119,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_warning.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2134,13 +2134,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
 	"\/sass\/embed.scss": {
 		"createSourceMap": 1,
-=======
-	"\/sass\/backup\/main.scss": {
-		"createSourceMap": 0,
->>>>>>> origin/gh-pages
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2156,7 +2151,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/global.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2172,7 +2167,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/ie.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2192,8 +2187,8 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/sass\/main.scss",
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
@@ -2204,7 +2199,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/print.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2220,7 +2215,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/screen.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -7851,7 +7846,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Joel Dombek",
+"lastSavedByUser": "Dombek, Joel",
 "manualImportLinks": {
 	},
 "projectAttributes": {
@@ -8492,7 +8487,7 @@
 	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleResolutionType": 0,
-	"typescriptModuleType": 2,
+	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
