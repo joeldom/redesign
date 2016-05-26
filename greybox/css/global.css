@@ -5589,8 +5589,7 @@ p {
   margin: 0 0 5px; }
 
 blockquote.h2 {
-  font-weight: 600;
-  letter-spacing: -0.02em; }
+  font-weight: 600; }
 
 @media (max-width: 768px) {
   h1, .h1 {
@@ -8402,8 +8401,8 @@ input[type="submit"]:hover {
 .sidebar .promo {
   padding: 0px;
   position: relative; }
-  .sidebar .promo > div {
-    padding: 50px 20px; }
+  .sidebar .promo div {
+    padding: 20px; }
   .sidebar .promo p {
     background-color: #474747;
     border-bottom: none;
