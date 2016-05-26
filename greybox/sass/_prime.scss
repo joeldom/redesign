@@ -4,16 +4,17 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: $font-family-sans-serif;
-  font-size: $font-size-base;
+  font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
   line-height: 1.7857142857142858;
   //1.4857142857142858 , 1.2857142857142858
   color: $textcolor ;
   background-color: $bodycolor;
 }
+$footer-height: 250px;
 .wrapper{
   background-color: $bodycolor;
-//  margin-bottom:$footer-height;
+  margin-bottom:$footer-height;
   z-index:1;
   padding-bottom:20px;
 }
@@ -148,7 +149,7 @@ hr {
 }
 
 .page-header {
-  padding-bottom: $gutter;
+  padding-bottom: 8px;
   margin: 36px 0 18px;
   border-bottom: 1px solid #ededed;
 }
@@ -197,7 +198,7 @@ dd {
   margin-left: 0;
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .dl-horizontal {
     dt {
       float: left;
@@ -288,7 +289,7 @@ blockquote {
 output {
   display: block;
   padding-top: 7px;
-  font-size: $font-size-base;
+  font-size: 14px;
   line-height: 1.2857142857142858;
   color: #b0aca8;
   vertical-align: middle;
@@ -786,7 +787,7 @@ input {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: $font-size-base;
+  font-size: 14px;
   background-color: transparent;
   border: 1px solid #ccc;
   border: 1px solid transparent;
@@ -800,7 +801,7 @@ input {
   }
   .divider {
     height: 1px;
-    margin: $gutter 0;
+    margin: 8px 0;
     overflow: hidden;
     background-color: #e5e5e5;
   }
@@ -890,7 +891,7 @@ input {
   margin-bottom: 1px;
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
     left: auto;
@@ -1019,7 +1020,7 @@ a.list-group-item {
   }
   .nav-divider {
     height: 1px;
-    margin: $gutter 0;
+    margin: 8px 0;
     overflow: hidden;
     background-color: #e5e5e5;
   }
@@ -1086,7 +1087,7 @@ a.list-group-item {
   }
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .nav-tabs.nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -1096,7 +1097,7 @@ a.list-group-item {
   }
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .nav-tabs.nav-justified > {
     li > a {
       border-bottom: 1px solid #ddd;
@@ -1154,7 +1155,7 @@ a.list-group-item {
   }
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .nav-justified > li {
     display: table-cell;
     width: 1%;
@@ -1180,7 +1181,7 @@ a.list-group-item {
   }
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .nav-tabs-justified > {
     li > a {
       border-bottom: 1px solid #ddd;
@@ -1247,7 +1248,7 @@ a.list-group-item {
   list-style: none;
 }
 
-/*@font-face {
+@font-face {
   font-family: "Helvetica-Neue";
   font-style: normal;
   font-weight: 200;
@@ -1271,7 +1272,7 @@ a.list-group-item {
   font-weight: 700;
   src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
   src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"), url("../fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"), url("../fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"), url("../fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
-}*/
+}
 
 /*CHANGED TO WRAPPER*/
 .wrapper {
@@ -1282,7 +1283,7 @@ a.list-group-item {
   width: 100%;
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .wrapper {
     padding: 75px 18px 6px;
     -webkit-transition: padding .2s ease;
@@ -1304,7 +1305,7 @@ a.list-group-item {
   }
 }
 
-@media (min-width: $break-medium) {
+@media (min-width: 992px) {
   .wrapper {
     padding-left: 22px;
     padding-right: 22px;
@@ -1322,7 +1323,7 @@ a.list-group-item {
   }
 }
 
-@media (min-width: $break-large) {
+@media (min-width: 1380px) {
   .wrapper {
     padding-left: 34px;
     padding-right: 34px;
@@ -1390,7 +1391,7 @@ a {
 }
 
 .intro, .callout {
-  font-family: $font-family-sans-serif;
+  font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.1;
   color: inherit;
   font-size: 24px;
@@ -1420,7 +1421,7 @@ a {
   margin-bottom: 48px;
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .callout, .intro {
     font-size: 22px;
     line-height: 1.0909090909090908;
@@ -1456,7 +1457,7 @@ a {
   display: block;
   content: ' ';
   height: 1px;
-  margin: 36px $gutter;
+  margin: 36px 8px;
   overflow: hidden;
 }
 
@@ -1482,7 +1483,7 @@ a {
   }
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .cta {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -1490,7 +1491,7 @@ a {
   }
   .overlap-sm {
     position: relative;
-    margin-top: $overlap;
+    margin-top: -36px;
     z-index: 2;
   }
   .underlap-sm {
@@ -1499,9 +1500,9 @@ a {
     + .row.module-hero {
       .picturefill-large {
         clear: both;
-        margin-bottom: $overlap;
+        margin-bottom: -36px;
         position: relative;
-        top: $overlap;
+        top: -36px;
         z-index: -1;
       }
       .tile-title {
@@ -1511,7 +1512,7 @@ a {
   }
 }
 
-@media (min-width: $break-medium) {
+@media (min-width: 992px) {
   .cta {
     font-size: 12px;
     padding: 8px 9px 7px 10px;
@@ -1520,7 +1521,7 @@ a {
   }
   .overlap-lg {
     position: relative;
-    margin-top: $overlap;
+    margin-top: -36px;
     z-index: 2;
   }
   .underlap-lg {
@@ -1529,9 +1530,9 @@ a {
     + .row.module-hero {
       .picturefill-large {
         clear: both;
-        margin-bottom: $overlap;
+        margin-bottom: -36px;
         position: relative;
-        top: $overlap;
+        top: -36px;
         z-index: -1;
       }
       .tile-title {
@@ -1605,7 +1606,7 @@ a {
   .job-listings {
     padding: 0;
     margin-bottom: 20px;
-    margin-top: $gutter;
+    margin-top: 8px;
   }
   .job-listing {
     padding: 0;
@@ -1616,7 +1617,7 @@ a {
     letter-spacing: .005em;
     line-height: 1.2857142857142858;
     color: #111;
-    font-size: $font-size-base;
+    font-size: 14px;
     font-weight: 200;
     &:hover {
       text-decoration: underline;
@@ -1628,7 +1629,7 @@ a {
   }
   .job-department {
     margin: 0 0 5px 0;
-    font-size: $font-size-base;
+    font-size: 14px;
     opacity: .6;
     font-weight: 200;
   }
@@ -1666,7 +1667,7 @@ a {
 
 .job-details {
   padding-left: 16px;
-  font-size: $font-size-base;
+  font-size: 14px;
 }
 
 .page-opening-details {
@@ -1700,7 +1701,7 @@ a {
 
 .page-people {
   .intro {
-    font-size: $font-size-base;
+    font-size: 14px;
     font-weight: 200;
     letter-spacing: .005em;
     line-height: 1.2857142857142858;
@@ -1825,12 +1826,12 @@ a {
   }
 }
 
-@media (min-width: $break-small-min) {
+@media (min-width: 768px) {
   .page-ideas .tile-hybrid.tile-medium .tile-title {
-    font-family: $font-family-sans-serif;
+    font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
-    font-size: $font-size-base;
+    font-size: 14px;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.125;
@@ -1862,7 +1863,7 @@ a {
     display: block;
   }
   .page-case-study {
-    font-size: $font-size-base;
+    font-size: 14px;
     line-height: 1.5;
   }
   .page-perspective .module-hero + .module-hero, .page-how-we-work .module-hero + .module-hero {
@@ -1909,7 +1910,7 @@ a {
   }
 }
 
-@media (min-width: $break-medium) {
+@media (min-width: 992px) {
   .page-ideas .tile-hybrid.tile-medium .tile-title {
     font-size: 22px;
     line-height: 1.0909090909090908;
@@ -1937,12 +1938,12 @@ a {
   }
 }
 
-@media (min-width: $break-large) {
+@media (min-width: 1380px) {
   .page-location .tile-hybrid {
     min-height: 438px;
   }
   .page-perspective .module-content .module-title, .page-how-we-work .module-content .module-title, .page-perspective .module-extended .container, .page-how-we-work .module-extended .container {
-    padding-right: $col-5;
+    padding-right: 41.66666666666667%;
   }
   .page-perspective .module-extended, .page-how-we-work .module-extended {
     margin: -18px -34px 18px;
@@ -1966,7 +1967,7 @@ a {
 
 .video-ideas {
   margin-bottom: 40px;
-  margin-right: $col-5;
+  margin-right: 41.66666666666667%;
   iframe {
     height: 240px;
   }
@@ -1987,7 +1988,7 @@ a {
   }
 }
 
-@media (min-width: $break-large) {
+@media (min-width: 1380px) {
   .video-ideas iframe {
     height: 460px;
   }

@@ -48,7 +48,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: $font-size-base;
+  font-size: 14px;
 }
 
 h6, .h6 {
@@ -84,7 +84,7 @@ blockquote.h2{
   }
 
   h5, .h5 {
-    font-size: $font-size-base;
+    font-size: 14px;
   }
 
   h6, .h6 {
@@ -132,7 +132,7 @@ cite {
 
 #featured{position: relative;}
 #featured .featured-info{position: absolute; bottom:0;right:0;}
-@media (max-width: $break-small-max){
+@media (max-width: 767px){
   #featured .featured-info{position: relative;}
 }
 #featured h1,#featured h2,#featured h3,#featured h4,#featured h5,#featured h6{margin:.5em 0;}
@@ -147,7 +147,7 @@ figcaption{color: inherit;font-weight:bold;}
   .module-article > hr.dashed{
     display: block;
     width: 30%;
-    border-bottom: 1px solid $textcolor;
+    border-bottom: 1px solid #545454;
     border-top:none;
     margin-right: 57.66666666666667%;
     margin-top: 2.5em;
@@ -156,7 +156,7 @@ figcaption{color: inherit;font-weight:bold;}
 }
 @media (min-width: 768px){
   .module-article pre.prettyprint{
-    margin-right: $col-5;
+    margin-right: 41.66666666666667%;
     margin-top: 0;
     padding: 10px;
     border: 1px solid #CCC;
@@ -170,8 +170,8 @@ figcaption{color: inherit;font-weight:bold;}
   }
 }
 /* !!! ADJUST HR !!! */
-hr.dashed{display: block; width: 100%; border-bottom: 2px dashed $textcolor;}
-mark{background-color: #FFFF9E; color: $textcolor;}
+hr.dashed{display: block; width: 100%; border-bottom: 2px dashed #545454;}
+mark{background-color: #FFFF9E; color: #545454;}
 /*DISPLAYS LIGHTER THAN NON_ITALIC*/
 /*cite{font-style: italic;}*/
 .material-icons {font-size: inherit !important;vertical-align: bottom;}

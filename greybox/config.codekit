@@ -110,15 +110,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/embed.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/embed.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/font-awesome-ie7.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -200,15 +191,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/variables.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/variables.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/flat.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -250,15 +232,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/font\/stylesheet.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/full.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/full.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -811,423 +784,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/_backup\/5.24.16\/bootstrap-sprockets.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap-sprockets.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/bootstrap-sprockets-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/bootstrap-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/bootstrap.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-alert.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-alert.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-alert-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-button.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-button.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-button-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-carousel.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-carousel.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-carousel-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-collapse.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-collapse.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-collapse-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-dropdown.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-dropdown.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-dropdown-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-modal.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-modal.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-modal-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-popover.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-popover.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-popover-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-scrollspy.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-scrollspy.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-scrollspy-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-tab.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-tab.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-tab-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-tooltip.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-tooltip.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-tooltip-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-transition.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-transition.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-transition-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-typeahead.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/bootstrap-typeahead.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/2.0.1\/min\/bootstrap-typeahead-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/affix.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/affix.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/affix-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/alert.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/alert.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/alert-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/button.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/button.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/button-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/carousel.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/carousel.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/carousel-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/collapse.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/collapse.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/collapse-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/dropdown.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/dropdown.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/dropdown-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/modal.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/modal.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/modal-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/popover.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/popover.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/popover-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/scrollspy.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/scrollspy.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/scrollspy-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/tab.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/tab.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/tab-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/tooltip.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/tooltip.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/tooltip-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/bootstrap\/transition.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/transition.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/bootstrap\/min\/transition-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/ga.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/ga.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/ga-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/main-1.2.13.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/main-1.2.13.min.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/main-1.2.13.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/main.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/min\/main-1.2.13.min-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/main-1.2.13.min-min.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/min\/main-1.2.13.min-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/min\/quotes-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/quotes-min.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/min\/quotes-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/modernizr.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/modernizr.min.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/modernizr.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/quotes.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/quotes.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/quotes-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/js\/_backup\/5.24.16\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/js\/_backup\/5.24.16\/scale.fix.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/_backup\/5.24.16\/scale.fix.js",
-		"outputAbbreviatedPath": "\/js\/_backup\/5.24.16\/min\/scale.fix-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/bootstrap-alert.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1718,38 +1274,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/sass\/_backup\/5.24.16\/_bootstrap.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_backup\/5.24.16\/_bootstrap.scss",
-		"outputAbbreviatedPath": "\/css\/_bootstrap.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/_backup\/main.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/_backup\/main.scss",
-		"outputAbbreviatedPath": "\/css\/main.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/_blog.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -1767,7 +1291,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_bootstrap.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1863,7 +1387,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_footer.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1959,7 +1483,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_module.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1975,7 +1499,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_navbar.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2007,7 +1531,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_palette.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2023,7 +1547,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_prime.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2087,7 +1611,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_tile.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2103,7 +1627,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_typography.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2134,15 +1658,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/embed.scss": {
-		"createSourceMap": 1,
+	"\/sass\/backup\/main.scss": {
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/embed.scss",
-		"outputAbbreviatedPath": "\/css\/embed.css",
+		"inputAbbreviatedPath": "\/sass\/backup\/main.scss",
+		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2151,7 +1675,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/global.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2223,22 +1747,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sass\/screen.scss",
 		"outputAbbreviatedPath": "\/css\/screen.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/sass\/variables.scss": {
-		"createSourceMap": 1,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/variables.scss",
-		"outputAbbreviatedPath": "\/css\/variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
