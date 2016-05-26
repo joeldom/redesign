@@ -1751,7 +1751,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_blog.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1767,7 +1767,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_bootstrap.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1783,7 +1783,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_button.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1799,7 +1799,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_carousel.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1815,7 +1815,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_colors.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1831,7 +1831,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_flat-fonts.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1847,7 +1847,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_flat.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1863,7 +1863,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_footer.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1879,7 +1879,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_form.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1895,7 +1895,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_googlemap.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1911,7 +1911,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_icon.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1927,7 +1927,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_mixins.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1943,7 +1943,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_modal.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1959,7 +1959,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_module.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1975,7 +1975,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_navbar.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1991,7 +1991,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_overlay.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2007,7 +2007,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_palette.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2023,7 +2023,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_prime.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2039,7 +2039,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_quotes.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2055,7 +2055,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_reset.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2071,7 +2071,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_social.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2087,7 +2087,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_tile.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2103,7 +2103,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_typography.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2119,7 +2119,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_warning.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2134,13 +2134,8 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-<<<<<<< HEAD
 	"\/sass\/embed.scss": {
 		"createSourceMap": 1,
-=======
-	"\/sass\/backup\/main.scss": {
-		"createSourceMap": 0,
->>>>>>> origin/gh-pages
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2156,7 +2151,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/global.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2172,7 +2167,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/ie.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2188,7 +2183,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2204,7 +2199,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/print.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2220,7 +2215,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/screen.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -8451,7 +8446,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
