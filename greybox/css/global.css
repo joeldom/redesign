@@ -8488,6 +8488,15 @@ input[type="submit"]:hover {
   margin: 36px 0px;
   overflow: hidden;
   width: 25%; }
+.social:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  content: ' ';
+  height: 1px;
+  margin: 18px 0px;
+  width: 25%; }
 
 .social span {
   margin-right: 20px;
@@ -8533,7 +8542,6 @@ a:hover span.hint, .social span a:hover span.hint, .read-time a:hover span.hint 
 
   .module-related:before, .social:before {
     width: 100% !important; } }
-<<<<<<< HEAD
 /*
   embeded styles from start
 */
@@ -8865,5 +8873,3 @@ q
   padding: 0 0 1.5em 0; }
 
 /*# sourceMappingURL=global.css.map */
-=======
->>>>>>> origin/gh-pages
