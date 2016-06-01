@@ -306,3 +306,9 @@ ul{
     }
   }
 }
+p[class*='col-']{
+  margin:0 0 16px;
+  @media (max-width: $break-small-max){
+    margin:0 0 0;
+  }
+}

@@ -5036,6 +5036,12 @@ ul{
     max-width: 1080px; }
     .single-article .container .body {
       margin-top: 20px; } }
+p[class*='col-'] {
+  margin: 0 0 16px; }
+  @media (max-width: 767px) {
+    p[class*='col-'] {
+      margin: 0 0 0; } }
+
 /*.edgeless [class*=' col-'], .edgeless .row [class*=' col-'], .edgeless .tile{
 	margin:0;
 	padding:0;
