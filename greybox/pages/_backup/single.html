@@ -357,8 +357,8 @@
 					<div class="promo">
 						<button href="#collapse2" class="quote-toggle"><i class="material-icons">clear</i></button>
 						<div id="collapse2" class="palette-grey80 palette-inverse">
-							<p class="text-center">Like what you see? Lets work together!</p>
-							<div class="text-center"><a class="read-more center-block" href="#">Contact&nbsp;Me</a></div>
+							<p>Like what you see? Lets work together!</p>
+							<div class="text-center"><a class="read-more center-block" href="#">Contact</a></div>
 						</div>
 					</div>
 				</div><!--/col-->
@@ -625,6 +625,7 @@
 		</div><!-- overlay-search -->
 
     <!-- Scripts -->
+<<<<<<< HEAD
 		<script>
     	(function($, inActiveTab, undefined) {
 
@@ -647,24 +648,28 @@
 
       }(window.jQuery, window.inActiveTab));
     </script>
+=======
 
-	<script type="text/javascript">
-	function EasyPeasyParallax() {
-		scrollPos = $(this).scrollTop();
-		$('#banner').css({
-			'background-position' : '50% ' + (-scrollPos/4)+"px"
-		});
-		$('#bannertext').css({
-			'margin-top': (scrollPos/4)+"px",
-			'opacity': 1-(scrollPos/250)
-		});
-	}
-	$(document).ready(function(){
-		$(window).scroll(function() {
-			EasyPeasyParallax();
-		});
+
+>>>>>>> parent of c2da404... INDEX AND PAGE JAVASCRIPTS
+
+<script type="text/javascript">
+function EasyPeasyParallax() {
+	scrollPos = $(this).scrollTop();
+	$('#banner').css({
+		'background-position' : '50% ' + (-scrollPos/4)+"px"
 	});
-	</script>
+	$('#bannertext').css({
+		'margin-top': (scrollPos/4)+"px",
+		'opacity': 1-(scrollPos/250)
+	});
+}
+$(document).ready(function(){
+	$(window).scroll(function() {
+		EasyPeasyParallax();
+	});
+});
+</script>
 		<style type="text/css" id="cssID">.main{border-color:white !important; border:none !important;}#container > div.main{border:none !important;}
 		.theme-white .extra, .theme-white .main{border-color:white !important;}
 		iframe *, iframe * *, iframe * * *, iframe * * * *, iframe * * * * *, iframe * * * * * *{border-color:white !important;border:none !important;}</style>

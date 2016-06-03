@@ -1,13 +1,4 @@
 //_footer.scss
-/*.paralax-bottom{
-  display:block;
-  margin-bottom:$footer-height;
-  position:relative;
-  margin:0;
-  clear:both;
-  height:100%;
-  z-index:1;
-}*/
 .footer-para{
   background-color: #2a2a2a;
   height:$footer-height;
@@ -148,10 +139,7 @@
 }
 @media (max-width: 767px){
   .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"], .footer [class^="material-icons"]{margin-left: 0px;}
-  .footer-push{
-    display:block;
-    height:400px;
-  }
+  .wrapper{margin-bottom:400px;}
   .footer-para{
     height:400px;
     #back-top{
