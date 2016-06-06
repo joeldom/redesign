@@ -38,7 +38,7 @@ ul{
   }
 */
   li{
-  	letter-spacing: .005em;
+  	letter-spacing: $letter-spacing;
 		margin-bottom: 18px;
 		font-weight: 200;
 		text-rendering: optimizeLegibility;
@@ -61,12 +61,11 @@ ul{
   }
   .module-title {
     margin: 34px 0 6px;
-    font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: $font-family-sans-serif;
     line-height: 1.1;
     color: inherit;
-    font-size: 30px;
-    font-size: 22px;
-    font-weight: 500;
+    font-size: $font-size-large;
+    font-weight: 900;
     line-height: 1.0909090909090908;
     small, .small {
       font-weight: normal;
@@ -100,7 +99,7 @@ ul{
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $break-small-max) {
   .module-hero .module-overlay[class*="palette-"] {
     background-color: transparent;
     border-bottom: 2px solid #d2d0cd;
@@ -108,7 +107,7 @@ ul{
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: $break-small-min) {
   .module-article .author {
     &.overlap-sm, &.overlap-lg {
       margin-top: -12px;
@@ -116,7 +115,7 @@ ul{
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $break-small-min) {
   .module-article {
     padding-left: 0;
     padding-right: 0;
@@ -128,7 +127,7 @@ ul{
     }
     > {
       h4, p, figure, ol, ul {
-        margin-right: 41.66666666666667%;
+        margin-right: $col-5;
         padding-right: 8px;
       }
       h3:first-of-type {
@@ -139,7 +138,7 @@ ul{
       margin-bottom: 36px;
     }
     .author-about {
-      padding-right: 33.33333333333333%;
+      padding-right: $col-4;
     }
   }
   .module-hero {
@@ -152,7 +151,7 @@ ul{
       padding-right: 18px;
     }
     .module-content {
-      font-size: 14px;
+      font-size: $font-size-base;
       letter-spacing: 0;
       line-height: 1.3333333333333333;
       font-weight: 500;
@@ -160,7 +159,7 @@ ul{
         min-height: 150px;
       }
       .module-title {
-        max-width: 66.66666666666666%;
+        max-width: $col-8;
       }
     }
     .module-overlay {
@@ -180,11 +179,11 @@ ul{
       .module-title {
         border-bottom: 1px solid #d2d0cd;
         padding-bottom: 24px;
-        padding-right: 33.33333333333333%;
+        padding-right: $col-4;
       }
     }
     .module-title {
-      font-size: 30px;
+      font-size: $font-size-large;
       line-height: 1.2;
     }
     .addthis_toolbox {
@@ -195,8 +194,8 @@ ul{
     .download{
       font-size: 1em;
       font-weight: 200;
-      letter-spacing: .005em;
-      line-height: 1.2857142857142858;
+      letter-spacing: $letter-spacing;
+      line-height: $line-height-sm;
       margin: 0;
       position: absolute;
       right: 0;
@@ -206,8 +205,8 @@ ul{
     .read-time{
       font-size: .8em;
       font-weight: 500;
-      letter-spacing: .005em;
-      line-height: 1.2857142857142858;
+      letter-spacing: $letter-spacing;
+      line-height: $line-height-sm;
       margin: 0;
       position: absolute;
       right: 0;
@@ -222,7 +221,7 @@ ul{
 
 
 
-@media (min-width: 992px) {
+@media (min-width: $break-medium) {
   .module-hero {
     margin-left: -22px;
     margin-right: -22px;
@@ -254,7 +253,7 @@ ul{
   }
 }
 
-@media (min-width: 1380px) {
+@media (min-width: $break-large) {
   .module-hero {
     margin-left: -34px;
     margin-right: -34px;
@@ -263,15 +262,15 @@ ul{
       padding-right: 34px;
     }
     .module-content .module-title {
-      max-width: 58.333333333333336%;
+      max-width: $col-7;
     }
     .module-overlay .module-title {
-      padding-right: 41.66666666666667%;
+      padding-right: $col-5;
     }
   }
 }
 
-@media (min-width: 768px){
+@media (min-width: $break-small-min){
     .module-hero .module-overlay .module-title{
       border-bottom: 1px solid #545454;
     }
@@ -296,7 +295,7 @@ ul{
     }
   }
 }
-@media (min-width: 1380px) {
+@media (min-width: $break-large) {
   .single-article{
     .container{
       max-width:1080px;

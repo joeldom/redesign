@@ -175,3 +175,12 @@ mark{background-color: #FFFF9E; color: #545454;}
 /*DISPLAYS LIGHTER THAN NON_ITALIC*/
 /*cite{font-style: italic;}*/
 .material-icons {font-size: inherit !important;vertical-align: bottom;}
+.article-inner{
+  h2{
+    font-size: $font-size-med;
+    color: $textcolor;
+  }
+  .cat{
+    font-size: $font-size-med;
+  }
+}

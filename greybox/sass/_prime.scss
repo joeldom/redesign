@@ -6,7 +6,7 @@ html {
 body {
   font-family: $font-family-sans-serif;
   font-size: $font-size-base;
-  line-height: 1.7857142857142858;
+  line-height: $line-height-lg;
   //1.4857142857142858 , 1.2857142857142858
   color: $textcolor ;
   background-color: $bodycolor;
@@ -28,7 +28,7 @@ p{
   }
 }
 a {
-  color: $linkcolor ;/* #545454 #62645c */
+  color: $linkcolor ;
   text-decoration: none;
   outline: none;
 
@@ -63,7 +63,7 @@ img {
 
 .img-thumbnail {
   padding: 4px;
-  line-height: 1.2857142857142858;
+  line-height: $line-height-sm;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
@@ -186,7 +186,7 @@ dl {
 }
 
 dt, dd {
-  line-height: 1.2857142857142858;
+  line-height: $line-height-sm;
 }
 
 dt {
@@ -258,7 +258,7 @@ blockquote {
   }
   small, .small {
     display: block;
-    line-height: 1.2857142857142858;
+    line-height: $line-height-sm;
     color: #d2d0cd;
   }
   small:before, .small:before {
@@ -289,7 +289,7 @@ output {
   display: block;
   padding-top: 7px;
   font-size: $font-size-base;
-  line-height: 1.2857142857142858;
+  line-height: $line-height-sm;
   color: #b0aca8;
   vertical-align: middle;
 }
@@ -704,14 +704,14 @@ fieldset[disabled] .btn-link:hover, .btn-link[disabled]:focus, fieldset[disabled
 
 .btn-sm {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: $font-size-small;
   line-height: 1.5;
   border-radius: 3px;
 }
 
 .btn-xs {
   padding: 1px 5px;
-  font-size: 12px;
+  font-size: $font-size-small;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -810,7 +810,7 @@ input {
       padding: 3px 20px;
       clear: both;
       font-weight: normal;
-      line-height: 1.2857142857142858;
+      line-height: $line-height-sm;
       color: #fff;
       white-space: nowrap;
       &:hover, &:focus {
@@ -859,8 +859,8 @@ input {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
-  line-height: 1.2857142857142858;
+  font-size: $font-size-small;
+  line-height: $line-height-sm;
   color: #d2d0cd;
 }
 
@@ -1035,7 +1035,7 @@ a.list-group-item {
     margin-bottom: -1px;
     > a {
       margin-right: 2px;
-      line-height: 1.2857142857142858;
+      line-height: $line-height-sm;
       border: 1px solid transparent;
       border-radius: 4px 4px 0 0;
       &:hover {
@@ -1247,33 +1247,6 @@ a.list-group-item {
   list-style: none;
 }
 
-/*@font-face {
-  font-family: "Helvetica-Neue";
-  font-style: normal;
-  font-weight: 200;
-  src: url("../fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
-  src: url("../fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"), url("../fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"), url("../fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"), url("../fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
-}
-
-
-@font-face {
-  font-family: "Helvetica-Neue";
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix");
-  src: url("../fonts/07fe0fec-b63f-4963-8ee1-535528b67fdb.eot?#iefix") format("eot"), url("../fonts/60be5c39-863e-40cb-9434-6ebafb62ab2b.woff") format("woff"), url("../fonts/4c6503c9-859b-4d3b-a1d5-2d42e1222415.ttf") format("truetype"), url("../fonts/36c182c6-ef98-4021-9b0d-d63122c2bbf5.svg#36c182c6-ef98-4021-9b0d-d63122c2bbf5") format("svg");
-}
-
-
-@font-face {
-  font-family: "Helvetica-Neue";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix");
-  src: url("../fonts/c07fef9e-a934-42d7-92ad-69205f2b8a00.eot?#iefix") format("eot"), url("../fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff"), url("../fonts/8fda1e47-19be-46c7-8d83-8d4fb35572f0.ttf") format("truetype"), url("../fonts/f751c8ae-1057-46d9-8d74-62592e002568.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
-}*/
-
-/*CHANGED TO WRAPPER*/
 .wrapper {
   padding: 42px 11px 6px;
 }
@@ -1347,7 +1320,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  letter-spacing: .005em;
+  letter-spacing: $letter-spacing;
   margin-bottom: 18px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -1513,7 +1486,7 @@ a {
 
 @media (min-width: $break-medium) {
   .cta {
-    font-size: 12px;
+    font-size: $font-size-small;
     padding: 8px 9px 7px 10px;
     position: relative;
     top: -2px;
@@ -1613,8 +1586,8 @@ a {
     list-style: none;
   }
   .job-title {
-    letter-spacing: .005em;
-    line-height: 1.2857142857142858;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height-sm;
     color: #111;
     font-size: $font-size-base;
     font-weight: 200;
@@ -1702,8 +1675,8 @@ a {
   .intro {
     font-size: $font-size-base;
     font-weight: 200;
-    letter-spacing: .005em;
-    line-height: 1.2857142857142858;
+    letter-spacing: $letter-spacing;
+    line-height: $line-height-sm;
     margin-top: 18px;
   }
   article + aside:before {
@@ -1875,7 +1848,7 @@ a {
     border-bottom: 1px solid #fff;
     margin: 18px 0;
     padding-bottom: 18px;
-    padding-right: 33.33333333333333%;
+    padding-right: $col-4;
     max-width: 100%;
   }
   .page-perspective .module-content .addthis_toolbox, .page-how-we-work .module-content .addthis_toolbox {
