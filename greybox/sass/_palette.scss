@@ -90,6 +90,13 @@
   }
 }
 
+.palette-grey90 {
+  color: $grey90;
+  &.palette-inverse {
+    background-color: $grey90;
+  }
+}
+
 .palette-blue {
   color: #5B5868;
   &.palette-inverse {
