@@ -561,7 +561,7 @@
 		}
 	}
 }
-@media (max-width: $break-medium) {
+@media (min-width: $break-medium) {
 	#featured .featured-image{padding-right: 0;}
 	#projects .col-sm-4 .tile-medium{max-height: 193px;overflow: hidden;}
 }
@@ -575,10 +575,18 @@
 	height:33.333vh;
 	display:block;
 	box-sizing:border-box;
-	margin-bottom:$footer-height;
 	z-index:1;
 	@media (max-width: $break-small-max){
-		margin-bottom:$footer-height * 4.192;
+		height:33.333vh * 3;
+	}
+}
+.bottom-para{
+	margin-bottom:$footer-height;
+	@media (max-width: $break-small-max){
+		margin-bottom:$footer-height * 2.596;
+	}
+	@media (min-width: $break-medium){
+		margin-bottom:$footer-height * 1.332;
 	}
 }
 

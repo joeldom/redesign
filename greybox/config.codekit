@@ -110,15 +110,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/flexslider.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/flexslider.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/font-awesome-ie7.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -155,11 +146,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/halcyon.css": {
+	"\/css\/halcyon-animate.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/halcyon.css",
+		"inputAbbreviatedPath": "\/css\/halcyon-animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/halcyon-flexslider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/halcyon-flexslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/halcyon-queries.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/halcyon-queries.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/halcyon-styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/halcyon-styles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -569,6 +587,17 @@
 		"initialSize": 1091,
 		"inputAbbreviatedPath": "\/img\/images.png",
 		"outputAbbreviatedPath": "\/img\/images.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/iphone-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126332,
+		"inputAbbreviatedPath": "\/img\/iphone-bg.png",
+		"outputAbbreviatedPath": "\/img\/iphone-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1055,12 +1084,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/halcyon.js": {
+	"\/js\/halcyon-scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/halcyon.js",
-		"outputAbbreviatedPath": "\/js\/min\/halcyon-min.js",
+		"inputAbbreviatedPath": "\/js\/halcyon-scripts.js",
+		"outputAbbreviatedPath": "\/js\/min\/halcyon-scripts-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/halcyon-waypoints.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/halcyon-waypoints.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/halcyon-waypoints.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1193,6 +1233,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modal.js",
 		"outputAbbreviatedPath": "\/js\/min\/modal-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/js\/min\/modernizr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1477,17 +1528,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/waypoints.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/waypoints.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/waypoints.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/pages\/_backup\/full.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1638,7 +1678,7 @@
 		"useCompatibilityMode": 0
 		},
 	"\/sass\/_backup\/5-24-16\/_bootstrap.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1654,7 +1694,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_backup\/5-31-16\/main copy.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1670,7 +1710,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_blog.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1686,7 +1726,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_bootstrap.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1750,7 +1790,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_embed.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1766,7 +1806,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_flat-fonts.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1798,7 +1838,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_footer.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1894,7 +1934,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_module.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1910,7 +1950,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_navbar.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1942,7 +1982,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_palette.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1958,7 +1998,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_prime.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2006,7 +2046,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_social.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2022,7 +2062,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_tile.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2038,7 +2078,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_typography.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2054,7 +2094,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/_variables.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2102,7 +2142,7 @@
 		"useLibsass": 0
 		},
 	"\/sass\/global.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -2176,324 +2216,360 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/assets\/halcyon-splash.jpg": {
+	"\/src\/halcyon\/assets\/halcyon-splash.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 174561,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/assets\/halcyon-splash.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/assets\/halcyon-splash.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/assets\/halcyon-splash.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/assets\/halcyon-splash.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/animate.css": {
+	"\/src\/halcyon\/css\/animate.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/animate.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/animate.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/bootstrap-theme.css": {
+	"\/src\/halcyon\/css\/bootstrap-theme.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/bootstrap-theme.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/bootstrap-theme.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/bootstrap-theme.min.css": {
+	"\/src\/halcyon\/css\/bootstrap-theme.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/bootstrap-theme.min.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/bootstrap-theme.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/bootstrap.css": {
+	"\/src\/halcyon\/css\/bootstrap.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/bootstrap.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/bootstrap.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/bootstrap.min.css": {
+	"\/src\/halcyon\/css\/bootstrap.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/bootstrap.min.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/bootstrap.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/flexslider.css": {
+	"\/src\/halcyon\/css\/flexslider.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/flexslider.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/flexslider.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/queries.css": {
+	"\/src\/halcyon\/css\/halcyon-animate.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/queries.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/halcyon-animate.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/css\/styles.css": {
+	"\/src\/halcyon\/css\/halcyon-flexslider.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/css\/styles.css",
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/halcyon-flexslider.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/h1-bg.png": {
+	"\/src\/halcyon\/css\/halcyon-queries.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/halcyon-queries.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/halcyon\/css\/halcyon-styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/halcyon-styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/halcyon\/css\/queries.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/queries.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/halcyon\/css\/styles.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/halcyon\/css\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/src\/halcyon\/img\/h1-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 326,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/h1-bg.png",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/h1-bg.png",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/h1-bg.png",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/h1-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/hero-bg.jpg": {
+	"\/src\/halcyon\/img\/hero-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 95080,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/hero-bg.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/hero-bg.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/hero-bg.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/hero-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/iphone-bg.png": {
+	"\/src\/halcyon\/img\/iphone-bg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 126332,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/iphone-bg.png",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/iphone-bg.png",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/iphone-bg.png",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/iphone-bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/keyboard-bg.jpg": {
+	"\/src\/halcyon\/img\/keyboard-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 73729,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/keyboard-bg.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/keyboard-bg.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/keyboard-bg.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/keyboard-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/l1.jpg": {
+	"\/src\/halcyon\/img\/l1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 16367,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/l1.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/l1.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/l1.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/l1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/plants-bg.jpg": {
+	"\/src\/halcyon\/img\/plants-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 140927,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/plants-bg.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/plants-bg.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/plants-bg.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/plants-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/portfolio-01.jpg": {
+	"\/src\/halcyon\/img\/portfolio-01.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 96662,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/portfolio-01.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/portfolio-01.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/portfolio-01.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/portfolio-01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/portfolio-02.jpg": {
+	"\/src\/halcyon\/img\/portfolio-02.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 197231,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/portfolio-02.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/portfolio-02.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/portfolio-02.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/portfolio-02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/portfolio-03.jpg": {
+	"\/src\/halcyon\/img\/portfolio-03.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 143540,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/portfolio-03.jpg",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/portfolio-03.jpg",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/portfolio-03.jpg",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/portfolio-03.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/team-01.png": {
+	"\/src\/halcyon\/img\/team-01.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 59431,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/team-01.png",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/team-01.png",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/team-01.png",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/team-01.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/team-02.png": {
+	"\/src\/halcyon\/img\/team-02.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 70060,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/team-02.png",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/team-02.png",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/team-02.png",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/team-02.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/img\/team-03.png": {
+	"\/src\/halcyon\/img\/team-03.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 59656,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/team-03.png",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/img\/team-03.png",
+		"inputAbbreviatedPath": "\/src\/halcyon\/img\/team-03.png",
+		"outputAbbreviatedPath": "\/src\/halcyon\/img\/team-03.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/index.html": {
+	"\/src\/halcyon\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/index.html",
+		"inputAbbreviatedPath": "\/src\/halcyon\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/bootstrap.js": {
+	"\/src\/halcyon\/js\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/bootstrap.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/bootstrap-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/bootstrap.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/bootstrap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/bootstrap.min.js": {
+	"\/src\/halcyon\/js\/bootstrap.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/bootstrap.min.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/bootstrap.min-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/bootstrap.min.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/bootstrap.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/jquery.flexslider.js": {
+	"\/src\/halcyon\/js\/halcyon-scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/jquery.flexslider.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/jquery.flexslider-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/halcyon-scripts.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/halcyon-scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/jquery.smooth-scroll.js": {
+	"\/src\/halcyon\/js\/halcyon-waypoints.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/jquery.smooth-scroll.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/jquery.smooth-scroll-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/halcyon-waypoints.min.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/halcyon-waypoints.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/min\/scripts-ck.js": {
+	"\/src\/halcyon\/js\/jquery.flexslider.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/scripts-ck.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/min\/scripts-ck-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/jquery.flexslider.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/jquery.flexslider-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/modernizr.js": {
+	"\/src\/halcyon\/js\/jquery.smooth-scroll.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/modernizr.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/modernizr-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/jquery.smooth-scroll.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/jquery.smooth-scroll-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/overlay.js": {
+	"\/src\/halcyon\/js\/min\/scripts-ck.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/overlay.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/overlay-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/min\/scripts-ck.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/min\/scripts-ck-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/scripts.js": {
+	"\/src\/halcyon\/js\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/scripts-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/modernizr-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/HalcyonDaysTemplate\/js\/waypoints.min.js": {
+	"\/src\/halcyon\/js\/overlay.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/waypoints.min.js",
-		"outputAbbreviatedPath": "\/src\/HalcyonDaysTemplate\/js\/min\/waypoints.min-min.js",
+		"inputAbbreviatedPath": "\/src\/halcyon\/js\/overlay.js",
+		"outputAbbreviatedPath": "\/src\/halcyon\/js\/min\/overlay-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -8679,7 +8755,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,

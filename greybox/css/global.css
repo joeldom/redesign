@@ -5447,7 +5447,7 @@ p[class*='col-'] {
   #projects .col-sm-4 .tile-medium {
     max-height: 318px;
     overflow: hidden; } }
-@media (max-width: 992px) {
+@media (min-width: 992px) {
   #featured .featured-image {
     padding-right: 0; }
 
@@ -5462,11 +5462,19 @@ p[class*='col-'] {
   height: 33.333vh;
   display: block;
   box-sizing: border-box;
-  margin-bottom: 250px;
   z-index: 1; }
   @media (max-width: 767px) {
     .related-posts {
-      margin-bottom: 1048px; } }
+      height: 99.999vh; } }
+
+.bottom-para {
+  margin-bottom: 250px; }
+  @media (max-width: 767px) {
+    .bottom-para {
+      margin-bottom: 649px; } }
+  @media (min-width: 992px) {
+    .bottom-para {
+      margin-bottom: 333px; } }
 
 .grid .grid-inner.full-3 article {
   width: 33.333%;
@@ -7355,9 +7363,6 @@ body.modal-open, .modal-open .navbar-fixed-top {
   .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"], .footer [class^="material-icons"] {
     margin-left: 0px; }
 
-  .wrapper {
-    margin-bottom: 400px; }
-
   .footer-para {
     height: 400px; }
     .footer-para #back-top {
@@ -8475,9 +8480,9 @@ input[type="submit"]:hover {
   border-bottom: 1px solid #545454; }
 
 h1.blog-heading {
-  font-family: "Varela Round" sans-serif;
+  font-family: "Proxima Nova", sans-serif;
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 600;
   text-transform: uppercase;
   position: relative;
   width: 225px;
@@ -8560,12 +8565,6 @@ a:hover span.hint, .social span a:hover span.hint, .read-time a:hover span.hint 
 
   .module-related:before, .social:before {
     width: 100% !important; } }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 /* hebrew */
 @font-face {
   font-family: 'Varela Round';
@@ -8602,7 +8601,6 @@ a:hover span.hint, .social span a:hover span.hint, .read-time a:hover span.hint 
   src: url("../font/freightbigprobold-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/freightbigprobold-regular-webfont.woff2") format("woff2"), url("../font/freightbigprobold-regular-webfont.woff") format("woff"), url("../font/freightbigprobold-regular-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
->>>>>>> origin/gh-pages
 /*
   embeded styles from start
 */
@@ -8932,14 +8930,5 @@ q
 ###########################*/
 .multi-step {
   padding: 0 0 1.5em 0; }
-<<<<<<< HEAD
-=======
->>>>>>> parent of e6248b1... 5.25
-=======
->>>>>>> parent of e6248b1... 5.25
-=======
->>>>>>> parent of e6248b1... 5.25
-=======
->>>>>>> origin/gh-pages
 
 /*# sourceMappingURL=global.css.map */
