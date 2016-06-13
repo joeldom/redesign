@@ -583,10 +583,10 @@
 .bottom-para{
 	margin-bottom:$footer-height;
 	@media (max-width: $break-small-max){
-		margin-bottom:$footer-height * 2.596;
+		margin-bottom:$footer-height * .528;
 	}
 	@media (min-width: $break-medium){
-		margin-bottom:$footer-height * 1.332;
+		margin-bottom:$footer-height;
 	}
 }
 

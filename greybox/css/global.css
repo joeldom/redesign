@@ -5471,10 +5471,10 @@ p[class*='col-'] {
   margin-bottom: 250px; }
   @media (max-width: 767px) {
     .bottom-para {
-      margin-bottom: 649px; } }
+      margin-bottom: 132px; } }
   @media (min-width: 992px) {
     .bottom-para {
-      margin-bottom: 333px; } }
+      margin-bottom: 250px; } }
 
 .grid .grid-inner.full-3 article {
   width: 33.333%;
@@ -7574,7 +7574,7 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
     background-color: #37477D; }
 
 .palette-inverse {
-  color: #fff;
+  color: #fff !important;
   -webkit-font-smoothing: antialiased; }
   .palette-inverse a {
     color: #fff; }
@@ -7622,8 +7622,10 @@ a.palette-inverse:hover, a.palette-inverse:focus {
   .palette-gold.palette-inverse {
     background-color: #f5c429; }
 
-.palette-inverse .read-more {
-  border: 1px solid white; }
+.palette-inverse {
+  color: white; }
+  .palette-inverse .read-more {
+    border: 1px solid white; }
 
 .stats-hero.purple {
   background-color: #8385c3; }
@@ -8500,26 +8502,28 @@ h1.blog-heading {
   h1.blog-heading:before {
     left: -5px; }
 
-.social:before {
-  background: #d2d0cd;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  content: ' ';
-  height: 1px;
-  margin: 36px 0px;
-  overflow: hidden;
-  width: 25%; }
-.social:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  display: block;
-  content: ' ';
-  height: 1px;
-  margin: 18px 0px;
-  width: 25%; }
+.social {
+  /*&:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    content: ' ';
+    height: 1px;
+    margin: 18px 0px;
+    width: 25%;
+  }*/ }
+  .social:before {
+    background: #d2d0cd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    content: ' ';
+    height: 1px;
+    margin: 36px 0px;
+    overflow: hidden;
+    width: 25%; }
 
 .social span {
   margin-right: 20px;
