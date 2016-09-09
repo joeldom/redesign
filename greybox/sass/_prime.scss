@@ -1257,7 +1257,7 @@ a.list-group-item {
 
 @media (min-width: $break-small-min) {
   .wrapper {
-    padding: 75px 18px 6px;
+    padding: 75px 18px 0px;
     -webkit-transition: padding .2s ease;
     transition: padding .2s ease;
     &.open, &.in {

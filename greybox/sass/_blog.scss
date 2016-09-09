@@ -172,3 +172,16 @@ h1.blog-heading{
     left:-5px;
   }
 }
+.back-top {
+  text-decoration: none;
+  border: 0;
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  padding: 0 0 20px 0;
+
+  &:hover{
+    background:white;
+    color:black;
+  }
+}

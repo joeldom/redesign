@@ -11,10 +11,10 @@
 *.sass-cache
 
 # OS or Editor folders
-.DS_Store
+*.DS_Store
 Thumbs.db
 .cache
-.codekit
+*.codekit
 .project
 .settings
 .tmproj
@@ -22,6 +22,9 @@ Thumbs.db
 nbproject
 *.sublime-project
 *.sublime-workspace
+
+# Design Files ~over 100mb
+*.psd
 
 # Dreamweaver added files
 _notes
