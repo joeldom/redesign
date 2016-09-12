@@ -5658,7 +5658,7 @@ h3, .h3 {
   font-size: 24px; }
 
 h4, .h4 {
-  font-size: 1.15em; }
+  font-size: 18px; }
 
 h5, .h5 {
   font-size: 14px; }
@@ -5668,6 +5668,15 @@ h6, .h6 {
 
 p {
   margin: 0 0 5px; }
+
+.article-body p:first-child:first-letter {
+  float: left;
+  font-size: 75.06px;
+  font-weight: 600;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px; }
 
 blockquote.h2 {
   font-weight: 600; }
@@ -6822,8 +6831,10 @@ fieldset[disabled] .btn-primary.active {
       color: #444;
       background-color: transparent; } }
 .navbar {
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 0px 11px; }
+  .navbar:hover {
+    background-color: white; }
 
 .navbar-brand {
   border-width: 0;
@@ -7623,9 +7634,9 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
     background-color: #303030; }
 
 .palette-blue {
-  color: #5B5868; }
+  color: #2247c1; }
   .palette-blue.palette-inverse {
-    background-color: #5B5868; }
+    background-color: #2247c1; }
 
 .palette-red {
   color: #685858; }
@@ -7653,14 +7664,14 @@ img[src=""], img[src="http://maps.gstatic.com/mapfiles/api-3/images/mapcnt3.png"
     background-color: #6d2330; }
 
 .palette-grey {
-  color: #b0aca8; }
+  color: #7c7c7c; }
   .palette-grey.palette-inverse {
-    background-color: #b0aca8; }
+    background-color: #7c7c7c; }
 
 .palette-lime {
   color: #6b8c4c; }
   .palette-lime.palette-inverse {
-    background-color: #80c342; }
+    background-color: #6b8c4c; }
 
 .palette-navy {
   color: #37477D; }
