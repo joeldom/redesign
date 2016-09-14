@@ -585,10 +585,10 @@
       }
     }
     &.tile-medium a {
-      min-height: 576px;
+      //min-height: 576px;
     }
     &.tile-large a {
-      min-height: 786px;
+      //min-height: 786px;
     }
     &.palette-blue {
       &:hover, &:focus {
@@ -659,7 +659,7 @@
       min-height: 444px;
     }
     &.tile-medium a {
-      min-height: 708px;
+      min-height: 740px;//708px
     }
     &.tile-large {
       a {
@@ -687,7 +687,7 @@
     &.tile-large {
       .tile-excerpt {
         background:white;
-				padding: 15px 0;
+				padding: 15px;
       }
     }
   }
@@ -788,5 +788,15 @@
 				width:100px;
 			}
 		}
+	}
+}
+.full-para-tile{
+	min-height:400px;
+
+	a{
+		background-image: url(../img/hero-single-2.png);
+		background-position:fixed;
+		background-size:cover;
+		position:fixed;
 	}
 }

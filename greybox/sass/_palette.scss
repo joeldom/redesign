@@ -96,22 +96,22 @@
     background-color: $grey90;
   }
 }
-
+.palette-black {
+  color: $blue;
+  &.palette-inverse {background-color: $blue;}
+}
 .palette-blue {
   color: $blue;
   &.palette-inverse {background-color: $blue;}
 }
-
 .palette-red {
   color: #685858;
   &.palette-inverse {background-color: #685858;}
 }
-
 .palette-warmgrey {
   color: #686258;
   &.palette-inverse {background-color: #686258;}
 }
-
 .palette-coral {
   color: #f04e55;
   &.palette-inverse {
