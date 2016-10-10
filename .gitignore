@@ -49,3 +49,5 @@ build/config/buildinfo.properties
 #Codekit Local Mapping
 *config.codekit
 *.codekit-cache
+
+greybox/config.codekit
