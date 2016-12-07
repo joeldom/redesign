@@ -6160,7 +6160,8 @@ ul#cyclelist li, #shuffle .quote {
 .quote .num {
   font-size: .2em;
   font-weight: 500;
-  color: #545454;
+  color: #b1b1b1;
+  /*#545454*/
   height: 65px; }
   .quote .num sup {
     font-weight: 900;
@@ -6168,7 +6169,7 @@ ul#cyclelist li, #shuffle .quote {
 
 #quotes .quote-outer {
   position: relative;
-  min-height: 400px; }
+  min-height: 500px; }
 
 @media (min-width: 768px) {
   .item .stats-hero {
@@ -6217,7 +6218,8 @@ ul#cyclelist li, #shuffle .quote {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 24px;
-  border-bottom: 1px solid #545454; }
+  border-bottom: 1px solid #b1b1b1;
+  /*#545454*/ }
 
 @media screen and (min-width: 769px) {
   .quote-inner .quote {
@@ -7745,6 +7747,17 @@ a.palette-inverse:hover, a.palette-inverse:focus {
   .palette-inverse .read-more {
     border: 1px solid white; }
 
+.palette-brandblue {
+  color: #1a3acc;
+  /*372cfc*/ }
+  .palette-brandblue.palette-inverse {
+    background-color: #1a3acc; }
+
+.palette-brandred {
+  color: #fd483a; }
+  .palette-brandred.palette-inverse {
+    background-color: #fd483a; }
+
 .stats-hero.purple {
   background-color: #8385c3; }
 
@@ -7787,6 +7800,31 @@ a.palette-inverse:hover, a.palette-inverse:focus {
 
 .stats-hero.gold {
   background-color: #f5c429; }
+
+.stats-hero.brandblue {
+  background-color: #1a3acc; }
+
+.stats-hero.brandred {
+  background-color: #fd483a;
+  color: #212121; }
+
+.stats-hero.brandgreen {
+  background-color: #2ab80a; }
+
+.stats-hero.brandred.stripe, .stats-hero.stripe.brandred {
+  background: repeating-linear-gradient(90deg, #fd483a, #fd483a 200px, #F6F6FA 200px, #F6F6FA 400px); }
+  .stats-hero.brandred.stripe .quote, .stats-hero.stripe.brandred .quote {
+    color: #aaa; }
+
+.stats-hero.brandgreen.stripe, .stats-hero.stripe.brandgreen {
+  background: repeating-linear-gradient(90deg, #2ab80a, #2ab80a 200px, #F6F6FA 200px, #F6F6FA 400px); }
+  .stats-hero.brandgreen.stripe .quote, .stats-hero.stripe.brandgreen .quote {
+    color: #aaa; }
+
+.stats-hero.brandblue.stripe, .stats-hero.stripe.brandblue {
+  background: repeating-linear-gradient(90deg, #1a3acc, #1a3acc 200px, #F6F6FA 200px, #F6F6FA 400px); }
+  .stats-hero.brandblue.stripe .quote, .stats-hero.stripe.brandblue .quote {
+    color: #aaa; }
 
 address {
   margin-bottom: 18px;

@@ -203,6 +203,15 @@ a.palette-inverse {
   }
 }
 
+.palette-brandblue {
+  color: #1a3acc;
+  /*372cfc*/
+  &.palette-inverse {background-color: $brandblue;}
+}
+.palette-brandred {
+  color: #fd483a;
+  &.palette-inverse {background-color: $brandred;}
+}
 .stats-hero.purple{background-color: #8385c3;}
 .stats-hero.red{background-color: #EF4544;}
 .stats-hero.blush{background-color: #BD473D;}
@@ -217,3 +226,45 @@ a.palette-inverse {
 .stats-hero.passion{background-color: #D2595E;}
 .stats-hero.steel{background-color: #4D6974;}
 .stats-hero.gold{background-color: #f5c429;}
+
+
+.stats-hero.brandblue{background-color: $brandblue;}
+.stats-hero.brandred{background-color: $brandred;color:#212121;}
+.stats-hero.brandgreen{background-color: $brandgreen;}
+
+.stats-hero.brandred.stripe, .stats-hero.stripe.brandred{
+  background:repeating-linear-gradient(
+    90deg,
+    $brandred,
+    $brandred 200px,
+    #F6F6FA 200px,
+    #F6F6FA 400px
+  );
+  .quote{
+    color:#aaa;
+  }
+}
+.stats-hero.brandgreen.stripe, .stats-hero.stripe.brandgreen{
+  background:repeating-linear-gradient(
+    90deg,
+    $brandgreen,
+    $brandgreen 200px,
+    #F6F6FA 200px,
+    #F6F6FA 400px
+  );
+  .quote{
+    color:#aaa;
+  }
+}
+.stats-hero.brandblue.stripe, .stats-hero.stripe.brandblue{
+  background:repeating-linear-gradient(
+    90deg,
+    $brandblue,
+    $brandblue 200px,
+    #F6F6FA 200px,
+    #F6F6FA 400px
+  );
+  .quote{
+    color:#aaa;
+  }
+}

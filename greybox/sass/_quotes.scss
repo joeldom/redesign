@@ -60,14 +60,14 @@ ul#cyclelist li, #shuffle .quote{
 .quote .num{
   font-size: .2em;
   font-weight: 500;
-  color:#545454;
+  color:#b1b1b1;/*#545454*/
   height: 65px;
   sup{
     font-weight:900;
     top:-0.4em;
   }
 }
-#quotes .quote-outer{position: relative;min-height: 400px;}
+#quotes .quote-outer{position: relative;min-height: 500px;}
 @media (min-width: 768px){
   .item .stats-hero{
     min-height: 400px;
@@ -122,7 +122,7 @@ ul#cyclelist li, #shuffle .quote{
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 24px;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid #b1b1b1;/*#545454*/
 }
 @media screen and (min-width: 769px){
   .quote-inner .quote{font-size: 3em;}

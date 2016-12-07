@@ -73,7 +73,8 @@ $('.quote-toggle').click(function(){
 
 
 $(document).ready(function() {
-    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush", "gold"),
+//    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush", "gold"),
+    var quotes = new Array("brandblue", "brandred","brandgreen"),
     randno = quotes[Math.floor( Math.random() * quotes.length )];
     $('.stats-hero').addClass( randno );
 });
