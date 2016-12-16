@@ -5375,7 +5375,6 @@ p[class*='col-'] {
         margin: 15px auto;
         padding: 10px 15px;
         border: 1px solid #545454;
-        border-radius: 3px;
         font-weight: 500;
         width: 30%; }
         .tile-graphic.tile-medium .tile-card .inside .see-more:hover, .tile-graphic.tile-medium .tile-card .inside .view-more:hover {
@@ -5558,6 +5557,7 @@ p[class*='col-'] {
       height: 99.999vh; } }
 
 .bottom-para {
+  min-height: 350px;
   margin-bottom: 250px; }
   @media (max-width: 767px) {
     .bottom-para {
@@ -5628,7 +5628,7 @@ p[class*='col-'] {
     position: fixed; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
@@ -6239,7 +6239,6 @@ ul#cyclelist li, #shuffle .quote {
     padding: 10px; } }
 .read-more {
   border: 1px solid #545454;
-  border-radius: 20px;
   display: inline-block;
   font-family: sans-serif;
   font-size: 13px;
@@ -7132,6 +7131,16 @@ fieldset[disabled] .btn-primary.active {
 .navbar-toggle:hover .gradient-menu:before {
   background: linear-gradient(to bottom, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black 100%); }
 
+/*.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}*/
 .modal-open {
   overflow: hidden; }
 
@@ -7437,7 +7446,8 @@ body.modal-open, .modal-open .navbar-fixed-top {
     .footer-brand:hover, .footer-brand:focus {
       opacity: 1;
       filter: alpha(opacity=100);
-      text-decoration: none; } }
+      text-decoration: none;
+      border: none; } }
 .addthis_toolbox {
   margin: 18px 0 12px; }
   .addthis_toolbox > a {
@@ -8736,6 +8746,7 @@ a:hover span.hint, .social span a:hover span.hint, .read-time a:hover span.hint 
 
   .module-related:before, .social:before {
     width: 100% !important; } }
+/*https://fonts.google.com/selection?selection.family=Bitter|Bree+Serif|Kadwa|Lora:700|Merriweather|Noticia+Text|Ramaraja|Rhodium+Libre|Rozha+One|Slabo+27px*/
 /* hebrew */
 @font-face {
   font-family: 'Varela Round';

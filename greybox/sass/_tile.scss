@@ -467,7 +467,7 @@
 						margin: 15px auto;
 						padding:10px 15px;
 						border: 1px solid #545454;
-						border-radius:3px;
+						//border-radius:3px;
 						font-weight:500;
 						width:30%;
 
@@ -719,6 +719,8 @@
 	}
 }
 .bottom-para{
+	min-height: $full-3-height;
+	//here
 	margin-bottom:$footer-height;
 	@media (max-width: $break-small-max){
 		margin-bottom:$footer-height * .528;
