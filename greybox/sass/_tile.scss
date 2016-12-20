@@ -197,9 +197,38 @@
 		}
 	}
 	.tile-card{
-		position:relative;
+		position:absolute;
 		background:white;
 		color:#3F3F3F;
+		bottom:0;
+		width:100%;
+		z-index:99;
+		padding:1em;
+
+		.inside{
+			.year{
+				color:black;
+			}
+			h2{
+				font-size: $font-size-h4;
+				margin-top:5px;
+			}
+			.category{
+				display:none;
+			}
+			.see-more{
+				position: absolute;
+				right:18px;
+				bottom:18px;
+				padding:10px 30px;
+				border:1px solid #545454;
+
+				&:hover{
+					background:#545454;
+					color:white;
+				}
+			}
+		}
 	}
 }
 
@@ -721,9 +750,9 @@
 .bottom-para{
 	min-height: $full-3-height;
 	//here
-	margin-bottom:$footer-height;
+	margin-bottom:$footer-height - 100px;
 	@media (max-width: $break-small-max){
-		margin-bottom:$footer-height * .528;
+		margin-bottom:$footer-height;
 	}
 	@media (min-width: $break-medium){
 		margin-bottom:$footer-height;
@@ -737,7 +766,7 @@
 				width:33.333%;
 				float:left;
 				height:33.333vh;
-				min-height:350px;
+				min-height:$full-3-height;
 				background-size: cover;
 				background-position: center center;
 				background-color:#BABABA;

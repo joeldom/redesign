@@ -5182,9 +5182,29 @@ p[class*='col-'] {
     position: relative; }
 
   .tile-card {
-    position: relative;
+    position: absolute;
     background: white;
-    color: #3F3F3F; } }
+    color: #3F3F3F;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    padding: 1em; }
+    .tile-card .inside .year {
+      color: black; }
+    .tile-card .inside h2 {
+      font-size: 18px;
+      margin-top: 5px; }
+    .tile-card .inside .category {
+      display: none; }
+    .tile-card .inside .see-more {
+      position: absolute;
+      right: 18px;
+      bottom: 18px;
+      padding: 10px 30px;
+      border: 1px solid #545454; }
+      .tile-card .inside .see-more:hover {
+        background: #545454;
+        color: white; } }
 @media (min-width: 768px) {
   .tile .picturefill-small {
     height: 126px; }
@@ -5558,10 +5578,10 @@ p[class*='col-'] {
 
 .bottom-para {
   min-height: 350px;
-  margin-bottom: 250px; }
+  margin-bottom: 150px; }
   @media (max-width: 767px) {
     .bottom-para {
-      margin-bottom: 132px; } }
+      margin-bottom: 250px; } }
   @media (min-width: 992px) {
     .bottom-para {
       margin-bottom: 250px; } }
@@ -6045,7 +6065,8 @@ mark {
   left: 0;
   display: none;
   background: rgba(255, 255, 255, 0.95);
-  z-index: 9999; }
+  z-index: 9999;
+  overflow: scroll; }
 
 #overlay-search input {
   background: none;
@@ -6071,12 +6092,14 @@ mark {
   vertical-align: top; }
 
 #overlay-search #close {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   padding: 25px;
   font-weight: bold;
-  cursor: pointer; }
+  cursor: pointer;
+  background: white;
+  z-index: 9; }
 
 #search, #close a {
   text-decoration: none;
@@ -6086,7 +6109,7 @@ mark {
   vertical-align: middle; }
 
 #overlay-results {
-  padding: 0 50px; }
+  padding: 0 50px 100px 50px; }
 
 #overlay-results .result-readmore {
   height: 100px; }
@@ -6952,7 +6975,6 @@ fieldset[disabled] .btn-primary.active {
     margin-bottom: 0; }
 
   .navbar-brand {
-    background-color: white;
     position: relative;
     padding: 30px 80px 30px 0;
     margin: 0;
