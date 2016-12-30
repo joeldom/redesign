@@ -1377,7 +1377,13 @@ a {
   line-height: 1;
   color: #d2d0cd;
 }
-
+.article-body{
+  p{
+    a{
+      color: $articlelink;
+    }
+  }
+}
 .callout {
   .small {
     font-weight: normal;
@@ -1512,11 +1518,6 @@ a {
       }
     }
   }
-}
-
-.btn-primary {
-  border-radius: 0;
-  border: 0;
 }
 
 .page-careers {
