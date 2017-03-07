@@ -5571,14 +5571,15 @@ p[class*='col-'] {
     .related-posts {
       height: 99.999vh; } }
 
-@media (max-width: 767px) {
-  .bottom-para {
-    position: relative;
-    bottom: 400px; } }
-@media (min-width: 992px) {
-  .bottom-para {
-    position: relative;
-    bottom: 250px; } }
+.bottom-para {
+  min-height: 350px;
+  margin-bottom: 150px; }
+  @media (max-width: 767px) {
+    .bottom-para {
+      margin-bottom: 250px; } }
+  @media (min-width: 992px) {
+    .bottom-para {
+      margin-bottom: 250px; } }
 
 .grid .grid-inner.full-3 article {
   width: 33.333%;
