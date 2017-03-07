@@ -748,9 +748,9 @@
 	}
 }
 .bottom-para{
-	//min-height: $full-3-height;
+	min-height: $full-3-height;
 	//here
-	//margin-bottom:$footer-height - 100px;
+	margin-bottom:$footer-height - 100px;
 	@media (max-width: $break-small-max){
 		position: relative;
 		bottom: $footer-height + 150px;
