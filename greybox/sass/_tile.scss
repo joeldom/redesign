@@ -197,38 +197,9 @@
 		}
 	}
 	.tile-card{
-		position:absolute;
+		position:relative;
 		background:white;
 		color:#3F3F3F;
-		bottom:0;
-		width:100%;
-		z-index:99;
-		padding:1em;
-
-		.inside{
-			.year{
-				color:black;
-			}
-			h2{
-				font-size: $font-size-h4;
-				margin-top:5px;
-			}
-			.category{
-				display:none;
-			}
-			.see-more{
-				position: absolute;
-				right:18px;
-				bottom:18px;
-				padding:10px 30px;
-				border:1px solid #545454;
-
-				&:hover{
-					background:#545454;
-					color:white;
-				}
-			}
-		}
 	}
 }
 
@@ -750,10 +721,14 @@
 .bottom-para{
 	min-height: $full-3-height;
 	//here
-	margin-bottom:$footer-height - 100px;
+	margin-bottom:$footer-height;
 	@media (max-width: $break-small-max){
+<<<<<<< HEAD
 		position: relative;
 		bottom: $footer-height + 150px;
+=======
+		margin-bottom:$footer-height * .528;
+>>>>>>> parent of e715c62... *** before xmas ***
 	}
 	@media (min-width: $break-medium){
 		position: relative;
@@ -768,7 +743,7 @@
 				width:33.333%;
 				float:left;
 				height:33.333vh;
-				min-height:$full-3-height;
+				min-height:350px;
 				background-size: cover;
 				background-position: center center;
 				background-color:#BABABA;

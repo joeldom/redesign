@@ -6,7 +6,6 @@
   display: none;
   background: rgba(255,255,255,.95);
   z-index: 9999;
-  overflow:scroll;
 }
 #overlay-search input {
   background: none;
@@ -29,17 +28,15 @@
   vertical-align: top;
 }
 #overlay-search #close {
-  position: fixed;
+  position: absolute;
   top: 0; right:0;
   padding: 25px;
   font-weight: bold;
   cursor: pointer;
-  background:white;
-  z-index:9;
 }
 #search, #close a{text-decoration: none;border: none;}
 #close i{vertical-align: middle;}
-#overlay-results{padding: 0 50px 100px 50px;}
+#overlay-results{padding: 0 50px;}
 #overlay-results .result-readmore{
   height: 100px;
 }
