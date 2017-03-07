@@ -38,18 +38,18 @@ $line-height-lg: 1.7857142857142858; // body
 // COLORS
 $bodycolor: #f6f6f6; //body background color
 $textcolor: #545454; //body text color ~ was = #62645c
+<<<<<<< HEAD
 $quotecolor: #aaa; //quote text color ~ was #bbb
 $brandblue: #1a3acc;
 $brandred: #fd483a;
 $brandgreen: #2ab80a;
+=======
+>>>>>>> parent of ac5fbb0... blue blue
 
-$linkcolor: #545454; // default link color ~ was = #545454 #62645c
-$linkcolor-inverse: white; // default link color ~ was = #62645c
+$linkcolor: #545454; // default link color ~ was = #62645c
 $link-hover-color: darken($linkcolor, 15%) !default;
 $linkhovercolor: black; // #7EA29A on hovercolor of link
-$linkhovercolor-inverse: white; // #7EA29A on hovercolor of link
 $brandlinkhovercolor: black; // blrand logo color of link on hover
-$articlelink: $brandblue;
 
 // MONO-GREY
 $lightgrey1: #f4f4f4;/* background color of body */
@@ -77,7 +77,12 @@ $lime: #6b8c4c;
 $blueblue:#092cb1;
 $spearmint:#2ff1c7;
 $tangerine:#FFC107;
+
 $cadmium:#ff5252;
+
+$brandblue: #1a3acc;
+$brandred: #fd483a;
+$brandgreen: #2ab80a;
 
 
 // RESPONSIVE BREAKS
