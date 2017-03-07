@@ -53,3 +53,4 @@ build/config/buildinfo.properties
 greybox/config.codekit
 
 *.psd
+*.ai
