@@ -752,7 +752,7 @@
 	//here
 	margin-bottom:$footer-height - 100px;
 	@media (max-width: $break-small-max){
-		margin-bottom:$footer-height;
+		margin-bottom:$footer-height - 150px;
 	}
 	@media (min-width: $break-medium){
 		margin-bottom:$footer-height;

@@ -15,7 +15,7 @@ body {
   background-color: $bodycolor;
 //  margin-bottom:$footer-height;
   z-index:1;
-  padding-bottom:20px;
+  padding-bottom:0;//20px
 }
 input, button, select, textarea {
   font-family: inherit;
@@ -1248,7 +1248,7 @@ a.list-group-item {
 }
 
 .wrapper {
-  padding: 42px 11px 6px;
+//  padding: 42px 11px 6px;
 }
 
 [data-picture] img {
@@ -1257,7 +1257,7 @@ a.list-group-item {
 
 @media (min-width: $break-small-min) {
   .wrapper {
-    padding: 75px 18px 0px;
+//    padding: 75px 18px 0px;
     -webkit-transition: padding .2s ease;
     transition: padding .2s ease;
     &.open, &.in {
@@ -1279,8 +1279,8 @@ a.list-group-item {
 
 @media (min-width: $break-medium) {
   .wrapper {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 0;//22px
+    padding-right: 0;//22px
   }
   [data-picture] {
     &.picturefill-small {
@@ -1297,8 +1297,8 @@ a.list-group-item {
 
 @media (min-width: $break-large) {
   .wrapper {
-    padding-left: 34px;
-    padding-right: 34px;
+    padding-left: 0;//34px
+    padding-right: 0;//34px
   }
   [data-picture] {
     &.picturefill-small {
