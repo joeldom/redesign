@@ -4924,22 +4924,25 @@ function (a, b, c) {
         })
     }(a, this)
 }),
+
+//TILE RESIZE JAVASCRIPT SECTION
+//ADDED REMOVE to break class being refferenced
 function (a, b) {
     function c() {
-        return a(window).width() < 768 ? (a(".tile-hybrid a").removeAttr("style").find(".tile-excerpt :last-child").show(), !1) : (a(".tile-hybrid a").each(function () {
-            var b = a(this),
-                c = b.parents(".row"),
-                d = b.parents('[class*="col-"]');
+      return a(window).width() < 768 ? (a(".tile-hybrid a").removeAttr("style").find(".tile-excerptREMOVE :last-child").show(), !1) : (a(".tile-hybrid a").each(function () {
+        var b = a(this),
+            c = b.parents(".row"),
+            d = b.parents('[class*="col-"]');
             if (c.size() <= 0 || d.size() <= 0) return !1;
-            b.removeAttr("style");
-            var e = b.outerHeight() + (c.height() - d.height());
+              b.removeAttr("style");
+        var e = b.outerHeight() + (c.height() - d.height());
             if (b.css({
                 "min-height": e
             }), b.parent().data("truncate") === !1) return !1;
-            var f = b.find(".tile-excerpt"),
-                g = f.children().last(),
-                h = b.find("[data-picture]"),
-                i = b.hasClass("tile-small") ? e > 378 ? 144 : 36 : 72;
+        var f = b.find(".tile-excerptREMOVE__"),
+            g = f.children().last(),
+            h = b.find("[data-picture]"),
+            i = b.hasClass("tile-small") ? e > 378 ? 144 : 36 : 72;
             if (g.height() > i && h.height() > 0) {
                 var j = g.data("text") || g.text();
                 g.data("text", j);

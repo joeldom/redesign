@@ -29,6 +29,10 @@ $font-size-h4:       ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:       $font-size-base !default;
 $font-size-h6:       ceil(($font-size-base * 0.85)) !default; // ~12px
 
+$font-weight-1:     400;
+$font-weight-2:     500;
+$font-weight-3:     900;
+
 $letter-spacing: .005em;
 
 $line-height-sm: 1.2857142857142858; // small
@@ -37,14 +41,12 @@ $line-height-lg: 1.7857142857142858; // body
 
 // COLORS
 $bodycolor: #f6f6f6; //body background color
+$accentcolor: #eee; //added to navbar
 $textcolor: #545454; //body text color ~ was = #62645c
-//<<<<<<< HEAD
 $quotecolor: #aaa; //quote text color ~ was #bbb
 $brandblue: #1a3acc;
 $brandred: #fd483a;
 $brandgreen: #2ab80a;
-//=======
-//>>>>>>> parent of ac5fbb0... blue blue
 
 $linkcolor: #545454; // default link color ~ was = #62645c
 $link-hover-color: darken($linkcolor, 15%) !default;
@@ -112,6 +114,7 @@ $col-11: 91.66666666666666%;
 
 
 // ELEMENTS
+$quotes-size: 520px;
 $full-3-height: 350px;
 $footer-height: 250px;
 $blog-heading: $proxima;
