@@ -1,6 +1,8 @@
 //_button.scss
 .read-more{
-  border:1px solid #545454; border-radius: 20px;display: inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
+  border:1px solid #545454;
+  //border-radius: 20px;
+  display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;mso-hide:all;}
 .read-more:hover{border: 1px solid white;/*e6e6e8*/ background: white; color: #545454;}
 #overlay-search .read-more:hover{border: 1px solid black;/*e6e6e8*/ background: white; color: black;}
 #overlay-search .read-more:hover{border: 1px solid #545454; background: #545454; color: white;}

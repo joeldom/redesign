@@ -416,9 +416,13 @@ input {
 }
 .status i{
 	border: 1px solid white;
-	font-size: .5em;
-	padding: .12em;
+	font-size: .65em;
+	padding: .5em 0;
 	vertical-align: middle;
+  text-align: center;
+  position: relative;
+  width: 20px;
+  margin: 0 7px 0 0;
 }
 @-webkit-keyframes fadeIn {
     from { opacity: 0; }

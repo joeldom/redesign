@@ -5233,3 +5233,25 @@ function (a, b) {
         })
     })
 }(jQuery, Modernizr);
+
+//INACTIVE TAB MESSAGE
+(function($, inActiveTab, undefined) {
+
+$(function () {
+  var message = "Hey! Come back!";
+  var original;
+
+  $(window).focus(function() {
+    if(original) {
+      document.title = original;
+    }
+  }).blur(function() {
+    var title = $('title').text();
+    if(title != message) {
+      original = title;
+    }
+    document.title = message;
+  });
+});
+
+}(window.jQuery, window.inActiveTab));
