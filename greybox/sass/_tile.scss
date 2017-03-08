@@ -723,12 +723,12 @@
 	//here
 	margin-bottom:$footer-height;
 	@media (max-width: $break-small-max){
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		position: relative;
 		bottom: $footer-height + 150px;
-=======
-		margin-bottom:$footer-height * .528;
->>>>>>> parent of e715c62... *** before xmas ***
+//=======
+//		margin-bottom:$footer-height * .528;
+//>>>>>>> parent of e715c62... *** before xmas ***
 	}
 	@media (min-width: $break-medium){
 		position: relative;
