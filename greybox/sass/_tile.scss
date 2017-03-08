@@ -768,7 +768,17 @@
 	box-sizing:border-box;
 	z-index:1;
 	@media (max-width: $break-small-max){
-		height:33.333vh * 3;
+	//	height:33.333vh * 3;
+	height:81vh;
+	}
+}
+.margin-para{
+	margin-bottom: $footer-height;
+	@media (max-width: $break-small-max){
+		margin-bottom: $footer-height + 150px;
+	}
+	@media (min-width: $break-medium){
+		margin-bottom: $footer-height;
 	}
 }
 .bottom-para{
@@ -777,7 +787,7 @@
 	margin-top:$footer-height;
 	//margin-bottom:$footer-height;
 	position: relative;
-	bottom: $footer-height;
+	//bottom: $footer-height;
 	@media (max-width: $break-small-max){
 //<<<<<<< HEAD
 		position: relative;
