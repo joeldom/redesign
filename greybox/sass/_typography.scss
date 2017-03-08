@@ -178,9 +178,10 @@ mark{background-color: #FFFF9E; color: #545454;}
 .article-inner{
   h2{
     font-size: $font-size-med;
-    color: $textcolor;
+    color: #fff;
   }
   .cat{
     font-size: $font-size-med;
+    font-weight: $font-weight-3;
   }
 }

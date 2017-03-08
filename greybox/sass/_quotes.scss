@@ -67,7 +67,16 @@ ul#cyclelist li, #shuffle .quote{
     top:-0.4em;
   }
 }
-#quotes .quote-outer{position: relative;min-height: 500px;}
+#quotes .quote-outer{
+  position: relative;
+  min-height: $quotes-size;
+  @media (max-width: 992px){
+    min-height: $quotes-size - 120px;
+  }
+  @media (max-width: 767px){
+    min-height: $quotes-size - 220px;
+  }
+}
 @media (min-width: 768px){
   .item .stats-hero{
     min-height: 400px;
@@ -82,9 +91,6 @@ ul#cyclelist li, #shuffle .quote{
   .toggle .quote-toggle{
     width:200px;
     font-size:1.25em;
-  }
-  #quotes .quote-outer{
-    min-height:300px;
   }
   .quote .num{
     font-size:.35em;
@@ -101,9 +107,6 @@ ul#cyclelist li, #shuffle .quote{
     font-size:.35em;
     height:50px;
     margin-top:13px;
-  }
-  #quotes .quote-outer{
-    min-height:300px;
   }
   .item .stats-hero{
     min-height:300px;

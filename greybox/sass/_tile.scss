@@ -633,7 +633,59 @@
     }
   }
 }
-
+@media (min-width: $break-medium) {
+  .tile {
+    .picturefill-small {
+      height: 246px;
+    }
+    .picturefill-medium {
+      height: 510px;
+    }
+    .picturefill-large {
+      height: 684px;
+    }
+  }
+  .tile-graphic.tile-large {
+    .tile-excerpt {
+      padding: 0 34px;
+    }
+    .tile-title + p {
+      padding-right: $col-5;
+    }
+  }
+  .tile-hybrid {
+    &.tile-small a {
+      min-height: 444px;
+    }
+    &.tile-medium a {
+      min-height: 740px;//708px
+    }
+    &.tile-large {
+      a {
+        //min-height: 882px;
+      }
+      .tile-excerpt {
+        margin-right: 33.3333%;//50%
+				background:white;
+				padding: 15px;
+      }
+    }
+		.tile-excerpt {
+			//margin-right: 50%;
+			background:white;
+			padding: 15px;
+		}
+  }
+  .tile-people {
+    &.tile-small .tile-title {
+      font-size: 22px;
+      line-height: 1.0909090909090908;
+    }
+    &.tile-large .tile-title {
+      left: 49px;
+    }
+  }
+}
 @media (min-width: $break-large) {
   .tile {
     .picturefill-small {
@@ -685,8 +737,9 @@
 @media (max-width: $break-xlarge) {
 	.tile-hybrid {
     &.tile-large {
-      .tile-excerpt {
-        background:white;
+			.tile-excerpt {
+        margin-right: 33.33333%;//50%
+				background:white;
 				padding: 15px;
       }
     }
@@ -721,14 +774,13 @@
 .bottom-para{
 	min-height: $full-3-height;
 	//here
-	margin-bottom:$footer-height;
+	margin-top:$footer-height;
+	//margin-bottom:$footer-height;
+	position: relative;
+	bottom: $footer-height;
 	@media (max-width: $break-small-max){
-<<<<<<< HEAD
 		position: relative;
 		bottom: $footer-height + 150px;
-=======
-		margin-bottom:$footer-height * .528;
->>>>>>> parent of e715c62... *** before xmas ***
 	}
 	@media (min-width: $break-medium){
 		position: relative;

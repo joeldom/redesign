@@ -16,6 +16,9 @@ body {
 //  margin-bottom:$footer-height;
   z-index:1;
   padding-bottom:0;//20px
+  @media (min-width: $break-medium) {
+    padding-top:75px;
+  }
 }
 input, button, select, textarea {
   font-family: inherit;
