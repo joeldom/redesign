@@ -81,7 +81,11 @@
 					<button type="button" class="navbar-toggle">
 						<!-- <span href="#menu" class="box-shadow-menu"></span> -->
 						<!-- <span href="#menu" class="gradient-menu"></span> -->
-						<img width="25px" height="14px" src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/navicon.png" alt="Menu">
+						<!-- <img width="25px" height="14px" src="http://www.joeldombek.com/blog/wp-content/themes/15-redesign/img/navicon.png" alt="Menu"> -->
+
+						<!-- <span href="#menu" class="trinav"></span> -->
+						<img id="trimenu" class="svg trinav" src="../../img/ui-dist-sprite.svg"/>
+
 					</button>
 				</div>
 			</div>
@@ -988,6 +992,50 @@
 			</div>
 		</div>
 
+		<div class="container-fluid palette-brandblue cool">
+			<div class="row twoUp">
+				<div class="col-xs-12 col-sm-6">.col-xs-12 .col-sm-6</div>
+				<div class="col-xs-12 col-sm-6">
+					<figure class="quote">
+            <blockquote class="h2">We believe that using an approach such as experience design can redefine how business and design work together to create value in more efficient ways that also help business be more nimble and proactive in negotiating change.</blockquote>
+            <figcaption>excerpt from page 83</figcaption>
+          </figure>
+					<span class="see-more">View More</span>
+				</div>
+			</div>
+			<div class="row twoUp">
+				<div class="col-xs-12 col-sm-4">.col-xs-12 .col-sm-4</div>
+				<div class="col-xs-12 col-sm-4">
+					<figure class="quote">
+						<blockquote class="h2">Write content while you are designing.</blockquote>
+					</figure>
+				</div>
+				<div class="col-xs-12 col-sm-4">.col-xs-12 .col-sm-4</div>
+			</div>
+		</div>
+
+		<div class="container-fluid palette-brandblue warm">
+			<div class="row twoUp">
+				<div class="col-xs-12 col-sm-6">.col-xs-12 .col-sm-6</div>
+				<div class="col-xs-12 col-sm-6">
+					<figure class="quote">
+            <blockquote class="h2">We believe that using an approach such as experience design can redefine how business and design work together to create value in more efficient ways that also help business be more nimble and proactive in negotiating change.</blockquote>
+            <figcaption>excerpt from page 83</figcaption>
+          </figure>
+					<span class="see-more">View More</span>
+				</div>
+			</div>
+			<div class="row twoUp">
+				<div class="col-xs-12 col-sm-4">.col-xs-12 .col-sm-4</div>
+				<div class="col-xs-12 col-sm-4">
+					<figure class="quote">
+						<blockquote class="h2">Write content while you are designing.</blockquote>
+					</figure>
+				</div>
+				<div class="col-xs-12 col-sm-4">.col-xs-12 .col-sm-4</div>
+			</div>
+		</div>
+
 
 		<!-- <div class="container-fluid">
 			<div class="row twoUp">
@@ -1232,32 +1280,56 @@
 			/*
 			 * Replace all SVG images with inline SVG
 			 */
-			jQuery('img.svg').each(function(){
-				var $img = jQuery(this);
-				var imgID = $img.attr('id');
-				var imgClass = $img.attr('class');
-				var imgURL = $img.attr('src');
-				jQuery.get(imgURL, function(data) {
-						// Get the SVG tag, ignore the rest
-						var $svg = jQuery(data).find('svg');
-						// Add replaced image's ID to the new SVG
-						if(typeof imgID !== 'undefined') {
-								$svg = $svg.attr('id', imgID);
-						}
-						// Add replaced image's classes to the new SVG
-						if(typeof imgClass !== 'undefined') {
-								$svg = $svg.attr('class', imgClass+' replaced-svg');
-						}
-						// Remove any invalid XML tags as per http://validator.w3.org
-						$svg = $svg.removeAttr('xmlns:a');
-						// Check if the viewport is set, if the viewport is not set the SVG wont't scale.
-						if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
-								$svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
-						}
-						// Replace image with new SVG
-						$img.replaceWith($svg);
-				}, 'xml');
-			});
+			// jQuery('img.svg').each(function(){
+			// 	var $img = jQuery(this);
+			// 	var imgID = $img.attr('id');
+			// 	var imgClass = $img.attr('class');
+			// 	var imgURL = $img.attr('src');
+			// 	jQuery.get(imgURL, function(data) {
+			// 			// Get the SVG tag, ignore the rest
+			// 			var $svg = jQuery(data).find('svg');
+			// 			// Add replaced image's ID to the new SVG
+			// 			if(typeof imgID !== 'undefined') {
+			// 					$svg = $svg.attr('id', imgID);
+			// 			}
+			// 			// Add replaced image's classes to the new SVG
+			// 			if(typeof imgClass !== 'undefined') {
+			// 					$svg = $svg.attr('class', imgClass+' replaced-svg');
+			// 			}
+			// 			// Remove any invalid XML tags as per http://validator.w3.org
+			// 			$svg = $svg.removeAttr('xmlns:a');
+			// 			// Check if the viewport is set, if the viewport is not set the SVG wont't scale.
+			// 			if(!$svg.attr('viewBox') && $svg.attr('height') && $svg.attr('width')) {
+			// 					$svg.attr('viewBox', '0 0 ' + $svg.attr('height') + ' ' + $svg.attr('width'))
+			// 			}
+			// 			// Replace image with new SVG
+			// 			$img.replaceWith($svg);
+			// 	}, 'xml');
+			// });
+
+			$(document).ready(function() {
+    $('img[src$=".svg"]').each(function() {
+        var $img = jQuery(this);
+        var imgURL = $img.attr('src');
+        var attributes = $img.prop("attributes");
+
+        $.get(imgURL, function(data) {
+            // Get the SVG tag, ignore the rest
+            var $svg = jQuery(data).find('svg');
+
+            // Remove any invalid XML tags
+            $svg = $svg.removeAttr('xmlns:a');
+
+            // Loop through IMG attributes and apply on SVG
+            $.each(attributes, function() {
+                $svg.attr(this.name, this.value);
+            });
+
+            // Replace IMG with SVG
+            $img.replaceWith($svg);
+        }, 'xml');
+    });
+});
 		</script>
 
 		<script type="text/javascript">

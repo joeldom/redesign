@@ -329,7 +329,7 @@ $overlap: $line-height-md * 2;
       }
       .tile{
         margin-right: 20px;
-        margin-top: -20px;
+        margin-top: -$overlap;
         @media (max-width: $break-small-max){
           margin-right: 0px;
         }

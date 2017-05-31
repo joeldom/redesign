@@ -884,7 +884,7 @@
 				min-height:350px;
 				background-size: cover;
 				background-position: center center;
-				background-color:#BABABA;
+				background-color:$brandblue;
 				/*#fff*/
 				position:relative;
 				padding:0 5%;
@@ -927,7 +927,8 @@
 				background-color:rgba(125,125,125,1);
 			}
 			article:hover:before{
-				opacity:.75;
+				opacity:1;//.75
+				background-color: $brandbg-green;
 				cursor:pointer;
 			}
 			article:hover .cat:after{

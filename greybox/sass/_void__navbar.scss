@@ -168,7 +168,7 @@
   color: $linkcolor;
   &:hover, &:focus {
     text-decoration: none;
-    color: $link-hover-color;
+    color: $linkhovercolor;
   }
 }
 
@@ -869,6 +869,25 @@
 			.gradient-menu {padding-left: 1.25em;position: relative;}
 			.gradient-menu:before {content: "";position: absolute;left: 0;top: 0px;bottom: 0.21em;width: 1.65em;background: linear-gradient(to bottom, #545454, #545454 20%, white 20%, white 40%, #545454 40%, #545454 60%, white 60%, white 80%, #545454 80%, #545454 100%);}
 			.navbar-toggle:hover .gradient-menu:before{background: linear-gradient(to bottom, black, black 20%, white 20%, white 40%, black 40%, black 60%, white 60%, white 80%, black 80%, black 100%);}
+
+      .trinav{
+        height:25px;
+        width:25px;
+        background-image: url(../img/ui-dist-sprite.svg);
+        background-position: -706px 0;
+        position: absolute;
+        display: block;
+        right: 5px;
+        bottom: 10px;
+      }
+      #trimenu:hover path {fill: $brandblue;}
+
+      svg:hover path {
+    fill: #1a3acc !important;
+}
+svg path {
+    fill: #1a3acc !important;
+}
 
 
 

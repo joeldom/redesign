@@ -49,6 +49,9 @@ $quotecolor: #aaa; //quote text color ~ was #bbb
 $brandblue: #1a3acc;
 $brandred: #fd483a;
 $brandgreen: #2ab80a;
+$brandbg-cool: #e0e9fe;
+$brandbg-warm: #e4dfd9;
+$brandbg-green: #142a2d;
 
 $linkcolor: $brandblue; // default link color ~ was = #62645c , #545454
 $link-hover-color: darken($linkcolor, 15%) !default;
