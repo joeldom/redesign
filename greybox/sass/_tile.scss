@@ -197,9 +197,29 @@
 		}
 	}
 	.tile-card{
-		position:relative;
+		position:absolute;
 		background:white;
 		color:#3F3F3F;
+		bottom:0;
+		width:100%;
+		padding:1em;
+		z-index:99;
+		.inside{
+			.category{
+				display:none;
+			}
+			h2{
+				font-size:$font-size-med;
+				margin-top:5px;
+			}
+			.see-more{
+				position:absolute;
+				right:18px;
+				bottom: 18px;
+				padding: 10px 30px;
+				border: 1px solid #545454;
+			}
+		}
 	}
 }
 
@@ -773,12 +793,65 @@
 	}
 }
 .margin-para{
-	margin-bottom: $footer-height;
+	/*margin-bottom: $footer-height;
 	@media (max-width: $break-small-max){
 		margin-bottom: $footer-height + 150px;
 	}
+	@media (max-height: $break-medium){
+		margin-bottom: 430px;
+	}
+	@media (max-height: $break-small-min){
+		margin-bottom: 535px;
+	}
+	@media (max-height: $break-small-min - 200px){
+		margin-bottom: 780px;
+	}
 	@media (min-width: $break-medium){
 		margin-bottom: $footer-height;
+	}*/
+	// SOURCE ::: https://stackoverflow.com/questions/14451070/vertical-media-query-not-working
+	&:after{color:blue; font-size:2em; padding:20px;text-align:center;}
+	@media (max-height:600px) {
+	  &:after {
+	    content: "\a0";
+			padding-bottom: 375px;
+	  }
+	}
+	@media (min-height:600px) and (max-width:600px) {
+	  &:after {
+	    content: "\a0";
+			padding-bottom: 375px;
+	  }
+	}
+	@media (min-height:1324px) and (max-width:600px) {
+	  &:after {
+	    content: "\a0";
+			padding-bottom: 350px;
+	  }
+	}
+	@media (min-width:$break-medium){
+		&:after {
+	    content: "\a0";
+			padding-bottom: 209px;
+	  }
+	}
+	@media (min-width:$break-medium - 200px){
+		&:after {
+	    content: "\a0";
+			padding-bottom: 209px;
+	  }
+	}
+	@media (min-width:$break-medium - 300px){
+		&:after {
+	    content: "\a0";
+			padding-bottom: 209px;
+	  }
+	}
+	@media (max-width:$break-small-max){
+		&:after {
+	    content: "\a0";
+			padding-bottom: 375px;
+	  }
 	}
 }
 .bottom-para{

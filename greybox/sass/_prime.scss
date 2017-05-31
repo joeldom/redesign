@@ -13,6 +13,8 @@ body {
 }
 .wrapper{
   background-color: $bodycolor;
+  padding-left:0px;
+  padding-right:0px;
 //  margin-bottom:$footer-height;
   z-index:1;
   padding-bottom:0;//20px
@@ -1260,6 +1262,8 @@ a.list-group-item {
 
 @media (min-width: $break-small-min) {
   .wrapper {
+    padding-left: 0;//22px
+    padding-right: 0;//22px
 //    padding: 75px 18px 0px;
     -webkit-transition: padding .2s ease;
     transition: padding .2s ease;
