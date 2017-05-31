@@ -3310,7 +3310,7 @@ html {
   -webkit-tap-highlight-color: transparent; }
 
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.78571;
   color: #545454;
@@ -4325,7 +4325,7 @@ a {
     text-decoration: none; }
 
 .intro, .callout {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.1;
   color: inherit;
   font-size: 24px;
@@ -4655,7 +4655,7 @@ a {
     color: #62645c; } }
 @media (min-width: 768px) {
   .page-ideas .tile-hybrid.tile-medium .tile-title {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 14px;
@@ -4853,7 +4853,7 @@ ul{
       margin: 0; }
   .module-hero .module-title {
     margin: 34px 0 6px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 31px;
@@ -5070,6 +5070,9 @@ p[class*='col-'] {
       padding-right: 20px; }
   .container-fluid h3, .container-fluid .h3, .container-fluid h4, .container-fluid .h4, .container-fluid p {
     padding: 0 80px; }
+    @media (max-width: 767px) {
+      .container-fluid h3, .container-fluid .h3, .container-fluid h4, .container-fluid .h4, .container-fluid p {
+        padding: 0 10px; } }
   .container-fluid p:nth-child(2n+1) {
     padding-top: 40px; }
   .container-fluid h3 + p, .container-fluid h3 + p:nth-child(2n+1), .container-fluid .h3 p, .container-fluid .h3 + p:nth-child(2n+1), .container-fluid h4 + p, .container-fluid h4 + p:nth-child(2n+1), .container-fluid .h4 + p, .container-fluid .h4 + p:nth-child(2n+1) {
@@ -5154,7 +5157,7 @@ p[class*='col-'] {
   margin: 0 11px;
   padding: 12px 10px; }
 .tile-graphic.tile-large .tile-title {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.1;
   color: #1a3acc;
   font-size: 30px;
@@ -5182,7 +5185,7 @@ p[class*='col-'] {
     top: 12px;
     text-shadow: 1px 1px 1px rgba(101, 101, 101, 0.2); }
   .tile-hybrid .tile-title {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: #1a3acc;
     font-size: 22px;
@@ -5199,7 +5202,7 @@ p[class*='col-'] {
 
 .tile-people .tile-title {
   bottom: 24px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.1;
   color: inherit;
   font-size: 30px;
@@ -5309,7 +5312,7 @@ p[class*='col-'] {
     top: auto; }
   .tile-graphic.tile-small .tile-title {
     bottom: 18px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 14px;
@@ -5339,7 +5342,7 @@ p[class*='col-'] {
     text-shadow: 1px 1px 1px rgba(101, 101, 101, 0.2); }
     .tile-graphic.tile-large .tile-title + p {
       border-top: 1px solid #fff;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 1.1;
       color: inherit;
       font-size: 14px;
@@ -5391,7 +5394,7 @@ p[class*='col-'] {
 
   .tile-people.tile-small .tile-title {
     bottom: 18px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.1;
     color: inherit;
     font-size: 14px;
@@ -5494,7 +5497,7 @@ p[class*='col-'] {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
     .tile-graphic.tile-medium .tile-title + p {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 1.1;
       color: inherit;
       font-size: 36px;
@@ -5524,7 +5527,7 @@ p[class*='col-'] {
     text-indent: -0.06em;
     margin-right: 41.66667%; }
     .tile-graphic.tile-large .tile-title + p {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
       line-height: 1.1;
       color: inherit;
       font-size: 36px;
@@ -5788,7 +5791,7 @@ p[class*='col-'] {
     position: fixed; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeueMedium", "HelveticaNeue-Medium", "Helvetica Neue Medium", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: #1a3acc; }
@@ -6337,7 +6340,7 @@ ul#cyclelist li, #shuffle .quote {
       min-height: 400px; } }
   @media (max-width: 767px) {
     #quotes .quote-outer {
-      min-height: 300px; } }
+      min-height: 400px; } }
 
 @media (min-width: 768px) {
   .item .stats-hero {
@@ -6405,6 +6408,9 @@ ul#cyclelist li, #shuffle .quote {
   margin-left: 0;
   margin-right: 0;
   margin: 0; }
+  @media (max-width: 767px) {
+    #quotes.module-hero {
+      margin: 0 -12px; } }
 
 .navbar {
   position: relative;
@@ -7350,7 +7356,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
   width: 100%;
   z-index: -1;
   color: white;
-  padding: 20px 0; }
+  padding: 50px 0; }
   .footer-para a {
     color: white;
     border-bottom: 1px dotted white; }
@@ -7375,7 +7381,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
 .footer {
   font-size: 12px;
   line-height: 1.78571;
-  margin-top: 36px;
+  margin-top: 16px;
   padding-top: 36px;
   padding-bottom: 1px;
   padding-left: 7px;
@@ -7471,7 +7477,7 @@ body.modal-open, .modal-open .navbar-fixed-top {
     margin-left: 0px; }
 
   .footer-para {
-    height: 420px; }
+    height: 450px; }
     .footer-para #back-top {
       position: relative;
       display: block;

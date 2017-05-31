@@ -359,6 +359,9 @@ $overlap: $line-height-md * 2;
   }
   h3, .h3, h4, .h4, p{
     padding: 0 80px;
+    @media (max-width: $break-small-max){
+      padding: 0 10px;
+    }
   }
   p:nth-child(2n+1){
     padding-top: 40px;

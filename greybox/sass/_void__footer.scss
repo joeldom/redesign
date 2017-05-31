@@ -8,7 +8,7 @@
   width:100%;
   z-index:-1;
   color:white;
-  padding:20px 0;
+  padding:50px 0;
   a{
   color:white;
   border-bottom:1px dotted white;
@@ -41,7 +41,7 @@
 //  color: #878c8c;
   font-size: 12px;
   line-height: $line-height-lg;
-  margin-top: 36px;
+  margin-top: 16px;
   padding-top: 36px;
   padding-bottom: 1px;
   padding-left:7px;
@@ -154,7 +154,7 @@
 @media (max-width: 767px){
   .footer [class^="icon-"], .footer [class*="icon-"], .footer [class^="fa-"], .footer [class*="fa-"], .footer [class^="material-icons"]{margin-left: 0px;}
   .footer-para{
-    height:420px;
+    height:450px;
     #back-top{
       position:relative;
       display:block;
