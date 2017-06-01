@@ -58,7 +58,7 @@ p {
     padding-left: 3px;
   }
 }
-blockquote.h2{
+h2, .h2, blockquote.h2{
   font-weight:600;
 }
 @media (max-width: 768px) {
