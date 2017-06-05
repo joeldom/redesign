@@ -2,7 +2,7 @@
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: $font-family-sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.1;
   color: $brandblue;
 }
@@ -15,6 +15,12 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 h1, h2, h3 {
   margin-top: 18px;
   margin-bottom: 9px;
+}
+#resume{
+  h1, h2, h3 {
+    margin-top: 18px;
+    margin-bottom: 0px;
+  }
 }
 h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   font-size: 65%;
@@ -184,5 +190,47 @@ mark{background-color: #FFFF9E; color: #545454;}
     font-size: $font-size-med * 1.4;
     font-weight: $font-weight-3;
     color: inherit;
+  }
+}
+#resume {
+  ul{
+    padding: 0 0 0 20px;
+    list-style-type: none;
+    li{
+      padding:0px;
+      line-height:1.25em;
+    }
+    li:before{
+      content:" ";
+      position:relative;
+      display:block;
+      height: 2px;
+      width: 10px;
+      top:11px;
+      left:-20px;
+      vertical-align:middle;
+      margin: auto 0;
+    }
+  }
+  .palette-brandblue{
+    ul{
+      li:before{
+        background-color:$brandblue;
+      }
+    }
+  }
+  .cool{
+    ul{
+      li:before{
+        background-color: $brandblue;
+      }
+    }
+  }
+  .palette-inverse{
+    ul{
+      li:before{
+        background-color:white;
+      }
+    }
   }
 }

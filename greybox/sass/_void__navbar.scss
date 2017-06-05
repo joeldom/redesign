@@ -166,10 +166,12 @@
   font-size: 18px;
   line-height: 18px;
   color: $linkcolor;
+  font-weight:300;
   &:hover, &:focus {
     text-decoration: none;
     color: $linkhovercolor;
   }
+  strong{font-weight:900;}
 }
 
 @media (min-width: 768px) {

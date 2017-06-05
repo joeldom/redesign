@@ -39,7 +39,7 @@ ul{
 */
   li{
   	letter-spacing: $letter-spacing;
-		margin-bottom: 18px;
+		//margin-bottom: 18px;
 		font-weight: 200;
 		text-rendering: optimizeLegibility;
 	}
@@ -142,7 +142,7 @@ ul{
     }
   }
   .module-hero {
-    margin: 0 -18px 18px;
+    margin: 0 -18px 0px;//0 -18px 18px
     .container {
       position: relative;
     }
@@ -223,8 +223,8 @@ ul{
 
 @media (min-width: $break-medium) {
   .module-hero {
-    margin-left: -22px;
-    margin-right: -22px;
+    margin-left: 0;
+    margin-right: 0;//-22px
     .download a {
       color: #FFF;
     }
@@ -255,8 +255,8 @@ ul{
 
 @media (min-width: $break-large) {
   .module-hero {
-    margin-left: -34px;
-    margin-right: -34px;
+    margin-left: 0;//-34px
+    margin-right: 0;
     .module-content, .module-overlay {
       padding-left: 34px;
       padding-right: 34px;
@@ -358,9 +358,9 @@ $overlap: $line-height-md * 2;
     }
   }
   h3, .h3, h4, .h4, p{
-    padding: 0 20px;
+    //padding: 0 20px;
     @media (max-width: $break-small-max){
-      padding: 0 10px;
+      //padding: 0 10px;
     }
   }
   p:nth-child(2n+1){

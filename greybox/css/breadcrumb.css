@@ -41,11 +41,11 @@ Basic Style
 }
 .cd-breadcrumb li.current > *, .cd-multi-steps li.current > * {
   /* selected step */
-  color: #7EA29A;
+  color: #1a3acc;
 }
 .no-touch .cd-breadcrumb a:hover, .no-touch .cd-multi-steps a:hover {
   /* steps already visited */
-  color: #7EA29A;
+  color: #1a3acc;
 }
 .cd-breadcrumb.custom-separator li::after, .cd-multi-steps.custom-separator li::after {
   /* replace the default arrow separator with a custom icon */
@@ -134,8 +134,8 @@ Triangle breadcrumb
   .cd-breadcrumb.triangle li.current > * {
     /* selected step */
     color: #ffffff;
-    background-color: #7EA29A;
-    border-color: #7EA29A;
+    background-color: #1a3acc;
+    border-color: #1a3acc;
   }
   .cd-breadcrumb.triangle li:first-of-type > * {
     padding-left: 1.6em;
@@ -252,13 +252,13 @@ Multi steps indicator
     /* this is the line connecting 2 adjacent items */
     position: absolute;
     content: '';
-    height: 2px;
+    height: 3px;
     background: #BBBBBB;
     /* reset style */
     margin: 0;
   }
   .cd-multi-steps li.visited::after {
-    background-color: #7EA29A;
+    background-color: #1a3acc;
   }
   .cd-multi-steps li > *, .cd-multi-steps li.current > * {
     position: relative;
@@ -292,7 +292,7 @@ Multi steps indicator
   }
   .cd-multi-steps.text-center li.current > *, .cd-multi-steps.text-center li.visited > * {
     color: #ffffff;
-    background-color: #7EA29A;
+    background-color: #1a3acc;
   }
   .cd-multi-steps.text-center.custom-icons li.visited a::before {
     /* change the custom icon for the visited item - check icon */
@@ -302,6 +302,7 @@ Multi steps indicator
   .cd-multi-steps.text-top li, .cd-multi-steps.text-bottom li {
     width: 80px;
     text-align: center;
+    cursor: pointer;
   }
   .cd-multi-steps.text-top li::after, .cd-multi-steps.text-bottom li::after {
     /* this is the line connecting 2 adjacent items */
@@ -309,6 +310,10 @@ Multi steps indicator
     left: 50%;
     /* 40px is the <li> right margin value */
     width: calc(100% + 40px);
+  }
+  .cd-multi-steps.text-top li.current > *::before, .cd-multi-steps.text-bottom li.current > *::before, .cd-multi-steps.text-top li.visited > *::before, .cd-multi-steps.text-bottom li.visited > *::before{
+    border: 3px solid #1a3acc;
+    background-color: #1a3acc;
   }
   .cd-multi-steps.text-top li > *::before, .cd-multi-steps.text-bottom li > *::before {
     /* this is the spot indicator */
@@ -322,18 +327,35 @@ Multi steps indicator
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
     transform: translateX(-50%);
-    height: 10px;
-    width: 10px;
+    height: 20px;
+    width: 20px;
     border-radius: 50%;
-    background-color: #BBBBBB;
+    border: 3px solid #bbb;
+    background-color: #f6f6f6;
+
+    &:hover{
+      border: 3px solid #bbb;
+      background-color: #bbb;
+    }
   }
+  .cd-multi-steps.text-top li.current:hover > *::before, .cd-multi-steps.text-top li.visited:hover > *::before {
+    cursor: pointer;
+    border: 3px solid #1a3acc;
+    background-color: #f6f6f6;
+  }
+  .cd-multi-steps.text-top li:hover > *::before, .cd-multi-steps.text-bottom li:hover > *::before {
+    cursor: pointer;
+    border: 3px solid #bbb;
+    background-color: #bbb;
+  }
+
   .cd-multi-steps.text-top li.visited > *::before,
   .cd-multi-steps.text-top li.current > *::before, .cd-multi-steps.text-bottom li.visited > *::before,
   .cd-multi-steps.text-bottom li.current > *::before {
-    background-color: #7EA29A;
+    background-color: #1a3acc;
   }
   .no-touch .cd-multi-steps.text-top a:hover, .no-touch .cd-multi-steps.text-bottom a:hover {
-    color: #7EA29A;
+    color: #1a3acc;
   }
   .no-touch .cd-multi-steps.text-top a:hover::before, .no-touch .cd-multi-steps.text-bottom a:hover::before {
     box-shadow: 0 0 0 3px rgba(150, 192, 61, 0.3);
@@ -341,7 +363,7 @@ Multi steps indicator
 
   .cd-multi-steps.text-top li::after {
     /* this is the line connecting 2 adjacent items */
-    bottom: 4px;
+    bottom: 8px;
   }
   .cd-multi-steps.text-top li > * {
     padding-bottom: 20px;

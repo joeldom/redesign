@@ -4789,6 +4789,13 @@ iframe *, iframe * *, iframe * * *, iframe * * * *, iframe * * * * *, iframe * *
 .module-article {
   padding-left: 8px;
   padding-right: 8px;
+  /*ul li:before{
+  	color: #909090;
+		content:"─";
+		position:relative;
+		margin-left: -10px;
+		left: -5px;
+	}*/
   /*
 ul{
   	list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
@@ -4813,13 +4820,6 @@ ul{
   .module-article ul {
     list-style: none;
     padding-left: 1.5em; }
-  .module-article ul li:before {
-    color: #909090;
-    content: "─";
-    position: relative;
-    margin-left: -10px;
-    /* optional, for multiline li element */
-    left: -5px; }
   .module-article li {
     letter-spacing: 0.005em;
     margin-bottom: 18px;

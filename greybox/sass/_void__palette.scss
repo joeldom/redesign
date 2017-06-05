@@ -119,10 +119,10 @@ a.palette-inverse {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-BRANDBLUE STYLIGN FOR EVERYTHING
+BRANDBLUE STYLIng FOR EVERYTHING
 
 */
-.read-more, .see-more{
+.read-more, .see-more, #c_form input[type="submit"]{
 //  border-width:3px;
 //  border-style:solid;
   border: 3px solid #000;
@@ -139,6 +139,7 @@ BRANDBLUE STYLIGN FOR EVERYTHING
   mso-hide: all;
   transition: color 400ms, background-color 400ms;
   cursor: pointer;
+  border-radius: 0px;
 }
 
 .palette-brandblue {
@@ -155,8 +156,9 @@ BRANDBLUE STYLIGN FOR EVERYTHING
 ////////////////////////////////
   &.cool{
     background-color: #e0e9fe;
-    color: #a3a3a3;
-    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a{color: $brandblue;}
+    color: $brandblue;
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a, strong{color: $brandblue;}
+    hr{border: 1px solid $brandblue}
   }
   ////////////////////////////////
   &.warm{
@@ -175,7 +177,7 @@ BRANDBLUE STYLIGN FOR EVERYTHING
         color: $brandblue;
       }
     }
-    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a{color: white;}
+    h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a, strong{color: white;font-weight:700;}
     ////////////////////////////////
     &.cool{
       background-color: #a3a3a3;
@@ -188,7 +190,7 @@ BRANDBLUE STYLIGN FOR EVERYTHING
           color: #a3a3a3;
         }
       }
-      h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a{
+      h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, a, strong{
         color: #142a2d;
         &:hover{
           color: $brandblue;
