@@ -22,7 +22,7 @@ html ::selection {background-color: $brandblue; color: #dcdcdc;}
   z-index:1;
   padding-bottom:0;//20px
   @media (min-width: $break-medium) {
-    padding-top:75px;
+    padding-top:80px;
   }
 }
 input, button, select, textarea {

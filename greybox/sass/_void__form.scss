@@ -542,3 +542,52 @@ input[type="submit"]:hover{border: 1px solid white;/*e6e6e8*/ background: white;
   #c_form input[type="submit"]{width: 100%;}
 }
 #c_form .ajax-loader{margin: -36px 0 0 20px;padding: 0;text-align: left;background: none;font-size: 1.25em;}
+
+.share{
+  margin: 1.5em 0 3em;
+  h1, .h1, h2, .h2, h3, .h3, h4, .h4{
+    display: inline-block;
+  }
+  .services{
+    height: 34px;
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    a{border-bottom:none;margin-left:15px;}
+  }
+  input, button{
+    border: 3px solid $brandblue;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  input{
+    background-color: $brandblue;
+    width: calc(100% - 9.375em);
+    color:white;
+    padding: .9em 2.5em;
+  }
+  button{
+    background-color: transparent;
+    border: 3px solid $brandblue;
+    width: 9.375em;
+    color: $brandblue;
+    padding: .9em 0;
+
+    &:hover{
+      background-color: $brandblue;
+      color: white;
+    }
+  }
+  ::-webkit-input-placeholder { color: white;}
+  ::-moz-placeholder { color: white;}
+  :-ms-input-placeholder { color: white;}
+  :-moz-placeholder { color: white;}
+}

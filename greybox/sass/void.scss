@@ -4,8 +4,11 @@
 @import 'warning';
 @import 'reset';
 @import 'void__variables';
-@import 'bootstrap';
-@import 'icon';
+@import 'bootstrap';//tried chaning to void__bootstrap
+//@import 'bootstrap/mixins/border-radius';
+//@import 'bootstrap/mixins/box-sizing';
+//@import 'bootstrap/input-groups';
+//@import 'bootstrap/forms';
 @import 'void__alpha';
 @import 'void__module';
 @import 'void__tile';
@@ -21,7 +24,7 @@
 @import 'void__form';
 @import 'void__palette';
 //@import 'void__form';
-@import 'blog';
+@import 'void__blog';
 @import 'social';
 @import 'mixins';
 @import 'flat-fonts';

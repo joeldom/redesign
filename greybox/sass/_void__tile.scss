@@ -923,8 +923,8 @@
 				content:" ";
 				position:absolute;
 				top:0;bottom:0;left:0;right:0;
-				opacity:.25;
-				background-color:rgba(125,125,125,1);
+				//opacity:.25;
+				background-color:$brandblue;
 			}
 			article:hover:before{
 				opacity:1;//.75
