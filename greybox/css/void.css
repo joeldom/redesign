@@ -3245,6 +3245,8 @@ p[class*='col-'] {
     .container-fluid .row .col-xs-12, .container-fluid .row .col-sm-12, .container-fluid .row .col-md-12, .container-fluid .row .col-lg-12 {
       padding-left: 0px;
       padding-right: 0px; }
+      .container-fluid .row .col-xs-12 .content, .container-fluid .row .col-sm-12 .content, .container-fluid .row .col-md-12 .content, .container-fluid .row .col-lg-12 .content {
+        padding: 20px; }
     .container-fluid .row .col-xs-12.col-sm-4:nth-child(2n+1), .container-fluid .row .col-xs-12.col-sm-6:nth-child(2n+1) {
       padding-left: 20px; }
       @media (max-width: 767px) {
@@ -3256,6 +3258,8 @@ p[class*='col-'] {
         @media (max-width: 767px) {
           .container-fluid .row .col-xs-12.col-sm-4:nth-child(2n+1) .tile, .container-fluid .row .col-xs-12.col-sm-6:nth-child(2n+1) .tile {
             margin-right: 0px; } }
+      .container-fluid .row .col-xs-12.col-sm-4:nth-child(2n+1) .content, .container-fluid .row .col-xs-12.col-sm-6:nth-child(2n+1) .content {
+        padding: 20px; }
       .container-fluid .row .col-xs-12.col-sm-4:nth-child(2n+1) p + .read-more, .container-fluid .row .col-xs-12.col-sm-4:nth-child(2n+1) p + .see-more, .container-fluid .row .col-xs-12.col-sm-6:nth-child(2n+1) p + .read-more, .container-fluid .row .col-xs-12.col-sm-6:nth-child(2n+1) p + .see-more {
         margin-top: 40px;
         margin-left: 80px; }

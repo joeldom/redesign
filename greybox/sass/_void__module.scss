@@ -321,6 +321,8 @@ $overlap: $line-height-md * 2;
     .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
       padding-left: 0px;
       padding-right: 0px;
+
+      .content{padding:20px}
     }
     .col-xs-12.col-sm-4:nth-child(2n+1), .col-xs-12.col-sm-6:nth-child(2n+1){
       padding-left: 20px;
@@ -334,6 +336,7 @@ $overlap: $line-height-md * 2;
           margin-right: 0px;
         }
       }
+      .content{padding:20px}
       p + .read-more, p + .see-more{
         margin-top: 40px;
         margin-left: 80px;
