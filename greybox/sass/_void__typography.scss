@@ -35,6 +35,9 @@ h4 small, h5 small, h6 small, h4 .small, h5 .small, h6 .small {
 h1, .h1 {
   font-size: $font-size-h1;
 }
+.single-content h1, .single-content .h1{
+  font-size: $font-size-base * 3;
+}
 h2, .h2 {
   font-size: $font-size-h2;
 }
