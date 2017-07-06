@@ -148,7 +148,7 @@ cite {
 #featured h1 a, #feaured h2 a, #featured h3 a, #featured h4 a, #featured h5 a{color: #3F3F3F;border: none;}
 #featured p{letter-spacing: .005em;font-size: .95em;margin-bottom: 12px;line-height: 1.75em;}
 .intro, .callout{font-weight: 600 !important;letter-spacing: 0;line-height: 1.25em;}
-h4, .h4{font-size: 1.15em !important;}
+h4.h4{font-size: 1.15em !important;}
 blockquote::before {content:"“" !important;}
 blockquote::after {content:"”" !important;}
 figcaption{color: inherit;font-weight:bold;}

@@ -1542,7 +1542,7 @@ html ::selection {
   padding-bottom: 0; }
   @media (min-width: 992px) {
     .wrapper {
-      padding-top: 80px; } }
+      padding-top: 76px; } }
 
 input, button, select, textarea {
   font-family: inherit;
@@ -3303,11 +3303,57 @@ p[class*='col-'] {
       .container-fluid .row .col-xs-12 > .single-content p {
         font-size: 18px; }
   .container-fluid .single-content p {
-    margin-top: 30px; }
+    margin-top: 30px;
+    font-size: 18px; }
   .container-fluid .single-content .quote {
     margin: 60px 0; }
+  .container-fluid .single-content .inset-left-module {
+    box-shadow: 30px 30px 0px #1a3acc;
+    display: block;
+    width: 50%;
+    position: relative;
+    float: left;
+    margin: 0px 45px 55px -20px;
+    top: 32px; }
+    @media (max-width: 767px) {
+      .container-fluid .single-content .inset-left-module {
+        width: 50%;
+        margin: 0px 45px 55px 0px; } }
+    .container-fluid .single-content .inset-left-module .inset-related-list {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .container-fluid .single-content .inset-left-module .inset-related-list .inset-related-item {
+        display: block;
+        margin: 0 0 15px 0;
+        border: none; }
+        .container-fluid .single-content .inset-left-module .inset-related-list .inset-related-item .inset-related-link {
+          display: block;
+          width: 100%;
+          cursor: pointer;
+          border: none; }
+          .container-fluid .single-content .inset-left-module .inset-related-list .inset-related-item .inset-related-link .inset-related-link-image {
+            display: inline-block;
+            position: relative;
+            width: 25%; }
+          .container-fluid .single-content .inset-left-module .inset-related-list .inset-related-item .inset-related-link .inset-related-link-desc {
+            display: inline-block;
+            position: relative;
+            width: 75%;
+            float: right;
+            padding: 0 0 0 15px; }
+            .container-fluid .single-content .inset-left-module .inset-related-list .inset-related-item .inset-related-link .inset-related-link-desc .inset-related-byline {
+              font-size: .8em; }
+            .container-fluid .single-content .inset-left-module .inset-related-list .inset-related-item .inset-related-link .inset-related-link-desc .inset-related-title {
+              color: #545454;
+              font-size: .9em;
+              line-height: 1em; }
   .container-fluid h3 + p, .container-fluid h3 + p:nth-child(2n+1), .container-fluid .h3 p, .container-fluid .h3 + p:nth-child(2n+1), .container-fluid h4 + p, .container-fluid h4 + p:nth-child(2n+1), .container-fluid .h4 + p, .container-fluid .h4 + p:nth-child(2n+1) {
     padding-top: 0; }
+  .container-fluid.palette-brandblue.palette-inverse .single-content .inset-left-module {
+    box-shadow: 30px 30px 0px white; }
+  .container-fluid.palette-brandblue.warm .single-content .inset-left-module {
+    box-shadow: 30px 30px 0px #1a3acc; }
 
 /*.edgeless [class*=' col-'], .edgeless .row [class*=' col-'], .edgeless .tile{
 	margin:0;
@@ -4174,7 +4220,7 @@ cite {
   letter-spacing: 0;
   line-height: 1.25em; }
 
-h4, .h4 {
+h4.h4 {
   font-size: 1.15em !important; }
 
 blockquote::before {
@@ -7270,7 +7316,7 @@ button {
   letter-spacing: 0;
   line-height: 1.25em; }
 
-h4, .h4 {
+h4.h4 {
   font-size: 1.15em !important; }
 
 blockquote::before {

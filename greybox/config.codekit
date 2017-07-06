@@ -882,6 +882,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Screen Shot 2017-07-06 at 2.09.19 PM.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 495682,
+		"inputAbbreviatedPath": "\/img\/Screen Shot 2017-07-06 at 2.09.19 PM.png",
+		"outputAbbreviatedPath": "\/img\/Screen Shot 2017-07-06 at 2.09.19 PM.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/security_1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
