@@ -312,9 +312,24 @@ p[class*='col-']{
   }
 }
 
+.profile-circle{
+  border-radius: 50%;
+  line-height: 0;
+  min-height: 200px;
+  max-width: 400px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  border: 3px solid #FFF;
+  display: block;
+  margin: 1em auto;
+}
+
 $overlap: $line-height-md * 2;
 .container-fluid{
   padding: $overlap 0;
+
+  .quote-outer.row{margin: 0 20px;}
   .row{
     margin-left: 0px;
     margin-right: 0px;

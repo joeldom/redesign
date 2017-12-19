@@ -700,7 +700,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .wrapper{padding:79px 11px 6px;}
+  .wrapper{padding:79px 11px 0px;}//79px 11px 6px
   .navbar {
     margin-bottom: 0;
   }
