@@ -39,19 +39,19 @@ $line-height-sm: 1.2857142857142858; // small
 $line-height-md: 1.4857142857142858; // alt
 $line-height-lg: 1.7857142857142858; // body
 
-
-
-
 $bodycolor: #f6f6f6; //body background color
 $accentcolor: #eee; //added to navbar
 $textcolor: #545454; //body text color ~ was = #62645c
 $quotecolor: #aaa; //quote text color ~ was #bbb
 $brandblue: #1a3acc;
-$brandred: #fd483a;
-$brandgreen: #2ab80a;
-$brandbg-cool: #e0e9fe;
-$brandbg-warm: #e4dfd9;
-$brandbg-green: #142a2d;
+$brandblue-cool: #e0e9fe;
+$warm-grey: #e4dfd9;
+$cool-grey: #a3a3a3;
+$gable: #142a2d;
+$gold-grass: #CCAB1A;
+$purple-heart: #AB1ACC;
+$java: #1ACCAB;
+$legacy: #008080;
 
 $linkcolor: $brandblue; // default link color ~ was = #62645c , #545454
 $link-hover-color: darken($linkcolor, 15%) !default;
@@ -96,8 +96,8 @@ $break-large: 1380px;
 $break-xlarge: 1480px;
 $break-xxlarge: 1600px;
 
-$gutter: 8px;
-$gutter-neg: -8px;
+$gutter: 12px;
+$gutter-neg: -12px;
 $overlap: -36px;
 $module-side: 22px;
 

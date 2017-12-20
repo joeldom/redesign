@@ -1,35 +1,35 @@
 
 //jQuery: Shuffle Plugin
-(function($){
+// $(function($){
 
-    $.fn.shuffle = function() {
+//    $.fn.shuffle = function() {
 
-        var allElems = this.get(),
-            getRandom = function(max) {
-                return Math.floor(Math.random() * max);
-            },
-            shuffled = $.map(allElems, function(){
-                var random = getRandom(allElems.length),
-                    randEl = $(allElems[random]).clone(true)[0];
-                allElems.splice(random, 1);
-                return randEl;
-           });
+//        var allElems = this.get(),
+//            getRandom = function(max) {
+//                return Math.floor(Math.random() * max);
+//            },
+//            shuffled = $.map(allElems, function(){
+//                var random = getRandom(allElems.length),
+//                    randEl = $(allElems[random]).clone(true)[0];
+//                allElems.splice(random, 1);
+//                return randEl;
+//           });
+//
+//        this.each(function(i){
+//            $(this).replaceWith($(shuffled[i]));
+//        });
+//
+//        return $(shuffled);
+//        var color = ["navy","teal","mustard"];
+//        var color = colors[Math.floor(colors.length * Math.random())];
+//        $(function(){
+//          $("#dump").append(color[i]);
+//          console.log(color);
+//        });
+//
+//    };
 
-        this.each(function(i){
-            $(this).replaceWith($(shuffled[i]));
-        });
-
-        return $(shuffled);
-        var color = ["navy","teal","mustard"];
-        var color = colors[Math.floor(colors.length * Math.random())];
-        $(function(){
-          $("#dump").append(color[i]);
-          console.log(color);
-        });
-
-    };
-
-})(jQuery);
+//})(jQuery);
 
 // Shuffle all list items within a list:
 $('ul#cyclelist li').shuffle();
@@ -75,9 +75,15 @@ $('.quote-toggle').click(function(){
 $(document).ready(function() {
 //    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush", "gold"),
 //    var quotes = new Array("brandblue", "brandred","brandgreen"),
-var quotes = new Array("brandblue"),
+var quotes = new Array("brandblue", "brandblue-cool"),
     randno = quotes[Math.floor( Math.random() * quotes.length )];
     $('.stats-hero').addClass( randno );
+});
+
+$(document).ready(function() {
+var lead__background = new Array("palette-brandblue palette-inverse", "palette-brandblue palette-inverse warm"),
+    randno = home-lead__background[Math.floor( Math.random() * lead__background.length )];
+    $('.home-lead__background').addClass( randno );
 });
 
 $(document).ready(function(){

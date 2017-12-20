@@ -15,6 +15,8 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small
 h1, h2, h3 {
   margin-top: 18px;
   margin-bottom: 9px;
+
+  &.h2{margin-top: 0;}
 }
 #resume{
   h1, h2, h3 {

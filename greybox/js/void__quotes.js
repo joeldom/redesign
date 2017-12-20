@@ -76,9 +76,15 @@ $(document).ready(function() {
 //    var quotes = new Array("navy", "teal", "mustard", "orange", "grey90", "passion", "purple", "blush", "gold"),
 //    var quotes = new Array("brandblue", "brandred","brandgreen"),
 //    var quotes = new Array("brandblue", "brandred","brandgreen"),
-      var quotes = new Array("brandblue"),
+      var quotes = new Array("brandblue", "brandblue-cool"),
     randno = quotes[Math.floor( Math.random() * quotes.length )];
     $('.stats-hero').addClass( randno );
+});
+
+$(document).ready(function() {
+var leadBG = new Array("palette-brandblue palette-inverse cool", "palette-brandblue palette-inverse warm"),
+    randno = leadBG[Math.floor( Math.random() * leadBG.length )];
+    $('.home-lead__background').addClass( randno );
 });
 
 $(document).ready(function(){

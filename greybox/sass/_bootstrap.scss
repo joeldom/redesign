@@ -59,6 +59,7 @@
 .row {
   margin-left: $gutter-neg;
   margin-right: $gutter-neg;
+  position: relative;
   &:before {
     content: " ";
     display: table;

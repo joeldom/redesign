@@ -47,7 +47,7 @@
         scaledSize: new google.maps.Size(30, 46) // pixels
       }
     });
-    var contentString = '<span style="font-family:Helvetica, Arial, sans-serif !important; border-radius:1px !important;">'+
+    var contentString = '<span style="font-family:Helvetica, Arial, sans-serif !important; border-radius:1px !important;color:#222;">'+
     'I currently live &amp; work in the<br/>beautiful city of Pittsburgh.</span>';
     var infowindow = new google.maps.InfoWindow({ content: contentString });
     google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});}
