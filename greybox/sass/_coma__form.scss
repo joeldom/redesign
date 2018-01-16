@@ -627,6 +627,13 @@ input[type="submit"]:hover{border: 1px solid white;/*e6e6e8*/ background: white;
   margin-top: 7rem;
 }
 
+.content{
+  .form__pane{
+    display: block;
+
+    .form__container{}
+  }
+}
 
 /* reset */
 

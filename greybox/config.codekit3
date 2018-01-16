@@ -3144,11 +3144,25 @@
 		"oAP": "\/pages\/temp-single-project.html",
 		"oF": 0
 		},
+	"\/pages\/temp\/coma-shell.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/pages\/temp\/coma-shell.html",
+		"oF": 0
+		},
 	"\/pages\/temp\/coma.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/pages\/temp\/coma.html",
+		"oF": 2
+		},
+	"\/pages\/temp\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/pages\/temp\/index.html",
 		"oF": 0
 		},
 	"\/pages\/temp\/quotes.html": {

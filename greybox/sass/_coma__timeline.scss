@@ -58,7 +58,19 @@ a.grid-post.link{
     z-index: 2;
     color: #0f2105;
 }
+.home-lead__content{
+  .timeline{
+    padding-top: $gap;
+    padding-left: $gap;
+    padding-right: $gap;
+    padding-bottom: 0;
 
+    &:after{
+      top: -$gap;
+      bottom: $gap;
+    }
+  }
+}
 @media screen and (max-width: 640px) {
     .timeline__item {
         width: 90%;

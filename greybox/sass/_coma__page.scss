@@ -13,6 +13,11 @@
     }
     .home-lead__content{
       margin-right: $gap;
+
+      .map{
+        //padding-right:$gap;
+        //padding-left: $gap;;
+      }
     }
   }
   &.section--2, &.section--4, &.section--6{
