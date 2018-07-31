@@ -70,3 +70,5 @@ greybox/css/global.css
 greybox/css/global.css.map
 
 greybox/sass/_variables.scss
+
+*.codekit
