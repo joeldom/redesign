@@ -1,0 +1,33 @@
+{
+  "name": "react-redesign",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "node-sass": "^4.10.0",
+    "prettier": "^1.15.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "reactstrap": "^6.5.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-styleguidist": "^8.0.6"
+  }
+}
