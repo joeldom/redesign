@@ -1,32 +1,156 @@
 [
   {
-    "id": 1,
-    "content": "loss deluxe",
-    "slug": "loss-deluxe"
-  },
-  {
-    "id": 2,
-    "content": "epsilon",
-    "slug": "epsilon"
-  },
-  {
-    "id": 3,
-    "content": "sigma",
-    "slug": "sigma"
-  },
-  {
-    "id": 4,
-    "content": "coma",
-    "slug": "coma"
-  },
-  {
-    "id": 5,
-    "content": "plague",
-    "slug": "plague"
-  },
-  {
-    "id": 6,
-    "content": "nasty",
-    "slug": "nasty"
+    "one-word": [
+      {
+        "id": 1,
+        "content": "sigma"
+      },
+      {
+        "id": 2,
+        "content": "fram"
+      },
+      {
+        "id": 3,
+        "content": "todex"
+      },
+      {
+        "id": 4,
+        "content": "sesium"
+      },
+      {
+        "id": 5,
+        "content": "crup"
+      },
+      {
+        "id": 6,
+        "content": "hella"
+      },
+      {
+        "id": 7,
+        "content": "beta"
+      },
+      {
+        "id": 8,
+        "content": "phi"
+      },
+      {
+        "id": 9,
+        "content": "thex"
+      },
+      {
+        "id": 10,
+        "content": "andi"
+      },
+      {
+        "id": 11,
+        "content": "wantu"
+      },
+      {
+        "id": 12,
+        "content": "thic"
+      },
+      {
+        "id": 13,
+        "content": "colu"
+      },
+      {
+        "id": 14,
+        "content": "mari"
+      },
+      {
+        "id": 15,
+        "content": "dope"
+      },
+      {
+        "id": 16,
+        "content": "phlex"
+      },
+      {
+        "id": 17,
+        "content": "erro"
+      },
+      {
+        "id": 18,
+        "content": "moda"
+      },
+      {
+        "id": 19,
+        "content": "abso"
+      },
+      {
+        "id": 20,
+        "content": "radius"
+      },
+      {
+        "id": 21,
+        "content": "bung"
+      },
+      {
+        "id": 22,
+        "content": "truth"
+      },
+      {
+        "id": 23,
+        "content": "save"
+      },
+      {
+        "id": 24,
+        "content": "salt"
+      },
+      {
+        "id": 25,
+        "content": "gone"
+      },
+      {
+        "id": 26,
+        "content": "plan"
+      },
+      {
+        "id": 27,
+        "content": "posi"
+      },
+      {
+        "id": 28,
+        "content": "medi"
+      },
+      {
+        "id": 29,
+        "content": "queen"
+      },
+      {
+        "id": 30,
+        "content": "macro"
+      },
+      {
+        "id": 31,
+        "content": "sepro"
+      },
+      {
+        "id": 32,
+        "content": "voxi"
+      },
+      {
+        "id": 33,
+        "content": "fran"
+      },
+      {
+        "id": 34,
+        "content": "jost"
+      },
+      {
+        "id": 35,
+        "content": "wats"
+      }
+    ],
+    "two-word": [
+      {
+        "id": 1,
+        "content": "loss deluxe"
+      },
+      {
+        "id": 2,
+        "content": "break everything"
+      }
+    ]
   }
 ]
