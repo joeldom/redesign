@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import WordsList from "../../data/words.json";
+import WordsList from "../../data/quotes.json";
 
 class Words extends Component {
   render() {
@@ -7,7 +7,12 @@ class Words extends Component {
       <>
         <ul>
           {WordsList.map((wordItem, index) => {
-            return <li>{wordItem.content}</li>;
+            return (
+              <li className="quote">
+                <div className="num">Design Quotes No.{wordItem.num}</div>
+                {wordItem.quote}
+              </li>
+            );
           })}
         </ul>
       </>
