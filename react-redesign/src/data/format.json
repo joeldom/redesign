@@ -79,5 +79,18 @@
         "text": "- - blank - -"
       }
     ]
+  },
+  {
+    "id": 2,
+    "class": "1",
+    "font": "Roboto",
+    "title": "aphex media",
+    "name": "preformatted plain text",
+    "content": [
+      {
+        "line": 1,
+        "text": "sigma ALL precompiled"
+      }
+    ]
   }
 ]
