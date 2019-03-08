@@ -11,6 +11,7 @@ import NavMenu from "./comp/part/Nav";
 
 //route links
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
 
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
           {/* WORK Route */}
           {/*
           <Route exact path="/work/interface" component={Interface} />
