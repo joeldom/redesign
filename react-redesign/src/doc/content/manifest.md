@@ -36,7 +36,7 @@ list of items to foucs osm bits of content on.
 
 ### miranda
 
-but as they made they will break fall upon the tips of thier beaks. your name gave them scave. and when miranda sang, everyone turned away. used to the noose they obey. and whoevever said they woudl scatre sep the mother from child maggots from it sty with the traces that shes glaves she will skin you alive.
+but as they made they will break fall upon the tips of thier beaks. your name gave them scave. and when miranda sang, everyone turned away. used to the noose they obey. and whoevever said they woudld scatre sep the mother from child maggots from it sty with the traces that shes glaves she will skin you alive.
 
 ### 1.31.99
 
@@ -52,7 +52,19 @@ a peice that transforms the world. an idea that takes the know and makes it less
 
 algorythmic platform to speak to god. allow prayers to be heard in the higher state of reality and have a ear of god. teach _it_ values and aim to overcome within and around into throught.
 
----
+### circuit board gif
+
+tiled .gif background behind blue flat design. year zero glitch effect with teseract like morphing of the pixels into fractal patterns.
+
+### alex jones
+
+adrenochrome, vampirism, ambrosia, general stubllebien (us govt). white wash, see through the veil, kundalini, dark forces are the onel ones willing to get involved in free will. brain parasites. eric meuller. fractals. computers are hooked up to bugs. low level love and higher understanding. higher levels start to kill infants. god want blood. enima of drugs. want to die. quzecotel. jaguar leather smoking blood. ezekal. wheel in a wheel comes down. contact with the sky. aztec head pixel face.image of god. we are the aliens. elves are bilogical androids. consiceinenus is an interdimensianal space craf. mind river. if we didn't have noses and someone farted no one would be funny. open communication. those who make peaceful action ileegial make viloence inevitable. flights in the day more radiation. +
+
+### e c c o : p e r s o n a
+
+self publishing platform that exports and deploy changes on an automated schedule. Adding a `.md` file into a `directory`.
+
+## code switching
 
 **house of leaves**
 
@@ -162,6 +174,7 @@ _answers with joe_
 - youtube video talking about the guy with schizophrenia who made a TEMPLE.OS
 - tabby star
 - cygnus
+- Matrioshka Brain : bubble brain : tune in turn on drop out
 
 ## Builds
 
@@ -179,7 +192,7 @@ a space rotation animation.
 
 **beta face**
 
-`HAL > IBM > GZO`
+`HAL > IBM > GZO > JCN`
 
 a data driven ai that was made to save and store a re-tell the stories it has been tought to tell. it sometimes can lie and be michevious. beta-face will be birthed from it's connections and a crude ai will strive to corrupt the information architecture of the being it inhabits.
 
