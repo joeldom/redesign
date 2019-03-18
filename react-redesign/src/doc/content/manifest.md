@@ -1,6 +1,6 @@
 <!--
 
-                   void : sine
+                   void : sine	:  e c c o
 
 -->
 
@@ -32,7 +32,7 @@ having single logo type as the mobile view button. rewrite the menu responisve
 
 ### fragments
 
-list of items to foucs osm bits of content on.
+list of items to foucs some bits of content on.
 
 ### miranda
 
@@ -225,6 +225,16 @@ write a collection of ideas based around if a character was trying to write a bo
 
 ---
 
+## click counter deep content web ranking
+
+click counters that tie into a rating sytem of accounts. a sort of social ranking system for accounts that stand behind the content. see. know. feel.
+
+writing beafutiful deep web poetry. define what can be beatuitif in the digital era. content showing deep information reserves that allow thoughts and content to come across and then also be found in the deep web.
+
+this all would involve having a content creating habit tied to a system that is easy to create with. blue print of art describing the thought behind the idea that is now available knowing the shared content that shows how the thinking and cross refference training of the idea comes across. understanding how to deep link inside the ideas in content.
+
+---
+
 #### cult terms
 
 - abraxes
@@ -240,15 +250,34 @@ write a collection of ideas based around if a character was trying to write a bo
 - skeez
 - incel
 - mgtow
--
+- cancel
 
 #### marketing tactics
 
 - twitter / email / fb / sms
 - tag submit to reddit / awwwards
 - comment bomb
+-
 
 ---
+
+rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd,bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc,
+
+---
+
+### ecco from beyond
+
+- journey into the unknown
+- halls of memories
+- halls of fears
+- thought blossom
+- time vault
+- constilation of feelings
+- grappling with the unknown
+- temple of forgotten self
+- dust of times end
+- forest of imagination
+-
 
 #### influences
 
@@ -334,6 +363,31 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 00000000011111111112222222222333333333244444444445
 12345678901234567890123456789012345678901234567890
+```
 
+```
+index
 
+home....................................................................00
+work....................................................................01
+contact.................................................................02
+info....................................................................03
+report..................................................................04
+catalog.................................................................05
+
+```
+
+```
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[
+-----------------------------------------------------=========================----------------------------------------------------
+--------------------------------------------------==============================--------------------------------------------------
+------------------------------------------------===================================-----------------------------------------------
+---------------------------------------------========================================---------------------------------------------
+-------------------------------------------===========================================--------------------------------------------
+-------------------------------------------=====-------========-------=================-------------------------------------------
+--------------------------------------------====-------========-------=================-------------------------------------------
+--------------------------------------------====-------========-------=================-------------------------------------------
+-------------------------------------------
 ```
