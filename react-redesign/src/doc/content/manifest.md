@@ -1,7 +1,7 @@
 <!--
 
                    void : sine	:  e c c o
-
+                  plague : pool :  coma
 -->
 
 <span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
@@ -12,7 +12,9 @@ D Σ I N E
 
 > a comprehensive idea list for section and themes to have as design doc for content as well as the types of content that will be showcased on the pages.
 
-a framework for idea and content that find there way into a internet culture that thinks of itself in the digital spectrum of it's own reality. showing the creation of language and imagination alongside technology and information.
+a framework for idea and content that find there way into a internet culture that thinks of itself in the digital spectrum of it's own reality. showing the creation of language and imagination alongside technology and information. This shall be the basis for thoughts and ideas to create transformative content with deep linking meta data to create a rich experience that conveys the feelings of words to generate ideas and dynamic data.
+
+> the idea of falling into a digital black hole, a data spiral that created a singularity of being through the randomized event driven content. a capsule of time dropped out into the internet. beacon of tomorrow.
 
 ### concepts
 
@@ -284,6 +286,24 @@ rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fp
 - cliff of reality
 - crusher
 - mind scrape
+- long time
+- thought weave
+- spiral mask
+- lust generator
+- plaid spiral
+- cosmic melody
+- cursed angle
+- thought germ
+- brain bug
+- mantra of collapse
+- background twister
+- essence ellapse
+- endless tunnel
+- flesh shift
+- contrast pit
+- wave of everest
+- high tide
+- reecurring nightmare
 -
 
 #### influences
@@ -291,25 +311,26 @@ rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fp
 - aphex twin - syro - collapse `video with 3d model word with code generating over`
 - mars volta - amputecture `opening tinny sounding sounding like it is loading the sound through the internet`
 - death grips
-- x-files
+- x-files `endless records`
 - lost (chess game where you are playing the computer that can't be beat)
 - year zero (narrative and micro-site linking ARG)
-- buckethead
-- robocop
-- star trek `[ox de]`
+- buckethead `bremuda triangle`
+- robocop `ed 209`
+- star trek `[ox de]` `data:lore`
 - fermi paradox
 - deep time : mind
-- watchmen
+- watchmen `dr. manhatan`
 - waters of babylon
 - bremuda triangle
+-
 
-| music       | film            | art | science |
-| ----------- | --------------- | --- | ------- |
-| buckethead  | blue velvet     |     | tesla   |
-| mars volta  | mulholand drive |     |
-| aphex twin  | twin peaks      |     |
-| death grips |                 |     |
-|             |                 |     |
+| music       | film            | book            | science           |
+| ----------- | --------------- | --------------- | ----------------- |
+| buckethead  | blue velvet     | house of leaves | tesla             |
+| mars volta  | mulholand drive | survivor        | boltsman brain    |
+| aphex twin  | twin peaks      |                 | simulation theory |
+| death grips |                 |                 |
+|             |                 |                 |
 
 ---
 
