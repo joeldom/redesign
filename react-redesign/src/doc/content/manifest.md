@@ -42,9 +42,13 @@ but as they made they will break fall upon the tips of thier beaks. your name ga
 
 ### 1.31.99
 
-konami: silent hill.
+**konami: silent hill.**
+
+logo based on old konami logo and the Metal Gear sounds playing on the splash screen that asks what they would like to see. Have a sound file that plays on page load.
 
 ### year zero
+
+message from an alternate reality that is trying to inform of an unknown danger looming.
 
 ```
 a peice that transforms the world. an idea that takes the know and makes it less known. disambiguation.
@@ -304,6 +308,8 @@ rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fp
 - wave of everest
 - high tide
 - reecurring nightmare
+- dreamless slumber
+- whirlpool
 -
 
 #### influences
