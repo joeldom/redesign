@@ -4,6 +4,8 @@
                   plague : pool :  coma
 -->
 
+<!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
+
 <span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
 
 D Σ I N E
@@ -62,7 +64,7 @@ algorythmic platform to speak to god. allow prayers to be heard in the higher st
 
 tiled .gif background behind blue flat design. year zero glitch effect with teseract like morphing of the pixels into fractal patterns.
 
-### alex jones
+### alex jones => JRE
 
 adrenochrome, vampirism, ambrosia, general stubllebien (us govt). white wash, see through the veil, kundalini, dark forces are the onel ones willing to get involved in free will. brain parasites. eric meuller. fractals. computers are hooked up to bugs. low level love and higher understanding. higher levels start to kill infants. god want blood. enima of drugs. want to die. quzecotel. jaguar leather smoking blood. ezekal. wheel in a wheel comes down. contact with the sky. aztec head pixel face.image of god. we are the aliens. elves are bilogical androids. consiceinenus is an interdimensianal space craf. mind river. if we didn't have noses and someone farted no one would be funny. open communication. those who make peaceful action ileegial make viloence inevitable. flights in the day more radiation. +
 
@@ -72,7 +74,22 @@ self publishing platform that exports and deploy changes on an automated schedul
 
 ## code switching
 
-**house of leaves**
+```<div style="width:200px">
+injectiing code into bodys of normal content effectivly mutating it to a point of uselessness. it-~-would_start simple=with a few words-_lookinglike theyaren't_formatted right .it -have-
+```
+
+**content token**
+
+> this would be an entity that is used to signify to the processor that it should insert / render process. `$bta` = `%eco` = `&alp`=`#eps` =`^ɛf` > <br>
+
+**latin encoding**
+
+using special encoded character in the code to be placed:replaced
+https://simple.wikipedia.org/wiki/Latin_script
+
+`spotify:track:2sbTu4X9OxrjlkFAc6sjmL`
+
+**<span style="color:blue;">house</span> of leaves**
 
 describing the decent into madness. how the mind can be a puzzle box of questions. this will be a slight decent into madness. the collage like story telling will come into play when the pages and projects have been linked up.
 
@@ -81,31 +98,25 @@ describing the decent into madness. how the mind can be a puzzle box of question
 #### fields
 
 ```
-- language
-	- japanese
-	- russian
-	- hebrew
-- data
-	- dates
-	- packages : amazon
-	- times
-	- places
-		- concerts
-		- driving trips
+
+- language - japanese - russian - hebrew
+- data - dates - packages : amazon - times - places - concerts - driving trips
 - algorythms
-- type
-	- examples
+- type - examples
 - Science
-- gene sequence
+- gene sequence - geneome -
 - deep time
 - aphex twin
 - mars volta
-- big data
+- big data - layered information
 - crypto
 - 5d
 - string theory
 - compactify
 - miranda
+- layered information
+-
+
 ```
 
 ---
@@ -126,10 +137,11 @@ the act of changing a words intended meaning away from either what it describes 
 - github change / work cal - a working `.json` driven work cal that shows posts and other content added on hover with a section below revealing the list of content, this hover effect shows the section but does not disapear when `:focus` has change away.
 
 ```
+
 - reviews
 - photography sets
-- article write ups
-	- more
+- article write ups - more
+
 ```
 
 #### photography
@@ -241,6 +253,25 @@ this all would involve having a content creating habit tied to a system that is 
 
 ---
 
+## PARADOX POX
+
+a site virus that shows itself infecting the content of the pages or screens. Screens &amp; Pages should have a distict feel. The infection has a sound as it speeds up. it creates an exponetial counting overflow until it hits an arbitrary length.
+
+```
+:: sample
+
+beside you in time, with an ecco in a bottle. smell the strangness. designed phoenix egg quoetzlcotl. a thousand age iternation. time is a flat circle flatlander psychic or witches woven times unwravel. low contrast periscope receding horizion
+
+
+
+```
+
+_pax_
+
+sunny drive highway into receding horizion
+
+---
+
 #### cult terms
 
 - abraxes
@@ -257,6 +288,8 @@ this all would involve having a content creating habit tied to a system that is 
 - incel
 - mgtow
 - cancel
+- take em apart
+- obo
 
 #### marketing tactics
 
@@ -268,7 +301,9 @@ this all would involve having a content creating habit tied to a system that is 
 
 ---
 
-rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd,bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia,
+```
+rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd,bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok,
+```
 
 ---
 
@@ -359,24 +394,26 @@ title: `creative technologist`
 #### javascript ideas
 
 - howler.js `sounds for site`
-- sweetalert.js `really nice laert dialogs`
+- sweetalert.js `really nice alert dialogs`
 - cleave.js `awesome formatting library`
 - htmltocanvas.js `screenshot tool`
 - popmotion.js `animatiing elements`
 - type.js `typing of text into the DOM`
-- scrollmagic.js ``
+- scrollmagic.js `moving the DOM to match scrolls`
+-
 
 ---
 
-### aXsXcXiXiX samples
+### aXsXcXiXi samples
 
 ```
-MMXVIII
+MMXXIX
 ++:: ASCII ::++
 COMA SINE SIGMA
 33 mind_touch..........................................................999
 1 P [boss battle]......................................................678
 miranda (no more)......................................................010
+
 
 
 ```
@@ -432,21 +469,26 @@ fragments...............................................................04.CC - 
 :=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 ~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]
 .-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--
+.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--.__.
 _.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._
 __.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--.__.--{|||}--.___.--{|||}--.
 ___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.
 ____.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{
 ___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||
 __.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{||
-
+_.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.
 \\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V/
 -----------------------------------------------------=========================----------------------------------------------------
 --------------------------------------------------==============================--------------------------------------------------
 ------------------------------------------------===================================-----------------------------------------------
 ---------------------------------------------========================================---------------------------------------------
 -------------------------------------------===========================================--------------------------------------------
--------------------------------------------=====-------========-------=================-------------------------------------------
---------------------------------------------====-------========-------=================-------------------------------------------
---------------------------------------------====-------========-------=================-------------------------------------------
--------------------------------------------
+-------------------------------------------=====-------========--------=================------------------------------------------
+-------------------------------------------=====-------========--------=================------------------------------------------
+--------------------------------------------====-------========--------=================------------------------------------------
+--------------------------------------------====-------========--------================-------------------------------------------
+---------------------------------------------====------========--------===============--------------------------------------------
+----------------------------------------------===------========-------==============----------------------------------------------
+-----------------------------------------------==-----=========------==============-----------------------------------------------
+------------------------------------------------
 ```

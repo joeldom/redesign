@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import logo from "../img/logo.svg";
 
+//data
+import Words from "../comp/part/Words.js";
+
 class Home extends Component {
   render() {
     return (
@@ -19,6 +22,7 @@ class Home extends Component {
             Learn React
           </a>
         </header>
+        <Words />
       </div>
     );
   }
