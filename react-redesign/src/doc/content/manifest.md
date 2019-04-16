@@ -253,9 +253,17 @@ this all would involve having a content creating habit tied to a system that is 
 
 ---
 
+## D AE M O N
+
+`creating dif levels of art some begins with leveles of technique, the viewr is shows what the artist wants them to see, tact allows the artist to make areas or concepts of the peice ambiguous and subjective allowing the viewer to imprint their own feelings and thoughts into the peice bringing the artist viewer cycle full circle.`
+
+---
+
 ## PARADOX POX
 
 a site virus that shows itself infecting the content of the pages or screens. Screens &amp; Pages should have a distict feel. The infection has a sound as it speeds up. it creates an exponetial counting overflow until it hits an arbitrary length.
+
+first instance use of this owuld be to have react use a render on special character elements
 
 ```
 :: sample
@@ -290,6 +298,8 @@ sunny drive highway into receding horizion
 - cancel
 - take em apart
 - obo
+- takyon
+-
 
 #### marketing tactics
 
@@ -297,12 +307,12 @@ sunny drive highway into receding horizion
 - tag submit to reddit / awwwards
 - comment bomb
 - email blast
--
+- twitter card for outlook and linking
 
 ---
 
 ```
-rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd,bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok,
+rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt,
 ```
 
 ---
@@ -365,13 +375,14 @@ rtb, fob, ev, atm, arg, atv, rts, kd, srt, oog, pcc, htc, dds, wwe, doa, ttk, fp
 - bremuda triangle
 -
 
-| music       | film            | book            | science           |
-| ----------- | --------------- | --------------- | ----------------- |
-| buckethead  | blue velvet     | house of leaves | tesla             |
-| mars volta  | mulholand drive | survivor        | boltsman brain    |
-| aphex twin  | twin peaks      |                 | simulation theory |
-| death grips |                 |                 |
-|             |                 |                 |
+| music                      | film            | book            | science           | art                |
+| -------------------------- | --------------- | --------------- | ----------------- | ------------------ |
+| buckethead                 | blue velvet     | house of leaves | tesla             | vinyl sticker      |
+| mars volta                 | mulholand drive | survivor        | boltsman brain    | dot matrix printer |
+| aphex twin                 | twin peaks      |                 | simulation theory | ascii              |
+| death grips                | lawnmower man   |                 |
+| a place to burry strangers | the matrix      |                 |
+| health                     |                 |                 |
 
 ---
 
@@ -386,6 +397,7 @@ title: `creative technologist`
 - [Julian Garnier ~ Anime.js ~ Following list](https://twitter.com/JulianGarnier/following)
 - [npm for Anime.js -> React.js](https://www.npmjs.com/package/react-anime)
 - [Anime.js -> React.js article 5**\***](https://itnext.io/anime-js-react-transition-group-5f6d0055a3a0)
+- [Autoplay Youtube Video](https://stackoverflow.com/questions/3405242/how-can-i-autoplay-a-video-using-the-new-embed-code-style-for-youtube) `http://www.youtube.com/embed/JW5meKfy3fY?autoplay=1`
 
 [f3e759cd]: https://uxdesign.cc/designing-anticipated-user-experiences-c419b574a417 "data drive experience"
 
@@ -449,13 +461,24 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ```
 index
 
-home....................................................................00.00
+home....................................................................00.00                        [ entry point with possible splash selection of options................]
+search..................................................................00.AA - v 04.15.2019 H03M20
+version.................................................................00.BB
 work....................................................................01.00
+all.....................................................................01.AA
+web.....................................................................01.BB
+interface...............................................................01.CC
+print...................................................................01.DD
+process.................................................................01.EE - v 04.14.2019 H10M15
 info....................................................................02.00
 about...................................................................02.AA
 contact.................................................................02.BB
+reports.................................................................02.CC - v 04.14.2019 H17M25
+ideas...................................................................03.00
+quotes..................................................................03.AA
+inspiration.............................................................03.BB
+blog....................................................................03.CC
 data....................................................................04.00
-report..................................................................04.AA
 catalog.................................................................04.BB
 fragments...............................................................04.CC - v 03.17
 
@@ -463,20 +486,23 @@ fragments...............................................................04.CC - 
 ```
 
 ```
+~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
+H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 -[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[
 :=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 ~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]
 .-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--
-.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--.__.
+.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.-
 _.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._
-__.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--.__.--{|||}--.___.--{|||}--.
-___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.
+__.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._
+___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.-
 ____.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{
-___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||
+___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{||
 __.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{||
-_.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.
+_.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{||
 \\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V/
 -----------------------------------------------------=========================----------------------------------------------------
 --------------------------------------------------==============================--------------------------------------------------
@@ -490,5 +516,216 @@ _.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{||
 ---------------------------------------------====------========--------===============--------------------------------------------
 ----------------------------------------------===------========-------==============----------------------------------------------
 -----------------------------------------------==-----=========------==============-----------------------------------------------
-------------------------------------------------
+------------------------------------------------=-----========------=============-------------------------------------------------
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+++++++++ooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooosyhhdddddddhys+:--.....--::++ooooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhys\............-:+ooooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhhhhhhhs:............:+ooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy\............-+oooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooosdddddddddddddhhhhhhhhhhhhhs............./ooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy/............-+oooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhhhhhhhs:............:+ooooooooooooooooooooooooooooooooooooooooooooooo
+ooooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhys/............-:+ooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooosyhhdddddddhys+:--.....--::++ooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+++++++++ooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+
+
+_.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._
+.-'---      - ---     --     ---   -----   - --       ----  ----   -     ---`-.
+
+     (¯`·.¸¸.·´¯`·.¸¸.·´¯)
+    ( \                 / )
+   ( \ )               ( / )
+  ( ) (                 ) ( )
+   ( / )               ( \ )
+    ( /                 \ )
+     (_.·´¯`·.¸¸.·´¯`·.¸_)
+
+
+     .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
+    / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+    \ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/ /
+     \/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /
+     / /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\
+    / /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\ \
+    \ \/\ \                                                    /\ \/ /
+     \/ /\ \                                                  / /\/ /
+     / /\/ /           A large frame border based on          \ \/ /\
+    / /\ \/                                                    \ \/\ \
+    \ \/\ \                  celtic knots ...                  /\ \/ /
+     \/ /\ \                                                  / /\/ /
+     / /\/ /                                                  \ \/ /\
+    / /\ \/                                                    \ \/\ \
+    \ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /
+     \/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /
+     / /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\
+    / /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \
+    \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
+     `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+
+
+     .-"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.
+    (  ,-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-~-} ;.
+    \ \.'_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-._~--. \ .
+    /\ \/ ,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._`./ \ \ .
+    ( (`/ /                                                        `/ /.) ) .
+    \ \ / \                                                       / / \ / .
+     \ \') )                                                     ( (,\ \ .
+    / \ / /                                                       \ / \ \ .
+    dc(`/ /                                                         / /.) ) .
+    \ \ / \                                                       / / \ / .
+     \ \') )                                                     ( (,\ \ .
+    / \ / /                                                       \ / \ \ .
+    ( (`/ /                                                         / /.) ) .
+    \ \ / \                                                       / / \ / .
+     \ \') )                                                     ( (,\ \ .
+    / \ / /                                                       \ / \ \ .
+    ( ( / /                                                         / /.) ) .
+    \ \ / \                                                       / / \ /.
+     \ \') )                                                     ( (,\ \ .
+    / \ / /                                                       \ / \ \ .
+    ( ( / /                                                         / /.) ) .
+    \ \ / \                                                       / / \ / .
+     \ \') )                                                     ( (,\ \ .
+    / \ / /                                                       \ / \ \ .
+    ( ( / /                                                         / /.) ) .
+    \ \ / \       _       _       _       _       _       _       / / \ /.
+     \ `.\ `-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_/,\ \ .
+    ( `. `,~-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-=,' ,\ \ .
+     `. `'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,"-' ; .
+       `-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-.-' .
+
+
+       ..
+      .:+:-.
+    ..::*=:..
+ ....::####:...
+...-=::--*##=-::::=.
+....::##############=.
+........::#@#############@:.
+..:%::=::::-#################%
+....::*#####=##################+
+......:==%#########################.
+:::#:===+##########################-:.
+.....:--%#########################:
+...::*#####-##################+
+.:=::-::::=#################@
+.........:#+#############+:.
+....::############%@+.
+..:-:::-###=:::..:.
+ ....::###%:...
+    ...:-=:..
+      .:%::.
+
+
+                                 ..
+                                .:+:-.
+                              ..::*=:..
+                           ....::####:...
+                        ...-=::--*##=-::::=.
+                      ....::##############=.
+                ........::#@#############@:.
+              ..:%::=::::-#################%
+            ....::*#####=##################+
+        ......:==%#########################.
+      :::#:===+##########################-:.
+         .....:--%#########################:
+             ...::*#####-##################+
+               .:=::-::::=#################@
+                .........:#+#############+:.
+                      ....::############%@+.
+                         ..:-:::-###=:::..:.
+                           ....::###%:...
+                              ...:-=:..
+                                .:%::.
+
+
+
+
+                           _   ___   ___   ___   ___   ___   ___   ___   ___   ___   ___
+                           _| |_  |_|  _| |_  |_|  _| |_  |_|  _| |_  |_|  _| |_  |_|  _|
+                          |  _  |  _  |_   _|  _  |  _  |  _  |_   _|  _  |  _  |  _  |_
+                          |_| |_| | |___| |___| | |_| |_| | |___| |___| | |_| |_| | |___|
+                           _   _  |  ___   ___  |  _   _  |_   _____   _|  _   _  |  ___
+                          | |_| | |_|  _| |_  |_| | |_| |  _| |_   _| |_  | |_| | |_|  _|
+                          |_   _|  _  |_   _|  _  |_   _| |  _  | |  _  | |_   _|  _  |_
+                           _| |___| |___| |___| |___| |_  |_| |_| |_| |_|  _| |___| |___|
+                          |  ___   ___   _   ___   ___  |  _   _   _   _  |_   ___   ___
+                          |_|  _| |_  |_| |_|  _| |_  |_| | |_| | | |_| |  _| |_  |_|  _|
+                           _  |_   _|  _   _  |_   _|  _  |_   _| |_   _| |  _  |  _  |_
+                          | |___| |___| | | |___| |___| |  _| |_____| |_  |_| |_| | |___|
+                          |_   _____   _| |_   _____   _| |  ___   ___  |  _   _  |  ___
+                           _| |_   _| |_   _| |_   _| |_  |_|  _| |_  |_| | |_| | |_|  _|
+                          |  _  | |  _  | |  _  | |  _  |  _  |_   _|  _  |_   _|  _  |_
+                          |_| |_| |_| |_| |_| |_| |_| |_| | |___| |___| |___| |___| |___|
+                           _   _   _   _   _   _   _   _  |  ___   ___   ___   ___   ___
+                          | |_| | | |_| | | |_| | | |_| | |_|  _| |_  |_|  _| |_  |_|  _|
+                          |_   _| |_   _| |_   _| |_   _|  _  |_   _|  _  |  _  |  _  |_
+                           _| |_____| |_   _| |_____| |_  | |___| |___| | |_| |_| | |___|
+                          |  ___   ___  | |  ___   ___  | |_   _____   _|  _   _  |  ___
+                          |_|  _| |_  |_| |_|  _| |_  |_|  _| |_   _| |_  | |_| | |_|  _|
+                           _  |_   _|  _   _  |_   _|  _  |  _  | |  _  | |_   _|  _  |_
+                          | |___| |___| |_| |___| |___| | |_| |_| |_| |_|  _| |___| |___|
+                          |_   ___   ___   ___   ___   _|  _   _   _   _  |_   ___   ___
+                           _| |_  |_|  _| |_  |_|  _| |_  | |_| | | |_| |  _| |_  |_|  _|
+                          |  _  |  _  |_   _|  _  |  _  | |_   _| |_   _| |  _  |  _  |_
+                          |_| |_| | |___| |___| | |_| |_|  _| |_____| |_  |_| |_| | |___|
+                           _   _  |  ___   ___  |  _   _  |  ___   ___  |  _   _  |  ___
+                          | |_| | |_|  _| |_  |_| | |_| | |_|  _| |_  |_| | |_| | |_|  _|
+                          |_   _|  _  |_   _|  _  |_   _|  _  |_   _|  _  |_   _|  _  |_
+                           _| |___| |___| |___| |___| |___| |___| |___| |___| |___| |___|
+
+
+                                                                                .....
+                                                                               ..:-:....
+                                                                              ...:%+:::-..
+                                                                            .....:::**-:...
+                                                                          .....::::**=-::...
+                                                                       .......:=#=#@##+-*:....
+                                                                    .........:::=#######-::......
+                                                                  .......::::::-+#######=:::........
+                                                               .....:-==-:::=---=*#####=--::#::::::=..
+                                                             ......::+*#*#-=#################-::-:-=:..
+                                                          .........:::########################*####==..
+                                                 ................:::--=%###########################::...
+                                              .................:::@##@###########################@-::...
+                                            ....:-::::::::::::::::-=###############################-:::.
+                                           ....::%-:@::==::::::::-@##################################%:.
+                                          .....:::-+##==##+*=-::-###################################-:..
+                                       .......::::=*##########===####################################+:.
+                                   ........:::::-+#############@+###################################-:..
+                               ...........::-=-==%##################################################:...
+                            ....:-::::::::::=*#####################################################::...
+                           :::-::#-:-=-=-=%+@####################################################-::....
+                            .....:....::::::-+#####################################################::...
+                                ..........::=---=%##############@###################################::..
+                                    ........::::++*############*+###################################-:..
+                                        ......::::**##########=-=####################################+:.
+                                          .....:::-**#==*#=#-:::-+##################################-::.
+                                            ...:==:::::-=::::::::=###################################@*.
+                                             ...:=::...::::.::::::-*###############################-:::.
+                                              ..................::+#@+###########################+-::...
+                                                   ..............::::-=############################*:...
+                                                           ........:::########################=%#@#+:..
+                                                             .......:-#*==-=##############+##-::::-=:..
+                                                                ....:::--::::::-=######=-::::::...::..
+                                                                  .........::::=@#######=:::........
+                                                                     ........:::+######%=::.....
+                                                                        ......::=-=@##=:::....
+                                                                           .....:::-*=:::...
+                                                                             ....::-=@=:...
+                                                                              ...::%::.:..
+                                                                               ..:-:...
+                                                                                 ...
+
 ```
