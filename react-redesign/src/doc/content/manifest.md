@@ -4,19 +4,25 @@
                   plague : pool :  coma
 -->
 
+![alt text][logo]
+
+[logo]: http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png "Logo Title Text 2"
+
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
 <span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
 
-D Σ I N E
+<span style="display:block;color:white;background:#333;padding: 5px 10px">D Σ I N E</span>
 
 ## manifest
 
 > a comprehensive idea list for section and themes to have as design doc for content as well as the types of content that will be showcased on the pages.
 
-a framework for idea and content that find there way into a internet culture that thinks of itself in the digital spectrum of it's own reality. showing the creation of language and imagination alongside technology and information. This shall be the basis for thoughts and ideas to create transformative content with deep linking meta data to create a rich experience that conveys the feelings of words to generate ideas and dynamic data.
+**E C C O** is a framework for idea and content that find there way into a internet culture that thinks of itself in the digital spectrum of it's own reality. showing the creation of language and imagination alongside technology and information. This shall be the basis for thoughts and ideas to create transformative content with deep linking meta data to create a rich experience that conveys the feelings of words to generate ideas and dynamic data.
 
 > the idea of falling into a digital black hole, a data spiral that created a singularity of being through the randomized event driven content. a capsule of time dropped out into the internet. beacon of tomorrow.
+
+**C O M A** is the halo of gas surrounding a comet. The idea of a message in a bottle used to preserve information across a great distance or great amount of time.
 
 ### concepts
 
@@ -52,9 +58,7 @@ logo based on old konami logo and the Metal Gear sounds playing on the splash sc
 
 message from an alternate reality that is trying to inform of an unknown danger looming.
 
-```
-a peice that transforms the world. an idea that takes the know and makes it less known. disambiguation.
-```
+    a peice that transforms the world. an idea that takes the know and makes it less known. disambiguation.
 
 ### temple.os
 
@@ -67,6 +71,10 @@ tiled .gif background behind blue flat design. year zero glitch effect with tese
 ### alex jones => JRE
 
 adrenochrome, vampirism, ambrosia, general stubllebien (us govt). white wash, see through the veil, kundalini, dark forces are the onel ones willing to get involved in free will. brain parasites. eric meuller. fractals. computers are hooked up to bugs. low level love and higher understanding. higher levels start to kill infants. god want blood. enima of drugs. want to die. quzecotel. jaguar leather smoking blood. ezekal. wheel in a wheel comes down. contact with the sky. aztec head pixel face.image of god. we are the aliens. elves are bilogical androids. consiceinenus is an interdimensianal space craf. mind river. if we didn't have noses and someone farted no one would be funny. open communication. those who make peaceful action ileegial make viloence inevitable. flights in the day more radiation. +
+
+### X-FILES
+
+The idea of an anthology of ideas with a grand lore behind the tale.
 
 ### e c c o : p e r s o n a
 
@@ -85,7 +93,7 @@ injectiing code into bodys of normal content effectivly mutating it to a point o
 **latin encoding**
 
 using special encoded character in the code to be placed:replaced
-https://simple.wikipedia.org/wiki/Latin_script
+<https://simple.wikipedia.org/wiki/Latin_script>
 
 `spotify:track:2sbTu4X9OxrjlkFAc6sjmL`
 
@@ -97,27 +105,23 @@ describing the decent into madness. how the mind can be a puzzle box of question
 
 #### fields
 
-```
-
-- language - japanese - russian - hebrew
-- data - dates - packages : amazon - times - places - concerts - driving trips
-- algorythms
-- type - examples
-- Science
-- gene sequence - geneome -
-- deep time
-- aphex twin
-- mars volta
-- big data - layered information
-- crypto
-- 5d
-- string theory
-- compactify
-- miranda
-- layered information
--
-
-```
+    - language - japanese - russian - hebrew
+    - data - dates - packages : amazon - times - places - concerts - driving trips
+    - algorythms
+    - type - examples
+    - Science
+    - gene sequence - geneome -
+    - deep time
+    - aphex twin
+    - mars volta
+    - big data - layered information
+    - crypto
+    - 5d
+    - string theory
+    - compactify
+    - miranda
+    - layered information
+    - cosmic
 
 ---
 
@@ -136,13 +140,10 @@ the act of changing a words intended meaning away from either what it describes 
 - dev diary timeline - project idea timeline simliar to **kickstarter** that shows project write ups of the progress with links to the project or out to other `src=`
 - github change / work cal - a working `.json` driven work cal that shows posts and other content added on hover with a section below revealing the list of content, this hover effect shows the section but does not disapear when `:focus` has change away.
 
-```
 
-- reviews
-- photography sets
-- article write ups - more
-
-```
+    - reviews
+    - photography sets
+    - article write ups - more
 
 #### photography
 
@@ -172,7 +173,28 @@ the act of changing a words intended meaning away from either what it describes 
 - fermi
 	- that is not dead which can eternal lay.
 	- idea for the future
+	- DNA - CAA-TAACAGGTCTGTGATGCCCTTAA (human)
 ```
+
+#### word in language usage
+
+the genral percent of word usage based on multiple translations of language and thier occurance. humans may have a genetic framework for language. Understanding how a culture works intrinsically aids in understanding the language it's culture uses to describe it.
+
+```python
+- "The" = 7.0% : 1
+- "Be" = 3.5% : 1/2
+- "And" = 2.3% : 1/3
+- "Of" = 1.9% : 1/4
+- "To" = 1.5% : 1/5
+- "A" = 1.3% : 1/6
+- "In" = 1.1% : 1/7
+- "That" = 0.9% : 1/8
+- "Have" = 0.8% : 1/9
+```
+
+![alt text][theroem]
+
+[theroem]: http://mathworld.wolfram.com/images/eps-gif/PythagoreanTheoremTri_850.gif "Logo Title Text 2"
 
 #### topics
 
@@ -261,18 +283,13 @@ this all would involve having a content creating habit tied to a system that is 
 
 ## PARADOX POX
 
-a site virus that shows itself infecting the content of the pages or screens. Screens &amp; Pages should have a distict feel. The infection has a sound as it speeds up. it creates an exponetial counting overflow until it hits an arbitrary length.
+a site virus that shows itself infecting the content of the pages or screens. Screens & Pages should have a distict feel. The infection has a sound as it speeds up. it creates an exponetial counting overflow until it hits an arbitrary length.
 
 first instance use of this owuld be to have react use a render on special character elements
 
-```
-:: sample
+    :: sample
 
-beside you in time, with an ecco in a bottle. smell the strangness. designed phoenix egg quoetzlcotl. a thousand age iternation. time is a flat circle flatlander psychic or witches woven times unwravel. low contrast periscope receding horizion
-
-
-
-```
+    beside you in time, with an ecco in a bottle. smell the strangness. designed phoenix egg quoetzlcotl. a thousand age iternation. time is a flat circle flatlander psychic or witches woven times unwravel. low contrast periscope receding horizion
 
 _pax_
 
@@ -311,9 +328,7 @@ sunny drive highway into receding horizion
 
 ---
 
-```
-rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt,
-```
+    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt,
 
 ---
 
@@ -355,13 +370,16 @@ rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, 
 - reecurring nightmare
 - dreamless slumber
 - whirlpool
--
+
+## windows 96
+
+an alternate timeline of the world where expeiences and culture are bleeding through into our current instance of life. It tries to show an odd perspective compared to the one we know now.
 
 #### influences
 
 - aphex twin - syro - collapse `video with 3d model word with code generating over`
 - mars volta - amputecture `opening tinny sounding sounding like it is loading the sound through the internet`
-- death grips
+- death grips - no love deep web | year of the snitch
 - x-files `endless records`
 - lost (chess game where you are playing the computer that can't be beat)
 - year zero (narrative and micro-site linking ARG)
@@ -380,9 +398,10 @@ rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, 
 | buckethead                 | blue velvet     | house of leaves | tesla             | vinyl sticker      |
 | mars volta                 | mulholand drive | survivor        | boltsman brain    | dot matrix printer |
 | aphex twin                 | twin peaks      |                 | simulation theory | ascii              |
-| death grips                | lawnmower man   |                 |
-| a place to burry strangers | the matrix      |                 |
-| health                     |                 |                 |
+| death grips                | lawnmower man   |                 |                   |                    |
+| a place to burry strangers | the matrix      |                 | Here              |                    |
+| health                     |                 |                 | here is another   |                    |
+| more than I                |                 |                 |                   |                    |
 
 ---
 
@@ -418,314 +437,296 @@ title: `creative technologist`
 
 ### aXsXcXiXi samples
 
-```
-MMXXIX
-++:: ASCII ::++
-COMA SINE SIGMA
-33 mind_touch..........................................................999
-1 P [boss battle]......................................................678
-miranda (no more)......................................................010
-
-
-
-```
+    MMXXIX
+    ++:: ASCII ::++
+    COMA SINE SIGMA
+    33 mind_touch..........................................................999
+    1 P [boss battle]......................................................678
+    miranda (no more)......................................................010
 
 ### wow signal
 
-```
-72
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
- 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-72
-```
+    72
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    72
 
-```
-144
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
- 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-144
-```
+    144
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+     0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    144
 
-```
-50
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-1234567890ABCDEFGHIJKLMNOPQRSTU
- CHANNEL NUMBER (TWO DIGITS, WRITTEN VERTICALLY),
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-00000000011111111112222222222333333333244444444445
-12345678901234567890123456789012345678901234567890
-```
+    50
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    1234567890ABCDEFGHIJKLMNOPQRSTU
+     CHANNEL NUMBER (TWO DIGITS, WRITTEN VERTICALLY),
+    XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+    00000000011111111112222222222333333333244444444445
+    12345678901234567890123456789012345678901234567890
 
-```
-index
+    index
 
-home....................................................................00.00                        [ entry point with possible splash selection of options................]
-search..................................................................00.AA - v 04.15.2019 H03M20
-version.................................................................00.BB
-work....................................................................01.00
-all.....................................................................01.AA
-web.....................................................................01.BB
-interface...............................................................01.CC
-print...................................................................01.DD
-process.................................................................01.EE - v 04.14.2019 H10M15
-info....................................................................02.00
-about...................................................................02.AA
-contact.................................................................02.BB
-reports.................................................................02.CC - v 04.14.2019 H17M25
-ideas...................................................................03.00
-quotes..................................................................03.AA
-inspiration.............................................................03.BB
-blog....................................................................03.CC
-data....................................................................04.00
-catalog.................................................................04.BB
-fragments...............................................................04.CC - v 03.17
+    home....................................................................00.00                        [ entry point with possible splash selection of options................]
+    search..................................................................00.AA - v 04.15.2019 H03M20
+    version.................................................................00.BB
+    work....................................................................01.00
+    all.....................................................................01.AA
+    web.....................................................................01.BB
+    interface...............................................................01.CC
+    print...................................................................01.DD
+    process.................................................................01.EE - v 04.14.2019 H10M15
+    info....................................................................02.00
+    about...................................................................02.AA
+    contact.................................................................02.BB
+    reports.................................................................02.CC - v 04.14.2019 H17M25
+    ideas...................................................................03.00
+    quotes..................................................................03.AA
+    inspiration.............................................................03.BB
+    blog....................................................................03.CC
+    data....................................................................04.00
+    catalog.................................................................04.BB
+    fragments...............................................................04.CC - v 03.17
 
-
-```
-
-```
-~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
--[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[
-:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
-~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]
-.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--
-.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.-
-_.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._
-__.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._
-___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.-
-____.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{
-___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{||
-__.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{||
-_.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{||
-\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V/
------------------------------------------------------=========================----------------------------------------------------
---------------------------------------------------==============================--------------------------------------------------
-------------------------------------------------===================================-----------------------------------------------
----------------------------------------------========================================---------------------------------------------
--------------------------------------------===========================================--------------------------------------------
--------------------------------------------=====-------========--------=================------------------------------------------
--------------------------------------------=====-------========--------=================------------------------------------------
---------------------------------------------====-------========--------=================------------------------------------------
---------------------------------------------====-------========--------================-------------------------------------------
----------------------------------------------====------========--------===============--------------------------------------------
-----------------------------------------------===------========-------==============----------------------------------------------
------------------------------------------------==-----=========------==============-----------------------------------------------
-------------------------------------------------=-----========------=============-------------------------------------------------
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+++++++++ooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooosyhhdddddddhys+:--.....--::++ooooooooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhys\............-:+ooooooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhhhhhhhs:............:+ooooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy\............-+oooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooosdddddddddddddhhhhhhhhhhhhhs............./ooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy/............-+oooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhhhhhhhs:............:+ooooooooooooooooooooooooooooooooooooooooooooooo
-ooooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhys/............-:+ooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooosyhhdddddddhys+:--.....--::++ooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+++++++++ooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
-oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
+    H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-
+    -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+    =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+    -[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[-]-[
+    :=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
+    ~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]~][~]
+    .-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--.-=-.--_--
+    .--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.-
+    _.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--.__.--{|||}--._
+    __.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--._.--{|||}--.____.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._
+    ___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.-
+    ____.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{
+    ___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{||
+    __.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{||
+    _.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{||
+    \\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V/
+    -----------------------------------------------------=========================----------------------------------------------------
+    --------------------------------------------------==============================--------------------------------------------------
+    ------------------------------------------------===================================-----------------------------------------------
+    ---------------------------------------------========================================---------------------------------------------
+    -------------------------------------------===========================================--------------------------------------------
+    -------------------------------------------=====-------========--------=================------------------------------------------
+    -------------------------------------------=====-------========--------=================------------------------------------------
+    --------------------------------------------====-------========--------=================------------------------------------------
+    --------------------------------------------====-------========--------================-------------------------------------------
+    ---------------------------------------------====------========--------===============--------------------------------------------
+    ----------------------------------------------===------========-------==============----------------------------------------------
+    -----------------------------------------------==-----=========------==============-----------------------------------------------
+    ------------------------------------------------=-----========------=============-------------------------------------------------
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+++++++++ooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooosyhhdddddddhys+:--.....--::++ooooooooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhys\............-:+ooooooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhhhhhhhs:............:+ooooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy\............-+oooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooosdddddddddddddhhhhhhhhhhhhhs............./ooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy/............-+oooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhhhhhhhs:............:+ooooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooooooooyddddddddddddhhys/............-:+ooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooosyhhdddddddhys+:--.....--::++ooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo+++++++++ooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+    oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
 
-_.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._
-.-'---      - ---     --     ---   -----   - --       ----  ----   -     ---`-.
+    _.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._
+    .-'---      - ---     --     ---   -----   - --       ----  ----   -     ---`-.
 
-     (¯`·.¸¸.·´¯`·.¸¸.·´¯)
-    ( \                 / )
-   ( \ )               ( / )
-  ( ) (                 ) ( )
-   ( / )               ( \ )
-    ( /                 \ )
-     (_.·´¯`·.¸¸.·´¯`·.¸_)
-
-
-     .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
-    / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
-    \ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/ /
-     \/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /
-     / /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\
-    / /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\ \
-    \ \/\ \                                                    /\ \/ /
-     \/ /\ \                                                  / /\/ /
-     / /\/ /           A large frame border based on          \ \/ /\
-    / /\ \/                                                    \ \/\ \
-    \ \/\ \                  celtic knots ...                  /\ \/ /
-     \/ /\ \                                                  / /\/ /
-     / /\/ /                                                  \ \/ /\
-    / /\ \/                                                    \ \/\ \
-    \ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /
-     \/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /
-     / /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\
-    / /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \
-    \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
-     `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+         (¯`·.¸¸.·´¯`·.¸¸.·´¯)
+        ( \                 / )
+       ( \ )               ( / )
+      ( ) (                 ) ( )
+       ( / )               ( \ )
+        ( /                 \ )
+         (_.·´¯`·.¸¸.·´¯`·.¸_)
 
 
-     .-"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.
-    (  ,-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-~-} ;.
-    \ \.'_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-._~--. \ .
-    /\ \/ ,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._`./ \ \ .
-    ( (`/ /                                                        `/ /.) ) .
-    \ \ / \                                                       / / \ / .
-     \ \') )                                                     ( (,\ \ .
-    / \ / /                                                       \ / \ \ .
-    dc(`/ /                                                         / /.) ) .
-    \ \ / \                                                       / / \ / .
-     \ \') )                                                     ( (,\ \ .
-    / \ / /                                                       \ / \ \ .
-    ( (`/ /                                                         / /.) ) .
-    \ \ / \                                                       / / \ / .
-     \ \') )                                                     ( (,\ \ .
-    / \ / /                                                       \ / \ \ .
-    ( ( / /                                                         / /.) ) .
-    \ \ / \                                                       / / \ /.
-     \ \') )                                                     ( (,\ \ .
-    / \ / /                                                       \ / \ \ .
-    ( ( / /                                                         / /.) ) .
-    \ \ / \                                                       / / \ / .
-     \ \') )                                                     ( (,\ \ .
-    / \ / /                                                       \ / \ \ .
-    ( ( / /                                                         / /.) ) .
-    \ \ / \       _       _       _       _       _       _       / / \ /.
-     \ `.\ `-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_/,\ \ .
-    ( `. `,~-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-=,' ,\ \ .
-     `. `'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,"-' ; .
-       `-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-.-' .
+         .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
+        / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+        \ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/ /
+         \/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /
+         / /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\
+        / /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\ \
+        \ \/\ \                                                    /\ \/ /
+         \/ /\ \                                                  / /\/ /
+         / /\/ /           A large frame border based on          \ \/ /\
+        / /\ \/                                                    \ \/\ \
+        \ \/\ \                  celtic knots ...                  /\ \/ /
+         \/ /\ \                                                  / /\/ /
+         / /\/ /                                                  \ \/ /\
+        / /\ \/                                                    \ \/\ \
+        \ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /
+         \/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /
+         / /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\
+        / /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \
+        \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
+         `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
 
 
-       ..
-      .:+:-.
-    ..::*=:..
- ....::####:...
-...-=::--*##=-::::=.
-....::##############=.
-........::#@#############@:.
-..:%::=::::-#################%
-....::*#####=##################+
-......:==%#########################.
-:::#:===+##########################-:.
-.....:--%#########################:
-...::*#####-##################+
-.:=::-::::=#################@
-.........:#+#############+:.
-....::############%@+.
-..:-:::-###=:::..:.
- ....::###%:...
-    ...:-=:..
-      .:%::.
+         .-"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.
+        (  ,-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-<.>-'_,-~-} ;.
+        \ \.'_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-<_>-._`-._~--. \ .
+        /\ \/ ,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._`./ \ \ .
+        ( (`/ /                                                        `/ /.) ) .
+        \ \ / \                                                       / / \ / .
+         \ \') )                                                     ( (,\ \ .
+        / \ / /                                                       \ / \ \ .
+        dc(`/ /                                                         / /.) ) .
+        \ \ / \                                                       / / \ / .
+         \ \') )                                                     ( (,\ \ .
+        / \ / /                                                       \ / \ \ .
+        ( (`/ /                                                         / /.) ) .
+        \ \ / \                                                       / / \ / .
+         \ \') )                                                     ( (,\ \ .
+        / \ / /                                                       \ / \ \ .
+        ( ( / /                                                         / /.) ) .
+        \ \ / \                                                       / / \ /.
+         \ \') )                                                     ( (,\ \ .
+        / \ / /                                                       \ / \ \ .
+        ( ( / /                                                         / /.) ) .
+        \ \ / \                                                       / / \ / .
+         \ \') )                                                     ( (,\ \ .
+        / \ / /                                                       \ / \ \ .
+        ( ( / /                                                         / /.) ) .
+        \ \ / \       _       _       _       _       _       _       / / \ /.
+         \ `.\ `-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_`-._,-'_/,\ \ .
+        ( `. `,~-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-=,' ,\ \ .
+         `. `'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,"-' ; .
+           `-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-.-' .
 
 
-                                 ..
-                                .:+:-.
-                              ..::*=:..
-                           ....::####:...
-                        ...-=::--*##=-::::=.
-                      ....::##############=.
-                ........::#@#############@:.
-              ..:%::=::::-#################%
-            ....::*#####=##################+
-        ......:==%#########################.
-      :::#:===+##########################-:.
-         .....:--%#########################:
-             ...::*#####-##################+
-               .:=::-::::=#################@
-                .........:#+#############+:.
-                      ....::############%@+.
-                         ..:-:::-###=:::..:.
-                           ....::###%:...
-                              ...:-=:..
-                                .:%::.
+           ..
+          .:+:-.
+        ..::*=:..
+     ....::####:...
+    ...-=::--*##=-::::=.
+    ....::##############=.
+    ........::#@#############@:.
+    ..:%::=::::-#################%
+    ....::*#####=##################+
+    ......:==%#########################.
+    :::#:===+##########################-:.
+    .....:--%#########################:
+    ...::*#####-##################+
+    .:=::-::::=#################@
+    .........:#+#############+:.
+    ....::############%@+.
+    ..:-:::-###=:::..:.
+     ....::###%:...
+        ...:-=:..
+          .:%::.
+
+
+                                     ..
+                                    .:+:-.
+                                  ..::*=:..
+                               ....::####:...
+                            ...-=::--*##=-::::=.
+                          ....::##############=.
+                    ........::#@#############@:.
+                  ..:%::=::::-#################%
+                ....::*#####=##################+
+            ......:==%#########################.
+          :::#:===+##########################-:.
+             .....:--%#########################:
+                 ...::*#####-##################+
+                   .:=::-::::=#################@
+                    .........:#+#############+:.
+                          ....::############%@+.
+                             ..:-:::-###=:::..:.
+                               ....::###%:...
+                                  ...:-=:..
+                                    .:%::.
 
 
 
 
-                           _   ___   ___   ___   ___   ___   ___   ___   ___   ___   ___
-                           _| |_  |_|  _| |_  |_|  _| |_  |_|  _| |_  |_|  _| |_  |_|  _|
-                          |  _  |  _  |_   _|  _  |  _  |  _  |_   _|  _  |  _  |  _  |_
-                          |_| |_| | |___| |___| | |_| |_| | |___| |___| | |_| |_| | |___|
-                           _   _  |  ___   ___  |  _   _  |_   _____   _|  _   _  |  ___
-                          | |_| | |_|  _| |_  |_| | |_| |  _| |_   _| |_  | |_| | |_|  _|
-                          |_   _|  _  |_   _|  _  |_   _| |  _  | |  _  | |_   _|  _  |_
-                           _| |___| |___| |___| |___| |_  |_| |_| |_| |_|  _| |___| |___|
-                          |  ___   ___   _   ___   ___  |  _   _   _   _  |_   ___   ___
-                          |_|  _| |_  |_| |_|  _| |_  |_| | |_| | | |_| |  _| |_  |_|  _|
-                           _  |_   _|  _   _  |_   _|  _  |_   _| |_   _| |  _  |  _  |_
-                          | |___| |___| | | |___| |___| |  _| |_____| |_  |_| |_| | |___|
-                          |_   _____   _| |_   _____   _| |  ___   ___  |  _   _  |  ___
-                           _| |_   _| |_   _| |_   _| |_  |_|  _| |_  |_| | |_| | |_|  _|
-                          |  _  | |  _  | |  _  | |  _  |  _  |_   _|  _  |_   _|  _  |_
-                          |_| |_| |_| |_| |_| |_| |_| |_| | |___| |___| |___| |___| |___|
-                           _   _   _   _   _   _   _   _  |  ___   ___   ___   ___   ___
-                          | |_| | | |_| | | |_| | | |_| | |_|  _| |_  |_|  _| |_  |_|  _|
-                          |_   _| |_   _| |_   _| |_   _|  _  |_   _|  _  |  _  |  _  |_
-                           _| |_____| |_   _| |_____| |_  | |___| |___| | |_| |_| | |___|
-                          |  ___   ___  | |  ___   ___  | |_   _____   _|  _   _  |  ___
-                          |_|  _| |_  |_| |_|  _| |_  |_|  _| |_   _| |_  | |_| | |_|  _|
-                           _  |_   _|  _   _  |_   _|  _  |  _  | |  _  | |_   _|  _  |_
-                          | |___| |___| |_| |___| |___| | |_| |_| |_| |_|  _| |___| |___|
-                          |_   ___   ___   ___   ___   _|  _   _   _   _  |_   ___   ___
-                           _| |_  |_|  _| |_  |_|  _| |_  | |_| | | |_| |  _| |_  |_|  _|
-                          |  _  |  _  |_   _|  _  |  _  | |_   _| |_   _| |  _  |  _  |_
-                          |_| |_| | |___| |___| | |_| |_|  _| |_____| |_  |_| |_| | |___|
-                           _   _  |  ___   ___  |  _   _  |  ___   ___  |  _   _  |  ___
-                          | |_| | |_|  _| |_  |_| | |_| | |_|  _| |_  |_| | |_| | |_|  _|
-                          |_   _|  _  |_   _|  _  |_   _|  _  |_   _|  _  |_   _|  _  |_
-                           _| |___| |___| |___| |___| |___| |___| |___| |___| |___| |___|
+                               _   ___   ___   ___   ___   ___   ___   ___   ___   ___   ___
+                               _| |_  |_|  _| |_  |_|  _| |_  |_|  _| |_  |_|  _| |_  |_|  _|
+                              |  _  |  _  |_   _|  _  |  _  |  _  |_   _|  _  |  _  |  _  |_
+                              |_| |_| | |___| |___| | |_| |_| | |___| |___| | |_| |_| | |___|
+                               _   _  |  ___   ___  |  _   _  |_   _____   _|  _   _  |  ___
+                              | |_| | |_|  _| |_  |_| | |_| |  _| |_   _| |_  | |_| | |_|  _|
+                              |_   _|  _  |_   _|  _  |_   _| |  _  | |  _  | |_   _|  _  |_
+                               _| |___| |___| |___| |___| |_  |_| |_| |_| |_|  _| |___| |___|
+                              |  ___   ___   _   ___   ___  |  _   _   _   _  |_   ___   ___
+                              |_|  _| |_  |_| |_|  _| |_  |_| | |_| | | |_| |  _| |_  |_|  _|
+                               _  |_   _|  _   _  |_   _|  _  |_   _| |_   _| |  _  |  _  |_
+                              | |___| |___| | | |___| |___| |  _| |_____| |_  |_| |_| | |___|
+                              |_   _____   _| |_   _____   _| |  ___   ___  |  _   _  |  ___
+                               _| |_   _| |_   _| |_   _| |_  |_|  _| |_  |_| | |_| | |_|  _|
+                              |  _  | |  _  | |  _  | |  _  |  _  |_   _|  _  |_   _|  _  |_
+                              |_| |_| |_| |_| |_| |_| |_| |_| | |___| |___| |___| |___| |___|
+                               _   _   _   _   _   _   _   _  |  ___   ___   ___   ___   ___
+                              | |_| | | |_| | | |_| | | |_| | |_|  _| |_  |_|  _| |_  |_|  _|
+                              |_   _| |_   _| |_   _| |_   _|  _  |_   _|  _  |  _  |  _  |_
+                               _| |_____| |_   _| |_____| |_  | |___| |___| | |_| |_| | |___|
+                              |  ___   ___  | |  ___   ___  | |_   _____   _|  _   _  |  ___
+                              |_|  _| |_  |_| |_|  _| |_  |_|  _| |_   _| |_  | |_| | |_|  _|
+                               _  |_   _|  _   _  |_   _|  _  |  _  | |  _  | |_   _|  _  |_
+                              | |___| |___| |_| |___| |___| | |_| |_| |_| |_|  _| |___| |___|
+                              |_   ___   ___   ___   ___   _|  _   _   _   _  |_   ___   ___
+                               _| |_  |_|  _| |_  |_|  _| |_  | |_| | | |_| |  _| |_  |_|  _|
+                              |  _  |  _  |_   _|  _  |  _  | |_   _| |_   _| |  _  |  _  |_
+                              |_| |_| | |___| |___| | |_| |_|  _| |_____| |_  |_| |_| | |___|
+                               _   _  |  ___   ___  |  _   _  |  ___   ___  |  _   _  |  ___
+                              | |_| | |_|  _| |_  |_| | |_| | |_|  _| |_  |_| | |_| | |_|  _|
+                              |_   _|  _  |_   _|  _  |_   _|  _  |_   _|  _  |_   _|  _  |_
+                               _| |___| |___| |___| |___| |___| |___| |___| |___| |___| |___|
 
 
-                                                                                .....
-                                                                               ..:-:....
-                                                                              ...:%+:::-..
-                                                                            .....:::**-:...
-                                                                          .....::::**=-::...
-                                                                       .......:=#=#@##+-*:....
-                                                                    .........:::=#######-::......
-                                                                  .......::::::-+#######=:::........
-                                                               .....:-==-:::=---=*#####=--::#::::::=..
-                                                             ......::+*#*#-=#################-::-:-=:..
-                                                          .........:::########################*####==..
-                                                 ................:::--=%###########################::...
-                                              .................:::@##@###########################@-::...
-                                            ....:-::::::::::::::::-=###############################-:::.
-                                           ....::%-:@::==::::::::-@##################################%:.
-                                          .....:::-+##==##+*=-::-###################################-:..
-                                       .......::::=*##########===####################################+:.
-                                   ........:::::-+#############@+###################################-:..
-                               ...........::-=-==%##################################################:...
-                            ....:-::::::::::=*#####################################################::...
-                           :::-::#-:-=-=-=%+@####################################################-::....
-                            .....:....::::::-+#####################################################::...
-                                ..........::=---=%##############@###################################::..
-                                    ........::::++*############*+###################################-:..
-                                        ......::::**##########=-=####################################+:.
-                                          .....:::-**#==*#=#-:::-+##################################-::.
-                                            ...:==:::::-=::::::::=###################################@*.
-                                             ...:=::...::::.::::::-*###############################-:::.
-                                              ..................::+#@+###########################+-::...
-                                                   ..............::::-=############################*:...
-                                                           ........:::########################=%#@#+:..
-                                                             .......:-#*==-=##############+##-::::-=:..
-                                                                ....:::--::::::-=######=-::::::...::..
-                                                                  .........::::=@#######=:::........
-                                                                     ........:::+######%=::.....
-                                                                        ......::=-=@##=:::....
-                                                                           .....:::-*=:::...
-                                                                             ....::-=@=:...
-                                                                              ...::%::.:..
-                                                                               ..:-:...
-                                                                                 ...
-
-```
+                                                                                    .....
+                                                                                   ..:-:....
+                                                                                  ...:%+:::-..
+                                                                                .....:::**-:...
+                                                                              .....::::**=-::...
+                                                                           .......:=#=#@##+-*:....
+                                                                        .........:::=#######-::......
+                                                                      .......::::::-+#######=:::........
+                                                                   .....:-==-:::=---=*#####=--::#::::::=..
+                                                                 ......::+*#*#-=#################-::-:-=:..
+                                                              .........:::########################*####==..
+                                                     ................:::--=%###########################::...
+                                                  .................:::@##@###########################@-::...
+                                                ....:-::::::::::::::::-=###############################-:::.
+                                               ....::%-:@::==::::::::-@##################################%:.
+                                              .....:::-+##==##+*=-::-###################################-:..
+                                           .......::::=*##########===####################################+:.
+                                       ........:::::-+#############@+###################################-:..
+                                   ...........::-=-==%##################################################:...
+                                ....:-::::::::::=*#####################################################::...
+                               :::-::#-:-=-=-=%+@####################################################-::....
+                                .....:....::::::-+#####################################################::...
+                                    ..........::=---=%##############@###################################::..
+                                        ........::::++*############*+###################################-:..
+                                            ......::::**##########=-=####################################+:.
+                                              .....:::-**#==*#=#-:::-+##################################-::.
+                                                ...:==:::::-=::::::::=###################################@*.
+                                                 ...:=::...::::.::::::-*###############################-:::.
+                                                  ..................::+#@+###########################+-::...
+                                                       ..............::::-=############################*:...
+                                                               ........:::########################=%#@#+:..
+                                                                 .......:-#*==-=##############+##-::::-=:..
+                                                                    ....:::--::::::-=######=-::::::...::..
+                                                                      .........::::=@#######=:::........
+                                                                         ........:::+######%=::.....
+                                                                            ......::=-=@##=:::....
+                                                                               .....:::-*=:::...
+                                                                                 ....::-=@=:...
+                                                                                  ...::%::.:..
+                                                                                   ..:-:...
+                                                                                     ...
