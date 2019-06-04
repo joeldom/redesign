@@ -107,7 +107,7 @@ describing the decent into madness. how the mind can be a puzzle box of question
 
     - language - japanese - russian - hebrew
     - data - dates - packages : amazon - times - places - concerts - driving trips
-    - algorythms
+    - algorythms : sorting : replacing functions
     - type - examples
     - Science
     - gene sequence - geneome -
@@ -115,19 +115,22 @@ describing the decent into madness. how the mind can be a puzzle box of question
     - aphex twin
     - mars volta
     - big data - layered information
-    - crypto
-    - 5d
+    - crypto : quantum information
+    - 5d ~ actualization
     - string theory
-    - compactify
-    - miranda
+    - compactify = time compression : information
+    - miranda = deep spac star
     - layered information
     - cosmic
+    - long time history
+    - etymology
+    -
 
 ---
 
 **solve et coagula**
 
-the act of changing a words intended meaning away from either what it describes to some other idea proposed in the current context.
+> the act of changing a words intended meaning away from either what it describes to some other idea proposed in the current context.
 
 **data flood**
 
@@ -140,16 +143,17 @@ the act of changing a words intended meaning away from either what it describes 
 - dev diary timeline - project idea timeline simliar to **kickstarter** that shows project write ups of the progress with links to the project or out to other `src=`
 - github change / work cal - a working `.json` driven work cal that shows posts and other content added on hover with a section below revealing the list of content, this hover effect shows the section but does not disapear when `:focus` has change away.
 
-
-    - reviews
-    - photography sets
-    - article write ups - more
+  - reviews
+  - photography sets
+  - article write ups - more
+  - posts of typography experiments
+  - ongoing writing excercises that append past information
 
 #### photography
 
-    - shots of skies
-    - shots of models b/w > color swipe
-    -
+- shots of skies at night with light spots
+- shots of models b/w > color swipe
+-
 
 ---
 
@@ -196,7 +200,7 @@ the genral percent of word usage based on multiple translations of language and 
 
 [theroem]: http://mathworld.wolfram.com/images/eps-gif/PythagoreanTheoremTri_850.gif "Logo Title Text 2"
 
-#### topics
+#### research topics
 
 _answers with joe_
 
@@ -215,6 +219,30 @@ _answers with joe_
 - tabby star
 - cygnus
 - Matrioshka Brain : bubble brain : tune in turn on drop out
+- By the waters of babylon
+- tarantula
+
+---
+
+## Architecture of E C C O : V O I D
+
+- Dropbox
+  - shared folder for working on Adobe files across computers and a backup of builds
+- Github
+  - repo for tracking app logic and frameworks
+- Amazon S3
+  - static site hosting and api delivery from json feeds.
+- Kuberneties
+  - automated build deploy service to apply and launch changes from data and content updates to a live site with verion tracking
+- Buffer
+  - creating a social integration to share links of new pages being published based on twitter card and page exceprt summary descritions.
+- Bitly
+  - site shortlink for inbound tracking and linking shortening
+- Google Analytics
+  - analytics campaign to tie pages together and track terms appearing
+- Twitter
+  - data type to write preview text and link to a preview card
+- Youtube
 
 ## Builds
 
@@ -273,11 +301,15 @@ writing beafutiful deep web poetry. define what can be beatuitif in the digital 
 
 this all would involve having a content creating habit tied to a system that is easy to create with. blue print of art describing the thought behind the idea that is now available knowing the shared content that shows how the thinking and cross refference training of the idea comes across. understanding how to deep link inside the ideas in content.
 
+## custom content variables
+
+with a custom content variable type, content will be able to have custom planned content replacement and internal linking.
+
 ---
 
 ## D AE M O N
 
-`creating dif levels of art some begins with leveles of technique, the viewr is shows what the artist wants them to see, tact allows the artist to make areas or concepts of the peice ambiguous and subjective allowing the viewer to imprint their own feelings and thoughts into the peice bringing the artist viewer cycle full circle.`
+> creating dif levels of art some begins with leveles of technique, the viewr is shows what the artist wants them to see, tact allows the artist to make areas or concepts of the peice ambiguous and subjective allowing the viewer to imprint their own feelings and thoughts into the peice bringing the artist viewer cycle full circle.
 
 ---
 
@@ -293,7 +325,7 @@ first instance use of this owuld be to have react use a render on special charac
 
 _pax_
 
-sunny drive highway into receding horizion
+sunny drive highway into receding horizion highway overpass sunset heat
 
 ---
 
@@ -370,6 +402,21 @@ sunny drive highway into receding horizion
 - reecurring nightmare
 - dreamless slumber
 - whirlpool
+- lord of hosts
+- burning wrath
+- duplicants of adam
+- chimera
+- homunculous
+
+## Prophet of Joel
+
+talks of a day where the moon shall cover the sun and day shall turn to night and a new age will begin. With the new age of man knowledge will be dispersed and all shall know.
+
+## Enki Adam Eve
+
+Adam was given instuctions from the lord that he was to live in eternal peace within the garden and Adam asked god for a partner
+
+Adam had been given the fruit that Eve had found and they ate it. And with eating it they then were knowing and they were naked.
 
 ## windows 96
 
@@ -379,7 +426,7 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 
 - aphex twin - syro - collapse `video with 3d model word with code generating over`
 - mars volta - amputecture `opening tinny sounding sounding like it is loading the sound through the internet`
-- death grips - no love deep web | year of the snitch
+- death grips - no love deep web | year of the snitch | powers that b | steroids (crouching tigger hidden gabber mix)
 - x-files `endless records`
 - lost (chess game where you are playing the computer that can't be beat)
 - year zero (narrative and micro-site linking ARG)
@@ -393,13 +440,13 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - bremuda triangle
 -
 
-| music                      | film            | book            | science           | art                |
-| -------------------------- | --------------- | --------------- | ----------------- | ------------------ |
-| buckethead                 | blue velvet     | house of leaves | tesla             | vinyl sticker      |
-| mars volta                 | mulholand drive | survivor        | boltsman brain    | dot matrix printer |
+| music                      | film            | book            | science           | art                | patters         |
+| -------------------------- | --------------- | --------------- | ----------------- | ------------------ | --------------- |
+| buckethead                 | blue velvet     | house of leaves | tesla             | vinyl sticker      | native american |
+| mars volta                 | mulholand drive | survivor        | boltsman brain    | dot matrix printer | egytian         |
 | aphex twin                 | twin peaks      |                 | simulation theory | ascii              |
 | death grips                | lawnmower man   |                 |                   |                    |
-| a place to burry strangers | the matrix      |                 | Here              |                    |
+| a place to burry strangers | the matrix      |                 |                   |                    |
 | health                     |                 |                 | here is another   |                    |
 | more than I                |                 |                 |                   |                    |
 
@@ -434,6 +481,49 @@ title: `creative technologist`
 -
 
 ---
+
+### void naming sort
+
+    alpha..................................................................000
+    beta...................................................................001
+    coma...................................................................002
+    delta..................................................................003
+    ecco...................................................................004
+    epsilon
+    gamma
+    zeta
+    theta
+    zulu
+
+    oblivion
+    tarantula
+    cassandra
+    abraxus
+    goliath
+    miasma
+    ashur
+    ishtar
+    gilamesh
+    odin
+    quetzalcoatl
+    Yōkai
+    anima
+    kaiden
+    gaiden
+    Ziusudra
+    Ero guro
+    nansensu
+    Ryukenden
+    Yūrei
+    Tehran
+    Azriel
+    Sinai
+    Ninrod
+    Ninava
+
+## japanese demons
+
+[Legendary japanese creatures](https://en.wikipedia.org/wiki/List_of_legendary_creatures_from_Japan)
 
 ### aXsXcXiXi samples
 

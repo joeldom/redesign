@@ -29,7 +29,6 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
   .rwd-title1{
     z-index: 9999;
     position: absolute;
-    color: red !important;
   }
 	.rwd-title2 {padding: 1em 4em !important; width: 100%; background: red !important;}
   body {
@@ -57,7 +56,7 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <!-- <span style="height:800px;display:block;"></span> -->
 
 <div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
-	<d class="rwd-title1" style="color:#ab1acc;font-family: 'Roboto', sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;"><span style="z-index: 999999;">Front End</span></d><br class="rwd-break"/>
+	<span class="rwd-title1" style="color:#ab1acc;font-family: 'Roboto', sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break"/>
 	<span class="rwd-title2" style="font-family: 'Roboto', sans-serif; font-size: 3em; border: 1px solid aqua; color: white; opacity: .75;text-shadow: -2px 0px #1a3acc; padding: 1.25em .25em;">Top to Bottom</span>
 	<div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif;; font-size: 1.25em; text-align: center; display: block;"><span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it's easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span>
 	</div>
@@ -89,6 +88,10 @@ This is a large topic. One I've spent the last 15 years doing. Striving for 1-1 
 
 One of the main differences I can see with FE vs BE is that independant of a platform or implementation these same rules, terms and language actually don't ever change. While you might be working with a database or an api or condtional logic
 
+# Methods & Execution
+
+# Data vs Anecdotes
+
 # Boxes
 
 **cat in a box pic**
@@ -111,17 +114,36 @@ You don't have to know the code to write to achieve the layout, but you do need 
 One of the most useful tools to help make something go from good to great is input of those who use it.
 <span style="height:800px;display:block;"></span>
 
-## Frequent visitor
+# Legacy Code
+
+golbkli Tempi example
+
+## Frequent visitor?
 
 What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?
 
-## Sass
+# CSS3
+
+# Sass
 
 Syntax Awesome Stylesheets
 
-CSS3
+####...but first NPM & \*\*GULP
 
-Sass
+Being that SASS & LESS are based on _Ruby_ and _Java_ we need to set up the system processes to be able to read, process, render, and output the files that will be used by our site our app.
+
+## mixins
+
+```scss
+/* SCSS */
+@mixin css3-prefix($prop, $value) {
+  -webkit-#{$prop}: #{$value};
+  -moz-#{$prop}: #{$value};
+  -ms-#{$prop}: #{$value};
+  -o-#{$prop}: #{$value};
+  #{$prop}: #{$value};
+}
+```
 
 ```scss
 .parent-class {
@@ -131,8 +153,6 @@ Sass
   }
 }
 ```
-
-####...but first **NPM** & **GULP**
 
 ### Math & Numbers
 

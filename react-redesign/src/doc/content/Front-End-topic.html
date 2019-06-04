@@ -52,7 +52,6 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
   .rwd-title1{
     z-index: 9999;
     position: absolute;
-    color: red !important;
   }
     .rwd-title2 {padding: 1em 4em !important; width: 100%; background: red !important;}
   body {
@@ -80,7 +79,7 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <!-- <span style="height:800px;display:block;"></span> -->
 
 <div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
-    <d class="rwd-title1" style="color:#ab1acc;font-family: &apos;Roboto&apos;, sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;"><span style="z-index: 999999;">Front End</span></d><br class="rwd-break">
+    <span class="rwd-title1" style="color:#ab1acc;font-family: &apos;Roboto&apos;, sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break">
     <span class="rwd-title2" style="font-family: &apos;Roboto&apos;, sans-serif; font-size: 3em; border: 1px solid aqua; color: white; opacity: .75;text-shadow: -2px 0px #1a3acc; padding: 1.25em .25em;">Top to Bottom</span>
     <div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif;; font-size: 1.25em; text-align: center; display: block;"><span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it&apos;s easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span>
     </div>
@@ -108,6 +107,8 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <p>&quot;But my (app/site/design) uses <strong>insert_language_here</strong>&quot;</p>
 </blockquote>
 <p>One of the main differences I can see with FE vs BE is that independant of a platform or implementation these same rules, terms and language actually don&apos;t ever change. While you might be working with a database or an api or condtional logic</p>
+<h1 id="methods-execution">Methods &amp; Execution</h1>
+<h1 id="data-vs-anecdotes">Data vs Anecdotes</h1>
 <h1 id="boxes">Boxes</h1>
 <p><strong>cat in a box pic</strong></p>
 <h2 id="10lb-of-shit-in-a-5lb-bag">10lb of shit in a 5lb bag</h2>
@@ -120,19 +121,30 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <h2 id="feedback">Feedback</h2>
 <p>One of the most useful tools to help make something go from good to great is input of those who use it.
 <span style="height:800px;display:block;"></span></p>
-<h2 id="frequent-visitor">Frequent visitor</h2>
+<h1 id="legacy-code">Legacy Code</h1>
+<p>golbkli Tempi example</p>
+<h2 id="frequent-visitor-">Frequent visitor?</h2>
 <p>What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?</p>
-<h2 id="sass">Sass</h2>
+<h1 id="css3">CSS3</h1>
+<h1 id="sass">Sass</h1>
 <p>Syntax Awesome Stylesheets</p>
-<p>CSS3</p>
-<p>Sass</p>
+<p>####...but first NPM &amp; **GULP</p>
+<p>Being that SASS &amp; LESS are based on <em>Ruby</em> and <em>Java</em> we need to set up the system processes to be able to read, process, render, and output the files that will be used by our site our app.</p>
+<h2 id="mixins">mixins</h2>
+<pre><code class="language-scss">/* SCSS */
+@mixin css3-prefix($prop, $value) {
+  -webkit-#{$prop}: #{$value};
+  -moz-#{$prop}: #{$value};
+  -ms-#{$prop}: #{$value};
+  -o-#{$prop}: #{$value};
+  #{$prop}: #{$value};
+}</code></pre>
 <pre><code class="language-scss">.parent-class {
   .child-element {
     .grand-child-element {
     }
   }
 }</code></pre>
-<p>####...but first <strong>NPM</strong> &amp; <strong>GULP</strong></p>
 <h3 id="math-numbers">Math &amp; Numbers</h3>
 <p><strong>css calc()</strong></p>
 <p><code>width: (100 / 12) * 7;</code></p>
