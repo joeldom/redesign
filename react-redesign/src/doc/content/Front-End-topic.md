@@ -19,24 +19,37 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 .syntax--scss{}
 /* #e4dfd9 | #ccab1a | rgba(250, 150, 250, .45)*/
 .rwd-title2 { width: auto; background:rgba(26,204,171, .75);}
-.rwd-quote{border: 1px solid magenta;}
+/* .rwd-quote{border: 1px solid magenta;} */
 @media screen and (min-width: 601px){
   .rwd-break { display: none; }
 	.rwd-title2 {padding: 0 0; width: 50%; background:rgba(26,204,171, .75);}
-	.rwd-quote{border: 1px solid magenta;}
+	.rwd-quote{border: 1px solid #ab1acc !important;}
 }
 @media screen and (max-width: 600px;){
   .rwd-title1{
     z-index: 9999;
     position: absolute;
   }
-	.rwd-title2 {padding: 1em 4em !important; width: 100%; background: red !important;}
-  body {
-    background-color: lightblue !important;
-  }
+
 }
 .title{
   display: block;
+}
+@media only screen and (max-width: 600px) {
+  .rwd-title1{
+    padding: 1em 1em 0 1em;
+    box-sizing: border-box;
+  }
+  .rwd-title2 {padding: .85em 1em !important;}
+  .rwd-quote{
+    border: 1px solid #ab1acc;
+    margin-top: 3.5em !important;
+    position: absolute;
+    top: 200px;
+    left: 0 !important;
+    right: 0 !important;
+    width: 300px;
+  }
 }
 </style>
 
@@ -58,10 +71,12 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
 	<span class="rwd-title1" style="color:#ab1acc;font-family: 'Roboto', sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break"/>
 	<span class="rwd-title2" style="font-family: 'Roboto', sans-serif; font-size: 3em; border: 1px solid aqua; color: white; opacity: .75;text-shadow: -2px 0px #1a3acc; padding: 1.25em .25em;">Top to Bottom</span>
-	<div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif;; font-size: 1.25em; text-align: center; display: block;"><span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it's easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span>
+	<div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif; font-size: 1.25em; text-align: center; display: block;">vol.1 ~ Sass & Bootstrap
 	</div>
 </div>
 
+<!--
+<span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it's easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span> -->
 <!-- ver 3 -->
 
 <!-- <span style="font-family: 'Roboto', sans-serif; border: 2px dashed #1a3acc; position: relative; background: rgba(250, 250, 250, .85); color:#1a3acc; font-size: 48px; font-weight: 700; text-align: center; display: block; padding: .25em .25em;">Front End <span style="font-size: .75em; background: rgba(125, 125, 125, .5); border: 2px dashed #ab1acc; color: #fff; padding: 2em 1em; ; text-shadow: .09em 0px #1a3acc; z-index: -9; font-weight: 400;">Top : Bottom</span></span>
@@ -79,6 +94,60 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 # Welcome
 
 Today I want to talk about what front end <stong>really</stong> is.
+
+# Affordance & Signifiers
+
+Affordances are what an object can do.
+
+![tea pot](https://purepng.com/public/uploads/large/purepng.com-tea-potfood-object-pot-tea-kettle-94152462044382kts.png)
+
+These are things that describe themselves or have some shared understanding based on assumed prior knowledge.
+
+> Signifier: “Any mark or sound, any perceivable indicator that communicates appropriate behavior to a person”. Therefore, signifiers indicates what the object should do, making the affordances clearer to the user. For e.g. the tires of the chair indicates it can be dragged. The arms of the chair indicates that I can rest my arms on them. The shape of the chair indicates that I can sit on it.
+
+![kyoto university](https://www.pri.kyoto-u.ac.jp/images/top2014.png)
+![monkey](https://media.npr.org/assets/img/2016/01/07/macaca_nigra_self-portrait_custom-a8e13582c9ca6f71f5cd62815b8bb5d6ff112dc2-s800-c85.jpg)
+[Primate Research Institute Kyoto University](https://www.pri.kyoto-u.ac.jp/)
+
+[10 Steps to Interaction Design (IxD)][0001]
+
+# Semantics
+
+**Definition** the branch of linguistics and logic concerned with meaning.
+
+[0001]: https://uxdesign.cc/10-steps-to-interaction-design-ixd-6abe778cb8b8 "UX"
+
+## What does it mean to have Semantic Code?
+
+This means that the element should appear where it does in the code. THis sounds obvious, but for some reason we as developers & product designers love to complicate things so we tell elements to be places they really have no business being and we have to do a ton of extra work to get them that way and then a ton more to test or debug.
+
+Every element should have these properties. These not only make the element along with the page more accessible but these are also used byvarious styling elements and javascript to control the DOM.
+
+- Role
+- Name
+- State
+- Value
+
+Implicit semantics
+
+# The Path forward
+
+When we talk about writing
+
+- Markup
+  - Layout
+  - Navigation
+  - SEO / accessibility
+- Styling
+  - branding
+  - Look / feel
+- Interaction
+  - Animation
+  - usability
+
+Specificity
+
+Sass / gulp. / webpack
 
 ## Large topic
 
@@ -116,17 +185,16 @@ One of the most useful tools to help make something go from good to great is inp
 
 # Legacy Code
 
-golbkli Tempi example
+![Gobekli Tepe](https://upload.wikimedia.org/wikipedia/commons/d/d5/G%C3%B6bekli_Tepe%2C_Urfa.jpg)
+[Gobekli Tepe Turkey][0002]
 
-## Frequent visitor?
+[0002]: https://www.telegraph.co.uk/travel/destinations/europe/turkey/articles/Gobekli-Tepe-Turkey-a-new-wonder-of-the-ancient-world/ "old"
 
-What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?
-
-# CSS3
+<span style="height:800px;display:block;"></span>
 
 # Sass
 
-Syntax Awesome Stylesheets
+Syntaxly Awesome Stylesheets
 
 ####...but first NPM & \*\*GULP
 
@@ -156,6 +224,8 @@ Being that SASS & LESS are based on _Ruby_ and _Java_ we need to set up the syst
 
 ### Math & Numbers
 
+Once you've beeing doing any sort of FE dev for longer than a few hours you will hopfully run into what are called **unitless measurments**. If you paid attention in school, particularly in geometry you will know what these are and how powerful they can be. Any time you see a **%** that is in essense
+
 **css calc()**
 
 `width: (100 / 12) * 7;`
@@ -174,9 +244,17 @@ img{
 }
 ```
 
+```
 em, rem, px
 vw = viewpot width
 vh = viewpot height
+```
+
+## Frequent visitor?
+
+What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?
+
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi sit amet mauris commodo quis imperdiet massa tincidunt. Quam viverra orci sagittis eu volutpat odio. Sed risus ultricies tristique nulla aliquet enim tortor. Habitasse platea dictumst quisque sagittis. Volutpat sed cras ornare arcu dui vivamus arcu felis. Aenean sed adipiscing diam donec adipiscing. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Vitae turpis massa sed elementum tempus egestas sed. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Nunc non blandit massa enim.
 
@@ -194,11 +272,23 @@ Molestie at elementum eu facilisis. Hac habitasse platea dictumst vestibulum rho
 
 > What happens when you've put all the time into framing out something with markup and styling?
 
+To begin toubleshooting problems with **CSS** & **SASS** it's important to make sure you have your files outputing `sourcemaps`. This is huge for being able to target the specific stylesheet that is styling the elements you have and also shows how properties are inherited or being overwritten.
+
 ```
 screen cap of instance of great UI broken
 ```
 
 ## Designing for as little interaction as possible...
+
+So you've outlined a new feature. You've thought about the logic and formatting and how it will be sent to the UI, but what about the interactions for how the user will see it or possibly interact with it.
+
+Like most things, the simpler the better. There are some fun crazy things you can do with Javascript and Sass but you need to be asking "should you?". SOmthig that I've constantly wrestle with how much is to much. How cool can it be but how functional should it be.
+
+## Making and Breaking the Grid
+
+[CERN ~ The First website](http://info.cern.ch/hypertext/WWW/TheProject.html)
+
+Most of the sites and app we use on a daily basis use a framework. Whether thats a fonrt-end framework or a backend framework. On the front-end all sites use a grid to layout the content on the pages. Some of these are a different number than the other but all use something to align content.
 
 ## Cha cha changes (song?)
 
@@ -206,7 +296,7 @@ screen cap of instance of great UI broken
 
 You published you Patch notes didn't you? But who reads those? Why doesn't the user imediatly understand what is diffrent with an application or service they use
 
-```
+<!--
              _.-~-.
            7''  Q..\
         _7         (_
@@ -230,7 +320,15 @@ brighter future for the Web.
 Visit https://careers.mozilla.org to learn about our current job openings.
 Visit https://www.mozilla.org/contribute for more ways to get involved and
 help support Mozilla.
-```
+-->
+
+### Talk to be about...
+
+- typography
+- design / design systems / trends
+- x-FILES
+- crypto
+- philosophy
 
 ### Related Info & Resources
 
@@ -238,5 +336,5 @@ help support Mozilla.
 | -------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
 | tools          | some details about it to make you look it up           | [link](https://mozilladevelopers.github.io/playground/css-grid/02-first-grid/)              |
 | fonts          | glyphicons was what was inside of bootstrap            | [Glyphicons](https://glyphicons.com/)                                                       |
-| mozilla        | CSS Grid and Grid Inspector in Firefox                 | [css grid](https://www.mozilla.org/en-US/developer/css-grid/)                               |
+| CSS Grid       | CSS Grid and Grid Inspector in Firefox                 | [css grid](https://www.mozilla.org/en-US/developer/css-grid/)                               |
 | appropriate UI | describes how less may be better with User Interaction | [Medium](https://towardsdatascience.com/designing-for-appropriate-interaction-dcaaeffb7fb5) |

@@ -42,24 +42,37 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 .syntax--scss{}
 /* #e4dfd9 | #ccab1a | rgba(250, 150, 250, .45)*/
 .rwd-title2 { width: auto; background:rgba(26,204,171, .75);}
-.rwd-quote{border: 1px solid magenta;}
+/* .rwd-quote{border: 1px solid magenta;} */
 @media screen and (min-width: 601px){
   .rwd-break { display: none; }
     .rwd-title2 {padding: 0 0; width: 50%; background:rgba(26,204,171, .75);}
-    .rwd-quote{border: 1px solid magenta;}
+    .rwd-quote{border: 1px solid #ab1acc !important;}
 }
 @media screen and (max-width: 600px;){
   .rwd-title1{
     z-index: 9999;
     position: absolute;
   }
-    .rwd-title2 {padding: 1em 4em !important; width: 100%; background: red !important;}
-  body {
-    background-color: lightblue !important;
-  }
+
 }
 .title{
   display: block;
+}
+@media only screen and (max-width: 600px) {
+  .rwd-title1{
+    padding: 1em 1em 0 1em;
+    box-sizing: border-box;
+  }
+  .rwd-title2 {padding: .85em 1em !important;}
+  .rwd-quote{
+    border: 1px solid #ab1acc;
+    margin-top: 3.5em !important;
+    position: absolute;
+    top: 200px;
+    left: 0 !important;
+    right: 0 !important;
+    width: 300px;
+  }
 }
 </style>
 
@@ -81,10 +94,12 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
     <span class="rwd-title1" style="color:#ab1acc;font-family: &apos;Roboto&apos;, sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break">
     <span class="rwd-title2" style="font-family: &apos;Roboto&apos;, sans-serif; font-size: 3em; border: 1px solid aqua; color: white; opacity: .75;text-shadow: -2px 0px #1a3acc; padding: 1.25em .25em;">Top to Bottom</span>
-    <div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif;; font-size: 1.25em; text-align: center; display: block;"><span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it&apos;s easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span>
+    <div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif; font-size: 1.25em; text-align: center; display: block;">vol.1 ~ Sass &amp; Bootstrap
     </div>
 </div>
 
+<!--
+<span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it's easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span> -->
 <!-- ver 3 -->
 
 <!-- <span style="font-family: 'Roboto', sans-serif; border: 2px dashed #1a3acc; position: relative; background: rgba(250, 250, 250, .85); color:#1a3acc; font-size: 48px; font-weight: 700; text-align: center; display: block; padding: .25em .25em;">Front End <span style="font-size: .75em; background: rgba(125, 125, 125, .5); border: 2px dashed #ab1acc; color: #fff; padding: 2em 1em; ; text-shadow: .09em 0px #1a3acc; z-index: -9; font-weight: 400;">Top : Bottom</span></span>
@@ -101,6 +116,51 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 </ol>
 <h1 id="welcome">Welcome</h1>
 <p>Today I want to talk about what front end <stong>really</stong> is.</p>
+<h1 id="affordance-signifiers">Affordance &amp; Signifiers</h1>
+<p>Affordances are what an object can do.</p>
+<p><img src="https://purepng.com/public/uploads/large/purepng.com-tea-potfood-object-pot-tea-kettle-94152462044382kts.png" alt="tea pot"></p>
+<p>These are things that describe themselves or have some shared understanding based on assumed prior knowledge.</p>
+<blockquote>
+<p>Signifier: &#x201C;Any mark or sound, any perceivable indicator that communicates appropriate behavior to a person&#x201D;. Therefore, signifiers indicates what the object should do, making the affordances clearer to the user. For e.g. the tires of the chair indicates it can be dragged. The arms of the chair indicates that I can rest my arms on them. The shape of the chair indicates that I can sit on it.</p>
+</blockquote>
+<p><img src="https://www.pri.kyoto-u.ac.jp/images/top2014.png" alt="kyoto university">
+<img src="https://media.npr.org/assets/img/2016/01/07/macaca_nigra_self-portrait_custom-a8e13582c9ca6f71f5cd62815b8bb5d6ff112dc2-s800-c85.jpg" alt="monkey">
+<a href="https://www.pri.kyoto-u.ac.jp/">Primate Research Institute Kyoto University</a></p>
+<p><a href="https://uxdesign.cc/10-steps-to-interaction-design-ixd-6abe778cb8b8" title="UX">10 Steps to Interaction Design (IxD)</a></p>
+<h1 id="semantics">Semantics</h1>
+<p><strong>Definition</strong> the branch of linguistics and logic concerned with meaning.</p>
+<h2 id="what-does-it-mean-to-have-semantic-code-">What does it mean to have Semantic Code?</h2>
+<p>This means that the element should appear where it does in the code. THis sounds obvious, but for some reason we as developers &amp; product designers love to complicate things so we tell elements to be places they really have no business being and we have to do a ton of extra work to get them that way and then a ton more to test or debug.</p>
+<p>Every element should have these properties. These not only make the element along with the page more accessible but these are also used byvarious styling elements and javascript to control the DOM.</p>
+<ul>
+<li>Role</li>
+<li>Name</li>
+<li>State</li>
+<li>Value</li>
+</ul>
+<p>Implicit semantics</p>
+<h1 id="the-path-forward">The Path forward</h1>
+<p>When we talk about writing</p>
+<ul>
+<li>Markup<ul>
+<li>Layout</li>
+<li>Navigation</li>
+<li>SEO / accessibility</li>
+</ul>
+</li>
+<li>Styling<ul>
+<li>branding</li>
+<li>Look / feel</li>
+</ul>
+</li>
+<li>Interaction<ul>
+<li>Animation</li>
+<li>usability</li>
+</ul>
+</li>
+</ul>
+<p>Specificity</p>
+<p>Sass / gulp. / webpack</p>
 <h2 id="large-topic">Large topic</h2>
 <p>This is a large topic. One I&apos;ve spent the last 15 years doing. Striving for 1-1 pixel perfect layouts in the digital medium.</p>
 <blockquote>
@@ -122,12 +182,11 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 <p>One of the most useful tools to help make something go from good to great is input of those who use it.
 <span style="height:800px;display:block;"></span></p>
 <h1 id="legacy-code">Legacy Code</h1>
-<p>golbkli Tempi example</p>
-<h2 id="frequent-visitor-">Frequent visitor?</h2>
-<p>What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?</p>
-<h1 id="css3">CSS3</h1>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/G%C3%B6bekli_Tepe%2C_Urfa.jpg" alt="Gobekli Tepe">
+<a href="https://www.telegraph.co.uk/travel/destinations/europe/turkey/articles/Gobekli-Tepe-Turkey-a-new-wonder-of-the-ancient-world/" title="old">Gobekli Tepe Turkey</a></p>
+<p><span style="height:800px;display:block;"></span></p>
 <h1 id="sass">Sass</h1>
-<p>Syntax Awesome Stylesheets</p>
+<p>Syntaxly Awesome Stylesheets</p>
 <p>####...but first NPM &amp; **GULP</p>
 <p>Being that SASS &amp; LESS are based on <em>Ruby</em> and <em>Java</em> we need to set up the system processes to be able to read, process, render, and output the files that will be used by our site our app.</p>
 <h2 id="mixins">mixins</h2>
@@ -146,6 +205,7 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
   }
 }</code></pre>
 <h3 id="math-numbers">Math &amp; Numbers</h3>
+<p>Once you&apos;ve beeing doing any sort of FE dev for longer than a few hours you will hopfully run into what are called <strong>unitless measurments</strong>. If you paid attention in school, particularly in geometry you will know what these are and how powerful they can be. Any time you see a <strong>%</strong> that is in essense</p>
 <p><strong>css calc()</strong></p>
 <p><code>width: (100 / 12) * 7;</code></p>
 <pre><code>img{
@@ -158,9 +218,11 @@ pre, code{background: #aaa !important; color: #eee !important; font-family: 'Rob
 }
 .title{
 
-}</code></pre><p>em, rem, px
+}</code></pre><pre><code>em, rem, px
 vw = viewpot width
-vh = viewpot height</p>
+vh = viewpot height</code></pre><h2 id="frequent-visitor-">Frequent visitor?</h2>
+<p>What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?</p>
+<hr>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mi sit amet mauris commodo quis imperdiet massa tincidunt. Quam viverra orci sagittis eu volutpat odio. Sed risus ultricies tristique nulla aliquet enim tortor. Habitasse platea dictumst quisque sagittis. Volutpat sed cras ornare arcu dui vivamus arcu felis. Aenean sed adipiscing diam donec adipiscing. Cursus risus at ultrices mi tempus imperdiet nulla malesuada. Vitae turpis massa sed elementum tempus egestas sed. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Nunc non blandit massa enim.</p>
 <p>Potenti nullam ac tortor vitae purus faucibus. Scelerisque in dictum non consectetur. Turpis cursus in hac habitasse platea dictumst. Lorem ipsum dolor sit amet consectetur adipiscing elit. Odio euismod lacinia at quis risus sed. Vivamus arcu felis bibendum ut tristique et egestas quis ipsum. Vitae elementum curabitur <a href="this">vitae</a> nunc. Nunc eget lorem dolor sed viverra ipsum. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Ipsum dolor sit amet consectetur adipiscing. Ullamcorper eget nulla facilisi etiam. Dolor sit amet consectetur adipiscing elit ut aliquam purus. Varius quam quisque id diam vel quam elementum pulvinar. Egestas diam in arcu cursus euismod quis viverra nibh cras. Suscipit adipiscing bibendum est ultricies integer quis auctor elit sed. Aliquam ultrices sagittis orci a scelerisque purus semper eget. Aliquet sagittis id consectetur purus. Consequat id porta nibh venenatis cras sed felis. Magna fringilla urna porttitor rhoncus dolor purus non enim. Dolor purus non enim praesent elementum.</p>
 <h1 id="foo">Foo</h1>
@@ -171,35 +233,53 @@ vh = viewpot height</p>
 <blockquote>
 <p>What happens when you&apos;ve put all the time into framing out something with markup and styling?</p>
 </blockquote>
+<p>To begin toubleshooting problems with <strong>CSS</strong> &amp; <strong>SASS</strong> it&apos;s important to make sure you have your files outputing <code>sourcemaps</code>. This is huge for being able to target the specific stylesheet that is styling the elements you have and also shows how properties are inherited or being overwritten.</p>
 <pre><code>screen cap of instance of great UI broken</code></pre><h2 id="designing-for-as-little-interaction-as-possible-">Designing for as little interaction as possible...</h2>
+<p>So you&apos;ve outlined a new feature. You&apos;ve thought about the logic and formatting and how it will be sent to the UI, but what about the interactions for how the user will see it or possibly interact with it.</p>
+<p>Like most things, the simpler the better. There are some fun crazy things you can do with Javascript and Sass but you need to be asking &quot;should you?&quot;. SOmthig that I&apos;ve constantly wrestle with how much is to much. How cool can it be but how functional should it be.</p>
+<h2 id="making-and-breaking-the-grid">Making and Breaking the Grid</h2>
+<p><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">CERN ~ The First website</a></p>
+<p>Most of the sites and app we use on a daily basis use a framework. Whether thats a fonrt-end framework or a backend framework. On the front-end all sites use a grid to layout the content on the pages. Some of these are a different number than the other but all use something to align content.</p>
 <h2 id="cha-cha-changes-song-">Cha cha changes (song?)</h2>
 <blockquote>
 <p>What happnes when you push out a change a user doesn&apos;t expect or want?</p>
 </blockquote>
 <p>You published you Patch notes didn&apos;t you? But who reads those? Why doesn&apos;t the user imediatly understand what is diffrent with an application or service they use</p>
-<pre><code>             _.-~-.
-           7&apos;&apos;  Q..\
+<!--
+             _.-~-.
+           7''  Q..\
         _7         (_
       _7  _/    _q.  /
-    _7 . ___  /VVvv-&apos;_                                            .
-   7/ / /~- \_\\      &apos;-._     .-&apos;                      /       //
-  ./ ( /-~-/||&apos;=.__  &apos;::. &apos;-~&apos;&apos; {             ___   /  //     ./{
- V   V-~-~| ||   __&apos;&apos;_   &apos;:::.   &apos;&apos;~-~.___.-&apos;&apos; _/  // / {_   /  {  /
-  VV/-~-~-|/ \ .&apos;__&apos;. &apos;.    &apos;::                     _ _ _        &apos;&apos;.
-  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::&apos;
- / (~-~-~\\.-&apos; /    \&apos;   \::::. | &apos;_ ` _ \ / _ \_  / | | |/ _` | :::&apos;
-/..\    /..\__/      &apos;     &apos;::: | | | | | | (_) / /| | | | (_| | ::&apos;
-vVVv    vVVv                 &apos;: |_| |_| |_|\___/___|_|_|_|\__,_| &apos;&apos;
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
 
 Hi there, nice to meet you!
 
 Interested in having a direct impact on hundreds of millions of users? Join
-Mozilla, and become part of a global community that&#x2019;s helping to build a
+Mozilla, and become part of a global community that’s helping to build a
 brighter future for the Web.
 
 Visit https://careers.mozilla.org to learn about our current job openings.
 Visit https://www.mozilla.org/contribute for more ways to get involved and
-help support Mozilla.</code></pre><h3 id="related-info-resources">Related Info &amp; Resources</h3>
+help support Mozilla.
+-->
+
+<h3 id="talk-to-be-about-">Talk to be about...</h3>
+<ul>
+<li>typography</li>
+<li>design / design systems / trends</li>
+<li>x-FILES</li>
+<li>crypto</li>
+<li>philosophy</li>
+</ul>
+<h3 id="related-info-resources">Related Info &amp; Resources</h3>
 <table>
 <thead>
 <tr>
@@ -219,7 +299,7 @@ help support Mozilla.</code></pre><h3 id="related-info-resources">Related Info &
 <td><a href="https://glyphicons.com/">Glyphicons</a></td>
 </tr>
 <tr>
-<td>mozilla</td>
+<td>CSS Grid</td>
 <td>CSS Grid and Grid Inspector in Firefox</td>
 <td><a href="https://www.mozilla.org/en-US/developer/css-grid/">css grid</a></td>
 </tr>
