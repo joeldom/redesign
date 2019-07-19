@@ -8,8 +8,7 @@ body, table *{background: #e4dfd9; color: #444 !important;}
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
 * {font-family: 'Roboto Mono', sans-serif;}
-hr:nth-child(even){background-color: #1ACCAB !important;}
-hr:nth-child(even){background-color: #ab1acc !important;}
+hr{background-color: #1ACCAB !important;}
 img{width: 100%;}
 /* Headings */
 h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
@@ -67,8 +66,9 @@ code{color:#1ACCAB}/* #ab1acc #1ACCAB */
  ░  ░░ ░   ░     ░ ░     ░ ░   ░ ░ ░ ▒       ░   ░  ░ ░ ░ ▒    ░░   ░   ░ ░    ░ ░  ░     ░
  ░  ░  ░   ░  ░    ░  ░    ░  ░    ░ ░         ░        ░ ░     ░         ░  ░   ░     ░-->
 
-<span style="height:800px;display:block;"></span>
-<span style="height:800px;display:block;"></span>
+ <!-- <span style="height:800px;display:block;"></span> -->
+
+<!-- <span style="height:800px;display:block;"></span> -->
 
 <div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
 	<span class="rwd-title1" style="color:#ab1acc;font-family: 'Roboto', sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break"/>
@@ -77,7 +77,16 @@ code{color:#1ACCAB}/* #ab1acc #1ACCAB */
 	</div>
 </div>
 
-<span style="height:800px;display:block;"></span>
+<!--
+<span style="font-size:4em; line-height: .5em; position: absolute; right:85%; bottom: 25%;">&quot;</span>it's easy, just make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 25%;">&quot;</span> -->
+<!-- ver 3 -->
+
+<!-- <span style="font-family: 'Roboto', sans-serif; border: 2px dashed #1a3acc; position: relative; background: rgba(250, 250, 250, .85); color:#1a3acc; font-size: 48px; font-weight: 700; text-align: center; display: block; padding: .25em .25em;">Front End <span style="font-size: .75em; background: rgba(125, 125, 125, .5); border: 2px dashed #ab1acc; color: #fff; padding: 2em 1em; ; text-shadow: .09em 0px #1a3acc; z-index: -9; font-weight: 400;">Top : Bottom</span></span>
+
+<span style="z-index:9;background: rgba(250, 250, 250, .85); box-shadow: 8px 8px #1a3acc;color: #1a3ac; padding:1.2em 4em;font-style: italic;font-weight: 300; font-family: 'Helvetica Nueue Light' sans-serif;position: relative; text-align: center; display: block;"><span style="font-size:4em;line-height: .5em; position: absolute; right:85%; bottom: 0;">"</span>make products people want to use<span style="font-size:4em; line-height: .5em; position: absolute; left: 85%; bottom: 0;">"</span>
+</span> -->
+
+<!-- <span style="height:800px;display:block;"></span> -->
 
 ## Topic Index
 
@@ -190,8 +199,7 @@ One of the most useful tools to help make something go from good to great is inp
 
 # Sass
 
-<img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" style="width:50%;display:inline-block;float:left;max-height:300px;"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" style="width:50%;display:inline-block;float:left;max-height:300px;"/>
+clean and subtle ways to do
 
 ```css
 .btn.selected,
@@ -226,11 +234,7 @@ Syntaxly Awesome Stylesheets
 
 ##...but first NPM & GULP
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png)
-
-Being that **SASS** & **LESS** are based on _Ruby_ [(did run on Ruby as of March 2019)][57e83682] and _Java_ we need to set up the system processes to be able to read, process, render, and output the files that will be used by our site our app.
-
-[57e83682]: https://sass-lang.com/ruby-sass "bye bye ruby sass"
+Being that **SASS** & **LESS** are based on _Ruby_ and _Java_ we need to set up the system processes to be able to read, process, render, and output the files that will be used by our site our app.
 
 ```javascript
 var gulp = require("gulp");
@@ -397,7 +401,6 @@ gulp.task("dev", function(callback) {
 });
 ```
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png)
 <span style="height:800px;display:block;"></span>
 
 ## mixins
@@ -456,7 +459,6 @@ vh = viewpot height
   adjust-hue( $base-color, 20% )
   tint( $base-color, 10% )
   shade( $base-color, 10% )
-  transparentize($base-color, .3);
 
 ```
 
@@ -466,9 +468,8 @@ vh = viewpot height
   text-shadow: 0 -1px 0 darken($base-color, 10%);
   @include box-shadow(inset 0 1px 0 lighten($base-color, 20%));
 
-```
 
-**show how you can make a double function or do it inline**
+```
 
 [sass color functions][500a12d8]
 
@@ -508,11 +509,11 @@ screen cap of instance of great UI broken
 
 ## Designing for as little interaction as possible...
 
+<!--  -->
+
 So you've outlined a new feature. You've thought about the logic and formatting and how it will be sent to the UI, but what about the interactions for how the user will see it or possibly interact with it.
 
-Like most things, the simpler the better. There are some fun crazy things you can do with Javascript and Sass but you need to be asking "should you?". Something that I've constantly wrestle with how much is to much. How cool can it be but how functional should it be.
-
-![](http://e.lvme.me/oozm79d.jpg)
+Like most things, the simpler the better. There are some fun crazy things you can do with Javascript and Sass but you need to be asking "should you?". SOmthig that I've constantly wrestle with how much is to much. How cool can it be but how functional should it be.
 
 ## Making and Breaking the Grid
 
