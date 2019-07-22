@@ -1,61 +1,4 @@
-<style type="text/css">
-/* dark mode */
-/* body, table *{background: #222;color:#fff;} */
-/* body, table *{background: #142a2d;color:#fff;font-size: 13px} */
-/* light mode */
-/* body, table *{background: #fff;color: #777;} */
-body, table *{background: #e4dfd9; color: #444 !important;}
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
-* {font-family: 'Roboto Mono', sans-serif;}
-hr:nth-child(even){background-color: #1ACCAB !important;}
-hr:nth-child(even){background-color: #ab1acc !important;}
-img{width: 100%;}
-/* Headings */
-h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
-a:link{text-decoration: none; color: #1a3acc !important; border-bottom: 1px dotted #1a3acc;}
-a:hover{border-bottom: 3px solid #1a3acc;}
-body blockquote{border-left: 4px solid #ab1acc; background: #d6d6d6;padding: 1em .95em;}
-h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
-pre, code{background: #142a2d !important; color:#1ACCAB !important; font-family: 'Roboto Mono', monospace !important;}
-code{color:#1ACCAB}/* #ab1acc #1ACCAB */
-.syntax--scss{}
-.syntax--keyword, .syntax--storage.syntax--type{color: #1a3acc;}
-.syntax--css.syntax--support.syntax--property-name{color: #CCAB1A;}
-/* #e4dfd9 | #ccab1a | rgba(250, 150, 250, .45)*/
-.rwd-title2 { width: auto; background:rgba(26,204,171, .75);}
-/* .rwd-quote{border: 1px solid magenta;} */
-@media screen and (min-width: 601px){
-  .rwd-break { display: none; }
-	.rwd-title2 {padding: 0 0; width: 50%; background:rgba(26,204,171, .75);}
-	.rwd-quote{border: 1px solid #ab1acc !important;}
-}
-@media screen and (max-width: 600px;){
-  .rwd-title1{
-    z-index: 9999;
-    position: absolute;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .rwd-title1{
-    padding: 1em 1em 0 1em;
-    box-sizing: border-box;
-  }
-  .rwd-title2 {padding: .85em 1em !important;}
-  .rwd-quote{
-    border: 1px solid #ab1acc;
-    margin-top: 3.5em !important;
-    position: absolute;
-    top: 200px;
-    left: 0 !important;
-    right: 0 !important;
-    width: 300px;
-  }
-}
-.title{display: block;}
-.this{color:#ccab1a;}
-</style>
-
+<link rel="stylesheet" type="text/css" href="talk.css">
 <!--
  ██░ ██ ▓█████  ██▓     ██▓     ▒█████      █     █░ ▒█████   ██▀███   ██▓    ▓█████▄  ▐██▌
 ▓██░ ██▒▓█   ▀ ▓██▒    ▓██▒    ▒██▒  ██▒   ▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▓██▒    ▒██▀ ██▌ ▐██▌
@@ -67,52 +10,73 @@ code{color:#1ACCAB}/* #ab1acc #1ACCAB */
  ░  ░░ ░   ░     ░ ░     ░ ░   ░ ░ ░ ▒       ░   ░  ░ ░ ░ ▒    ░░   ░   ░ ░    ░ ░  ░     ░
  ░  ░  ░   ░  ░    ░  ░    ░  ░    ░ ░         ░        ░ ░     ░         ░  ░   ░     ░-->
 
-<span style="height:800px;display:block;"></span>
-<span style="height:800px;display:block;"></span>
+<span style="height:800px;display:block;"></span><span style="height:800px;display:block;"></span>
 
-<div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
-	<span class="rwd-title1" style="color:#ab1acc;font-family: 'Roboto', sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break"/>
-	<span class="rwd-title2" style="font-family: 'Roboto', sans-serif; font-size: 3em; border: 1px solid aqua; color: white; opacity: .75;text-shadow: -2px 0px #1a3acc; padding: 1.25em .25em;">Top to Bottom</span>
-	<div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif; font-size: 1.25em; text-align: center; display: block;">vol.1 ~ Sass & Bootstrap
-	</div>
-</div>
+<div style="display:block;margin:8em 0 16em;border:3px dashed #1a3acc;position:relative;background:#142a2d;font-size:12px;text-align:center;padding:1em 0"><span class=rwd-title1 style="color:#ab1acc;font-family:Roboto,sans-serif;font-size:4em;font-weight:700;text-align:center;text-shadow:0 0 #000,0 0 0 #ff00ff">Front End</span><br class=rwd-break><span class=rwd-title2 style="font-family:Roboto,sans-serif;font-size:3em;border:1px solid #0ff;color:#fff;opacity:.75;text-shadow:-2px 0 #1a3acc;padding:1.25em .25em">Top to Bottom</span><div style="position:absolute;top:90px;left:80px;right:80px;margin:auto;z-index:9;background:rgba(0,0,25,.65);text-shadow:-1px 0 #000;box-shadow:9px 9px #ccab1a;color:#0ff;padding:1.2em 4em;font-style:italic;font-weight:100;font-family:serif;font-size:1.25em;text-align:center;display:block"class=rwd-quote>vol.1 ~ Sass & Bootstrap</div></div>
 
 <span style="height:800px;display:block;"></span>
-
-## Topic Index
-
-1.  Tools --- [#link](https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners)
-2.  Welcome --- [#link](#Welcome)
 
 # Welcome
 
-Today I want to talk about what front end <stong>really</stong> is.
+# Today, I want to talk about what Front End _really_ is.
+
+<span style="height:600px;display:block;"></span>
+
+## Except...I only have a little bit of time
+
+<img src="https://luckyones.carrd.co/assets/images/gallery03/3e0e140c.gif?v96265876212351" />
+so lets get going...
+
+<span style="height:800px;display:block;"></span>
+
+<!-- ## Large topic -->
+
+This is a **LARGE** topic.
+
+One I've spent the last **15** years doing.
+
+Striving for 1-1 pixel perfect layouts in the all digital mediums.
+
+This isn't where I started though.
+
+<br><br>
+
+I used to just be a Graphic Designer.
+
+<span style="height:800px;display:block;"></span>
 
 # Affordance & Signifiers
 
-Affordances are what an object can do.
-
-![tea pot](https://purepng.com/public/uploads/large/purepng.com-tea-potfood-object-pot-tea-kettle-94152462044382kts.png)
+## **Affordances** are what an object can do.
 
 These are things that describe themselves or have some shared understanding based on assumed prior knowledge.
+![tea pot](https://purepng.com/public/uploads/large/purepng.com-tea-potfood-object-pot-tea-kettle-94152462044382kts.png)
 
-> Signifier: “Any mark or sound, any perceivable indicator that communicates appropriate behavior to a person”. Therefore, signifiers indicates what the object should do, making the affordances clearer to the user. For e.g. the tires of the chair indicates it can be dragged. The arms of the chair indicates that I can rest my arms on them. The shape of the chair indicates that I can sit on it.
+## **Signifiers** indicate parts of an object.
+
+These help further educate how an object is intended to be used.
+
+> “Any mark or sound, any perceivable indicator that communicates appropriate behavior to a person”. Therefore, signifiers indicates what the object should do, making the affordances clearer to the user. For e.g. the tires of the chair indicates it can be dragged. The arms of the chair indicates that I can rest my arms on them. The shape of the chair indicates that I can sit on it.
 
 ![kyoto university](https://www.pri.kyoto-u.ac.jp/images/top2014.png)
 ![monkey](https://media.npr.org/assets/img/2016/01/07/macaca_nigra_self-portrait_custom-a8e13582c9ca6f71f5cd62815b8bb5d6ff112dc2-s800-c85.jpg)
 [Primate Research Institute Kyoto University](https://www.pri.kyoto-u.ac.jp/)
 
-[10 Steps to Interaction Design (IxD)][0001]
+<span style="height:800px;display:block;"></span>
 
 # Semantics
 
-**Definition** the branch of linguistics and logic concerned with meaning.
+## The branch of linguistics and logic concerned with meaning.
 
 [0001]: https://uxdesign.cc/10-steps-to-interaction-design-ixd-6abe778cb8b8 "UX"
 
+<span style="height:800px;display:block;"></span>
+
 ## What does it mean to have Semantic Code?
 
-This means that the element should appear where it does in the code. THis sounds obvious, but for some reason we as developers & product designers love to complicate things so we tell elements to be places they really have no business being and we have to do a ton of extra work to get them that way and then a ton more to test or debug.
+---
+
+This means that the element should appear where it does in the code. This sounds obvious, but for some reason we as developers & product designers love to complicate things so we tell elements to be places they really have no business being and we have to do a ton of extra work to get them that way and then a ton more to test or debug.
 
 Every element should have these properties. These not only make the element along with the page more accessible but these are also used byvarious styling elements and javascript to control the DOM.
 
@@ -121,77 +85,213 @@ Every element should have these properties. These not only make the element alon
 - State
 - Value
 
-Implicit semantics
+### Implicit semantics
 
-# The Path forward
+Most HTML elements have an implicit role that defines the element’s purpose. For example the `<a>` element has an implicit role of **“link”**, the `<img>` element’s implicit role is **“graphic”** or **“image”** (depending on the platform), and the `<header>` element has an implicit role of **“banner”**.
 
-When we talk about writing
+---
 
-- Markup
-  - Layout
-  - Navigation
-  - SEO / accessibility
-- Styling
-  - branding
-  - Look / feel
-- Interaction
-  - Animation
-  - usability
+# What other reason should we use semantic elements like `nav` `header` `<main>` `article` `aside` `section` `footer` ?
 
-Specificity
+<span style="height:800px;display:block;"></span>
 
-Sass / gulp. / webpack
+# The Path forward &rarr;
 
-## Large topic
+When we talk about writing front-end code it tends to fall into several categories. How you structure your files and code makes it extensible and semantic.
 
-This is a large topic. One I've spent the last 15 years doing. Striving for 1-1 pixel perfect layouts in the digital medium.
+- **Markup**
+  - Layout & Structure `containers / parent elements`
+  - Navigation `pages/screens`
+  - SEO / Accessibility `title / alt / role`
+- **Styling**
+  - Branding ``
+  - Look / feel `how guidelines are applied`
+- **Interaction**
+  - Animation `transitions`
+  - Usability `what is clickable / tappable`
 
-> "But my (app/site/design) uses **insert_language_here**"
+<span style="height:800px;display:block;"></span>
 
-One of the main differences I can see with FE vs BE is that independant of a platform or implementation these same rules, terms and language actually don't ever change. While you might be working with a database or an api or condtional logic
+## Navigation
+
+---
+
+<img src="https://media.giphy.com/media/yDZvPPaVooOU8/giphy.gif" style="width: 400px; margin: 0 auto;display:block;" />
+
+Just a quick point about navigation. When deciding how to use components to navigate through the screens or parts of pages. Buttons are good for actions and direct path navigation but it is a good idea to differenciate between internal and external links.
+
+```css
+/* long ver */
+a[href^="http://"]:not([href*="mysite.com"]),
+a[href^="https://"]:not([href*="mysite.com"]),
+a[href^="//"]:not([href*="mysite.com"]), {
+
+}
+/* shorter ver */
+a[href*="//"]:not([href*="mysite.com"]) {
+    /* external link styles, use :before or :after if you want! */
+}
+
+/*or*/
+[href*="//"]:not([href*="mysite.com"]) {
+  :after{
+    some icon perhaps
+  }
+}
+```
+
+<span style="height:800px;display:block;"></span>
+
+# Specificity
+
+Before diving into **Bootstrap** it's important ot know about `CSS & SASS` specificity.
+
+1. **External** style sheets, which are located in separate .css files.
+2. **Internal** style sheets, which are located in the same document, usually within the `<head>` element.
+
+```html
+<head>
+  <style>
+    p {
+      margin: 15px;
+    }
+  </style>
+</head>
+```
+
+3. **Inline** style sheets, which are applied to specific elements at the point where they appear within the HTML code. `<p style="margin: 10px">Sample paragraph.</p>`
+
+---
+
+## Selectors
+
+Along with creating classes or targeting primitive elements you can use selectors to be more or less specific to the markup.
+
+```css
+/*select child of parent*/
+.parent > child {
+  ...;
+}
+
+/*select next element*/
+div + p {
+  ...;
+}
+
+/*select all under element*/
+html * {
+  ...;
+}
+
+/*!important overrides*/
+.class1 {
+  color: red;
+}
+.class1 {
+  color: blue !important;
+}
+#parent .class1 {
+  color: green;
+}
+```
 
 # Methods & Execution
 
-# Data vs Anecdotes
+**Layout & Structure**
+
+I jump between writng styles or markup first, but when I get into making the styles I will first determine te layout.
+
+> How will the object interact with the rest of the layout? Will it be `display:block;` level and not allow things around it? What should the postion of it be? Will it be relative to something or absolute to the page or parent?
+
+---
+
+**Presentation**
+Once I have where the object will sit I will then determine if this is a one-of or a repeating section or reusbale component. The answer to that will determine
 
 # Boxes
 
 ![cat in a box pic](https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTQ5MzAyOTExODM3NDE0ODUz/funny-if-it-fits-i-sits-cat-29.webp)
 
-## 10lb of shit in a 5lb bag
+## 10lb of sh!t in a 5lb bag
 
-Figuring out what type of content as well as its length and ironically it's weight is very important to knowing how to lay it out on the page.
+Figuring out what type of content as well as its length and yes, even it's weight is very important to knowing how to lay it out on the screen.
 
-**bootstrap ascii for breakpoints**
+<pre><code>Bootstrap @media query breakpoints
+
+
+      0        768          992                1200         ~
+      '     '     '     '     '     '     '     '     '     '
+      &lt;---------^------------^------------------^-----------&gt;
+           xs         sm              md             lg
+         (phone)   (tablet)        (laptop)       (desktop)
+</code></pre>
+
+![](https://cds.cern.ch/images/CERN-HOMEWEB-PHO-2019-004-1/file?size=large)
+Most of the sites and app we use on a daily basis use a framework. Whether thats a fonrt-end framework or a backend framework. On the front-end all sites use a grid to layout the content on the pages. Some of these are a different number than the other but all use something to align content.
+[CERN ~ The First website](http://info.cern.ch/hypertext/WWW/TheProject.html)
+
+## Making and Breaking the Grid
+
+<img src="/images/2019/07/Asset 2@3x.png"/>
 
 <span style="height:800px;display:block;"></span>
 
-## Isn't this Design?
+# Bootstrap
 
-You don't have to know the code to write to achieve the layout, but you do need to know how to the language to describe it.
-<span style="height:800px;display:block;"></span>
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-## Feedback
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-One of the most useful tools to help make something go from good to great is input of those who use it.
-<span style="height:800px;display:block;"></span>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
 
-# Legacy Code
-
-![](images/2019/07/parthenon_bw_by_ihcoyc_d67wkji-fullview.jpg)
-![](images/2019/07/parthenon_bw_by_ihcoyc_d67wkji-fullview.jpg)
-
-![Gobekli Tepe](https://upload.wikimedia.org/wikipedia/commons/d/d5/G%C3%B6bekli_Tepe%2C_Urfa.jpg)
-[Gobekli Tepe Turkey][0002]
-
-[0002]: https://www.telegraph.co.uk/travel/destinations/europe/turkey/articles/Gobekli-Tepe-Turkey-a-new-wonder-of-the-ancient-world/ "old"
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+```
 
 <span style="height:800px;display:block;"></span>
 
 # Sass
 
+## Syntaxly Awesome Stylesheets
+
 <img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" style="width:50%;display:inline-block;float:left;max-height:300px;"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" style="width:50%;display:inline-block;float:left;max-height:300px;"/>
+
 
 ```css
 .btn.selected,
@@ -203,24 +303,56 @@ One of the most useful tools to help make something go from good to great is inp
 ```
 
 ```scss
-.parent-class {
-  .child-element {
-    .grand-child-element {
-    }
+.btn {
+  &.selected,
+  &:active,
+  [open] > .btn {
+    border-color: rgba(27, 31, 35, 0.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27, 31, 35, 0.15);
   }
 }
 ```
 
 ```scss
 .family {
-  .child-element {
-    .grand-child-element {
+  .parent {
+    .child {
+      ...
     }
   }
 }
 ```
 
-Syntaxly Awesome Stylesheets
+## SASS vs SCSS
+
+```sass
+//SASS
+$color: red
+
+=my-border($color)
+  border: 1px solid $color
+
+body
+  background: $color
+  +my-border(green)
+
+```
+
+```scss
+//SCSS
+$color: red;
+
+@mixin my-border($color) {
+  border: 1px solid $color;
+}
+
+body {
+  background: $color;
+  @include my-border(green);
+}
+```
+
+## What are the
 
 <span style="height:800px;display:block;"></span>
 
@@ -468,7 +600,19 @@ vh = viewpot height
 
 ```
 
-**show how you can make a double function or do it inline**
+```sass
+  //functions.scss
+  @function column-width($col, $total) {
+    @return percentage($col/$total);
+  }
+
+.col-3 {
+  width: column-width(3, 8);
+}
+.col-5 {
+  width: column-width(5, 8);
+}
+```
 
 [sass color functions][500a12d8]
 
@@ -481,14 +625,6 @@ vh = viewpot height
 ![](/images/2019/07/githubCode.png)
 
 <span style="height:800px;display:block;"></span>
-
-# SVG
-
-[svg animations][7bca824b]
-
-[easing functions](https://easings.net/en)
-
-[7bca824b]: https://thoughtbot.com/blog/svg-animations "svg"
 
 ## Frequent visitor?
 
@@ -514,59 +650,20 @@ Like most things, the simpler the better. There are some fun crazy things you ca
 
 ![](http://e.lvme.me/oozm79d.jpg)
 
-## Making and Breaking the Grid
-
-![](https://cds.cern.ch/images/CERN-HOMEWEB-PHO-2019-004-1/file?size=large)
-
-[CERN ~ The First website](http://info.cern.ch/hypertext/WWW/TheProject.html)
-
-Most of the sites and app we use on a daily basis use a framework. Whether thats a fonrt-end framework or a backend framework. On the front-end all sites use a grid to layout the content on the pages. Some of these are a different number than the other but all use something to align content.
-
-## Cha cha changes (song?)
-
-> What happnes when you push out a change a user doesn't expect or want?
-
-You published you Patch notes didn't you? But who reads those? Why doesn't the user imediatly understand what is diffrent with an application or service they use
-
-<!--
-             _.-~-.
-           7''  Q..\
-        _7         (_
-      _7  _/    _q.  /
-    _7 . ___  /VVvv-'_                                            .
-   7/ / /~- \_\\      '-._     .-'                      /       //
-  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
- V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
-  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
-  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
- / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
-/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
-vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
-
-Hi there, nice to meet you!
-
-Interested in having a direct impact on hundreds of millions of users? Join
-Mozilla, and become part of a global community that’s helping to build a
-brighter future for the Web.
-
-Visit https://careers.mozilla.org to learn about our current job openings.
-Visit https://www.mozilla.org/contribute for more ways to get involved and
-help support Mozilla.
--->
-
-### Talk to be about...
-
-- typography
-- design / design systems / trends
-- x-FILES
-- crypto
-- philosophy
-
 ### Related Info & Resources
 
-| topic          | description                                            | link                                                                                        |
-| -------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
-| tools          | some details about it to make you look it up           | [link](https://mozilladevelopers.github.io/playground/css-grid/02-first-grid/)              |
-| fonts          | glyphicons was what was inside of bootstrap            | [Glyphicons](https://glyphicons.com/)                                                       |
-| CSS Grid       | CSS Grid and Grid Inspector in Firefox                 | [css grid](https://www.mozilla.org/en-US/developer/css-grid/)                               |
-| appropriate UI | describes how less may be better with User Interaction | [Medium](https://towardsdatascience.com/designing-for-appropriate-interaction-dcaaeffb7fb5) |
+| topic                   | description                                            | link                                                                                        |
+| ----------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------- |
+| tools                   | some details about it to make you look it up           | [link](https://mozilladevelopers.github.io/playground/css-grid/02-first-grid/)              |
+| fonts                   | glyphicons was what was inside of bootstrap            | [Glyphicons](https://glyphicons.com/)                                                       |
+| CSS Grid                | CSS Grid and Grid Inspector in Firefox                 | [css grid](https://www.mozilla.org/en-US/developer/css-grid/)                               |
+| appropriate UI          | describes how less may be better with User Interaction | [Medium](https://towardsdatascience.com/designing-for-appropriate-interaction-dcaaeffb7fb5) |
+| understanding semantics | what do we really mean?                                | [tink.uk](https://tink.uk/understanding-semantics/)                                         |
+
+---
+
+<span style="height:800px;display:block;"></span>
+
+---
+
+<img src="/images/2019/07/Asset 179@2x.png"/>

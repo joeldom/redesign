@@ -1,7 +1,8 @@
 <!--
 
-                   void : sine	:  e c c o
-                  plague : pool :  coma
+                    void : sine	:   e c c o
+                  plague : pool :  p e r s o n a
+                    coma : beta :   s i g m a
 -->
 
 ![alt text][logo]
@@ -170,14 +171,14 @@ describing the decent into madness. how the mind can be a puzzle box of question
 - t-duality
 - s-duality
 - m theory
-	- type 1 - SO(32) HETEROTIC
-	- E8\*E8 HETEROTIC
-	- TYPE IIA - TYPE IIB
+  - type 1 - SO(32) HETEROTIC
+  - E8\*E8 HETEROTIC
+  - TYPE IIA - TYPE IIB
 - e-witten
 - fermi
-	- that is not dead which can eternal lay.
-	- idea for the future
-	- DNA - CAA-TAACAGGTCTGTGATGCCCTTAA (human)
+  - that is not dead which can eternal lay.
+  - idea for the future
+  - DNA - CAA-TAACAGGTCTGTGATGCCCTTAA (human)
 ```
 
 #### word in language usage
@@ -360,7 +361,7 @@ sunny drive highway into receding horizion highway overpass sunset heat
 
 ---
 
-    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt,
+    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu,
 
 ---
 
@@ -440,15 +441,15 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - bremuda triangle
 -
 
-| music                      | film            | book            | science           | art                | patters         |
-| -------------------------- | --------------- | --------------- | ----------------- | ------------------ | --------------- |
-| buckethead                 | blue velvet     | house of leaves | tesla             | vinyl sticker      | native american |
-| mars volta                 | mulholand drive | survivor        | boltsman brain    | dot matrix printer | egytian         |
-| aphex twin                 | twin peaks      |                 | simulation theory | ascii              |
-| death grips                | lawnmower man   |                 |                   |                    |
-| a place to burry strangers | the matrix      |                 |                   |                    |
-| health                     |                 |                 | here is another   |                    |
-| more than I                |                 |                 |                   |                    |
+| music                      | film              | book            | science           | art                | patterns         |
+| -------------------------- | ----------------- | --------------- | ----------------- | ------------------ | ---------------- |
+| buckethead                 | blue velvet       | house of leaves | tesla             | vinyl sticker      | native american  |
+| mars volta                 | mulholand drive   | survivor        | boltsman brain    | dot matrix printer | egytian          |
+| aphex twin                 | twin peaks        |                 | simulation theory | ascii              |
+| death grips                | lawnmower man     |                 |                   |                    | future primitive |
+| a place to burry strangers | the matrix        |                 |                   |                    |
+| health                     | alien(s) I II III |                 | here is another   |                    |
+| more than I                |                   |                 |                   |                    |
 
 ---
 
@@ -489,8 +490,8 @@ title: `creative technologist`
     coma...................................................................002
     delta..................................................................003
     ecco...................................................................004
-    epsilon
-    gamma
+    epsilon................................................................005
+    gamma..................................................................006
     zeta
     theta
     zulu
@@ -533,6 +534,7 @@ title: `creative technologist`
     33 mind_touch..........................................................999
     1 P [boss battle]......................................................678
     miranda (no more)......................................................010
+    telepastel * given *...................................................043
 
 ### wow signal
 
@@ -567,6 +569,7 @@ title: `creative technologist`
     interface...............................................................01.CC
     print...................................................................01.DD
     process.................................................................01.EE - v 04.14.2019 H10M15
+    programs................................................................01.FF - v 07.22.2019 H03M28
     info....................................................................02.00
     about...................................................................02.AA
     contact.................................................................02.BB
@@ -577,7 +580,7 @@ title: `creative technologist`
     blog....................................................................03.CC
     data....................................................................04.00
     catalog.................................................................04.BB
-    fragments...............................................................04.CC - v 03.17
+    fragments...............................................................04.CC - v 03.17.2019 H03M33
 
     ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
     -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
@@ -594,8 +597,9 @@ title: `creative technologist`
     ___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.-
     ____.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{
     ___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{||
-    __.--{|||}--._.--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{||
-    _.--{|||}--..--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{||
+    __.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{|||}--._.--{||
+    _.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{||
+    .--{|||}--..--{|||}--._.--{|||}--.___.--{|||}--._.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{|||}--._.--{|||}--.__.--{||
     \\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V//A\\Y//A\\V//A\\V//M\\V/
     -----------------------------------------------------=========================----------------------------------------------------
     --------------------------------------------------==============================--------------------------------------------------
@@ -620,7 +624,7 @@ title: `creative technologist`
     ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy\............-+oooooooooooooooooooooooooooooooooooooooooooooo
     oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
     oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
-    ooooooooooooooooooooooooooooooooooooooooooosdddddddddddddhhhhhhhhhhhhhs............./ooooooooooooooooooooooooooooooooooooooooooooo
+    ooooooooooooooooooooooooooooooooooooooooooosddddddddddddhhhhhhhhhhhhhhs............./ooooooooooooooooooooooooooooooooooooooooooooo
     oooooooooooooooooooooooooooooooooooooooooooodddddddddddddhhhhhhhhhhhhho.............+ooooooooooooooooooooooooooooooooooooooooooooo
     oooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhhhy:............:oooooooooooooooooooooooooooooooooooooooooooooo
     ooooooooooooooooooooooooooooooooooooooooooooohddddddddddddhhhhhhhhhhy/............-+oooooooooooooooooooooooooooooooooooooooooooooo
@@ -645,26 +649,51 @@ title: `creative technologist`
          (_.·´¯`·.¸¸.·´¯`·.¸_)
 
 
-         .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
-        / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
-        \ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/ /
-         \/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /
-         / /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\
-        / /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\ \
-        \ \/\ \                                                    /\ \/ /
-         \/ /\ \                                                  / /\/ /
-         / /\/ /           A large frame border based on          \ \/ /\
-        / /\ \/                                                    \ \/\ \
-        \ \/\ \                  celtic knots ...                  /\ \/ /
-         \/ /\ \                                                  / /\/ /
-         / /\/ /                                                  \ \/ /\
-        / /\ \/                                                    \ \/\ \
-        \ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /
-         \/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /
-         / /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\
-        / /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \
-        \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
-         `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+                  .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
+                 / .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+                 \ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/ /
+                  \/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /
+                  / /\/ /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /`' /\/ /\
+                 / /\ \/`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \/\ \
+                 \ \/\ \                                                    /\ \/ /
+                  \/ /\ \                                                  / /\/ /
+                  / /\/ /           A large frame border based on          \ \/ /\
+                 / /\ \/                                                    \ \/\ \
+                 \ \/\ \                  celtic knots ...                  /\ \/ /
+                  \/ /\ \                                                  / /\/ /
+                  / /\/ /                                                  \ \/ /\
+                 / /\ \/                                                    \ \/\ \
+                 \ \/\ \.--..--..--..--..--..--..--..--..--..--..--..--..--./\ \/ /
+                  \/ /\/ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ ../ /\/ /
+                  / /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\/ /\
+                 / /\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \/\ \
+                 \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
+                  `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+
+
+
+                  				 .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
+                  				" .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+                  				\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \" "
+                  				 \" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "
+                  				 " "\" "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "\" "\
+                  				" "\ \"`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \"\ \
+                  				\ \"\ \                                                    "\ \" "
+                  				 \" "\ \                                                  " "\" "
+                  				 " "\" "           A large frame border based on          \ \" "\
+                  				" "\ \"                                                    \ \"\ \
+                  				\ \"\ \                  celtic knots ...                  "\ \" "
+                  				 \" "\ \                                                  " "\" "
+                  				 " "\" "                                                  \ \" "\
+                  				" "\ \"                                                    \ \"\ \
+                  				\ \"\ \.--..--..--..--..--..--..--..--..--..--..--..--..--."\ \" "
+                  				 \" "\" .." .." .." .." .." .." .." .." .." .." .." .." .." "\" "
+                  				 " "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\
+                  				" "\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \
+                  				\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' "
+                  				 `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+
+
 
 
          .-"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.

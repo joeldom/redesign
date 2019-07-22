@@ -1,0 +1,72 @@
+/* dark mode */
+/* body, table *{background: #222;color:#fff;} */
+/* body, table *{background: #142a2d;color:#fff;font-size: 13px} */
+/* light mode */
+/* body, table *{background: #fff;color: #777;} */
+body, table *{background: #e4dfd9; color: #444 !important;}
+table td, table th, table tr, table a{font-size: .95em !important;color: #bbb !important; background-color: #142a2d !important;}
+table th{border: none !important;}
+table td{border-left: none !important;border-right: none !important;}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
+* {font-family: 'Roboto Mono', sans-serif;}
+hr:nth-child(even){background-color: #1ACCAB !important;}
+hr:nth-child(odd){background-color: #ab1acc !important;}
+img{width: 100%;}
+/* Headings */
+h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif !important;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
+h1{font-size: 56px !important;}
+h1 + h1{
+	color: #ab1acc !important;
+	border-bottom: 4px solid #1ACCAB !important;
+}
+a:link{text-decoration: none; color: #1a3acc !important; border-bottom: 1px dotted #1a3acc;}
+a:hover{border-bottom: 3px solid #1a3acc;}
+body blockquote{border-left: 4px solid #ab1acc; background: #aaa !important;padding: 1em .95em;color: #142a2d !important; font-family: 'Roboto', sans-serif !important; font-size: 1em !important;}
+h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
+h1 em, h2 em, h3 em, h4 em, h5 em, h6 em{font-style: italic !important; font-family: 'Roboto' !important; border-bottom: 5px solid}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong, h6 strong{font-style: normal; font-weight: 900 !important;!important; font-family: 'Roboto' !important; border-bottom: 5px solid}
+h1 + h2, h2 + h2, h2 ~ h2{
+	border-bottom: none!important;
+	color:#ab1acc !important;
+}
+pre, code{background: #142a2d !important; color:#1ACCAB !important; font-family: 'Roboto Mono', monospace !important;}
+code{color:#1ACCAB}/* #ab1acc #1ACCAB */
+.syntax--scss{}
+.syntax--keyword, .syntax--storage.syntax--type, .syntax--entity{color: #1a3acc !important;font-weight: bold;}
+.syntax--css.syntax--support.syntax--property-name{color: #CCAB1A;}
+/* #e4dfd9 | #ccab1a | rgba(250, 150, 250, .45)*/
+.rwd-title2 { width: auto; background:rgba(26,204,171, .75);}
+/* .rwd-quote{border: 1px solid magenta;} */
+@media screen and (min-width: 601px){
+  .rwd-break { display: none; }
+	.rwd-title2 {padding: 0 0; width: 50%; background:rgba(26,204,171, .75);}
+	.rwd-quote{border: 1px solid #ab1acc !important;}
+}
+@media screen and (max-width: 600px;){
+  .rwd-title1{
+    z-index: 9999;
+    position: absolute;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .rwd-title1{
+    padding: 1em 1em 0 1em;
+    box-sizing: border-box;
+  }
+  .rwd-title2 {padding: .85em 1em !important;}
+  .rwd-quote{
+    border: 1px solid #ab1acc;
+    margin-top: 3.5em !important;
+    position: absolute;
+    top: 200px;
+    left: 0 !important;
+    right: 0 !important;
+    width: 300px;
+  }
+}
+.title{display: block;}
+.this{color:#ccab1a;}
+
+
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");

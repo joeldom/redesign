@@ -21,64 +21,7 @@
   }
 </style>
 </head>
-<body><div id="readme" class="container"><article class="markdown-body entry-content"><style type="text/css">
-/* dark mode */
-/* body, table *{background: #222;color:#fff;} */
-/* body, table *{background: #142a2d;color:#fff;font-size: 13px} */
-/* light mode */
-/* body, table *{background: #fff;color: #777;} */
-body, table *{background: #e4dfd9; color: #444 !important;}
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i');
-* {font-family: 'Roboto Mono', sans-serif;}
-hr:nth-child(even){background-color: #1ACCAB !important;}
-hr:nth-child(even){background-color: #ab1acc !important;}
-img{width: 100%;}
-/* Headings */
-h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
-a:link{text-decoration: none; color: #1a3acc !important; border-bottom: 1px dotted #1a3acc;}
-a:hover{border-bottom: 3px solid #1a3acc;}
-body blockquote{border-left: 4px solid #ab1acc; background: #d6d6d6;padding: 1em .95em;}
-h1, h2, h3, h4, h5, h6{font-family: 'Roboto', sans-serif;color: #1a3acc; border-bottom: 4px solid #1a3acc !important;}
-pre, code{background: #142a2d !important; color:#1ACCAB !important; font-family: 'Roboto Mono', monospace !important;}
-code{color:#1ACCAB}/* #ab1acc #1ACCAB */
-.syntax--scss{}
-.syntax--keyword, .syntax--storage.syntax--type{color: #1a3acc;}
-.syntax--css.syntax--support.syntax--property-name{color: #CCAB1A;}
-/* #e4dfd9 | #ccab1a | rgba(250, 150, 250, .45)*/
-.rwd-title2 { width: auto; background:rgba(26,204,171, .75);}
-/* .rwd-quote{border: 1px solid magenta;} */
-@media screen and (min-width: 601px){
-  .rwd-break { display: none; }
-    .rwd-title2 {padding: 0 0; width: 50%; background:rgba(26,204,171, .75);}
-    .rwd-quote{border: 1px solid #ab1acc !important;}
-}
-@media screen and (max-width: 600px;){
-  .rwd-title1{
-    z-index: 9999;
-    position: absolute;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .rwd-title1{
-    padding: 1em 1em 0 1em;
-    box-sizing: border-box;
-  }
-  .rwd-title2 {padding: .85em 1em !important;}
-  .rwd-quote{
-    border: 1px solid #ab1acc;
-    margin-top: 3.5em !important;
-    position: absolute;
-    top: 200px;
-    left: 0 !important;
-    right: 0 !important;
-    width: 300px;
-  }
-}
-.title{display: block;}
-.this{color:#ccab1a;}
-</style>
-
+<body><div id="readme" class="container"><article class="markdown-body entry-content"><link rel="stylesheet" type="text/css" href="talk.css">
 <!--
  ██░ ██ ▓█████  ██▓     ██▓     ▒█████      █     █░ ▒█████   ██▀███   ██▓    ▓█████▄  ▐██▌
 ▓██░ ██▒▓█   ▀ ▓██▒    ▓██▒    ▒██▒  ██▒   ▓█░ █ ░█░▒██▒  ██▒▓██ ▒ ██▒▓██▒    ▒██▀ ██▌ ▐██▌
@@ -90,38 +33,46 @@ code{color:#1ACCAB}/* #ab1acc #1ACCAB */
  ░  ░░ ░   ░     ░ ░     ░ ░   ░ ░ ░ ▒       ░   ░  ░ ░ ░ ▒    ░░   ░   ░ ░    ░ ░  ░     ░
  ░  ░  ░   ░  ░    ░  ░    ░  ░    ░ ░         ░        ░ ░     ░         ░  ░   ░     ░-->
 
-<p><span style="height:800px;display:block;"></span>
-<span style="height:800px;display:block;"></span></p>
-<div style="display: block; margin:8em 0 16em; border: 3px dashed #1a3acc; position: relative; background: #142a2d; font-size: 12px; text-align: center; padding: 1em 0;">
-    <span class="rwd-title1" style="color:#ab1acc;font-family: &apos;Roboto&apos;, sans-serif; font-size: 4em; font-weight: 700; text-align: center;text-shadow: -0px 0px #000, 0px 0px 0px magenta;">Front End</span><br class="rwd-break">
-    <span class="rwd-title2" style="font-family: &apos;Roboto&apos;, sans-serif; font-size: 3em; border: 1px solid aqua; color: white; opacity: .75;text-shadow: -2px 0px #1a3acc; padding: 1.25em .25em;">Top to Bottom</span>
-    <div class="rwd-quote" style="position: absolute; top: 90px; left: 80px; right: 80px; margin: auto; z-index:9; background: rgba(0, 0, 25, .65); text-shadow: -1px 0px #000; box-shadow: 9px 9px #ccab1a; color: aqua; padding: 1.2em 4em; font-style: italic; font-weight: 100; font-family: serif; font-size: 1.25em; text-align: center; display: block;">vol.1 ~ Sass &amp; Bootstrap
-    </div>
-</div>
+<p><span style="height:800px;display:block;"></span><span style="height:800px;display:block;"></span></p>
+<div style="display:block;margin:8em 0 16em;border:3px dashed #1a3acc;position:relative;background:#142a2d;font-size:12px;text-align:center;padding:1em 0"><span class="rwd-title1" style="color:#ab1acc;font-family:Roboto,sans-serif;font-size:4em;font-weight:700;text-align:center;text-shadow:0 0 #000,0 0 0 #ff00ff">Front End</span><br class="rwd-break"><span class="rwd-title2" style="font-family:Roboto,sans-serif;font-size:3em;border:1px solid #0ff;color:#fff;opacity:.75;text-shadow:-2px 0 #1a3acc;padding:1.25em .25em">Top to Bottom</span><div style="position:absolute;top:90px;left:80px;right:80px;margin:auto;z-index:9;background:rgba(0,0,25,.65);text-shadow:-1px 0 #000;box-shadow:9px 9px #ccab1a;color:#0ff;padding:1.2em 4em;font-style:italic;font-weight:100;font-family:serif;font-size:1.25em;text-align:center;display:block" class="rwd-quote">vol.1 ~ Sass &amp; Bootstrap</div></div>
 
 <p><span style="height:800px;display:block;"></span></p>
-<h2 id="topic-index">Topic Index</h2>
-<ol>
-<li>Tools --- <a href="https://da-14.com/blog/gulp-vs-grunt-vs-webpack-comparison-build-tools-task-runners">#link</a></li>
-<li>Welcome --- <a href="#Welcome">#link</a></li>
-</ol>
 <h1 id="welcome">Welcome</h1>
-<p>Today I want to talk about what front end <stong>really</stong> is.</p>
+<h1 id="today-i-want-to-talk-about-what-front-end-really-is-">Today, I want to talk about what Front End <em>really</em> is.</h1>
+<p><span style="height:600px;display:block;"></span></p>
+<h2 id="except-i-only-have-a-little-bit-of-time">Except...I only have a little bit of time</h2>
+<img src="https://luckyones.carrd.co/assets/images/gallery03/3e0e140c.gif?v96265876212351">
+so lets get going...
+
+<p><span style="height:800px;display:block;"></span></p>
+<!-- ## Large topic -->
+
+<p>This is a <strong>LARGE</strong> topic.</p>
+<p>One I&apos;ve spent the last <strong>15</strong> years doing.</p>
+<p>Striving for 1-1 pixel perfect layouts in the all digital mediums.</p>
+<p>This isn&apos;t where I started though.</p>
+<p><br><br></p>
+<p>I used to just be a Graphic Designer.</p>
+<p><span style="height:800px;display:block;"></span></p>
 <h1 id="affordance-signifiers">Affordance &amp; Signifiers</h1>
-<p>Affordances are what an object can do.</p>
-<p><img src="https://purepng.com/public/uploads/large/purepng.com-tea-potfood-object-pot-tea-kettle-94152462044382kts.png" alt="tea pot"></p>
-<p>These are things that describe themselves or have some shared understanding based on assumed prior knowledge.</p>
+<h2 id="affordances-are-what-an-object-can-do-"><strong>Affordances</strong> are what an object can do.</h2>
+<p>These are things that describe themselves or have some shared understanding based on assumed prior knowledge.
+<img src="https://purepng.com/public/uploads/large/purepng.com-tea-potfood-object-pot-tea-kettle-94152462044382kts.png" alt="tea pot"></p>
+<h2 id="signifiers-indicate-parts-of-an-object-"><strong>Signifiers</strong> indicate parts of an object.</h2>
+<p>These help further educate how an object is intended to be used.</p>
 <blockquote>
-<p>Signifier: &#x201C;Any mark or sound, any perceivable indicator that communicates appropriate behavior to a person&#x201D;. Therefore, signifiers indicates what the object should do, making the affordances clearer to the user. For e.g. the tires of the chair indicates it can be dragged. The arms of the chair indicates that I can rest my arms on them. The shape of the chair indicates that I can sit on it.</p>
+<p>&#x201C;Any mark or sound, any perceivable indicator that communicates appropriate behavior to a person&#x201D;. Therefore, signifiers indicates what the object should do, making the affordances clearer to the user. For e.g. the tires of the chair indicates it can be dragged. The arms of the chair indicates that I can rest my arms on them. The shape of the chair indicates that I can sit on it.</p>
 </blockquote>
 <p><img src="https://www.pri.kyoto-u.ac.jp/images/top2014.png" alt="kyoto university">
 <img src="https://media.npr.org/assets/img/2016/01/07/macaca_nigra_self-portrait_custom-a8e13582c9ca6f71f5cd62815b8bb5d6ff112dc2-s800-c85.jpg" alt="monkey">
 <a href="https://www.pri.kyoto-u.ac.jp/">Primate Research Institute Kyoto University</a></p>
-<p><a href="https://uxdesign.cc/10-steps-to-interaction-design-ixd-6abe778cb8b8" title="UX">10 Steps to Interaction Design (IxD)</a></p>
+<p><span style="height:800px;display:block;"></span></p>
 <h1 id="semantics">Semantics</h1>
-<p><strong>Definition</strong> the branch of linguistics and logic concerned with meaning.</p>
+<h2 id="the-branch-of-linguistics-and-logic-concerned-with-meaning-">The branch of linguistics and logic concerned with meaning.</h2>
+<p><span style="height:800px;display:block;"></span></p>
 <h2 id="what-does-it-mean-to-have-semantic-code-">What does it mean to have Semantic Code?</h2>
-<p>This means that the element should appear where it does in the code. THis sounds obvious, but for some reason we as developers &amp; product designers love to complicate things so we tell elements to be places they really have no business being and we have to do a ton of extra work to get them that way and then a ton more to test or debug.</p>
+<hr>
+<p>This means that the element should appear where it does in the code. This sounds obvious, but for some reason we as developers &amp; product designers love to complicate things so we tell elements to be places they really have no business being and we have to do a ton of extra work to get them that way and then a ton more to test or debug.</p>
 <p>Every element should have these properties. These not only make the element along with the page more accessible but these are also used byvarious styling elements and javascript to control the DOM.</p>
 <ul>
 <li>Role</li>
@@ -129,58 +80,178 @@ code{color:#1ACCAB}/* #ab1acc #1ACCAB */
 <li>State</li>
 <li>Value</li>
 </ul>
-<p>Implicit semantics</p>
-<h1 id="the-path-forward">The Path forward</h1>
-<p>When we talk about writing</p>
+<h3 id="implicit-semantics">Implicit semantics</h3>
+<p>Most HTML elements have an implicit role that defines the element&#x2019;s purpose. For example the <code>&lt;a&gt;</code> element has an implicit role of <strong>&#x201C;link&#x201D;</strong>, the <code>&lt;img&gt;</code> element&#x2019;s implicit role is <strong>&#x201C;graphic&#x201D;</strong> or <strong>&#x201C;image&#x201D;</strong> (depending on the platform), and the <code>&lt;header&gt;</code> element has an implicit role of <strong>&#x201C;banner&#x201D;</strong>.</p>
+<hr>
+<h1 id="what-other-reason-should-we-use-semantic-elements-like-nav-header-main-article-aside-section-footer-">What other reason should we use semantic elements like <code>nav</code> <code>header</code> <code>&lt;main&gt;</code> <code>article</code> <code>aside</code> <code>section</code> <code>footer</code> ?</h1>
+<p><span style="height:800px;display:block;"></span></p>
+<h1 id="the-path-forward-">The Path forward &#x2192;</h1>
+<p>When we talk about writing front-end code it tends to fall into several categories. How you structure your files and code makes it extensible and semantic.</p>
 <ul>
-<li>Markup<ul>
-<li>Layout</li>
-<li>Navigation</li>
-<li>SEO / accessibility</li>
+<li><strong>Markup</strong><ul>
+<li>Layout &amp; Structure <code>containers / parent elements</code></li>
+<li>Navigation <code>pages/screens</code></li>
+<li>SEO / Accessibility <code>title / alt / role</code></li>
 </ul>
 </li>
-<li>Styling<ul>
-<li>branding</li>
-<li>Look / feel</li>
+<li><strong>Styling</strong><ul>
+<li>Branding <code></code></li>
+<li>Look / feel <code>how guidelines are applied</code></li>
 </ul>
 </li>
-<li>Interaction<ul>
-<li>Animation</li>
-<li>usability</li>
+<li><strong>Interaction</strong><ul>
+<li>Animation <code>transitions</code></li>
+<li>Usability <code>what is clickable / tappable</code></li>
 </ul>
 </li>
 </ul>
-<p>Specificity</p>
-<p>Sass / gulp. / webpack</p>
-<h2 id="large-topic">Large topic</h2>
-<p>This is a large topic. One I&apos;ve spent the last 15 years doing. Striving for 1-1 pixel perfect layouts in the digital medium.</p>
-<blockquote>
-<p>&quot;But my (app/site/design) uses <strong>insert_language_here</strong>&quot;</p>
-</blockquote>
-<p>One of the main differences I can see with FE vs BE is that independant of a platform or implementation these same rules, terms and language actually don&apos;t ever change. While you might be working with a database or an api or condtional logic</p>
+<p><span style="height:800px;display:block;"></span></p>
+<h2 id="navigation">Navigation</h2>
+<hr>
+<img src="https://media.giphy.com/media/yDZvPPaVooOU8/giphy.gif" style="width: 400px; margin: 0 auto;display:block;">
+
+<p>Just a quick point about navigation. When deciding how to use components to navigate through the screens or parts of pages. Buttons are good for actions and direct path navigation but it is a good idea to differenciate between internal and external links.</p>
+<pre><code class="language-css">/* long ver */
+a[href^=&quot;http://&quot;]:not([href*=&quot;mysite.com&quot;]),
+a[href^=&quot;https://&quot;]:not([href*=&quot;mysite.com&quot;]),
+a[href^=&quot;//&quot;]:not([href*=&quot;mysite.com&quot;]), {
+
+}
+/* shorter ver */
+a[href*=&quot;//&quot;]:not([href*=&quot;mysite.com&quot;]) {
+    /* external link styles, use :before or :after if you want! */
+}
+
+/*or*/
+[href*=&quot;//&quot;]:not([href*=&quot;mysite.com&quot;]) {
+  :after{
+    some icon perhaps
+  }
+}</code></pre>
+<p><span style="height:800px;display:block;"></span></p>
+<h1 id="specificity">Specificity</h1>
+<p>Before diving into <strong>Bootstrap</strong> it&apos;s important ot know about <code>CSS &amp; SASS</code> specificity.</p>
+<ol>
+<li><strong>External</strong> style sheets, which are located in separate .css files.</li>
+<li><strong>Internal</strong> style sheets, which are located in the same document, usually within the <code>&lt;head&gt;</code> element.</li>
+</ol>
+<pre><code class="language-html">&lt;head&gt;
+  &lt;style&gt;
+    p {
+      margin: 15px;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;</code></pre>
+<ol start="3">
+<li><strong>Inline</strong> style sheets, which are applied to specific elements at the point where they appear within the HTML code. <code>&lt;p style=&quot;margin: 10px&quot;&gt;Sample paragraph.&lt;/p&gt;</code></li>
+</ol>
+<hr>
+<h2 id="selectors">Selectors</h2>
+<p>Along with creating classes or targeting primitive elements you can use selectors to be more or less specific to the markup.</p>
+<pre><code class="language-css">/*select child of parent*/
+.parent &gt; child {
+  ...;
+}
+
+/*select next element*/
+div + p {
+  ...;
+}
+
+/*select all under element*/
+html * {
+  ...;
+}
+
+/*!important overrides*/
+.class1 {
+  color: red;
+}
+.class1 {
+  color: blue !important;
+}
+#parent .class1 {
+  color: green;
+}</code></pre>
 <h1 id="methods-execution">Methods &amp; Execution</h1>
-<h1 id="data-vs-anecdotes">Data vs Anecdotes</h1>
+<p><strong>Layout &amp; Structure</strong></p>
+<p>I jump between writng styles or markup first, but when I get into making the styles I will first determine te layout.</p>
+<blockquote>
+<p>How will the object interact with the rest of the layout? Will it be <code>display:block;</code> level and not allow things around it? What should the postion of it be? Will it be relative to something or absolute to the page or parent?</p>
+</blockquote>
+<hr>
+<p><strong>Presentation</strong>
+Once I have where the object will sit I will then determine if this is a one-of or a repeating section or reusbale component. The answer to that will determine</p>
 <h1 id="boxes">Boxes</h1>
 <p><img src="https://blazepress.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTQ5MzAyOTExODM3NDE0ODUz/funny-if-it-fits-i-sits-cat-29.webp" alt="cat in a box pic"></p>
-<h2 id="10lb-of-shit-in-a-5lb-bag">10lb of shit in a 5lb bag</h2>
-<p>Figuring out what type of content as well as its length and ironically it&apos;s weight is very important to knowing how to lay it out on the page.</p>
-<p><strong>bootstrap ascii for breakpoints</strong></p>
+<h2 id="10lb-of-sh-t-in-a-5lb-bag">10lb of sh!t in a 5lb bag</h2>
+<p>Figuring out what type of content as well as its length and yes, even it&apos;s weight is very important to knowing how to lay it out on the screen.</p>
+<pre><code>Bootstrap @media query breakpoints
+
+
+      0        768          992                1200         ~
+      &apos;     &apos;     &apos;     &apos;     &apos;     &apos;     &apos;     &apos;     &apos;     &apos;
+      &lt;---------^------------^------------------^-----------&gt;
+           xs         sm              md             lg
+         (phone)   (tablet)        (laptop)       (desktop)
+</code></pre>
+
+<p><img src="https://cds.cern.ch/images/CERN-HOMEWEB-PHO-2019-004-1/file?size=large" alt="">
+Most of the sites and app we use on a daily basis use a framework. Whether thats a fonrt-end framework or a backend framework. On the front-end all sites use a grid to layout the content on the pages. Some of these are a different number than the other but all use something to align content.
+<a href="http://info.cern.ch/hypertext/WWW/TheProject.html">CERN ~ The First website</a></p>
+<h2 id="making-and-breaking-the-grid">Making and Breaking the Grid</h2>
+<img src="/images/2019/07/Asset 2@3x.png">
+
 <p><span style="height:800px;display:block;"></span></p>
-<h2 id="isn-t-this-design-">Isn&apos;t this Design?</h2>
-<p>You don&apos;t have to know the code to write to achieve the layout, but you do need to know how to the language to describe it.
-<span style="height:800px;display:block;"></span></p>
-<h2 id="feedback">Feedback</h2>
-<p>One of the most useful tools to help make something go from good to great is input of those who use it.
-<span style="height:800px;display:block;"></span></p>
-<h1 id="legacy-code">Legacy Code</h1>
-<p><img src="images/2019/07/parthenon_bw_by_ihcoyc_d67wkji-fullview.jpg" alt="">
-<img src="images/2019/07/parthenon_bw_by_ihcoyc_d67wkji-fullview.jpg" alt=""></p>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/G%C3%B6bekli_Tepe%2C_Urfa.jpg" alt="Gobekli Tepe">
-<a href="https://www.telegraph.co.uk/travel/destinations/europe/turkey/articles/Gobekli-Tepe-Turkey-a-new-wonder-of-the-ancient-world/" title="old">Gobekli Tepe Turkey</a></p>
+<h1 id="bootstrap">Bootstrap</h1>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;!-- Required meta tags --&gt;
+    &lt;meta charset=&quot;utf-8&quot; /&gt;
+    &lt;meta
+      name=&quot;viewport&quot;
+      content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;
+    /&gt;
+
+    &lt;!-- Bootstrap CSS --&gt;
+    &lt;link
+      rel=&quot;stylesheet&quot;
+      href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css&quot;
+      integrity=&quot;sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T&quot;
+      crossorigin=&quot;anonymous&quot;
+    /&gt;
+
+    &lt;title&gt;Hello, world!&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+
+    &lt;!-- Optional JavaScript --&gt;
+    &lt;!-- jQuery first, then Popper.js, then Bootstrap JS --&gt;
+    &lt;script
+      src=&quot;https://code.jquery.com/jquery-3.3.1.slim.min.js&quot;
+      integrity=&quot;sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo&quot;
+      crossorigin=&quot;anonymous&quot;
+    &gt;&lt;/script&gt;
+    &lt;script
+      src=&quot;https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js&quot;
+      integrity=&quot;sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1&quot;
+      crossorigin=&quot;anonymous&quot;
+    &gt;&lt;/script&gt;
+    &lt;script
+      src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js&quot;
+      integrity=&quot;sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM&quot;
+      crossorigin=&quot;anonymous&quot;
+    &gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 <p><span style="height:800px;display:block;"></span></p>
 <h1 id="sass">Sass</h1>
+<h2 id="syntaxly-awesome-stylesheets">Syntaxly Awesome Stylesheets</h2>
 <img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" style="width:50%;display:inline-block;float:left;max-height:300px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Gulp.js_Logo.svg" style="width:50%;display:inline-block;float:left;max-height:300px;">
+
 
 <pre><code class="language-css">.btn.selected,
 .btn:active,
@@ -188,19 +259,44 @@ code{color:#1ACCAB}/* #ab1acc #1ACCAB */
   border-color: rgba(27, 31, 35, 0.35);
   box-shadow: inset 0 0.15em 0.3em rgba(27, 31, 35, 0.15);
 }</code></pre>
-<pre><code class="language-scss">.parent-class {
-  .child-element {
-    .grand-child-element {
-    }
+<pre><code class="language-scss">.btn {
+  &amp;.selected,
+  &amp;:active,
+  [open] &gt; .btn {
+    border-color: rgba(27, 31, 35, 0.35);
+    box-shadow: inset 0 0.15em 0.3em rgba(27, 31, 35, 0.15);
   }
 }</code></pre>
 <pre><code class="language-scss">.family {
-  .child-element {
-    .grand-child-element {
+  .parent {
+    .child {
+      ...
     }
   }
 }</code></pre>
-<p>Syntaxly Awesome Stylesheets</p>
+<h2 id="sass-vs-scss">SASS vs SCSS</h2>
+<pre><code class="language-sass">//SASS
+$color: red
+
+=my-border($color)
+  border: 1px solid $color
+
+body
+  background: $color
+  +my-border(green)
+</code></pre>
+<pre><code class="language-scss">//SCSS
+$color: red;
+
+@mixin my-border($color) {
+  border: 1px solid $color;
+}
+
+body {
+  background: $color;
+  @include my-border(green);
+}</code></pre>
+<h2 id="what-are-the">What are the</h2>
 <p><span style="height:800px;display:block;"></span></p>
 <p>##...but first NPM &amp; GULP</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1280px-Npm-logo.svg.png" alt=""></p>
@@ -424,15 +520,22 @@ vh = viewpot height</code></pre><h2 id="functions">functions</h2>
   text-shadow: 0 -1px 0 darken($base-color, 10%);
   @include box-shadow(inset 0 1px 0 lighten($base-color, 20%));
 </code></pre>
-<p><strong>show how you can make a double function or do it inline</strong></p>
+<pre><code class="language-sass">  //functions.scss
+  @function column-width($col, $total) {
+    @return percentage($col/$total);
+  }
+
+.col-3 {
+  width: column-width(3, 8);
+}
+.col-5 {
+  width: column-width(5, 8);
+}</code></pre>
 <p><a href="https://sass-lang.com/documentation/functions/color" title="sass color functions">sass color functions</a></p>
 <p><span style="height:800px;display:block;"></span></p>
 <h1 id="bootstrap">Bootstrap</h1>
 <p><img src="/images/2019/07/githubCode.png" alt=""></p>
 <p><span style="height:800px;display:block;"></span></p>
-<h1 id="svg">SVG</h1>
-<p><a href="https://thoughtbot.com/blog/svg-animations" title="svg">svg animations</a></p>
-<p><a href="https://easings.net/en">easing functions</a></p>
 <h2 id="frequent-visitor-">Frequent visitor?</h2>
 <p>What is a site you tend to find yourself returning to? Is it Facebook? Twitter? NYT? Weather channel? Youtube?</p>
 <hr>
@@ -445,49 +548,6 @@ vh = viewpot height</code></pre><h2 id="functions">functions</h2>
 <p>So you&apos;ve outlined a new feature. You&apos;ve thought about the logic and formatting and how it will be sent to the UI, but what about the interactions for how the user will see it or possibly interact with it.</p>
 <p>Like most things, the simpler the better. There are some fun crazy things you can do with Javascript and Sass but you need to be asking &quot;should you?&quot;. Something that I&apos;ve constantly wrestle with how much is to much. How cool can it be but how functional should it be.</p>
 <p><img src="http://e.lvme.me/oozm79d.jpg" alt=""></p>
-<h2 id="making-and-breaking-the-grid">Making and Breaking the Grid</h2>
-<p><img src="https://cds.cern.ch/images/CERN-HOMEWEB-PHO-2019-004-1/file?size=large" alt=""></p>
-<p><a href="http://info.cern.ch/hypertext/WWW/TheProject.html">CERN ~ The First website</a></p>
-<p>Most of the sites and app we use on a daily basis use a framework. Whether thats a fonrt-end framework or a backend framework. On the front-end all sites use a grid to layout the content on the pages. Some of these are a different number than the other but all use something to align content.</p>
-<h2 id="cha-cha-changes-song-">Cha cha changes (song?)</h2>
-<blockquote>
-<p>What happnes when you push out a change a user doesn&apos;t expect or want?</p>
-</blockquote>
-<p>You published you Patch notes didn&apos;t you? But who reads those? Why doesn&apos;t the user imediatly understand what is diffrent with an application or service they use</p>
-<!--
-             _.-~-.
-           7''  Q..\
-        _7         (_
-      _7  _/    _q.  /
-    _7 . ___  /VVvv-'_                                            .
-   7/ / /~- \_\\      '-._     .-'                      /       //
-  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
- V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
-  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
-  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
- / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
-/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
-vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
-
-Hi there, nice to meet you!
-
-Interested in having a direct impact on hundreds of millions of users? Join
-Mozilla, and become part of a global community that’s helping to build a
-brighter future for the Web.
-
-Visit https://careers.mozilla.org to learn about our current job openings.
-Visit https://www.mozilla.org/contribute for more ways to get involved and
-help support Mozilla.
--->
-
-<h3 id="talk-to-be-about-">Talk to be about...</h3>
-<ul>
-<li>typography</li>
-<li>design / design systems / trends</li>
-<li>x-FILES</li>
-<li>crypto</li>
-<li>philosophy</li>
-</ul>
 <h3 id="related-info-resources">Related Info &amp; Resources</h3>
 <table>
 <thead>
@@ -517,7 +577,16 @@ help support Mozilla.
 <td>describes how less may be better with User Interaction</td>
 <td><a href="https://towardsdatascience.com/designing-for-appropriate-interaction-dcaaeffb7fb5">Medium</a></td>
 </tr>
+<tr>
+<td>understanding semantics</td>
+<td>what do we really mean?</td>
+<td><a href="https://tink.uk/understanding-semantics/">tink.uk</a></td>
+</tr>
 </tbody></table>
+<hr>
+<p><span style="height:800px;display:block;"></span></p>
+<hr>
+<img src="/images/2019/07/Asset 179@2x.png">
 </article></div><div style="background-color: #b4b2b2;width: 50px;height:50px;line-height: 50px;text-align: center;position: fixed;bottom: 10px;right: 10px;padding-top:5px;" onclick="document.documentElement.scrollTop = document.body.scrollTop =0;">
   <svg t="1533629773982" class="icon" style="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1035" xlink="http://www.w3.org/1999/xlink" width="40" height="40"><defs><style type="text/css">@font-face { font-family: uc-nexus-iconfont; src: url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff") format("woff"), url("chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf") format("truetype"); }
   </style></defs><path d="M536.255427 195.182354c-7.804756-7.804756-17.966187-11.615549-28.311813-11.615549-9.43693 0-18.874883 3.449565-26.496467 10.163477-2.360767 1.452071-4.356214 3.267417-6.352685 5.262864L218.47792 455.611735c-15.607466 15.60542-15.607466 40.834011 0 56.43943 15.607466 15.607466 41.558511 15.607466 57.167001 0l193.46013-192.733583 0 600.526219c0 22.1423 17.787108 39.927361 39.927361 39.927361 22.140253 0 39.927361-17.785062 39.927361-39.927361L548.959773 319.317583 737.15704 508.422522c15.607466 15.607466 40.469714 15.607466 56.078203 0 15.607466-15.607466 15.425318-40.834011-0.182149-56.441477L536.255427 195.182354 536.255427 195.182354z" p-id="1036" fill="#333"/><path d="M101.784174 143.097092l816.674071 0c22.140253 0 39.925315-17.785062 39.925315-39.927361 0-22.140253-17.784038-39.925315-39.925315-39.925315L101.784174 63.244416c-22.140253 0-39.927361 17.785062-39.927361 39.925315C61.856813 125.31203 79.643921 143.097092 101.784174 143.097092L101.784174 143.097092z" p-id="1037" fill="#333"/></svg>
