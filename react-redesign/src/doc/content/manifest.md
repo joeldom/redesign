@@ -301,6 +301,11 @@ work with Sai to set up an _npm_ => _github_ => _aws_
 
 ---
 
+**TIME COMPRESSION**
+show a timeline of irrelevant items and how they coincide with the years of their happening. Use deep time principals and github year of work tracker to show time relevance and the illustrate the feeling of time being compressed in our memory.
+
+---
+
 ## survivor
 
 write a collection of ideas based around if a character was trying to write a book or change the idea of a book or what is a peice of work.
