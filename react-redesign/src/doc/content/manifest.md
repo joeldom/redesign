@@ -302,9 +302,13 @@ work with Sai to set up an _npm_ => _github_ => _aws_
 ---
 
 **TIME COMPRESSION**
-show a timeline of irrelevant items and how they coincide with the years of their happening. Use deep time principals and github year of work tracker to show time relevance and the illustrate the feeling of time being compressed in our memory.
+show a timeline of irrelevant items and how they coincide with the years of their happening. Use deep time principals and github year of work tracker to show time relevance and the illustrate the feeling of time being compressed in our memory. writing a timeline of events that uses the grid similiar to github
 
 ---
+
+**NEON GENESIS**
+
+## the hedghogs dilema, we as
 
 ## survivor
 
@@ -325,6 +329,8 @@ click counters that tie into a rating sytem of accounts. a sort of social rankin
 writing beafutiful deep web poetry. define what can be beatuitif in the digital era. content showing deep information reserves that allow thoughts and content to come across and then also be found in the deep web.
 
 this all would involve having a content creating habit tied to a system that is easy to create with. blue print of art describing the thought behind the idea that is now available knowing the shared content that shows how the thinking and cross refference training of the idea comes across. understanding how to deep link inside the ideas in content.
+
+This could be componetized to make the items add to a table that based on their content it will store view and clicks alongside the content in such a way it can compile the ranking on the server at runtime.
 
 ## custom content variables
 
@@ -359,7 +365,7 @@ sunny drive highway into receding horizion highway overpass sunset heat
 - abraxes
 - azmodeus
 - cthulu
-- japanese kappa = disguating turle creature steals people
+- japanese kappa = `disgusting turle creature steals people`
 - nurea ona
 - miranda
 
@@ -445,35 +451,36 @@ Adam had been given the fruit that Eve had found and they ate it. And with eatin
 
 ## windows 96
 
-an alternate timeline of the world where expeiences and culture are bleeding through into our current instance of life. It tries to show an odd perspective compared to the one we know now.
+an alternate timeline of the world where expeiences and culture are bleeding through into our current instance of life. It tries to show an odd perspective compared to the one we know now. along with having small differences throughout the ARG. I would need to add some logos would be mandela effect styled to be the alternate versions of the ones in the alternate missremebered version of the timeline.
 
 #### influences
 
 - aphex twin - syro - collapse `video with 3d model word with code generating over`
 - mars volta - amputecture `opening tinny sounding sounding like it is loading the sound through the internet`
 - death grips - no love deep web | year of the snitch | powers that b | steroids (crouching tigger hidden gabber mix)
-- x-files `endless records`
-- lost (chess game where you are playing the computer that can't be beat)
-- year zero (narrative and micro-site linking ARG)
-- buckethead `bremuda triangle`
-- robocop `ed 209`
+- x-files - `endless records`
+- lost - `chess game where you are playing the computer that can't be beat`
+- year zero `narrative and micro-site linking ARG`
+- buckethead - `bremuda triangle`
+- robocop - `ed 209`
 - star trek `[ox de]` `data:lore`
-- fermi paradox
+- fermi paradox `message in a bottle`
 - deep time : mind
 - watchmen `dr. manhatan`
-- waters of babylon
-- bremuda triangle
--
+- waters of babylon `discs being found in the glass sands of a city beyond destruction`
+- bremuda triangle - `lost records of mythos`
+- bonsai tree content - `constant pruning and triming with the slow pace of change`
 
-| music                      | film              | book            | science           | art                | patterns         |
-| -------------------------- | ----------------- | --------------- | ----------------- | ------------------ | ---------------- |
-| buckethead                 | blue velvet       | house of leaves | tesla             | vinyl sticker      | native american  |
-| mars volta                 | mulholand drive   | survivor        | boltsman brain    | dot matrix printer | egytian          |
-| aphex twin                 | twin peaks        |                 | simulation theory | ascii              |
-| death grips                | lawnmower man     |                 |                   |                    | future primitive |
-| a place to burry strangers | the matrix        |                 |                   |                    |
-| health                     | alien(s) I II III |                 | here is another   |                    |
-| more than I                |                   |                 |                   |                    |
+| music                      | film                            | book            | science           | art                | patterns         |
+| -------------------------- | ------------------------------- | --------------- | ----------------- | ------------------ | ---------------- |
+| buckethead                 | blue velvet                     | house of leaves | tesla             | vinyl sticker      | native american  |
+| mars volta                 | mulholand drive                 | survivor        | boltsman brain    | dot matrix printer | egytian          |
+| aphex twin                 | twin peaks                      |                 | simulation theory | ascii              |
+| death grips                | lawnmower man                   |                 |                   |                    | future primitive |
+| a place to burry strangers | the matrix                      |                 |                   |                    |
+| health                     | alien(s) I II III               |                 | here is another   |                    |
+| more than I                | the girl with the dragon tattoo |                 |                   |                    |
+| perturbator                |                                 |                 |                   |                    |
 
 ---
 
@@ -516,6 +523,8 @@ title: `creative technologist`
     ecco...................................................................004
     epsilon................................................................005
     gamma..................................................................006
+
+    sigma
     zeta
     theta
     zulu
@@ -560,7 +569,7 @@ title: `creative technologist`
     miranda (no more)......................................................010
     telepastel * given *...................................................043
 
-### wow signal
+### w o w signal
 
     72
     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -581,6 +590,16 @@ title: `creative technologist`
     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     00000000011111111112222222222333333333244444444445
     12345678901234567890123456789012345678901234567890
+
+
+    /pleasure      [experimental side aka default entry point into the app]
+    /business      [simple & straightforward business entry point into the app]
+    /data          [data stream of content available throughout the app]
+
+    /////////////////////////////////////////////////////////////////////////////
+    the site will be a dual purpose functional gallery of projects related to dev
+
+    /////////////////////////////////////////////////////////////////////////////
 
     index
 
@@ -605,6 +624,32 @@ title: `creative technologist`
     data....................................................................04.00
     catalog.................................................................04.BB
     fragments...............................................................04.CC - v 03.17.2019 H03M33
+
+
+    coma ecco moed sigma
+
+    9.5 Somewhere - Rays....................................................900010
+    EntityDemo + sub........................................................024700
+    blanek spectrum.........................................................071085
+    GIVEN-..................................................................000222
+    string(ZO)..............................................................111000
+    $PHYLR..................................................................999999
+    EXE-dreamless...........................................................777777
+    Spider Hook INF.........................................................555555
+    ACRYX...................................................................333333
+    GACRYX..................................................................989898
+    33 rotate...............................................................353465
+    Beyond the Pines........................................................258251
+    FormLESS................................................................558425
+    Silent Complete (final).................................................259258
+    Cassandra...............................................................888888
+    Lost Chalice............................................................777777
+    MDMA....................................................................151515
+    Georgia Escape..........................................................444444
+    Claw Wheel..............................................................888888
+
+    if $PHYLR = empty
+    var1 + var2 = sum - total(net) = var4(i+.) === net => print(string(var1,net,var3))
 
     ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
     -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
@@ -773,6 +818,35 @@ title: `creative technologist`
         ( `. `,~-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-<,>-._`-=,' ,\ \ .
          `. `'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,-<_>-'_,"-' ; .
            `-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-.-' .
+
+
+
+
+
+           				 .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
+           				" .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
+           				\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \" "
+           				 \" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "
+           				 " "\" "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "\" "\
+           				" "\ \"`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \"\ \
+           				\ \"\ \                                                    "\ \" "
+           				 \" "\ \                                                  " "\" "
+           				 " "\" "           A large frame border based on          \ \" "\
+           				" "\ \"                                                    \ \"\ \
+           				\ \"\ \                  celtic knots ...                  "\ \" "
+           				 \" "\ \                                                  " "\" "
+           				 " "\" "                                                  \ \" "\
+           				" "\ \"                                                    \ \"\ \
+           				\ \"\ \.--..--..--..--..--..--..--..--..--..--..--..--..--."\ \" "
+           				 \" "\" .." .." .." .." .." .." .." .." .." .." .." .." .." "\" "
+           				 " "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\
+           				" "\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \
+           				\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' "
+           				 `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
+
+
+
+
 
 
            ..

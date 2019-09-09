@@ -1,0 +1,5 @@
+#SIGMA - CYRKL
+
+---
+
+The story of pre and post time compression. JARED_DOE will be goin about a day and night and something will seemingly happen outside of the purview of his understaning that seems like it is only affecting him but it will be that he is just one of the first to be noticing it from the viewpoint of his next couple of days. It will seem subtle at first and will seem like nothing has changed. He will begin seeing things akin to **Jacob's Ladder** of people and things phasing in and out. He will first start to think he is tired, to being drugged to being crazy. It will have the sense of being mystical or fantastical but will only hint at the Lovecraftian influneces and possibly first then feel like sci-fi but will start to make a hard shift to the unexplained and overall will not be explained just experieced. He and others in his life will begin to notice things only slightly. The ark will be that he is not of this universe and is a unconfigured entity that cannot exist. The idea of a big time story in the vein of **IT** where the Deadzone and Daylights are the etherial thing that exists in the universe of the story.
