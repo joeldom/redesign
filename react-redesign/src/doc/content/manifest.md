@@ -83,11 +83,10 @@ self publishing platform that exports and deploy changes on an automated schedul
 
 ## code switching
 
-```<div style="width:200px">
-injectiing code into bodys of normal content effectivly mutating it to a point of uselessness. it-~-would_start simple=with a few words-_lookinglike theyaren't_formatted right .it -have-
-```
+injectiing code into bodys of normal content effectivly mutating it to a point of uselessness. it-~-would_start simple=with a few words-\_lookinglike theyaren't_formatted right .it -have-
 
-**content token**
+## content token
+
 custom content token to write into peices of markup to made into content.
 
 > this would be an entity that is used to signify to the processor that it should insert / render process. `$bta` = `%eco` = `&alp`=`#eps` =`^ɛf` > <br>
@@ -134,7 +133,7 @@ describing the decent into madness. how the mind can be a puzzle box of question
 
 > the act of changing a words intended meaning away from either what it describes to some other idea proposed in the current context.
 
-**data flood**
+## data flood
 
 > flood spaces in sensititve text with junk / trash data and make it very hard to read
 
@@ -528,46 +527,48 @@ title: `creative technologist`
     gamma..................................................................006
     gaiden
     lucie
-
+    sine
     sigma
     zeta
     theta
     zulu
 
-/////////////// primer
-oblivion
-tarantula
-cassandra
-abraxus
-goliath
-miasma
-ashur
-ishtar
-gilgamesh
-odin
-quetzalcoatl
-Yōkai
-anima
-kaiden
-gaiden
-Ziusudra
-Ero guro
-nansensu
-Ryukenden
-Yūrei
-Tehran
-Azriel
-Sinai
-Ninrod
-Ninava
-Cetra
-Jenova
-ultamecia
-hildegarde
-amarant
-lucie
-terra
-eidolon
+# primer
+
+    oblivion
+    tarantula
+    cassandra
+    abraxus
+    goliath
+    miasma
+    ashur
+    ishtar
+    gilgamesh
+    odin
+    quetzalcoatl
+    Yōkai
+    anima
+    kaiden
+    gaiden
+    Ziusudra
+    Ero guro
+    nansensu
+    Ryukenden
+    Yūrei
+    Tehran
+    Azriel
+    Sinai
+    Ninrod
+    Ninava
+    Cetra
+    Jenova
+    ultamecia
+    hildegarde
+    amarant
+    lucie
+    terra
+    eidolon
+    evorate
 
 ## japanese demons
 
