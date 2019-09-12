@@ -438,6 +438,7 @@ sunny drive highway into receding horizion highway overpass sunset heat
 - duplicants of adam
 - chimera
 - homunculous
+- pandamonium
 
 ## Prophet of Joel
 
@@ -465,22 +466,24 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - robocop - `ed 209`
 - star trek `[ox de]` `data:lore`
 - fermi paradox `message in a bottle`
-- deep time : mind
+- deep time : mind station
 - watchmen `dr. manhatan`
 - waters of babylon `discs being found in the glass sands of a city beyond destruction`
 - bremuda triangle - `lost records of mythos`
 - bonsai tree content - `constant pruning and triming with the slow pace of change`
+- final fantasy - `6,7,8,9,10,12,13,15` ie: Fabula Nova Crystallis
 
-| music                      | film                            | book            | science           | art                | patterns         |
-| -------------------------- | ------------------------------- | --------------- | ----------------- | ------------------ | ---------------- |
-| buckethead                 | blue velvet                     | house of leaves | tesla             | vinyl sticker      | native american  |
-| mars volta                 | mulholand drive                 | survivor        | boltsman brain    | dot matrix printer | egytian          |
-| aphex twin                 | twin peaks                      |                 | simulation theory | ascii              |
-| death grips                | lawnmower man                   |                 |                   |                    | future primitive |
-| a place to burry strangers | the matrix                      |                 |                   |                    |
-| health                     | alien(s) I II III               |                 | here is another   |                    |
-| more than I                | the girl with the dragon tattoo |                 |                   |                    |
-| perturbator                |                                 |                 |                   |                    |
+| music                      | film                            | games             | book                  | science                 | art                 | patterns         |
+| -------------------------- | ------------------------------- | ----------------- | --------------------- | ----------------------- | ------------------- | ---------------- |
+| buckethead                 | blue velvet                     | final fantasy 8   | house of leaves       | tesla                   | vinyl sticker       | native american  |
+| mars volta                 | mulholand drive                 | final fantasy 15  | survivor              | boltsman brain          | dot matrix printer  | egytian          |
+| aphex twin                 | twin peaks                      | final fantasy 13  | the waters of babylon | simulation theory       | ascii               |
+| death grips                | lawnmower man                   | final fantasy 9   |                       |                         | generative code art | future primitive |
+| a place to burry strangers | the matrix                      |                   |                       |                         |                     |
+| health                     | alien(s) I II III               |                   |                       | ultraviolet catastrophe |                     |
+| more than I                | the girl with the dragon tattoo |                   |                       |                         |                     |
+| perturbator                | a place beyond the pines        |                   |                       |                         |                     |
+| sidewalks & skeletons      |                                 | silent hill 2 & 3 |                       |                         |                     |
 
 ---
 
@@ -523,37 +526,48 @@ title: `creative technologist`
     ecco...................................................................004
     epsilon................................................................005
     gamma..................................................................006
+    gaiden
+    lucie
 
     sigma
     zeta
     theta
     zulu
 
-    oblivion
-    tarantula
-    cassandra
-    abraxus
-    goliath
-    miasma
-    ashur
-    ishtar
-    gilamesh
-    odin
-    quetzalcoatl
-    Yōkai
-    anima
-    kaiden
-    gaiden
-    Ziusudra
-    Ero guro
-    nansensu
-    Ryukenden
-    Yūrei
-    Tehran
-    Azriel
-    Sinai
-    Ninrod
-    Ninava
+/////////////// primer
+oblivion
+tarantula
+cassandra
+abraxus
+goliath
+miasma
+ashur
+ishtar
+gilgamesh
+odin
+quetzalcoatl
+Yōkai
+anima
+kaiden
+gaiden
+Ziusudra
+Ero guro
+nansensu
+Ryukenden
+Yūrei
+Tehran
+Azriel
+Sinai
+Ninrod
+Ninava
+Cetra
+Jenova
+ultamecia
+hildegarde
+amarant
+lucie
+terra
+eidolon
 
 ## japanese demons
 
