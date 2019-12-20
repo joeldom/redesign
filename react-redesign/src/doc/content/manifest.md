@@ -110,12 +110,12 @@ describing the decent into madness. how the mind can be a puzzle box of question
     - language - japanese - russian - hebrew
     - data - dates - packages : amazon - times - places - concerts - driving trips
     - algorythms : sorting : replacing functions
-    - type - examples
-    - Science
+    - type - examples - reactive type
+    - Science : quatum mechanics
     - gene sequence - geneome -
-    - deep time
-    - aphex twin
-    - mars volta
+    - deep time : great breathe
+    - aphex twin : progomatic art
+    - mars volta : psychodelic hauntology
     - big data - layered information
     - crypto : quantum information
     - 5d ~ actualization
@@ -278,7 +278,7 @@ deep data integration of fragments into parts related to objects into collection
 
 **concept**
 
-A cultural religion focused on interpreting life inherit mysteries of the mind.
+A cultural religion focused on interpreting life inherit mysteries of the mind The idea of a cult leader preaching to it congragats to believe in an ideal and pledge themselves to it while understanding the ubermench or superman from Neizche. similiar to what the Heavens gate cults led everyone to believe they were leaving this place. Jonestown Jim Jones "it is now time for us to meet in another place".
 
 ---
 
@@ -397,10 +397,11 @@ sunny drive highway into receding horizion highway overpass sunset heat
 - comment bomb
 - email blast
 - twitter card for outlook and linking
+- generative text
 
 ---
 
-    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct,
+    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg,
 
 ---
 
@@ -448,6 +449,9 @@ sunny drive highway into receding horizion highway overpass sunset heat
 - chimera
 - homunculous
 - pandamonium
+- negative pressure
+- sapiophobia
+-
 
 ## Prophet of Joel
 
@@ -484,20 +488,20 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - final fantasy - `6,7,8,9,10,12,13,15` `ie: Fabula Nova Crystallis`
 - heavens gate - `kool-aid cult` `brand as a religion`
 
-| music                      | film                                | games             | book                  | science                 | art                 | patterns         |
-| -------------------------- | ----------------------------------- | ----------------- | --------------------- | ----------------------- | ------------------- | ---------------- |
-| buckethead                 | blue velvet                         | final fantasy 6   | house of leaves       | tesla                   | vinyl sticker       | native american  |
-| mars volta                 | mulholand drive                     | final fantasy 8   | survivor              | boltsman brain          | dot matrix printer  | egytian          |
-| aphex twin                 | twin peaks                          | final fantasy 9   | the waters of babylon | simulation theory       | ascii               | vaporwave        |
-| death grips                | lawnmower man                       | final fantasy 15  | the milenium trilogy  |                         | generative code art | future primitive |
-| a place to burry strangers | the matrix                          | final fantasy 13  |                       |                         |                     |
-| health                     | alien(s) I II III                   |                   |                       | ultraviolet catastrophe |                     |
-| more than I                | the girl with the dragon tattoo     |                   |                       |                         |                     |
-| perturbator                | a place beyond the pines            |                   |                       |                         |                     |
-| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3 |                       |                         |                     |
-| david boxie : moder love   | milenium (fox)                      |                   |                       |                         |                     |
-|                            | zoo : preter greenway               |                   |                       |                         |                     |
-|                            |                                     |                   |                       |                         |                     |
+| music                      | film                                | games              | book                  | science                 | art                 | patterns           |
+| -------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | ------------------ |
+| buckethead                 | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american    |
+| mars volta                 | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro       |
+| aphex twin                 | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave          |
+| death grips                | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code art | future primitive   |
+| a place to burry strangers | the matrix                          | final fantasy 13   | american psycho       | many worlds             |                     | southwestern style |
+| health                     | alien(s) I II III                   | ninja gaiden 1 & 2 |                       | ultraviolet catastrophe |                     |
+| more than I                | the girl with the dragon tattoo     |                    |                       |                         |                     |
+| perturbator                | a place beyond the pines            |                    |                       |                         |                     |
+| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       |                         |                     |
+| david boxie : moder love   | milenium (fox)                      |                    |                       |                         |                     |
+| tool aenima                | zoo : preter greenway               |                    |                       |                         |                     |
+| tool undertow              | lost highway                        |                    |                       |                         |                     |
 
 ---
 
