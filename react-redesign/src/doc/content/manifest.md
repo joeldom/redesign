@@ -371,6 +371,8 @@ system boot. run mirror sequence.
 
 an unknown code injection starts to be added all around the world to the databases and systems altering and self-replicating script making algorythms begin adjust and affect the effects of the worlds computer sytems at large. Transmissions begin to appear on the deep web of giant file transfers. The files are first thought to be from a signal in outerspace.
 
+mirror world changes
+
 ---
 
 ## PARADOX POX
