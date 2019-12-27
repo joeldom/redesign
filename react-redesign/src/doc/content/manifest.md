@@ -1,8 +1,8 @@
 <!--
 
-                    void : sine	:   e c c o
+                    void : sine	:  e c c o
                   plague : pool :  p e r s o n a
-                    coma : beta :   s i g m a
+                    coma : beta :  s i g m a
                      #1a3acc #1ACCAB #ab1acc
 -->
 
@@ -286,11 +286,21 @@ A cultural religion focused on interpreting life inherit mysteries of the mind T
 
 this will be a location to show how much data can be accessed through some api magic and displayed and related to one another in a sort of 500ft view of the past year and a sort of way to show off how things have added up.
 
+This shoule be reevaluated to include some datapoints for music and othe rporjects liek on github and as well as other art peices and pictures taken on instagram throughout the year and then filter them into a bucket of an annual report.
+
+This should be a singualr page that shows the amount of data points pulled in and construct a data file to refference in the future. This should be portable and able to be refferenced inside of github as well as sourced and accessed through a API like request.
+
 some ideas for execution:
 
 - bar chart of nights of sleep
 - map of trips taken
+- chart of food eaten
 - number of packages recieved
+- music listened to
+  - artists
+  - songs
+  - playlists made
+  - new artists vs older replays
 
 ---
 
@@ -308,6 +318,8 @@ designing a CODE AS USUAL: CANCELED
 **AWS github site deploy**
 work with Sai to set up an _npm_ => _github_ => _aws_
 
+_Firebase_ is another way to handle doing automatic deploys of code to a a server hosting the code.
+
 ---
 
 **TIME COMPRESSION**
@@ -317,7 +329,7 @@ show a timeline of irrelevant items and how they coincide with the years of thei
 
 **NEON GENESIS**
 
-## the hedghogs dilema, we as
+## the hedghogs dilema: as a hedgeho looks for warm with other creatures it tries to get close but ends up hurting them as we want to pull people closer we end up hurting them more than we intend.
 
 ## survivor
 
@@ -350,6 +362,14 @@ with a custom content variable type, content will be able to have custom planned
 ## D AE M O N
 
 > creating dif levels of art some begins with leveles of technique, the viewr is shows what the artist wants them to see, tact allows the artist to make areas or concepts of the peice ambiguous and subjective allowing the viewer to imprint their own feelings and thoughts into the peice bringing the artist viewer cycle full circle.
+
+---
+
+## MIRROR WORLD
+
+system boot. run mirror sequence.
+
+an unknown code injection starts to be added all around the world to the databases and systems altering and self-replicating script making algorythms begin adjust and affect the effects of the worlds computer sytems at large. Transmissions begin to appear on the deep web of giant file transfers. The files are first thought to be from a signal in outerspace.
 
 ---
 
