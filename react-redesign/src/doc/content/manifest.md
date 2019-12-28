@@ -371,6 +371,8 @@ system boot. run mirror sequence.
 
 an unknown code injection starts to be added all around the world to the databases and systems altering and self-replicating script making algorythms begin adjust and affect the effects of the worlds computer sytems at large. Transmissions begin to appear on the deep web of giant file transfers. The files are first thought to be from a signal in outerspace.
 
+the mirror world begins to bleedthrough to our world. it is first noticed by several individual content creators and average users who begin to find some of the videos and pictures as well as news articles start to forshadow events or replace them entirely. The memories they have and have shared with others have drifted away from what they can recall.
+
 #### project excess
 
 streamlining the design and storage process is going to be crucial. I've combed through a ton of files on the 1903 mac to move over the dropbox for a backup as well as a handoff across different work stations.
@@ -541,6 +543,7 @@ title: `creative technologist`
 - [npm for Anime.js -> React.js](https://www.npmjs.com/package/react-anime)
 - [Anime.js -> React.js article 5**\***](https://itnext.io/anime-js-react-transition-group-5f6d0055a3a0)
 - [Autoplay Youtube Video](https://stackoverflow.com/questions/3405242/how-can-i-autoplay-a-video-using-the-new-embed-code-style-for-youtube) `http://www.youtube.com/embed/JW5meKfy3fY?autoplay=1`
+- [github deployment marketplace](https://github.com/marketplace/category/deployment?after=Y3Vyc29yOjQw) 'https://github.com/marketplace/category/deployment'
 
 [f3e759cd]: https://uxdesign.cc/designing-anticipated-user-experiences-c419b574a417 "data drive experience"
 
