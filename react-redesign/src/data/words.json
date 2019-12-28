@@ -1,6 +1,6 @@
 [
   {
-    "one-word": [
+    "one-words": [
       { "id": 1, "content": "sigma" },
       { "id": 2, "content": "fram" },
       { "id": 3, "content": "todex" },
@@ -146,7 +146,7 @@
       { "id": 144, "content": "" },
       { "id": 145, "content": "candid" }
     ],
-    "two-word": [
+    "two-words": [
       { "id": 1, "content": "loss deluxe" },
       { "id": 2, "content": "break everything" },
       { "id": 3, "content": "reverse me" },
@@ -177,7 +177,7 @@
       { "id": 28, "content": "falling hand" },
       { "id": 29, "content": "no fate" }
     ],
-    "three-word": [
+    "three-words": [
       { "id": 1, "content": "slice the knife" },
       { "id": 2, "content": "wrists i cut" },
       { "id": 3, "content": "caught it's tail" },
@@ -219,7 +219,17 @@
       { "id": 39, "content": "underneath it all" },
       { "id": 40, "content": "all lined up" },
       { "id": 41, "content": "keep slipping away" },
-      { "id": 42, "content": "tried to save myself" }
+      { "id": 42, "content", "can you hear"},
+      { "id": 42, "content", "can you hear"}
+    ],
+    "four-words": [
+      { "id": 1, "content": "tried to save myself" },
+      { "id": 2, "content": "ive gotta let go"},
+      { "id": 3, "content": "ive gotta get away"},
+      { "id": 4, "content": "help me get away"},
+      { "id": 5, "content": "let me get away"},
+      { "id": 6, "content": "i cannot trust myself"},
+      { "id": 7, "content": "help me get away"}
     ]
   }
 ]
