@@ -377,6 +377,10 @@ the mirror world begins to bleedthrough to our world. it is first noticed by sev
 
 streamlining the design and storage process is going to be crucial. I've combed through a ton of files on the 1903 mac to move over the dropbox for a backup as well as a handoff across different work stations.
 
+combining circuts and glitch with cells and stains to show how the worlds overlap and interplay. the work should be transformative and be streamlined to be uploaded to instagram based on excess templates detailed in the site redesign project on gihub, part of this will be to see how well I can maintain daily posts both in the repo and respective sites.
+
+already missed a day 12.29.19 but have something to post it isnt't perfect but perhaps it shouldnt be
+
 ---
 
 ## PARADOX POX
