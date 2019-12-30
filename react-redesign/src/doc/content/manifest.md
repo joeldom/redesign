@@ -381,6 +381,10 @@ combining circuts and glitch with cells and stains to show how the worlds overla
 
 already missed a day 12.29.19 but have something to post it isnt't perfect but perhaps it shouldnt be
 
+EXCESS TERMS :: SHIT MIRROR
+terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid,
+
+
 ---
 
 ## PARADOX POX
@@ -1140,3 +1144,13 @@ title: `creative technologist`
 ...::%::.:..
 ..:-:...
 ...
+
+
+
+excess post format
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+details......................NULL
+version.....................00.00
+title......................excess
+tags.............................
+#generative #code #abstract #digitize #program #design #bw #2020
