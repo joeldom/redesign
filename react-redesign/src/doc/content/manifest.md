@@ -384,7 +384,6 @@ already missed a day 12.29.19 but have something to post it isnt't perfect but p
 EXCESS TERMS :: SHIT MIRROR
 terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid,
 
-
 ---
 
 ## PARADOX POX
@@ -570,7 +569,7 @@ title: `creative technologist`
 
 ---
 
-  ### void naming sort
+### void naming sort
 
     alpha..................................................................000
     beta...................................................................001
@@ -1145,8 +1144,6 @@ title: `creative technologist`
 ..:-:...
 ...
 
-
-
 excess post format
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details......................NULL
@@ -1154,3 +1151,10 @@ version.....................00.00
 title......................excess
 tags.............................
 #generative #code #abstract #digitize #program #design #bw #2020
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+details.................................................................NULL
+version................................................................00.00
+title....................................................................excess
+tags.......................................................................post
+#generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
