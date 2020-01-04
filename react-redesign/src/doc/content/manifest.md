@@ -1154,7 +1154,7 @@ tags.............................
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
-version................................................................00.00
+version................................................................00.01
 title....................................................................excess
 tags.......................................................................post
-#generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution
