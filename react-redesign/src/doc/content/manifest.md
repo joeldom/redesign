@@ -585,6 +585,8 @@ title: `creative technologist`
     geist..................................................................008
     lamda
     lucie
+    momo
+    necro
 
     sine
     sigma
@@ -1147,6 +1149,12 @@ title: `creative technologist`
 ..:-:...
 ...
 
+## themes
+
+veins, cracks, membranes, flowers, thorns, water, blackhole, circuits, stucko, melted metal, particals,
+
+---
+
 excess post format
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details......................NULL
@@ -1158,6 +1166,28 @@ tags.............................
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
 version................................................................00.01
-title....................................................................excess
-tags.......................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution
+title.................................................................excess
+tags....................................................................post
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+details.................................................................NULL
+version................................................................00.01
+title.................................................................gaiden
+tags....................................................................post
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+details.................................................................NULL
+version................................................................00.01
+title...............................................................identity
+tags....................................................................post
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #identity #logo #branding
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+details.................................................................NULL
+version................................................................00.01
+title................................................................an.itch
+tags....................................................................post
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic
