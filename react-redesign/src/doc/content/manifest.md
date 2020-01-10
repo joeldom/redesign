@@ -539,6 +539,19 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 |                            | akira                               |                    |                       |                         |                     |
 |                            | ghost in the shell                  |                    |                       |                         |                     |
 
+| track | time code                                                  |
+| ----- | ---------------------------------------------------------- |
+| 00    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 01    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 02    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 03    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 04    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 05    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 06    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 07    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 08    | [ring finger - 31:00](https://youtu.be/jxApZwq3_W8?t=1860) |
+| 09    | [down in it - 36:32](https://youtu.be/jxApZwq3_W8?t=2192)  |
+
 ---
 
 #### reading list
