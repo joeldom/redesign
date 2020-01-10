@@ -1,6 +1,5 @@
 # MMXX redesign
 dev/desing project/repo
-
 ## reffereces
 [jan - work playlist](https://youtu.be/jxApZwq3_W8?t=1050)
 
@@ -9,7 +8,7 @@ dev/desing project/repo
 | 00    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
 | 01    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
 | 02    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
-| 03    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
+| 03    | [maybe just once     - 07:35](https://youtu.be/jxApZwq3_W8?t=455)     |
 | 04    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
 | 05    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
 | 06    | [unknown     - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
