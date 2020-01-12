@@ -19,3 +19,10 @@ dev/desing project/repo
 ## features
  - dev diary timeline - project idea timeline simliar to **kickstarter** that shows project write ups of the progress
  - self publishing platform that exports and deploy changes on an automated schedule.
+ 
+## post format
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+details.................................................................NULL
+version................................................................00.01
+title...............................................................identity
+tags....................................................................post
