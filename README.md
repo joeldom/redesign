@@ -20,6 +20,18 @@ dev/desing project/repo
  - dev diary timeline - project idea timeline simliar to **kickstarter** that shows project write ups of the progress
  - self publishing platform that exports and deploy changes on an automated schedule.
  
+ 
+## post schedule
+|day|time span|
+|---|---------|
+|Sunday:| 10:00 a.m. to 02:00 p.m.|
+|Monday:| 11:00 a.m. to 05:00 p.m.|
+|Tuesday:| 09:00 a.m. to 06:00 p.m.|
+|Wednesday:| 11:00 a.m. and 3:00 p.m.|
+|Thursday:| 11:00 a.m. and 03:00 to 04:00 p.m.|
+|Friday:| 09:00 a.m. to 04:00 p.m.|
+|Saturday:| 11:00 a.m. & 07:00 p.m.|
+
 ## post format
 ```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
