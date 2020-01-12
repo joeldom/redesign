@@ -21,8 +21,10 @@ dev/desing project/repo
  - self publishing platform that exports and deploy changes on an automated schedule.
  
 ## post format
+```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
 version................................................................00.01
 title...............................................................identity
 tags....................................................................post
+```
