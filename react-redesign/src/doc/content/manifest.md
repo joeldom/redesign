@@ -1136,7 +1136,6 @@ title: `creative technologist`
            ........:::::-+#############@+###################################-:..
        ...........::-=-==%##################################################:...
     ....:-::::::::::=*#####################################################::...
-
 :::-::#-:-=-=-=%+@####################################################-::....
 .....:....::::::-+#####################################################::...
 ..........::=---=%##############@###################################::..
@@ -1198,27 +1197,16 @@ tags..................................................................post
 
 ### account @mentions
 
- @design_interns_club
- @artist_emme
- @behance
- @newimageart
- @visualgraphc
- @visual.fodder
- @theaestheticunion
- @visualjounal.it
- @artforum
-1 @artlove
+@design_interns_club @artist_emme @behance @newimageart @visualgraphc @visual.fodder @theaestheticunion @visualjounal.it @artforum @artlove
 
 @ratedmodernart @visuelle.co.uk @designeverywhere_ @designboom @branding_design @designbyface @designspiration @computersciencelife @visualarchetype
 
 @mindsparklemagazine @art.aesthetics @aestheticmagazine @artcube @art.coding @artsy @art @generative.hut @avant.arte @artforum
 
-@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge
-@pixelwebworks
+@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge @pixelwebworks
 
 
-4 @pixelsurplus
-4 @pixelpusherau
+@pixelsurplus @pixelpusherau
 
 # twitter
 
