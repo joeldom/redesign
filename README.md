@@ -40,3 +40,7 @@ version................................................................00.01
 title...............................................................identity
 tags....................................................................post
 ```
+## account managment
+- [FB Page](https://www.facebook.com/JoelDombekDesign/)
+- [FB Ad manage](https://www.facebook.com/adsmanager/)
+- [YT Channel](https://www.youtube.com/channel/UCc6vtfZ6Ln5i2ujRzisK_yA)
