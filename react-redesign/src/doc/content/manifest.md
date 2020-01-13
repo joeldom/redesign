@@ -28,9 +28,15 @@
 
 ### concepts
 
-** information framework design ~ IFD **
+**information framework design** ~ IFD
 
 `this file has been corrupted. loss permanant`
+
+> an image cache rendering with font substituion puzzle
+
+![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
+![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
+![deviations [3]](https://user-images.githubusercontent.com/1181738/72224378-f5bd5e80-3547-11ea-972a-c6d7a6cdf629.jpg)
 
 > why ecco is different: because the idea of a tweet or picture coming through a timeline is over we want some things to persist wat if the smart way was relating them to the peices we wish to share.
 
@@ -97,7 +103,24 @@ custom content token to write into peices of markup to made into content.
 using special encoded character in the code to be placed:replaced
 <https://simple.wikipedia.org/wiki/Latin_script>
 
-`spotify:track:2sbTu4X9OxrjlkFAc6sjmL`
+## scribble keygen
+
+similiar to how `ssl` keys are made and what is used to setup two-factor auth. need to find a repo that will have this as a function to call.
+
+`[see also: $eco & reddit img append]`
+
+## REGex SYRO
+
+```
+    text filler function()
+    if: `$PHYLR` = empty;
+    is: `&nbsp;` = true!
+    then: count(i) => total
+    forEach: getLength()
+    var1 + var2 = sum - total(net) = var4(i+.) === net => print(string(var1,net,var3))
+```
+
+**refference playlist** `spotify:track:2sbTu4X9OxrjlkFAc6sjmL`
 
 **<span style="color:blue;">house</span> of leaves**
 
@@ -382,7 +405,7 @@ combining circuts and glitch with cells and stains to show how the worlds overla
 already missed a day 12.29.19 but have something to post it isnt't perfect but perhaps it shouldnt be
 
 EXCESS TERMS :: SHIT MIRROR
-terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid,
+terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality,
 
 ---
 
@@ -432,9 +455,16 @@ sunny drive highway into receding horizion highway overpass sunset heat
 - twitter card for outlook and linking
 - generative text
 
+### 3-letter matrix
+
+combinations of three(3) letters that should not appear in standard text or code, these fall outside of the perview of the **regex**
+
 ---
 
-    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg,
+```
+    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg, ids, tfl, mtr, bir, war, dwh,
+
+```
 
 ---
 
@@ -529,10 +559,10 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | death grips                | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code art | future primitive   |
 | a place to burry strangers | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style |
 | health                     | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix  |
-| more than I                | the girl with the dragon tattoo     |                    | sphere                |                         | zen / feng shui     |
-| perturbator                | a place beyond the pines            |                    | the regulators        |                         | kawaii              |
-| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       |                         |                     |
-| david boxie : moder love   | milenium (fox)                      | resident evil 2 RM |                       |                         |                     |
+| more than I                | the girl with the dragon tattoo     |                    | sphere                | image of black hole     | zen / feng shui     | pond scum water    |
+| perturbator                | a place beyond the pines            |                    | the regulators        |                         | kawaii              | angels egg crack   |
+| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       |                         | sonogram pointalism |
+| david boxie : moder love   | milenium (fox)                      | resident evil 2 RM |                       |                         | gatekeeper          |
 | tool aenima                | zoo : preter greenway               | resident evil 3 RM |                       |                         |                     |
 | tool undertow              | lost highway                        |                    |                       |                         |                     |
 | bad witch                  | the x-files                         |                    |                       |                         |                     |
@@ -607,6 +637,10 @@ title: `creative technologist`
 
 # primer
 
+subconscience refference list
+
+---
+
     oblivion
     tarantula
     cassandra
@@ -642,6 +676,8 @@ title: `creative technologist`
     eidolon
     evorate
     engel /&da
+
+---
 
 ## japanese demons
 
@@ -748,11 +784,7 @@ title: `creative technologist`
 
 ```
 
-    text filler function()
-    if $PHYLR = empty
-    var1 + var2 = sum - total(net) = var4(i+.) === net => print(string(var1,net,var3))
-
-````
+```
     ~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=~=
     -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-
     H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-H-
@@ -917,6 +949,7 @@ title: `creative technologist`
            `-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-._,-' `-.-' .
 
 ```
+
 ```
     		 .--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
     		" .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
@@ -939,7 +972,7 @@ title: `creative technologist`
     		\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' "
     		 `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
 
-````
+```
 
 ```
        _   ___   ___   ___   ___   ___   ___   ___   ___   ___   ___
