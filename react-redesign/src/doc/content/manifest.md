@@ -12,6 +12,10 @@
                      @brand-magenta: #ab1acc;
                      @brand-purple: purple;
                      @brand-legacy: #1ACCAB;
+                     joeldom.github.io/redesign
+                     joeldom.github.io/style-guide
+                     joeldom.github.io/resume
+
 -->
 
 ![alt text][logo]
@@ -576,7 +580,11 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 |                            | akira                               |                    |                       |                         |                     |
 |                            | ghost in the shell                  |                    |                       |                         |                     |
 
-## songs
+## work mood settings
+
+some songs collected to reincorce the mood to workout and move to stay healthy and sharp when designing.
+
+### songs
 
 | track | time code                                                  |
 | ----- | ---------------------------------------------------------- |
@@ -591,15 +599,15 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | 08    | [ring finger - 31:00](https://youtu.be/jxApZwq3_W8?t=1860) |
 | 09    | [down in it - 36:32](https://youtu.be/jxApZwq3_W8?t=2192)  |
 
-| seed | time code                                                                                           |
-| ---- | --------------------------------------------------------------------------------------------------- |
-| 00   | that's what I get : after all is said and done mix [1:06:00](https://youtu.be/aOEmVFox7J0?t=3987)   |
-| 01   | not so pretty now : after all is said and done mix [1:23:00](https://youtu.be/aOEmVFox7J0?t=4980)   |
-| 02   | the hand that feeds : after all is said and done mix [1:31:05](https://youtu.be/aOEmVFox7J0?t=5465) |
+| seed | time code                                                                                             |
+| ---- | ----------------------------------------------------------------------------------------------------- |
+| 00   | `that's what I get` : after all is said and done mix [1:06:00](https://youtu.be/aOEmVFox7J0?t=3987)   |
+| 01   | `not so pretty now` : after all is said and done mix [1:23:00](https://youtu.be/aOEmVFox7J0?t=4980)   |
+| 02   | `the hand that feeds` : after all is said and done mix [1:31:05](https://youtu.be/aOEmVFox7J0?t=5465) |
 
 ---
 
-https://youtu.be/aOEmVFox7J0?t=5463
+`unknown link` https://youtu.be/aOEmVFox7J0?t=5463
 
 #### reading list
 
