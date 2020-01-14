@@ -1,15 +1,26 @@
 <!--
 
+
+
                     void : sine	:  e c c o
                   plague : pool :  p e r s o n a
                     coma : beta :  s i g m a
                      #1a3acc #1ACCAB #ab1acc
+
+                              var
+                     @brand-primary: #1a3acc;
+                     @brand-magenta: #ab1acc;
+                     @brand-purple: purple;
+                     @brand-legacy: #1ACCAB;
+                     joeldom.github.io/redesign
+                     joeldom.github.io/style-guide
+                     joeldom.github.io/resume
+
 -->
 
 ![alt text][logo]
 
-[logo]: http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png "Logo Title Text 2"
-
+<img width="150px" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
 <span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
@@ -33,10 +44,6 @@
 `this file has been corrupted. loss permanant`
 
 > an image cache rendering with font substituion puzzle
-
-![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
-![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
-![deviations [3]](https://user-images.githubusercontent.com/1181738/72224378-f5bd5e80-3547-11ea-972a-c6d7a6cdf629.jpg)
 
 > why ecco is different: because the idea of a tweet or picture coming through a timeline is over we want some things to persist wat if the smart way was relating them to the peices we wish to share.
 
@@ -407,6 +414,10 @@ already missed a day 12.29.19 but have something to post it isnt't perfect but p
 EXCESS TERMS :: SHIT MIRROR
 terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality,
 
+![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
+![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
+![deviations [3]](https://user-images.githubusercontent.com/1181738/72224378-f5bd5e80-3547-11ea-972a-c6d7a6cdf629.jpg)
+
 ---
 
 ## PARADOX POX
@@ -569,6 +580,12 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 |                            | akira                               |                    |                       |                         |                     |
 |                            | ghost in the shell                  |                    |                       |                         |                     |
 
+## work mood settings
+
+some songs collected to reincorce the mood to workout and move to stay healthy and sharp when designing.
+
+### songs
+
 | track | time code                                                  |
 | ----- | ---------------------------------------------------------- |
 | 00    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
@@ -582,7 +599,16 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | 08    | [ring finger - 31:00](https://youtu.be/jxApZwq3_W8?t=1860) |
 | 09    | [down in it - 36:32](https://youtu.be/jxApZwq3_W8?t=2192)  |
 
----
+| seed | time code                                                                                             |
+| ---- | ----------------------------------------------------------------------------------------------------- |
+| 00   | `that's what I get` : after all is said and done mix [1:06:00](https://youtu.be/aOEmVFox7J0?t=3987)   |
+| 01   | `not so pretty now` : after all is said and done mix [1:23:00](https://youtu.be/aOEmVFox7J0?t=4980)   |
+| 02   | `the hand that feeds` : after all is said and done mix [1:31:05](https://youtu.be/aOEmVFox7J0?t=5465) |
+| 03   | `ruiner` : after all is said and done mix [00:00:00](https://youtu.be/aOEmVFox7J0?t=6716)             |
+
+`hurt - trance` https://youtu.be/aOEmVFox7J0?t=8055
+
+`unknown link` https://youtu.be/aOEmVFox7J0?t=5463
 
 #### reading list
 
@@ -839,9 +865,6 @@ subconscience refference list
     oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
-
-    _.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._
-    .-'---      - ---     --     ---   -----   - --       ----  ----   -     ---`-.
 
     _.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._......
     .-'--.......- ---.....-......---....-----.- --.......----..----....-.....---`-.
@@ -1246,10 +1269,13 @@ title....................................................................excess
 tags.......................................................................post
 #generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ```
 
 =======
+=======
+>>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
@@ -1276,6 +1302,7 @@ tags..................................................................post
 
 ### account @mentions
 
+<<<<<<< HEAD
 @design_interns_club
 @artist_emme
 @behance
@@ -1286,19 +1313,32 @@ tags..................................................................post
 @visualjounal.it
 @artforum
 1 @artlove
+=======
+@design_interns_club @artist_emme @behance @newimageart @visualgraphc @visual.fodder @theaestheticunion @visualjounal.it @artforum @artlove
+>>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 
 @ratedmodernart @visuelle.co.uk @designeverywhere\_ @designboom @branding_design @designbyface @designspiration @computersciencelife @visualarchetype
 
 @mindsparklemagazine @art.aesthetics @aestheticmagazine @artcube @art.coding @artsy @art @generative.hut @avant.arte @artforum
 
+<<<<<<< HEAD
 @artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge
 @pixelwebworks @pixelsurplus @pixelpusherau
+=======
+@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge @pixelwebworks
+
+
+@pixelsurplus @pixelpusherau
+>>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 
 # twitter
 
 adding the different tyopes of post types to add to the various posts tags need added to
 
 `test commit to check atom https`
+<<<<<<< HEAD
 
 > 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
+=======
+>>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 ```
