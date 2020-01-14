@@ -1,15 +1,22 @@
 <!--
 
+
+
                     void : sine	:  e c c o
                   plague : pool :  p e r s o n a
                     coma : beta :  s i g m a
                      #1a3acc #1ACCAB #ab1acc
+
+                              var
+                     @brand-primary: #1a3acc;
+                     @brand-magenta: #ab1acc;
+                     @brand-purple: purple;
+                     @brand-legacy: #1ACCAB;
 -->
 
 ![alt text][logo]
 
-[logo]: http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png "Logo Title Text 2"
-
+<img width="150px" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
 <span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
@@ -33,10 +40,6 @@
 `this file has been corrupted. loss permanant`
 
 > an image cache rendering with font substituion puzzle
-
-![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
-![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
-![deviations [3]](https://user-images.githubusercontent.com/1181738/72224378-f5bd5e80-3547-11ea-972a-c6d7a6cdf629.jpg)
 
 > why ecco is different: because the idea of a tweet or picture coming through a timeline is over we want some things to persist wat if the smart way was relating them to the peices we wish to share.
 
@@ -407,6 +410,10 @@ already missed a day 12.29.19 but have something to post it isnt't perfect but p
 EXCESS TERMS :: SHIT MIRROR
 terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality,
 
+![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
+![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
+![deviations [3]](https://user-images.githubusercontent.com/1181738/72224378-f5bd5e80-3547-11ea-972a-c6d7a6cdf629.jpg)
+
 ---
 
 ## PARADOX POX
@@ -569,6 +576,8 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 |                            | akira                               |                    |                       |                         |                     |
 |                            | ghost in the shell                  |                    |                       |                         |                     |
 
+## songs
+
 | track | time code                                                  |
 | ----- | ---------------------------------------------------------- |
 | 00    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
@@ -581,6 +590,12 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | 07    | [unknown - 00:00](https://youtu.be/jxApZwq3_W8?t=1860)     |
 | 08    | [ring finger - 31:00](https://youtu.be/jxApZwq3_W8?t=1860) |
 | 09    | [down in it - 36:32](https://youtu.be/jxApZwq3_W8?t=2192)  |
+
+| seed    | time code                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------- |
+| 00      | that's what I get : after all is said and done mix [1:06:00](https://youtu.be/aOEmVFox7J0?t=3987) |
+| 00      | not so pretty now : after all is said and done mix [1:23:00](https://youtu.be/aOEmVFox7J0?t=4980) |
+| another | one                                                                                               |
 
 ---
 
@@ -839,9 +854,6 @@ subconscience refference list
     oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
     oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
-
-    _.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._
-    .-'---      - ---     --     ---   -----   - --       ----  ----   -     ---`-.
 
     _.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._......
     .-'--.......- ---.....-......---....-----.- --.......----..----....-.....---`-.
@@ -1199,11 +1211,8 @@ subconscience refference list
            ........:::::-+#############@+###################################-:..
        ...........##########################################################:...
     ....:-::::::::::=*#####################################################::...
-<<<<<<< HEAD
-=======
 
 ..::-=----------==%######################################################::...
->>>>>>> 11b7f995fa57534ba87fbd412f06f315918a714f
 :::-::#-:-=-=-=%+@####################################################-::....
 .....:....::::::-+#####################################################::...
 ..........::=---=%##############@###################################::..
@@ -1242,9 +1251,6 @@ version................................................................00.00
 title....................................................................excess
 tags.......................................................................post
 #generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
-<<<<<<< HEAD
-```
-=======
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
@@ -1287,4 +1293,4 @@ adding the different tyopes of post types to add to the various posts tags need 
 
 
 `test commit to check atom https`
->>>>>>> 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
+```
