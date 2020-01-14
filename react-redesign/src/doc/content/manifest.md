@@ -1173,9 +1173,15 @@ subconscience refference list
                                                                ...
 
 ```
+
+```
+
 ---
 
-**there is a space being added**
+## non-entity
+
+**there is a space between**
+
 ```
 
                                                          . ..
@@ -1240,7 +1246,9 @@ title....................................................................excess
 tags.......................................................................post
 #generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
 <<<<<<< HEAD
+
 ```
+
 =======
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -1251,48 +1259,46 @@ tags....................................................................post
 #generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #identity #logo #branding
 
 ### instag post with tags
+
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details............................................................NULL
 version...........................................................00.01
 title..............................................................identity
 tags..................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution  #art #sureal #surealism  #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details............................................................NULL
 version...........................................................00.01
 title..............................................................untitled
 tags..................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution  #art #sureal #surealism  #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
+#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
 
 ### account @mentions
 
- @design_interns_club
- @artist_emme
- @behance
- @newimageart
- @visualgraphc
- @visual.fodder
- @theaestheticunion
- @visualjounal.it
- @artforum
+@design_interns_club
+@artist_emme
+@behance
+@newimageart
+@visualgraphc
+@visual.fodder
+@theaestheticunion
+@visualjounal.it
+@artforum
 1 @artlove
 
-@ratedmodernart @visuelle.co.uk @designeverywhere_ @designboom @branding_design @designbyface @designspiration @computersciencelife @visualarchetype
+@ratedmodernart @visuelle.co.uk @designeverywhere\_ @designboom @branding_design @designbyface @designspiration @computersciencelife @visualarchetype
 
 @mindsparklemagazine @art.aesthetics @aestheticmagazine @artcube @art.coding @artsy @art @generative.hut @avant.arte @artforum
 
 @artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge
-@pixelwebworks
-
-
-4 @pixelsurplus
-4 @pixelpusherau
+@pixelwebworks @pixelsurplus @pixelpusherau
 
 # twitter
 
 adding the different tyopes of post types to add to the various posts tags need added to
 
-
 `test commit to check atom https`
->>>>>>> 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
+
+> 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
+```
