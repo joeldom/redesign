@@ -1266,14 +1266,10 @@ version................................................................00.00
 title....................................................................excess
 tags.......................................................................post
 #generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 ```
 
-=======
-=======
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
+784a0cc51635efe738dde23a69936cc5bef9a090
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
@@ -1310,33 +1306,25 @@ tags..................................................................post
 @theaestheticunion
 @visualjounal.it
 @artforum
-1 @artlove
-=======
+@artlove
+
 @design_interns_club @artist_emme @behance @newimageart @visualgraphc @visual.fodder @theaestheticunion @visualjounal.it @artforum @artlove
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
+784a0cc51635efe738dde23a69936cc5bef9a090
 
 @ratedmodernart @visuelle.co.uk @designeverywhere\_ @designboom @branding_design @designbyface @designspiration @computersciencelife @visualarchetype
 
 @mindsparklemagazine @art.aesthetics @aestheticmagazine @artcube @art.coding @artsy @art @generative.hut @avant.arte @artforum
 
-<<<<<<< HEAD
-@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge
-@pixelwebworks @pixelsurplus @pixelpusherau
-=======
-@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge @pixelwebworks
+@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge@pixelwebworks @pixelsurplus @pixelpusherau@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge @pixelwebworks
 
 
 @pixelsurplus @pixelpusherau
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 
 # twitter
 
 adding the different tyopes of post types to add to the various posts tags need added to
 
 `test commit to check atom https`
-<<<<<<< HEAD
 
 > 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
-=======
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 ```
