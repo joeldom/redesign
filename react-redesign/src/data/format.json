@@ -1,5 +1,24 @@
 [
   {
+    "id": 0,
+    "class": "1",
+    "type": "post",
+    "date": 01 - 20 - 2020,
+    "title": "content model",
+    "shortname": "preformatted plain text",
+    "content": [
+      {
+        "line": 1,
+        "text": "sigma ALL precompiled"
+      },
+      {
+        "line": 2,
+        "text": "other lines"
+      }
+    ],
+    "tags": "content model"
+  },
+  {
     "id": 1,
     "class": "1",
     "font": "Roboto Mono",

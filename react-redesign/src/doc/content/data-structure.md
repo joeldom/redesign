@@ -3,7 +3,7 @@
 ideal / intended structure for data dictionary of different types of posts the new app will handle.
 <span style="color:orange !important;">
 
-```
+```json
 - index / home
 	- work / all
 		- brand
@@ -11,7 +11,7 @@ ideal / intended structure for data dictionary of different types of posts the n
 			- platform / application
 		- web
 			- title
-			-
+			- version
 		- interface
 		- print
 	- ideas
