@@ -1250,9 +1250,9 @@ subconscience refference list
 ...::%::.:..
 ..:-:...
 ...
-
 ```
 
+```
 excess post format
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details......................NULL
@@ -1260,16 +1260,18 @@ version.....................00.00
 title......................excess
 tags.............................
 #generative #code #abstract #digitize #program #design #bw #2020
+```
 
+```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
 version................................................................00.00
 title....................................................................excess
 tags.......................................................................post
 #generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
-
 ```
 
+```
 784a0cc51635efe738dde23a69936cc5bef9a090
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
