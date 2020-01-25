@@ -9,9 +9,16 @@
 
                               var
                      @brand-primary: #1a3acc;
+                     $brand-cuul-blue: #e0e9fe;
+                     $brand-off-white: #e4dfd9;
+                     $brand-cuul-grey: #a3a3a3;
+                     $brand-wurm-grey: #e4dfd9;
                      @brand-magenta: #ab1acc;
-                     @brand-purple: purple;
-                     @brand-legacy: #1ACCAB;
+                     @brand-red: #600000;
+                     @brand-legacy: #008080;
+                     $brand-java: #1ACCAB;
+                     $brand-gable: #142a2d;
+                     @brand-gold: #CCAB1A;
                      joeldom.github.io/redesign
                      joeldom.github.io/style-guide
                      joeldom.github.io/resume
