@@ -419,7 +419,7 @@ combining circuts and glitch with cells and stains to show how the worlds overla
 already missed a day 12.29.19 but have something to post it isnt't perfect but perhaps it shouldnt be
 
 EXCESS TERMS :: SHIT MIRROR
-terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality,
+terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality, brain in a jar, pressed flower art,
 
 ![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
 ![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
@@ -532,7 +532,7 @@ combinations of three(3) letters that should not appear in standard text or code
 - pandamonium
 - negative pressure
 - sapiophobia
--
+- aphelion
 
 ## Prophet of Joel
 
@@ -579,12 +579,12 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | health                     | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix  |
 | more than I                | the girl with the dragon tattoo     |                    | sphere                | image of black hole     | zen / feng shui     | pond scum water    |
 | perturbator                | a place beyond the pines            |                    | the regulators        | nasa                    | kawaii              | angels egg crack   |
-| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       |                         | sonogram pointalism |
-| david boxie : moder love   | milenium (fox)                      | resident evil 2 RM |                       |                         | gatekeeper          |
-| tool aenima                | zoo : preter greenway               | resident evil 3 RM |                       |                         |                     |
-| tool undertow              | lost highway                        |                    |                       |                         |                     |
-| bad witch                  | the x-files                         |                    |                       |                         |                     |
-|                            | akira                               |                    |                       |                         |                     |
+| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       | aphelion                | sonogram pointalism |
+| david boxie : moder love   | milenium (fox)                      | resident evil 2 RM |                       | perihelion              | gatekeeper          |
+| tool aenima                | zoo : preter greenway               | resident evil 3 RM |                       | juno mission            |                     |
+| tool undertow              | lost highway                        |                    |                       | voyager mission         |                     |
+| bad witch                  | the x-files                         |                    |                       | microscopy              |                     |
+| voyager sounds             | akira                               |                    |                       | photomicrography        |                     |
 |                            | ghost in the shell                  |                    |                       |                         |                     |
 
 ## work mood settings
@@ -658,8 +658,9 @@ title: `creative technologist`
     gamma..................................................................006
     gaiden.................................................................007
     geist..................................................................008
+    juno...................................................................000
     lamda..................................................................009
-    legre
+    legre..................................................................000
     luci...................................................................010
     sigma..................................................................010
     sine...................................................................010
