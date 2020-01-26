@@ -480,7 +480,7 @@ combinations of three(3) letters that should not appear in standard text or code
 ---
 
 ```
-    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg, ids, tfl, mtr, bir, war, dwh,
+    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg, ids, tfl, mtr, bir, war, dwh, mdw, qet,
 
 ```
 
@@ -568,34 +568,37 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - bonsai tree content - `constant pruning and triming with the slow pace of change`
 - final fantasy - `6,7,8,9,10,12,13,15` `ie: Fabula Nova Crystallis`
 - heavens gate - `kool-aid cult` `brand as a religion`
+- zoological science - [zoological science covers](http://www.zoology.or.jp/html/02_magazine/zscovers_14-27/zscovers_14-27.html)
+- embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
 
 | music                         | film                                | games              | book                  | science                 | art                 | patterns             |
 | ----------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | -------------------- |
 | buckethead                    | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american      |
 | mars volta : octohedron       | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro         |
-| mars volta : frances the mute |                                     |                    |                       |                         |                     |                      |
+| mars volta : frances the mute | i heart huckabees                   |                    | invisible monsters    | latice of reality       | x-rays              | plaid                |
 | aphex twin : syro             | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave            |
-| death grips                   | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code art | future primitive     |
+| death grips                   | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code     | future primitive     |
 | a place to burry strangers    | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style   |
 | health                        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix    |
 | more than I                   | the girl with the dragon tattoo     | einhander          | sphere                | image of black hole     | zen / feng shui     | pond scum water      |
 | perturbator                   | a place beyond the pines            |                    | the regulators        | nasa                    | kawaii              | angels egg crack     |
 | sidewalks & skeletons         | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism | microscopic crystals |
-| david boxie : moder love      | milenium (fox)                      | resident evil 2 RM |                       | perihelion              | gatekeeper          |                      |
-| tool aenima                   | zoo : preter greenway               | resident evil 3 RM |                       | juno mission            | flower pressing     |                      |
-| tool undertow                 | lost highway                        |                    |                       | voyager mission         |                     |                      |
-| bad witch                     | the x-files                         |                    |                       | microscopy              |                     |                      |
+| david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          |                      |
+| tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     |                      |
+| tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         |                     |                      |
+| nin : bad witch               | the x-files                         |                    |                       | microscopy              |                     |                      |
 | voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
-| add violence                  | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
-| the fragile                   |                                     |                    |                       | neuron                  |                     |                      |
-|                               |                                     |                    |                       | electron microscope     |                     |                      |
-|                               |                                     |                    |                       | magnetic crystals       |                     |                      |
+| nin : add violence            | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
+| nin : the fragile             | spy game                            |                    |                       | neuron                  |                     |                      |
+| gatekeeper                    |                                     |                    |                       | electron microscope     |                     |                      |
+| health : slaves of fear       |                                     |                    |                       | magnetic crystals       |                     |                      |
 |                               |                                     |                    |                       | oil slick on water      |                     |                      |
 |                               |                                     |                    |                       | cells trichodina        |                     |                      |
 |                               |                                     |                    |                       | bacteria / virus        |                     |                      |
 |                               |                                     |                    |                       | water micro-organism    |                     |                      |
 |                               |                                     |                    |                       | animal cross-section    |                     |                      |
 |                               |                                     |                    |                       | microprocessor          |                     |                      |
+|                               |                                     |                    |                       | embryology              |                     |                      |
 
 ## work mood settings
 
@@ -668,6 +671,7 @@ title: `creative technologist`
     gamma..................................................................007
     gaiden.................................................................009
     geist..................................................................010
+    gemini.................................................................011
     hedron.................................................................011
     juno...................................................................012
     kepio..................................................................000
@@ -678,6 +682,8 @@ title: `creative technologist`
     sigma..................................................................010
     sine...................................................................010
     theta..................................................................010
+    teran
+    tella
     vedam..................................................................000
     zeta...................................................................010
     zulu...................................................................010
