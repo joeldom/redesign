@@ -569,23 +569,33 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - final fantasy - `6,7,8,9,10,12,13,15` `ie: Fabula Nova Crystallis`
 - heavens gate - `kool-aid cult` `brand as a religion`
 
-| music                      | film                                | games              | book                  | science                 | art                 | patterns           |
-| -------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | ------------------ |
-| buckethead                 | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american    |
-| mars volta                 | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro       |
-| aphex twin                 | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave          |
-| death grips                | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code art | future primitive   |
-| a place to burry strangers | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style |
-| health                     | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix  |
-| more than I                | the girl with the dragon tattoo     |                    | sphere                | image of black hole     | zen / feng shui     | pond scum water    |
-| perturbator                | a place beyond the pines            |                    | the regulators        | nasa                    | kawaii              | angels egg crack   |
-| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       | aphelion                | sonogram pointalism |
-| david boxie : moder love   | milenium (fox)                      | resident evil 2 RM |                       | perihelion              | gatekeeper          |
-| tool aenima                | zoo : preter greenway               | resident evil 3 RM |                       | juno mission            |                     |
-| tool undertow              | lost highway                        |                    |                       | voyager mission         |                     |
-| bad witch                  | the x-files                         |                    |                       | microscopy              |                     |
-| voyager sounds             | akira                               |                    |                       | photomicrography        |                     |
-|                            | ghost in the shell                  |                    |                       |                         |                     |
+| music                         | film                                | games              | book                  | science                 | art                 | patterns             |
+| ----------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | -------------------- |
+| buckethead                    | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american      |
+| mars volta : octohedron       | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro         |
+| mars volta : frances the mute |                                     |                    |                       |                         |                     |                      |
+| aphex twin : syro             | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave            |
+| death grips                   | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code art | future primitive     |
+| a place to burry strangers    | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style   |
+| health                        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix    |
+| more than I                   | the girl with the dragon tattoo     | einhander          | sphere                | image of black hole     | zen / feng shui     | pond scum water      |
+| perturbator                   | a place beyond the pines            |                    | the regulators        | nasa                    | kawaii              | angels egg crack     |
+| sidewalks & skeletons         | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism | microscopic crystals |
+| david boxie : moder love      | milenium (fox)                      | resident evil 2 RM |                       | perihelion              | gatekeeper          |                      |
+| tool aenima                   | zoo : preter greenway               | resident evil 3 RM |                       | juno mission            | flower pressing     |                      |
+| tool undertow                 | lost highway                        |                    |                       | voyager mission         |                     |                      |
+| bad witch                     | the x-files                         |                    |                       | microscopy              |                     |                      |
+| voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
+| add violence                  | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
+| the fragile                   |                                     |                    |                       | neuron                  |                     |                      |
+|                               |                                     |                    |                       | electron microscope     |                     |                      |
+|                               |                                     |                    |                       | magnetic crystals       |                     |                      |
+|                               |                                     |                    |                       | oil slick on water      |                     |                      |
+|                               |                                     |                    |                       | cells trichodina        |                     |                      |
+|                               |                                     |                    |                       | bacteria / virus        |                     |                      |
+|                               |                                     |                    |                       | water micro-organism    |                     |                      |
+|                               |                                     |                    |                       | animal cross-section    |                     |                      |
+|                               |                                     |                    |                       | microprocessor          |                     |                      |
 
 ## work mood settings
 
@@ -650,21 +660,25 @@ title: `creative technologist`
 
     alpha..................................................................000
     beta...................................................................001
-    bevis..................................................................010
-    coma...................................................................002
-    delta..................................................................003
-    ecco...................................................................004
-    epsilon................................................................005
-    gamma..................................................................006
-    gaiden.................................................................007
-    geist..................................................................008
-    juno...................................................................000
+    bevis..................................................................002
+    coma...................................................................003
+    delta..................................................................004
+    ecco...................................................................005
+    epsilon................................................................006
+    gamma..................................................................007
+    gaiden.................................................................009
+    geist..................................................................010
+    hedron.................................................................011
+    juno...................................................................012
+    kepio..................................................................000
     lamda..................................................................009
     legre..................................................................000
     luci...................................................................010
+    nawt...................................................................000
     sigma..................................................................010
     sine...................................................................010
     theta..................................................................010
+    vedam..................................................................000
     zeta...................................................................010
     zulu...................................................................010
 
