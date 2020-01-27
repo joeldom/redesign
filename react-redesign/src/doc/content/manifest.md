@@ -570,6 +570,7 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - heavens gate - `kool-aid cult` `brand as a religion`
 - zoological science - [zoological science covers](http://www.zoology.or.jp/html/02_magazine/zscovers_14-27/zscovers_14-27.html)
 - embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
+- Ernst Haeckel - [German Zoologist](https://www.google.com/search?q=Ernst+Haeckel)
 
 | music                         | film                                | games              | book                  | science                 | art                 | patterns             |
 | ----------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | -------------------- |
@@ -581,11 +582,11 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | a place to burry strangers    | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style   |
 | health                        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix    |
 | more than I                   | the girl with the dragon tattoo     | einhander          | sphere                | image of black hole     | zen / feng shui     | pond scum water      |
-| perturbator                   | a place beyond the pines            |                    | the regulators        | nasa                    | kawaii              | angels egg crack     |
+| perturbator                   | a place beyond the pines            | alien isolation    | the regulators        | nasa                    | kawaii              | angels egg crack     |
 | sidewalks & skeletons         | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism | microscopic crystals |
-| david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          |                      |
-| tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     |                      |
-| tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         |                     |                      |
+| david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          | honeycomb beehive    |
+| tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     | cell walls           |
+| tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         | Ernst Haeckel       |                      |
 | nin : bad witch               | the x-files                         |                    |                       | microscopy              |                     |                      |
 | voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
 | nin : add violence            | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
