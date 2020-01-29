@@ -587,11 +587,11 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          | honeycomb beehive    |
 | tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     | cell walls           |
 | tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         | Ernst Haeckel       |                      |
-| nin : bad witch               | the x-files                         |                    |                       | microscopy              |                     |                      |
+| nin : bad witch               | the x-files                         |                    |                       | microscopy              | Akira toryoma       |                      |
 | voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
 | nin : add violence            | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
 | nin : the fragile             | spy game                            |                    |                       | neuron                  |                     |                      |
-| gatekeeper                    |                                     |                    |                       | electron microscope     |                     |                      |
+| gatekeeper                    | dragon ball                         |                    |                       | electron microscope     |                     |                      |
 | health : slaves of fear       |                                     |                    |                       | magnetic crystals       |                     |                      |
 |                               |                                     |                    |                       | oil slick on water      |                     |                      |
 |                               |                                     |                    |                       | cells trichodina        |                     |                      |
