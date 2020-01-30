@@ -381,7 +381,6 @@ opacity: 0.25;
 }
 }
 
-<<<<<<< HEAD
 .github-StagingView-group.is-focused .is-selected{
 background: darken(@brand-magenta, 20%);
 &:hover{
@@ -439,33 +438,3 @@ animation: colorChange 10s infinite !important;
 //83%         {background: darken(@brand-magenta, 25%);}
 100%        {background: darken(@brand-primary, 15%);}
 }
-=======
-// Starting from Atom v1.13.0, the contents of atom-text-editor elements are no longer encapsulated within a shadow DOM boundary. This means you should stop using :host and ::shadow pseudo-selectors, and prepend all your syntax selectors with syntax--. To prevent breakage with existing style sheets, Atom will automatically upgrade the following selectors:
-// atom-text-editor::shadow .linter-row => atom-text-editor.editor .linter-row
-//
-// atom-text-editor::shadow .linter-gutter => atom-text-editor.editor .linter-gutter
-//
-// atom-text-editor::shadow .linter-highlight.badge, .linter-highlight.badge => atom-text-editor.editor .linter-highlight.badge, .linter-highlight.badge
-//
-// atom-text-editor::shadow .linter-highlight.error:not(.line-number), .linter-highlight.error:not(.line-number) => atom-text-editor.editor .linter-highlight.syntax--error:not(.line-number), .linter-highlight.error:not(.line-number)
-//
-// atom-text-editor::shadow .linter-highlight.error .linter-gutter, .linter-highlight.error .linter-gutter => atom-text-editor.editor .linter-highlight.syntax--error .linter-gutter, .linter-highlight.error .linter-gutter
-//
-// atom-text-editor::shadow .linter-highlight.error .region, .linter-highlight.error .region => atom-text-editor.editor .linter-highlight.syntax--error .region, .linter-highlight.error .region
-//
-// atom-text-editor::shadow .linter-highlight.warning:not(.line-number), .linter-highlight.warning:not(.line-number) => atom-text-editor.editor .linter-highlight.syntax--warning:not(.line-number), .linter-highlight.warning:not(.line-number)
-//
-// atom-text-editor::shadow .linter-highlight.warning .linter-gutter, .linter-highlight.warning .linter-gutter => atom-text-editor.editor .linter-highlight.syntax--warning .linter-gutter, .linter-highlight.warning .linter-gutter
-//
-// atom-text-editor::shadow .linter-highlight.warning .region, .linter-highlight.warning .region => atom-text-editor.editor .linter-highlight.syntax--warning .region, .linter-highlight.warning .region
-//
-// atom-text-editor::shadow .linter-highlight.trace:not(.line-number), .linter-highlight.trace:not(.line-number), atom-text-editor::shadow .linter-highlight.info:not(.line-number), .linter-highlight.info:not(.line-number) => atom-text-editor.editor .linter-highlight.syntax--trace:not(.line-number), .linter-highlight.trace:not(.line-number), atom-text-editor.editor .linter-highlight.syntax--info:not(.line-number), .linter-highlight.info:not(.line-number)
-//
-// atom-text-editor::shadow .linter-highlight.trace .linter-gutter, .linter-highlight.trace .linter-gutter, atom-text-editor::shadow .linter-highlight.info .linter-gutter, .linter-highlight.info .linter-gutter => atom-text-editor.editor .linter-highlight.syntax--trace .linter-gutter, .linter-highlight.trace .linter-gutter, atom-text-editor.editor .linter-highlight.syntax--info .linter-gutter, .linter-highlight.info .linter-gutter
-//
-// atom-text-editor::shadow .linter-highlight.trace .region, .linter-highlight.trace .region, atom-text-editor::shadow .linter-highlight.info .region, .linter-highlight.info .region => atom-text-editor.editor .linter-highlight.syntax--trace .region, .linter-highlight.trace .region, atom-text-editor.editor .linter-highlight.syntax--info .region, .linter-highlight.info .region
-//
-// atom-text-editor::shadow .linter-highlight.status-error, .linter-highlight.status-error => atom-text-editor.editor .linter-highlight.status-error, .linter-highlight.status-error
-//
-// atom-text-editor::shadow .linter-highlight.status-success, .linter-highlight.status-success => atom-text-editor.editor .linter-highlight.status-success, .linter-highlight.status-success
->>>>>>> aa7efb7ec1cfcee5c03f8821437096b985930206

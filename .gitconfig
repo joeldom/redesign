@@ -1,0 +1,14 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = user
+	email = user.name@domain.com
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\user\\Documents\\gitignore_global.txt
+	editor = \"C:\\Users\\user\\AppData\\Local\\atom\\app-1.38.0\\atom.exe\" --wait
+[winUpdater]
+	recentlySeenVersion = 2.24.1.windows.2
