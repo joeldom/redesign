@@ -163,7 +163,7 @@ describing the decent into madness. how the mind can be a puzzle box of question
     - cosmic
     - long time history
     - etymology
-    -
+    - rapdid publishing
 
 ---
 
@@ -286,6 +286,8 @@ _answers with joe_
 - Twitter
   - data type to write preview text and link to a preview card
 - Youtube
+- Gatsby
+  - static site generator
 
 ## Builds
 
