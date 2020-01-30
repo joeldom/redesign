@@ -27,13 +27,24 @@ class NavMenu extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
-        <Navbar fixed={"top"} color="light" light expand="md">
-          <div className="container">
-            <NavbarBrand tag={Link} to="/" />
-          </div>
+      <>
+        <Navbar color="faded" dark>
+          <NavbarBrand tag={Link} to="/">
+            Joel<strong>Dombek</strong>
+          </NavbarBrand>
+          <Nav navbar>
+            <NavLink tag={Link} to="/">
+              Home
+            </NavLink>
+            <NavLink tag={Link} to="/">
+              Features
+            </NavLink>
+            <NavLink tag={Link} to="/">
+              Pricing
+            </NavLink>
+          </Nav>
         </Navbar>
-      </React.Fragment>
+      </>
     );
   }
 }

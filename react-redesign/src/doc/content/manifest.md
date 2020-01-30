@@ -9,9 +9,16 @@
 
                               var
                      @brand-primary: #1a3acc;
+                     $brand-cuul-blue: #e0e9fe;
+                     $brand-off-white: #e4dfd9;
+                     $brand-cuul-grey: #a3a3a3;
+                     $brand-wurm-grey: #e4dfd9;
                      @brand-magenta: #ab1acc;
-                     @brand-purple: purple;
-                     @brand-legacy: #1ACCAB;
+                     @brand-red: #600000;
+                     @brand-legacy: #008080;
+                     $brand-java: #1ACCAB;
+                     $brand-gable: #142a2d;
+                     @brand-gold: #CCAB1A;
                      joeldom.github.io/redesign
                      joeldom.github.io/style-guide
                      joeldom.github.io/resume
@@ -156,7 +163,7 @@ describing the decent into madness. how the mind can be a puzzle box of question
     - cosmic
     - long time history
     - etymology
-    -
+    - rapdid publishing
 
 ---
 
@@ -279,6 +286,8 @@ _answers with joe_
 - Twitter
   - data type to write preview text and link to a preview card
 - Youtube
+- Gatsby
+  - static site generator
 
 ## Builds
 
@@ -412,7 +421,7 @@ combining circuts and glitch with cells and stains to show how the worlds overla
 already missed a day 12.29.19 but have something to post it isnt't perfect but perhaps it shouldnt be
 
 EXCESS TERMS :: SHIT MIRROR
-terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality,
+terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality, brain in a jar, pressed flower art,
 
 ![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
 ![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
@@ -473,7 +482,7 @@ combinations of three(3) letters that should not appear in standard text or code
 ---
 
 ```
-    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg, ids, tfl, mtr, bir, war, dwh,
+    rtb, fob, eve, atm, arg, atv, rts, kdr, srt, oog, pcc, htc, dds, wwe, doa, ttk, fps, ddi, rei, hkk, dsg, thc, exe, msr, rwd, mp3, dvd, bld, tvt, ddr, pre, mre, gtr, lol, hmu, fbi, wft, str, qar, tel, vcr, bet, jtc, jdl, git, ffm, ssx, aph, omg, eps, psd, tor, fdr, nmp, dds, css, gzr, tar, zip, ljn, nja, dth, grp, snc, src, inf, crc, ltd, reg, cal, ttl, gtg, sml, grd, bck, eco, tau, gma, trl, acs, znt, klg, spt, frt, end, mil, kil, jmd, yen, rfr, jgh, acr, min, btn, mtn, pln, vbs, lal, tkl, tlm, wip, ulu, osu, jpl, nwe, nsa, emr, sjw, boo, sol, lun, lif, det, spd, mph, kjm, kto, pwp, msr, rtr, isi, fia, kia, smr, obo, txt, rds, lps, ent, klo, fce, bta, plt, mdl, new, ofc, sml, ftn, cok, shr, mon, ssh, nvm, idt, crt, ctu, lfq, ghb, uyt, rct, opr, gyw, wdk, slg, ids, tfl, mtr, bir, war, dwh, mdw, qet,
 
 ```
 
@@ -525,7 +534,7 @@ combinations of three(3) letters that should not appear in standard text or code
 - pandamonium
 - negative pressure
 - sapiophobia
--
+- aphelion
 
 ## Prophet of Joel
 
@@ -561,24 +570,38 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - bonsai tree content - `constant pruning and triming with the slow pace of change`
 - final fantasy - `6,7,8,9,10,12,13,15` `ie: Fabula Nova Crystallis`
 - heavens gate - `kool-aid cult` `brand as a religion`
+- zoological science - [zoological science covers](http://www.zoology.or.jp/html/02_magazine/zscovers_14-27/zscovers_14-27.html)
+- embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
+- Ernst Haeckel - [German Zoologist](https://www.google.com/search?q=Ernst+Haeckel)
 
-| music                      | film                                | games              | book                  | science                 | art                 | patterns           |
-| -------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | ------------------ |
-| buckethead                 | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american    |
-| mars volta                 | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro       |
-| aphex twin                 | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave          |
-| death grips                | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code art | future primitive   |
-| a place to burry strangers | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style |
-| health                     | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix  |
-| more than I                | the girl with the dragon tattoo     |                    | sphere                | image of black hole     | zen / feng shui     | pond scum water    |
-| perturbator                | a place beyond the pines            |                    | the regulators        |                         | kawaii              | angels egg crack   |
-| sidewalks & skeletons      | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  |                       |                         | sonogram pointalism |
-| david boxie : moder love   | milenium (fox)                      | resident evil 2 RM |                       |                         | gatekeeper          |
-| tool aenima                | zoo : preter greenway               | resident evil 3 RM |                       |                         |                     |
-| tool undertow              | lost highway                        |                    |                       |                         |                     |
-| bad witch                  | the x-files                         |                    |                       |                         |                     |
-|                            | akira                               |                    |                       |                         |                     |
-|                            | ghost in the shell                  |                    |                       |                         |                     |
+| music                         | film                                | games              | book                  | science                 | art                 | patterns             |
+| ----------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | -------------------- |
+| buckethead                    | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american      |
+| mars volta : octohedron       | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro         |
+| mars volta : frances the mute | i heart huckabees                   |                    | invisible monsters    | latice of reality       | x-rays              | plaid                |
+| aphex twin : syro             | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave            |
+| death grips                   | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code     | future primitive     |
+| a place to burry strangers    | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style   |
+| health                        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix    |
+| more than I                   | the girl with the dragon tattoo     | einhander          | sphere                | image of black hole     | zen / feng shui     | pond scum water      |
+| perturbator                   | a place beyond the pines            | alien isolation    | the regulators        | nasa                    | kawaii              | angels egg crack     |
+| sidewalks & skeletons         | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism | microscopic crystals |
+| david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          | honeycomb beehive    |
+| tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     | cell walls           |
+| tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         | Ernst Haeckel       |                      |
+| nin : bad witch               | the x-files                         | cyberpun 2077      |                       | microscopy              | Akira toryoma       |                      |
+| voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
+| nin : add violence            | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
+| nin : the fragile             | spy game                            |                    |                       | neuron                  |                     |                      |
+| gatekeeper                    | dragon ball                         |                    |                       | electron microscope     |                     |                      |
+| health : slaves of fear       | neon genisis                        |                    |                       | magnetic crystals       |                     |                      |
+|                               |                                     |                    |                       | oil slick on water      |                     |                      |
+|                               |                                     |                    |                       | cells trichodina        |                     |                      |
+|                               |                                     |                    |                       | bacteria / virus        |                     |                      |
+|                               |                                     |                    |                       | water micro-organism    |                     |                      |
+|                               |                                     |                    |                       | animal cross-section    |                     |                      |
+|                               |                                     |                    |                       | microprocessor          |                     |                      |
+|                               |                                     |                    |                       | embryology              |                     |                      |
 
 ## work mood settings
 
@@ -605,10 +628,8 @@ some songs collected to reincorce the mood to workout and move to stay healthy a
 | 01   | `not so pretty now` : after all is said and done mix [1:23:00](https://youtu.be/aOEmVFox7J0?t=4980)   |
 | 02   | `the hand that feeds` : after all is said and done mix [1:31:05](https://youtu.be/aOEmVFox7J0?t=5465) |
 | 03   | `ruiner` : after all is said and done mix [00:00:00](https://youtu.be/aOEmVFox7J0?t=6716)             |
-
-`hurt - trance` https://youtu.be/aOEmVFox7J0?t=8055
-
-`unknown link` https://youtu.be/aOEmVFox7J0?t=5463
+| 04   | `hurt - trance` https://youtu.be/aOEmVFox7J0?t=8055                                                   |
+| 05   | `unknown link` https://youtu.be/aOEmVFox7J0?t=5463                                                    |
 
 #### reading list
 
@@ -645,21 +666,31 @@ title: `creative technologist`
 
     alpha..................................................................000
     beta...................................................................001
-    coma...................................................................002
-    delta..................................................................003
-    ecco...................................................................004
-    epsilon................................................................005
-    gamma..................................................................006
-    gaiden.................................................................007
-    geist..................................................................008
+    bevis..................................................................002
+    coma...................................................................003
+    delta..................................................................004
+    dasha..................................................................000
+    ecco...................................................................005
+    epsilon................................................................006
+    gamma..................................................................007
+    gaiden.................................................................009
+    geist..................................................................010
+    gemini.................................................................011
+    hedron.................................................................011
+    juno...................................................................012
+    kepio..................................................................000
     lamda..................................................................009
-    lucie..................................................................010
-
-    sine
-    sigma
-    zeta
-    theta
-    zulu
+    legre..................................................................000
+    luci...................................................................010
+    nawt...................................................................000
+    sigma..................................................................010
+    sine...................................................................010
+    theta..................................................................010
+    teran..................................................................000
+    tella..................................................................000
+    vedam..................................................................000
+    zeta...................................................................010
+    zulu...................................................................010
 
 # primer
 
@@ -674,6 +705,7 @@ subconscience refference list
     goliath
     miasma
     ashur
+    colosi
     ishtar
     gilgamesh
     odin
@@ -762,25 +794,27 @@ subconscience refference list
 
     home....................................................................00.00 - v 01.09.2020 H12M49  [ entry point with possible splash selection of options................]
     search..................................................................00.AA - v 01.09.2020 H08M54  [ overlay input when keypress down is triggered........................]
-    version.................................................................00.BB - v 01.09.2020 H12M57  [......................................................................]
+    version.................................................................00.BB - v 01.09.2020 H12M57  [ details on what is new with running list.............................]
     work....................................................................01.00 - v 01.09.2020 H12M57  [......................................................................]
     all.....................................................................01.AA - v 01.09.2020 H12M57  [......................................................................]
     web.....................................................................01.BB - v 01.09.2020 H12M57  [......................................................................]
-    interface...............................................................01.CC - v 01.09.2020 H12M55  [interface examples of portions or complete systems....................]
+    interface...............................................................01.CC - v 01.09.2020 H12M55  [ interface examples of portions or complete systems...................]
     print...................................................................01.DD - v 01.09.2020 H12M57  [......................................................................]
     process.................................................................01.EE - v 04.14.2019 H10M15  [......................................................................]
     programs................................................................01.FF - v 07.22.2019 H03M28  [......................................................................]
     info....................................................................02.00 - v 01.09.2020 H12M57  [......................................................................]
     about...................................................................02.AA - v 01.09.2020 H12M57  [......................................................................]
     contact.................................................................02.BB - v 01.09.2020 H12M57  [......................................................................]
-    reports.................................................................02.CC - v 01.09.2020 H12M54  [graphs of various relational data comparisons.........................]
+    reports.................................................................02.CC - v 01.09.2020 H12M54  [ graphs of various relational data comparisons........................]
     ideas...................................................................03.00 - v 01.09.2020 H12M57  [......................................................................]
     quotes..................................................................03.AA - v 01.09.2020 H12M49  [......................................................................]
-    inspiration.............................................................03.BB - v 01.09.2020 H12M51  [page with ref images of aesthetic related designs.....................]
+    inspiration.............................................................03.BB - v 01.09.2020 H12M51  [ page with ref images of aesthetic related designs....................]
     blog....................................................................03.CC - v 01.09.2020 H12M57  [......................................................................]
-    data....................................................................04.00 - v 01.09.2020 H12M57  [......................................................................]
+    data....................................................................04.00 - v 01.09.2020 H12M57  [ data designs or data feeds...........................................]
+    tags....................................................................04.AA - v 01.09.2020 H12M57  [ displays page of available tags .....................................]
     catalog.................................................................04.BB - v 01.09.2020 H12M57  [......................................................................]
     fragments...............................................................04.CC - v 01.09.2020 H12M49  [......................................................................]
+
 ```
 
 ### coma ecco moed sigma
@@ -919,25 +953,6 @@ subconscience refference list
        \ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `'\ `' /
         `--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
 
-.--..--..--..--..--..--..--..--..--..--..--..--..--..--..--..--.
-" .. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \.. \
- \ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \" "
-\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "
-" "\" "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "`' "\" "\ " "\ \"`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'\ \"\ \
- \ \"\ \ "\ \" "
-\" "\ \ " "\" "
-" "\" " A large frame border based on \ \" "\
- " "\ \" \ \"\ \
- \ \"\ \ celtic knots ... "\ \" "
-\" "\ \ " "\" "
-" "\" " \ \" "\
- " "\ \" \ \"\ \
- \ \"\ \.--..--..--..--..--..--..--..--..--..--..--..--..--."\ \" "
-\" "\" .." .." .." .." .." .." .." .." .." .." .." .." .." "\" "
-" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\" "\
- " "\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \"\ \
- \ `'\`'\ `'\`'\ `'\`'\ `'\`'\ `'\`'\ `'\`'\ `'\`'\ `'\`' "
-`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'`--'
 
 
          .-"-._,-'_`-._,-'_`-._,-'_`-._,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,_,-'_`-,.
@@ -1205,6 +1220,7 @@ subconscience refference list
 
 **there is a space between**
 
+<!-- prettier-ignore -->
 ```
 
                                                          . ..
@@ -1228,7 +1244,6 @@ subconscience refference list
            ........:::::-+#############@+###################################-:..
        ...........##########################################################:...
     ....:-::::::::::=*#####################################################::...
-
 ..::-=----------==%######################################################::...
 :::-::#-:-=-=-=%+@####################################################-::....
 .....:....::::::-+#####################################################::...
@@ -1251,9 +1266,9 @@ subconscience refference list
 ...::%::.:..
 ..:-:...
 ...
-
 ```
 
+```
 excess post format
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details......................NULL
@@ -1261,21 +1276,19 @@ version.....................00.00
 title......................excess
 tags.............................
 #generative #code #abstract #digitize #program #design #bw #2020
+```
 
+```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
 version................................................................00.00
 title....................................................................excess
 tags.......................................................................post
 #generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
-<<<<<<< HEAD
-<<<<<<< HEAD
-
 ```
 
-=======
-=======
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
+```
+784a0cc51635efe738dde23a69936cc5bef9a090
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details.................................................................NULL
@@ -1312,33 +1325,25 @@ tags..................................................................post
 @theaestheticunion
 @visualjounal.it
 @artforum
-1 @artlove
-=======
+@artlove
+
 @design_interns_club @artist_emme @behance @newimageart @visualgraphc @visual.fodder @theaestheticunion @visualjounal.it @artforum @artlove
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
+784a0cc51635efe738dde23a69936cc5bef9a090
 
 @ratedmodernart @visuelle.co.uk @designeverywhere\_ @designboom @branding_design @designbyface @designspiration @computersciencelife @visualarchetype
 
 @mindsparklemagazine @art.aesthetics @aestheticmagazine @artcube @art.coding @artsy @art @generative.hut @avant.arte @artforum
 
-<<<<<<< HEAD
-@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge
-@pixelwebworks @pixelsurplus @pixelpusherau
-=======
-@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge @pixelwebworks
+@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge@pixelwebworks @pixelsurplus @pixelpusherau@artmadnessmagazine @newimageart @artxcode.io @swissgraphic @art_spotlight @arts_promote @artdirectorsclub @pxels_macro @pixelurge @pixelwebworks
 
 
 @pixelsurplus @pixelpusherau
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 
 # twitter
 
 adding the different tyopes of post types to add to the various posts tags need added to
 
 `test commit to check atom https`
-<<<<<<< HEAD
 
 > 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
-=======
->>>>>>> 784a0cc51635efe738dde23a69936cc5bef9a090
 ```

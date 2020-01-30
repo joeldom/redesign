@@ -1,5 +1,7 @@
+//import
 import React, { Component } from "react";
 import logo from "../img/logo.svg";
+import { Row, Container } from "reactstrap";
 
 //data
 import Words from "../comp/part/Words.js";
@@ -22,7 +24,11 @@ class Home extends Component {
             Learn React
           </a>
         </header>
-        <Words />
+        <Container className="themed-container" fluid="xl">
+          <Row>
+            <Words />
+          </Row>
+        </Container>
       </div>
     );
   }
