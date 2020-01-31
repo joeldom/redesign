@@ -578,7 +578,7 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | ----------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | -------------------- |
 | buckethead                    | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american      |
 | mars volta : octohedron       | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro         |
-| mars volta : frances the mute | i heart huckabees                   | modern warfare     | invisible monsters    | latice of reality       | x-rays              | plaid                |
+| mars volta : frances the mute | i heart huckabees                   |                    | invisible monsters    | latice of reality       | x-rays              | plaid                |
 | aphex twin : syro             | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave            |
 | death grips                   | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code     | future primitive     |
 | a place to burry strangers    | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style   |
