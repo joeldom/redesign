@@ -420,7 +420,8 @@ combining circuts and glitch with cells and stains to show how the worlds overla
 
 already missed a day 12.29.19 but have something to post it isnt't perfect but perhaps it shouldnt be
 
-EXCESS TERMS :: SHIT MIRROR
+#### EXCESS TERMS :: SHIT MIRROR
+
 terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dust, degridation, rythm, pixel grid, residnet eveil door, hour glass, flower dying, egg opening, bruise, swamp water, glacier breaking, fabic of reality, brain in a jar, pressed flower art,
 
 ![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
@@ -589,13 +590,13 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          | honeycomb beehive    |
 | tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     | cell walls           |
 | tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         | Ernst Haeckel       |                      |
-| nin : bad witch               | the x-files                         | cyberpun 2077      |                       | microscopy              | Akira toryoma       |                      |
+| nin : bad witch               | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma       |                      |
 | voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
 | nin : add violence            | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
 | nin : the fragile             | spy game                            |                    |                       | neuron                  |                     |                      |
 | gatekeeper                    | dragon ball                         |                    |                       | electron microscope     |                     |                      |
 | health : slaves of fear       | neon genisis                        |                    |                       | magnetic crystals       |                     |                      |
-|                               |                                     |                    |                       | oil slick on water      |                     |                      |
+|                               | robocop                             |                    |                       | oil slick on water      |                     |                      |
 |                               |                                     |                    |                       | cells trichodina        |                     |                      |
 |                               |                                     |                    |                       | bacteria / virus        |                     |                      |
 |                               |                                     |                    |                       | water micro-organism    |                     |                      |
