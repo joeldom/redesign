@@ -551,6 +551,14 @@ Adam had been given the fruit that Eve had found and they ate it. And with eatin
 
 an alternate timeline of the world where expeiences and culture are bleeding through into our current instance of life. It tries to show an odd perspective compared to the one we know now. along with having small differences throughout the ARG. I would need to add some logos would be mandela effect styled to be the alternate versions of the ones in the alternate missremebered version of the timeline.
 
+## i am mother
+
+robot raises a child to believe something about the world. she is led to believe that the world outside is dangerous and that she is one of the only children after some large wipeout of humanity. possibel outoces of this are that the robot is part of the reson the child is here and not just because she incubated her to become a young adult human female. She teachers her "Kant" and the "trolley Problem" to gauge her intelectual maturity and see how she faces tough decisions as well as gauge what phase of the human development process the girl/woman is at, as variance of the entity can vary from embryo records variations and the robot is designed to accept some fluxuation of the human development and account for changes inside her brain.
+
+## half-life
+
+an enerygy event in tthe solar system happens that makes another inteligent species of life to be now know of earth and the solar system. the combine of alien life comes down on humanity within 5 years.
+
 #### influences
 
 - aphex twin - syro - collapse `video with 3d model word with code generating over`
@@ -592,8 +600,8 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | tool : aenima                  | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing        | cell walls           |
 | tool : undertow                | lost highway                        | dark souls 1 & 2   | mist : stephen king   | voyager mission         | Ernst Haeckel          | aeomeba              |
 | nin : bad witch                | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma          | nostromo             |
-| voyager sounds                 | akira                               | eternal champions  |                       | photomicrography        |                        | sid meade            |
-| nin : add violence             | ghost in the shell 1 & 2            | doom '91'          |                       | moon craters            |                        |                      |
+| voyager sounds                 | akira                               | eternal champions  |                       | photomicrography        | oragami                | sid meade            |
+| nin : add violence             | ghost in the shell 1 & 2            | doom '91'          |                       | moon craters            | fractals               |                      |
 | nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                       |                         |                        |                      |
 |                                | spy game                            | ridge racer        |                       | neuron                  |                        |                      |
 | gatekeeper                     | dragon ball                         | star wars : KOTOR  |                       | electron microscope     |                        |                      |
@@ -608,6 +616,7 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 |                                | cowboy bebop                        |                    |                       |                         |                        |                      |
 |                                | ninja scroll                        |                    |                       |                         |                        |                      |
 |                                | i am mother (netflix)               |                    |                       |                         |                        |                      |
+|                                | ex machina                          |                    |                       |                         |                        |                      |
 
 ## work mood settings
 
