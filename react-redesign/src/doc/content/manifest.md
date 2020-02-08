@@ -602,9 +602,9 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | nin : bad witch                | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma          | nostromo             |
 | voyager sounds                 | akira                               | eternal champions  |                       | photomicrography        | oragami                | sid meade            |
 | nin : add violence             | ghost in the shell 1 & 2            | doom '91'          |                       | moon craters            | fractals               |                      |
-| nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                       |                         |                        |                      |
-|                                | spy game                            | ridge racer        |                       | neuron                  |                        |                      |
-| gatekeeper                     | dragon ball                         | star wars : KOTOR  |                       | electron microscope     |                        |                      |
+| nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                       |                         | junji ito              |                      |
+| yeasayer                       | spy game                            | ridge racer        |                       | neuron                  | amano                  |                      |
+| gatekeeper                     | dragon ball                         | star wars : KOTOR  |                       | electron microscope     | sid meade              |                      |
 | health : slaves of fear        | neon genisis                        | star wars : SOE    |                       | magnetic crystals       |                        |                      |
 | radiohead : kid a              | robocop                             |                    |                       | oil slick on water      |                        |                      |
 | radiohead : a moon shaped pool | gundam : turn a                     |                    |                       | cells trichodina        |                        |                      |
