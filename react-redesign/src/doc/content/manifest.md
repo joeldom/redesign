@@ -590,9 +590,9 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 | sidewalks & skeletons          | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism    | microscopic crystals |
 | david bowie : modern love      | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper             | honeycomb beehive    |
 | tool : aenima                  | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing        | cell walls           |
-| tool : undertow                | lost highway                        | dark souls 1 & 2   | mist : stephen king   | voyager mission         | Ernst Haeckel          |                      |
-| nin : bad witch                | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma          |                      |
-| voyager sounds                 | akira                               | eternal champions  |                       | photomicrography        |                        |                      |
+| tool : undertow                | lost highway                        | dark souls 1 & 2   | mist : stephen king   | voyager mission         | Ernst Haeckel          | aeomeba              |
+| nin : bad witch                | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma          | nostromo             |
+| voyager sounds                 | akira                               | eternal champions  |                       | photomicrography        |                        | sid meade            |
 | nin : add violence             | ghost in the shell 1 & 2            | doom '91'          |                       | moon craters            |                        |                      |
 | nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                       |                         |                        |                      |
 |                                | spy game                            | ridge racer        |                       | neuron                  |                        |                      |
@@ -607,10 +607,17 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 |                                | cloverfield paradox                 |                    |                       | embryology              |                        |                      |
 |                                | cowboy bebop                        |                    |                       |                         |                        |                      |
 |                                | ninja scroll                        |                    |                       |                         |                        |                      |
+|                                | i am mother (netflix)               |                    |                       |                         |                        |                      |
 
 ## work mood settings
 
 some songs collected to reincorce the mood to workout and move to stay healthy and sharp when designing.
+
+greater pittsburgh orth : derek thomas
+lisa blackrick
+
+457.20
+228.60
 
 ### songs
 
