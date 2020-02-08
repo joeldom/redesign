@@ -575,34 +575,38 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 - embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
 - Ernst Haeckel - [German Zoologist](https://www.google.com/search?q=Ernst+Haeckel)
 
-| music                         | film                                | games              | book                  | science                 | art                 | patterns             |
-| ----------------------------- | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ------------------- | -------------------- |
-| buckethead                    | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker       | native american      |
-| mars volta : octohedron       | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer  | egytian hyro         |
-| mars volta : frances the mute | i heart huckabees                   | modern warfare     | invisible monsters    | latice of reality       | x-rays              | plaid                |
-| aphex twin : syro             | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii               | vaporwave            |
-| death grips                   | lawnmower man                       | final fantasy 15   | the milenium trilogy  | fermi paradox           | generative code     | future primitive     |
-| a place to burry strangers    | the matrix                          | final fantasy 13   | american psycho       | many worlds             | pointalism          | southwestern style   |
-| health                        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness  | ultraviolet catastrophe | anatomy drawings    | lof-fi dot matrix    |
-| more than I                   | the girl with the dragon tattoo     | einhander          | sphere                | image of black hole     | zen / feng shui     | pond scum water      |
-| perturbator                   | a place beyond the pines            | alien isolation    | the regulators        | nasa                    | kawaii              | angels egg crack     |
-| sidewalks & skeletons         | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism | microscopic crystals |
-| david bowie : modern love     | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper          | honeycomb beehive    |
-| tool : aenima                 | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing     | cell walls           |
-| tool : undertow               | lost highway                        | dark souls 1 & 2   |                       | voyager mission         | Ernst Haeckel       |                      |
-| nin : bad witch               | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma       |                      |
-| voyager sounds                | akira                               |                    |                       | photomicrography        |                     |                      |
-| nin : add violence            | ghost in the shell                  |                    |                       | moon craters            |                     |                      |
-| nin : the fragile             | spy game                            |                    |                       | neuron                  |                     |                      |
-| gatekeeper                    | dragon ball                         |                    |                       | electron microscope     |                     |                      |
-| health : slaves of fear       | neon genisis                        |                    |                       | magnetic crystals       |                     |                      |
-|                               | robocop                             |                    |                       | oil slick on water      |                     |                      |
-|                               |                                     |                    |                       | cells trichodina        |                     |                      |
-|                               |                                     |                    |                       | bacteria / virus        |                     |                      |
-|                               |                                     |                    |                       | water micro-organism    |                     |                      |
-|                               |                                     |                    |                       | animal cross-section    |                     |                      |
-|                               |                                     |                    |                       | microprocessor          |                     |                      |
-|                               |                                     |                    |                       | embryology              |                     |                      |
+| music                          | film                                | games              | book                  | science                 | art                    | patterns             |
+| ------------------------------ | ----------------------------------- | ------------------ | --------------------- | ----------------------- | ---------------------- | -------------------- |
+| buckethead                     | blue velvet                         | final fantasy 6    | house of leaves       | tesla                   | vinyl sticker          | native american      |
+| mars volta : octohedron        | mulholand drive                     | final fantasy 8    | survivor              | boltsman brain          | dot matrix printer     | egytian hyro         |
+| mars volta : frances the mute  | i heart huckabees                   | modern warfare     | invisible monsters    | latice of reality       | x-rays                 | plaid                |
+| aphex twin : syro              | twin peaks                          | final fantasy 9    | the waters of babylon | simulation theory       | ascii                  | vaporwave            |
+| aphex twin : collapse ep       | cyborg : jean claude van dam        | final fantasy 15   |                       |                         | print process dot gain |                      |
+| death grips                    | lawnmower man                       | final fantasy 13   | the milenium trilogy  | fermi paradox           | generative code        | future primitive     |
+| a place to burry strangers     | the matrix                          | ninja gaiden 1 & 2 | american psycho       | many worlds             | pointalism             | southwestern style   |
+| health                         | alien(s) I II III                   | half-life 2        | moutnains of madness  | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
+| more than I                    | the girl with the dragon tattoo     | einhander          | sphere                | image of black hole     | zen / feng shui        | pond scum water      |
+| perturbator                    | a place beyond the pines            | alien isolation    | the regulators        | nasa                    | kawaii                 | angels egg crack     |
+| sidewalks & skeletons          | texas chainsaw masacre 3 & Next-Gen | silent hill 2 & 3  | 100 years of solitude | aphelion                | sonogram pointalism    | microscopic crystals |
+| david bowie : modern love      | milenium (fox)                      | resident evil 2 RM | voice of the night    | perihelion              | gatekeeper             | honeycomb beehive    |
+| tool : aenima                  | zoo : preter greenway               | resident evil 3 RM | bag of bones          | juno mission            | flower pressing        | cell walls           |
+| tool : undertow                | lost highway                        | dark souls 1 & 2   | mist : stephen king   | voyager mission         | Ernst Haeckel          |                      |
+| nin : bad witch                | the x-files                         | cyberpunk 2077     |                       | microscopy              | Akira toryoma          |                      |
+| voyager sounds                 | akira                               | eternal champions  |                       | photomicrography        |                        |                      |
+| nin : add violence             | ghost in the shell 1 & 2            | doom '91'          |                       | moon craters            |                        |                      |
+| nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                       |                         |                        |                      |
+|                                | spy game                            | ridge racer        |                       | neuron                  |                        |                      |
+| gatekeeper                     | dragon ball                         | star wars : KOTOR  |                       | electron microscope     |                        |                      |
+| health : slaves of fear        | neon genisis                        | star wars : SOE    |                       | magnetic crystals       |                        |                      |
+| radiohead : kid a              | robocop                             |                    |                       | oil slick on water      |                        |                      |
+| radiohead : a moon shaped pool | gundam : turn a                     |                    |                       | cells trichodina        |                        |                      |
+| radiohead : amnesiac           | gundam : wing                       |                    |                       | bacteria / virus        |                        |                      |
+|                                | gundam : 08th MS team               |                    |                       | water micro-organism    |                        |                      |
+|                                | cloverfield                         |                    |                       | animal cross-section    |                        |                      |
+|                                | cloverfield lane                    |                    |                       | microprocessor          |                        |                      |
+|                                | cloverfield paradox                 |                    |                       | embryology              |                        |                      |
+|                                | cowboy bebop                        |                    |                       |                         |                        |                      |
+|                                | ninja scroll                        |                    |                       |                         |                        |                      |
 
 ## work mood settings
 
