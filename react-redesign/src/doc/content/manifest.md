@@ -587,11 +587,11 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | ------------------------------ | ----------------------------------- | ------------------ | ----------------------- | ----------------------- | ---------------------- | -------------------- |
 | buckethead                     | blue velvet                         | final fantasy 6    | house of leaves         | tesla                   | vinyl sticker          | native american      |
 | mars volta : octohedron        | mulholand drive                     | final fantasy 8    | survivor                | boltsman brain          | dot matrix printer     | egytian hyro         |
-| mars volta : frances the mute  | i heart huckabees                   | modern warfare     | invisible monsters      | latice of reality       | x-rays                 | plaid                |
-| aphex twin : syro              | twin peaks                          | final fantasy 9    | the waters of babylon   | simulation theory       | ascii                  | vaporwave            |
-| aphex twin : collapse ep       | cyborg : jean claude van dam        | final fantasy 15   | Shikasta: Doris Lessing |                         | print process dot gain | data visuals         |
-| death grips                    | lawnmower man                       | final fantasy 13   | the milenium trilogy    | fermi paradox           | generative code        | future primitive     |
-| a place to burry strangers     | the matrix                          | ninja gaiden 1 & 2 | american psycho         | many worlds             | pointalism             | southwestern style   |
+| mars volta : frances the mute  | i heart huckabees                   | final fantasy 9    | invisible monsters      | latice of reality       | x-rays                 | plaid                |
+| aphex twin : syro              | twin peaks                          | final fantasy 13   | the waters of babylon   | simulation theory       | ascii                  | vaporwave            |
+| aphex twin : collapse ep       | cyborg : jean claude van dam        | final fantasy 15   | Shikasta: Doris Lessing | topology                | print process dot gain | data visuals         |
+| death grips                    | lawnmower man                       |                    | the milenium trilogy    | fermi paradox           | generative code        | future primitive     |
+| a place to burry strangers     | the matrix                          | ninja gaiden 1 2 3 | american psycho         | many worlds             | pointalism             | southwestern style   |
 | health                         | alien(s) I II III                   | half-life 2        | moutnains of madness    | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
 | more than I                    | the girl with the dragon tattoo     | einhander          | sphere                  | image of black hole     | zen / feng shui        | pond scum water      |
 | perturbator                    | a place beyond the pines            | alien isolation    | the regulators          | nasa                    | kawaii                 | angels egg crack     |
@@ -602,16 +602,16 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | nin : bad witch                | the x-files                         | cyberpunk 2077     |                         | microscopy              | Akira toryoma          | nostromo             |
 | voyager sounds                 | akira                               | eternal champions  |                         | photomicrography        | oragami                | sid meade            |
 | nin : add violence             | ghost in the shell 1 & 2            | doom '91'          |                         | moon craters            | fractals               |                      |
-| nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                         |                         | junji ito              |                      |
-| yeasayer                       | spy game                            | ridge racer        |                         | neuron                  | amano                  |                      |
-| gatekeeper                     | dragon ball                         | star wars : KOTOR  |                         | electron microscope     | sid meade              |                      |
-| health : slaves of fear        | neon genisis                        | star wars : SOE    |                         | magnetic crystals       |                        |                      |
-| radiohead : kid a              | robocop                             |                    |                         | oil slick on water      |                        |                      |
-| radiohead : a moon shaped pool | gundam : turn a                     |                    |                         | cells trichodina        |                        |                      |
-| radiohead : amnesiac           | gundam : wing                       |                    |                         | bacteria / virus        |                        |                      |
-|                                | gundam : 08th MS team               |                    |                         | water micro-organism    |                        |                      |
-|                                | cloverfield                         |                    |                         | animal cross-section    |                        |                      |
-|                                | cloverfield lane                    |                    |                         | microprocessor          |                        |                      |
+| nin : the fragile              | ghost in the shell : arise 1 2 3    | wipeout            |                         | glacier                 | junji ito              |                      |
+| yeasayer : odd blood           | spy game                            | ridge racer        |                         | neuron                  | amano                  |                      |
+| yeasayer : fragrent world      | dragon ball                         | star wars : KOTOR  |                         | electron microscope     | sid meade              |                      |
+| yeasayer : amen & goodbye      | neon genisis                        | star wars : SOE    |                         | magnetic crystals       |                        |                      |
+| yeasayer : erotic reruns       | robocop                             | modern warfare     |                         | oil slick on water      |                        |                      |
+| gatekeeper                     | gundam : turn a                     |                    |                         | cells trichodina        |                        |                      |
+| health : slaves of fear        | gundam : wing                       |                    |                         | bacteria / virus        |                        |                      |
+| radiohead : kid a              | gundam : 08th MS team               |                    |                         | water micro-organism    |                        |                      |
+| radiohead : a moon shaped pool | cloverfield                         |                    |                         | animal cross-section    |                        |                      |
+| radiohead : amnesiac           | cloverfield lane                    |                    |                         | microprocessor          |                        |                      |
 |                                | cloverfield paradox                 |                    |                         | embryology              |                        |                      |
 |                                | cowboy bebop                        |                    |                         |                         |                        |                      |
 |                                | ninja scroll                        |                    |                         |                         |                        |                      |
