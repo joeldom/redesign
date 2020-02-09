@@ -617,6 +617,8 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                                | ninja scroll                        |                    |                         |                         |                        |                      |
 |                                | i am mother (netflix)               |                    |                         |                         |                        |                      |
 |                                | ex machina                          |                    |                         |                         |                        |                      |
+|                                | Drive                               |                    |                         |                         |                        |                      |
+|                                | Only God Forgives                   |                    |                         |                         |                        |                      |
 
 ## work mood settings
 
