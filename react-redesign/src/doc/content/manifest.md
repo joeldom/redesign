@@ -551,6 +551,10 @@ Adam had been given the fruit that Eve had found and they ate it. And with eatin
 
 an alternate timeline of the world where expeiences and culture are bleeding through into our current instance of life. It tries to show an odd perspective compared to the one we know now. along with having small differences throughout the ARG. I would need to add some logos would be mandela effect styled to be the alternate versions of the ones in the alternate missremebered version of the timeline.
 
+## the presence
+
+the story of first contact with an enitiy, having the debris seen in the local area of the planet earth that is then followed by the civilization finding a signal that causes the higher up parts of governement making decisions about the object, but then having the signal pushing pedal on the speed at which society reacts to the news and people having to come to terms with the idea and then possibly briefly losing interest in it or finding it fake.
+
 ## i am mother
 
 robot raises a child to believe something about the world. she is led to believe that the world outside is dangerous and that she is one of the only children after some large wipeout of humanity. possibel outoces of this are that the robot is part of the reson the child is here and not just because she incubated her to become a young adult human female. She teachers her "Kant" and the "trolley Problem" to gauge her intelectual maturity and see how she faces tough decisions as well as gauge what phase of the human development process the girl/woman is at, as variance of the entity can vary from embryo records variations and the robot is designed to accept some fluxuation of the human development and account for changes inside her brain.

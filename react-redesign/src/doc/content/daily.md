@@ -7,3 +7,7 @@
   - node needs to stay at a consistent version on dev machines to run the UI
     - what are the brands that would need new UI bugs worked on?
     - what are the devs who would
+
+# Feb 02/06/2020
+
+I've started watching some Adam Savage builds on YT and begun again feeling like I really want to watch some gundam and build some models. The act of playing with the plastic
