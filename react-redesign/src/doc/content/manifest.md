@@ -770,7 +770,7 @@ subconscience refference list
 ## praeter puellas
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-ali h., beth p., jessica j., savanna s., kanda b., savanna s., ohio, kristen \$., kat p., karie w., cheri m., molly j., michelle k.,
+ali h., beth p., jessica j., savanna s., kanda b., savanna s., cinco de mayo, ohio, kristen \$., kat p., karie w., cheri m., molly j., michelle k., eddy d.,
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## japanese demons
@@ -1383,3 +1383,7 @@ adding the different tyopes of post types to add to the various posts tags need 
 
 > 4d930b2d8f0fa611ae5afa1015e97e5d7aaf0d37
 ```
+
+# product design roulette
+
+write 6-8 roles on post-it notes with two per role and have them randomly drawn during a small walkthrough. They will be taked to build o ut a brand new brand hub UI using FE dev tools like Figma and Sass / Gulp
