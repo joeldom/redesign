@@ -625,6 +625,27 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                                | ex machina                          |                    |                          |                         |                        |                      |
 |                                | the ring                            |                    |                          |                         |                        |                      |
 
+## name options
+
+- something from nothing
+-
+
+### writing synopsis
+
+Philosophy. Meta consciousness. Perception. Causality. Trying to talk about how idea form. Knowing what to act on. What is worth your time. Slightly reflective on past decades in how a product or object gets created and having it be my oddball perspective of what sort of agency you come at things with and what you hope comes out of the making. A scarf may be a medatative thing to make but what does that mean? I could be for style or warmth or just saying because you wanted to see if you could... But what in that says so much but means little to others. Why put time into anything?
+
+Ive been reading a ton of nietchze and feel like there are very helpful existential nihilist and budast approaches to providing meaning to ones self and what that contributes to a cultral zeitgeist and period aesthetic
+
+The goal being to approach more things with child like wonder and an artistic sensibility. Abstract art being a great example. To an observer they see a usless square with squiggles on it but the artist made this with some unknown purpose. To reflect. To challenge. To calm. It has none of this meaning intrinsically but can infer it and that is what we are all to do. Infer our own meaning. Create it if none exists.
+
+How to substitute religion and tradition and creating purpose and value day to day. Attack things scientifically and artistically and not with bias of tradition and hindsight
+
+Also how being an intro/extro vert ahows where you derive meaning and where you add to it
+
+I felr like these ideas and humor get lost in fb posts and are things i ponder daily going from work to play. And i want to make something that sounds and looks and acts like me. Just a little more self-contained
+
+I get very sad when i hear someone state they arent artistic
+
 ## work mood settings
 
 some songs collected to reinforce the mood to workout and move to stay healthy and sharp when designing.
