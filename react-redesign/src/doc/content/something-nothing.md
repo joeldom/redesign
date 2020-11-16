@@ -9,9 +9,9 @@
 meta.....................................................000[why create? why destroy? mindset]
 unusual..................................................000[we dont make the usual]
 beautiful................................................000[ignoring of flaws : percieved perfection]
-entropy..................................................000[mistake make great art]
+entropy..................................................000[mistakes make great art]
 
-## voice
+## voice : tone
 
 > Ask questions of the reader that start to process of wonder in their mind. They will more likely than not try and find some application of the idea that theyhave pondered in recent or distant memory. Nostolgia is a powerful thing. Tell a story! Have an obvious yet unforseen purpose or destination.
 
@@ -53,4 +53,6 @@ intro...................................................000[staggeringly obvious
 
 ## M U S I N G S
 
-1.
+1. [Information Entropy into a unified field] : Only a select few around to tell the tale and far fewer those that beleive it. Time sends all of the facts into a dizzy and dusty whirlwind of time. All of it's contents blending together. taking all that was ordered but seperate and making it homogenius and one.
+2. [Art Direction] : The process of taking things that don't go together and ("Angry Boy" Mindless Self Indulgence PINK) "Do anything, get the shit out. Jimmy Urine"
+3. Creating something is all about putting things together that don't go together. Progress.

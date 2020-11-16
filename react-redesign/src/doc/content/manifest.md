@@ -46,9 +46,21 @@
 
 ### concepts
 
+**wabi sabi** transience, entropy, purity of imperfection. authenticity of truth. Imperfection creates individualality
+
+- nothing is perminant
+- nothing is finished
+- nothing is perfect
+
+fantasy.pt1 [HDx64] 2020
+
+nothing is permanent
+
+#wabisabi #aesthetic #design #abstract #color #imperfect #asymmetrical #output #kindly #2020 #natural #buddha #entropy #disguise #deepweb #close #far #pixel #transformation
+
 **information framework design** ~ IFD
 
-`this file has been corrupted. loss permanant`
+`file has been corrupted. loss permanant`
 
 > an image cache rendering with font substituion puzzle
 
@@ -61,6 +73,10 @@
 having single logo type as the mobile view button. rewrite the menu responisve
 
 ---
+
+## P O W E R F A N T A S Y
+
+you, me, tradegey. what is there, left? to see?
 
 #### name alts terms
 
@@ -161,6 +177,8 @@ similiar to how `ssl` keys are made and what is used to setup two-factor auth. n
 describing the decent into madness. how the mind can be a puzzle box of questions. this will be a slight decent into madness. the collage like story telling will come into play when the pages and projects have been linked up.
 
 ---
+
+Nov 21st SAT thru the 28th SAT
 
 #### fields
 
@@ -638,7 +656,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | nirvana : bleach               | gundam : 08th MS team               |                    |                                 | water micro-organism    |                        |                      |
 | health : disco 4               | cloverfield                         |                    |                                 | animal cross-section    |                        |                      |
 | rendez vous : super state      | cloverfield lane                    |                    |                                 | microprocessor          |                        |                      |
-|                                | cloverfield paradox                 |                    |                                 | embryology              |                        |                      |
+| machine girl                   | cloverfield paradox                 |                    |                                 | embryology              |                        |                      |
 |                                | cowboy bebop                        |                    |                                 |                         |                        |                      |
 |                                | ninja scroll                        |                    |                                 |                         |                        |                      |
 |                                | i am mother (netflix)               |                    |                                 |                         |                        |                      |
