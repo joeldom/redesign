@@ -1453,3 +1453,15 @@ adding the different tyopes of post types to add to the various posts tags need 
 # product design roulette
 
 write 6-8 roles on post-it notes with two per role and have them randomly drawn during a small walkthrough. They will be taked to build o ut a brand new brand hub UI using FE dev tools like Figma and Sass / Gulp
+
+# emoji char for resume
+
+```html
+- UI - UX - CSS - SASS - HTML - Animation - React - React Native - NodeJs -
+State - JavaScript - API's - Webhooks - Databases - Frameworks - IE
+compatibility
+```
+
+## 2020 EOY
+
+With the end of the yeart coming fast and not knowing what will come of the rest of it. I need to plan to have a site or something to show form some of my efforts. I need to move the Jeep, fix my site and start marketing some new talents into soe processing, writing, photogrphy and some fun code experiments.
