@@ -1465,3 +1465,10 @@ compatibility
 ## 2020 EOY
 
 With the end of the yeart coming fast and not knowing what will come of the rest of it. I need to plan to have a site or something to show form some of my efforts. I need to move the Jeep, fix my site and start marketing some new talents into soe processing, writing, photogrphy and some fun code experiments.
+
+# TO DO
+
+- build atom package
+- create photo processing workflow
+- set up gitKraken board to cover asks/tasks
+- collect writing peices and add them to repo
