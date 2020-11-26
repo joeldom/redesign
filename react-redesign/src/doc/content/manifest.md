@@ -1472,3 +1472,8 @@ With the end of the yeart coming fast and not knowing what will come of the rest
 - create photo processing workflow
 - set up gitKraken board to cover asks/tasks
 - collect writing peices and add them to repo
+- drawing of impossible items
+- black holes
+- latice of reality
+- star field pixel/plank
+-
