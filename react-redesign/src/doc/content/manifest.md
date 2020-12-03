@@ -14,11 +14,15 @@
                      $brand-cuul-grey: #a3a3a3;
                      $brand-wurm-grey: #e4dfd9;
                      @brand-magenta: #ab1acc;
+                     $brand-fuschia: #84017E;
                      @brand-red: #600000;
                      @brand-legacy: #008080;
                      $brand-java: #1ACCAB;
+                     $pale-blue: #a6aaf4;
                      $brand-gable: #142a2d;
                      @brand-gold: #CCAB1A;
+                     $safety-green: #BBFF32;
+                     $bright-green: #14E158;
                      joeldom.github.io/redesign
                      joeldom.github.io/style-guide
                      joeldom.github.io/resume
@@ -627,47 +631,47 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 - embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
 - Ernst Haeckel - [German Zoologist](https://www.google.com/search?q=Ernst+Haeckel)
 
-| music                          | film                                | games              | book                            | science                 | art                    | patterns             |
-| ------------------------------ | ----------------------------------- | ------------------ | ------------------------------- | ----------------------- | ---------------------- | -------------------- |
-| buckethead                     | blue velvet                         | final fantasy 6    | house of leaves                 | tesla                   | vinyl sticker          | native american      |
-| mars volta : octohedron        | mulholand drive                     | final fantasy 8    | survivor                        | boltsman brain          | dot matrix printer     | egytian hyro         |
-| mars volta : frances the mute  | i heart huckabees                   | modern warfare     | invisible monsters              | latice of reality       | x-rays                 | plaid                |
-| aphex twin : syro              | twin peaks                          | final fantasy 9    | the waters of babylon           | simulation theory       | ascii                  | vaporwave            |
-| aphex twin : collapse ep       | cyborg : jean claude van dam        | final fantasy 15   | uzamaki : junji ito             |                         | print process dot gain | metamorphisis        |
-| death grips                    | lawnmower man                       | final fantasy 13   | the milenium trilogy            | fermi paradox           | generative code        | future primitive     |
-| a place to burry strangers     | the matrix                          | final fantasy 14   | american psycho                 | many worlds             | pointalism             | southwestern style   |
-| health : slaves of fear        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness            | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
-| more than I                    | the girl with the dragon tattoo     | half-life 2        | sphere                          | image of black hole     | zen / feng shui        | pond scum water      |
-| perturbator                    | a place beyond the pines            | einhander          | the regulators                  | nasa                    | kawaii                 | angels egg crack     |
-| sidewalks & skeletons          | texas chainsaw masacre 3 & Next-Gen | alien isolation    | 100 years of solitude           | aphelion                | sonogram pointalism    | microscopic crystals |
-| david bowie : modern love      | milenium (fox)                      | silent hill 2 & 3  | voice of the night              | perihelion              | gatekeeper             | honeycomb beehive    |
-| tool : aenima                  | zoo : preter greenway               | resident evil 2 RM | bag of bones                    | juno mission            | flower pressing        | cell walls           |
-| tool : undertow                | lost highway                        | resident evil 3 RM | mist : stephen king             | voyager mission         | Ernst Haeckel          | aeomeba              |
-| nin : bad witch                | the x-files                         | dark souls 1 & 2   | gyo : junji ito                 | microscopy              | Akira toryoma          | nostromo             |
-| voyager sounds                 | akira                               | cyberpunk 2077     | will to power : neizchie        | photomicrography        | oragami                | sid meade            |
-| nin : add violence             | ghost in the shell 1 & 2            | eternal champions  | the metamorphisis : franz kafka | moon craters            | fractals               | pixel art            |
-| nin : the fragile              | ghost in the shell : arise 1 2 3    | doom '91'          | die verwandling : franz kafka   |                         | junji ito              | amano                |
-| yeasayer                       | spy game                            | wipeout            | Tomie : junji ito               | neuron                  | amano                  | sega saturn          |
-| gatekeeper                     | dragon ball                         | ridge racer        |                                 | electron microscope     | sid meade              |                      |
-| health : slaves of fear        | neon genisis                        | star wars : KOTOR  |                                 | magnetic crystals       |                        |                      |
-| radiohead : kid a              | robocop                             | star wars : SOE    |                                 | oil slick on water      |                        |                      |
-| radiohead : a moon shaped pool | gundam : turn a                     | panzer dragoon     |                                 | cells trichodina        |                        |                      |
-| radiohead : amnesiac           | gundam : wing                       |                    |                                 | bacteria / virus        |                        |                      |
-| nirvana : bleach               | gundam : 08th MS team               |                    |                                 | water micro-organism    |                        |                      |
-| health : disco 4               | cloverfield                         |                    |                                 | animal cross-section    |                        |                      |
-| rendez vous : super state      | cloverfield lane                    |                    |                                 | microprocessor          |                        |                      |
-| machine girl                   | cloverfield paradox                 |                    |                                 | embryology              |                        |                      |
-|                                | cowboy bebop                        |                    |                                 |                         |                        |                      |
-|                                | ninja scroll                        |                    |                                 |                         |                        |                      |
-|                                | i am mother (netflix)               |                    |                                 |                         |                        |                      |
-|                                | ex machina                          |                    |                                 |                         |                        |                      |
-|                                | the ring                            |                    |                                 |                         |                        |                      |
-|                                | arrival                             |                    |                                 |                         |                        |                      |
-|                                |                                     |                    |                                 |                         |                        |                      |
-|                                |                                     |                    |                                 |                         |                        |                      |
-|                                |                                     |                    |                                 |                         |                        |                      |
-|                                |                                     |                    |                                 |                         |                        |                      |
-|                                |                                     |                    |                                 |                         |                        |                      |
+| music                          | film                                | games              | book                                      | science                 | art                    | patterns             |
+| ------------------------------ | ----------------------------------- | ------------------ | ----------------------------------------- | ----------------------- | ---------------------- | -------------------- |
+| buckethead                     | blue velvet                         | final fantasy 6    | house of leaves                           | tesla                   | vinyl sticker          | native american      |
+| mars volta : octohedron        | mulholand drive                     | final fantasy 8    | survivor                                  | boltsman brain          | dot matrix printer     | egytian hyro         |
+| mars volta : frances the mute  | i heart huckabees                   | modern warfare     | invisible monsters                        | latice of reality       | x-rays                 | plaid                |
+| aphex twin : syro              | twin peaks                          | final fantasy 9    | the waters of babylon                     | simulation theory       | ascii                  | vaporwave            |
+| aphex twin : collapse ep       | cyborg : jean claude van dam        | final fantasy 15   | uzamaki : junji ito                       |                         | print process dot gain | metamorphisis        |
+| death grips                    | lawnmower man                       | final fantasy 13   | the milenium trilogy                      | fermi paradox           | generative code        | future primitive     |
+| a place to burry strangers     | the matrix                          | final fantasy 14   | american psycho                           | many worlds             | pointalism             | southwestern style   |
+| health : slaves of fear        | alien(s) I II III                   | ninja gaiden 1 & 2 | moutnains of madness                      | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
+| more than I                    | the girl with the dragon tattoo     | half-life 2        | sphere : michael criton                   | image of black hole     | zen / feng shui        | pond scum water      |
+| perturbator                    | a place beyond the pines            | einhander          | the regulators : stephen king             | nasa                    | kawaii                 | angels egg crack     |
+| sidewalks & skeletons          | texas chainsaw masacre 3 & Next-Gen | alien isolation    | 100 years of solitude                     | aphelion                | sonogram pointalism    | microscopic crystals |
+| david bowie : modern love      | milenium (fox)                      | silent hill 2 & 3  | voice of the night : dean koontz          | perihelion              | gatekeeper             | honeycomb beehive    |
+| tool : aenima                  | zoo : preter greenway               | resident evil 2 RM | bag of bones : stephen king               | juno mission            | flower pressing        | cell walls           |
+| tool : undertow                | lost highway                        | resident evil 3 RM | mist : stephen king                       | voyager mission         | Ernst Haeckel          | aeomeba              |
+| nin : bad witch                | the x-files                         | dark souls 1 & 2   | gyo : junji ito                           | microscopy              | Akira toryoma          | nostromo             |
+| voyager sounds                 | akira                               | cyberpunk 2077     | will to power : neizchie                  | photomicrography        | oragami                | sid meade            |
+| nin : add violence             | ghost in the shell 1 & 2            | eternal champions  | the metamorphisis : franz kafka           | moon craters            | fractals               | pixel art            |
+| nin : the fragile              | ghost in the shell : arise 1 2 3    | doom '91'          | die verwandling : franz kafka             |                         | junji ito              | amano                |
+| yeasayer                       | spy game                            | wipeout            | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
+| gatekeeper                     | dragon ball                         | ridge racer        | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              |                      |
+| health : slaves of fear        | neon genisis                        | star wars : KOTOR  |                                           | magnetic crystals       |                        |                      |
+| radiohead : kid a              | robocop                             | star wars : SOE    |                                           | oil slick on water      |                        |                      |
+| radiohead : a moon shaped pool | gundam : turn a                     | panzer dragoon     |                                           | cells trichodina        |                        |                      |
+| radiohead : amnesiac           | gundam : wing                       |                    |                                           | bacteria / virus        |                        |                      |
+| nirvana : bleach               | gundam : 08th MS team               |                    |                                           | water micro-organism    |                        |                      |
+| health : disco 4               | cloverfield                         |                    |                                           | animal cross-section    |                        |                      |
+| rendez vous : super state      | cloverfield lane                    |                    |                                           | microprocessor          |                        |                      |
+| machine girl                   | cloverfield paradox                 |                    |                                           | embryology              |                        |                      |
+| rammstein : lieb ist fur al da | cowboy bebop                        |                    |                                           |                         |                        |                      |
+| orgy: candyass                 | ninja scroll                        |                    |                                           |                         |                        |                      |
+| orgy: vapor transmission       | i am mother (netflix)               |                    |                                           |                         |                        |                      |
+|                                | ex machina                          |                    |                                           |                         |                        |                      |
+|                                | the ring                            |                    |                                           |                         |                        |                      |
+|                                | arrival                             |                    |                                           |                         |                        |                      |
+|                                |                                     |                    |                                           |                         |                        |                      |
+|                                |                                     |                    |                                           |                         |                        |                      |
+|                                |                                     |                    |                                           |                         |                        |                      |
+|                                |                                     |                    |                                           |                         |                        |                      |
+|                                |                                     |                    |                                           |                         |                        |                      |
 
 ## name options
 
@@ -776,6 +780,7 @@ title: `creative technologist`
     legre..................................................................000
     luci...................................................................010
     nawt...................................................................000
+    plague.................................................................000
     sigma..................................................................010
     sine...................................................................010
     theta..................................................................010
@@ -1476,4 +1481,15 @@ With the end of the yeart coming fast and not knowing what will come of the rest
 - black holes
 - latice of reality
 - star field pixel/plank
+
+## Dec month off
+
+- get some info on what to do with my jeep
+- return speakers
+- clear out the garage for winter
+- pack up clothes and blankets for end of Dec trip
 -
+
+Rope
+
+Ozu
