@@ -1513,6 +1513,9 @@ Ozu
 - sega saturn
 - windows 3.0
 - mozilla rebrand
+- gran turismo
+- ernst heckle
+-
 
 refference
 
