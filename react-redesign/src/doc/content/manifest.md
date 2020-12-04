@@ -1509,3 +1509,11 @@ Ozu
 > something that feels like a blue print and punched up gallery to push color and layout with an empasis on data and shapes.
 
 ## name your pain
+
+- sega saturn
+- windows 3.0
+- mozilla rebrand
+
+refference
+
+- https://assets.swoogo.com/uploads/642149-5f636d4c453b7.pdf
