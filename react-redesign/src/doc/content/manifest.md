@@ -1560,3 +1560,19 @@ branding best of PDF with examples of how to playout a file for distribution.
 - style guide mini site
 - style guide Figma
 - style guide Photoshop
+
+156, 143, 148 - all deal with the global left hand nav. (some dublication)
+157, 154, 147, - reffer to the local nav and how the drawer looks/works and is consistant (some duplication).
+47, 92 were added. at the moment without being able to see the comments believe these were deployed.
+
+---
+
+all of these can be deployed/moved
+
+152, 155, - roughly same issue. needs an overflow added and refactored into accordian.
+149 - not sure what this is without reading the ticket.
+150 - needs to not be red
+
+---
+
+have these changes in a branch but not all work is finalized and is inextricably linked in SASS files and components.
