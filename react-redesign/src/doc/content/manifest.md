@@ -1561,18 +1561,8 @@ branding best of PDF with examples of how to playout a file for distribution.
 - style guide Figma
 - style guide Photoshop
 
-156, 143, 148 - all deal with the global left hand nav. (some dublication)
-157, 154, 147, - reffer to the local nav and how the drawer looks/works and is consistant (some duplication).
-47, 92 were added. at the moment without being able to see the comments believe these were deployed.
+# Stoic Method
+
+I need to be up front with people as a way to aleiviate the stuggle of inner thought I find plaging my resolve of enjoyment, I believe the better way to achieve likeness in the thoughts of the people I know is to just be honest and up front. For all they have done it is the job no one told you you had to do. The idea that being nice is what is expected inspight of the idea of it putting a barrier in front of what you and everyone truly wants. Love and understanding. You cant get that by being nice.
 
 ---
-
-all of these can be deployed/moved
-
-152, 155, - roughly same issue. needs an overflow added and refactored into accordian.
-149 - not sure what this is without reading the ticket.
-150 - needs to not be red
-
----
-
-have these changes in a branch but not all work is finalized and is inextricably linked in SASS files and components.
