@@ -1566,3 +1566,7 @@ branding best of PDF with examples of how to playout a file for distribution.
 I need to be up front with people as a way to aleiviate the stuggle of inner thought I find plaging my resolve of enjoyment, I believe the better way to achieve likeness in the thoughts of the people I know is to just be honest and up front. For all they have done it is the job no one told you you had to do. The idea that being nice is what is expected inspight of the idea of it putting a barrier in front of what you and everyone truly wants. Love and understanding. You cant get that by being nice.
 
 ---
+
+## Volintary Solitary
+
+I need to start to de=velop a plan to get myself out ther ein the world to find a woman that i can share some time with.
