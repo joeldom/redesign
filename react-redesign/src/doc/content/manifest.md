@@ -1577,27 +1577,29 @@ I need to start to de=velop a plan to get myself out ther ein the world to find 
 
 ## Tweet
 
+fORMAT OF TWEE TO GO OUT
+
+```JS
 See new Tweets
 Conversation
-
 Pinned Tweet
-
 Felipe Lima
-
 @ScaffoldHub_io
-
 Full-Stack Web App Generator
-
 React / Redux
-
 Ant Design
-
 NodeJS
-
 SQL or MongoDB
 
 LIVE DEMO: https://react-antd-demo.web.app
-
 DOCS: https://docs.scaffoldhub.io
-
 GENERATOR: https://scaffoldhub.io
+```
+
+# RES Terms
+
+- asset procurement & variable definitions - "what static elements should be made and what affects them"
+- defining acceptence criteria & language - "what components & language should be used to build a feature"
+- feature writing for tech stack and business requirments
+- high level interactions and flow - "when should something feel different?"
+- information and teaching data illustration - "how should the data I need be made more informative?"
