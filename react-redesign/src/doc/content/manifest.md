@@ -1603,3 +1603,11 @@ GENERATOR: https://scaffoldhub.io
 - feature writing for tech stack and business requirments
 - high level interactions and flow - "when should something feel different?"
 - information and teaching data illustration - "how should the data I need be made more informative?"
+
+---
+
+## types of notifications
+
+GOOD!
+CAREFUL!
+AVOID!
