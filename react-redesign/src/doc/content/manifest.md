@@ -1636,7 +1636,7 @@ node express lamda
  FOR                                                            FROM
  CLIENT NAME                                                    JOEL DOMBEK
  CLIENT STREET ADDRESS                                          1609 BARR AVE.
- STATE NAME ZIPCODE                                             PENNSLYVANNIA 15205
+ STATE NAME ZIPCODE                                             PENNSYLVANIA 15205
  COUNTRY NAME                                                   UNITED STATES
 +===========================================================================================================================+
  INVOICE DATE                                                                                                    JAN 07 2021
