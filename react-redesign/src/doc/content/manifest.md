@@ -1688,3 +1688,11 @@ S _ _ _ X _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ X _ _ _ _ _ _ _ _ 
 - new timesheet
 - training courses
 -
+
+# work notes
+
+This is the beging of the end of thee society we have all begun to realize that is our won but most people are faliing to realize how important their involvment in the overall narritive of the life they lead and how the gran picture will play out
+
+### TODO
+
+time to make things get going better for myself. I am tired
