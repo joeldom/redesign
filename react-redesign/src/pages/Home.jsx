@@ -1,5 +1,4 @@
-//import
-import React, { Component } from "react";
+import { React, Component } from "react";
 import logo from "../img/logo.svg";
 import { Row, Container } from "reactstrap";
 
