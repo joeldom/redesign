@@ -34,6 +34,7 @@
                      instagram.com/joeld/
                      dribbble.com/joeldombek
                      ello.co/joeldombek
+                     twitch.tv/joeldombek
 -->
 
 ![alt text][logo]
