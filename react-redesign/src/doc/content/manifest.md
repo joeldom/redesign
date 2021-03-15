@@ -35,11 +35,13 @@
                      dribbble.com/joeldombek
                      ello.co/joeldombek
                      twitch.tv/joeldombek
+
+                            cmds
+
 -->
 
-![alt text][logo]
+<img width="200px" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
 
-<img width="150px" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
 <span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
@@ -50,11 +52,17 @@
 
 > a comprehensive idea list for section and themes to have as design doc for content as well as the types of content that will be showcased on the pages.
 
-**E C C O** is a framework for idea and content that find there way into a internet culture that thinks of itself in the digital spectrum of it's own reality. showing the creation of language and imagination alongside technology and information. This shall be the basis for thoughts and ideas to create transformative content with deep linking meta data to create a rich experience that conveys the feelings of words to generate ideas and dynamic data.
+**E C C O**: is a framework for idea and content that find there way into a internet culture that thinks of itself in the digital spectrum of it's own reality. showing the creation of language and imagination alongside technology and information. This shall be the basis for thoughts and ideas to create transformative content with deep linking meta data to create a rich experience that conveys the feelings of words to generate ideas and dynamic data.
 
 > the idea of falling into a digital black hole, a data spiral that created a singularity of being through the randomized event driven content. a capsule of time dropped out into the internet. beacon of tomorrow.
 
-**C O M A** is the halo of gas surrounding a comet. The idea of a message in a bottle used to preserve information across a great distance or great amount of time.
+**C O M A**: is the halo of gas surrounding a comet. The idea of a message in a bottle used to preserve information across a great distance or great amount of time.
+
+**P L A G U E**:
+
+**O B L I V I O N**:
+
+---
 
 ### concepts
 
@@ -64,11 +72,23 @@
 - nothing is finished
 - nothing is perfect
 
-fantasy.pt1 [HDx64] 2020
+_fantasy.pt1 [HDx64] 2020_
 
-nothing is permanent
+**tags**
 
-#wabisabi #aesthetic #design #abstract #color #imperfect #asymmetrical #output #kindly #2020 #natural #buddha #entropy #disguise #deepweb #close #far #pixel #transformation
+```
+#wabisabi
+#aesthetic
+#abstract #design
+#color #imperfect
+#asymmetrical
+#output #kindly
+#2020 #natural
+#buddha #entropy
+#disguise #deepweb
+#close #far #pixel
+#transformation
+```
 
 **information framework design** ~ IFD
 
@@ -88,7 +108,7 @@ having single logo type as the mobile view button. rewrite the menu responisve
 
 ## P O W E R F A N T A S Y
 
-you, me, tradegey. what is there, left? to see?
+you, me, tradigy. what is there? left to see? you all live inside my power fantasy
 
 #### name alts terms
 
@@ -355,6 +375,11 @@ a space rotation animation.
 
 ### B E T A F A C E
 
+<p align="left">
+  <a href="https://mockend.com/" target="_blank">
+    <img width="420px" src="http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg"/>
+  </a>
+</p>
 `betaface`
 
 `HAL > IBM > GZO > JCN`
@@ -371,6 +396,11 @@ A cultural religion focused on interpreting life inherit mysteries of the mind T
 
 ---
 
+<p align="center">
+  <a href="https://mockend.com/" target="_blank">
+    <img src="https://mockend.com/banner.svg" height="70px">
+  </a>
+</p>
 **annual report**
 
 this will be a location to show how much data can be accessed through some api magic and displayed and related to one another in a sort of 500ft view of the past year and a sort of way to show off how things have added up.
