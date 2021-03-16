@@ -108,7 +108,7 @@ having single logo type as the mobile view button. rewrite the menu responisve
 
 ## P O W E R F A N T A S Y
 
-you, me, tradigy. what is there? left to see? you all live inside my power fantasy
+> _What is there? Left to see? You? Me? Tradegy. You all live inside my power fantasy._
 
 #### name alts terms
 
@@ -1713,4 +1713,7 @@ node express lamda
 - convert redesign repo into reactjs static pages
 - stage new resume changes
 - show output of ascii invoice
--
+
+### notes
+
+- im starting to like vscode. this upsets me and sort of makes me sad for some reason. I do enjoy coding in it..
