@@ -1716,4 +1716,5 @@ node express lamda
 
 ### notes
 
-- im starting to like vscode. this upsets me and sort of makes me sad for some reason. I do enjoy coding in it..
+- im starting to like vscode. this upsets me and sort of makes me sad for some reason. I do enjoy coding in it.
+- i need to get to the gym tomorrow and stop fooling around and start getting the types of things i need done actually done.
