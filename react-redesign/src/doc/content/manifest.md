@@ -689,21 +689,21 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | voyager sounds                     | akira                               | cyberpunk 2077         | will to power : neizchie                  | photomicrography        | oragami                | sid meade            |
 | nin : add violence                 | ghost in the shell 1 & 2            | eternal champions      | the metamorphisis : franz kafka           | moon craters            | fractals               | pixel art            |
 | nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'              | die verwandling : franz kafka             |                         | junji ito              | amano                |
-| yeasayer                           | spy game                            | wipeout                | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
-| gatekeeper                         | dragon ball                         | ridge racer            | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              |                      |
-| health : slaves of fear            | neon genisis                        | star wars : KOTOR      |                                           | magnetic crystals       |                        |                      |
-| radiohead : kid a                  | robocop                             | star wars : SOE        |                                           | oil slick on water      |                        |                      |
-| radiohead : a moon shaped pool     | gundam : turn a                     | panzer dragoon         |                                           | cells trichodina        |                        |                      |
-| radiohead : amnesiac               | gundam : wing                       | destiny 1 & 2          |                                           | bacteria / virus        |                        |                      |
-| nirvana : bleach                   | gundam : 08th MS team               | metal gear solid 1 & 2 |                                           | water micro-organism    |                        |                      |
-| health : disco 4                   | cloverfield                         |                        |                                           | animal cross-section    |                        |                      |
-| rendez vous : super state          | cloverfield lane                    |                        |                                           | microprocessor          |                        |                      |
-| machine girl                       | cloverfield paradox                 |                        |                                           | embryology              |                        |                      |
-| rammstein : lieb ist fur al da     | cowboy bebop                        |                        |                                           |                         |                        |                      |
-| orgy: candyass                     | ninja scroll                        |                        |                                           |                         |                        |                      |
-| orgy: vapor transmission           | i am mother (netflix)               |                        |                                           |                         |                        |                      |
-| marilyn manson: mechanical animals | ex machina                          |                        |                                           |                         |                        |                      |
-|                                    | the ring                            |                        |                                           |                         |                        |                      |
+| nin : deviations                   | spy game                            | wipeout                | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
+| yeasayer                           | dragon ball                         | ridge racer            | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              |                      |
+| gatekeeper                         | neon genisis                        | star wars : KOTOR      | voice of the night                        | magnetic crystals       | sea doo                |                      |
+| health : slaves of fear            | robocop                             | star wars : SOE        |                                           | oil slick on water      |                        |                      |
+| radiohead : kid a                  | gundam : turn a                     | panzer dragoon         |                                           | cells trichodina        |                        |                      |
+| radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2          |                                           | bacteria / virus        |                        |                      |
+| radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2 |                                           | water micro-organism    |                        |                      |
+| nirvana : bleach                   | cloverfield                         | jet moto               |                                           | animal cross-section    |                        |                      |
+| health : disco 4                   | cloverfield lane                    |                        |                                           | microprocessor          |                        |                      |
+| rendez vous : super state          | cloverfield paradox                 |                        |                                           | embryology              |                        |                      |
+| machine girl                       | cowboy bebop                        |                        |                                           |                         |                        |                      |
+| rammstein : lieb ist fur al da     | ninja scroll                        |                        |                                           |                         |                        |                      |
+| orgy: candyass                     | i am mother (netflix)               |                        |                                           |                         |                        |                      |
+| orgy: vapor transmission           | ex machina                          |                        |                                           |                         |                        |                      |
+| marilyn manson: mechanical animals | the ring                            |                        |                                           |                         |                        |                      |
 |                                    | arrival                             |                        |                                           |                         |                        |                      |
 |                                    | bladerunner 2049                    |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
@@ -1605,7 +1605,7 @@ I need to be up front with people as a way to aleiviate the stuggle of inner tho
 
 ## Volintary Solitary
 
-I need to start to de=velop a plan to get myself out ther ein the world to find a woman that i can share some time with.
+I need to start to develop a plan to get myself out ther ein the world to find a woman that i can share some time with.
 
 # Salvage Yard
 
@@ -1707,9 +1707,14 @@ node express lamda
   +---------------------------------------------------------------------------------------------------------------------------+
 ```
 
+## T H E M E S
+
+- **atom** ~ `repoUrl`
+- **qtorrent** ~ `\Documents\Tweaks\qBittorrentDarktheme-master\qBittorrentDarktheme-master`
+
 ### TODO
 
-- setup Gatsbyjs => cloud pipeline
+- setup **Gatsbyjs** => cloud pipeline
 - convert redesign repo into reactjs static pages
 - stage new resume changes
 - show output of ascii invoice
