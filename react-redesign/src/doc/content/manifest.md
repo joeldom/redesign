@@ -1725,4 +1725,5 @@ node express lamda
 - i need to get to the gym tomorrow and stop fooling around and start getting the types of things i need done actually done.
 - i have a pain in my chest and throat i need to quit
 - https://www.ebay.com/itm/Samsung-Galaxy-Note-20-Ultra-5G-128GB-Mystic-Bronze-Verizon-SMN986UZNV/143823710846?epid=13040084525&hash=item217c8faa7e:g:OEEAAOSwbK5foyN5:sc:ShippingMethodExpress!15205!US!-1
-- https://www.awakenakira.com/#
+- https://www.awakenakira.com/ ::feature for how the panels run through slices of projects
+- https://oblio.io/Work/awaken-akira :: feature of having the left or side scroll independant of other side to skim through project at a high item level.
