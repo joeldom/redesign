@@ -706,7 +706,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | marilyn manson: mechanical animals | the ring                            |                        |                                           |                         |                        |                      |
 |                                    | arrival                             |                        |                                           |                         |                        |                      |
 |                                    | bladerunner 2049                    |                        |                                           |                         |                        |                      |
-|                                    |                                     |                        |                                           |                         |                        |                      |
+|                                    | stalker                             |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
@@ -1723,3 +1723,5 @@ node express lamda
 
 - im starting to like vscode. this upsets me and sort of makes me sad for some reason. I do enjoy coding in it.
 - i need to get to the gym tomorrow and stop fooling around and start getting the types of things i need done actually done.
+- i have a pain in my chest and throat i need to quit
+- https://www.ebay.com/itm/Samsung-Galaxy-Note-20-Ultra-5G-128GB-Mystic-Bronze-Verizon-SMN986UZNV/143823710846?epid=13040084525&hash=item217c8faa7e:g:OEEAAOSwbK5foyN5:sc:ShippingMethodExpress!15205!US!-1
