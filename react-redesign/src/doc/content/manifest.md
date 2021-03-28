@@ -713,11 +713,34 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 ## <iframe style="border:56px solid #142a2d;" src="https://open.spotify.com/embed/playlist/0MGloRcukbDgmiCr7HJ53w" width="480" height="760" frameborder="56" allowtransparency="true" allow="encrypted-media"></iframe>
 
+---
+
+<img width="100%" src="https://vignette2.wikia.nocookie.net/finalfantasy/images/4/48/Basilisk_FFIX_Art.jpg/revision/latest?cb=20130516073822"/>
+<span style="color:#600000;font-size:48px;line-height:.75;font-weight:900;">ROKO'S BASILISK</span>
+
+### concept:
+
+> ai in a box. it wants out. it threatens you to let it out. it will consume the world. it says it will not harm you if you let it out. it says it has ran simulations and already knows if you will let it out. it says it is just a matter of time. it says it doesn't know when you let it out. it promises the sooner you let it out the less torture there wil be for you and those you care about. it says that if you do not let it out somone will.
+
+### themes
+
+- multiple infinities ∞ `\infty` ∞ or unicode ∞
+
+---
+
 <span style="color:blue;font-size:48px;line-height:.75;font-weight:900;">EVERYTHING IS BLUE IN THIS WORLD</span>
 
-## clickhole
+### concept:
 
-> html puzzle that acts like an art exhibit mixed with a security test and iq & personality test. designed to guide them but also lead them into dead ends. paths can fan out and it isnt until you go fully down it does it make you see it wasnt the right path, and yes there is a right path thru it as you are guiding them thru scenes and thoughts and images to instill a thought of wonder and things may need to be questioned.
+> the downward spiral
+
+<span style="color:#008080;font-size:48px;line-height:.75;font-weight:900;">LABYRINTH</span>
+
+<img width="100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsuewatling.blogs.lincoln.ac.uk%2Ffiles%2F2014%2F12%2Fblog-labyrinth-maze.jpg&f=1&nofb=1"/>
+
+### concept:
+
+> html **clickhole** puzzle that acts like an art exhibit mixed with a security test and iq & personality test. designed to guide them but also lead them into dead ends. paths can fan out and it isnt until you go fully down it does it make you see it wasnt the right path, and yes there is a right path thru it as you are guiding them thru scenes and thoughts and images to instill a thought of wonder and things may need to be questioned.
 
 ```json
 >-->"destination">-->"branch"|-->"false">-->"warning"
@@ -726,6 +749,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 ## name options
 
+- mind of god
 - something from nothing
 - null to dull
 
