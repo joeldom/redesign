@@ -707,7 +707,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                                    | arrival                             |                        |                                           |                         |                        |                      |
 |                                    | bladerunner 2049                    |                        |                                           |                         |                        |                      |
 |                                    | stalker                             |                        |                                           |                         |                        |                      |
-|                                    |                                     |                        |                                           |                         |                        |                      |
+|                                    | american ninja 1 & 2                |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 
