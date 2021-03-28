@@ -711,10 +711,23 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                                    |                                     |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 
+## <iframe style="border:56px solid #142a2d;" src="https://open.spotify.com/embed/playlist/0MGloRcukbDgmiCr7HJ53w" width="480" height="760" frameborder="56" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<span style="color:blue;font-size:48px;line-height:.75;font-weight:900;">EVERYTHING IS BLUE IN THIS WORLD</span>
+
+## clickhole
+
+> html puzzle that acts like an art exhibit mixed with a security test and iq & personality test. designed to guide them but also lead them into dead ends. paths can fan out and it isnt until you go fully down it does it make you see it wasnt the right path, and yes there is a right path thru it as you are guiding them thru scenes and thoughts and images to instill a thought of wonder and things may need to be questioned.
+
+```json
+>-->"destination">-->"branch"|-->"false">-->"warning"
+                             |-->"deeper">-->""
+```
+
 ## name options
 
 - something from nothing
--
+- null to dull
 
 ### writing synopsis
 
