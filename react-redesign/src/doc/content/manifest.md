@@ -8,23 +8,36 @@
                      #1a3acc #1ACCAB #ab1acc
 
                               var
-                     @brand-primary: #1a3acc;
-                     $brand-cuul-blue: #e0e9fe;
-                     $brand-off-white: #e4dfd9;
-                     $brand-cuul-grey: #a3a3a3;
-                     $brand-wurm-grey: #e4dfd9;
-                     @brand-magenta: #ab1acc;
-                     $brand-fuschia: #84017E;
-                     @brand-red: #600000;
+                     @primary: #1a3acc;
+                     $cuul-blue: #e0e9fe;
+                     $off-white: #e4dfd9;
+                     $cuul-grey: #a3a3a3;
+                     $wurm-grey: #e4dfd9;
+                     @magenta: #ab1acc;
+                     $fuschia: #84017E;
+                     @red: #600000;
                      $blood-red: #690808;
-                     @brand-legacy: #008080;
-                     $brand-java: #1ACCAB;
+                     @legacy: #008080;
+                     $java: #1ACCAB;
                      $pale-blue: #a6aaf4;
-                     $brand-gable: #142a2d;
-                     @brand-gold: #CCAB1A;
+                     $evergreen: #142a2d;
+                     $gable: #142a2d;
+                     $dark-olive: #1A1E1C;
+                     @gold: #CCAB1A;
+                     @golden: #CCAB1A;
+                     @burlywood: #DEB887;
                      $safety-green: #BBFF32;
                      $bright-green: #14E158;
-                     $brand-mint: #2e8c5f;
+                     $mint: #2e8c5f;
+                     $pale-olive: #648476;
+                     $bright-base: #F0F4F7;
+                     $rosy-pink: #F7F2FB;
+                     $metal: #5A6771;
+                     $dark-grey: #767676;
+                     $medium-grey: #C4C4C4;
+                     $warm-black: #2D2828;
+                     $deap-green: #0A202E;
+
 
                              urls
                      joeldom.github.io/redesign
@@ -44,7 +57,7 @@
 
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
-<span style="color:blue;font-size:3em;font-weight:900;">E C C O : βετα : Σ</span>
+<span style="color:blue;font-size:3em;font-weight:900;">< Σ C C O : βετα ></span>
 
 <span style="display:block;color:white;background:#333;padding: 5px 10px">D Σ I N E</span>
 
@@ -510,6 +523,18 @@ terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dus
 
 ---
 
+# P O R T R A I T S
+
+## eve in eden
+
+staning by a try temptation in lifes sweet fruits.
+
+## woman lanscape surreal
+
+serpents bit her bare chest. behind are ckiffs and dunes and waves. she is on a chair life still life. head in a bag.
+
+---
+
 ## PARADOX POX
 
 a site virus that shows itself infecting the content of the pages or screens. Screens & Pages should have a distict feel. The infection has a sound as it speeds up. it creates an exponetial counting overflow until it hits an arbitrary length.
@@ -616,6 +641,7 @@ combinations of three(3) letters that should not appear in standard text or code
 - negative pressure
 - sapiophobia
 - aphelion
+- blue ocean
 
 ## Prophet of Joel
 
@@ -675,7 +701,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | mars volta : octohedron            | mulholand drive                     | final fantasy 8        | survivor                                  | boltsman brain          | dot matrix printer     | egytian hyro         |
 | mars volta : frances the mute      | i heart huckabees                   | modern warfare         | invisible monsters                        | latice of reality       | x-rays                 | plaid                |
 | aphex twin : syro                  | twin peaks                          | final fantasy 9        | the waters of babylon                     | simulation theory       | ascii                  | vaporwave            |
-| aphex twin : collapse ep           | cyborg : jean claude van dam        | final fantasy 15       | uzamaki : junji ito                       |                         | print process dot gain | metamorphisis        |
+| aphex twin : collapse ep           | cyborg : jean claude van dam        | final fantasy 15       | uzamaki : junji ito                       | dyson spheres           | print process dot gain | metamorphisis        |
 | death grips                        | lawnmower man                       | final fantasy 13       | the milenium trilogy                      | fermi paradox           | generative code        | future primitive     |
 | a place to burry strangers         | the matrix                          | final fantasy 14       | american psycho                           | many worlds             | pointalism             | southwestern style   |
 | health : slaves of fear            | alien(s) I II III                   | ninja gaiden 1 & 2     | moutnains of madness                      | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
@@ -688,26 +714,30 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | nin : bad witch                    | the x-files                         | dark souls 1 & 2       | gyo : junji ito                           | microscopy              | Akira toryoma          | nostromo             |
 | voyager sounds                     | akira                               | cyberpunk 2077         | will to power : neizchie                  | photomicrography        | oragami                | sid meade            |
 | nin : add violence                 | ghost in the shell 1 & 2            | eternal champions      | the metamorphisis : franz kafka           | moon craters            | fractals               | pixel art            |
-| nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'              | die verwandling : franz kafka             |                         | junji ito              | amano                |
+| nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'              | die verwandling : franz kafka             | roko's basilisk         | junji ito              | amano                |
 | nin : deviations                   | spy game                            | wipeout                | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
 | yeasayer                           | dragon ball                         | ridge racer            | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              |                      |
 | gatekeeper                         | neon genisis                        | star wars : KOTOR      | voice of the night                        | magnetic crystals       | sea doo                |                      |
-| health : slaves of fear            | robocop                             | star wars : SOE        |                                           | oil slick on water      |                        |                      |
-| radiohead : kid a                  | gundam : turn a                     | panzer dragoon         |                                           | cells trichodina        |                        |                      |
-| radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2          |                                           | bacteria / virus        |                        |                      |
-| radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2 |                                           | water micro-organism    |                        |                      |
+| health : slaves of fear            | robocop                             | star wars : SOE        | war of the worlds                         | oil slick on water      |                        |                      |
+| radiohead : kid a                  | gundam : turn a                     | panzer dragoon         | battlefield earth                         | cells trichodina        |                        |                      |
+| radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2          | Dianetics                                 | bacteria / virus        |                        |                      |
+| radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2 | silver surfer & galactus                  | water micro-organism    |                        |                      |
 | nirvana : bleach                   | cloverfield                         | jet moto               |                                           | animal cross-section    |                        |                      |
-| health : disco 4                   | cloverfield lane                    |                        |                                           | microprocessor          |                        |                      |
-| rendez vous : super state          | cloverfield paradox                 |                        |                                           | embryology              |                        |                      |
-| machine girl                       | cowboy bebop                        |                        |                                           |                         |                        |                      |
-| rammstein : lieb ist fur al da     | ninja scroll                        |                        |                                           |                         |                        |                      |
-| orgy: candyass                     | i am mother (netflix)               |                        |                                           |                         |                        |                      |
-| orgy: vapor transmission           | ex machina                          |                        |                                           |                         |                        |                      |
-| marilyn manson: mechanical animals | the ring                            |                        |                                           |                         |                        |                      |
-|                                    | arrival                             |                        |                                           |                         |                        |                      |
+| health : disco 4                   | cloverfield lane                    | deathstranding         |                                           | microprocessor          |                        |                      |
+| rendez vous : super state          | cloverfield paradox                 | bloodborne             |                                           | embryology              |                        |                      |
+| machine girl                       | cowboy bebop                        | anhiliation            |                                           | black holes             |                        |                      |
+| rammstein : lieb ist fur al da     | ninja scroll                        |                        |                                           | wormholes               |                        |                      |
+| orgy: candyass                     | i am mother (netflix)               |                        |                                           | gravitational waves     |                        |                      |
+| orgy: vapor transmission           | ex machina                          |                        |                                           | ultraviolet catastrophe |                        |                      |
+| marilyn manson: mechanical animals | the ring                            |                        |                                           | Fugue state             |                        |                      |
+|                                    | arrival                             |                        |                                           | disambiguation          |                        |                      |
 |                                    | bladerunner 2049                    |                        |                                           |                         |                        |                      |
 |                                    | stalker                             |                        |                                           |                         |                        |                      |
 |                                    | american ninja 1 & 2                |                        |                                           |                         |                        |                      |
+|                                    | birdbox                             |                        |                                           |                         |                        |                      |
+|                                    | the leftovers                       |                        |                                           |                         |                        |                      |
+|                                    |                                     |                        |                                           |                         |                        |                      |
+|                                    |                                     |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 |                                    |                                     |                        |                                           |                         |                        |                      |
 
@@ -767,7 +797,38 @@ Also how being an intro/extro vert ahows where you derive meaning and where you 
 
 I felr like these ideas and humor get lost in fb posts and are things i ponder daily going from work to play. And i want to make something that sounds and looks and acts like me. Just a little more self-contained
 
-I get very sad when i hear someone state they arent artistic
+I get very sad when i hear someone state they arent artistic.
+
+<p style="background-color:#2D2828;padding:3em;border:8px solid black;">
+<span style="color:#1A1E1C;font-size:36px;line-height:.75;font-weight:900;">THE<br/> BACKGROUND<br/>WORLD</span>
+</p>
+
+### premise:
+
+> on a darker than normal night, Ethan and Kelly spent some much deserved time together. The stint throughout the work week didn't leave much room for interaction other than a few texts and quick calls.
+
+### meta:
+
+characters finding out the sun has gone at somepoint over the night in their timezone. They wait for a day, but no such day comes. the first perspective will be of characters who didn't get to see the cause as it was already dark for them and their experience will be delayed and picked up sporatically. A **Dyson Sphere** like object has appeared and cloaked the Sun in an impenatrable shield by some intergalactic entity. There begins to be gravity well tunnel singularity fields opening up in geographic regions seemingly at random, but corelated to hemespheres and goemetric symitries. It isn't obvious for some time early on how trhe tunnels or wells work and what their purpose is. They begin emitting a hum then a rumble and then a deafening static crackle. Ogranisms begin falling out of them from what can only be first described as some o fthe earliest lifeforms to have existed. They do not survive for long, but begin to amass in large landfill sized hills of organic matter. The masses are entangled flesh hair and dirt. The mounds are hot and wet. They are similiar to if you would microwave and ball of red meat. They are simultaneously brand new formations of flesh as well as cooked. The center is hot and charred dense ball that from the center out gets cooler and more fresh to the outermost being decaying dirt and dust. The wells expell this matter that seems like it comes from the beging of life on the planet until current day organisms specific to the region relative to the past postion in space and time. As this happens it eventually gets to be that the piles start to coalesce and form new lifeforms.
+
+### inspiration:
+
+- junji ito
+- year zero
+- the leftovers
+- war of the worlds
+- bloodborne
+- death stranding
+- birdbox
+
+### music:
+
+<iframe src="https://open.spotify.com/embed/track/7zCj8qC5B26xH6hnz4A2Vf" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/track/2orRv3uoKgjfjWAa62ckaN" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<img width="100%" src="https://static.techspot.com/images2/news/bigimage/2019/04/2019-04-05-image-8.jpg"/>
+<img width="100%" src="https://starctmag.com/wp-content/uploads/2019/03/83-Supermassive-Black-Holes-in-the-Early-Universe-Study.jpg"/>
+<img width="100%" src="https://scitechdaily.com/images/Black-Hole.jpg"/>
+---
 
 ## work mood settings
 
