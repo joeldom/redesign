@@ -1826,3 +1826,8 @@ node express lamda
 - https://www.awakenakira.com/ ::feature for how the panels run through slices of projects
 - https://player.vimeo.com/video/266950351?app_id=122963?background=1&loop=0&autoplay=0 :: video production
 - https://oblio.io/Work/awaken-akira :: feature of having the left or side scroll independant of other side to skim through project at a high item level.
+
+### P O E
+
+- serverless noSql json object pricer
+- fund mgmt needs fixed
