@@ -53,8 +53,8 @@
 
 -->
 
-<img width="200px" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
-
+<img width="100px" style="display:inline-block;" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
+<img style="padding:1em;background:lightblue;display:inline-block;" width-"200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/GAINAX.svg/1280px-GAINAX.svg.png"/>
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
 <span style="color:blue;font-size:3em;font-weight:900;">< Σ C C O : βετα ></span>
@@ -350,7 +350,7 @@ _answers with joe_
 
 ---
 
-## Architecture of E C C O : V O I D
+## architecture of <br>E C C O +/-/+ V O I D
 
 - Dropbox
   - shared folder for working on Adobe files across computers and a backup of builds
@@ -393,7 +393,121 @@ a space rotation animation.
     <img width="420px" src="http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg"/>
   </a>
 </p>
-`betaface`
+
+`..........b e t a f a c e..........`
+
+> pixel perfect manga-esque tpye of graphic that uses color and angle / texture to play with the percieved feeling of the image.
+
+```json
+
+
+:::::--=::.
+:=*%@@@@@@@@@@@@@@#=.
+-#@@@@@@@@@@@@@@@@@@@@@@%=.
+-#@@@@@@@@@@@@@@@@@@@@@@@@@@@#-
+:#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:
+.*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*.
+.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=
++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=
+*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-
+*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-
+=@@@@++++++++++*@@@@@@@+++++++++++#@@@@@@@@@@@.
+-@@@%.         =@@@@@@%           =@@@@@@@@@@@.
+.@@@%          :@@@@@@%           =@@@@@@@@@@@.
+-%@@%         .-@@@@@@%           =@@@@@@@@@@@#.
+=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@+
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@* :@*
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+ :@=
+.@@@@@@@@@@@@@@@=:+@@#-:=@@@@@@@@@@@@@@@@@@@-:%*
++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@%
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#.
+.+@@@@@@@@@@@@%++##*==#@@@@@@@@@@@@@@@@@@@+
+-@@@@@@@@@#:          =%@@@@@@@@@@@@@@@#
+%@@@@@@@@%=:       .:+#@@@@@@@@@@@@@@@=
+.%@@@@@@@@@@@@%%%@@@@@@@@@@@@@@@@@@@@@:
+-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#
+-+%@@@@@@@@@@@@@@@@@@@@@#*%@@@@@@@#.
+.*==#%@@@@@@@@@@@@@@***%@@@@@@@@%-
+#@@*:.-=++====:..=*%@@@@@@@@@@#:
++@@@@%=      :=*@@@@@@@@@@@@#+.
+.@@@@@@%#+*#@@@@@@@@@@@@@%=:
+%@@@@@@@@@@@@@@@@@@@@@%-
+#@@@@@@@@@@@@@@@@@@@%-
+=@@@@@@@@@@@@@@@@@#=.
+.%@@@@@@@@@@@@@#=.
+:*@@@@@@@@@@*.  .
+:#@@@@@@+
+-%@#+.
+.
+
+
+
+.:=**######%%%##+=-:.
+:=#%@@@@@@@@@@@@@@@@@@@@@%+:
+-#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%*.
+.-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:
+:%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-
+:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:
+.*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*:
+-%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*
+-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#.
+=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:
+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#.
+*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*
+*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%.
+%@@@@@##############%@@@@@@@@@###############%@@@@@@@@@@@@@@#
+%@@@@%              #@@@@@@@@% .           . *@@@@@@@@@@@@@@#
+#@@@@%.            .#@@@@@@@@%               *@@@@@@@@@@@@@@*
++@@@@%              *@@@@@@@@%               #@@@@@@@@@@@@@@#
+=@@@@#            . *@@@@@@@@%               *@@@@@@@@@@@@@@@+
+#@@@@@@************##%@@@@@@@@@**************+%@@@@@@@@@@@@@@@@*
+-*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*-*%@#
+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*  +@#
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-  *@+
+@@@@@@@@@@@@@@@@@@@@@*==%@@@+--+@@@@@@@@@@@@@@@@@@@@@@@@@@: :%%.
+*@@@@@@@@@@@@@@@@@@@*-+%@@@%++=+@@@@@@@@@@@@@@@@@@@@@@@@@%.+@@:
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%@@=
+*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-
++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-
++@@@@@@@@@@@@@@@*:  .=-.   :+%@@@@@@@@@@@@@@@@@@@@@@@#
+#@@@@@@@@@@@@=               -#@@@@@@@@@@@@@@@@@@@@@:
+:@@@@@@@@@@@@#-             .-*@@@@@@@@@@@@@@@@@@@@@.
++@@@@@@@@@@@@@@%**+===+*#%@@@@@@@@@@@@@@@@@@@@@@@@%
++@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+
+.#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%.
+.%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%:
+:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#@@@@@@@@@@%-
+.-#@@@@@@@@@@@@@@@@@@@@@@@@@@@*=+%@@@@@@@@@@%-
+*#:-**%@@@@@@@@@@@@@@@@@@%+++%@@@@@@@@@@@@%-
+=@@@#-  :=*****++++-::.:+*%@@@@@@@@@@@@@@=:
+:@@@@@@*:           .-#@@@@@@@@@@@@@@@@%=.
+*@@@@@@@+..    :=*%@@@@@@@@@@@@@@@@%+::
+=@@@@@@@@@@%#%@@@@@@@@@@@@@@@@@@@#-.
+:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:
+.@@@@@@@@@@@@@@@@@@@@@@@@@@@@#:
+.%@@@@@@@@@@@@@@@@@@@@@@@@@*:
+=@@@@@@@@@@@@@@@@@@@@@@%+-:
+:@@@@@@@@@@@@@@@@@@@%*-   .
+=@@@@@@@@@@@@@@@@*-    .
+.*@@@@@@@@@@@@#:   ..
+.+@@@@@@@@+:
+:*@@@%+.
+:+:
+
+
+
+
+```
 
 `HAL > IBM > GZO > JCN`
 
@@ -414,6 +528,7 @@ A cultural religion focused on interpreting life inherit mysteries of the mind T
     <img src="https://mockend.com/banner.svg" height="70px">
   </a>
 </p>
+
 **annual report**
 
 this will be a location to show how much data can be accessed through some api magic and displayed and related to one another in a sort of 500ft view of the past year and a sort of way to show off how things have added up.
@@ -520,6 +635,15 @@ terms to think of when designing: stain, bleedthrough, cell, bruise, scrape, dus
 ![deviations [1]](https://user-images.githubusercontent.com/1181738/72224376-f524c800-3547-11ea-8f0f-1ba5e6f545ef.jpg)
 ![deviations [2]](https://user-images.githubusercontent.com/1181738/72224377-f524c800-3547-11ea-8f88-2181c2197e14.jpg)
 ![deviations [3]](https://user-images.githubusercontent.com/1181738/72224378-f5bd5e80-3547-11ea-972a-c6d7a6cdf629.jpg)
+
+---
+
+## B L U E B O O K
+
+Human beings ability to visualize the non-existant allows for creativity and advancement out of situations other creatures tend to deal with. Problem solving is a complex string of multiple phisological and psycoligical frameworks working together.
+
+<p>While Wittgenstein in <i>The Blue Book</i> is not dogmatic nor systematic, he does provide arguments that point toward a more self-critical view of language. For example, he does not think that "understanding" and "explaining" are necessarily related. He suggests that when humans are learning a <a href="/wiki/Language-game_(philosophy)" class="mw-redirect" title="Language-game (philosophy)">language-game</a> they are actually being trained to understand it. He writes: "If we are taught the meaning of the word 'yellow' by being given some sort of ostensive definition [in this case, <i>ostensive</i> means something like "denoting a way of defining by direct demonstration, e.g., by pointing"] (a rule of the usage of the word) this teaching can be looked at in two different ways: (a) The teaching is a drill. This drill causes us to associate a yellow image, yellow things, with the word 'yellow.' Thus when I gave the order 'Choose a yellow ball from this bag' the word 'yellow' might have brought up a yellow image, or a feeling of recognition when the person's eye fell on the yellow ball. The drill of teaching could in this case be said to have built up a psychical mechanism. This, however, would only be a hypothesis or else a metaphor. We could compare teaching with installing an electric connection between a switch and a bulb. The parallel to the connection going wrong or breaking down would then be what we call forgetting the explanation, or the meaning, of the word...[I]t is the hypothesis that the process of teaching should be needed in order to bring about these effects. It is conceivable, in this sense, that all the processes of understanding, obeying, etc., should have happened without the person ever having been taught the language; (b) The teaching may have supplied us with a rule which is itself involved in the processes of understanding, obeying, etc.: 'involved,' however, meaning that the expression of this rule forms part of these processes..."<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> As the citation suggests, Wittgenstein views understanding a language-game as being mostly concerned with <i>training</i> (which he calls "drill[ing]" in the above citation). Having said that, Wittgenstein is not one to believe that even understanding a language-game can be reduced to one process; like the plethora of language-games available to human beings, there are also plethora of "understandings." For example, the "understanding" of a language may come about by the "drilling" of the association between the word "yellow" and a yellow-patch; or it may involve learning rules, like rules used in the game of chess. Moreover, Wittgenstein doesn't think that humans use language mechanically, as if following a calculus. He writes in <i>The Blue Book</i>, "[I]n general we don't use language according to strict rules--it hasn't been taught us by means of strict rules, either."<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> Wittgenstein clarifies the problem of communicating using a human language when he discusses learning a language by "ostensive defining." For example, if one wanted to teach someone that a pencil was called a "pencil" and pointed to a pencil and said, "pencil," how does the listener know that what one is trying to convey is that the thing in front of me (e.g., the entire pencil) is called a "pencil"? Isn't it possible that the listener would associate "pencil" with "wood"? Maybe the listener would associate the word "pencil" with "round" instead (as pencils are, usually, in fact, round!). Wittgenstein writes regarding several possible "interpretations" which may arise after such a lesson. The student may interpret your pointing at a pencil and saying "pencil" to mean the following: (1) This is a pencil; (2) This is round; (3) This is wood; (4) This is one; (5) This is hard, etc., etc.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup>
+</p>
 
 ---
 
@@ -642,6 +766,11 @@ combinations of three(3) letters that should not appear in standard text or code
 - sapiophobia
 - aphelion
 - blue ocean
+- beyond alive
+- void crawler
+- writhing ooze
+- scrap of flesh
+-
 
 ## Prophet of Joel
 
@@ -662,6 +791,10 @@ an alternate timeline of the world where expeiences and culture are bleeding thr
 the story of first contact with an enitiy, having the debris seen in the local area of the planet earth that is then followed by the civilization finding a signal that causes the higher up parts of governement making decisions about the object, but then having the signal pushing pedal on the speed at which society reacts to the news and people having to come to terms with the idea and then possibly briefly losing interest in it or finding it fake.
 
 a person is shown going through a day in their life
+
+## brain drip
+
+Ơ̶̧̧̨̡̧̧̛̺̼͈͓̞̭̻̖̯̫̲͖̦͕̮̗̬̠̟̤̝̞̦̘̦̱̝̗͈͔̫̻̣̠̩͖̋̔̈́̓̔͊͐̀͆̀̆͑̐͌̔̎͋̑̀̒̆̓͂̂̾̽͆̍̃̅̓̉͐͂̄̿̐̿̈̃̌̃̑͛̒̄͗͆̽̀̑̽̃̓̆͋̚̕͘͘̚̚͠ͅͅͅǪ̸̧̡̡̩̞̝̬̲͙̲̰͔̭̹͇̖̥̮̼̻̞͙̭̹̞̹̘̙̰̲̺̥̭̬͚͉͓̺͙̭͖͈̙̦̠͔͈͉̰̲̼͇̗͖͔͎͈͍͙̬̫̲͕̆͂̔͜͜͝ͅͅỚ̸̢̡̨̢̢̧̨̢̛̛͉͇̘̦̖̠̗̘͔̙̙͈̖̦͕̲̝̠͎̦̹͓̮͔̭͕̠͎̲̼͇̣̙͈̬̠̯̼͉͖̤͓̪̻̯͚̞̫͈̻͚̳͎͔̝̦̺̰̻̖̼͚̟̪͕̲̞͖̫͍̟͇̤̱͉̭̹̞͓͖̲̹̣̺͉͕͖̺̣̙̹̱̲̩̲̞̻̘̩͍̙̽̊̔̑̀̆̑̎̾̂̓̓̿̉͌̍́̀̔̎̈̔̈́͗̆̌̑̈́̀̆̿̂̐̿̈́́̒͐̽̋̆̌͆̈́͋̈́̒͂̐͆̀̅̃͋̎̀͐̽̆̇̓͆̔̀̍͋̆̄̓́̏̍̾̐̍̆̌͊̒̇̒̌̓̇͗̕̚̚̚̕̕̚̕̕̕͜͜͝͠͠͠͝͝͝͝͝ͅͅƠ̶̧̡̡̧̨̧̧̡̨̛̪̺͓͙̼͙̥̥̹̮̝̗͔͓̬̪͇̫͙̭̠̞̲̻͔̫͙͈̞̳͉̳̮͉̹̫̣̞̤̺̟̰͍̞̻̤͍͓̝̣͎̞̫̹̹͚͉̹̹̗͈͓̹̙̺͇̬͉̤̭͈̞̯̦̠̮͈̭̦͎̣̱̘͚͓͙͙̭̱͕̜̣͕̦̱̈̿̏̇̾̽͛̅͗̄͆̂̎̾́̉͛̅̇̂̔̊̉̉͋͊͆̍́̓́̃̾̓̎́̍́̉͑̋̊̋̏̏̀̅͛͒̓̆̓͐̈́̊̑́̈́̓͐̉͒̂̎̆͂̓͂̔̀̔̓̂̒̃̀̽̆̐̊̽̂͛̈́̓̄̕͘̚̕͘͜͝͠͝͝͠͝͠͝͝ͅͅͅͅͅA̸̢̡̨̢̢̧̧̢̢̧̧̧̧͚̦̖͈̖͙̮̞̱͔̪̪̫̟͖̩̼̺̞̹̹̥͍͔̪͚̞̗̹̫̜͙̗͎̣̗̪̙̭̝̞͓̬̙͎̲̗̞͔̠͖̯̫̱̪͍͚̺̤͕͚̗̬̫͈̦͈̤̳̗͔͓̳̝̠̖̬̤̪̩̞̻̰̬͕̝͔͚̻̪̤̤͖̳͎͙̤̤̥̲̪̬̖̹͐̽̌̈́͌̽͌͛̀͑̒̽̋̅̇̅̇͗̓́̈́̇̇̀̀͌̒͌͊̈̓̊̈́̓̉̐̽̀͐̋͊͗͂̈́͌̕͘͘͜͝͠͝͝͠ͅͅͅͅA̶̛̭̝̗̝͖̻̳͚̰̰͇̜̼̾̐ͅͅͅA̵͙̻̫͇͉͈̳͈͎̬̞̰̬̼̫̦͕̥̟͎͐̑͊̌̂͗͗̊̆̏̋͌̍̔̔̅̃͑͋͑̃̈́̌͂̎̕͘͜͠͝͝ͅA̸̛̛̛̜̯͍̔̽͌̃͑̉̏̃̋̃͒̂̆͊̓͛̄̿̒̐͋͌́̈́̽̀̓͊̀͌͂̏̋̒̐̾͌̀̿̐͗̀̋͐͊̓̈̂͆͋̓͊́͊́͑̏͋͑͑̊̑̊̍͐̈́̓̍̌̽̋̃̂͂́̀̋̌̑́́̽̎̐̾͂̉̈́̽̉͛͗̅́͒̏̐̌́́͆̇́͂́̈̔̉̂̕͘̕̚͘̚̚͘̚̚͜͝͝A̸̧̨̨̧̢̡͔͍͚͎͈̠̲͕̤̭̜̦̙̠̗̞̤͇̥̜̳̳͖̺͍̣̰̞̭͙̼̪͔͇̺͓̐̆̽͐͋͐͂́̑̒̀͌͊̀̈́̏̿͑̄̌̓͆͂̇̓̚͘͜͝͠Ą̶̡̧̨̨̛̛̻̜̙̠̞̥̮̰̫̗̳̗̲̠͙̳̠̪̮̭̘̦͚̫̰̘̞̖͉̬͈̯͇̣̙͎̳͉͇̞̂̔̓͊̌̅͂̀̈́̓́̽̒̈́̋̒̓̏̿͊̀͌̓̈́͗͆̋̔̀͐̓̀͐̓̌̓̈́̚̚͘͘͘͝͝͝͠͝A̷̧̢̢̢̨̨̧̛̖̦̹͚͔̱̗̲͖̱̞̠̠̩̻̤͍͇̞͍̟͔̼͈̤͓̞͕̻̱̪͕̝͉̩̳̤̺͚̳̪̲͈̼̙͖̰̠͕̙̰̩͙̻̜͓̳͓͉̟̩͍͖̺̰̬̼͙̤̾̀̇̔͛͂̉̈̃͗́́̏̄̈́͗̒͆̃́̒͒̄͋͑̌̄͛̈́̇̿́̀̄̇́̆͑͘̚̚͘̚͠͠͝͝͝͠͠͝͝͠ͅA̷̢̧̡̡̧̡̲͓̣͔̗̣͖̲͕̣̬̞͍̝̬̦̣̭̹̳̼͙̥͎͈̟͇͓̝̱̺̻̰̘͍͈̙̹̓̂̉̄̉̍͑͂̾̒̕͘Ą̴̡̡̢̙̼͕̱̝͖̞͔͈̹̰̬̘̠̫͚̝͓̖̦̲̱͚͚̞̪͉̼̜̹̠̘̙͕͔̻͌̽̀͂̓̈́̎͜͜ͅ
 
 ## i am mother
 
@@ -695,51 +828,51 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 - embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
 - Ernst Haeckel - [German Zoologist](https://www.google.com/search?q=Ernst+Haeckel)
 
-| music                              | film                                | games                  | book                                      | science                 | art                    | patterns             |
-| ---------------------------------- | ----------------------------------- | ---------------------- | ----------------------------------------- | ----------------------- | ---------------------- | -------------------- |
-| buckethead                         | blue velvet                         | final fantasy 6        | house of leaves                           | tesla                   | vinyl sticker          | native american      |
-| mars volta : octohedron            | mulholand drive                     | final fantasy 8        | survivor                                  | boltsman brain          | dot matrix printer     | egytian hyro         |
-| mars volta : frances the mute      | i heart huckabees                   | modern warfare         | invisible monsters                        | latice of reality       | x-rays                 | plaid                |
-| aphex twin : syro                  | twin peaks                          | final fantasy 9        | the waters of babylon                     | simulation theory       | ascii                  | vaporwave            |
-| aphex twin : collapse ep           | cyborg : jean claude van dam        | final fantasy 15       | uzamaki : junji ito                       | dyson spheres           | print process dot gain | metamorphisis        |
-| death grips                        | lawnmower man                       | final fantasy 13       | the milenium trilogy                      | fermi paradox           | generative code        | future primitive     |
-| a place to burry strangers         | the matrix                          | final fantasy 14       | american psycho                           | many worlds             | pointalism             | southwestern style   |
-| health : slaves of fear            | alien(s) I II III                   | ninja gaiden 1 & 2     | moutnains of madness                      | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
-| more than I                        | the girl with the dragon tattoo     | half-life 2            | sphere : michael criton                   | image of black hole     | zen / feng shui        | pond scum water      |
-| perturbator                        | a place beyond the pines            | einhander              | the regulators : stephen king             | nasa                    | kawaii                 | angels egg crack     |
-| sidewalks & skeletons              | texas chainsaw masacre 3 & Next-Gen | alien isolation        | 100 years of solitude                     | aphelion                | sonogram pointalism    | microscopic crystals |
-| david bowie : modern love          | milenium (fox)                      | silent hill 2 & 3      | voice of the night : dean koontz          | perihelion              | gatekeeper             | honeycomb beehive    |
-| tool : aenima                      | zoo : preter greenway               | resident evil 2 RM     | bag of bones : stephen king               | juno mission            | flower pressing        | cell walls           |
-| tool : undertow                    | lost highway                        | resident evil 3 RM     | mist : stephen king                       | voyager mission         | Ernst Haeckel          | aeomeba              |
-| nin : bad witch                    | the x-files                         | dark souls 1 & 2       | gyo : junji ito                           | microscopy              | Akira toryoma          | nostromo             |
-| voyager sounds                     | akira                               | cyberpunk 2077         | will to power : neizchie                  | photomicrography        | oragami                | sid meade            |
-| nin : add violence                 | ghost in the shell 1 & 2            | eternal champions      | the metamorphisis : franz kafka           | moon craters            | fractals               | pixel art            |
-| nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'              | die verwandling : franz kafka             | roko's basilisk         | junji ito              | amano                |
-| nin : deviations                   | spy game                            | wipeout                | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
-| yeasayer                           | dragon ball                         | ridge racer            | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              |                      |
-| gatekeeper                         | neon genisis                        | star wars : KOTOR      | voice of the night                        | magnetic crystals       | sea doo                |                      |
-| health : slaves of fear            | robocop                             | star wars : SOE        | war of the worlds                         | oil slick on water      |                        |                      |
-| radiohead : kid a                  | gundam : turn a                     | panzer dragoon         | battlefield earth                         | cells trichodina        |                        |                      |
-| radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2          | Dianetics                                 | bacteria / virus        |                        |                      |
-| radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2 | silver surfer & galactus                  | water micro-organism    |                        |                      |
-| nirvana : bleach                   | cloverfield                         | jet moto               |                                           | animal cross-section    |                        |                      |
-| health : disco 4                   | cloverfield lane                    | deathstranding         |                                           | microprocessor          |                        |                      |
-| rendez vous : super state          | cloverfield paradox                 | bloodborne             |                                           | embryology              |                        |                      |
-| machine girl                       | cowboy bebop                        | anhiliation            |                                           | black holes             |                        |                      |
-| rammstein : lieb ist fur al da     | ninja scroll                        |                        |                                           | wormholes               |                        |                      |
-| orgy: candyass                     | i am mother (netflix)               |                        |                                           | gravitational waves     |                        |                      |
-| orgy: vapor transmission           | ex machina                          |                        |                                           | ultraviolet catastrophe |                        |                      |
-| marilyn manson: mechanical animals | the ring                            |                        |                                           | Fugue state             |                        |                      |
-|                                    | arrival                             |                        |                                           | disambiguation          |                        |                      |
-|                                    | bladerunner 2049                    |                        |                                           |                         |                        |                      |
-|                                    | stalker                             |                        |                                           |                         |                        |                      |
-|                                    | american ninja 1 & 2                |                        |                                           |                         |                        |                      |
-|                                    | birdbox                             |                        |                                           |                         |                        |                      |
-|                                    | the leftovers                       |                        |                                           |                         |                        |                      |
-|                                    |                                     |                        |                                           |                         |                        |                      |
-|                                    |                                     |                        |                                           |                         |                        |                      |
-|                                    |                                     |                        |                                           |                         |                        |                      |
-|                                    |                                     |                        |                                           |                         |                        |                      |
+| music                              | film                                | games                      | book                                      | science                 | art                    | patterns             |
+| ---------------------------------- | ----------------------------------- | -------------------------- | ----------------------------------------- | ----------------------- | ---------------------- | -------------------- |
+| buckethead                         | blue velvet                         | final fantasy 6            | house of leaves                           | tesla                   | vinyl sticker          | native american      |
+| mars volta : octohedron            | mulholand drive                     | final fantasy 8            | survivor                                  | boltsman brain          | dot matrix printer     | egytian hyro         |
+| mars volta : frances the mute      | i heart huckabees                   | modern warfare             | invisible monsters                        | latice of reality       | x-rays                 | plaid                |
+| aphex twin : syro                  | twin peaks                          | final fantasy 9            | the waters of babylon                     | simulation theory       | ascii                  | vaporwave            |
+| aphex twin : collapse ep           | cyborg : jean claude van dam        | final fantasy 15           | uzamaki : junji ito                       | dyson spheres           | print process dot gain | metamorphisis        |
+| death grips                        | lawnmower man                       | final fantasy 13           | the milenium trilogy                      | fermi paradox           | generative code        | future primitive     |
+| a place to burry strangers         | the matrix                          | final fantasy 14           | american psycho                           | many worlds             | pointalism             | southwestern style   |
+| health : slaves of fear            | alien(s) I II III                   | ninja gaiden 1 & 2         | moutnains of madness                      | ultraviolet catastrophe | anatomy drawings       | lof-fi dot matrix    |
+| more than I                        | the girl with the dragon tattoo     | half-life 2                | sphere : michael criton                   | image of black hole     | zen / feng shui        | pond scum water      |
+| perturbator                        | a place beyond the pines            | einhander                  | the regulators : stephen king             | nasa                    | kawaii                 | angels egg crack     |
+| sidewalks & skeletons              | texas chainsaw masacre 3 & Next-Gen | alien isolation            | 100 years of solitude                     | aphelion                | sonogram pointalism    | microscopic crystals |
+| david bowie : modern love          | milenium (fox)                      | silent hill 2 & 3          | voice of the night : dean koontz          | perihelion              | gatekeeper             | honeycomb beehive    |
+| tool : aenima                      | zoo : preter greenway               | resident evil 2 RM         | bag of bones : stephen king               | juno mission            | flower pressing        | cell walls           |
+| tool : undertow                    | lost highway                        | resident evil 3 RM         | mist : stephen king                       | voyager mission         | Ernst Haeckel          | aeomeba              |
+| nin : bad witch                    | the x-files                         | dark souls 1 & 2           | gyo : junji ito                           | microscopy              | Akira toryoma          | nostromo             |
+| voyager sounds                     | akira                               | cyberpunk 2077             | will to power : neizchie                  | photomicrography        | oragami                | sid meade            |
+| nin : add violence                 | ghost in the shell 1 & 2            | eternal champions          | the metamorphisis : franz kafka           | moon craters            | fractals               | pixel art            |
+| nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'                  | die verwandling : franz kafka             | roko's basilisk         | junji ito              | amano                |
+| nin : deviations                   | spy game                            | wipeout                    | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
+| yeasayer                           | dragon ball                         | ridge racer                | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              |                      |
+| gatekeeper                         | neon genisis                        | star wars : KOTOR          | voice of the night                        | magnetic crystals       | sea doo                |                      |
+| health : slaves of fear            | robocop                             | star wars : SOE            | war of the worlds                         | oil slick on water      | Francis Bacon          |                      |
+| radiohead : kid a                  | gundam : turn a                     | panzer dragoon             | battlefield earth                         | cells trichodina        | Hieronymus Bosch       |                      |
+| radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2              | Dianetics                                 | bacteria / virus        | damien hirst           |                      |
+| radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2     | silver surfer & galactus                  | water micro-organism    | Zdzislaw Beksinski     |                      |
+| nirvana : bleach                   | cloverfield                         | jet moto                   | remina : junji ito                        | animal cross-section    |                        |                      |
+| health : disco 4                   | cloverfield lane                    | deathstranding             | the stand : stephen king                  | microprocessor          |                        |                      |
+| rendez vous : super state          | cloverfield paradox                 | bloodborne                 |                                           | embryology              |                        |                      |
+| machine girl                       | cowboy bebop                        | anhiliation                |                                           | black holes             |                        |                      |
+| rammstein : lieb ist fur al da     | ninja scroll                        | path of exile              |                                           | wormholes               |                        |                      |
+| orgy: candyass                     | i am mother (netflix)               | kights of the old republic |                                           | gravitational waves     |                        |                      |
+| orgy: vapor transmission           | ex machina                          |                            |                                           | ultraviolet catastrophe |                        |                      |
+| marilyn manson: mechanical animals | the ring                            |                            |                                           | Fugue state             |                        |                      |
+| giant swan                         | arrival                             |                            |                                           | disambiguation          |                        |                      |
+|                                    | bladerunner 2049                    |                            |                                           | wave function           |                        |                      |
+|                                    | stalker                             |                            |                                           | fermi paradox           |                        |                      |
+|                                    | american ninja 1 & 2                |                            |                                           |                         |                        |                      |
+|                                    | birdbox                             |                            |                                           |                         |                        |                      |
+|                                    | the leftovers                       |                            |                                           |                         |                        |                      |
+|                                    |                                     |                            |                                           |                         |                        |                      |
+|                                    |                                     |                            |                                           |                         |                        |                      |
+|                                    |                                     |                            |                                           |                         |                        |                      |
+|                                    |                                     |                            |                                           |                         |                        |                      |
 
 ## <iframe style="border:56px solid #142a2d;" src="https://open.spotify.com/embed/playlist/0MGloRcukbDgmiCr7HJ53w" width="480" height="760" frameborder="56" allowtransparency="true" allow="encrypted-media"></iframe>
 
@@ -762,7 +895,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 ### concept:
 
-> the downward spiral
+> the downward spiral. prussian blue. zyclon-b. If the light emmitted is known to be a certain blue, you would know how muc that light has traveled/deteriorated through the passage of both time and space.
 
 <span style="color:#008080;font-size:48px;line-height:.75;font-weight:900;">LABYRINTH</span>
 
@@ -1059,13 +1192,14 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     info....................................................................02.00 - v 01.09.2020 H12M57  [......................................................................]
     about...................................................................02.AA - v 01.09.2020 H12M57  [......................................................................]
     contact.................................................................02.BB - v 01.09.2020 H12M57  [......................................................................]
-    reports.................................................................02.CC - v 01.09.2020 H12M54  [ graphs of various relational data comparisons........................]
+    reports.................................................................02.CC - v 01.09.2020 H12M54  [.graphs of various relational data comparisons........................]
     ideas...................................................................03.00 - v 01.09.2020 H12M57  [......................................................................]
     quotes..................................................................03.AA - v 01.09.2020 H12M49  [......................................................................]
-    inspiration.............................................................03.BB - v 01.09.2020 H12M51  [ page with ref images of aesthetic related designs....................]
-    blog....................................................................03.CC - v 01.09.2020 H12M57  [......................................................................]
-    data....................................................................04.00 - v 01.09.2020 H12M57  [ data designs or data feeds...........................................]
-    tags....................................................................04.AA - v 01.09.2020 H12M57  [ displays page of available tags .....................................]
+    clickhole...............................................................03.BB - v 01.09.2020 H12M49  [.link labrynth visual adventure interactive experience................]
+    inspiration.............................................................03.CC - v 01.09.2020 H12M51  [.page with ref images of aesthetic related designs....................]
+    blog....................................................................03.DD - v 01.09.2020 H12M57  [......................................................................]
+    data....................................................................04.00 - v 01.09.2020 H12M57  [.data designs or data feeds...........................................]
+    tags....................................................................04.AA - v 01.09.2020 H12M57  [.displays page of available tags .....................................]
     catalog.................................................................04.BB - v 01.09.2020 H12M57  [......................................................................]
     fragments...............................................................04.CC - v 01.09.2020 H12M49  [......................................................................]
 
@@ -1075,11 +1209,13 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 +==========================================================================================================================+
  0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X0X
 +==========================================================================================================================+
- INVOICE                                                                                                        DEC 12 2020
+ INVOICE                                                                                                        MAY 05 2021
 +--------------------------------------------------------------------------------------------------------------------------+
  SERVICES | A | B | C | D | E | F | G | H | I | J | K | L | M | N | O | P | Q | R | S | T | U | V | W | X | Y | Z | QUANTIY
 +--------------------------------------------------------------------------------------------------------------------------+
- ITEM NAME..........................X...........................X..................................................    0001
+ITEM NAME...........................X.......................X...................x................................. ____0001
+ITEM NAME...x...............x.......X...............x...........X...........x...................x................. ____0860
+ITEM NAME...x............x..........X............x..x...........X...........x...........x.......x................. ____7099
 
 
 |||```
@@ -1831,3 +1967,123 @@ node express lamda
 
 - serverless noSql json object pricer
 - fund mgmt needs fixed
+
+**example**
+
+Item Class: Wands
+Rarity: Unique
+Ashcaller
+Quartz Wand
+
+---
+
+Wand
+Physical Damage: 14-27
+Critical Strike Chance: 7.00%
+Attacks per Second: 1.30
+
+---
+
+Requirements:
+Level: 18
+Int: 65
+
+---
+
+## Sockets: B
+
+## Item Level: 69
+
+## 19% increased Spell Damage (implicit)
+
+10% chance to Trigger Level 8 Summon Raging Spirit on Kill
++17% to Fire Damage over Time Multiplier
+Adds 6 to 8 Fire Damage to Spells
+23% increased Burning Damage
+20% chance to Ignite
+
+---
+
+"We do not command fire.
+Ngamahu lends it, and Hinekora returns it."
+
+- Lavianga, Advisor to Kaom
+
+Item Class: Body Armours
+Rarity: Unique
+Inpulsa's Broken Heart
+Sadist Garb
+
+---
+
+Quality: +20% (augmented)
+Evasion Rating: 512 (augmented)
+Energy Shield: 106 (augmented)
+
+---
+
+Requirements:
+Level: 68
+Dex: 103 (unmet)
+Int: 109
+
+---
+
+## Sockets: R-B-R-G-B B
+
+## Item Level: 71
+
++66 to maximum Life
+37% increased Damage if you have Shocked an Enemy Recently
+17% increased Effect of Shock
+Shocked Enemies you Kill Explode, dealing 5% of
+their Life as Lightning Damage which cannot Shock
+Unaffected by Shock
+
+---
+
+Don't hesitate; bring death to all, conclusively and swiftly,
+or they will give you the same treatment.
+
+### I N T E R V I E W
+
+**Questions:**
+
+- What is your favorite programing language? Why?
+- Who are the users?
+- do you use CI (continuous intigration)
+
+**“Dragoon's Fate” complete!**<br/>
+_You learn Geirskogul_.
+
+> This concludes the dragoon quests for FINAL FANTASY XIV: Heavensward. In order to undertake the next series of quests, you must first meet the following requirements:
+
+- ※ You must have registered a product key for FINAL FANTASY XIV: Stormblood to your service account.
+- ※ You must have completed the main scenario quest “The Far Edge of Fate.”
+  Once you have done so, the next dragoon quest will be available from Alberic.
+
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1" aria-label="Jump up" title="Jump up">^</a></b></span> <span class="reference-text">ファイナルファンタジーXIV: 蒼天のイシュガルド<span style="font-weight: normal"> (<i title="Japanese-language text" lang="ja">Fainaru Fantajī Fōtīn: Sōten no Ishugarudo</i>, <i title="Hepburn transliteration" lang="ja-Latn">lit. <i>Final Fantasy XIV: Blue Heavens of Ishgard</i></i>)</span> in Japanese</span>
+</li>
+</ol>
+
+## TWITCH Marketing
+
+Twitch Kintsuku
+Current Song - Samson by Regina Spektor
+Kintsuku's name is inspired by the Japanese art form Kintsukuroi. It involves repairing broken pottery with gold, built on the idea that in embracing flaws and imperfections, you can create an even stronger, more beautiful piece of art. Sometimes in the process of repairing things that have broken, we can create something more unique, beautiful and resilient.
+
+**StreamElements**
+
+```json
+: ༝✧▬▬▬▬▬ஜ˚*❋𝒮𝒪𝒞𝐼𝒜𝐿𝒮❋*˚ஜ▬▬▬▬▬✧༝ :
+https://soundcloud.com/kintsukumusic 🌸 Soundcloud
+https://www.instagram.com/kintsuku_ 🌸 Instagram
+https://facebook.com/kintsukumusic 🌸 Facebook
+https://discord.gg/ekdhY3u 🌸 Discord
+https://www.youtube.com/kintsuku 🌸 Youtube
+https://sptfy.com/dyUH 🌸 Spotify
+▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬
+```
+
+# JOB
