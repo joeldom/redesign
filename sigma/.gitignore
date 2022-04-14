@@ -1,3 +1,7 @@
+# Project & bootstrap
+
+node_modules
+
 # Numerous always-ignore extensions
 *.diff
 *.err

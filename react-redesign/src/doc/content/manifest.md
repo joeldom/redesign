@@ -54,7 +54,9 @@
 -->
 
 <img width="100px" style="display:inline-block;" src="http://geoid.az/wp-content/uploads/2018/02/cropped-pkh6seudae0u-1.png"/>
-<img style="padding:1em;background:lightblue;display:inline-block;" width-"200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/GAINAX.svg/1280px-GAINAX.svg.png"/>
+<img style="padding:1em;background:pink
+;display:inline-block;" width-"200px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/GAINAX.svg/1280px-GAINAX.svg.png"/>
+<hr>
 <!--http://beta-face.com/wp-content/uploads/2012/10/beta-res2.jpg-->
 
 <span style="color:blue;font-size:3em;font-weight:900;">< Σ C C O : βετα ></span>
@@ -2087,3 +2089,130 @@ https://sptfy.com/dyUH 🌸 Spotify
 ```
 
 # JOB
+
+- glassdoor
+- linkedin
+
+# Stream
+
+setup OBS to stream in sections of the stream. produce some graphics for the tiles na dthe thumbnails
+
+FF14
+
+```
+<se.1>
+                  ______________
+                 | Thank you.   |
+                 |  Take care.  |
+           ∧＿＿∧ ￣|/￣￣￣￣￣￣
+         |(´・ω・)
+        ┌ (つ/￣￣￣/_)
+        旦 ＼:/＼:/ 
+
+
+(Para KirisameExcalibur) gg!!
+ GG!
+ |  Take care.  |
+ |  Take care.  |
+XX ○                 _________________
+                    | Thank you.     |
+                ○   |  Take care.    |
+               ∧＿＿∧ ￣|/￣￣￣￣￣￣￣
+              (´・ω・)
+           ┌ (_つ/￣￣￣/_
+           旦 ＼:/￣￣￣:/
+
+           /macroerror off
+(Sylviari VorcressLeviathan) o/
+(Murasaki OkamiHyperion) pull the boom away from everyone
+```
+
+```
+<se.1>
+/p                      _________________
+/p                     | Thank you.      |
+/p                 ○   |  Take care.     |
+/p                ∧＿＿∧ ￣|/￣￣￣￣￣￣￣￣
+/p               (´・ω・)
+/p            ┌ (_つ/￣￣￣/_
+/p            旦 ＼:/￣￣￣:/
+<se.14>
+
+
+=-=
+
+/s <se.1>
+/s                      _________________
+/s                     | Thank you.      |
+/s                 ○   |  Take care.     |
+/s                ∧＿＿∧ ￣|/￣￣￣￣￣￣￣￣
+/s               (´・ω・)
+/s            ┌ (_つ/￣￣￣/_
+/s            旦 ＼:/￣￣￣:/
+/s <se.14>
+
+
+=-=
+
+/p
+            ／|／|
+        _r"        Ｚ_            '
+        ノ＜/  Vヽ〉              !!!
+ 　    ノ＜d ° ヮ °ﾉ   
+       ノ  <^ v  i>つ     ' 
+        (/7 |    |  i             
+　       /=----=ｊ       !
+           i_/ﾞ`t_i
+
+=-=
+
+
+/merror off
+/s <se.1><wait.1>
+/s                                _________________<wait.1>
+/s                               | Thank you.      |<wait.1>
+/s                 ○          |  Take care.       |<wait.1>
+/s                ∧＿＿∧ ￣|/￣￣￣￣￣￣￣￣<wait.1>
+/s               (´・ω・)<wait.1>
+/s            ┌ (_つ/￣￣￣/_<wait.1>
+/s            旦 ＼:/￣￣￣:/<wait.1>
+/s <se.14><wait.1>
+/merror off
+
+(╯°□°)╯︵ ┻━┻
+
+
+```
+
+```
+I ,[____],
+I- -- *-0IIII0-
+()_) ()_)-o-)_) beep beep !!
+```
+
+```
+「 SHØ T 」 ≪Eden Savage 9-12S― TEA/UwU/UCoB― Mounts ― BLU― DRS≫ Fast ★ Reliable | Discord→ Reo#6502
+```
+
+###
+
+### October 2021
+
+> mount farming in ff14 with a group from we are sitting in a voice chat that has a group from the discord and linkshell. I verified my name and profile on lodestone to then have that sign me in to the ffcolect site that should let me track the progress of my spells to be able to optimize the list and order i get them in. there are are 100-114 spells in total.
+
+this night i went into the maops with group d
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>BACKGROUND
+<h2>Convert a JavaScript object into a JSON string, and send it to the server.</h2>
+
+<script>
+  const hiddenObj = { name: "Joel", age: 36, city: "Pittsburgh" };
+  const siteFeed = JSON.stringify(hiddenObj);
+  window.location = "demo_json.php?x=" + siteFeed;
+</script>
+
+</body>
+</html>
