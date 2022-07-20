@@ -1,4 +1,43 @@
 /* 2022 additions */
-body {
-  color: red !important;
+.palette-darkolive {
+  background-color: #1a1e1c;
+  color: #1a3acc;
+}
+@media (min-width: 768px) {
+  .wrapper {
+    /* padding-top: 0px; */
+  }
+}
+.tile-splash {
+  background: white;
+}
+.tile-splash p,
+.tile-splash a {
+  font-size: 16px;
+  padding: 2.3em 18px;
+}
+.tile-splash.tile-last p,
+.tile-splash.tile-last a {
+  padding: 1.3em 18px;
+}
+.tile-splash.tile-last {
+  margin: 0 auto 3em auto;
+}
+.tile-splash .tile-index {
+  float: left;
+  display: inline-block;
+}
+.tile-splash .tile-detail {
+  float: right;
+  font-size: 14px;
+  text-align: right;
+  display: block;
+  margin: 3px 0 0 0;
+}
+.home-lead {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+.footer-para {
+  height: 254px;
 }
