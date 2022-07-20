@@ -1,4 +1,16 @@
 /* 2022 additions */
+/* html,
+body {
+  background-color: #1a1e1c !important;
+} */
+.wrapper {
+  background-color: #1a1e1c !important;
+}
+@media (min-width: 992px) {
+  .wrapper {
+    padding-top: 0px;
+  }
+}
 .palette-darkolive {
   background-color: #1a1e1c;
   color: #1a3acc;
@@ -8,23 +20,55 @@
     /* padding-top: 0px; */
   }
 }
+.toggle {
+  height: 0;
+  margin-bottom: 0;
+  float: left;
+  display: block;
+  width: 100%;
+}
+.toggle:nth-child(1) {
+  z-index: 999;
+}
 .toggle .quote-toggle {
   background-color: white;
+  padding: 0 18px;
+}
+.quote-toggle a {
+  color: inherit;
+  border-bottom: none;
+  text-decoration: none !important;
+}
+.quote-toggle .material-icons {
+  vertical-align: middle;
+}
+@media (max-width: 767px) {
+  .toggle .quote-toggle {
+    width: 200px;
+    font-size: 1.2em;
+  }
+  .wrapper {
+    padding: 0px;
+  }
 }
 .tile-splash {
   background: white;
 }
-.tile-splash p,
-.tile-splash a {
-  font-size: 16px;
+.tile-spacer {
   padding: 2.3em 18px;
 }
-.tile-splash.tile-last p,
-.tile-splash.tile-last a {
+.tile-splash p {
+  padding: 2.3em 18px;
+}
+.tile-splash.tile-last p {
   padding: 1.3em 18px;
 }
 .tile-splash.tile-last {
   margin: 0 auto 3em auto;
+}
+.tile-splash p,
+.tile-splash a {
+  font-size: 16px;
 }
 .tile-splash .tile-index {
   float: left;
@@ -43,4 +87,9 @@
 }
 .footer-para {
   height: 254px;
+}
+@media (min-width: 768px) {
+  .footer-para {
+    height: 450px;
+  }
 }
