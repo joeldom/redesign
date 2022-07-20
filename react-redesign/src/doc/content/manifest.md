@@ -960,6 +960,10 @@ characters finding out the sun has gone at somepoint over the night in their tim
 
 <iframe src="https://open.spotify.com/embed/track/7zCj8qC5B26xH6hnz4A2Vf" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 <iframe src="https://open.spotify.com/embed/track/2orRv3uoKgjfjWAa62ckaN" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<img style="padding:.69em; border:.39em solid #1a3acc; background: #142a2d
+; display:inline-block; width:100%;" src="https://static.techspot.com/images2/news/bigimage/2019/04/2019-04-05-image-8.jpg"/>
+<img style="padding:.69em; border:.39em solid #1a3acc; background: #142a2d
+; display:inline-block; width:100%;" src="https://starctmag.com/wp-content/uploads/2019/03/83-Supermassive-Black-Holes-in-the-Early-Universe-Study.jpg"/>
 <img width="100%" src="https://static.techspot.com/images2/news/bigimage/2019/04/2019-04-05-image-8.jpg"/>
 <img width="100%" src="https://starctmag.com/wp-content/uploads/2019/03/83-Supermassive-Black-Holes-in-the-Early-Universe-Study.jpg"/>
 <img width="100%" src="https://scitechdaily.com/images/Black-Hole.jpg"/>
@@ -1681,7 +1685,7 @@ ITEM NAME...x............x..........X............x..x...........X...........x...
 ...
 
 ```
-
+https://youtu.be/-gSD80Hjzco
 ```
 
 excess post format
@@ -1693,7 +1697,7 @@ tags.............................
 #generative #code #abstract #digitize #program #design #bw #2020
 
 ```
-
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXdescription..............playlist__version.....................00.00__title...............tao dao tōtsū__tags.............dark rock, metal
 ```
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -2216,3 +2220,59 @@ this night i went into the maops with group d
 
 </body>
 </html>
+
+## SYSTEM DESIGN OVERVIEW
+
+> setting up new resume and asset library for public distribution and marketing of social and professional presence in 2022 and moving forward to the the point of where i can setup a semi automated social instances with a few scripts and or browser autmation tasks. The idea behind the systems designer and marketing being sperate is to show diversity in the range of skills i have with different languages and services and how to add the workflow of how to build the product as well as how the end user will have a workflow disimilar to the development of it.
+
+### SITE OUTLINE
+
+- splash
+- directory
+- site (my portfoilio)
+  - home
+    - work
+    - ideas
+    - info
+- resume
+- styleguide
+- sandbox (github repo subdirectory)
+- contact (social linktree)
+
+Writing summaries of the work and intros into some philosophy and concepts that were intended along with a long message
+
+## D R E A M S C A P E S
+
+This will be where we discuss on going times in dreams and explore if there is a story here and try to decern what happens in it.
+
+1. The time we were all up in an alpine trailer park that had all sorts of "The Thing" vibes but the monster was never a seen one and it was a more mix of "sphere" like scenario that was as if we were speaking with an AI or Alien type of lifeform. The thoughts we having manifested like in "Dreamcatcher" and we were stuck there with Optimum, Gwen, Jamie, Ina and we had to bunk up by the fire and keep warm while having some drinks and making food for ourselves that we all sat around and would be easy to make with all of us. We would have to venture out to reset the power saving generator in the power station.
+2. A town similiar to that of the "Regulators" and we are all in an old house with room dividing doors and all staying centered in the living room much like how Sid had his apartment.
+
+---
+
+### TOO HUMAN / THE WILL
+
+> "The safest way of not being very miserable is not to expect to be very happy." ~ Arthur Schopenhauer
+
+With the aim to better ones self and be the best woke trancendental caring person that one can be within a given setting.
+
+## DATA SCIENCE 22
+
+Google's LAMDA (language model for dialog applications) for real speech and cognitive interaction. Star-gate for information digestion and communication with the goal
+
+### E N C O D E
+
+writing in languages that is intended to be inturpreted on multiple layers or levels of language itself.
+
+### Final Chaos
+
+<img style="padding:.69em; border:.39em solid #1a3acc; background: #142a2d
+; display:inline-block; width:100%;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Lorenz_attractor_yb.svg/800px-Lorenz_attractor_yb.svg.png"/>
+
+## Bibendum Entity
+
+> telling a story that no matter how crazy or weird things can get the reader is engaged and almost trusts the writer and they dont actually want the story to end and depending on the genre is how it is decided to conclude
+
+Walking home to top of the hill from where the bus from downtown would let me off I was following the sidewalk and decided to change sides of the street.
+
+{captureBefore} [x]
