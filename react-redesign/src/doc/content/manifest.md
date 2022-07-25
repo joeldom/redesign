@@ -865,15 +865,15 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | orgy: candyass                     | i am mother (netflix)               | knights of the old republic |                                           | gravitational waves     |                        |                      |
 | orgy: vapor transmission           | ex machina                          | portal 1 & 2                |                                           | ultraviolet catastrophe |                        |                      |
 | marilyn manson: mechanical animals | the ring                            | Elden Ring                  |                                           | Fugue state             |                        |                      |
-| giant swan                         | arrival                             |                             |                                           | disambiguation          |                        |                      |
-|                                    | bladerunner 2049                    |                             |                                           | wave function           |                        |                      |
+| giant swan                         | arrival                             | shin megami tensei          |                                           | disambiguation          |                        |                      |
+| suspiria : thom yorke              | bladerunner 2049                    |                             |                                           | wave function           |                        |                      |
 |                                    | stalker                             |                             |                                           | fermi paradox           |                        |                      |
 |                                    | american ninja 1 & 2                |                             |                                           |                         |                        |                      |
 |                                    | birdbox                             |                             |                                           |                         |                        |                      |
 |                                    | the leftovers                       |                             |                                           |                         |                        |                      |
 |                                    | 2001 A Space Odessy                 |                             |                                           |                         |                        |                      |
 |                                    | Eyes Wide Shut                      |                             |                                           |                         |                        |                      |
-|                                    |                                     |                             |                                           |                         |                        |                      |
+|                                    | The Shining                         |                             |                                           |                         |                        |                      |
 |                                    |                                     |                             |                                           |                         |                        |                      |
 
 ## <iframe style="border:56px solid #142a2d;" src="https://open.spotify.com/embed/playlist/0MGloRcukbDgmiCr7HJ53w" width="480" height="760" frameborder="56" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -1123,7 +1123,7 @@ subconscience refference list
 ## praeter puellas
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-ali h., beth p., jessica j., savanna s., kanda b., savanna s., cinco de mayo, ohio, kristen \$., kat p., karie w., cheri m., molly j., michelle k., eddy d.,
+ali h., beth p., jessica j., savanna s., kanda b., savanna s., cinco de mayo, ohio, kristen ., kat p., karie w., cheri m., molly j., michelle k., eddy d.,
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 =======
@@ -1933,7 +1933,7 @@ node express lamda
   ITEM NAME..........................X............................X...........................X.............................LG
   ITEM NAME..........................X............................X...........................X.............................XL
   +---------------------------------------------------------------------------------------------------------------------------+.
-  CALANDER                                                                                                                2021
+  CALENDAR                                                                                                                2021
   +---------------------------------------------------------------------------------------------------------------------------+
      JAN       FEB       MAR       APR       MAY       JUN       JUL       AUG       SEP       OCT       NOV       DEC
   +---------------------------------------------------------------------------------------------------------------------------+
