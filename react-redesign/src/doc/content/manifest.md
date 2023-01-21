@@ -37,6 +37,7 @@
                      $medium-grey: #C4C4C4;
                      $warm-black: #2D2828;
                      $deap-green: #0A202E;
+                     $deep-root: #004161;
 
 
                              urls
@@ -2081,15 +2082,15 @@ Kintsuku's name is inspired by the Japanese art form Kintsukuroi. It involves re
 
 **StreamElements**
 
-```json
-: ༝✧▬▬▬▬▬ஜ˚*❋𝒮𝒪𝒞𝐼𝒜𝐿𝒮❋*˚ஜ▬▬▬▬▬✧༝ :
+```js
+:          ༝✧▬▬▬▬▬ஜ˚*❋𝒮𝒪𝒞𝐼𝒜𝐿𝒮❋*˚ஜ▬▬▬▬▬✧༝          :
 https://soundcloud.com/kintsukumusic 🌸 Soundcloud
-https://www.instagram.com/kintsuku_ 🌸 Instagram
-https://facebook.com/kintsukumusic 🌸 Facebook
-https://discord.gg/ekdhY3u 🌸 Discord
-https://www.youtube.com/kintsuku 🌸 Youtube
-https://sptfy.com/dyUH 🌸 Spotify
-▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬
+ https://www.instagram.com/kintsuku_ 🌸 Instagram
+  https://facebook.com/kintsukumusic 🌸 Facebook
+          https://discord.gg/ekdhY3u 🌸 Discord
+    https://www.youtube.com/kintsuku 🌸 Youtube
+              https://sptfy.com/dyUH 🌸 Spotify
+              ▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬
 ```
 
 # JOB
@@ -2280,3 +2281,29 @@ Walking home to top of the hill from where the bus from downtown would let me of
 ### CEI CALL
 
 this the tech stack of the
+
+## DISCORD CALL
+
+- nicotine nipple pasties
+- goop eggs that hatch toothpaste capsules
+- spoder hiding in p[a]tty hair
+- nicotine by the foot
+-
+
+======
+
+BNY INTERVIEW 1130 11 17 2022
+
+what melon . com
+
+follow up INTERVIEW
+
+what are some things expected of the role?
+what would the interfacing be with the team?
+what sort of projects are in the works to start on upon starting?
+what is the goal of the role?
+what has the experience been with past persons in the role?
+is this a new postion?
+
+Anthony:
+Ali:
