@@ -351,3 +351,29 @@ p {
     background-color: white;
   }
 }
+/* BUG : meant to have img in be tween panes */
+/* .grid .grid-inner.full-3 article:before {
+  background-color: red !important;
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 5%,
+    pink 50%,
+    black 95%,
+    transparent 100%
+  );
+  transition: mask-image 800ms;
+} */
+
+/* related posts section grid-3 fill article
+   expand animation with new mask gradient */
+/* .aperature-effect {
+  mask-image: linear-gradient(
+    to right,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  transition: mask-image 800ms;
+} */
