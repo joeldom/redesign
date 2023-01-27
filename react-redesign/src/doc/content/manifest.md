@@ -2307,3 +2307,25 @@ is this a new postion?
 
 Anthony:
 Ali:
+
+---
+
+# 3rd week at BNY
+
+**UX SYNC chat**
+
+Work projects:
+tasks:
+meetings: 10-11am iMATS, UX Sync 930 1030
+
+this is the meeting notes then we can talk about expectations for work goin forward.
+
+# 4th week at BNY
+
+**Pinpoint**
+issues:
+
+in-flight: walkthrough of the app
+
+**IM DSM**
+new working design file for refferencing the parts of the apps that pertain to new business.
