@@ -867,7 +867,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | orgy: vapor transmission           | ex machina                          | portal 1 & 2                |                                           | ultraviolet catastrophe |                        |                      |
 | marilyn manson: mechanical animals | the ring                            | Elden Ring                  |                                           | Fugue state             |                        |                      |
 | giant swan                         | arrival                             | shin megami tensei          |                                           | disambiguation          |                        |                      |
-| suspiria : thom yorke              | bladerunner 2049                    |                             |                                           | wave function           |                        |                      |
+| suspiria : thom yorke              | bladerunner 2049                    | returnal                    |                                           | wave function           |                        |                      |
 |                                    | stalker                             |                             |                                           | fermi paradox           |                        |                      |
 |                                    | american ninja 1 & 2                |                             |                                           |                         |                        |                      |
 |                                    | birdbox                             |                             |                                           |                         |                        |                      |
@@ -2329,3 +2329,15 @@ in-flight: walkthrough of the app
 
 **IM DSM**
 new working design file for refferencing the parts of the apps that pertain to new business.
+
+# Z W E I S : G R A U S
+
+> La Last Bandata
+
+# SELF PORTRAIT 2023-12345678901234567890123456789012345678901234567890
+
+> frames of parts of my face done in a mix media pen and ink black and white
+>
+> **CONTRA MEMORIA**
+
+# Nothing Sacred
