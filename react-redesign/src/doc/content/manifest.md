@@ -2288,7 +2288,7 @@ this the tech stack of the
 - goop eggs that hatch toothpaste capsules
 - spoder hiding in p[a]tty hair
 - nicotine by the foot
--
+- 
 
 ======
 
@@ -2340,4 +2340,21 @@ new working design file for refferencing the parts of the apps that pertain to n
 >
 > **CONTRA MEMORIA**
 
-# Nothing Sacred
+# Nothing Sacred Filter
+
+- familiarity with cryptography
+- esoteric design & philosophy
+- pressed flowers assemblage 
+- quarry rock slices with texture and color patterning
+- 
+## DREAMSCAPE - Dark Universe - 8.16.2023
+
+Meeting my GF in the making Priya we pack our bags and set off to Boston via train over the course of a few days. We sit down and talk about our lives for some time discussing what we plan to do and how happy we are to be leaving very early. We just begin to lay down before we both realize we are already on the trip and remark on the dark sky in the early morning. Going thru our discussed process as if it were set to auto-run. 
+
+# DSM 
+
+## design changes 
+
+using the fonts to add them to a sharable location on Sharepoint site for new team members
+
+moving the input fields to the list of compoments to show when pulled into a design file to 
