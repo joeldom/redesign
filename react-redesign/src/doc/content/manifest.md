@@ -831,6 +831,10 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 - embryology - [embryo of frog development](https://embryology.med.unsw.edu.au/embryology/index.php/Book_-_Text-Book_of_Embryology_5)
 - Ernst Haeckel - [German Zoologist](https://www.google.com/search?q=Ernst+Haeckel)
 
+<p style="background-color:#2D2828;padding:3em;border:8px solid black;">
+<span style="color:#1A1E1C;font-size:36px;line-height:.75;font-weight:900;">THE<br/> BACKGROUND<br/>WORLD</span>
+</p>
+
 | music                              | film                                | games                       | book                                      | science                 | art                    | patterns             |
 | ---------------------------------- | ----------------------------------- | --------------------------- | ----------------------------------------- | ----------------------- | ---------------------- | -------------------- |
 | buckethead                         | blue velvet                         | final fantasy 6             | house of leaves                           | tesla                   | vinyl sticker          | native american      |
@@ -868,14 +872,38 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | marilyn manson: mechanical animals | the ring                            | Elden Ring                  |                                           | Fugue state             |                        |                      |
 | giant swan                         | arrival                             | shin megami tensei          |                                           | disambiguation          |                        |                      |
 | suspiria : thom yorke              | bladerunner 2049                    | returnal                    |                                           | wave function           |                        |                      |
-|                                    | stalker                             |                             |                                           | fermi paradox           |                        |                      |
-|                                    | american ninja 1 & 2                |                             |                                           |                         |                        |                      |
+|                                    | stalker                             | vampire survivor            |                                           | fermi paradox           |                        |                      |
+|                                    | american ninja 1 & 2                | darkstalkers                |                                           |                         |                        |                      |
 |                                    | birdbox                             |                             |                                           |                         |                        |                      |
 |                                    | the leftovers                       |                             |                                           |                         |                        |                      |
 |                                    | 2001 A Space Odessy                 |                             |                                           |                         |                        |                      |
 |                                    | Eyes Wide Shut                      |                             |                                           |                         |                        |                      |
 |                                    | The Shining                         |                             |                                           |                         |                        |                      |
 |                                    |                                     |                             |                                           |                         |                        |                      |
+
+---
+
+| sony playstation | sega saturn         |
+| ---------------- | ------------------- |
+| resident evil 2  | vampire survivor    |
+|                  | panzer dragoon saga |
+|                  | fighers megamix     |
+|                  |                     |
+
+---
+
+|     | Value | px                  |
+| --- | ----- | ------------------- |
+| λ₀  | Zero  | 8 16 32 64 72 90 px |
+| λ₁  | One   | 8 16 32 64 72 90 px |
+| λ₂  | Two   | 8 16 32 64 72 90 px |
+| λ₃  | Three | 8 16 32 64 72 90 px |
+| λ₄  | Four  | 8 16 32 64 72 90 px |
+| λ₅  | Five  | 8 16 32 64 72 90 px |
+| λ₆  | Six   | 8 16 32 64 72 90 px |
+| λ₇  | Seven | 8 16 32 64 72 90 px |
+| λ₈  | Eight | 8 16 32 64 72 90 px |
+| λ₉  | Nine  | 8 16 32 64 72 90 px |
 
 ## <iframe style="border:56px solid #142a2d;" src="https://open.spotify.com/embed/playlist/0MGloRcukbDgmiCr7HJ53w" width="480" height="760" frameborder="56" allowtransparency="true" allow="encrypted-media"></iframe>
 
@@ -2288,7 +2316,7 @@ this the tech stack of the
 - goop eggs that hatch toothpaste capsules
 - spoder hiding in p[a]tty hair
 - nicotine by the foot
-- 
+-
 
 ======
 
@@ -2344,17 +2372,30 @@ new working design file for refferencing the parts of the apps that pertain to n
 
 - familiarity with cryptography
 - esoteric design & philosophy
-- pressed flowers assemblage 
+- pressed flowers assemblage
 - quarry rock slices with texture and color patterning
-- 
+-
+
 ## DREAMSCAPE - Dark Universe - 8.16.2023
 
-Meeting my GF in the making Priya we pack our bags and set off to Boston via train over the course of a few days. We sit down and talk about our lives for some time discussing what we plan to do and how happy we are to be leaving very early. We just begin to lay down before we both realize we are already on the trip and remark on the dark sky in the early morning. Going thru our discussed process as if it were set to auto-run. 
+Meeting my GF in the making Priya we pack our bags and set off to Boston via train over the course of a few days. We sit down and talk about our lives for some time discussing what we plan to do and how happy we are to be leaving very early. We just begin to lay down before we both realize we are already on the trip and remark on the dark sky in the early morning. Going thru our discussed process as if it were set to auto-run.
 
-# DSM 
+# DSM
 
-## design changes 
+## design changes
 
 using the fonts to add them to a sharable location on Sharepoint site for new team members
 
-moving the input fields to the list of compoments to show when pulled into a design file to 
+moving the input fields to the list of compoments to show when pulled into a design file to
+
+## WM design system component list
+
+for all of the display components and larger pattern level
+
+# GROWTH FORMULA
+
+- Trash on Sun/Mon
+- Office cleaning every other day
+- Boxes collected
+- Bathroom wipedown
+-
