@@ -6,19 +6,26 @@ document.addEventListener("DOMContentLoaded", function() {
       var termList = document.getElementById("termList");
       var currentIndex = 0;
       var isPaused = false; // Flag to track if the terms are paused
+      var shuffledTerms = shuffleArray(jsonData.terms);
+
+      function shuffleArray(array) {
+        // Function to shuffle the array randomly
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
 
       function displayNextTerm() {
         if (!isPaused) {
-          var item = jsonData.terms[currentIndex];
-          var li = document.createElement("li");
-          li.textContent = `${item.id}. ${item.term}: ${item.definition}`;
-          termList.innerHTML = ""; // Clear previous term
-          termList.appendChild(li);
+          var item = shuffledTerms[currentIndex];
+          termList.textContent = `${item.id}. ${item.term}: ${item.definition}`;
 
           // Log ID and term to the console
           console.log(`ID: ${item.id}, Term: ${item.term}`);
 
-          currentIndex = (currentIndex + 1) % jsonData.terms.length;
+          currentIndex = (currentIndex + 1) % shuffledTerms.length;
         }
       }
 

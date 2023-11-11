@@ -25,18 +25,18 @@ li {
 }
 
 #pauseButton {
-  background-color: #007bff;
+  background-color: #1a3acc;
   color: #fff;
-  border: 2px solid #007bff;
+  border: 2px solid #1a3acc;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
 }
 
 #pauseButton.play {
   /* Styles for the play state */
-  background-color: #007bff; /* Blue background */
-  border-color: #007bff; /* Blue border */
+  background-color: #1a3acc; /* Blue background */
+  border-color: #1a3acc; /* Blue border */
   color: #fff; /* White text */
 }
 
