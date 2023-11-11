@@ -33,6 +33,13 @@ document.addEventListener("DOMContentLoaded", function() {
       pauseButton.addEventListener("click", function() {
         isPaused = !isPaused;
         pauseButton.textContent = isPaused ? "Resume" : "Pause";
+
+        // Toggle 'paused' and 'play' classes based on the state
+        pauseButton.classList.toggle("paused", isPaused);
+        pauseButton.classList.toggle("play", !isPaused);
+
+        // Log the current state to the console
+        console.log(`Terms are ${isPaused ? "paused" : "resumed"}`);
       });
     })
     .catch(error => console.error("Error fetching JSON:", error));
