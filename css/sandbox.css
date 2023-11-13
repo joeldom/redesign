@@ -30,3 +30,8 @@ svg path {
     fill: inherit !important;
     animation: color-change 5s infinite !important;
 }
+
+.scroll-pane {
+    overflow-x: hidden;
+    height: 800px;
+}
