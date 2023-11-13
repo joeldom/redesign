@@ -1,101 +1,102 @@
 /* 2022 additions */
+
 html,
 body {
-  /* background-color: #1a1e1c !important; */
-  font-family: "Inter", sans-serif !important;
+    /* background-color: #1a1e1c !important; */
+    font-family: "Inter", sans-serif !important;
 }
+
 .wrapper {
-  background-color: #1a1e1c !important;
+    background-color: #1a1e1c !important;
 }
+
 @media (min-width: 992px) {
-  .wrapper {
-    padding-top: 0px;
-  }
+    .wrapper {
+        padding-top: 0px;
+    }
 }
+
 .footer-brand {
-  opacity: 1 !important;
+    opacity: 1 !important;
 }
+
 .palette-darkolive {
-  background-color: #1a1e1c;
-  color: #1a3acc;
+    background-color: #1a1e1c;
+    color: #1a3acc;
 }
+
 @media (min-width: 768px) {
-  .wrapper {
-    /* padding-top: 0px; */
-  }
+    .wrapper {
+        /* padding-top: 0px; */
+    }
 }
+
 .pattern-bg {
-  background-color: #1a1e1c;
-  opacity: 1;
-  /* background-image: linear-gradient(#444cf7 2px, transparent 2px),
+    background-color: #1a1e1c;
+    opacity: 1;
+    /* background-image: linear-gradient(#444cf7 2px, transparent 2px),
     linear-gradient(90deg, #444cf7 2px, transparent 2px),
     linear-gradient(#444cf7 1px, transparent 1px),
     linear-gradient(90deg, #444cf7 1px, #e5e5f7 1px);
   background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
-  /* background-image: url("https://raw.githubusercontent.com/joeldom/asset/main/patterns/doodad-1.png"); */
-  /* ---- */
-  /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='31' height='31' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 30, 28,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L36 1h-32v38z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L4 39h32v-38z' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L0 40h40v-40z' fill='rgba(26, 58, 204, 1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L40 0h-40v40z' fill='rgba(26, 32, 44,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E "); */
-  /* ---- */
-  /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='60' height='60' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 30, 28,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L36 1h-32v38z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L4 39h32v-38z' fill='rgba(113, 128, 150,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L0 40h40v-40z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L40 0h-40v40z' fill='rgba(113, 128, 150,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E "); */
-  background-repeat: repeat;
-  background-attachment: fixed;
-  /* background-size: cover; */
+    /* background-image: url("https://raw.githubusercontent.com/joeldom/asset/main/patterns/doodad-1.png"); */
+    /* ---- */
+    /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='31' height='31' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 30, 28,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L36 1h-32v38z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L4 39h32v-38z' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L0 40h40v-40z' fill='rgba(26, 58, 204, 1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L40 0h-40v40z' fill='rgba(26, 32, 44,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E "); */
+    /* ---- */
+    /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='60' height='60' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 30, 28,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L36 1h-32v38z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L4 39h32v-38z' fill='rgba(113, 128, 150,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L0 40h40v-40z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L40 0h-40v40z' fill='rgba(113, 128, 150,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E "); */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    /* background-size: cover; */
 }
-svg path {
-  fill: #1a3acc !important;
-  animation: color-change 5s infinite !important;
+
+.tile-splash svg path {
+    fill: #1a3acc !important;
+    animation: color-change 5s infinite !important;
 }
+
 .toggle {
-  height: 0;
-  margin-bottom: 0;
-  float: left;
-  display: block;
-  width: 100%;
+    height: 0;
+    margin-bottom: 0;
+    float: left;
+    display: block;
+    width: 100%;
 }
+
 .toggle:nth-child(1) {
-  z-index: 999;
+    z-index: 999;
 }
+
 .toggle .quote-toggle {
-  /* background-color: white; */
-
-  /* light */
-  background: rgb(26, 58, 204);
-  background: linear-gradient(
-    90deg,
-    rgba(26, 58, 204, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-
-  /* med */
-  background: rgb(26, 58, 204);
-  background: linear-gradient(
-    90deg,
-    rgba(26, 58, 204, 0.3981793400954131) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
-
-  /* gradient */
-  background: rgb(26, 58, 204);
-  background: linear-gradient(
-    90deg,
-    rgba(26, 58, 204, 0) 0%,
-    rgba(26, 58, 204, 0.24691883589373254) 61%,
-    rgba(255, 255, 255, 1) 100%
-  );
-  padding: 0 18px;
+    /* background-color: white; */
+    /* light */
+    background: rgb(26, 58, 204);
+    background: linear-gradient( 90deg, rgba(26, 58, 204, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    /* med */
+    background: rgb(26, 58, 204);
+    background: linear-gradient( 90deg, rgba(26, 58, 204, 0.3981793400954131) 0%, rgba(255, 255, 255, 1) 100%);
+    /* gradient */
+    background: rgb(26, 58, 204);
+    background: linear-gradient( 90deg, rgba(26, 58, 204, 0) 0%, rgba(26, 58, 204, 0.24691883589373254) 61%, rgba(255, 255, 255, 1) 100%);
+    padding: 0 18px;
 }
+
 .quote-toggle a {
-  color: inherit;
-  border-bottom: none;
-  text-decoration: none !important;
+    color: inherit;
+    border-bottom: none;
+    text-decoration: none !important;
 }
+
 .quote-toggle .material-icons {
-  vertical-align: middle;
+    vertical-align: middle;
 }
+
+
 /* .col-*:has(> figure) {
   background: red;
 } */
+
+
 /* .quote {
   margin: 0;
   padding: 2vw;
@@ -104,147 +105,180 @@ svg path {
 .quote blockquote {
   margin: 0;
 } */
+
 @media (max-width: 767px) {
-  .toggle .quote-toggle {
-    width: 200px;
-    font-size: 1.2em;
-  }
-  .wrapper {
-    padding: 0px;
-  }
+    .toggle .quote-toggle {
+        width: 200px;
+        font-size: 1.2em;
+    }
+    .wrapper {
+        padding: 0px;
+    }
 }
+
 .tile-splash {
-  background: white;
-  /* border: 1px solid #4ba41d; */
-  border: 1px solid rgba(55, 55, 55, 1);
-  animation: morph 3s linear infinite;
+    background: white;
+    /* border: 1px solid #4ba41d; */
+    border: 1px solid rgba(55, 55, 55, 1);
+    animation: morph 3s linear infinite;
 }
+
 .tile-splash:hover {
-  background: white !important;
-  animation: none;
-  border: 1px solid #7ae145;
-  transition: border 700ms;
-  box-shadow: 4px 5px 10px 0px #000;
-  transition: box-shadow 200ms;
+    background: white !important;
+    animation: none;
+    border: 1px solid #7ae145;
+    transition: border 700ms;
+    box-shadow: 4px 5px 10px 0px #000;
+    transition: box-shadow 200ms;
 }
+
 .tile-splash:active {
-  background: white !important;
-  animation: none;
-  border: 1px solid #7f7cf9;
-  transition: border 700ms;
-  box-shadow: -4px -5px 10px 0px #000;
-  transition: box-shadow 200ms;
+    background: white !important;
+    animation: none;
+    border: 1px solid #7f7cf9;
+    transition: border 700ms;
+    box-shadow: -4px -5px 10px 0px #000;
+    transition: box-shadow 200ms;
 }
+
 .tile-splash strong {
-  font-weight: 800;
+    font-weight: 800;
 }
+
+
 /* .tile-splash:hover {
   box-shadow: -6px -8px #464f4a;
 } */
+
 .tile-splash.first {
-  margin-top: 12vh;
-  padding: 0.3em 18px 1.3em 0;
+    margin-top: 12vh;
+    padding: 0.3em 18px 1.3em 0;
 }
+
 .tile-spacer {
-  padding: 2.3em 18px;
+    padding: 2.3em 18px;
 }
+
+
 /* .row:nth-child(1) .tile-splash p {
   padding: 2.3em 18px 1.3em 18px;
 } */
+
+
 /* .tile-splash p:nth-child(1) {
   padding: 2.3em 18px 1.3em 18px;
 } */
+
 .tile-splash p {
-  padding: 2.3em 18px 0.3em 18px;
+    padding: 2.3em 18px 0.3em 18px;
 }
+
 .tile-splash.tile-last p {
-  padding: 2.3em 18px 0.3em 18px;
+    padding: 2.3em 18px 0.3em 18px;
 }
+
 .tile-splash.tile-last {
-  margin: 0 auto 3em auto;
+    margin: 0 auto 3em auto;
 }
+
 .tile-splash p,
 .tile-splash a {
-  font-size: 16px;
-  color: #101940;
-  -webkit-animation: color-change 3s infinite;
-  -moz-animation: color-change 3s infinite;
-  -o-animation: color-change 3s infinite;
-  -ms-animation: color-change 3s infinite;
-  animation: color-change 3s infinite;
+    font-size: 16px;
+    color: #101940;
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
 }
+
 .tile-splash p:hover,
 .tile-splash a:hover {
-  font-size: 16px;
-  color: #1a3acc !important;
-  animation: none 1s infinite;
+    font-size: 16px;
+    color: #1a3acc !important;
+    animation: none 1s infinite;
 }
+
 .tile-splash svg {
-  position: absolute;
-  right: 18px;
-  margin: 6px 18px;
+    position: absolute;
+    right: 18px;
+    margin: 6px 18px;
 }
+
 .tile-splash svg.inline {
-  position: relative;
-  display: inline-block;
-  margin: 6px 0 0 18px;
+    position: relative;
+    display: inline-block;
+    margin: 6px 0 0 18px;
 }
+
+
 /* https://stackoverflow.com/questions/30240181/can-i-apply-animations-to-margins */
+
 .tile-splash a:hover svg,
 .tile-splash p:hover svg {
-  margin: 6px 0 0 100%;
-  transition: margin 700ms;
+    margin: 6px 0 0 100%;
+    transition: margin 700ms;
 }
+
 .tile-splash a:hover svg.inline,
 .tile-splash p:hover svg.inline {
-  margin: 6px 0 6px36px;
+    margin: 6px 0 6px36px;
 }
+
 .tile-splash .tile-index {
-  float: left;
-  display: inline-block;
+    float: left;
+    display: inline-block;
 }
+
 .tile-splash .tile-detail {
-  float: right;
-  font-size: 12px;
-  text-align: right;
-  display: block;
-  margin: 6px 0 0 0;
+    float: right;
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    margin: 6px 0 0 0;
 }
+
 .home-lead {
-  padding-top: 4vw;
-  padding-bottom: 4vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
+
 .footer-para {
-  height: 254px;
-  font-weight: 600 !important;
+    height: 254px;
+    font-weight: 600 !important;
 }
+
 .footer-para strong {
-  font-weight: 800;
+    font-weight: 800;
 }
+
 @media (max-width: 767px) {
-  .tile-splash,
-  .tile-last {
-    margin: 0 25px !important;
-  }
-  .toggle .quote-toggle {
-    width: 215px;
-    font-size: 1.19em;
-    color: #606060 !important;
-    height: 4vw;
-    min-height: 25px;
-    opacity: 0.5;
-    background: rgba(50, 50, 50, 0.5) !important;
-  }
-  .toggle .quote-toggle:hover {
-    background-color: rgba(50, 50, 50, 1);
-    color: grey;
-    opacity: 1;
-  }
-  .footer-para {
-    height: 450px;
-  }
+    .tile-splash,
+    .tile-last {
+        margin: 0 25px !important;
+    }
+    .toggle .quote-toggle {
+        width: 215px;
+        font-size: 1.19em;
+        color: #606060 !important;
+        height: 4vw;
+        min-height: 25px;
+        opacity: 0.5;
+        background: rgba(50, 50, 50, 0.5) !important;
+    }
+    .toggle .quote-toggle:hover {
+        background-color: rgba(50, 50, 50, 1);
+        color: grey;
+        opacity: 1;
+    }
+    .footer-para {
+        height: 450px;
+    }
 }
+
+
 /* \\\\\\\ button -> animation \\\\\\\\ */
+
 
 /* p {
   animation: color-change 1s infinite;
@@ -259,99 +293,105 @@ p {
 } */
 
 @-webkit-keyframes color-change {
-  0% {
-    color: #101940;
-  }
-  50% {
-    color: #1a3acc;
-  }
-  100% {
-    color: #101940;
-  }
+    0% {
+        color: #101940;
+    }
+    50% {
+        color: #1a3acc;
+    }
+    100% {
+        color: #101940;
+    }
 }
+
 @-moz-keyframes color-change {
-  0% {
-    color: #101940;
-  }
-  50% {
-    color: #1a3acc;
-  }
-  100% {
-    color: #101940;
-  }
+    0% {
+        color: #101940;
+    }
+    50% {
+        color: #1a3acc;
+    }
+    100% {
+        color: #101940;
+    }
 }
+
 @-ms-keyframes color-change {
-  0% {
-    color: #101940;
-  }
-  50% {
-    color: #1a3acc;
-  }
-  100% {
-    color: #101940;
-  }
+    0% {
+        color: #101940;
+    }
+    50% {
+        color: #1a3acc;
+    }
+    100% {
+        color: #101940;
+    }
 }
+
 @-o-keyframes color-change {
-  0% {
-    color: #101940;
-  }
-  50% {
-    color: #1a3acc;
-  }
-  100% {
-    color: #101940;
-  }
+    0% {
+        color: #101940;
+    }
+    50% {
+        color: #1a3acc;
+    }
+    100% {
+        color: #101940;
+    }
 }
+
 @keyframes color-change {
-  0% {
-    color: #101940;
-  }
-  50% {
-    color: #1a3acc;
-  }
-  100% {
-    color: #101940;
-  }
+    0% {
+        color: #101940;
+    }
+    50% {
+        color: #1a3acc;
+    }
+    100% {
+        color: #101940;
+    }
 }
+
+
 /* \\\\\\\ button -> gradient -> animation \\\\\\\\ */
+
 .text-rainbow-animation {
-  font-family: arial black;
-  font-size: 70px;
-  background-image: linear-gradient(
-    to right,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet,
-    red
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: rainbow-animation 35s linear infinite;
+    font-family: arial black;
+    font-size: 70px;
+    background-image: linear-gradient( to right, red, orange, yellow, green, blue, indigo, violet, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow-animation 35s linear infinite;
 }
 
 @keyframes rainbow-animation {
-  to {
-    background-position: 4500vh;
-  }
+    to {
+        background-position: 4500vh;
+    }
 }
+
+
 /* \\\\\\\ background -> gradient -> animation \\\\\\\\ */
+
+
 /* #demo.swap { animation: morph 3s linear; } */
+
 @keyframes morph {
-  0% {
-    background-color: white;
-  }
-  50% {
-    background-color: #eeecec;
-  }
-  100% {
-    background-color: white;
-  }
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: #eeecec;
+    }
+    100% {
+        background-color: white;
+    }
 }
+
+
 /* BUG : meant to have img in be tween panes */
+
+
 /* .grid .grid-inner.full-3 article:before {
   background-color: red !important;
   mask-image: linear-gradient(
@@ -365,8 +405,11 @@ p {
   transition: mask-image 800ms;
 } */
 
+
 /* related posts section grid-3 fill article
    expand animation with new mask gradient */
+
+
 /* .aperature-effect {
   mask-image: linear-gradient(
     to right,

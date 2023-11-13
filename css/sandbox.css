@@ -1,0 +1,32 @@
+.footer-para #back-top {
+    position: absolute;
+    right: -16px;
+    top: -36px;
+}
+
+#back-top a,
+#back-top a i {
+    border: 3px solid white;
+    width: 48px;
+    height: 48px;
+    display: block;
+}
+
+#back-top a:hover {
+    background-color: white;
+    color: #1a3acc;
+    cursor: pointer;
+}
+
+#back-top svg {
+    width: 42px;
+}
+
+#back-top:hover svg path {
+    color: #1a3acc;
+}
+
+svg path {
+    fill: inherit !important;
+    animation: color-change 5s infinite !important;
+}
