@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>♥</title>
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/beyond/css/styles.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/greybox/css/coma.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+</head>
+
+<body>
+
+    <div id="term-container">Loading...</div>
+    <button id="pauseButton">Pause</button>
+
+    <script>
+        const termStrings = [{
+                "term": "Term 1"
+            }, {
+                "term": "Term 2"
+            }, {
+                "term": "Term 3"
+            }, {
+                "term": "Term 4"
+            },
+            // Add more JSON objects as needed
+        ];
+
+        let currentIndex = 0;
+        let intervalId;
+        const termContainer = document.getElementById("term-container");
+        const pauseButton = document.getElementById("pauseButton");
+
+        function shuffleTerms() {
+            termContainer.textContent = termStrings[currentIndex].term;
+            console.log(termStrings[currentIndex].term);
+            currentIndex = (currentIndex + 1) % termStrings.length;
+        }
+
+        function startShuffling() {
+            intervalId = setInterval(shuffleTerms, 750);
+            pauseButton.textContent = "Pause";
+            pauseButton.removeEventListener("click", startShuffling);
+            pauseButton.addEventListener("click", pauseShuffling);
+        }
+
+        function pauseShuffling() {
+            clearInterval(intervalId);
+            pauseButton.textContent = "Resume";
+            pauseButton.removeEventListener("click", pauseShuffling);
+            pauseButton.addEventListener("click", startShuffling);
+        }
+
+        // Start shuffling initially
+        startShuffling();
+    </script>
+
+</body>
+
+</html>

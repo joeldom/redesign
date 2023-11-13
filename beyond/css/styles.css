@@ -1,48 +1,62 @@
 /* styles.css */
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-weight: 100 !important;
 }
 
 h1 {
-  color: #333;
+    color: #333;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 li {
-  background-color: #fff;
-  margin: 5px;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#term-container {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #pauseButton {
-  background-color: #1a3acc;
-  color: #fff;
-  border: 2px solid #1a3acc;
-  padding: 10px 20px;
-  border-radius: 0px;
-  cursor: pointer;
+    background-color: #1a3acc;
+    color: #fff;
+    border: 2px solid #1a3acc;
+    padding: 10px 20px;
+    border-radius: 0px;
+    cursor: pointer;
+    border-color: white;
 }
 
 #pauseButton.play {
-  /* Styles for the play state */
-  background-color: #1a3acc; /* Blue background */
-  border-color: #1a3acc; /* Blue border */
-  color: #fff; /* White text */
+    /* Styles for the play state */
+    background-color: #1a3acc;
+    /* Blue background */
+    border-color: #1a3acc;
+    /* Blue border */
+    color: #fff;
+    /* White text */
 }
 
 #pauseButton.paused {
-  /* Styles for the paused state */
-  background-color: #dc3545; /* Red background */
-  border-color: #dc3545; /* Red border */
-  color: #fff; /* White text */
+    /* Styles for the paused state */
+    background-color: black;
+    /* Red background */
+    border-color: #dc3545;
+    /* Red border */
+    color: #fff;
+    /* White text */
 }
