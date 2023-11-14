@@ -49,6 +49,18 @@
 .scroll-pane {
     overflow-x: hidden;
     height: 800px;
+    box-shadow: 6px -34px 60px #00050F00 inset, -6px -34px 60px #00050F00 inset;
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
+}
+
+.scroll-pane:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 56px -34px 90px #00050F52 inset, -56px -34px 90px #00050F52 inset;
+}
+
+#term-container {
+    min-height: 33px;
+    overflow: hidden;
 }
 
 .parallax-footer #back-top {

@@ -50,7 +50,7 @@ $(document).ready(function() {
     $(function() {
         $(window).scroll(function() {
             //height of the footer - padding (20px ish)
-            if ($(this).scrollTop() > 375) {
+            if ($(this).scrollTop() > 320) {
                 $("#back-top").fadeIn();
             } else {
                 $("#back-top").fadeOut();

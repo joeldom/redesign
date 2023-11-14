@@ -1152,7 +1152,7 @@ subconscience refference list
 ## praeter puellas
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-ali h., beth p., jessica j., savanna s., kanda b., savanna s., cinco de mayo, ohio, kristen ., kat p., karie w., cheri m., molly j., michelle k., eddy d.,
+ali h., beth p., jessica j., savanna s., kanda b., savanna s., cinco de mayo, ohio, kristen ., kat p., karie w., cheri m., molly j., michelle k., eddy d., amy n., lindsey b.,
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 =======
@@ -2402,4 +2402,4 @@ for all of the display components and larger pattern level
 
 # P5.js & 3D model in canvas
 
-- 
+-
