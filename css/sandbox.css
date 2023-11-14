@@ -1,3 +1,51 @@
+.ventnav {
+    /* background-color: #444cf7; */
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    display: block;
+    right: 8px;
+    bottom: 10px;
+}
+
+.ventnav svg {
+    display: block;
+}
+
+.ventnav:hover path {
+    fill: #818181;
+}
+
+.navbar-nav>li>a,
+.dropdown-menu>li>a,
+.dropdown-submenu>li>a {
+    font-family: "Inter", "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-width: 0;
+    color: #1a3acc;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2857142857142858;
+    padding: 12px 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav>li>a,
+    .dropdown-menu>li>a,
+    .dropdown-submenu>li>a {
+        display: block;
+        font-family: "Inter", "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1.1;
+        color: #1a3acc;
+        font-size: 30px;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 1.0909090909090908;
+        line-height: 1;
+        padding: 6px 11px;
+    }
+}
+
 .scroll-pane {
     overflow-x: hidden;
     height: 800px;
@@ -99,6 +147,23 @@ svg path {
 }
 
 .brand-footer {}
+
+.footer {
+    font-size: 12px;
+    line-height: 1.78571;
+    margin-top: 16px;
+    padding-top: 36px;
+    padding-bottom: 1px;
+    padding-left: 7px;
+    padding-right: 7px;
+    position: relative;
+    font-weight: 400;
+}
+
+.footer a {
+    color: #848484;
+    font-weight: 600;
+}
 
 @media (max-height: 600px) {
     .parallax:after {

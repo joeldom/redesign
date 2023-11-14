@@ -21,24 +21,6 @@ body.with-navbar {
     }
 }
 
-.ventnav {
-    /* background-color: #444cf7; */
-    height: 25px;
-    width: 25px;
-    position: absolute;
-    display: block;
-    right: 8px;
-    bottom: 10px;
-}
-
-.ventnav svg {
-    display: block;
-}
-
-.ventnav:hover path {
-    fill: black;
-}
-
 
 /* .trinav {
     height: 25px;
