@@ -1,0 +1,10 @@
+{
+    "cSpell.customDictionaries": {
+        "custom-dictionary-folder-redesign": {
+            "name": "custom-dictionary-folder-redesign",
+            "path": "${workspaceFolder:redesign}/.cspell/custom-dictionary-folder-redesign.txt",
+            "addWords": true,
+            "scope": "folder"
+        }
+    }
+}

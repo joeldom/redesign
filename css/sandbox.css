@@ -1,15 +1,40 @@
-.footer-para #back-top {
+.scroll-pane {
+    overflow-x: hidden;
+    height: 800px;
+}
+
+.parallax-footer #back-top {
     position: absolute;
     right: -16px;
     top: -36px;
 }
 
-#back-top a,
-#back-top a i {
+#pauseButton {
+    display: block;
+    margin: auto;
+    color: #000E4E;
+    border: 3px solid #000E4E4D;
+    padding: 8px 16px;
+    font-family: "Inter", sans-serif !important;
+}
+
+#pauseButton:hover {
+    background-color: #000E4E;
+    color: white;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    visibility: hidden;
+    height: 0;
+}
+
+#back-top a {
     border: 3px solid white;
     width: 48px;
     height: 48px;
-    display: block;
+    display: flex;
 }
 
 #back-top a:hover {
@@ -20,18 +45,119 @@
 
 #back-top svg {
     width: 42px;
+    display: block;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 #back-top:hover svg path {
     color: #1a3acc;
+    fill: #1a3acc;
 }
 
 svg path {
-    fill: inherit !important;
+    /* fill: inherit !important; */
     animation: color-change 5s infinite !important;
 }
 
-.scroll-pane {
-    overflow-x: hidden;
-    height: 800px;
+.parallax:after {
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+.parallax-footer {
+    font-weight: 600 !important;
+    background-color: #d8d8d8;
+    height: 250px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    color: #848484;
+    padding: 50px 0;
+}
+
+.parallax-footer a {
+    color: #949494;
+    border-bottom: 1px dotted white;
+}
+
+.parallax-footer a:hover,
+.parallax-footer a:focus {
+    color: #000E4E;
+}
+
+.parallax-footer .brand-footer a:hover {
+    border-bottom: none !important;
+}
+
+.footer .brand-footer a:hover {
+    border-bottom: none !important;
+}
+
+.brand-footer {}
+
+@media (max-height: 600px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 375px;
+    }
+}
+
+@media (min-height: 600px) and (max-width: 600px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 375px;
+    }
+}
+
+@media (min-height: 1324px) and (max-width: 600px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 209px;
+    }
+    .parallax-footer #back-top {
+        position: absolute;
+        right: 0px;
+        top: -36px;
+    }
+}
+
+@media (min-width: 792px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 209px;
+    }
+}
+
+@media (min-width: 692px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 209px;
+    }
+}
+
+@media (max-width: 767px) {
+    .parallax:after {
+        content: "\a0";
+        padding-bottom: 400px;
+    }
+    .parallax-footer {
+        height: 450px;
+    }
+    .parallax-footer #back-top {
+        position: absolute;
+        right: 32px;
+        top: -36px;
+    }
 }

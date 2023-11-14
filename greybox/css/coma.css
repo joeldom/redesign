@@ -8008,13 +8008,15 @@ ul#cyclelist li,
     fill: #1a3acc;
 }
 
-svg:hover path {
-    fill: #1a3acc !important;
-}
 
-svg path {
+/* svg:hover path {
     fill: #1a3acc !important;
-}
+} */
+
+
+/* svg path {
+    fill: #1a3acc !important;
+} */
 
 
 /*.headroom {

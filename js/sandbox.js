@@ -40,3 +40,31 @@ function pauseShuffling() {
 
 // Fetch term strings initially
 fetchTermStrings();
+
+// SCROLL TO TOP
+$(document).ready(function() {
+    // hide #back-top first
+    $("#back-top").show();
+
+    // fade in #back-top
+    $(function() {
+        $(window).scroll(function() {
+            //height of the footer - padding (20px ish)
+            if ($(this).scrollTop() > 380) {
+                $("#back-top").fadeIn();
+            } else {
+                $("#back-top").fadeOut();
+            }
+        });
+
+        // scroll body to 0px on click
+        $("#back-top a").click(function() {
+            $("body,html").animate({
+                    scrollTop: 0
+                },
+                200
+            );
+            return false;
+        });
+    });
+});
