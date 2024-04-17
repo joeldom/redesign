@@ -1,10 +1,13 @@
 # Custom Dictionary Words
+blak
 brandblue
 Dombek
 Durden
 ECCO
+fucshia
 itemprop
 joeldombek
 potd
+styleguide
 TENMJVGD
 ventnav

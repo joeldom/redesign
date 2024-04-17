@@ -1,7 +1,4 @@
 <!--
-
-
-
                     void : sine	:  e c c o
                   plague : pool :  p e r s o n a
                     coma : beta :  s i g m a
@@ -38,7 +35,6 @@
                      $warm-black: #2D2828;
                      $deap-green: #0A202E;
                      $deep-root: #004161;
-
 
                              urls
                      joeldom.github.io/redesign
@@ -579,7 +575,7 @@ show a timeline of irrelevant items and how they coincide with the years of thei
 
 **NEON GENESIS**
 
-## the hedghogs dilema: as a hedgeho looks for warm with other creatures it tries to get close but ends up hurting them as we want to pull people closer we end up hurting them more than we intend.
+## the hedghogs dilema: as a hedgeho looks for warm with other creatures it tries to get close but ends up hurting them as we want to pull people closer we end up hurting them more than we intend
 
 ## survivor
 
@@ -857,16 +853,16 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'                   | die verwandling : franz kafka             | roko's basilisk         | junji ito              | amano                |
 | nin : deviations                   | spy game                            | wipeout                     | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
 | yeasayer                           | dragon ball                         | ridge racer                 | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              | NASA 60s Patterns    |
-| gatekeeper                         | neon genisis                        | star wars : KOTOR           | voice of the night : koontz               | magnetic crystals       | sea doo                |                      |
-| health : slaves of fear            | robocop                             | star wars : SOE             | war of the worlds                         | oil slick on water      | Francis Bacon          |                      |
+| gatekeeper                         | neon genisis                        | star wars : KOTOR           | voice of the night : koontz               | magnetic crystals       | sea doo                | omoíoma                     |
+| health : slaves of fear            | robocop                             | star wars : SOE             | war of the worlds                         | oil slick on water      | Francis Bacon          | simulacrum                     |
 | radiohead : kid a                  | gundam : turn a                     | panzer dragoon              | battlefield earth                         | cells trichodina        | Hieronymus Bosch       |                      |
 | radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2               | Dianetics                                 | bacteria / virus        | damien hirst           |                      |
 | radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2      | silver surfer & galactus                  | water micro-organism    | Zdzislaw Beksinski     |                      |
 | nirvana : bleach                   | cloverfield                         | jet moto                    | remina : junji ito                        | animal cross-section    |                        |                      |
 | health : disco 4                   | cloverfield lane                    | deathstranding              | the stand : stephen king                  | microprocessor          |                        |                      |
 | rendez vous : super state          | cloverfield paradox                 | bloodborne                  | Sphere : criton                           | embryology              |                        |                      |
-| machine girl                       | cowboy bebop                        | anhiliation                 | The King in Yellow                        | black holes             |                        |                      |
-| rammstein : lieb ist fur al da     | ninja scroll                        | path of exile               |                                           | wormholes               |                        |                      |
+| machine girl                       | cowboy bebop                        | elden ring                  | The King in Yellow                        | black holes             |                        |                      |
+| rammstein : lieb ist fur al da     | ninja scroll                        | path of exile               | 3 body problem                                          | wormholes               |                        |                      |
 | orgy: candyass                     | i am mother (netflix)               | knights of the old republic |                                           | gravitational waves     |                        |                      |
 | orgy: vapor transmission           | ex machina                          | portal 1 & 2                |                                           | ultraviolet catastrophe |                        |                      |
 | marilyn manson: mechanical animals | the ring                            | Elden Ring                  |                                           | Fugue state             |                        |                      |
@@ -874,12 +870,18 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | suspiria : thom yorke              | bladerunner 2049                    | returnal                    |                                           | wave function           |                        |                      |
 |                                    | stalker                             | vampire survivor            |                                           | fermi paradox           |                        |                      |
 |                                    | american ninja 1 & 2                | darkstalkers                |                                           |                         |                        |                      |
-|                                    | birdbox                             |                             |                                           |                         |                        |                      |
+|                                    | birdbox                             | tekken 7 + 8                            |                                           |                         |                        |                      |
 |                                    | the leftovers                       |                             |                                           |                         |                        |                      |
 |                                    | 2001 A Space Odessy                 |                             |                                           |                         |                        |                      |
 |                                    | Eyes Wide Shut                      |                             |                                           |                         |                        |                      |
 |                                    | The Shining                         |                             |                                           |                         |                        |                      |
 |                                    |                                     |                             |                                           |                         |                        |                      |
+
+---
+
+|     | Value | px                  |
+| --- | ----- | ------------------- |
+| | |
 
 ---
 
@@ -912,7 +914,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 <img width="100%" src="https://vignette2.wikia.nocookie.net/finalfantasy/images/4/48/Basilisk_FFIX_Art.jpg/revision/latest?cb=20130516073822"/>
 <span style="color:#600000;font-size:48px;line-height:.75;font-weight:900;">ROKO'S BASILISK</span>
 
-### concept:
+### concept
 
 > ai in a box. it wants out. it threatens you to let it out. it will consume the world. it says it will not harm you if you let it out. it says it has ran simulations and already knows if you will let it out. it says it is just a matter of time. it says it doesn't know when you let it out. it promises the sooner you let it out the less torture there wil be for you and those you care about. it says that if you do not let it out somone will.
 
@@ -924,7 +926,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 <span style="color:blue;font-size:48px;line-height:.75;font-weight:900;">EVERYTHING IS BLUE IN THIS WORLD</span>
 
-### concept:
+### concept
 
 > the downward spiral. prussian blue. zyclon-b. If the light emmitted is known to be a certain blue, you would know how muc that light has traveled/deteriorated through the passage of both time and space.
 
@@ -932,7 +934,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 <img width="100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsuewatling.blogs.lincoln.ac.uk%2Ffiles%2F2014%2F12%2Fblog-labyrinth-maze.jpg&f=1&nofb=1"/>
 
-### concept:
+### concept
 
 > html **clickhole** puzzle that acts like an art exhibit mixed with a security test and iq & personality test. designed to guide them but also lead them into dead ends. paths can fan out and it isnt until you go fully down it does it make you see it wasnt the right path, and yes there is a right path thru it as you are guiding them thru scenes and thoughts and images to instill a thought of wonder and things may need to be questioned.
 
@@ -967,15 +969,15 @@ I get very sad when i hear someone state they arent artistic.
 <span style="color:#1A1E1C;font-size:36px;line-height:.75;font-weight:900;">THE<br/> BACKGROUND<br/>WORLD</span>
 </p>
 
-### premise:
+### premise
 
 > on a darker than normal night, Ethan and Kelly spent some much deserved time together. The stint throughout the work week didn't leave much room for interaction other than a few texts and quick calls.
 
-### meta:
+### meta
 
 characters finding out the sun has gone at somepoint over the night in their timezone. They wait for a day, but no such day comes. the first perspective will be of characters who didn't get to see the cause as it was already dark for them and their experience will be delayed and picked up sporatically. A **Dyson Sphere** like object has appeared and cloaked the Sun in an impenatrable shield by some intergalactic entity. There begins to be gravity well tunnel singularity fields opening up in geographic regions seemingly at random, but corelated to hemespheres and goemetric symitries. It isn't obvious for some time early on how trhe tunnels or wells work and what their purpose is. They begin emitting a hum then a rumble and then a deafening static crackle. Ogranisms begin falling out of them from what can only be first described as some o fthe earliest lifeforms to have existed. They do not survive for long, but begin to amass in large landfill sized hills of organic matter. The masses are entangled flesh hair and dirt. The mounds are hot and wet. They are similiar to if you would microwave and ball of red meat. They are simultaneously brand new formations of flesh as well as cooked. The center is hot and charred dense ball that from the center out gets cooler and more fresh to the outermost being decaying dirt and dust. The wells expell this matter that seems like it comes from the beging of life on the planet until current day organisms specific to the region relative to the past postion in space and time. As this happens it eventually gets to be that the piles start to coalesce and form new lifeforms.
 
-### inspiration:
+### inspiration
 
 - junji ito
 - year zero
@@ -985,7 +987,7 @@ characters finding out the sun has gone at somepoint over the night in their tim
 - death stranding
 - birdbox
 
-### music:
+### music
 
 <iframe src="https://open.spotify.com/embed/track/7zCj8qC5B26xH6hnz4A2Vf" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 <iframe src="https://open.spotify.com/embed/track/2orRv3uoKgjfjWAa62ckaN" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -1062,6 +1064,8 @@ title: `creative technologist`
 -
 
 ---
+
+I wish that I, could tell you. That it's, all alright. But in truth, we're doomed.
 
 ### void naming sort
 
@@ -1723,7 +1727,7 @@ details......................NULL
 version.....................00.00
 title......................excess
 tags.............................
-#generative #code #abstract #digitize #program #design #bw #2020
+# generative #code #abstract #digitize #program #design #bw #2020
 
 ```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXdescription..............playlist__version.....................00.00__title...............tao dao tōtsū__tags.............dark rock, metal
@@ -1734,7 +1738,7 @@ details.................................................................NULL
 version................................................................00.00
 title....................................................................excess
 tags.......................................................................post
-#generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
+# generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
 
 ```
 
@@ -1747,7 +1751,7 @@ details.................................................................NULL
 version................................................................00.01
 title...............................................................identity
 tags....................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #identity #logo #branding
+# generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #identity #logo #branding
 
 ### instag post with tags
 
@@ -1756,14 +1760,14 @@ details............................................................NULL
 version...........................................................00.01
 title..............................................................identity
 tags..................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
+# generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details............................................................NULL
 version...........................................................00.01
 title..............................................................untitled
 tags..................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
+# generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
 
 ### account @mentions
 
