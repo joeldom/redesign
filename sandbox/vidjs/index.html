@@ -1,0 +1,56 @@
+<!-- https://www.amazon.com/gp/video/detail/B0C9R64XWN/ref=atv_hm_mys_c_uJQOV1_3_6 -->
+<!-- https://videojs.com/guides -->
+
+<!-- <head>
+    <link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+
+    If you'd like to support IE8 (for Video.js versions prior to v7)
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+
+<body>
+    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+    <source src="CCbrooklyn.mov" type="video/mov" />
+    <source src="MY_VIDEO.webm" type="video/webm" />
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank"
+        >supports HTML5 video</a
+      >
+    </p>
+  </video>
+
+    <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+</body> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="container">
+        <video onclick="play(event)" src="SampleVideo_1280x720_2mb.mp4" id="video"></video>
+        <div class="controls">
+            <button onclick="play(event)"><i class="fa fa-play"></i><i class="fa fa-pause"></i></button>
+            <button onclick="rewind(event)"><i class="fa fa-fast-backward"></i></button>
+            <div class="timeline">
+                <div class="bar">
+                    <div class="inner"></div>
+                </div>
+            </div>
+            <button onclick="forward(event)"><i class="fa fa-fast-forward"></i></button>
+            <button onclick="fullScreen(event)"><i class="fa fa-expand"></i></button>
+            <button onclick="download(event)"><i class="fa fa-cloud-download"></i></button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

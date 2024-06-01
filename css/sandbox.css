@@ -1,3 +1,4 @@
+@import url("offset.css");
 :root {
     /* colors */
     --brand-blue: #1a3acc;
@@ -23,6 +24,9 @@
     --euphoria: #00050f;
     /* properties */
     --font-base-size: 14px;
+    --font-small-size: 12px;
+    --font-tiny-size: 10px;
+    --font-micro-size: 8px;
 }
 
 body {
@@ -94,13 +98,29 @@ body {
 }
 
 #term-container {
-    min-height: 33px;
-    max-height: 33px;
+    max-width: 100%;
     overflow: hidden;
+    word-wrap: break-word;
+    height: 166px;
+}
+
+#term-container:hover {
+    background-color: var(--euphoria);
+}
+
+#term-container.strings {
+    font-size: var(--font-small-size);
+    color: var(--warm-grey);
+    text-shadow: 1px 1px 1px #000;
+    padding: 6.1em 0;
+}
+
+#term-container.strings.paused {
+    background-color: var(--euphoria);
 }
 
 .parallax-footer #back-top {
-    position: absolute;
+    S position: absolute;
     right: -16px;
     top: -36px;
 }
@@ -155,6 +175,10 @@ a.anchor {
 svg path {
     /* fill: inherit !important; */
     animation: color-change 5s infinite !important;
+}
+
+.ta-center {
+    text-align: center;
 }
 
 .parallax:after {

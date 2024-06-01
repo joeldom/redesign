@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Define noise animation */
+        
+        @keyframes noise {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+        /* Apply noise animation to a noise class */
+        
+        .noise {
+            background-size: 200% 200%;
+            background-image: linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000), linear-gradient(45deg, #000 25%, transparent 25%, transparent 75%, #000 75%, #000);
+            animation: noise 2s infinite linear;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAADCAYAAAC56t6BAAAAkklEQVR42mP8/wcAAwAB/epA02AAAAASUVORK5CYII=);
+            background-repeat: repeat;
+        }
+        /* Apply transition for a smooth color change */
+        
+        .hover-effect {
+            background-color: white;
+            transition: background-color 0.5s ease;
+        }
+        /* On hover, apply the noise class and change the background color */
+        
+        .hover-effect:hover {
+            background-color: #f0f0f0;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAADCAYAAAC56t6BAAAAkklEQVR42mP8/wcAAwAB/epA02AAAAASUVORK5CYII=);
+            background-repeat: repeat;
+            /* Change this color as needed */
+            animation: none;
+            /* Pause the noise animation on hover */
+        }
+        /* Set initial styles for the div */
+        
+        .hover-effect {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Add noise and hover-effect classes to the div -->
+    <div class="hover-effect noise">
+        Hover me
+    </div>
+</body>
+
+</html>

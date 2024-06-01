@@ -1,13 +1,28 @@
-# 毎日 Mainichi
+<link rel="stylesheet" href="https://joeldom.github.io/asset/lib/color.css">
 
-# Feb 02/03/2020
+# TAO
 
-- talk to martin and John about sourcing a dev to assist in getting the UI portion of Brandhub building for any dev
-  - gulp 3 needs to be transtioned to gulp 4
-  - node needs to stay at a consistent version on dev machines to run the UI
-    - what are the brands that would need new UI bugs worked on?
-    - what are the devs who would
+### Index
+Task color index `<span style="color:--brand-blue;">< βετα ></span>`
+code
+clean
+cook
 
-# Feb 02/06/2020
+### Index Test
 
-I've started watching some Adam Savage builds on YT and begun again feeling like I really want to watch some gundam and build some models. The act of playing with the plastic
+<span style="color:--brand-blue;">< βετα ></span>
+
+## Day 5.1.2024
+
+## Week June 3
+- Paypal Resume
+- MS Resume
+
+## Month June 2024
+- Office reorg/clean present
+- 
+
+## Other
+- Find Breya MTG CMD Deck
+- Pantry Shelves
+- Jeep Reg
