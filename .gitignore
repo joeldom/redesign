@@ -57,6 +57,7 @@ greybox/config.codekit
 *.mp4
 *.mov
 *.pdf
+.pdf
 
 *.codekit
 
