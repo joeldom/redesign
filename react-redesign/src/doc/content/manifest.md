@@ -1,7 +1,4 @@
 <!--
-
-
-
                     void : sine	:  e c c o
                   plague : pool :  p e r s o n a
                     coma : beta :  s i g m a
@@ -9,12 +6,12 @@
 
                               var
                      @primary: #1a3acc;
-                     $cuul-blue: #e0e9fe;
+                     $cool-blue: #e0e9fe;
                      $off-white: #e4dfd9;
-                     $cuul-grey: #a3a3a3;
-                     $wurm-grey: #e4dfd9;
+                     $cool-grey: #a3a3a3;
+                     $warm-grey: #e4dfd9;
                      @magenta: #ab1acc;
-                     $fuschia: #84017E;
+                     $fucshia: #84017E;
                      @red: #600000;
                      $blood-red: #690808;
                      @legacy: #008080;
@@ -36,9 +33,8 @@
                      $dark-grey: #767676;
                      $medium-grey: #C4C4C4;
                      $warm-black: #2D2828;
-                     $deap-green: #0A202E;
+                     $deep-green: #0A202E;
                      $deep-root: #004161;
-
 
                              urls
                      joeldom.github.io/redesign
@@ -50,7 +46,7 @@
                      ello.co/joeldombek
                      twitch.tv/joeldombek
 
-                            cmds
+                            cmd
 
 -->
 
@@ -579,7 +575,7 @@ show a timeline of irrelevant items and how they coincide with the years of thei
 
 **NEON GENESIS**
 
-## the hedghogs dilema: as a hedgeho looks for warm with other creatures it tries to get close but ends up hurting them as we want to pull people closer we end up hurting them more than we intend.
+## the hedghogs dilema: as a hedgeho looks for warm with other creatures it tries to get close but ends up hurting them as we want to pull people closer we end up hurting them more than we intend
 
 ## survivor
 
@@ -857,16 +853,16 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | nin : the fragile                  | ghost in the shell : arise 1 2 3    | doom '91'                   | die verwandling : franz kafka             | roko's basilisk         | junji ito              | amano                |
 | nin : deviations                   | spy game                            | wipeout                     | Tomie : junji ito                         | neuron                  | amano                  | sega saturn          |
 | yeasayer                           | dragon ball                         | ridge racer                 | the mountains of madness : h.p. lovecraft | electron microscope     | sid meade              | NASA 60s Patterns    |
-| gatekeeper                         | neon genisis                        | star wars : KOTOR           | voice of the night : koontz               | magnetic crystals       | sea doo                |                      |
-| health : slaves of fear            | robocop                             | star wars : SOE             | war of the worlds                         | oil slick on water      | Francis Bacon          |                      |
+| gatekeeper                         | neon genisis                        | star wars : KOTOR           | voice of the night : koontz               | magnetic crystals       | sea doo                | omoíoma              |
+| health : slaves of fear            | robocop                             | star wars : SOE             | war of the worlds                         | oil slick on water      | Francis Bacon          | simulacrum           |
 | radiohead : kid a                  | gundam : turn a                     | panzer dragoon              | battlefield earth                         | cells trichodina        | Hieronymus Bosch       |                      |
 | radiohead : a moon shaped pool     | gundam : wing                       | destiny 1 & 2               | Dianetics                                 | bacteria / virus        | damien hirst           |                      |
 | radiohead : amnesiac               | gundam : 08th MS team               | metal gear solid 1 & 2      | silver surfer & galactus                  | water micro-organism    | Zdzislaw Beksinski     |                      |
 | nirvana : bleach                   | cloverfield                         | jet moto                    | remina : junji ito                        | animal cross-section    |                        |                      |
 | health : disco 4                   | cloverfield lane                    | deathstranding              | the stand : stephen king                  | microprocessor          |                        |                      |
 | rendez vous : super state          | cloverfield paradox                 | bloodborne                  | Sphere : criton                           | embryology              |                        |                      |
-| machine girl                       | cowboy bebop                        | anhiliation                 | The King in Yellow                        | black holes             |                        |                      |
-| rammstein : lieb ist fur al da     | ninja scroll                        | path of exile               |                                           | wormholes               |                        |                      |
+| machine girl                       | cowboy bebop                        | elden ring                  | The King in Yellow                        | black holes             |                        |                      |
+| rammstein : lieb ist fur al da     | ninja scroll                        | path of exile               | 3 body problem                            | wormholes               |                        |                      |
 | orgy: candyass                     | i am mother (netflix)               | knights of the old republic |                                           | gravitational waves     |                        |                      |
 | orgy: vapor transmission           | ex machina                          | portal 1 & 2                |                                           | ultraviolet catastrophe |                        |                      |
 | marilyn manson: mechanical animals | the ring                            | Elden Ring                  |                                           | Fugue state             |                        |                      |
@@ -874,12 +870,18 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | suspiria : thom yorke              | bladerunner 2049                    | returnal                    |                                           | wave function           |                        |                      |
 |                                    | stalker                             | vampire survivor            |                                           | fermi paradox           |                        |                      |
 |                                    | american ninja 1 & 2                | darkstalkers                |                                           |                         |                        |                      |
-|                                    | birdbox                             |                             |                                           |                         |                        |                      |
+|                                    | birdbox                             | tekken 7 + 8                |                                           |                         |                        |                      |
 |                                    | the leftovers                       |                             |                                           |                         |                        |                      |
 |                                    | 2001 A Space Odessy                 |                             |                                           |                         |                        |                      |
 |                                    | Eyes Wide Shut                      |                             |                                           |                         |                        |                      |
 |                                    | The Shining                         |                             |                                           |                         |                        |                      |
 |                                    |                                     |                             |                                           |                         |                        |                      |
+
+---
+
+|     | Value | px  |
+| --- | ----- | --- |
+|     |       |
 
 ---
 
@@ -912,7 +914,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 <img width="100%" src="https://vignette2.wikia.nocookie.net/finalfantasy/images/4/48/Basilisk_FFIX_Art.jpg/revision/latest?cb=20130516073822"/>
 <span style="color:#600000;font-size:48px;line-height:.75;font-weight:900;">ROKO'S BASILISK</span>
 
-### concept:
+### concept
 
 > ai in a box. it wants out. it threatens you to let it out. it will consume the world. it says it will not harm you if you let it out. it says it has ran simulations and already knows if you will let it out. it says it is just a matter of time. it says it doesn't know when you let it out. it promises the sooner you let it out the less torture there wil be for you and those you care about. it says that if you do not let it out somone will.
 
@@ -924,7 +926,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 <span style="color:blue;font-size:48px;line-height:.75;font-weight:900;">EVERYTHING IS BLUE IN THIS WORLD</span>
 
-### concept:
+### concept
 
 > the downward spiral. prussian blue. zyclon-b. If the light emmitted is known to be a certain blue, you would know how muc that light has traveled/deteriorated through the passage of both time and space.
 
@@ -932,7 +934,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 <img width="100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsuewatling.blogs.lincoln.ac.uk%2Ffiles%2F2014%2F12%2Fblog-labyrinth-maze.jpg&f=1&nofb=1"/>
 
-### concept:
+### concept
 
 > html **clickhole** puzzle that acts like an art exhibit mixed with a security test and iq & personality test. designed to guide them but also lead them into dead ends. paths can fan out and it isnt until you go fully down it does it make you see it wasnt the right path, and yes there is a right path thru it as you are guiding them thru scenes and thoughts and images to instill a thought of wonder and things may need to be questioned.
 
@@ -967,15 +969,15 @@ I get very sad when i hear someone state they arent artistic.
 <span style="color:#1A1E1C;font-size:36px;line-height:.75;font-weight:900;">THE<br/> BACKGROUND<br/>WORLD</span>
 </p>
 
-### premise:
+### premise
 
 > on a darker than normal night, Ethan and Kelly spent some much deserved time together. The stint throughout the work week didn't leave much room for interaction other than a few texts and quick calls.
 
-### meta:
+### meta
 
 characters finding out the sun has gone at somepoint over the night in their timezone. They wait for a day, but no such day comes. the first perspective will be of characters who didn't get to see the cause as it was already dark for them and their experience will be delayed and picked up sporatically. A **Dyson Sphere** like object has appeared and cloaked the Sun in an impenatrable shield by some intergalactic entity. There begins to be gravity well tunnel singularity fields opening up in geographic regions seemingly at random, but corelated to hemespheres and goemetric symitries. It isn't obvious for some time early on how trhe tunnels or wells work and what their purpose is. They begin emitting a hum then a rumble and then a deafening static crackle. Ogranisms begin falling out of them from what can only be first described as some o fthe earliest lifeforms to have existed. They do not survive for long, but begin to amass in large landfill sized hills of organic matter. The masses are entangled flesh hair and dirt. The mounds are hot and wet. They are similiar to if you would microwave and ball of red meat. They are simultaneously brand new formations of flesh as well as cooked. The center is hot and charred dense ball that from the center out gets cooler and more fresh to the outermost being decaying dirt and dust. The wells expell this matter that seems like it comes from the beging of life on the planet until current day organisms specific to the region relative to the past postion in space and time. As this happens it eventually gets to be that the piles start to coalesce and form new lifeforms.
 
-### inspiration:
+### inspiration
 
 - junji ito
 - year zero
@@ -985,7 +987,7 @@ characters finding out the sun has gone at somepoint over the night in their tim
 - death stranding
 - birdbox
 
-### music:
+### music
 
 <iframe src="https://open.spotify.com/embed/track/7zCj8qC5B26xH6hnz4A2Vf" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 <iframe src="https://open.spotify.com/embed/track/2orRv3uoKgjfjWAa62ckaN" width="480" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -1062,6 +1064,8 @@ title: `creative technologist`
 -
 
 ---
+
+I wish that I, could tell you. That it's, all alright. But in truth, we're doomed.
 
 ### void naming sort
 
@@ -1723,7 +1727,7 @@ details......................NULL
 version.....................00.00
 title......................excess
 tags.............................
-#generative #code #abstract #digitize #program #design #bw #2020
+# generative #code #abstract #digitize #program #design #bw #2020
 
 ```
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXdescription..............playlist__version.....................00.00__title...............tao dao tōtsū__tags.............dark rock, metal
@@ -1734,7 +1738,7 @@ details.................................................................NULL
 version................................................................00.00
 title....................................................................excess
 tags.......................................................................post
-#generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
+# generative #code #abstract #digitize #program #design #bw #2020 #photography #colors #deepweb #2019 #coming
 
 ```
 
@@ -1747,7 +1751,7 @@ details.................................................................NULL
 version................................................................00.01
 title...............................................................identity
 tags....................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #identity #logo #branding
+# generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #2019 #comingsoon #hacking #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #identity #logo #branding
 
 ### instag post with tags
 
@@ -1756,14 +1760,14 @@ details............................................................NULL
 version...........................................................00.01
 title..............................................................identity
 tags..................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
+# generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 details............................................................NULL
 version...........................................................00.01
 title..............................................................untitled
 tags..................................................................post
-#generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
+# generative #code #abstract #digitize #program #design #b&w #2020 #photography #colors #deepweb #comingsoon #hack #pixel #startover #resolution #art #sureal #surealism #ww3 #aesthetic #artist #artwork #algorythmicart #future #artoftheday #graphicdesign #newaesthetic #aesthetic #newimage #image #visualjounal
 
 ### account @mentions
 
@@ -2403,3 +2407,1149 @@ for all of the display components and larger pattern level
 # P5.js & 3D model in canvas
 
 -
+
+# CLOTHING CONCEPTS
+
+brand concepts to put a look-feel board together to show graphics data logistics.
+
+## Serialization of orders
+
+create digital reciept with live tracking. Show order part of fullfillment quota and run number. operates on min and max run set number.
+
+Order Placed > Order Recieved > Order Shipped > Order Status > Order Arrived Time
+
+# Commit Notes 5.2.24
+
+## Skew section
+
+```html
+
+<card-skew class="overflow-hidden rounded-3 mb-3 mb-md-5" data-catalyst="" data-perspective="700" style="transform: perspective(700px) rotateX(0.03deg) rotateY(0.03deg);">
+    <div class="feature-card-mktg d-md-flex rounded-3 color-bg-subtle border position-relative flex-justify-between z-1 height-full flex-row" data-target="card-skew.bounding">
+      <div class="d-md-flex flex-column flex-1 p-5 p-sm-6 py-lg-8 pl-lg-8 pr-lg-12 col-md-6 flex-justify-between">
+        <p class="f2-mktg text-medium color-fg-muted mb-4"><em>GitHub Actions</em> automates your build, test, and deployment workflow with simple and secure CI/CD.</p>
+
+        <div>  <a class="link-mktg text-semibold color-fg-default py-1 f3-mktg" href="/features/actions" data-analytics-event="{&quot;category&quot;:&quot;Discover GitHub Actions&quot;,&quot;action&quot;:&quot;click to Discover GitHub Actions&quot;,&quot;label&quot;:&quot;ref_cta:Discover GitHub Actions;&quot;}">
+    Discover GitHub Actions <svg xmlns="http://www.w3.org/2000/svg" class="octicon arrow-symbol-mktg" width="16" height="16" viewBox="0 0 16 16" fill="none"><path fill="currentColor" d="M7.28033 3.21967C6.98744 2.92678 6.51256 2.92678 6.21967 3.21967C5.92678 3.51256 5.92678 3.98744 6.21967 4.28033L7.28033 3.21967ZM11 8L11.5303 8.53033C11.8232 8.23744 11.8232 7.76256 11.5303 7.46967L11 8ZM6.21967 11.7197C5.92678 12.0126 5.92678 12.4874 6.21967 12.7803C6.51256 13.0732 6.98744 13.0732 7.28033 12.7803L6.21967 11.7197ZM6.21967 4.28033L10.4697 8.53033L11.5303 7.46967L7.28033 3.21967L6.21967 4.28033ZM10.4697 7.46967L6.21967 11.7197L7.28033 12.7803L11.5303 8.53033L10.4697 7.46967Z"></path><path class="octicon-chevrow-stem" stroke="currentColor" d="M1.75 8H11" stroke-width="1.5" stroke-linecap="round"></path></svg>
+
+</a></div>
+</div>
+      <div class="overflow-hidden col-md-6 rounded-right-3"><picture>
+  <source srcset="https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=1306&amp;format=webpll 1306w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=1044&amp;format=webpll 1044w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=783&amp;format=webpll 783w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=653&amp;format=webpll 653w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=522&amp;format=webpll 522w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=261&amp;format=webpll 261w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 653px" type="image/webp">
+  <source srcset="https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png 1306w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=653 653w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=522 522w,https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png?width=326 326w" sizes="(max-width: 768px) 90vw, (max-width: 1280px) 50vw, 653px" type="image/png">
+  <img class="width-full d-block height-auto" width="1306" height="992" loading="lazy" decoding="async" alt="" aria-hidden="true" src="https://github.githubassets.com/assets/illu-actions-2-c5178134f381.png">
+</picture></div>
+      
+
+      <div data-target="card-skew.shine" class="position-absolute bottom-0 right-0 events-none z-n1" style="transform: translate(-476.32px, 110.91px);"></div>
+</div>  </card-skew>
+```
+
+code sample from github.com login page
+
+
+```css
+transform: perspective(700px) rotateX(0.03deg) rotateY(-0.03deg);
+```
+
+## css variables 
+
+file src:`https://github.githubassets.com/assets/node_modules/@primer/primitives/dist/css/functional/themes/dark.css`
+
+```css
+[data-color-mode="dark"][data-dark-theme="dark"],
+[data-color-mode="dark"][data-dark-theme="dark"] ::backdrop,
+[data-color-mode="auto"][data-light-theme="dark"],
+[data-color-mode="auto"][data-light-theme="dark"] ::backdrop {
+  --topicTag-borderColor: #00000000;
+  --highlight-neutral-bgColor: #d2992266;
+  --page-header-bgColor: #0d1117;
+  --diffBlob-addition-fgColor-text: #e6edf3;
+  --diffBlob-addition-fgColor-num: #e6edf3;
+  --diffBlob-addition-bgColor-num: #3fb9504d;
+  --diffBlob-addition-bgColor-line: #2ea04326;
+  --diffBlob-addition-bgColor-word: #2ea04366;
+  --diffBlob-deletion-fgColor-text: #e6edf3;
+  --diffBlob-deletion-fgColor-num: #e6edf3;
+  --diffBlob-deletion-bgColor-num: #f851494d;
+  --diffBlob-deletion-bgColor-line: #f8514926;
+  --diffBlob-deletion-bgColor-word: #f8514966;
+  --diffBlob-hunk-bgColor-num: #388bfd66;
+  --diffBlob-expander-iconColor: #848d97;
+  --codeMirror-fgColor: #e6edf3;
+  --codeMirror-bgColor: #0d1117;
+  --codeMirror-gutters-bgColor: #0d1117;
+  --codeMirror-gutterMarker-fgColor-default: #0d1117;
+  --codeMirror-gutterMarker-fgColor-muted: #848d97;
+  --codeMirror-lineNumber-fgColor: #848d97;
+  --codeMirror-cursor-fgColor: #e6edf3;
+  --codeMirror-selection-bgColor: #388bfd66;
+  --codeMirror-activeline-bgColor: #6e768166;
+  --codeMirror-matchingBracket-fgColor: #e6edf3;
+  --codeMirror-lines-bgColor: #0d1117;
+  --codeMirror-syntax-fgColor-comment: #8b949e;
+  --codeMirror-syntax-fgColor-constant: #79c0ff;
+  --codeMirror-syntax-fgColor-entity: #d2a8ff;
+  --codeMirror-syntax-fgColor-keyword: #ff7b72;
+  --codeMirror-syntax-fgColor-storage: #ff7b72;
+  --codeMirror-syntax-fgColor-string: #a5d6ff;
+  --codeMirror-syntax-fgColor-support: #79c0ff;
+  --codeMirror-syntax-fgColor-variable: #ffa657;
+  --header-fgColor-default: #ffffffb3;
+  --header-fgColor-logo: #f0f6fc;
+  --header-bgColor: #161b22f2;
+  --header-borderColor-divider: #8b949e;
+  --headerSearch-bgColor: #0d1117;
+  --headerSearch-borderColor: #30363d;
+  --data-blue-color: #0576ff;
+  --data-auburn-color: #a86f6b;
+  --data-orange-color: #984b10;
+  --data-yellow-color: #895906;
+  --data-green-color: #2f6f37;
+  --data-teal-color: #106c70;
+  --data-purple-color: #975bf1;
+  --data-pink-color: #d34591;
+  --data-red-color: #eb3342;
+  --data-gray-color: #576270;
+  --display-blue-bgColor-muted: #001a47;
+  --display-blue-bgColor-emphasis: #0576ff;
+  --display-blue-fgColor: #4da0ff;
+  --display-blue-borderColor-muted: #002766;
+  --display-blue-borderColor-emphasis: #0576ff;
+  --display-green-bgColor-muted: #122117;
+  --display-green-bgColor-emphasis: #388f3f;
+  --display-green-fgColor: #41b445;
+  --display-green-borderColor-muted: #182f1f;
+  --display-green-borderColor-emphasis: #388f3f;
+  --display-orange-bgColor-muted: #311708;
+  --display-orange-bgColor-emphasis: #c46212;
+  --display-orange-fgColor: #ed8326;
+  --display-orange-borderColor-muted: #43200a;
+  --display-orange-borderColor-emphasis: #c46212;
+  --display-purple-bgColor-muted: #211047;
+  --display-purple-bgColor-emphasis: #975bf1;
+  --display-purple-fgColor: #b687f7;
+  --display-purple-borderColor-muted: #31146b;
+  --display-purple-borderColor-emphasis: #975bf1;
+  --display-red-bgColor-muted: #3c0614;
+  --display-red-bgColor-emphasis: #eb3342;
+  --display-red-fgColor: #f27d83;
+  --display-red-borderColor-muted: #58091a;
+  --display-red-borderColor-emphasis: #eb3342;
+  --display-yellow-bgColor-muted: #2e1a00;
+  --display-yellow-bgColor-emphasis: #aa7109;
+  --display-yellow-fgColor: #d3910d;
+  --display-yellow-borderColor-muted: #3d2401;
+  --display-yellow-borderColor-emphasis: #aa7109;
+  --display-gray-bgColor-muted: #1c1c1c;
+  --display-gray-bgColor-emphasis: #6e7f96;
+  --display-gray-fgColor: #92a1b5;
+  --display-gray-borderColor-muted: #2a2b2d;
+  --display-gray-borderColor-emphasis: #6e7f96;
+  --display-auburn-bgColor-muted: #271817;
+  --display-auburn-bgColor-emphasis: #a86f6b;
+  --display-auburn-fgColor: #bf9592;
+  --display-auburn-borderColor-muted: #3a2422;
+  --display-auburn-borderColor-emphasis: #a86f6b;
+  --display-brown-bgColor-muted: #241c14;
+  --display-brown-bgColor-emphasis: #94774c;
+  --display-brown-fgColor: #b69a6d;
+  --display-brown-borderColor-muted: #342a1d;
+  --display-brown-borderColor-emphasis: #94774c;
+  --display-lemon-bgColor-muted: #291d00;
+  --display-lemon-bgColor-emphasis: #977b0c;
+  --display-lemon-fgColor: #ba9b12;
+  --display-lemon-borderColor-muted: #372901;
+  --display-lemon-borderColor-emphasis: #977b0c;
+  --display-olive-bgColor-muted: #171e0b;
+  --display-olive-bgColor-emphasis: #7a8321;
+  --display-olive-fgColor: #a2a626;
+  --display-olive-borderColor-muted: #252d10;
+  --display-olive-borderColor-emphasis: #7a8321;
+  --display-lime-bgColor-muted: #141f0f;
+  --display-lime-bgColor-emphasis: #5f892f;
+  --display-lime-fgColor: #7dae37;
+  --display-lime-borderColor-muted: #1f3116;
+  --display-lime-borderColor-emphasis: #5f892f;
+  --display-pine-bgColor-muted: #082119;
+  --display-pine-bgColor-emphasis: #18915e;
+  --display-pine-fgColor: #1bb673;
+  --display-pine-borderColor-muted: #0b3224;
+  --display-pine-borderColor-emphasis: #18915e;
+  --display-teal-bgColor-muted: #041f25;
+  --display-teal-bgColor-emphasis: #158a8a;
+  --display-teal-fgColor: #1cb0ab;
+  --display-teal-borderColor-muted: #073036;
+  --display-teal-borderColor-emphasis: #158a8a;
+  --display-cyan-bgColor-muted: #001f29;
+  --display-cyan-bgColor-emphasis: #0587b3;
+  --display-cyan-fgColor: #07ace4;
+  --display-cyan-borderColor-muted: #002e3d;
+  --display-cyan-borderColor-emphasis: #0587b3;
+  --display-indigo-bgColor-muted: #1b183f;
+  --display-indigo-bgColor-emphasis: #7070e1;
+  --display-indigo-fgColor: #9899ec;
+  --display-indigo-borderColor-muted: #25215f;
+  --display-indigo-borderColor-emphasis: #7070e1;
+  --avatar-bgColor: #ffffff1a;
+  --avatar-borderColor: #ffffff26;
+  --avatar-shadow: 0px 0px 0px 2px #0d1117;
+  --avatarStack-fade-bgColor-default: #30363d;
+  --avatarStack-fade-bgColor-muted: #21262d;
+  --control-bgColor-rest: #21262d;
+  --control-bgColor-hover: #292e36;
+  --control-bgColor-active: #31363e;
+  --control-bgColor-disabled: #21262db3;
+  --control-bgColor-selected: #161b22;
+  --control-fgColor-rest: #c9d1d9;
+  --control-fgColor-placeholder: #484f58;
+  --control-fgColor-disabled: #6e7681;
+  --control-borderColor-rest: #30363d;
+  --control-borderColor-emphasis: #666e79;
+  --control-borderColor-disabled: #21262db3;
+  --control-borderColor-selected: #f0f6fc;
+  --control-borderColor-success: #238636;
+  --control-borderColor-danger: #da3633;
+  --control-borderColor-warning: #9e6a03;
+  --control-iconColor-rest: #848d97;
+  --control-transparent-bgColor-rest: #00000000;
+  --control-transparent-bgColor-hover: #b1bac41f;
+  --control-transparent-bgColor-active: #b1bac433;
+  --control-transparent-bgColor-disabled: #21262db3;
+  --control-transparent-bgColor-selected: #b1bac414;
+  --control-transparent-borderColor-rest: #00000000;
+  --control-transparent-borderColor-hover: #00000000;
+  --control-transparent-borderColor-active: #00000000;
+  --control-danger-fgColor-rest: #f85149;
+  --control-danger-fgColor-hover: #ff7b72;
+  --control-danger-bgColor-hover: #f851491a;
+  --control-danger-bgColor-active: #f8514966;
+  --control-checked-bgColor-rest: #1f6feb;
+  --control-checked-bgColor-hover: #2a7aef;
+  --control-checked-bgColor-active: #3685f3;
+  --control-checked-bgColor-disabled: #6e7681;
+  --control-checked-fgColor-rest: #ffffff;
+  --control-checked-fgColor-disabled: #010409;
+  --control-checked-borderColor-rest: #1f6feb;
+  --control-checked-borderColor-hover: #2a7aef;
+  --control-checked-borderColor-active: #3685f3;
+  --control-checked-borderColor-disabled: #6e7681;
+  --controlTrack-bgColor-rest: #21262d;
+  --controlTrack-bgColor-hover: #292e36;
+  --controlTrack-bgColor-active: #31363e;
+  --controlTrack-bgColor-disabled: #6e7681;
+  --controlTrack-fgColor-rest: #848d97;
+  --controlTrack-fgColor-disabled: #ffffff;
+  --controlTrack-borderColor-rest: #00000000;
+  --controlTrack-borderColor-disabled: #6e7681;
+  --controlKnob-bgColor-rest: #010409;
+  --controlKnob-bgColor-disabled: #21262db3;
+  --controlKnob-bgColor-checked: #ffffff;
+  --controlKnob-borderColor-rest: #666e79;
+  --controlKnob-borderColor-disabled: #21262db3;
+  --controlKnob-borderColor-checked: #1f6feb;
+  --counter-borderColor: #00000000;
+  --button-default-fgColor-rest: #c9d1d9;
+  --button-default-bgColor-rest: #21262d;
+  --button-default-bgColor-hover: #292e36;
+  --button-default-bgColor-active: #31363e;
+  --button-default-bgColor-selected: #31363e;
+  --button-default-bgColor-disabled: #21262db3;
+  --button-default-borderColor-rest: #30363d;
+  --button-default-borderColor-hover: #30363d;
+  --button-default-borderColor-active: #30363d;
+  --button-default-borderColor-disabled: #21262db3;
+  --button-default-shadow-resting: 0px 0px 0px 0px #000000;
+  --button-primary-fgColor-rest: #ffffff;
+  --button-primary-fgColor-disabled: #ffffff66;
+  --button-primary-iconColor-rest: #ffffff;
+  --button-primary-bgColor-rest: #238636;
+  --button-primary-bgColor-hover: #29903b;
+  --button-primary-bgColor-active: #2e9a40;
+  --button-primary-bgColor-disabled: #105823;
+  --button-primary-borderColor-rest: #f0f6fc1a;
+  --button-primary-borderColor-hover: #f0f6fc1a;
+  --button-primary-borderColor-active: #f0f6fc1a;
+  --button-primary-borderColor-disabled: #105823;
+  --button-primary-shadow-selected: 0px 0px 0px 0px #000000;
+  --button-invisible-fgColor-rest: #4493f8;
+  --button-invisible-fgColor-hover: #58a6ff;
+  --button-invisible-fgColor-disabled: #6e7681;
+  --button-invisible-iconColor-rest: #848d97;
+  --button-invisible-iconColor-hover: #e6edf3;
+  --button-invisible-iconColor-disabled: #6e7681;
+  --button-invisible-bgColor-rest: #00000000;
+  --button-invisible-bgColor-hover: #b1bac41f;
+  --button-invisible-bgColor-active: #b1bac433;
+  --button-invisible-bgColor-disabled: #21262db3;
+  --button-invisible-borderColor-rest: #00000000;
+  --button-invisible-borderColor-hover: #00000000;
+  --button-invisible-borderColor-disabled: #21262db3;
+  --button-outline-fgColor-rest: #388bfd;
+  --button-outline-fgColor-hover: #58a6ff;
+  --button-outline-fgColor-active: #ffffff;
+  --button-outline-fgColor-disabled: #4493f880;
+  --button-outline-bgColor-rest: #f0f6fc;
+  --button-outline-bgColor-hover: #30363d;
+  --button-outline-bgColor-active: #0d419d;
+  --button-outline-bgColor-disabled: #0d1117;
+  --button-outline-borderColor-hover: #f0f6fc1a;
+  --button-outline-borderColor-selected: #f0f6fc1a;
+  --button-outline-shadow-selected: 0px 0px 0px 0px #000000;
+  --button-danger-fgColor-rest: #f85149;
+  --button-danger-fgColor-hover: #ffffff;
+  --button-danger-fgColor-active: #ffffff;
+  --button-danger-fgColor-disabled: #f8514980;
+  --button-danger-iconColor-rest: #f85149;
+  --button-danger-iconColor-hover: #ffffff;
+  --button-danger-bgColor-rest: #21262d;
+  --button-danger-bgColor-hover: #b62324;
+  --button-danger-bgColor-active: #d03533;
+  --button-danger-bgColor-disabled: #21262db3;
+  --button-danger-borderColor-rest: #30363d;
+  --button-danger-borderColor-hover: #f0f6fc1a;
+  --button-danger-borderColor-active: #f0f6fc1a;
+  --button-danger-shadow-selected: 0px 0px 0px 0px #000000;
+  --button-inactive-fgColor: #8b949e;
+  --button-inactive-bgColor: #21262d;
+  --button-star-iconColor: #e3b341;
+  --buttonCounter-default-bgColor-rest: #30363d;
+  --buttonCounter-invisible-bgColor-rest: #30363d;
+  --buttonCounter-primary-bgColor-rest: #04260f33;
+  --buttonCounter-outline-bgColor-rest: #051d4d33;
+  --buttonCounter-outline-bgColor-hover: #051d4d33;
+  --buttonCounter-outline-bgColor-disabled: #1f6feb0d;
+  --buttonCounter-outline-fgColor-rest: #388bfd;
+  --buttonCounter-outline-fgColor-hover: #58a6ff;
+  --buttonCounter-outline-fgColor-disabled: #4493f880;
+  --buttonCounter-danger-bgColor-hover: #ffffff33;
+  --buttonCounter-danger-bgColor-disabled: #da36330d;
+  --buttonCounter-danger-bgColor-rest: #49020233;
+  --buttonCounter-danger-fgColor-rest: #f85149;
+  --buttonCounter-danger-fgColor-hover: #ffffff;
+  --buttonCounter-danger-fgColor-disabled: #f8514980;
+  --reactionButton-selected-bgColor-rest: #388bfd33;
+  --reactionButton-selected-bgColor-hover: #3a8cfd5c;
+  --reactionButton-selected-fgColor-rest: #4493f8;
+  --reactionButton-selected-fgColor-hover: #79c0ff;
+  --focus-outlineColor: #1f6feb;
+  --menu-bgColor-active: #161b22;
+  --overlay-bgColor: #161b22;
+  --overlay-borderColor: #30363db3;
+  --overlay-backdrop-bgColor: #161b2266;
+  --selectMenu-borderColor: #484f58;
+  --selectMenu-bgColor-active: #0c2d6b;
+  --sideNav-bgColor-selected: #21262d;
+  --skeletonLoader-bgColor: #161b22;
+  --timelineBadge-bgColor: #21262d;
+  --treeViewItem-leadingVisual-iconColor-rest: #848d97;
+  --underlineNav-borderColor-active: #f78166;
+  --underlineNav-borderColor-hover: #6e768166;
+  --underlineNav-iconColor-rest: #848d97;
+  --selection-bgColor: #1f6febb3;
+  --card-bgColor: #161b22;
+  --label-green-bgColor-rest: #122117;
+  --label-green-bgColor-hover: #182f1f;
+  --label-green-bgColor-active: #214529;
+  --label-green-fgColor-rest: #41b445;
+  --label-green-fgColor-hover: #46c144;
+  --label-green-fgColor-active: #75d36f;
+  --label-orange-bgColor-rest: #311708;
+  --label-orange-bgColor-hover: #43200a;
+  --label-orange-bgColor-active: #632f0d;
+  --label-orange-fgColor-rest: #ed8326;
+  --label-orange-fgColor-hover: #f1933b;
+  --label-orange-fgColor-active: #f6b06a;
+  --label-purple-bgColor-rest: #211047;
+  --label-purple-bgColor-hover: #31146b;
+  --label-purple-bgColor-active: #481a9e;
+  --label-purple-fgColor-rest: #b687f7;
+  --label-purple-fgColor-hover: #c398fb;
+  --label-purple-fgColor-active: #d2affd;
+  --label-red-bgColor-rest: #3c0614;
+  --label-red-bgColor-hover: #58091a;
+  --label-red-bgColor-active: #790c20;
+  --label-red-fgColor-rest: #f27d83;
+  --label-red-fgColor-hover: #f48b8d;
+  --label-red-fgColor-active: #f7adab;
+  --label-yellow-bgColor-rest: #2e1a00;
+  --label-yellow-bgColor-hover: #3d2401;
+  --label-yellow-bgColor-active: #5a3702;
+  --label-yellow-fgColor-rest: #d3910d;
+  --label-yellow-fgColor-hover: #df9e11;
+  --label-yellow-fgColor-active: #edb431;
+  --label-gray-bgColor-rest: #1c1c1c;
+  --label-gray-bgColor-hover: #2a2b2d;
+  --label-gray-bgColor-active: #393d41;
+  --label-gray-fgColor-rest: #92a1b5;
+  --label-gray-fgColor-hover: #9babbf;
+  --label-gray-fgColor-active: #b3c0d1;
+  --label-auburn-bgColor-rest: #271817;
+  --label-auburn-bgColor-hover: #3a2422;
+  --label-auburn-bgColor-active: #543331;
+  --label-auburn-fgColor-rest: #bf9592;
+  --label-auburn-fgColor-hover: #c6a19f;
+  --label-auburn-fgColor-active: #d4b7b5;
+  --label-brown-bgColor-rest: #241c14;
+  --label-brown-bgColor-hover: #342a1d;
+  --label-brown-bgColor-active: #483a28;
+  --label-brown-fgColor-rest: #b69a6d;
+  --label-brown-fgColor-hover: #bfa77d;
+  --label-brown-fgColor-active: #cdbb98;
+  --label-lemon-bgColor-rest: #291d00;
+  --label-lemon-bgColor-hover: #372901;
+  --label-lemon-bgColor-active: #4f3c02;
+  --label-lemon-fgColor-rest: #ba9b12;
+  --label-lemon-fgColor-hover: #c4a717;
+  --label-lemon-fgColor-active: #d7bc1d;
+  --label-olive-bgColor-rest: #171e0b;
+  --label-olive-bgColor-hover: #252d10;
+  --label-olive-bgColor-active: #374115;
+  --label-olive-fgColor-rest: #a2a626;
+  --label-olive-fgColor-hover: #b2af24;
+  --label-olive-fgColor-active: #cbc025;
+  --label-lime-bgColor-rest: #141f0f;
+  --label-lime-bgColor-hover: #1f3116;
+  --label-lime-bgColor-active: #2c441d;
+  --label-lime-fgColor-rest: #7dae37;
+  --label-lime-fgColor-hover: #89ba36;
+  --label-lime-fgColor-active: #9fcc3e;
+  --label-pine-bgColor-rest: #082119;
+  --label-pine-bgColor-hover: #0b3224;
+  --label-pine-bgColor-active: #0e4430;
+  --label-pine-fgColor-rest: #1bb673;
+  --label-pine-fgColor-hover: #1ac176;
+  --label-pine-fgColor-active: #1bda81;
+  --label-teal-bgColor-rest: #041f25;
+  --label-teal-bgColor-hover: #073036;
+  --label-teal-bgColor-active: #0a464d;
+  --label-teal-fgColor-rest: #1cb0ab;
+  --label-teal-fgColor-hover: #1fbdb2;
+  --label-teal-fgColor-active: #24d6c4;
+  --label-cyan-bgColor-rest: #001f29;
+  --label-cyan-bgColor-hover: #002e3d;
+  --label-cyan-bgColor-active: #014156;
+  --label-cyan-fgColor-rest: #07ace4;
+  --label-cyan-fgColor-hover: #09b7f1;
+  --label-cyan-fgColor-active: #45cbf7;
+  --label-indigo-bgColor-rest: #1b183f;
+  --label-indigo-bgColor-hover: #25215f;
+  --label-indigo-bgColor-active: #312c90;
+  --label-indigo-fgColor-rest: #9899ec;
+  --label-indigo-fgColor-hover: #a2a5f1;
+  --label-indigo-fgColor-active: #b7baf6;
+  --label-blue-bgColor-rest: #001a47;
+  --label-blue-bgColor-hover: #002766;
+  --label-blue-bgColor-active: #00378a;
+  --label-blue-fgColor-rest: #4da0ff;
+  --label-blue-fgColor-hover: #61adff;
+  --label-blue-fgColor-active: #85c2ff;
+  --label-plum-bgColor-rest: #2a0e3f;
+  --label-plum-bgColor-hover: #40125e;
+  --label-plum-bgColor-active: #5c1688;
+  --label-plum-fgColor-rest: #d07ef7;
+  --label-plum-fgColor-hover: #d889fa;
+  --label-plum-fgColor-active: #e4a5fd;
+  --label-pink-bgColor-rest: #2d1524;
+  --label-pink-bgColor-hover: #451c35;
+  --label-pink-bgColor-active: #65244a;
+  --label-pink-fgColor-rest: #e57bb2;
+  --label-pink-fgColor-hover: #ec8dbd;
+  --label-pink-fgColor-active: #f4a9cd;
+  --label-coral-bgColor-rest: #351008;
+  --label-coral-bgColor-hover: #51180b;
+  --label-coral-bgColor-active: #72220d;
+  --label-coral-fgColor-rest: #f7794b;
+  --label-coral-fgColor-hover: #fa8c61;
+  --label-coral-fgColor-active: #fdaa86;
+  --fgColor-default: #e6edf3;
+  --fgColor-muted: #848d97;
+  --fgColor-onEmphasis: #ffffff;
+  --fgColor-white: #ffffff;
+  --fgColor-black: #010409;
+  --fgColor-disabled: #6e7681;
+  --fgColor-link: #4493f8;
+  --fgColor-neutral: #6e7681;
+  --fgColor-accent: #4493f8;
+  --fgColor-success: #3fb950;
+  --fgColor-attention: #d29922;
+  --fgColor-severe: #db6d28;
+  --fgColor-danger: #f85149;
+  --fgColor-open: #3fb950;
+  --fgColor-closed: #f85149;
+  --fgColor-done: #a371f7;
+  --fgColor-upsell: #a371f7;
+  --fgColor-sponsors: #db61a2;
+  --bgColor-default: #0d1117;
+  --bgColor-muted: #161b22;
+  --bgColor-inset: #010409;
+  --bgColor-emphasis: #6e7681;
+  --bgColor-inverse: #ffffff;
+  --bgColor-white: #ffffff;
+  --bgColor-black: #010409;
+  --bgColor-disabled: #21262db3;
+  --bgColor-transparent: #00000000;
+  --bgColor-neutral-muted: #6e768166;
+  --bgColor-neutral-emphasis: #6e7681;
+  --bgColor-accent-muted: #388bfd1a;
+  --bgColor-accent-emphasis: #1f6feb;
+  --bgColor-success-muted: #2ea04326;
+  --bgColor-success-emphasis: #238636;
+  --bgColor-attention-muted: #bb800926;
+  --bgColor-attention-emphasis: #9e6a03;
+  --bgColor-severe-muted: #db6d281a;
+  --bgColor-severe-emphasis: #bd561d;
+  --bgColor-danger-muted: #f851491a;
+  --bgColor-danger-emphasis: #da3633;
+  --bgColor-open-muted: #2ea0431a;
+  --bgColor-open-emphasis: #238636;
+  --bgColor-closed-muted: #f8514926;
+  --bgColor-closed-emphasis: #da3633;
+  --bgColor-done-muted: #a371f726;
+  --bgColor-done-emphasis: #8957e5;
+  --bgColor-upsell-muted: #a371f726;
+  --bgColor-upsell-emphasis: #8957e5;
+  --bgColor-sponsors-muted: #db61a21a;
+  --bgColor-sponsors-emphasis: #bf4b8a;
+  --borderColor-default: #30363d;
+  --borderColor-muted: #30363db3;
+  --borderColor-emphasis: #484f58;
+  --borderColor-disabled: #21262db3;
+  --borderColor-transparent: #00000000;
+  --borderColor-neutral-muted: #6e768166;
+  --borderColor-neutral-emphasis: #6e7681;
+  --borderColor-accent-muted: #388bfd66;
+  --borderColor-accent-emphasis: #1f6feb;
+  --borderColor-success-muted: #2ea04366;
+  --borderColor-success-emphasis: #238636;
+  --borderColor-attention-muted: #bb800966;
+  --borderColor-attention-emphasis: #9e6a03;
+  --borderColor-severe-muted: #db6d2866;
+  --borderColor-severe-emphasis: #bd561d;
+  --borderColor-danger-muted: #f8514966;
+  --borderColor-danger-emphasis: #da3633;
+  --borderColor-open-muted: #2ea04366;
+  --borderColor-open-emphasis: #238636;
+  --borderColor-closed-muted: #f8514966;
+  --borderColor-closed-emphasis: #da3633;
+  --borderColor-done-muted: #a371f766;
+  --borderColor-done-emphasis: #8957e5;
+  --borderColor-upsell-muted: #a371f766;
+  --borderColor-upsell-emphasis: #8957e5;
+  --borderColor-sponsors-muted: #db61a266;
+  --borderColor-sponsors-emphasis: #bf4b8a;
+  --color-ansi-black: #484f58;
+  --color-ansi-black-bright: #6e7681;
+  --color-ansi-white: #b1bac4;
+  --color-ansi-white-bright: #ffffff;
+  --color-ansi-gray: #6e7681;
+  --color-ansi-red: #ff7b72;
+  --color-ansi-red-bright: #ffa198;
+  --color-ansi-green: #3fb950;
+  --color-ansi-green-bright: #56d364;
+  --color-ansi-yellow: #d29922;
+  --color-ansi-yellow-bright: #e3b341;
+  --color-ansi-blue: #58a6ff;
+  --color-ansi-blue-bright: #79c0ff;
+  --color-ansi-magenta: #bc8cff;
+  --color-ansi-magenta-bright: #d2a8ff;
+  --color-ansi-cyan: #39c5cf;
+  --color-ansi-cyan-bright: #56d4dd;
+  --color-prettylights-syntax-comment: #8b949e;
+  --color-prettylights-syntax-constant: #79c0ff;
+  --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+  --color-prettylights-syntax-entity: #d2a8ff;
+  --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+  --color-prettylights-syntax-entity-tag: #7ee787;
+  --color-prettylights-syntax-keyword: #ff7b72;
+  --color-prettylights-syntax-string: #a5d6ff;
+  --color-prettylights-syntax-variable: #ffa657;
+  --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+  --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+  --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+  --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+  --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+  --color-prettylights-syntax-carriage-return-bg: #b62324;
+  --color-prettylights-syntax-string-regexp: #7ee787;
+  --color-prettylights-syntax-markup-list: #f2cc60;
+  --color-prettylights-syntax-markup-heading: #1f6feb;
+  --color-prettylights-syntax-markup-italic: #c9d1d9;
+  --color-prettylights-syntax-markup-bold: #c9d1d9;
+  --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+  --color-prettylights-syntax-markup-deleted-bg: #67060c;
+  --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+  --color-prettylights-syntax-markup-inserted-bg: #033a16;
+  --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+  --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+  --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+  --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+  --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+  --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+  --shadow-inset: inset 0px 1px 0px 0px #0104093d;
+  --shadow-resting-xsmall: 0px 1px 0px 0px #010409cc;
+  --shadow-resting-small: 0px 1px 0px 0px #01040966;
+  --shadow-resting-medium: 0px 3px 6px 0px #010409cc;
+  --shadow-floating-small: 0px 0px 0px 1px #30363d, 0px 6px 12px -3px #01040966, 0px 6px 18px 0px #01040966;
+  --shadow-floating-medium: 0px 0px 0px 1px #30363d, 0px 8px 16px -4px #01040966, 0px 4px 32px -4px #01040966, 0px 24px 48px -12px #01040966, 0px 48px 96px -24px #01040966;
+  --shadow-floating-large: 0px 0px 0px 1px #30363d, 0px 24px 48px 0px #010409;
+  --shadow-floating-xlarge: 0px 0px 0px 1px #30363d, 0px 32px 64px 0px #010409;
+  --shadow-floating-legacy: 0px 6px 12px -3px #01040966, 0px 6px 18px 0px #01040966;
+  --outline-focus: #1f6feb solid 2px;
+}
+@media (prefers-color-scheme: dark) {
+  [data-color-mode="auto"][data-dark-theme="dark"],
+  [data-color-mode="auto"][data-dark-theme="dark"] ::backdrop {
+    --topicTag-borderColor: #00000000;
+    --highlight-neutral-bgColor: #d2992266;
+    --page-header-bgColor: #0d1117;
+    --diffBlob-addition-fgColor-text: #e6edf3;
+    --diffBlob-addition-fgColor-num: #e6edf3;
+    --diffBlob-addition-bgColor-num: #3fb9504d;
+    --diffBlob-addition-bgColor-line: #2ea04326;
+    --diffBlob-addition-bgColor-word: #2ea04366;
+    --diffBlob-deletion-fgColor-text: #e6edf3;
+    --diffBlob-deletion-fgColor-num: #e6edf3;
+    --diffBlob-deletion-bgColor-num: #f851494d;
+    --diffBlob-deletion-bgColor-line: #f8514926;
+    --diffBlob-deletion-bgColor-word: #f8514966;
+    --diffBlob-hunk-bgColor-num: #388bfd66;
+    --diffBlob-expander-iconColor: #848d97;
+    --codeMirror-fgColor: #e6edf3;
+    --codeMirror-bgColor: #0d1117;
+    --codeMirror-gutters-bgColor: #0d1117;
+    --codeMirror-gutterMarker-fgColor-default: #0d1117;
+    --codeMirror-gutterMarker-fgColor-muted: #848d97;
+    --codeMirror-lineNumber-fgColor: #848d97;
+    --codeMirror-cursor-fgColor: #e6edf3;
+    --codeMirror-selection-bgColor: #388bfd66;
+    --codeMirror-activeline-bgColor: #6e768166;
+    --codeMirror-matchingBracket-fgColor: #e6edf3;
+    --codeMirror-lines-bgColor: #0d1117;
+    --codeMirror-syntax-fgColor-comment: #8b949e;
+    --codeMirror-syntax-fgColor-constant: #79c0ff;
+    --codeMirror-syntax-fgColor-entity: #d2a8ff;
+    --codeMirror-syntax-fgColor-keyword: #ff7b72;
+    --codeMirror-syntax-fgColor-storage: #ff7b72;
+    --codeMirror-syntax-fgColor-string: #a5d6ff;
+    --codeMirror-syntax-fgColor-support: #79c0ff;
+    --codeMirror-syntax-fgColor-variable: #ffa657;
+    --header-fgColor-default: #ffffffb3;
+    --header-fgColor-logo: #f0f6fc;
+    --header-bgColor: #161b22f2;
+    --header-borderColor-divider: #8b949e;
+    --headerSearch-bgColor: #0d1117;
+    --headerSearch-borderColor: #30363d;
+    --data-blue-color: #0576ff;
+    --data-auburn-color: #a86f6b;
+    --data-orange-color: #984b10;
+    --data-yellow-color: #895906;
+    --data-green-color: #2f6f37;
+    --data-teal-color: #106c70;
+    --data-purple-color: #975bf1;
+    --data-pink-color: #d34591;
+    --data-red-color: #eb3342;
+    --data-gray-color: #576270;
+    --display-blue-bgColor-muted: #001a47;
+    --display-blue-bgColor-emphasis: #0576ff;
+    --display-blue-fgColor: #4da0ff;
+    --display-blue-borderColor-muted: #002766;
+    --display-blue-borderColor-emphasis: #0576ff;
+    --display-green-bgColor-muted: #122117;
+    --display-green-bgColor-emphasis: #388f3f;
+    --display-green-fgColor: #41b445;
+    --display-green-borderColor-muted: #182f1f;
+    --display-green-borderColor-emphasis: #388f3f;
+    --display-orange-bgColor-muted: #311708;
+    --display-orange-bgColor-emphasis: #c46212;
+    --display-orange-fgColor: #ed8326;
+    --display-orange-borderColor-muted: #43200a;
+    --display-orange-borderColor-emphasis: #c46212;
+    --display-purple-bgColor-muted: #211047;
+    --display-purple-bgColor-emphasis: #975bf1;
+    --display-purple-fgColor: #b687f7;
+    --display-purple-borderColor-muted: #31146b;
+    --display-purple-borderColor-emphasis: #975bf1;
+    --display-red-bgColor-muted: #3c0614;
+    --display-red-bgColor-emphasis: #eb3342;
+    --display-red-fgColor: #f27d83;
+    --display-red-borderColor-muted: #58091a;
+    --display-red-borderColor-emphasis: #eb3342;
+    --display-yellow-bgColor-muted: #2e1a00;
+    --display-yellow-bgColor-emphasis: #aa7109;
+    --display-yellow-fgColor: #d3910d;
+    --display-yellow-borderColor-muted: #3d2401;
+    --display-yellow-borderColor-emphasis: #aa7109;
+    --display-gray-bgColor-muted: #1c1c1c;
+    --display-gray-bgColor-emphasis: #6e7f96;
+    --display-gray-fgColor: #92a1b5;
+    --display-gray-borderColor-muted: #2a2b2d;
+    --display-gray-borderColor-emphasis: #6e7f96;
+    --display-auburn-bgColor-muted: #271817;
+    --display-auburn-bgColor-emphasis: #a86f6b;
+    --display-auburn-fgColor: #bf9592;
+    --display-auburn-borderColor-muted: #3a2422;
+    --display-auburn-borderColor-emphasis: #a86f6b;
+    --display-brown-bgColor-muted: #241c14;
+    --display-brown-bgColor-emphasis: #94774c;
+    --display-brown-fgColor: #b69a6d;
+    --display-brown-borderColor-muted: #342a1d;
+    --display-brown-borderColor-emphasis: #94774c;
+    --display-lemon-bgColor-muted: #291d00;
+    --display-lemon-bgColor-emphasis: #977b0c;
+    --display-lemon-fgColor: #ba9b12;
+    --display-lemon-borderColor-muted: #372901;
+    --display-lemon-borderColor-emphasis: #977b0c;
+    --display-olive-bgColor-muted: #171e0b;
+    --display-olive-bgColor-emphasis: #7a8321;
+    --display-olive-fgColor: #a2a626;
+    --display-olive-borderColor-muted: #252d10;
+    --display-olive-borderColor-emphasis: #7a8321;
+    --display-lime-bgColor-muted: #141f0f;
+    --display-lime-bgColor-emphasis: #5f892f;
+    --display-lime-fgColor: #7dae37;
+    --display-lime-borderColor-muted: #1f3116;
+    --display-lime-borderColor-emphasis: #5f892f;
+    --display-pine-bgColor-muted: #082119;
+    --display-pine-bgColor-emphasis: #18915e;
+    --display-pine-fgColor: #1bb673;
+    --display-pine-borderColor-muted: #0b3224;
+    --display-pine-borderColor-emphasis: #18915e;
+    --display-teal-bgColor-muted: #041f25;
+    --display-teal-bgColor-emphasis: #158a8a;
+    --display-teal-fgColor: #1cb0ab;
+    --display-teal-borderColor-muted: #073036;
+    --display-teal-borderColor-emphasis: #158a8a;
+    --display-cyan-bgColor-muted: #001f29;
+    --display-cyan-bgColor-emphasis: #0587b3;
+    --display-cyan-fgColor: #07ace4;
+    --display-cyan-borderColor-muted: #002e3d;
+    --display-cyan-borderColor-emphasis: #0587b3;
+    --display-indigo-bgColor-muted: #1b183f;
+    --display-indigo-bgColor-emphasis: #7070e1;
+    --display-indigo-fgColor: #9899ec;
+    --display-indigo-borderColor-muted: #25215f;
+    --display-indigo-borderColor-emphasis: #7070e1;
+    --avatar-bgColor: #ffffff1a;
+    --avatar-borderColor: #ffffff26;
+    --avatar-shadow: 0px 0px 0px 2px #0d1117;
+    --avatarStack-fade-bgColor-default: #30363d;
+    --avatarStack-fade-bgColor-muted: #21262d;
+    --control-bgColor-rest: #21262d;
+    --control-bgColor-hover: #292e36;
+    --control-bgColor-active: #31363e;
+    --control-bgColor-disabled: #21262db3;
+    --control-bgColor-selected: #161b22;
+    --control-fgColor-rest: #c9d1d9;
+    --control-fgColor-placeholder: #484f58;
+    --control-fgColor-disabled: #6e7681;
+    --control-borderColor-rest: #30363d;
+    --control-borderColor-emphasis: #666e79;
+    --control-borderColor-disabled: #21262db3;
+    --control-borderColor-selected: #f0f6fc;
+    --control-borderColor-success: #238636;
+    --control-borderColor-danger: #da3633;
+    --control-borderColor-warning: #9e6a03;
+    --control-iconColor-rest: #848d97;
+    --control-transparent-bgColor-rest: #00000000;
+    --control-transparent-bgColor-hover: #b1bac41f;
+    --control-transparent-bgColor-active: #b1bac433;
+    --control-transparent-bgColor-disabled: #21262db3;
+    --control-transparent-bgColor-selected: #b1bac414;
+    --control-transparent-borderColor-rest: #00000000;
+    --control-transparent-borderColor-hover: #00000000;
+    --control-transparent-borderColor-active: #00000000;
+    --control-danger-fgColor-rest: #f85149;
+    --control-danger-fgColor-hover: #ff7b72;
+    --control-danger-bgColor-hover: #f851491a;
+    --control-danger-bgColor-active: #f8514966;
+    --control-checked-bgColor-rest: #1f6feb;
+    --control-checked-bgColor-hover: #2a7aef;
+    --control-checked-bgColor-active: #3685f3;
+    --control-checked-bgColor-disabled: #6e7681;
+    --control-checked-fgColor-rest: #ffffff;
+    --control-checked-fgColor-disabled: #010409;
+    --control-checked-borderColor-rest: #1f6feb;
+    --control-checked-borderColor-hover: #2a7aef;
+    --control-checked-borderColor-active: #3685f3;
+    --control-checked-borderColor-disabled: #6e7681;
+    --controlTrack-bgColor-rest: #21262d;
+    --controlTrack-bgColor-hover: #292e36;
+    --controlTrack-bgColor-active: #31363e;
+    --controlTrack-bgColor-disabled: #6e7681;
+    --controlTrack-fgColor-rest: #848d97;
+    --controlTrack-fgColor-disabled: #ffffff;
+    --controlTrack-borderColor-rest: #00000000;
+    --controlTrack-borderColor-disabled: #6e7681;
+    --controlKnob-bgColor-rest: #010409;
+    --controlKnob-bgColor-disabled: #21262db3;
+    --controlKnob-bgColor-checked: #ffffff;
+    --controlKnob-borderColor-rest: #666e79;
+    --controlKnob-borderColor-disabled: #21262db3;
+    --controlKnob-borderColor-checked: #1f6feb;
+    --counter-borderColor: #00000000;
+    --button-default-fgColor-rest: #c9d1d9;
+    --button-default-bgColor-rest: #21262d;
+    --button-default-bgColor-hover: #292e36;
+    --button-default-bgColor-active: #31363e;
+    --button-default-bgColor-selected: #31363e;
+    --button-default-bgColor-disabled: #21262db3;
+    --button-default-borderColor-rest: #30363d;
+    --button-default-borderColor-hover: #30363d;
+    --button-default-borderColor-active: #30363d;
+    --button-default-borderColor-disabled: #21262db3;
+    --button-default-shadow-resting: 0px 0px 0px 0px #000000;
+    --button-primary-fgColor-rest: #ffffff;
+    --button-primary-fgColor-disabled: #ffffff66;
+    --button-primary-iconColor-rest: #ffffff;
+    --button-primary-bgColor-rest: #238636;
+    --button-primary-bgColor-hover: #29903b;
+    --button-primary-bgColor-active: #2e9a40;
+    --button-primary-bgColor-disabled: #105823;
+    --button-primary-borderColor-rest: #f0f6fc1a;
+    --button-primary-borderColor-hover: #f0f6fc1a;
+    --button-primary-borderColor-active: #f0f6fc1a;
+    --button-primary-borderColor-disabled: #105823;
+    --button-primary-shadow-selected: 0px 0px 0px 0px #000000;
+    --button-invisible-fgColor-rest: #4493f8;
+    --button-invisible-fgColor-hover: #58a6ff;
+    --button-invisible-fgColor-disabled: #6e7681;
+    --button-invisible-iconColor-rest: #848d97;
+    --button-invisible-iconColor-hover: #e6edf3;
+    --button-invisible-iconColor-disabled: #6e7681;
+    --button-invisible-bgColor-rest: #00000000;
+    --button-invisible-bgColor-hover: #b1bac41f;
+    --button-invisible-bgColor-active: #b1bac433;
+    --button-invisible-bgColor-disabled: #21262db3;
+    --button-invisible-borderColor-rest: #00000000;
+    --button-invisible-borderColor-hover: #00000000;
+    --button-invisible-borderColor-disabled: #21262db3;
+    --button-outline-fgColor-rest: #388bfd;
+    --button-outline-fgColor-hover: #58a6ff;
+    --button-outline-fgColor-active: #ffffff;
+    --button-outline-fgColor-disabled: #4493f880;
+    --button-outline-bgColor-rest: #f0f6fc;
+    --button-outline-bgColor-hover: #30363d;
+    --button-outline-bgColor-active: #0d419d;
+    --button-outline-bgColor-disabled: #0d1117;
+    --button-outline-borderColor-hover: #f0f6fc1a;
+    --button-outline-borderColor-selected: #f0f6fc1a;
+    --button-outline-shadow-selected: 0px 0px 0px 0px #000000;
+    --button-danger-fgColor-rest: #f85149;
+    --button-danger-fgColor-hover: #ffffff;
+    --button-danger-fgColor-active: #ffffff;
+    --button-danger-fgColor-disabled: #f8514980;
+    --button-danger-iconColor-rest: #f85149;
+    --button-danger-iconColor-hover: #ffffff;
+    --button-danger-bgColor-rest: #21262d;
+    --button-danger-bgColor-hover: #b62324;
+    --button-danger-bgColor-active: #d03533;
+    --button-danger-bgColor-disabled: #21262db3;
+    --button-danger-borderColor-rest: #30363d;
+    --button-danger-borderColor-hover: #f0f6fc1a;
+    --button-danger-borderColor-active: #f0f6fc1a;
+    --button-danger-shadow-selected: 0px 0px 0px 0px #000000;
+    --button-inactive-fgColor: #8b949e;
+    --button-inactive-bgColor: #21262d;
+    --button-star-iconColor: #e3b341;
+    --buttonCounter-default-bgColor-rest: #30363d;
+    --buttonCounter-invisible-bgColor-rest: #30363d;
+    --buttonCounter-primary-bgColor-rest: #04260f33;
+    --buttonCounter-outline-bgColor-rest: #051d4d33;
+    --buttonCounter-outline-bgColor-hover: #051d4d33;
+    --buttonCounter-outline-bgColor-disabled: #1f6feb0d;
+    --buttonCounter-outline-fgColor-rest: #388bfd;
+    --buttonCounter-outline-fgColor-hover: #58a6ff;
+    --buttonCounter-outline-fgColor-disabled: #4493f880;
+    --buttonCounter-danger-bgColor-hover: #ffffff33;
+    --buttonCounter-danger-bgColor-disabled: #da36330d;
+    --buttonCounter-danger-bgColor-rest: #49020233;
+    --buttonCounter-danger-fgColor-rest: #f85149;
+    --buttonCounter-danger-fgColor-hover: #ffffff;
+    --buttonCounter-danger-fgColor-disabled: #f8514980;
+    --reactionButton-selected-bgColor-rest: #388bfd33;
+    --reactionButton-selected-bgColor-hover: #3a8cfd5c;
+    --reactionButton-selected-fgColor-rest: #4493f8;
+    --reactionButton-selected-fgColor-hover: #79c0ff;
+    --focus-outlineColor: #1f6feb;
+    --menu-bgColor-active: #161b22;
+    --overlay-bgColor: #161b22;
+    --overlay-borderColor: #30363db3;
+    --overlay-backdrop-bgColor: #161b2266;
+    --selectMenu-borderColor: #484f58;
+    --selectMenu-bgColor-active: #0c2d6b;
+    --sideNav-bgColor-selected: #21262d;
+    --skeletonLoader-bgColor: #161b22;
+    --timelineBadge-bgColor: #21262d;
+    --treeViewItem-leadingVisual-iconColor-rest: #848d97;
+    --underlineNav-borderColor-active: #f78166;
+    --underlineNav-borderColor-hover: #6e768166;
+    --underlineNav-iconColor-rest: #848d97;
+    --selection-bgColor: #1f6febb3;
+    --card-bgColor: #161b22;
+    --label-green-bgColor-rest: #122117;
+    --label-green-bgColor-hover: #182f1f;
+    --label-green-bgColor-active: #214529;
+    --label-green-fgColor-rest: #41b445;
+    --label-green-fgColor-hover: #46c144;
+    --label-green-fgColor-active: #75d36f;
+    --label-orange-bgColor-rest: #311708;
+    --label-orange-bgColor-hover: #43200a;
+    --label-orange-bgColor-active: #632f0d;
+    --label-orange-fgColor-rest: #ed8326;
+    --label-orange-fgColor-hover: #f1933b;
+    --label-orange-fgColor-active: #f6b06a;
+    --label-purple-bgColor-rest: #211047;
+    --label-purple-bgColor-hover: #31146b;
+    --label-purple-bgColor-active: #481a9e;
+    --label-purple-fgColor-rest: #b687f7;
+    --label-purple-fgColor-hover: #c398fb;
+    --label-purple-fgColor-active: #d2affd;
+    --label-red-bgColor-rest: #3c0614;
+    --label-red-bgColor-hover: #58091a;
+    --label-red-bgColor-active: #790c20;
+    --label-red-fgColor-rest: #f27d83;
+    --label-red-fgColor-hover: #f48b8d;
+    --label-red-fgColor-active: #f7adab;
+    --label-yellow-bgColor-rest: #2e1a00;
+    --label-yellow-bgColor-hover: #3d2401;
+    --label-yellow-bgColor-active: #5a3702;
+    --label-yellow-fgColor-rest: #d3910d;
+    --label-yellow-fgColor-hover: #df9e11;
+    --label-yellow-fgColor-active: #edb431;
+    --label-gray-bgColor-rest: #1c1c1c;
+    --label-gray-bgColor-hover: #2a2b2d;
+    --label-gray-bgColor-active: #393d41;
+    --label-gray-fgColor-rest: #92a1b5;
+    --label-gray-fgColor-hover: #9babbf;
+    --label-gray-fgColor-active: #b3c0d1;
+    --label-auburn-bgColor-rest: #271817;
+    --label-auburn-bgColor-hover: #3a2422;
+    --label-auburn-bgColor-active: #543331;
+    --label-auburn-fgColor-rest: #bf9592;
+    --label-auburn-fgColor-hover: #c6a19f;
+    --label-auburn-fgColor-active: #d4b7b5;
+    --label-brown-bgColor-rest: #241c14;
+    --label-brown-bgColor-hover: #342a1d;
+    --label-brown-bgColor-active: #483a28;
+    --label-brown-fgColor-rest: #b69a6d;
+    --label-brown-fgColor-hover: #bfa77d;
+    --label-brown-fgColor-active: #cdbb98;
+    --label-lemon-bgColor-rest: #291d00;
+    --label-lemon-bgColor-hover: #372901;
+    --label-lemon-bgColor-active: #4f3c02;
+    --label-lemon-fgColor-rest: #ba9b12;
+    --label-lemon-fgColor-hover: #c4a717;
+    --label-lemon-fgColor-active: #d7bc1d;
+    --label-olive-bgColor-rest: #171e0b;
+    --label-olive-bgColor-hover: #252d10;
+    --label-olive-bgColor-active: #374115;
+    --label-olive-fgColor-rest: #a2a626;
+    --label-olive-fgColor-hover: #b2af24;
+    --label-olive-fgColor-active: #cbc025;
+    --label-lime-bgColor-rest: #141f0f;
+    --label-lime-bgColor-hover: #1f3116;
+    --label-lime-bgColor-active: #2c441d;
+    --label-lime-fgColor-rest: #7dae37;
+    --label-lime-fgColor-hover: #89ba36;
+    --label-lime-fgColor-active: #9fcc3e;
+    --label-pine-bgColor-rest: #082119;
+    --label-pine-bgColor-hover: #0b3224;
+    --label-pine-bgColor-active: #0e4430;
+    --label-pine-fgColor-rest: #1bb673;
+    --label-pine-fgColor-hover: #1ac176;
+    --label-pine-fgColor-active: #1bda81;
+    --label-teal-bgColor-rest: #041f25;
+    --label-teal-bgColor-hover: #073036;
+    --label-teal-bgColor-active: #0a464d;
+    --label-teal-fgColor-rest: #1cb0ab;
+    --label-teal-fgColor-hover: #1fbdb2;
+    --label-teal-fgColor-active: #24d6c4;
+    --label-cyan-bgColor-rest: #001f29;
+    --label-cyan-bgColor-hover: #002e3d;
+    --label-cyan-bgColor-active: #014156;
+    --label-cyan-fgColor-rest: #07ace4;
+    --label-cyan-fgColor-hover: #09b7f1;
+    --label-cyan-fgColor-active: #45cbf7;
+    --label-indigo-bgColor-rest: #1b183f;
+    --label-indigo-bgColor-hover: #25215f;
+    --label-indigo-bgColor-active: #312c90;
+    --label-indigo-fgColor-rest: #9899ec;
+    --label-indigo-fgColor-hover: #a2a5f1;
+    --label-indigo-fgColor-active: #b7baf6;
+    --label-blue-bgColor-rest: #001a47;
+    --label-blue-bgColor-hover: #002766;
+    --label-blue-bgColor-active: #00378a;
+    --label-blue-fgColor-rest: #4da0ff;
+    --label-blue-fgColor-hover: #61adff;
+    --label-blue-fgColor-active: #85c2ff;
+    --label-plum-bgColor-rest: #2a0e3f;
+    --label-plum-bgColor-hover: #40125e;
+    --label-plum-bgColor-active: #5c1688;
+    --label-plum-fgColor-rest: #d07ef7;
+    --label-plum-fgColor-hover: #d889fa;
+    --label-plum-fgColor-active: #e4a5fd;
+    --label-pink-bgColor-rest: #2d1524;
+    --label-pink-bgColor-hover: #451c35;
+    --label-pink-bgColor-active: #65244a;
+    --label-pink-fgColor-rest: #e57bb2;
+    --label-pink-fgColor-hover: #ec8dbd;
+    --label-pink-fgColor-active: #f4a9cd;
+    --label-coral-bgColor-rest: #351008;
+    --label-coral-bgColor-hover: #51180b;
+    --label-coral-bgColor-active: #72220d;
+    --label-coral-fgColor-rest: #f7794b;
+    --label-coral-fgColor-hover: #fa8c61;
+    --label-coral-fgColor-active: #fdaa86;
+    --fgColor-default: #e6edf3;
+    --fgColor-muted: #848d97;
+    --fgColor-onEmphasis: #ffffff;
+    --fgColor-white: #ffffff;
+    --fgColor-black: #010409;
+    --fgColor-disabled: #6e7681;
+    --fgColor-link: #4493f8;
+    --fgColor-neutral: #6e7681;
+    --fgColor-accent: #4493f8;
+    --fgColor-success: #3fb950;
+    --fgColor-attention: #d29922;
+    --fgColor-severe: #db6d28;
+    --fgColor-danger: #f85149;
+    --fgColor-open: #3fb950;
+    --fgColor-closed: #f85149;
+    --fgColor-done: #a371f7;
+    --fgColor-upsell: #a371f7;
+    --fgColor-sponsors: #db61a2;
+    --bgColor-default: #0d1117;
+    --bgColor-muted: #161b22;
+    --bgColor-inset: #010409;
+    --bgColor-emphasis: #6e7681;
+    --bgColor-inverse: #ffffff;
+    --bgColor-white: #ffffff;
+    --bgColor-black: #010409;
+    --bgColor-disabled: #21262db3;
+    --bgColor-transparent: #00000000;
+    --bgColor-neutral-muted: #6e768166;
+    --bgColor-neutral-emphasis: #6e7681;
+    --bgColor-accent-muted: #388bfd1a;
+    --bgColor-accent-emphasis: #1f6feb;
+    --bgColor-success-muted: #2ea04326;
+    --bgColor-success-emphasis: #238636;
+    --bgColor-attention-muted: #bb800926;
+    --bgColor-attention-emphasis: #9e6a03;
+    --bgColor-severe-muted: #db6d281a;
+    --bgColor-severe-emphasis: #bd561d;
+    --bgColor-danger-muted: #f851491a;
+    --bgColor-danger-emphasis: #da3633;
+    --bgColor-open-muted: #2ea0431a;
+    --bgColor-open-emphasis: #238636;
+    --bgColor-closed-muted: #f8514926;
+    --bgColor-closed-emphasis: #da3633;
+    --bgColor-done-muted: #a371f726;
+    --bgColor-done-emphasis: #8957e5;
+    --bgColor-upsell-muted: #a371f726;
+    --bgColor-upsell-emphasis: #8957e5;
+    --bgColor-sponsors-muted: #db61a21a;
+    --bgColor-sponsors-emphasis: #bf4b8a;
+    --borderColor-default: #30363d;
+    --borderColor-muted: #30363db3;
+    --borderColor-emphasis: #484f58;
+    --borderColor-disabled: #21262db3;
+    --borderColor-transparent: #00000000;
+    --borderColor-neutral-muted: #6e768166;
+    --borderColor-neutral-emphasis: #6e7681;
+    --borderColor-accent-muted: #388bfd66;
+    --borderColor-accent-emphasis: #1f6feb;
+    --borderColor-success-muted: #2ea04366;
+    --borderColor-success-emphasis: #238636;
+    --borderColor-attention-muted: #bb800966;
+    --borderColor-attention-emphasis: #9e6a03;
+    --borderColor-severe-muted: #db6d2866;
+    --borderColor-severe-emphasis: #bd561d;
+    --borderColor-danger-muted: #f8514966;
+    --borderColor-danger-emphasis: #da3633;
+    --borderColor-open-muted: #2ea04366;
+    --borderColor-open-emphasis: #238636;
+    --borderColor-closed-muted: #f8514966;
+    --borderColor-closed-emphasis: #da3633;
+    --borderColor-done-muted: #a371f766;
+    --borderColor-done-emphasis: #8957e5;
+    --borderColor-upsell-muted: #a371f766;
+    --borderColor-upsell-emphasis: #8957e5;
+    --borderColor-sponsors-muted: #db61a266;
+    --borderColor-sponsors-emphasis: #bf4b8a;
+    --color-ansi-black: #484f58;
+    --color-ansi-black-bright: #6e7681;
+    --color-ansi-white: #b1bac4;
+    --color-ansi-white-bright: #ffffff;
+    --color-ansi-gray: #6e7681;
+    --color-ansi-red: #ff7b72;
+    --color-ansi-red-bright: #ffa198;
+    --color-ansi-green: #3fb950;
+    --color-ansi-green-bright: #56d364;
+    --color-ansi-yellow: #d29922;
+    --color-ansi-yellow-bright: #e3b341;
+    --color-ansi-blue: #58a6ff;
+    --color-ansi-blue-bright: #79c0ff;
+    --color-ansi-magenta: #bc8cff;
+    --color-ansi-magenta-bright: #d2a8ff;
+    --color-ansi-cyan: #39c5cf;
+    --color-ansi-cyan-bright: #56d4dd;
+    --color-prettylights-syntax-comment: #8b949e;
+    --color-prettylights-syntax-constant: #79c0ff;
+    --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+    --color-prettylights-syntax-entity: #d2a8ff;
+    --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+    --color-prettylights-syntax-entity-tag: #7ee787;
+    --color-prettylights-syntax-keyword: #ff7b72;
+    --color-prettylights-syntax-string: #a5d6ff;
+    --color-prettylights-syntax-variable: #ffa657;
+    --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+    --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+    --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+    --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+    --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+    --color-prettylights-syntax-carriage-return-bg: #b62324;
+    --color-prettylights-syntax-string-regexp: #7ee787;
+    --color-prettylights-syntax-markup-list: #f2cc60;
+    --color-prettylights-syntax-markup-heading: #1f6feb;
+    --color-prettylights-syntax-markup-italic: #c9d1d9;
+    --color-prettylights-syntax-markup-bold: #c9d1d9;
+    --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+    --color-prettylights-syntax-markup-deleted-bg: #67060c;
+    --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+    --color-prettylights-syntax-markup-inserted-bg: #033a16;
+    --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+    --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+    --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+    --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+    --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+    --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+    --shadow-inset: inset 0px 1px 0px 0px #0104093d;
+    --shadow-resting-xsmall: 0px 1px 0px 0px #010409cc;
+    --shadow-resting-small: 0px 1px 0px 0px #01040966;
+    --shadow-resting-medium: 0px 3px 6px 0px #010409cc;
+    --shadow-floating-small: 0px 0px 0px 1px #30363d, 0px 6px 12px -3px #01040966, 0px 6px 18px 0px #01040966;
+    --shadow-floating-medium: 0px 0px 0px 1px #30363d, 0px 8px 16px -4px #01040966, 0px 4px 32px -4px #01040966, 0px 24px 48px -12px #01040966, 0px 48px 96px -24px #01040966;
+    --shadow-floating-large: 0px 0px 0px 1px #30363d, 0px 24px 48px 0px #010409;
+    --shadow-floating-xlarge: 0px 0px 0px 1px #30363d, 0px 32px 64px 0px #010409;
+    --shadow-floating-legacy: 0px 6px 12px -3px #01040966, 0px 6px 18px 0px #01040966;
+    --outline-focus: #1f6feb solid 2px;
+  }
+}
+```
+
+
+just sat down chillin for 420 and prob going for shower waiting on load of clothes
+
+# BNY Retro
+
+Q: Why were you let go? 
+A: I was laid off.
+Q: What were some of the reasons for the role not working? 
+A: Working with an fully remote and offsite team led my hours to be expanded, and when asked of the my managers and leadership what the main function of my role was as I understood it was: To imporove the systems design flow, data display/ingestion to CX features and take on maintining the design component library.
+Q: How did you go about improving the systems?
+A: Analyizing the exisiting elements in their implementation, try to understand an ideal scenario and complile options to use is testable theories and arrive at a solid pattern that coupled CX with archetecture. So rather than tightly couple buinsess logic with systems logic and it's tech stackl; we would try to understand the tech by instead what it is fundamentally try to do and not what it is. This process made things seem obvious once they were laid out. I helped define transactional data objects. What is needed and what is provided back in the transaction handshake. I would start with some look/feel designs and as this was being collected I would  with with the systems designer and tech leads to flesh out the data objects. After an initial pass I would work with more of the researchers to align language along the brand and CX library. In cataloging the designs I used the visual catalog and compared it to the styles that existed out in the systems as I found there were some bastardaized patterns that would need to be aligned and managed when compared to the idealized vs production CX patterns. So I set up a walkthrough session to run through an account lifecycle froim creation to managment to removal. I had the designers show me through and idealized version as well as a QA/Support person run through edge cases. 
+Q: What in your opinion was why this failed?
+A: The team having exposue to project managment tools as well as the languages in which the systems where designed and how to marry UX with SaaS with a mixture of deisng and CS (computer science) thinking. As well as someone fluent in project managment better to me to assist with it as most team memebers were unfamiliar with Jira or CSS.
+Q: How did you tryo to solve this?
+A: I would help breakdown the content into it's effects (what is the outcome of how it is) if there was a form process that had 52 fields how could we better organize it into parts that would flow conversationally. The example I used was one of a spouse couple needing to make a cake. How would they organize the money with resources and tasks to then follow a recipe and end up with a cake. The reson this analogy was useful is how secuirity and access worked in the systems were reliant on one another. One couldnt transfer money the other did not have. 
+

@@ -1,0 +1,73 @@
+/* refactor of the COMA.css section for applying offset positions */
+
+.home-lead {
+    background-color: #e0e9fe;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    position: relative;
+}
+
+.home-lead.section--1 .home-lead__background,
+.home-lead.section--3 .home-lead__background,
+.home-lead.section--5 .home-lead__background {
+    right: 0;
+    bottom: 0vw;
+    top: 0vw;
+    left: 33.3333333333vw;
+}
+
+.home-lead.section--1 .home-lead__content,
+.home-lead.section--3 .home-lead__content,
+.home-lead.section--5 .home-lead__content {
+    margin-right: 4vw;
+}
+
+.home-lead.section--2,
+.home-lead.section--4,
+.home-lead.section--6 {
+    padding-top: 0vw;
+}
+
+.home-lead.section--2 .home-lead__background,
+.home-lead.section--4 .home-lead__background,
+.home-lead.section--6 .home-lead__background {
+    right: 33.3333333333vw;
+    bottom: 0vw;
+    top: 24vw;
+    left: 0;
+}
+
+.home-lead.section--2 .home-lead__content,
+.home-lead.section--4 .home-lead__content,
+.home-lead.section--6 .home-lead__content {
+    margin-left: 4vw;
+}
+
+.home-lead.section--3,
+.home-lead.section--5 {
+    padding-top: 0vw;
+}
+
+.home-lead.section--3 .home-lead__background,
+.home-lead.section--5 .home-lead__background {
+    top: 24vw;
+}
+
+.home-lead__background {
+    content: "";
+    position: absolute;
+    top: 4vw;
+    bottom: 4vw;
+}
+
+.home-lead__content {
+    background-color: #1a3acc;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    position: relative;
+}
+
+.home-lead__content .row .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
