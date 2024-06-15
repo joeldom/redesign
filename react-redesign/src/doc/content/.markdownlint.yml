@@ -1,6 +1,8 @@
 // MD linter
 {
 "default": true,
+"MD047": false,
+"MD012": false,
 "MD003": false,
 "MD007": false,
 "MD013": false,

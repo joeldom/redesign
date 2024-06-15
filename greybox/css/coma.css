@@ -7,6 +7,36 @@
 11.14.22 changes push
 ////////////////////////////////////////*/
 
+:root {
+    /* colors */
+    --brand-blue: #1a3acc;
+    --dark-blue: #001c9b;
+    --very-dark-blue: #000e4e;
+    --magenta: #ab1acc;
+    --fuchsia: #84017e;
+    --blood-red: #600000;
+    --dim-red: #ee0202;
+    --golden: #ccab1a;
+    --bright-orange: rgba(255, 111, 63, 0.5);
+    --orange: #ff6f3f;
+    --dark-olive: #1a1e1c;
+    --black: #0a0c0e;
+    --white: #ffffff;
+    --base-bright: #f0f4f7;
+    --bright-grey: #f2f2f2;
+    --light-grey: #cfcfcf;
+    --warm-grey: #818181;
+    --metal: #5a6771;
+    --ever-green: #142a2d;
+    --cool-blue: #e0e9fe;
+    --euphoria: #00050f;
+    /* properties */
+    --font-base-size: 14px;
+    --font-small-size: 12px;
+    --font-tiny-size: 10px;
+    --font-micro-size: 8px;
+}
+
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,500,700,500italic,700italic");
 @import url("https://fonts.googleapis.com/css?family=Cousine:400,400italic,700,700italic");
@@ -5751,6 +5781,8 @@ p[class*="col-"] {
 }
 
 .grid .grid-inner.full-3 article {
+    position: relative;
+    padding: 0 5%;
     width: 33.333%;
     float: left;
     height: 33.333vh;
@@ -5758,9 +5790,7 @@ p[class*="col-"] {
     background-size: cover;
     background-position: center center;
     background-color: #1a3acc;
-    /*#fff*/
-    position: relative;
-    padding: 0 5%;
+    /* default */
 }
 
 @media (max-width: 767px) {
@@ -5806,7 +5836,7 @@ p[class*="col-"] {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #1a3acc;
+    /* background-color: #1a3acc; */
 }
 
 .grid .grid-inner.full-3 article:hover:before {

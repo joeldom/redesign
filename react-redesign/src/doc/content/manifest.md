@@ -6,12 +6,12 @@
 
                               var
                      @primary: #1a3acc;
-                     $cuul-blue: #e0e9fe;
+                     $cool-blue: #e0e9fe;
                      $off-white: #e4dfd9;
-                     $cuul-grey: #a3a3a3;
-                     $wurm-grey: #e4dfd9;
+                     $cool-grey: #a3a3a3;
+                     $warm-grey: #e4dfd9;
                      @magenta: #ab1acc;
-                     $fuschia: #84017E;
+                     $fucshia: #84017E;
                      @red: #600000;
                      $blood-red: #690808;
                      @legacy: #008080;
@@ -33,7 +33,7 @@
                      $dark-grey: #767676;
                      $medium-grey: #C4C4C4;
                      $warm-black: #2D2828;
-                     $deap-green: #0A202E;
+                     $deep-green: #0A202E;
                      $deep-root: #004161;
 
                              urls
@@ -46,7 +46,7 @@
                      ello.co/joeldombek
                      twitch.tv/joeldombek
 
-                            cmds
+                            cmd
 
 -->
 

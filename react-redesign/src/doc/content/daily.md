@@ -132,6 +132,7 @@ A "label" index to be used in a to-do list that serves as a brief marker used to
 - Paypal Resume
 - MS Resume
 - Trash (cardboard)
+- color lib file sass/css
 
 ## Week June 10
 - Trash (cans)

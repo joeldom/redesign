@@ -34,6 +34,10 @@ body {
     font-family: "Inter", sans-serif !important;
 }
 
+svg {
+    vertical-align: middle;
+}
+
 .ventnav {
     /* background-color: #444cf7; */
     height: 25px;
@@ -79,6 +83,92 @@ body {
         line-height: 1.0909090909090908;
         line-height: 1;
         padding: 6px 11px;
+    }
+}
+
+.gradient1 {
+    background: rgb(20, 42, 45);
+    background: linear-gradient(90deg, rgba(20, 42, 45, 1) 0%, rgba(26, 58, 204, 1) 55%, rgba(0, 0, 0, 1) 100%);
+}
+
+.gradient-background {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(270deg, rgba(20, 42, 45, 1) 0%, rgba(26, 58, 204, 1) 55%, rgba(0, 0, 0, 1) 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 65s ease infinite;
+}
+
+#Prime .quote-outer {
+    padding: 80vh 0 0;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.prime {
+    /* used on github images to have them animated in/down  */
+    animation: Hero-visual-init 1s cubic-bezier(0, .5, .2, 1) .6s backwards;
+}
+
+.quote {
+    font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.grid .grid-inner.full-3 article {
+    /* background-image: url('../sandbox/products/chainweb.png'); */
+    background-color: var(--brand-blue);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 400px; */
+    /* box-shadow: 6px 34px 60px rgba(0, 5, 15, .5) inset, -6px 34px 60px rgba(0, 5, 15, .5) inset; */
+}
+
+.grid .grid-inner.full-3 article:hover:before {
+    opacity: .8;
+    background-color: var(--dark-blue);
+    background-color: var(--euphoria);
+    /* box-shadow: 6px 34px 60px rgba(0, 5, 15, .5) inset, -6px 34px 60px rgba(0, 5, 15, .5) inset; */
+}
+
+.navbar-brand svg {
+    vertical-align: middle;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus,
+.navbar-brand:hover svg {
+    text-decoration: none;
+    color: black;
+    fill: #000 !important;
+}
+
+
+/* animation to have contextual */
+
+.navbar-brand:hover svg,
+.dropdown a:hover svg {
+    margin: 0 12px 0 -12px;
+    animation: moveLeft .7s forwards;
+    fill: #000 !important;
+}
+
+@keyframes moveLeft {
+    from {
+        margin: 0 0 0 0;
+    }
+    to {
+        margin: 0 12px 0 -12px;
     }
 }
 
