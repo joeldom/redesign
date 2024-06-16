@@ -187,11 +187,13 @@ svg {
     box-shadow: 56px -34px 90px #00050F52 inset, -56px -34px 90px #00050F52 inset;
 }
 
+#data-strings {}
+
 #term-container {
     max-width: 100%;
     overflow: hidden;
     word-wrap: break-word;
-    height: 166px;
+    height: 24px;
 }
 
 #term-container:hover {
@@ -202,7 +204,6 @@ svg {
     font-size: var(--font-small-size);
     color: var(--warm-grey);
     text-shadow: 1px 1px 1px #000;
-    padding: 6.1em 0;
 }
 
 #term-container.strings.paused {
@@ -222,6 +223,12 @@ svg {
     border: 3px solid #000E4E4D;
     padding: 8px 16px;
     font-family: "Inter", sans-serif !important;
+}
+
+#pauseButton:active,
+#pauseButton:focus {
+    background-color: var(--brand-blue);
+    color: white;
 }
 
 #pauseButton:hover {
@@ -280,7 +287,7 @@ svg path {
 .parallax-footer {
     font-weight: 600 !important;
     background-color: #d8d8d8;
-    height: 250px;
+    height: 251px;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -386,3 +393,13 @@ svg path {
         top: -36px;
     }
 }
+
+#sandbox.parallax #navbar {
+    opacity: .00125;
+}
+
+#sandbox.parallax #navbar:hover {
+    opacity: 1;
+}
+
+#sandbox.parallax #navbar

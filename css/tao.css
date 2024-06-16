@@ -193,6 +193,8 @@ body.with-navbar {
 
 .tile-splash p {
     padding: 2.3em 18px 0.3em 18px;
+    text-wrap: nowrap;
+    overflow: hidden;
 }
 
 .tile-splash.tile-last p {

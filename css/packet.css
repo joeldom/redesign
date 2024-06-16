@@ -1,0 +1,120 @@
+.packet {
+    background: white;
+    /* border: 1px solid #4ba41d; */
+    border: 1px solid rgba(55, 55, 55, 1);
+    animation: morph 3s linear infinite;
+}
+
+.packet:hover {
+    background: white !important;
+    animation: none;
+    border: 1px solid #7ae145;
+    transition: border 700ms;
+    box-shadow: 4px 5px 10px 0px #000;
+    transition: box-shadow 200ms;
+}
+
+.packet:active {
+    background: white !important;
+    animation: none;
+    border: 1px solid #7f7cf9;
+    transition: border 700ms;
+    box-shadow: -4px -5px 10px 0px #000;
+    transition: box-shadow 200ms;
+}
+
+.packet strong {
+    font-weight: 800;
+}
+
+
+/* .packet:hover {
+  box-shadow: -6px -8px #464f4a;
+} */
+
+.packet.first {
+    margin-top: 12vh;
+    padding: 0.3em 18px 1.3em 0;
+}
+
+.tile-spacer {
+    padding: 2.3em 18px;
+}
+
+
+/* .row:nth-child(1) .packet p {
+  padding: 2.3em 18px 1.3em 18px;
+} */
+
+
+/* .packet p:nth-child(1) {
+  padding: 2.3em 18px 1.3em 18px;
+} */
+
+.packet p {
+    padding: 8px 8px 8px 8px;
+}
+
+.packet.tile-last p {
+    padding: 8px 8px 8px 8px;
+}
+
+.packet.tile-last {
+    margin: 0 auto 3em auto;
+}
+
+.packet p,
+.packet a {
+    font-size: 12px;
+    color: #101940;
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+}
+
+.packet p:hover,
+.packet a:hover {
+    color: #1a3acc !important;
+    animation: none 1s infinite;
+}
+
+.packet svg {
+    position: absolute;
+    right: 18px;
+    margin: 6px 18px;
+}
+
+.packet svg.inline {
+    position: relative;
+    display: inline-block;
+    margin: 6px 0 0 18px;
+}
+
+
+/* https://stackoverflow.com/questions/30240181/can-i-apply-animations-to-margins */
+
+.packet a:hover svg,
+.packet p:hover svg {
+    margin: 6px 0 0 100%;
+    transition: margin 700ms;
+}
+
+.packet a:hover svg.inline,
+.packet p:hover svg.inline {
+    margin: 6px 0 6px36px;
+}
+
+.packet .tile-index {
+    float: left;
+    display: inline-block;
+}
+
+.packet .tile-detail {
+    float: right;
+    font-size: 12px;
+    text-align: right;
+    display: block;
+    margin: 6px 0 0 0;
+}
