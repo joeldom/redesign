@@ -199,6 +199,11 @@ svg {
     box-shadow: 56px -34px 90px #00050F52 inset, -56px -34px 90px #00050F52 inset;
 }
 
+.container-frame {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
 #data-strings {}
 
 #term-container {
@@ -443,9 +448,3 @@ svg path {
     opacity: 1;
     animation: fadeIn 1.75s forwards;
 }
-
-
-/* #sandbox.parallax #navbar {
-    opacity: 0;
-    transition-delay: 2.5s;
-} */
