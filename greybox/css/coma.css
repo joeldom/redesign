@@ -391,6 +391,7 @@ table {
 @media (min-width: 992px) {
     .container {
         width: 980px;
+		
     }
 }
 

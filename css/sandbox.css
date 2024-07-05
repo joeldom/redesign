@@ -189,7 +189,8 @@ svg {
 
 .scroll-pane {
     overflow-x: hidden;
-    height: 800px;
+    /* height: 80%vh; */
+    height: 780px;
     box-shadow: 6px -34px 60px #00050F00 inset, -6px -34px 60px #00050F00 inset;
     transition: transform ease 0.5s, box-shadow ease 0.5s;
 }
@@ -447,4 +448,8 @@ svg path {
 #sandbox.parallax #navbar:hover {
     opacity: 1;
     animation: fadeIn 1.75s forwards;
+}
+
+.notice {
+    background: var( radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
 }
