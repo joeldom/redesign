@@ -242,6 +242,12 @@ Some boilerplate meta tags for `.html` pages. Below is **Nike** page source [ref
 <meta name="next-head-count" content="41">
 ```
 
+### Social Preview
+
+<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview-2.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview-3.png" style="margin: -1px 0 0 0">
+
 
 # ASCIINVOICE
 
