@@ -450,6 +450,6 @@ svg path {
     animation: fadeIn 1.75s forwards;
 }
 
-.notice {
+.notice-background {
     background: var( radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
 }

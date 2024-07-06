@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.tag:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+}
+
+[data-weight="5"] {
+    font-size: 14px;
+}
+
+[data-weight="7"] {
+    font-size: 16px;
+}
+
+[data-weight="8"] {
+    font-size: 18px;
+}
+
+[data-weight="10"] {
+    font-size: 20px;
+}
+
+[data-weight="12"] {
+    font-size: 22px;
+}
+
+[data-weight="15"] {
+    font-size: 24px;
+}
+
+[data-weight="18"] {
+    font-size: 26px;
+}
+
+[data-weight="20"] {
+    font-size: 28px;
+}
