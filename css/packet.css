@@ -80,8 +80,8 @@
     margin: 0;
 }
 
-.packet p:hover,
-.packet a:hover {
+.packet a:hover,
+.packet p:hover {
     color: #1a3acc !important;
     animation: none 1s infinite;
 }
@@ -108,6 +108,19 @@
     position: absolute;
     right: 10px;
     margin: 2px 12px;
+}
+
+.packet svg.hidden {
+    position: relative;
+    display: none;
+    margin: 2px 0 0 0px;
+}
+
+.packet:hover svg.hidden,
+.packet a:hover svg.hidden,
+.packet p:hover svg.hidden {
+    display: inline-block !important;
+    visibility: visible !important;
 }
 
 
