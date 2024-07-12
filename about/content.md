@@ -108,6 +108,9 @@ Our designs strive to create a superior human-to-AI interface, termed Computatio
    - **Blog Posts & Articles**: Deep dives into Tao/Dao principles in design & explorations of historical influences on aesthetics.
    - **Video Essays & Documentaries**: Documentaries on the evolution of tech aesthetics & video essays on design philosophy & legacy feature integration.
    - **LLM Prompts for Content Generation**: Generate blog post ideas on the intersection of AI & design, create video scripts discussing the philosophical aspects of your brand, & develop interactive tutorials on modular design & computational assistance.
+   - Topics:
+     - Dead Internet Theory: How at many points from web 1.0 - 2.0 things have shifted and what that means for web 3.0. 
+     - Evolution of Language: How the pace of language formation has been accelerate the internet and memes.
 
 #### **4. Research**
 
@@ -122,6 +125,10 @@ Our designs strive to create a superior human-to-AI interface, termed Computatio
    - **Events & Exhibitions**: Showcasing products in gallery-like settings.
 
 ---
+
+### Do you ever wish to have someone back you have lost?
+
+I think it isnt so much wishing them back as it is to wish for them as they were to see things now how they are. I think each person wants to see that there is a pay off. Most can come to terms with things. Most things, but what everyone wants is to understand. To be understood. We each want to gain some elusive grasp on what the universe is so desperately trying to hide from us. Understanding.
 
 ## Prompts
 
