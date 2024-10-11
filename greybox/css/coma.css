@@ -391,7 +391,6 @@ table {
 @media (min-width: 992px) {
     .container {
         width: 980px;
-		
     }
 }
 
@@ -2925,11 +2924,15 @@ input[type="button"].btn-block {
     width: 100%;
 }
 
-.fade {
+
+/* BUG 10.10.2024 PNC CHANGES FOR VERIFY FORM */
+
+
+/* .fade {
     opacity: 0;
     -webkit-transition: opacity 0.15s linear;
     transition: opacity 0.15s linear;
-}
+} */
 
 .fade.in {
     opacity: 1;
@@ -5083,7 +5086,17 @@ p[class*="col-"] {
 }
 
 .tile-text {
-    margin-bottom: 36px;
+    border: 1px solid rgba(101, 101, 101, 0);
+    ;
+    padding: 12px;
+    margin: 0 -12px;
+}
+
+.tile-text:hover {
+    background-color: rgba(000, 101, 101, 0.1);
+    border: 1px solid aliceblue;
+    padding: 12px;
+    cursor: pointer;
 }
 
 .tile-text .tile-header {
