@@ -892,6 +892,14 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                  | fighers megamix     |
 |                  |                     |
 
+
+| Character      | Franchise | #   |
+| -------------- | --------- | --- |
+| Jill Valentine | Capcom    |
+| Mai Shiranui   | SNK       |
+| Kunimitsu      | NAMCO     |
+| Morgan         | Capcom    | 
+
 ---
 
 |     | Value | px                  |

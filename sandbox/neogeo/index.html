@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Bold Geometric Shapes</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #111;
+        }
+        
+        .shape {
+            position: absolute;
+            background-color: #fff;
+            transform-origin: center;
+            opacity: 0.8;
+            animation: rotate 10s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        const shapes = ['square', 'rectangle', 'circle', 'triangle'];
+
+        function getRandomShape() {
+            return shapes[Math.floor(Math.random() * shapes.length)];
+        }
+
+        function createShape() {
+            const shape = document.createElement('div');
+            const size = Math.random() * 100 + 50; // Random size between 50px and 150px
+            const posX = Math.random() * window.innerWidth; // Random X position
+            const posY = Math.random() * window.innerHeight; // Random Y position
+            const randomRotation = Math.random() * 360; // Initial random rotation
+
+            shape.classList.add('shape');
+            shape.style.width = `${size}px`;
+            shape.style.height = `${size}px`;
+            shape.style.transform = `rotate(${randomRotation}deg)`; // Initial rotation
+            shape.style.left = `${posX}px`;
+            shape.style.top = `${posY}px`;
+            shape.style.animationDuration = `${Math.random() * 20 + 10}s`; // Random animation duration between 10s and 30s
+
+            switch (getRandomShape()) {
+                case 'square':
+                    // Square is already defined by equal width and height
+                    break;
+                case 'rectangle':
+                    shape.style.width = `${size * 1.5}px`;
+                    break;
+                case 'circle':
+                    shape.style.borderRadius = '50%';
+                    break;
+                case 'triangle':
+                    shape.style.width = '0';
+                    shape.style.height = '0';
+                    shape.style.borderLeft = `${size / 2}px solid transparent`;
+                    shape.style.borderRight = `${size / 2}px solid transparent`;
+                    shape.style.borderBottom = `${size}px solid white`;
+                    break;
+            }
+
+            document.body.appendChild(shape);
+        }
+
+        function randomizeShapes(count) {
+            for (let i = 0; i < count; i++) {
+                createShape();
+            }
+        }
+
+        randomizeShapes(10); // Generate 10 random shapes
+    </script>
+
+</body>
+
+</html>

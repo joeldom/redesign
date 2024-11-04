@@ -109,8 +109,8 @@ Our designs strive to create a superior human-to-AI interface, termed Computatio
    - **Video Essays & Documentaries**: Documentaries on the evolution of tech aesthetics & video essays on design philosophy & legacy feature integration.
    - **LLM Prompts for Content Generation**: Generate blog post ideas on the intersection of AI & design, create video scripts discussing the philosophical aspects of your brand, & develop interactive tutorials on modular design & computational assistance.
    - Topics:
-     - Dead Internet Theory: How at many points from web 1.0 - 2.0 things have shifted and what that means for web 3.0. 
-     - Evolution of Language: How the pace of language formation has been accelerate the internet and memes.
+     - Dead Internet Theory: How at many points from web 1.0 - 2.0 things have shifted and what that means for web 3.0. [1](https://www.youtube.com/watch?v=wwCZvXxr3II) 
+     - Evolution of Language: How the pace of language formation has been accelerate the internet and memes. [2](https://www.youtube.com/watch?v=wwCZvXxr3II)
 
 #### **4. Research**
 

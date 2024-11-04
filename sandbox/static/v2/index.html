@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV Static with Frame Control</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: black;
+        }
+        
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="staticCanvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById("staticCanvas");
+        const ctx = canvas.getContext("2d");
+
+        let pixelSize = 1; // Adjustable pixel size
+        let targetFPS = 24; // Target frame rate, adjust between 12 to 24 for best effect
+        let lastFrameTime = 0; // Track the last frame time
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        window.addEventListener("resize", resizeCanvas);
+        resizeCanvas();
+
+        function drawStatic() {
+            for (let y = 0; y < canvas.height; y += pixelSize) {
+                for (let x = 0; x < canvas.width; x += pixelSize) {
+                    ctx.fillStyle = Math.random() < 0.5 ? '#000000' : '#BBB';
+                    ctx.fillRect(x, y, pixelSize, pixelSize);
+                }
+            }
+        }
+
+        function animate(time) {
+            // Check if enough time has passed since the last frame
+            if (time - lastFrameTime > 1000 / targetFPS) {
+                drawStatic();
+                lastFrameTime = time; // Update last frame time
+            }
+            requestAnimationFrame(animate);
+        }
+
+        requestAnimationFrame(animate);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<!-- TODO
+    [] add <- back to top page
+    [] remove links in top nav
+    [] remove redundant tiles
+    [] have text "write" instead of appear
+    [] have "Go Back" use .js onclick="history.back()"
+ -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta property="og:title" content="My Title" />
+    <meta property="og:image" content="URL to the image you want in the preview, LinkedIn recommends a 1.91:1 ratio (1200x627px)" />
+    <meta property="og:description" content="This should be a very short description" />
+    <meta name="twitter:card" content="summary || summary_large_image || player || app" />
+    <meta name="twitter:creator" content="@joeldombek" />
+
+    <title>ECCO ✉️</title>
+
+    <link rel="stylesheet" href="../../greybox/css/coma.css" />
+    <link rel="stylesheet" href="../../css/tao.css" />
+    <link rel="stylesheet" href="../../css/lib.css" />
+    <link rel="stylesheet" href="../../css/sandbox.css" />
+    <link rel="stylesheet" href="../../css/packet.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/utility.css" />
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/joeldom/asset/main/favicon.ico" rel="icon" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+</head>
+
+<body id="sandbox" class="parallax">
+    <div class="wrapper">
+        <a id="top" class="anchor"></a>
+        <!-- Nav Section sans container -->
+        <div id="navbar" class="navbar navbar-fixed-top headroom" role="banner">
+            <div class="">
+                <!-- <a class="navbar-brand" href="https://www.joeldombek.com/">JOEL<strong>DOMBEK</strong></a> -->
+                <a class="navbar-brand" href="https://joeldom.github.io/sandbox/">
+                    <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="20" height="14" viewBox="0 0 20 20">
+						<path transform="scale(-1, 1) translate(-20, 0)" d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+					</svg> Go Back</a>
+                <nav class="navbar-responsive-collapse">
+                    <ul class="nav navbar-nav pull-right" role="navigation">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Work</a>
+                            <ul class="dropdown-menu">
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/work/">All</a>
+                                </li>
+                                <li class=""><a href="#">Brand</a></li>
+                                <li class=""><a href="#">Web</a></li>
+                                <li class=""><a href="#">Interface</a></li>
+                                <li class=""><a href="#">Photography</a></li>
+                                <li class=""><a href="#">Print</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Ideas</a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="#">Quotes</a></li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/ideas/inspiration/">Inspiration</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/blog/">Blog</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Info</a>
+                            <ul class="dropdown-menu">
+                                <!-- <li>
+                                  <a id="nav-search" href="#"><i class="material-icons">search</i></a>
+                              </li> -->
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/about/">About</a>
+                                </li>
+                                <li class=""><a href="#">How I Work</a></li>
+                                <li class=""><a href="#">Annual Report</a></li>
+                                <li class="">
+                                    <a href="https://joeldom.github.io/resume/">Resume</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/contact/">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="navbar-toggle">
+				<!-- <span href="#menu" class="trinav"></span> -->
+					<span href="#menu" class="ventnav">
+						<svg xmlns="https://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+							<path d="M7.77636 0.797607V8.53684H0.0371094L7.77636 0.797607Z" fill="#C5C5C5"/>
+							<path d="M7.77636 9.42798V17.1672H0.0371094L7.77636 9.42798Z" fill="#C5C5C5"/>
+							<path d="M7.77636 18.0583V25.7976H0.0371094L7.77636 18.0583Z" fill="#C5C5C5"/>
+							<path d="M16.4067 0.797607V8.53684H8.66748L16.4067 0.797607Z" fill="#C5C5C5"/>
+							<path d="M16.4067 9.42798V17.1672H8.66748L16.4067 9.42798Z" fill="#C5C5C5"/>
+							<path d="M16.4067 18.0583V25.7976H8.66748L16.4067 18.0583Z" fill="#C5C5C5"/>
+							<path d="M25.0371 0.797607V8.53684H17.2979L25.0371 0.797607Z" fill="#C5C5C5"/>
+							<path d="M25.0371 9.42798V17.1672H17.2979L25.0371 9.42798Z" fill="#C5C5C5"/>
+							<path d="M25.0371 18.0583V25.7976H17.2979L25.0371 18.0583Z" fill="#C5C5C5"/>
+						</svg>
+					</span>
+				</button>
+            </div>
+        </div>
+        <!-- / Nav Section -->
+    </div>
+    <!--/wrapper-->
+    <!-- 
+		[] ideas around havign a bookmark site tree data display API chain
+	-->
+
+    <div id="collapse1" class="container-fluid palette-darkolive pattern-bg">
+        <div class="scroll-pane">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-4">
+                    <section class="tile-spacer">
+                        <p>&emsp;</p>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+            </div>
+
+            <div class="row">
+                <div id="packets" class="container-frame">
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 01 <span class="tile-detail">v1.1.1</span><br> simple info
+                                    </p>
+                                    <p>
+                                        more info about packet<br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 02 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <div class="row">
+                                <div class="col-xs-6 p-0">
+                                    <section class="packet">
+                                        <a href="#">
+                                            <p>
+                                                packet: twin A <span class="tile-detail">v1.1.1</span><br>
+                                                <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                            </p>
+                                        </a>
+                                    </section>
+                                    <br class="gap visible-lg" />
+                                </div>
+                                <div class="col-xs-6 p-0">
+                                    <section class="packet">
+                                        <a href="#">
+                                            <p>
+                                                packet: twin B<span class="tile-detail">v1.1.1</span><br>
+                                                <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                            </p>
+                                        </a>
+                                    </section>
+                                    <br class="gap visible-lg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 03 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="hidden" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 04 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="hidden" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 05 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 06 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 07 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 08 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 09 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 10 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 11 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 12 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 13 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 14 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 15 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 16 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 17 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 18 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 19 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 20 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                </div>
+                <!-- container end -->
+            </div>
+            <!-- row end packets -->
+
+
+            <br>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/redesign/sandbox/">
+                            <p>
+                                SANDBOX / <span id="sandbox-term-container" style="">...</span> <span class="tile-detail">v1.2.17</span><br><svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc"
+                                    aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4">&emsp;</div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <section class="tile-splash">
+                        <a href="https://joeldom.github.io/style-guide/">
+                            <p>STYLE GUIDE / <span id="styleguide-term-container" style="">...</span> <span class="tile-detail">v2.1.23</span><br>
+                                <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
+                    </section>
+                    <br class="gap visible-md visible-lg" />
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">&emsp;</div>
+            </div>
+        </div>
+        <!-- scroll-pane -->
+        <!-- <div class="row">
+            <div class="col-xs-12">
+                <h2>
+                    <div id="term-container" style="text-align: center;">Loading...</div>
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-sm-pull-2 col-md-8 col-md-pull-2 padding-left-large padding-right-large">
+                <figure class="quote">
+                    <span class="h2" style="text-align: center;display: block;">
+                        Packet element
+                    </span>
+                </figure>
+                <button style="display: block; margin: auto;" id="pauseButton">Pause</button>
+                <br class="gap" />
+                <br class="gap" />
+            </div>
+            <div class="col-xs-12 col-sm-4">&emsp;</div>
+        </div> -->
+    </div>
+
+    <div class="wrapper">
+        <!-- RELATED SECTION START -->
+        <aside class="container">
+            <div class="module module-related row">
+                <header class="module-header col-sm-12">
+                    <h2 class="module-title h4">About</h2>
+                </header>
+                <div class="col-sm-4">
+                    <article class="tile tile-text">
+                        <header class="tile-header">
+                            <p><small>Component</small></p>
+                            <h3 class="h3"><a href="#">Packet</a></h3>
+                        </header>
+                        <div class="tile-excerpt hidden-xs">
+                            <p>Visualization of how to organize expected & unexpected data-types […]</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article class="tile tile-text">
+                        <header class="tile-header">
+                            <p><small>Data</small></p>
+                            <h3 class="h3"><a href="#">Objects & Tokens</a></h3>
+                        </header>
+                        <div class="tile-excerpt hidden-xs">
+                            <p>Budget Kitchen &amp; Bath This project was done while at Guaranteed Results Marketing. Creating both the layout, framework and branding, […]</p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article class="tile tile-text">
+                        <header class="tile-header">
+                            <p><small>Data Design</small></p>
+                            <h3 class="h3"><a href="#">Historical v Real-Time Data (RTD) Flows </a></h3>
+                        </header>
+                        <div class="tile-excerpt hidden-xs">
+                            <p>Real-time data refers to information that is made available for use as soon as it is generated. Ideally, the data is passed instantly between the source and the consuming application but bottlenecks in data infrastructure or
+                                bandwidth can create a lag. Real-time data is used in time sensitive applications such as stock trading or navigation and it powers real-time analytics, which brings in-the-moment insights and helps you quickly react to
+                                changing conditions […]</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </aside>
+        <!-- RELATED SECTION END -->
+
+        <span id="back-top2">
+				<a class="back-top" href="#top">
+					<span style="font-size:2em;line-height:1em; transform: scale(2, .5);"><i class="material-icons">arrow_drop_up</i></span><br> Back to Top
+        </a>
+        </span>
+    </div>
+    <!--/wrapper-->
+
+    <div class="parallax-footer">
+        <div class="container">
+            <div class="row">
+                <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                    <span id="back-top">
+                      <a href="#top">
+                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#FFF" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" transform="rotate(-90)" class="inline">
+                          <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                        </svg>
+                      </a>
+                    </span>
+                    <div class="row">
+                        <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
+                            <img src="https://raw.githubusercontent.com/joeldom/asset/main/chip-logo.png" style="width: auto;max-height:80px;" />
+                        </a>
+                        <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                        <div class="col-xs-12 col-sm-6">
+                            <span>The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/" target="_blank">Resume</a>.</span>
+                            <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
+                                <li><a href="https://joeldom.github.io/">Home</a></li>
+                                <li><a href="https://joeldom.github.io/work">Work</a></li>
+                                <li><a href="https://joeldom.github.io/blog">Blog</a></li>
+                                <li><a href="https://joeldom.github.io/ideas">Ideas</a></li>
+                                <li><a href="https://joeldom.github.io/quotes">Quotes</a></li>
+                                <li><a href="https://joeldom.github.io/about">About</a></li>
+                                <li><a href="https://joeldom.github.io/resume">Resume</a></li>
+                                <li><a href="https://joeldom.github.io/contact">Contact</a></li>
+                                <li><a href="https://joeldom.github.io/search">Search</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="row">
+                                <div class="col-sm-4 col-xs-12">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://www.instagram.com/joeld/" target="_blank"><span class="hidden-xs">About me</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/style-guide/" target="_blank"><span class="hidden-xs">Style&nbsp;Guide</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><span class="hidden-xs">Linkedin</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/resume/"><span class="hidden-xs">Resume</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4 col-xs-12">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="https://www.instagram.com/joeld/" target="_blank"><span class="hidden-xs">Instagram</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.twitch.tv/joeldombek" target="_blank"><span class="hidden-xs">TwitchTV</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.youtube.com/channel/UCc6vtfZ6Ln5i2ujRzisK_yA" target="_blank"><span class="hidden-xs">Youtube</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4 col-xs-12">
+                                    <p class="text-right">
+                                        JOEL<strong>DOMBEK</strong><br class="hidden-xs" /> <small> &copy;2024 <br class="hidden-sm"/>v8.11.14.23<br class="hidden-xs" /></small>
+                                    </p>
+                                    <br /><br /><br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+    <!-- <script src="../greybox/js/main.js"></script> -->
+    <script src="../../js/sandbox.js"></script>
+    <script src="../../js/keyShuffle.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+    <!-- BASE Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-VCY50JK5BC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-VCY50JK5BC');
+    </script> -->
+
+    <!-- REDESIGN Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-28TENMJVGD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-28TENMJVGD');
+    </script> -->
+
+    <!-- SANDBOX Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9GLG41WK0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-D9GLG41WK0');
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAS Monitor</title>
+    <link rel="stylesheet" href="../../styles/global.css">
+    <link rel="stylesheet" href="../../styles/forms.css">
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        
+        .warning-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.9);
+            padding: 20px;
+            border-radius: 5px;
+            color: #ff0000;
+            display: none;
+            z-index: 1000;
+            text-align: center;
+        }
+        
+        .debug-log {
+            margin-top: 10px;
+            padding: 10px;
+            background: #1a1a1a;
+            border: 1px solid #ff0000;
+            font-family: monospace;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+        
+        .static-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('../../assets/static.gif');
+            opacity: 0;
+            pointer-events: none;
+            z-index: 999;
+        }
+        
+        .close-warning {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: #ff0000;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .close-warning:hover {
+            background: #cc0000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="static-overlay"></div>
+    <div class="warning-container">
+        <h2>⚠️ Suspicious Activity Detected</h2>
+        <div class="debug-log"></div>
+    </div>
+
+    <form id="mainForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script>
+        const warningContainer = document.querySelector('.warning-container');
+        const staticOverlay = document.querySelector('.static-overlay');
+        const debugLog = document.querySelector('.debug-log');
+
+        let clickCount = 0;
+        let keyPressCount = 0;
+        const THRESHOLD = 50;
+        const TIMEFRAME = 5000; // 5 seconds
+
+        function showWarning(trigger) {
+            warningContainer.style.display = 'block';
+            staticOverlay.style.opacity = '0.5';
+            debugLog.innerHTML += `[${new Date().toLocaleTimeString()}] ${trigger}<br>`;
+            debugLog.scrollTop = debugLog.scrollHeight;
+        }
+
+        let clickTimer = setTimeout(() => {
+            clickCount = 0;
+        }, TIMEFRAME);
+        let keyTimer = setTimeout(() => {
+            keyPressCount = 0;
+        }, TIMEFRAME);
+
+        document.addEventListener('click', (e) => {
+            clickCount++;
+            clearTimeout(clickTimer);
+            clickTimer = setTimeout(() => {
+                clickCount = 0;
+            }, TIMEFRAME);
+
+            if (clickCount > THRESHOLD) {
+                showWarning(`Rapid clicking detected: ${clickCount} clicks`);
+            }
+        });
+
+        document.addEventListener('keypress', (e) => {
+            keyPressCount++;
+            clearTimeout(keyTimer);
+            keyTimer = setTimeout(() => {
+                keyPressCount = 0;
+            }, TIMEFRAME);
+
+            if (keyPressCount > THRESHOLD) {
+                showWarning(`Rapid keypress detected: ${keyPressCount} keypresses`);
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (e.target === warningContainer || !warningContainer.contains(e.target)) {
+                warningContainer.style.display = 'none';
+                staticOverlay.style.opacity = '0';
+            }
+        });
+    </script>
+</body>
+
+</html>
