@@ -1,1 +1,0 @@
-Allow CSS to determine visualization size

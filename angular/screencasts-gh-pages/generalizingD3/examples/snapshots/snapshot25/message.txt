@@ -1,1 +1,0 @@
-Updating X axis transform on height change only

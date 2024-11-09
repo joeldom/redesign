@@ -1,1 +1,0 @@
-Encapsulating the D3 Margin Convention

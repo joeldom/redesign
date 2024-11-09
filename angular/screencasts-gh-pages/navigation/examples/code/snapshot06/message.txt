@@ -1,1 +1,0 @@
-Styling the currently visited page link
