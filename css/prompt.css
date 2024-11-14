@@ -89,9 +89,17 @@
 #user-input {
     width: 100%;
     padding: 10px 20px;
-    border: 1px solid #ccc;
+    border: 2px solid #808080;
     font-size: 16px;
     border-radius: var(--radius);
+    background-color: #1a1a1a;
+    color: white;
+    padding: 12px 28px;
+}
+
+#user-input:focus {
+    outline: none;
+    border-color: var(--white);
 }
 
 #submit-btn,
