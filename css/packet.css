@@ -103,7 +103,6 @@
 }
 
 .packet:active {
-    background: white !important;
     animation: none;
     border: 1px solid #7f7cf9;
     transition: border 700ms;
