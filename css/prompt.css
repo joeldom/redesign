@@ -19,7 +19,7 @@
     height: 100vh;
     box-shadow: 6px -34px 60px #00050F00 inset, -6px -34px 60px #00050F00 inset;
     transition: transform ease 0.5s, box-shadow ease 0.5s;
-    padding: 8vh 0 0;
+    padding: 8vh 0 12vh;
 }
 
 .prompt-pane:hover {
