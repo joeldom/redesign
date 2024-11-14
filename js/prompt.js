@@ -5,7 +5,7 @@ const responseArea = document.getElementById("response-area");
 submitBtn.addEventListener("click", function() {
     const userText = inputField.value.trim();
     if (userText) {
-        // Add the new message with the current timestamp
+        // Add the new message with the current timestamp in 12-hour format
         addMessage(userText);
         // Clear the input field
         inputField.value = "";
@@ -20,11 +20,13 @@ inputField.addEventListener("keypress", function(e) {
 });
 
 function addMessage(text) {
-    // Get the current time
+    // Get the current time and format it as 12-hour with AM/PM
     const now = new Date();
-    const hours = now.getHours().toString().padStart(2, '0');
+    let hours = now.getHours();
     const minutes = now.getMinutes().toString().padStart(2, '0');
-    const timestamp = `${hours}:${minutes}`;
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12 || 12; // Convert to 12-hour format and handle midnight (0 -> 12)
+    const timestamp = `${hours}:${minutes} ${ampm}`;
 
     // Create a container for the message and timestamp
     const messageContainer = document.createElement("div");
