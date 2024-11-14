@@ -5,8 +5,8 @@ const responseArea = document.getElementById("response-area");
 submitBtn.addEventListener("click", function() {
     const userText = inputField.value.trim();
     if (userText) {
-        // Display the text in the response area
-        responseArea.textContent = userText;
+        // Add the new message with the current timestamp
+        addMessage(userText);
         // Clear the input field
         inputField.value = "";
     }
@@ -18,3 +18,32 @@ inputField.addEventListener("keypress", function(e) {
         submitBtn.click();
     }
 });
+
+function addMessage(text) {
+    // Get the current time
+    const now = new Date();
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const timestamp = `${hours}:${minutes}`;
+
+    // Create a container for the message and timestamp
+    const messageContainer = document.createElement("div");
+    messageContainer.classList.add("message-container");
+
+    // Create the message element
+    const message = document.createElement("p");
+    message.textContent = text;
+    message.classList.add("user-message");
+
+    // Create the timestamp element
+    const time = document.createElement("span");
+    time.textContent = timestamp;
+    time.classList.add("timestamp");
+
+    // Append the message and timestamp to the container
+    messageContainer.appendChild(message);
+    messageContainer.appendChild(time);
+
+    // Append the container to the response area
+    responseArea.appendChild(messageContainer);
+}

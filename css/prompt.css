@@ -119,3 +119,20 @@
     white-space: pre-line;
     /* Keeps line breaks */
 }
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message {
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+}
+
+.timestamp {
+    font-size: 10px;
+    align-self: flex-end;
+    margin-top: -12px;
+}
