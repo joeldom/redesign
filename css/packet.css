@@ -1,7 +1,83 @@
+@-webkit-keyframes color-change {
+    0% {
+        color: #7c7e86;
+    }
+    50% {
+        color: #d7d7d7;
+    }
+    100% {
+        color: #7c7e86;
+    }
+}
+
+@-moz-keyframes color-change {
+    0% {
+        color: #7c7e86;
+    }
+    50% {
+        color: #d7d7d7;
+    }
+    100% {
+        color: #7c7e86;
+    }
+}
+
+@-ms-keyframes color-change {
+    0% {
+        color: #7c7e86;
+    }
+    50% {
+        color: #d7d7d7;
+    }
+    100% {
+        color: #7c7e86;
+    }
+}
+
+@-o-keyframes color-change {
+    0% {
+        color: #7c7e86;
+    }
+    50% {
+        color: #d7d7d7;
+    }
+    100% {
+        color: #7c7e86;
+    }
+}
+
+@keyframes color-change {
+    0% {
+        color: #7c7e86;
+        fill: #7c7e86;
+    }
+    50% {
+        color: #d7d7d7;
+        fill: #7f7cf9;
+    }
+    100% {
+        color: #7c7e86;
+        fill: #7c7e86;
+    }
+}
+
+
+/* animation */
+
 .packet {
     background: white;
     /* border: 1px solid #4ba41d; */
     border: 1px solid rgba(55, 55, 55, 1);
+    animation: morph 3s linear infinite;
+}
+
+
+/* v2 */
+
+.packet {
+    background-color: #222 !important;
+    /* border: 1px solid #4ba41d; */
+    border: 1px solid rgb(26, 30, 28);
     animation: morph 3s linear infinite;
 }
 
@@ -11,6 +87,18 @@
     border: 1px solid #7ae145;
     transition: border 700ms;
     box-shadow: 4px 5px 10px 0px #000;
+    transition: box-shadow 200ms;
+}
+
+
+/* v2 */
+
+.packet:hover {
+    background: #222 !important;
+    animation: none;
+    border: 1px solid #4f4f4f;
+    transition: border 700ms;
+    box-shadow: 4px 5px 10px 0px #0000003d;
     transition: box-shadow 200ms;
 }
 
@@ -25,6 +113,10 @@
 
 .packet strong {
     font-weight: 800;
+}
+
+.packet .inline {
+    fill: #7f7cf9;
 }
 
 
@@ -80,9 +172,33 @@
     margin: 0;
 }
 
+
+/* v2 */
+
+.packet p,
+.packet a {
+    font-size: 12px;
+    color: #7c7e86;
+    -webkit-animation: color-change 3s infinite;
+    -moz-animation: color-change 3s infinite;
+    -o-animation: color-change 3s infinite;
+    -ms-animation: color-change 3s infinite;
+    animation: color-change 3s infinite;
+    margin: 0;
+}
+
 .packet a:hover,
 .packet p:hover {
     color: #1a3acc !important;
+    animation: none 1s infinite;
+}
+
+
+/* v2 */
+
+.packet a:hover,
+.packet p:hover {
+    color: #d7d7d7 !important;
     animation: none 1s infinite;
 }
 

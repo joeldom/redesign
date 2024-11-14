@@ -288,6 +288,11 @@ a.anchor {
 }
 
 svg path {
+    fill: inherit !important;
+    /* animation: color-change 5s infinite !important; */
+}
+
+.packet svg path {
     /* fill: inherit !important; */
     animation: color-change 5s infinite !important;
 }

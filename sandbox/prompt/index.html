@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <!-- TODO
-    [] add <- back to top page
-    [] remove links in top nav
-    [] remove redundant tiles
-    [] have text "write" instead of appear
-    [] have "Go Back" use .js onclick="history.back()"
+    [] write .js to addElement to "Response" area over time to simulate a greeting
+	[] use GPT styling to create the complex input
  -->
 
 <head>
@@ -17,14 +14,16 @@
     <meta name="twitter:creator" content="@joeldombek" />
 
 
-    <title>PACKET ✉️</title>
+    <title>PROMPT ✉️</title>
 
     <link rel="stylesheet" href="../../greybox/css/coma.css" />
     <link rel="stylesheet" href="../../css/tao.css" />
     <link rel="stylesheet" href="../../css/lib.css" />
     <link rel="stylesheet" href="../../css/sandbox.css" />
     <link rel="stylesheet" href="../../css/packet.css" />
+    <link rel="stylesheet" href="../../css/prompt.css" />
     <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/utility.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css" />
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/joeldom/asset/main/favicon.ico" rel="icon" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
@@ -36,12 +35,12 @@
 </head>
 
 <body id="sandbox" class="parallax">
+    <!-- Nav Section sans container -->
     <div class="wrapper">
         <a id="top" class="anchor"></a>
-        <!-- Nav Section sans container -->
+
         <div id="navbar" class="navbar navbar-fixed-top headroom" role="banner">
             <div class="">
-                <!-- <a class="navbar-brand" href="https://www.joeldombek.com/">JOEL<strong>DOMBEK</strong></a> -->
                 <a class="navbar-brand" href="https://joeldom.github.io/sandbox/">
                     <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="20" height="14" viewBox="0 0 20 20">
 						<path transform="scale(-1, 1) translate(-20, 0)" d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
@@ -77,13 +76,13 @@
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Info</a>
                             <ul class="dropdown-menu">
-                                <!-- <li>
-                                  <a id="nav-search" href="#"><i class="material-icons">search</i></a>
-                              </li> -->
+                                <li>
+                                    <a id="nav-search" href="#"><i class="material-icons">search</i></a>
+                                </li>
                                 <li class="">
                                     <a href="https://www.joeldombek.com/about/">About</a>
                                 </li>
-                                <li class=""><a href="#">How I Work</a></li>
+                                <li class=""><a href="https://joeldom.github.io/style-guide/ux/">Case Studies</a></li>
                                 <li class=""><a href="#">Annual Report</a></li>
                                 <li class="">
                                     <a href="https://joeldom.github.io/resume/">Resume</a>
@@ -96,7 +95,7 @@
                     </ul>
                 </nav>
                 <button type="button" class="navbar-toggle">
-				<!-- <span href="#menu" class="trinav"></span> -->
+				<span href="#menu" class="trinav"></span>
 					<span href="#menu" class="ventnav">
 						<svg xmlns="https://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
 							<path d="M7.77636 0.797607V8.53684H0.0371094L7.77636 0.797607Z" fill="#C5C5C5"/>
@@ -113,28 +112,48 @@
 				</button>
             </div>
         </div>
-        <!-- / Nav Section -->
     </div>
+    <!-- / Nav Section -->
     <!--/wrapper-->
     <!-- 
 		[] ideas around havign a bookmark site tree data display API chain
 	-->
 
-    <div id="collapse1" class="container-fluid palette-darkolive pattern-bg">
-        <div class="scroll-pane">
+    <div id="chat-prompt" class="container-fluid palette-darkolive grid-bg">
+        <div class="prompt-name">ECCO</div>
+        <div class="prompt-account">Joel</div>
+        <div class="prompt-pane">
             <div class="row">
-                <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
-                <div class="col-xs-12 col-sm-4">
-                    <section class="tile-spacer">
-                        <p>&emsp;</p>
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-8 col-md-4">
+                    <!-- <div class="prompt-response" id="response-area" aria-live="polite"></div> -->
+                    <section id="response-area" aria-live="polite" class="packet prompt-response">
+                        <a href="#">
+                            <p>
+                                response: 01 <span class="tile-detail">v1.0.0</span><br>
+                                <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                            </p>
+                        </a>
                     </section>
-                    <br class="gap visible-lg" />
                 </div>
-                <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+                <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+            </div>
+
+            <div id="chat-container" class="row">
+                <div id="prompt">
+                    <button id="attach-btn">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9 7C9 4.23858 11.2386 2 14 2C16.7614 2 19 4.23858 19 7V15C19 18.866 15.866 22 12 22C8.13401 22 5 18.866 5 15V9C5 8.44772 5.44772 8 6 8C6.55228 8 7 8.44772 7 9V15C7 17.7614 9.23858 20 12 20C14.7614 20 17 17.7614 17 15V7C17 5.34315 15.6569 4 14 4C12.3431 4 11 5.34315 11 7V15C11 15.5523 11.4477 16 12 16C12.5523 16 13 15.5523 13 15V9C13 8.44772 13.4477 8 14 8C14.5523 8 15 8.44772 15 9V15C15 16.6569 13.6569 18 12 18C10.3431 18 9 16.6569 9 15V7Z" fill="currentColor"></path></svg>
+					</button>
+                    <input type="text" id="user-input" placeholder="Type your message here..." aria-label="User input field for typing messages" />
+                    <button id="submit-btn">
+						<svg width="32" height="32" viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg" class="icon-2xl"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.1918 8.90615C15.6381 8.45983 16.3618 8.45983 16.8081 8.90615L21.9509 14.049C22.3972 14.4953 22.3972 15.2189 21.9509 15.6652C21.5046 16.1116 20.781 16.1116 20.3347 15.6652L17.1428 12.4734V22.2857C17.1428 22.9169 16.6311 23.4286 15.9999 23.4286C15.3688 23.4286 14.8571 22.9169 14.8571 22.2857V12.4734L11.6652 15.6652C11.2189 16.1116 10.4953 16.1116 10.049 15.6652C9.60265 15.2189 9.60265 14.4953 10.049 14.049L15.1918 8.90615Z" fill="currentColor"></path></svg>
+					</button>
+                </div>
             </div>
 
             <div class="row">
                 <div id="packets" class="container-frame">
+
 
                     <div class="row">
                         <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
@@ -503,14 +522,185 @@
                         <div class="col-xs-12 col-sm-4">&emsp;</div>
                     </div>
                     <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 21 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 22 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 23 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 24 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 25 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 26 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 27 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 28 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 29 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
+                    <!-- packet start -->
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+                        <div class="col-xs-12 col-sm-8 col-md-4">
+                            <section class="packet">
+                                <a href="#">
+                                    <p>
+                                        packet: 30 <span class="tile-detail">v1.1.1</span><br>
+                                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                                    </p>
+                                </a>
+                            </section>
+                            <br class="gap visible-lg" />
+                        </div>
+                        <div class="col-xs-12 col-sm-4">&emsp;</div>
+                    </div>
+                    <!-- packet end -->
                 </div>
                 <!-- container end -->
             </div>
             <!-- row end packets -->
 
 
+
             <br>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
                 <div class="col-xs-12 col-sm-8 col-md-4">
                     <section class="tile-splash">
@@ -524,8 +714,8 @@
                     <br class="gap visible-lg" />
                 </div>
                 <div class="col-xs-12 col-sm-4">&emsp;</div>
-            </div>
-            <div class="row">
+            </div> -->
+            <!-- <div class="row">
                 <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
                 <div class="col-xs-12 col-sm-8 col-md-4">
                     <section class="tile-splash">
@@ -538,9 +728,10 @@
                     <br class="gap visible-md visible-lg" />
                 </div>
                 <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">&emsp;</div>
-            </div>
+            </div> -->
+
         </div>
-        <!-- scroll-pane -->
+        <!-- prompt-pane -->
         <!-- <div class="row">
             <div class="col-xs-12">
                 <h2>
@@ -575,11 +766,10 @@
                     <article class="tile tile-text">
                         <header class="tile-header">
                             <p><small>Component</small></p>
-                            <h3 class="h3"><a href="#">Packet</a></h3>
+                            <h3 class="h3"><a href="#">Prompt</a></h3>
                         </header>
                         <div class="tile-excerpt hidden-xs">
-                            <p>Packets are fundamental units of data transmission in networking, encapsulating information for efficient communication across networks. Understanding packet structure, including headers and payloads, is crucial for optimizing
-                                performance and troubleshooting connectivity issues. […]</p>
+                            <p> […]</p>
                         </div>
                     </article>
                 </div>
@@ -700,6 +890,7 @@
     <!-- <script src="../greybox/js/main.js"></script> -->
     <script src="../../js/sandbox.js"></script>
     <script src="../../js/keyShuffle.js"></script>
+    <script src="../../js/prompt.js"></script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 
     <!-- BASE Google tag (gtag.js) -->

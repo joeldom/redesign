@@ -1,0 +1,25 @@
+.article {
+    /* margin: 0 4vw; */
+    background: #444;
+}
+
+.content {
+    /* background: #fff; */
+}
+
+.article-grid {
+    --grid-gap: 1rem;
+    --grid-margin: 1.5rem;
+    display: grid;
+    gap: var(--grid-gap);
+    margin: 0px auto;
+    width: 100%;
+    max-width: 1600px;
+    grid-auto-columns: 1fr;
+    grid-template-columns: initial;
+}
+
+.article-content {
+    max-width: 41.375rem;
+    margin-top: 1.75rem;
+}

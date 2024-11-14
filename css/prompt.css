@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    /* colors */
+    /* --brand-blue: #1a3acc; */
+    --grid-color: var(--dark-blue);
+    --radius: 24px;
+}
+
+.grid-bg {
+    background-image: linear-gradient(var(--grid-color) 1px, transparent 1px), linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
+    background-size: 64px 64px;
+    /* Size of each grid square */
+    background-position: center;
+}
+
+.prompt-pane {
+    width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    box-shadow: 6px -34px 60px #00050F00 inset, -6px -34px 60px #00050F00 inset;
+    transition: transform ease 0.5s, box-shadow ease 0.5s;
+    padding: 8vh 0 0;
+}
+
+.prompt-pane:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: 56px -34px 90px #00050F52 inset, -56px -34px 90px #00050F52 inset;
+}
+
+#chat-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1080;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    position: absolute;
+    display: block;
+    bottom: 4vh;
+    width: 100%;
+    z-index: 2;
+    padding: 0 2em;
+}
+
+#prompt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.prompt-name {
+    position: absolute;
+    top: 8vh;
+    left: 6vh;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5em;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--java);
+}
+
+.prompt-account {
+    position: absolute;
+    top: 8vh;
+    right: 8vh;
+    font-family: "Rubik", sans-serif;
+    font-size: 1.5em;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--legacy);
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: var(--radius);
+}
+
+#submit-btn,
+#attach-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--dark-blue);
+    color: white;
+    transition: background-color 0.3s;
+    width: 120px;
+    border-radius: var(--radius);
+}
+
+#submit-btn:hover,
+#attach-btn:hover {
+    background-color: var(--brand-blue);
+}
+
+.prompt-response {
+    color: #a1a1a1;
+    font-weight: 100;
+    white-space: pre-line;
+    /* Keeps line breaks */
+}
