@@ -82,6 +82,10 @@
     border: 2px solid var(--metal);
 }
 
+.char {
+    animation-delay: calc( sin((var(--index) / var(--total)) * 90deg) * var(--duration));
+}
+
 #user-input {
     width: 100%;
     padding: 10px 20px;
@@ -111,7 +115,7 @@
 
 .prompt-response {
     color: #a1a1a1;
-    font-weight: 100;
+    /* font-weight: 100; */
     white-space: pre-line;
     /* Keeps line breaks */
 }

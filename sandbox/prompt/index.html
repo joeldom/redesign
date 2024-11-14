@@ -143,7 +143,7 @@
 	-->
 
     <div id="chat-prompt" class="container-fluid palette-darkolive grid-bg">
-        <div class="prompt-name">ECCO<br>
+        <div class="prompt-name"><span class="char">E</span><span class="char">C</span><span class="char">C</span><span class="char">O</span><br>
             <svg width="78" height="36" viewBox="0 0 78 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M38.9961 3.28817C34.9663 1.21686 30.0478 0 24.7386 0C11.0759 0 0 8.05885 0 17.9999C0 27.941 11.0759 35.9999 24.7386 35.9999C30.0757 35.9999 35.018 34.7702 39.0595 32.679C39.0384 32.6899 39.0173 32.7008 38.9961 32.7117C32.6554 29.4526 28.515 24.0781 28.515 17.9999C28.515 11.9218 32.6554 6.54729 38.9961 3.28817Z" fill="#1A3ACC"/>
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M53.2543 35.9999C66.917 35.9999 77.9929 27.941 77.9929 17.9999C77.9929 8.05885 66.917 0 53.2543 0C47.9452 0 43.0266 1.21686 38.9968 3.28817C45.3375 6.54728 49.478 11.9218 49.478 17.9999C49.478 24.0781 45.3375 29.4526 38.9968 32.7117C32.6561 29.4526 28.5156 24.0781 28.5156 17.9999C28.5156 17.9999 28.5156 17.9999 28.5156 17.9999C28.5156 27.941 39.5915 35.9999 53.2543 35.9999Z" fill="#001C9B"/>
@@ -155,14 +155,15 @@
             <div class="avatar"><img src="https://avatars.githubusercontent.com/u/1181738?v=4" /></div>
         </div>
         <div class="prompt-pane">
-            <div class="row">
+            <div class="row container-frame">
                 <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
                 <div class="col-xs-12 col-sm-8 col-md-4">
                     <!-- <div class="prompt-response" id="response-area" aria-live="polite"></div> -->
-                    <section id="response-area" aria-live="polite" class="packet prompt-response">
+                    <section class="packet">
                         <a href="#">
-                            <p>
-                                response: 01 <span class="tile-detail">v1.0.0</span><br>
+                            <p class="prompt-response" 1>
+                                response: <span class="tile-detail">v1.0.0</span><br>
+                                <span id="response-area" aria-live="polite"> testing...</span>
                                 <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
                             </p>
                         </a>
@@ -185,7 +186,6 @@
 
             <div class="row">
                 <div id="packets" class="container-frame">
-
 
                     <div class="row">
                         <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
