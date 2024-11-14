@@ -46,6 +46,9 @@
     align-items: center;
     gap: 10px;
     width: 100%;
+    background: black;
+    border-radius: 32px;
+    padding: 0px 12px;
 }
 
 .prompt-name {
@@ -63,6 +66,7 @@
 
 .prompt-account {
     position: absolute;
+    display: block;
     top: 8vh;
     right: 8vh;
     font-family: "Rubik", sans-serif;
@@ -71,6 +75,7 @@
     font-weight: 500;
     font-style: normal;
     color: var(--legacy);
+    z-index: 2;
 }
 
 .prompt-account .avatar {
@@ -82,6 +87,11 @@
     border: 2px solid var(--metal);
 }
 
+.prompt-account:hover .avatar {
+    border-color: var(--white);
+    cursor: pointer;
+}
+
 .char {
     animation-delay: calc( sin((var(--index) / var(--total)) * 90deg) * var(--duration));
 }
@@ -89,7 +99,7 @@
 #user-input {
     width: 100%;
     padding: 10px 20px;
-    border: 2px solid #808080;
+    border: 2px solid #2d2d2d;
     font-size: 16px;
     border-radius: var(--radius);
     background-color: #1a1a1a;
@@ -99,7 +109,7 @@
 
 #user-input:focus {
     outline: none;
-    border-color: var(--white);
+    border-color: #848484;
 }
 
 #submit-btn,
@@ -109,16 +119,16 @@
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: var(--dark-blue);
+    background-color: black;
     color: white;
     transition: background-color 0.3s;
-    width: 120px;
+    width: 100px;
     border-radius: var(--radius);
 }
 
 #submit-btn:hover,
 #attach-btn:hover {
-    background-color: var(--brand-blue);
+    background-color: var(--dark-blue);
 }
 
 .prompt-response {
