@@ -108,6 +108,7 @@
     transition: border 700ms;
     box-shadow: -4px -5px 10px 0px rgba(00, 00, 00, .25);
     transition: box-shadow 200ms;
+    cursor: pointer;
 }
 
 .packet strong {
