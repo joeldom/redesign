@@ -118,8 +118,10 @@
     border-color: #848484;
 }
 
-#submit-btn,
-#attach-btn {
+
+/* FIX : needs to only use classes */
+
+.prompt-btn {
     padding: 10px 15px;
     font-size: 16px;
     cursor: pointer;
@@ -132,8 +134,7 @@
     border-radius: var(--radius);
 }
 
-#submit-btn:hover,
-#attach-btn:hover {
+.prompt-btn:hover {
     background-color: var(--dark-blue);
 }
 

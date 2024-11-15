@@ -49,3 +49,9 @@ function addMessage(text) {
     // Append the container to the response area
     responseArea.appendChild(messageContainer);
 }
+//show/hide code block
+document.getElementById("responseCode").addEventListener("click", function() {
+    const codeBlock = document.getElementById("codeBlock");
+    codeBlock.classList.toggle("visible");
+    codeBlock.classList.toggle("hidden");
+});
