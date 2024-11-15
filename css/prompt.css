@@ -75,7 +75,13 @@
     font-weight: 500;
     font-style: normal;
     color: var(--legacy);
-    z-index: 2;
+    z-index: 0;
+}
+
+@media screen (min-width:768px) {
+    .prompt-account {
+        z-index: 1;
+    }
 }
 
 .prompt-account .avatar {
@@ -154,3 +160,70 @@
     align-self: flex-end;
     margin-top: -12px;
 }
+
+.packet pre code {
+    background: #0b0d09;
+}
+
+.packet pre code,
+.packet pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 1em;
+    color: var(--light-grey);
+}
+
+
+/* new FLEXBOX APPROACH */
+
+
+/* Container for the packets */
+
+
+/* .container-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem; 
+    padding: 1rem;
+}
+
+
+.packet-wrapper {
+    display: flex;
+    flex: 1 1 100%; 
+}
+
+
+@media (min-width: 576px) { 
+    .packet-wrapper {
+        flex: 1 1 66.66%; 
+    }
+}
+
+@media (min-width: 768px) { 
+    .packet-wrapper {
+        flex: 1 1 33.33%; 
+    }
+}
+
+@media (min-width: 992px) { 
+    .packet-wrapper {
+        flex: 1 1 33.33%; 
+    }
+}
+
+
+.packet {
+    background-color: #f9f9f9; 
+    padding: 1rem;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.inline {
+    vertical-align: middle;
+} */
