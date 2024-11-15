@@ -180,51 +180,47 @@
 
 /* Container for the packets */
 
-
-/* .container-frame {
+.container-frame-2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem; 
+    gap: 1rem;
     padding: 1rem;
 }
 
-
-.packet-wrapper {
+.packet-wrapper-2 {
     display: flex;
-    flex: 1 1 100%; 
+    flex: 1 1 100%;
 }
 
-
-@media (min-width: 576px) { 
-    .packet-wrapper {
-        flex: 1 1 66.66%; 
+@media (min-width: 576px) {
+    .packet-wrapper-2 {
+        flex: 1 1 66.66%;
     }
 }
 
-@media (min-width: 768px) { 
-    .packet-wrapper {
-        flex: 1 1 33.33%; 
+@media (min-width: 768px) {
+    .packet-wrapper-2 {
+        flex: 1 1 33.33%;
     }
 }
 
-@media (min-width: 992px) { 
-    .packet-wrapper {
-        flex: 1 1 33.33%; 
+@media (min-width: 992px) {
+    .packet-wrapper-2 {
+        flex: 1 1 33.33%;
     }
 }
 
-
-.packet {
-    background-color: #f9f9f9; 
+.packet-2 {
+    background-color: #f9f9f9;
     padding: 1rem;
     text-align: center;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
-
 
 .inline {
     vertical-align: middle;
-} */
+}
