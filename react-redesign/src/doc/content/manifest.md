@@ -875,7 +875,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                                    | 2001 A Space Odessy                 |                             |                                           |                         |                        |                      |
 |                                    | Eyes Wide Shut                      |                             |                                           |                         |                        |                      |
 |                                    | The Shining                         |                             |                                           |                         |                        |                      |
-|                                    | Collateral                                    |                             |                                           |                         |                        |                      |
+|                                    | Collateral                          |                             |                                           |                         |                        |                      |
 
 ---
 
@@ -898,7 +898,7 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 | Jill Valentine | Capcom    |
 | Mai Shiranui   | SNK       |
 | Kunimitsu      | NAMCO     |
-| Morgan         | Capcom    | 
+| Morgan         | Capcom    |
 
 ---
 

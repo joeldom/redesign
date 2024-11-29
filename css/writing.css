@@ -1,11 +1,12 @@
 .article {
     /* margin: 0 4vw; */
-    background: #444;
+    /* background: #444; */
 }
 
-.content {
-    /* background: #fff; */
-}
+
+/* .content {
+    background: #fff;
+} */
 
 .article-grid {
     --grid-gap: 1rem;
@@ -22,4 +23,8 @@
 .article-content {
     max-width: 41.375rem;
     margin-top: 1.75rem;
+}
+
+.article .body {
+    padding: 2.5em;
 }

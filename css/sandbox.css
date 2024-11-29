@@ -34,6 +34,7 @@
     --warm-black: #2D2828;
     --deep-root: #004161;
     --euphoria: #00050f;
+    --euphoria-bg: rgba(0, 5, 15);
     /* properties */
     --font-base-size: 14px;
     --font-small-size: 12px;
@@ -463,4 +464,151 @@ a.anchor {
 
 .notice-background {
     background: var( radial-gradient(ellipse at 40% 0%, #bf398910 0, transparent 75%), radial-gradient(ellipse at 60% 0%, #096bde10 0, transparent 75%));
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    /*&:after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    content: ' ';
+    height: 1px;
+    margin: 18px 0px;
+    width: 25%;
+  }*/
+    padding: 8px 2px;
+    gap: 20px;
+    /* border-top: 1px solid #d2d0cd; */
+}
+
+.social button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline: inherit;
+    color: inherit;
+}
+
+
+/* .social:before {
+    background: #d2d0cd;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    content: ' ';
+    height: 1px;
+    margin: 18px 0px;
+    overflow: hidden;
+    width: 100%;
+    position: absolute;
+    top: 0
+} */
+
+.social span {
+    /* margin-right: 20px;
+    position: relative; */
+    flex: 1 1 auto;
+}
+
+.social span a,
+.social span button {
+    text-decoration: none;
+    border: none;
+    padding: 4px 12px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.social span a:hover,
+.social span button:hover {
+    background-color: rgba(0, 5, 15, .65);
+    color: white;
+    transition: filter 0.5s ease;
+}
+
+a span.hint,
+.social span a span.hint,
+.read-time a span.hint,
+.social .hint {
+    pointer-events: none;
+    display: none;
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    height: 2rem;
+    line-height: 2rem;
+    background-color: #545454;
+    font-weight: 400;
+    border-radius: 1.75em;
+    padding: 0 0.6875rem;
+    color: white !important;
+    white-space: nowrap;
+    -webkit-transition: opacity 150ms ease, visibility 0s ease 150ms;
+    transition: opacity 150ms ease, visibility 0s ease 150ms;
+    -webkit-transform: translateX(calc(-50% + 20px));
+    -ms-transform: translateX(calc(-50% + 20px));
+    opacity: 0;
+}
+
+.read-time a span.hint {
+    left: 17px;
+}
+
+a:hover span.hint,
+.social span a:hover span.hint,
+.read-time a:hover span.hint,
+.social button:hover>.hint {
+    display: inline-block;
+    color: white;
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .social {
+        font-size: 1.25em;
+        text-align: center;
+    }
+    .module-related:before,
+    .social:before {
+        width: 100% !important;
+    }
+}
+
+.promo {
+    padding: 0px;
+    position: relative;
+    background-color: #19142d;
+}
+
+.promo>div {
+    padding: 20px;
+}
+
+.promo p {
+    border-bottom: none;
+    margin: 0 0 1em 0;
+    font-size: 1.75em;
+    line-height: 1.2em;
+    font-weight: 900;
+    padding: 0;
+}
+
+
+/* Read More Button */
+
+.read-more,
+.see-more {
+    border: 3px solid #1a3acc;
+}
+
+.read-more:hover,
+.see-more:hover {
+    border: 3px solid #1a3acc;
+    background-color: #1a3acc;
+    color: white;
 }
