@@ -78,7 +78,7 @@
     z-index: 0;
 }
 
-@media screen (min-width:768px) {
+@media screen and (min-width: 768px) {
     .prompt-account {
         z-index: 1;
     }
@@ -180,47 +180,107 @@
 
 /* Container for the packets */
 
-.container-frame-2 {
+.response-frame {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .5rem;
     padding: 1rem;
-}
-
-.packet-wrapper-2 {
-    display: flex;
-    flex: 1 1 100%;
+    margin: 0 4vh;
 }
 
 @media (min-width: 576px) {
-    .packet-wrapper-2 {
-        flex: 1 1 66.66%;
+    .response {
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 @media (min-width: 768px) {
-    .packet-wrapper-2 {
-        flex: 1 1 33.33%;
+    .response {
+        max-width: 80%;
+        margin: 0 auto;
     }
 }
 
 @media (min-width: 992px) {
-    .packet-wrapper-2 {
-        flex: 1 1 33.33%;
+    .response {
+        max-width: 90%;
+        margin: 0 auto;
     }
 }
 
-.packet-2 {
-    background-color: #f9f9f9;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 100%;
+@media (min-width: 1025px) {
+    .response {
+        max-width: 65%;
+        margin: 0 auto;
+    }
 }
 
-.inline {
-    vertical-align: middle;
+.response {
+    background-color: #222;
+    padding: 0;
+    text-align: left;
+    border-radius: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: 1px solid rgb(26, 30, 28);
+    position: relative;
+    /* animation: morph 3s linear infinite; */
 }
+
+.response:hover {
+    background-color: #222;
+    border: 1px solid #4f4f4f;
+    transition: border 700ms;
+    box-shadow: 4px 5px 10px 0px #0000003d;
+    transition: box-shadow 200ms, margin 200ms;
+    /* margin: 0 -12px; */
+}
+
+.response:active {
+    animation: none;
+    border: 1px solid #7f7cf9;
+    transition: border 700ms;
+    box-shadow: -4px -5px 10px 0px rgba(00, 00, 00, .25);
+    transition: box-shadow 200ms;
+    cursor: pointer;
+}
+
+.response a {
+    color: #fff;
+}
+
+.response p {
+    font-size: 12px;
+    padding: 4px 8px;
+    line-height: 1;
+    margin: 0;
+}
+
+.response .detail {
+    float: right;
+    font-size: 10px;
+    text-align: right;
+    display: block;
+    margin: 6px 0 0 0;
+    position: absolute;
+    right: 8px;
+    top: 0;
+}
+
+.response svg.inline {
+    position: relative;
+    display: inline-block;
+    margin: 2px 0 0 0px;
+}
+
+.response .inline {
+    fill: #7f7cf9;
+}
+
+
+/* .inline {
+    vertical-align: middle;
+} */
