@@ -31,10 +31,10 @@ Here are some code examples or urls that I've choses to use to show inline code 
 
 Thank you for showing interested in me and my work! I hope to work with you or the recipient of this message (please forward along to those in your org. that would be interested) soon.
 
-<img width="100%" border="0" src="https://raw.githubusercontent.com/joeldom/asset/main/brand%20logo%201k.png?token=GHSAT0AAAAAABWP66NXPSSVSIRPD7OAE7U4YWMKZWA"/>
+<img width="100%" border="0" src="https://joeldom.github.io/asset/brand%20logo%201k.png?token=GHSAT0AAAAAABWP66NXPSSVSIRPD7OAE7U4YWMKZWA"/>
 
 <a href="/resume-portfolio-email.html" target="_blank">
-  <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://raw.githubusercontent.com/joeldom/asset/main/twitter-header.png" width="847" height="309" />
+  <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://joeldom.github.io/asset/twitter-header.png" width="847" height="309" />
 </a>
 
 ---

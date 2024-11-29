@@ -49,7 +49,7 @@
                             cmd
 
 -->
-<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/content-banner.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://joeldom.github.io/asset/images/content-banner.png" style="margin: -1px 0 0 0">
 
 ## What is this?
 This document serves as a dynamic and evolving resource + guide for the creation, organization, and management of content across various platforms. It outlines the format and taxonomy for our content, ensuring consistency and coherence in our brand messaging. Additionally, it provides access to valuable templates and resources that facilitate efficient content production.
@@ -213,7 +213,7 @@ Some boilerplate meta tags for `.html` pages. Below is **Nike** page source [ref
 <meta http-equiv="content-language" content="en-US">
 <meta name="application-name" content="JoelDombek.com">
 <meta property="og:description" content="Content type formatting for multi-media release.">
-<meta property="og:image" content="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview.png">
+<meta property="og:image" content="https://joeldom.github.io/asset/images/social-preview.png">
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="JoelDombek.com">
 <meta property="og:title" content="Page Data">
@@ -222,16 +222,16 @@ Some boilerplate meta tags for `.html` pages. Below is **Nike** page source [ref
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:creator" content="@joeldombek">
 <meta name="twitter:description" content="Content type formatting for multi-media release.">
-<meta name="twitter:image" content="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview.png">
+<meta name="twitter:image" content="https://joeldom.github.io/asset/images/social-preview.png">
 <meta name="twitter:site" content="@joeldombek">
 <meta name="twitter:title" content="Brand Data">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/favicon.ico?v=1" rel="icon" type="image/x-icon">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/android-icon-128x128.png" rel="icon" sizes="128x128" type="image/png">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/apple-touch-icon.png" rel="apple-touch-icon" type="image/png">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/apple-touch-icon-76x76-precomposed.png" rel="apple-touch-icon" sizes="76x76" type="image/png">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/apple-touch-icon-120x120-precomposed.png" rel="apple-touch-icon" sizes="120x120" type="image/png">
-<link href="https://raw.githubusercontent.com/joeldom/asset/main/images/apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon" sizes="152x152" type="image/png">
+<link href="https://joeldom.github.io/asset/images/favicon.ico?v=1" rel="icon" type="image/x-icon">
+<link href="https://joeldom.github.io/asset/images/android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png">
+<link href="https://joeldom.github.io/asset/images/android-icon-128x128.png" rel="icon" sizes="128x128" type="image/png">
+<link href="https://joeldom.github.io/asset/images/apple-touch-icon.png" rel="apple-touch-icon" type="image/png">
+<link href="https://joeldom.github.io/asset/images/apple-touch-icon-76x76-precomposed.png" rel="apple-touch-icon" sizes="76x76" type="image/png">
+<link href="https://joeldom.github.io/asset/images/apple-touch-icon-120x120-precomposed.png" rel="apple-touch-icon" sizes="120x120" type="image/png">
+<link href="https://joeldom.github.io/asset/images/apple-touch-icon-152x152-precomposed.png" rel="apple-touch-icon" sizes="152x152" type="image/png">
 <link href="https://www.joeldombek.com" rel="dns-prefetch">
 <link href="https://c.static-joeldombek.com/" rel="dns-prefetch">
 <link href="https://cdnjs.cloudflare.com/" rel="dns-prefetch">
@@ -251,9 +251,9 @@ Some boilerplate meta tags for `.html` pages. Below is **Nike** page source [ref
 
 ### Social Preview
 
-<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview.png" style="margin: -1px 0 0 0">
-<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview-2.png" style="margin: -1px 0 0 0">
-<img class="img-responsive" src="https://raw.githubusercontent.com/joeldom/asset/main/images/social-preview-3.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://joeldom.github.io/asset/images/social-preview.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://joeldom.github.io/asset/images/social-preview-2.png" style="margin: -1px 0 0 0">
+<img class="img-responsive" src="https://joeldom.github.io/asset/images/social-preview-3.png" style="margin: -1px 0 0 0">
 
 
 # ASCIINVOICE
@@ -348,6 +348,6 @@ Some boilerplate meta tags for `.html` pages. Below is **Nike** page source [ref
 <hr>
 <article id="affiliates">
 	<img style="padding:.5em;background:transparent
-	;display:inline-block;" width="80px" src="https://raw.githubusercontent.com/joeldom/asset/main/chip-logo.png"/><img style="padding:.5em;background:transparent
+	;display:inline-block;" width="80px" src="https://joeldom.github.io/asset/chip-logo.png"/><img style="padding:.5em;background:transparent
 	;display:inline-block;" width="80px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/120px-Vue.js_Logo_2.svg.png"/><img style="padding:.5em;background:pink;display:inline-block;" width="80px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/GAINAX.svg/1280px-GAINAX.svg.png"/>
 </article>

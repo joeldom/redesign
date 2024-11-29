@@ -6,5 +6,8 @@
             "addWords": true,
             "scope": "folder"
         }
-    }
+	},
+	"cSpell.words": [
+		"chainweb"
+	]
 }

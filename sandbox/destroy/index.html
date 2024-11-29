@@ -16,7 +16,8 @@
     <meta name="twitter:card" content="summary || summary_large_image || player || app" />
     <meta name="twitter:creator" content="@joeldombek" />
 
-    <title>ECCO ✉️</title>
+
+    <title>PACKET ✉️</title>
 
     <link rel="stylesheet" href="../../greybox/css/coma.css" />
     <link rel="stylesheet" href="../../css/tao.css" />
@@ -32,6 +33,48 @@
     <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
     <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
     <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+
+    <style>
+        .destroy {
+            overflow: hidden;
+        }
+        
+        .destroy::before {
+            content: "";
+            position: absolute;
+            width: 90px;
+            /* Width of the distressed area */
+            height: 100px;
+            /* Height of the distressed area */
+            background: radial-gradient(circle, rgba(0, 0, 0, 0.2), transparent 70%);
+            opacity: 0.8;
+            /* Adjust as needed */
+            filter: blur(1px);
+            /* Adds a rough blur to create grit */
+            pointer-events: none;
+            z-index: 1;
+            /* Position the noise patch on a random side */
+            top: auto;
+            bottom: auto;
+            left: auto;
+            right: auto;
+            overflow: hidden;
+        }
+        /* Example: Target the top-left area */
+        
+        .destroy.top-left::before {
+            top: 0;
+            left: 0;
+            transform: translate(-15px, -15px) rotate(-20deg);
+        }
+        /* Example: Target the bottom-right area */
+        
+        .destroy.bottom-right::before {
+            bottom: 0;
+            right: 0;
+            transform: translate(15px, 15px) rotate(15deg);
+        }
+    </style>
 </head>
 
 <body id="sandbox" class="parallax">
@@ -138,7 +181,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
                         <div class="col-xs-12 col-sm-8 col-md-4">
-                            <section class="packet">
+                            <section class="packet destroy">
                                 <a href="#">
                                     <p>
                                         packet: 01 <span class="tile-detail">v1.1.1</span><br> simple info
@@ -577,7 +620,8 @@
                             <h3 class="h3"><a href="#">Packet</a></h3>
                         </header>
                         <div class="tile-excerpt hidden-xs">
-                            <p>Visualization of how to organize expected & unexpected data-types […]</p>
+                            <p>Packets are fundamental units of data transmission in networking, encapsulating information for efficient communication across networks. Understanding packet structure, including headers and payloads, is crucial for optimizing
+                                performance and troubleshooting connectivity issues. […]</p>
                         </div>
                     </article>
                 </div>
@@ -589,7 +633,8 @@
                             <h3 class="h3"><a href="#">Objects & Tokens</a></h3>
                         </header>
                         <div class="tile-excerpt hidden-xs">
-                            <p>Budget Kitchen &amp; Bath This project was done while at Guaranteed Results Marketing. Creating both the layout, framework and branding, […]</p>
+                            <p>Objects and tokens represent distinct data structures within information systems. Objects encapsulate both data and behavior, while tokens serve as identifiers or keys in various applications. Together, they facilitate secure
+                                data access and manipulation, enabling developers to build robust and efficient systems. […]</p>
                         </div>
                     </article>
                 </div>

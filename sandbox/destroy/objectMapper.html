@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Visualization API Example</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+            'packages': ['table']
+        });
+        google.charts.setOnLoadCallback(loadDataAndDrawTable);
+
+        function loadDataAndDrawTable() {
+            // Fetch the JSON data from a source (for this example, using a local variable)
+            var jsonData = [{
+                "name": "John",
+                "salary": 10000,
+                "fullTime": true
+            }, {
+                "name": "Mary",
+                "salary": 25000,
+                "fullTime": true
+            }, {
+                "name": "Steve",
+                "salary": 8000,
+                "fullTime": false
+            }, {
+                "name": "Ellen",
+                "salary": 20000,
+                "fullTime": true
+            }, {
+                "name": "Mike",
+                "salary": 12000,
+                "fullTime": false
+            }];
+
+            drawTable(jsonData);
+        }
+
+        function drawTable(jsonData) {
+            var data = new google.visualization.DataTable();
+
+            // Get the keys from the first object to create columns
+            var keys = Object.keys(jsonData[0]);
+
+            // Dynamically add columns based on the keys
+            keys.forEach(function(key) {
+                var columnType = typeof jsonData[0][key];
+                switch (columnType) {
+                    case 'number':
+                        data.addColumn('number', capitalizeFirstLetter(key));
+                        break;
+                    case 'boolean':
+                        data.addColumn('boolean', capitalizeFirstLetter(key));
+                        break;
+                    default:
+                        data.addColumn('string', capitalizeFirstLetter(key));
+                }
+            });
+
+            // Loop through the JSON data and add rows to the table
+            jsonData.forEach(function(item) {
+                var row = keys.map(function(key) {
+                    return item[key];
+                });
+                data.addRow(row);
+            });
+
+            var table = new google.visualization.Table(document.getElementById('table_div'));
+            table.draw(data, {
+                showRowNumber: true,
+                width: '100%',
+                height: '100%'
+            });
+
+            google.visualization.events.addListener(table, 'select', function() {
+                var selection = table.getSelection();
+                if (selection.length > 0) {
+                    var row = selection[0].row;
+                    var selectedName = data.getValue(row, 0);
+                    console.log('Row selected: ' + row);
+                    showToast('You selected ' + selectedName);
+                }
+            });
+        }
+
+        function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+
+        function showToast(message) {
+            var toastEl = document.getElementById('snackbar');
+            var toastBody = document.getElementById('snackbar-body');
+            toastBody.textContent = message;
+            var toast = new bootstrap.Toast(toastEl);
+            toast.show();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="table_div"></div>
+
+    <!-- Toast Container -->
+    <div class="toast-container position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="snackbar" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-delay="3000">
+            <div class="toast-header">
+                <strong class="me-auto">Notification</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div id="snackbar-body" class="toast-body">
+                <!-- Notification message will be inserted here -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

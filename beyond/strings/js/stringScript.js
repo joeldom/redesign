@@ -5,7 +5,7 @@ const termContainer = document.getElementById("term-container");
 const pauseButton = document.getElementById("pauseButton");
 
 function fetchTermStrings() {
-    fetch('https://raw.githubusercontent.com/joeldom/asset/main/array/strings.json')
+    fetch('https://joeldom.github.io/asset/array/strings.json')
         .then(response => response.json())
         .then(data => {
             termStrings = data.strings001 || [];

@@ -47,11 +47,12 @@ body.with-navbar {
     color: #1a3acc;
 }
 
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
     .wrapper {
-        /* padding-top: 0px; */
+        padding-top: 0px;
     }
-}
+} */
 
 .pattern-bg {
     background-color: #1a1e1c;
@@ -62,7 +63,7 @@ body.with-navbar {
     linear-gradient(90deg, #444cf7 1px, #e5e5f7 1px);
   background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
   background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
-    /* background-image: url("https://raw.githubusercontent.com/joeldom/asset/main/patterns/doodad-1.png"); */
+    /* background-image: url("https://joeldom.github.io/asset/patterns/doodad-1.png"); */
     /* ---- */
     /* background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='31' height='31' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 30, 28,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L36 1h-32v38z' fill='rgba(26, 58, 204,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L4 39h32v-38z' fill='rgba(26, 32, 44,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L0 40h40v-40z' fill='rgba(26, 58, 204, 1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L40 0h-40v40z' fill='rgba(26, 32, 44,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E "); */
     /* ---- */

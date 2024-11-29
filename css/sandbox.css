@@ -209,7 +209,8 @@ svg {
     /* etc. */
 }
 
-#data-strings {}
+
+/* #data-strings {} */
 
 #term-container {
     max-width: 100%;
@@ -291,10 +292,11 @@ a.anchor {
     fill: var(--brand-blue);
 }
 
-svg path {
-    /* fill: inherit !important; */
-    /* animation: color-change 5s infinite !important; */
-}
+
+/* svg path {
+    fill: inherit !important;
+    animation: color-change 5s infinite !important;
+} */
 
 .packet svg path {
     /* fill: inherit !important; */

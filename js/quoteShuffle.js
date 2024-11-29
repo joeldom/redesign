@@ -7,7 +7,7 @@ const quoteContainer = document.getElementById("quote-container");
 const pauseButton = document.getElementById("pauseButton");
 
 function fetchTermStrings() {
-    fetch('https://raw.githubusercontent.com/joeldom/asset/main/array/quotes.json')
+    fetch('https://joeldom.github.io/asset/array/quotes.json')
         .then(response => response.json())
         .then(data => {
             termStrings = data.quote || [];

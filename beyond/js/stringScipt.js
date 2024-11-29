@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Fetch the JSON file from the provided URL
-    fetch("https://raw.githubusercontent.com/joeldom/asset/main/array/terms.json")
+    fetch("https://joeldom.github.io/asset/array/terms.json")
         .then(response => response.json())
         .then(jsonData => {
             var termList = document.getElementById("termList");
