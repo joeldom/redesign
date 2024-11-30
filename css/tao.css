@@ -73,10 +73,11 @@ body.with-navbar {
     /* background-size: cover; */
 }
 
-.tile-splash svg path {
+
+/* .tile-splash svg path {
     fill: #1a3acc !important;
     animation: color-change 5s infinite !important;
-}
+} */
 
 .toggle {
     height: 0;
@@ -216,8 +217,19 @@ body.with-navbar {
 .tile-splash p:hover,
 .tile-splash a:hover {
     font-size: 16px;
-    color: #1a3acc !important;
+    color: #1a3acc;
     animation: none 1s infinite;
+}
+
+.tile-splash p svg path,
+.tile-splash a svg path {
+    fill: rgba(26, 58, 204, 0.23);
+}
+
+.tile-splash p:hover svg path,
+.tile-splash a:hover svg path {
+    fill: #1a3acc;
+    animation: none;
 }
 
 .tile-splash svg {
@@ -234,6 +246,11 @@ body.with-navbar {
 
 
 /* https://stackoverflow.com/questions/30240181/can-i-apply-animations-to-margins */
+
+.tile-splash svg path {
+    fill: inherit;
+    animation: color-change 5s infinite !important;
+}
 
 .tile-splash a:hover svg,
 .tile-splash p:hover svg {

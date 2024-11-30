@@ -482,6 +482,8 @@ a.anchor {
     padding: 8px 2px;
     gap: 20px;
     /* border-top: 1px solid #d2d0cd; */
+    color: grey;
+    margin: 0 0 2em 0;
 }
 
 .social button {
@@ -526,8 +528,9 @@ a.anchor {
 
 .social span a:hover,
 .social span button:hover {
-    background-color: rgba(0, 5, 15, .65);
-    color: white;
+    background-color: rgba(0, 5, 15, .1125);
+    /* color: white; */
+    color: var(--dark-olive);
     transition: filter 0.5s ease;
 }
 
@@ -553,6 +556,10 @@ a span.hint,
     -webkit-transform: translateX(calc(-50% + 20px));
     -ms-transform: translateX(calc(-50% + 20px));
     opacity: 0;
+}
+
+.social .label {
+    display: none;
 }
 
 .read-time a span.hint {
