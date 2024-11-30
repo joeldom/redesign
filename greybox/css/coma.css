@@ -4,7 +4,9 @@
 
 !!!!	   DO NOT WORK IN THIS FILE    !!!!
 
-11.14.22 changes push
+11.14.2024 changes push
+11.30.2024 back again. fixing material icons
+11.30.2024 hidden-sm hidden-md hidden-lg display: block !important areas causing conflicts
 ////////////////////////////////////////*/
 
 :root {
@@ -1733,9 +1735,27 @@ td.hidden-xs {
     }
 }
 
-.hidden-sm {
+
+/* 11.30.2024 Removing because eof an odd overlap  */
+
+
+/* .hidden-sm {
     display: block !important;
 }
+
+.hidden-md {
+    display: block !important;
+}
+
+.hidden-lg {
+    display: block !important;
+}
+
+@media (max-width: 767px) {
+    .hidden-sm.hidden-md.hidden-lg {
+        display: none !important;
+    }
+} */
 
 table.hidden-sm {
     display: table;
@@ -1786,10 +1806,6 @@ td.hidden-sm {
     }
 }
 
-.hidden-md {
-    display: block !important;
-}
-
 table.hidden-md {
     display: table;
 }
@@ -1837,10 +1853,6 @@ td.hidden-md {
     td.hidden-md.hidden-lg {
         display: none !important;
     }
-}
-
-.hidden-lg {
-    display: block !important;
 }
 
 table.hidden-lg {

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blurred Demographic Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .blurred {
+            color: transparent;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid transparent;
+        }
+        
+        .blurred:hover {
+            border: 1px dashed #999;
+        }
+        
+        .revealed {
+            color: inherit;
+            text-shadow: none;
+            background-color: transparent;
+            border: none;
+            cursor: default;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Demographic Data</h1>
+    <p>Click on the blurred data to reveal it. It will automatically be hidden again after 60 seconds.</p>
+    <div class="demographics">
+        <span class="blurred" data-value="Age: 35">Click to reveal</span><br>
+        <span class="blurred" data-value="City: New York">Click to reveal</span><br>
+        <span class="blurred" data-value="Gender: Female">Click to reveal</span>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document.querySelectorAll(".blurred").forEach(element => {
+                element.addEventListener("click", () => {
+                    element.classList.remove("blurred");
+                    element.classList.add("revealed");
+                    element.textContent = element.dataset.value;
+
+                    // Set a timeout to hide the data again after 60 seconds
+                    setTimeout(() => {
+                        element.classList.remove("revealed");
+                        element.classList.add("blurred");
+                        element.textContent = "Click to reveal";
+                    }, 6000); // 60000ms = 60 seconds
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
