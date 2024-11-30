@@ -7664,6 +7664,7 @@ ul#cyclelist li,
     margin-left: -16px;
     padding: 12px 2vw;
     text-align: left;
+    fill: rgba(26, 58, 204, 0.23);
 }
 
 .navbar-nav {
@@ -8181,10 +8182,10 @@ ul#cyclelist li,
     border-bottom: 1px dotted #848484;
 }
 
-.footer [class^="icon-"],
-.footer [class*="icon-"],
-.footer [class^="fa-"],
-.footer [class*="fa-"] {
+.footer .list-unstyled [class^="icon-"],
+.footer .list-unstyled [class*="icon-"],
+.footer .list-unstyled [class^="fa-"],
+.footer .list-unstyled [class*="fa-"] {
     float: left;
     margin-left: -24px;
     position: relative;
@@ -8193,10 +8194,10 @@ ul#cyclelist li,
     width: 24px;
 }
 
-.footer [class^="icon-"]:hover,
-.footer [class*="icon-"]:hover,
-.footer [class^="fa-"]:hover,
-.footer [class*="fa-"]:hover {
+.footer .list-unstyled [class^="icon-"]:hover,
+.footer .list-unstyled [class*="icon-"]:hover,
+.footer .list-unstyled [class^="fa-"]:hover,
+.footer .list-unstyled [class*="fa-"]:hover {
     color: #d8d8d8;
 }
 
