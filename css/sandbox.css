@@ -268,15 +268,21 @@ a.anchor {
 }
 
 #back-top a {
-    border: 3px solid white;
-    width: 48px;
-    height: 48px;
+    /* border: 3px solid white; */
+    /* width: 48px; */
+    /* height: 48px; */
     display: flex;
 }
 
+.footer-para #back-top a:hover,
+.footer-para a {
+    background-color: transparent !important;
+    border-bottom: none !important;
+}
+
 #back-top a:hover {
-    background-color: white;
-    color: var(--brand-blue);
+    /* background-color: white; */
+    /* color: var(--brand-blue); */
     cursor: pointer;
 }
 
