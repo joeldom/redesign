@@ -39,19 +39,30 @@
                                                     ~ ~ ~ ~ ~ ~ v1 ~ ~ ~ ~ ~ ~
 
      =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
-    <link rel="stylesheet" href="../../greybox/css/coma.css" />
-    <link rel="stylesheet" href="../../css/tao.css" />
-    <link rel="stylesheet" href="../../css/lib.css" />
-    <link rel="stylesheet" href="../../css/sandbox.css" />
-    <link rel="stylesheet" href="../../css/packet.css" />
-    <link rel="stylesheet" href="../../css/prompt.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
     <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/utility.css" />
     <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
     <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" rel="icon" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/greybox/css/coma.css" />
+    <link rel="stylesheet" href="../../css/tao.css" />
+    <link rel="stylesheet" href="../../css/lib.css" />
+    <link rel="stylesheet" href="../../css/sandbox.css" />
+    <link rel="stylesheet" href="../../css/packet.css" />
+    <link rel="stylesheet" href="../../css/prompt.css" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9GLG41WK0"></script>
     <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
@@ -59,7 +70,7 @@
     <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
 </head>
 
-<body id="sandbox" class="parallax">
+<body id="sandbox" class="parallax dark-mode">
     <!-- Nav Section sans container -->
     <div class="wrapper">
         <a id="top" class="anchor"></a>
@@ -158,7 +169,27 @@
             <div class="avatar"><img src="https://avatars.githubusercontent.com/u/1181738?v=4" /></div>
         </div>
         <div class="prompt-pane">
-
+            <div class="prompt-sidebar">
+                <div class="menu">
+                    <p style="color:rgb(56, 56, 114); padding: 8px 0 0 8px;">Recent</p>
+                    <div class="option">Afternoon Convo</div>
+                    <div class="option">Code Session</div>
+                    <div class="option">Writing</div>
+                    <div class="option">Script Rewrite</div>
+                    <div class="option">Code Feature</div>
+                    <div class="option">Research</div>
+                    <div class="option">Documentation</div>
+                    <div class="option">History</div>
+                </div>
+                <!-- Add more options as needed -->
+                <div class="details">
+                    <div class="button" style="block">
+                        <div class="sb-icon" style="font-size: 20px; width: 20px; height: 20px; margin-right: 8px; display: inline;">
+                            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="20" height="20"><path d="M725.333 1024H298.667a128 128 0 0 1-128-128V128a128 128 0 0 1 128-128h426.666a128 128 0 0 1 128 128v768a128 128 0 0 1-128 128zM298.667 85.333A42.667 42.667 0 0 0 256 128v768a42.667 42.667 0 0 0 42.667 42.667h426.666A42.667 42.667 0 0 0 768 896V128a42.667 42.667 0 0 0-42.667-42.667z" fill="currentColor"></path><path d="M469.33299999999997 853.333a42.667 42.667 0 1 0 85.334 0 42.667 42.667 0 1 0-85.334 0zM554.667 213.333h-85.334a42.667 42.667 0 0 1 0-85.333h85.334a42.667 42.667 0 0 1 0 85.333z" fill="currentColor"></path></svg>
+                        </div><a href="https://discord.gg/9z7f2CEj">Join Server</a></div>
+                    <a href="https://github.com/joeldom/redesign/tree/gh-pages/sandbox/prompt" target="_blank">Version 1.0.0</a>
+                </div>
+            </div>
             <!-- FLEXBOX APPROACH -->
             <!-- <div id="chat-response" class="response-frame">
                 <section class="response">
@@ -184,7 +215,19 @@
                     </a>
                 </section>
             </div> -->
-
+            <!-- <div class="response-frame">
+                <section class="response">
+                    <a href="#">
+                        <p>
+                            response: 01 <span class="tile-detail">v1.1.1</span><br> simple info
+                        </p>
+                        <p>
+                            more info about response<br>
+                            <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" aria-hidden="true" width="12" height="12" viewBox="0 0 20 20"><path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path></svg>
+                        </p>
+                    </a>
+                </section>
+            </div> -->
             <div class="row container-frame">
                 <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg"></div>
                 <div class="col-xs-12 col-sm-8 col-md-4">
@@ -933,101 +976,104 @@
             </div>
         </aside>
         <!-- RELATED SECTION END -->
+        <!-- related-posts -->
 
-        <span id="back-top2">
-				<a class="back-top" href="#top">
-					<span style="font-size:2em;line-height:1em; transform: scale(2, .5);"><i class="material-icons">arrow_drop_up</i></span><br> Back to Top
-        </a>
-        </span>
-    </div>
-    <!--/wrapper-->
+        <div class="footer-para">
+            <div class="container">
+                <div class="row">
+                    <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                        <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-moon"></i></button>
+                        <span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
+                        <div class="row">
+                            <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
+                                <img src="https://joeldom.github.io/asset/chip-logo.png" style="width: auto;max-height:80px;" />
+                            </a>
+                            <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                            <div class="col-xs-12 col-sm-6">
+                                <p style="padding: 0 24px;">The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
+                                        target="_blank">Resume</a>.</p>
+                                <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
+                                    <li><a href="https://joeldom.github.io/">Home</a></li>
+                                    <li><a href="https://joeldom.github.io/work">Work</a></li>
+                                    <li><a href="https://joeldom.github.io/redesign/sandbox/writing/">Writing</a></li>
+                                    <li><a href="https://joeldom.github.io/ideas">Ideas</a></li>
+                                    <li><a href="https://joeldom.github.io/quotes">Quotes</a></li>
+                                    <li><a href="https://joeldom.github.io/about">About</a></li>
+                                    <li><a href="https://joeldom.github.io/resume">Resume</a></li>
+                                    <!-- <li><a href="https://joeldom.github.io/contact">Contact</a></li> -->
+                                    <!-- <li><a href="https://joeldom.github.io/search">Search</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-12 hidden-xs">
+                                        <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                        <ul class="list-unstyled">
+                                            <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                            <li>
+                                                <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">psychology</i><span class="hidden-xs"> About me</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://joeldom.github.io/style-guide/" target="_blank"><i class="material-icons">palette</i><span class="hidden-xs"> Style Guide</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 hidden-xs">
+                                        <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                        <ul class="list-unstyled">
+                                            <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                            <li>
+                                                <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">camera</i><span class="hidden-xs"> Instagram</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/joeldombek" target="_blank"><i class="fa fa-twitter"></i><span class="hidden-xs"> Twitter</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
 
-    <div class="parallax-footer">
-        <div class="container">
-            <div class="row">
-                <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
-                    <span id="back-top">
-                      <a href="#top">
-                        <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#FFF" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" transform="rotate(-90)" class="inline">
-                          <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
-                        </svg>
-                      </a>
-                    </span>
-                    <div class="row">
-                        <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
-                            <img src="https://joeldom.github.io/asset/chip-logo.png" style="width: auto;max-height:80px;" />
-                        </a>
-                        <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
-                        <div class="col-xs-12 col-sm-6">
-                            <p style="padding:0 24px;">The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
-                                    target="_blank">Resume</a>.</p>
-                            <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
-                                <li><a href="https://joeldom.github.io/">Home</a></li>
-                                <li><a href="https://joeldom.github.io/work">Work</a></li>
-                                <li><a href="https://joeldom.github.io/redesign/sandbox/writing/">Writing</a></li>
-                                <li><a href="https://joeldom.github.io/ideas">Ideas</a></li>
-                                <li><a href="https://joeldom.github.io/quotes">Quotes</a></li>
-                                <li><a href="https://joeldom.github.io/about">About</a></li>
-                                <li><a href="https://joeldom.github.io/resume">Resume</a></li>
-                                <!-- <li><a href="https://joeldom.github.io/contact">Contact</a></li> -->
-                                <!-- <li><a href="https://joeldom.github.io/search">Search</a></li> -->
-                            </ul>
-                        </div>
-                        <div class="col-xs-12 col-sm-4">
-                            <div class="row">
-                                <div class="col-sm-4 col-xs-12 hidden-xs">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <a href="https://www.instagram.com/joeld/" target="_blank"><span class="hidden-xs">About me</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://joeldom.github.io/style-guide/" target="_blank"><span class="hidden-xs">Style&nbsp;Guide</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><span class="hidden-xs">Linkedin</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://joeldom.github.io/resume/"><span class="hidden-xs">Resume</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-xs-12">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <a href="https://www.instagram.com/joeld/" target="_blank"><span class="hidden-xs">Instagram</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.twitch.tv/joeldombek" target="_blank"><span class="hidden-xs">TwitchTV</span></a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.youtube.com/channel/UCc6vtfZ6Ln5i2ujRzisK_yA" target="_blank"><span class="hidden-xs">Youtube</span></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-xs-12">
-                                    <p class="text-right">
-                                        JOEL<strong>DOMBEK</strong><br class="hidden-xs" /> <small> &copy;2024 <br class="hidden-sm"/>V7.11.30.24<br class="hidden-xs" /></small>
-                                    </p>
-                                    <br /><br /><br />
+                                    <div class="col-sm-4 col-xs-12">
+                                        <p class="text-right">
+                                            JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2024</small><small><br class="hidden-sm">V7.11.30.24<br class="hidden-xs"><span class="hidden-xs">©2024</span></small>
+                                        </p>
+                                        <br /><br /><br />
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </footer>
+                    </footer>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
-    <!-- <script src="../greybox/js/main.js"></script> -->
-    <script src="../../js/gtag.js"></script>
-    <script src="../../js/sandbox.js"></script>
-    <script src="../../js/keyShuffle.js"></script>
-    <script src="../../js/prompt.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script>
-        hljs.highlightAll();
-    </script>
+        <!-- footer-para -->
 
+        <!-- Scripts -->
+        <script src="../../js/gtag.js"></script>
+        <script src="../../js/sandbox.js"></script>
+        <script src="../../js/keyShuffle.js"></script>
+        <script src="../../js/prompt.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
+        <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+        <script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script>
+        <script src="https://joeldom.github.io/redesign/greybox/js/contact.js"></script>
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://joeldom.github.io/redesign/js/typed-content.js"></script>
+        <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
 </body>
 
 </html>

@@ -62,6 +62,7 @@
     font-style: normal;
     text-align: center;
     color: var(--java);
+    z-index: 2;
 }
 
 .prompt-account {
@@ -190,7 +191,8 @@
     margin: 0 4vh;
 }
 
-@media (min-width: 576px) {
+
+/* @media (min-width: 576px) {
     .response {
         max-width: 100%;
         margin: 0 auto;
@@ -216,10 +218,11 @@
         max-width: 65%;
         margin: 0 auto;
     }
-}
+} */
 
 .response {
     background-color: #222;
+    color: #7c7e86;
     padding: 0;
     text-align: left;
     border-radius: 0px;
@@ -227,11 +230,13 @@
     width: 100%;
     border: 1px solid rgb(26, 30, 28);
     position: relative;
+    margin: 0 auto;
     /* animation: morph 3s linear infinite; */
 }
 
 .response:hover {
     background-color: #222;
+    columns: white;
     border: 1px solid #4f4f4f;
     transition: border 700ms;
     box-shadow: 4px 5px 10px 0px #0000003d;
@@ -250,6 +255,7 @@
 
 .response a {
     color: #fff;
+    font-weight: 400;
 }
 
 .response p {
@@ -281,6 +287,184 @@
 }
 
 
+/* Bootstrap media breakpoints for responsive sizing */
+
+@media (min-width: 576px) {
+    .response {
+        max-width: 540px;
+        /* Small devices */
+    }
+}
+
+@media (min-width: 768px) {
+    .response {
+        max-width: 720px;
+        /* Medium devices */
+    }
+}
+
+@media (min-width: 992px) {
+    .response {
+        max-width: 960px;
+        /* Large devices */
+    }
+}
+
+@media (min-width: 1200px) {
+    .response {
+        max-width: 960px;
+        /* max-width: 1140px; */
+        /* Extra large devices */
+    }
+}
+
+
 /* .inline {
     vertical-align: middle;
 } */
+
+.prompt-sidebar::before {
+    content: '';
+    display: block;
+    min-width: 32px;
+    background-color: none;
+}
+
+.prompt-sidebar {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    /* Initial width */
+    height: 100%;
+    /* Fill vertically */
+    /* Smooth transition for width */
+    overflow: hidden;
+    /* Hide overflow */
+    z-index: 1;
+    min-width: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prompt-sidebar:hover {
+    background-color: rgba(0, 0, 0, 0.71);
+    /* 90% transparent black */
+    transition: width 0.3s;
+}
+
+.prompt-sidebar:hover .menu,
+.prompt-sidebar:hover .details {
+    min-width: 196px;
+    opacity: 1;
+}
+
+.prompt-sidebar .menu {
+    width: 0px;
+    opacity: 0;
+    /* Width on hover */
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.prompt-sidebar .details {
+    width: auto;
+    opacity: 0;
+    /* Width on hover */
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.prompt-sidebar .menu:hover,
+.prompt-sidebar menu:hover .details {
+    width: auto;
+    opacity: 1;
+    min-width: 196px;
+    max-width: 400px;
+    /* Width on hover */
+}
+
+
+/* Add styles for the options inside the sidebar */
+
+.prompt-sidebar .menu::before {
+    content: '';
+    display: block;
+    height: 25vh;
+    background-color: #0202187c;
+}
+
+.prompt-sidebar .menu .option {
+    color: rgb(129, 129, 129);
+    padding: 12px 10px 10px;
+    white-space: nowrap;
+    padding: .46em;
+    display: block;
+    /* Prevent text wrapping */
+}
+
+.prompt-sidebar .menu .option:hover {
+    /* background-color: rgb(4, 46, 46); */
+    /* background-color: rgb(2, 24, 24); */
+    background-color: rgba(2, 24, 24, 0.637);
+    color: white;
+    margin: 0 0 0 4px;
+    cursor: pointer;
+}
+
+@keyframes optionArrowRight {
+    from {
+        right: inherit;
+        /* Start position */
+    }
+    to {
+        right: 18px;
+        /* End position */
+    }
+}
+
+.prompt-sidebar .menu .option:hover::after {
+    content: url("data:image/svg+xml,%3Csvg class='inline' focusable='false' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg' fill='%23FFF' aria-hidden='true' width='12' height='12' viewBox='0 0 20 20'%3E%3Cpath d='M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z'/%3E%3C/svg%3E");
+    width: 16px;
+    height: 16px;
+    padding: 0 0 0 .66em;
+    fill: white;
+    animation: optionArrowRight 0.5s;
+}
+
+.prompt-sidebar .details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    padding: .8em;
+}
+
+.prompt-sidebar a:link,
+.prompt-sidebar a:hover,
+.prompt-sidebar a:visited {
+    text-decoration: none;
+    border: none;
+}
+
+.prompt-sidebar .button {
+    width: 100%;
+    border: 1px solid var(--dark-blue);
+    padding: 4px 12px;
+    margin: .8em;
+    cursor: pointer;
+    border-radius: 20px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.prompt-sidebar .button:hover {
+    background-color: var(--dark-blue);
+    color: white;
+}
