@@ -6,6 +6,15 @@
     --radius: 24px;
 }
 
+body.dark-mode .wrapper {
+    /* background-color: #08031c !important; */
+    background-color: #040111 !important;
+}
+
+body.dark-mode #chat-prompt.palette-darkolive {
+    background-color: #0f0f0f !important;
+}
+
 .grid-bg {
     background-image: linear-gradient(var(--grid-color) 1px, transparent 1px), linear-gradient(90deg, var(--grid-color) 1px, transparent 1px);
     background-size: 64px 64px;
@@ -63,6 +72,22 @@
     text-align: center;
     color: var(--java);
     z-index: 2;
+    opacity: 1;
+    transition: opacity ease-in-out 1s;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
+}
+
+.prompt-name:hover {
+    opacity: 0;
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    /* background-color: rgb(27, 6, 48); */
+    position: absolute;
+    cursor: url("cursor.svg"), url("custom.cur") auto;
+    cursor: progress;
+    -webkit-zoom-grabbing
 }
 
 .prompt-account {
@@ -77,6 +102,7 @@
     font-style: normal;
     color: var(--legacy);
     z-index: 0;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
 @media screen and (min-width: 768px) {
@@ -312,7 +338,9 @@
 
 @media (min-width: 1200px) {
     .response {
-        max-width: 960px;
+        width: auto;
+        min-width: 680px;
+        /* max-width: 940px; */
         /* max-width: 1140px; */
         /* Extra large devices */
     }
@@ -349,12 +377,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    opacity: 0;
 }
 
 .prompt-sidebar:hover {
     background-color: rgba(0, 0, 0, 0.71);
     /* 90% transparent black */
-    transition: width 0.3s;
+    opacity: 1;
+    transition: opacity 1s ease-out;
 }
 
 .prompt-sidebar:hover .menu,
@@ -391,21 +421,129 @@
 }
 
 
-/* Add styles for the options inside the sidebar */
+/* Add styles for the options inside the sidebar 
+    REMOTE:<link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" />
+*/
 
 .prompt-sidebar .menu::before {
     content: '';
     display: block;
-    height: 25vh;
+    height: 20vh;
     background-color: #0202187c;
+}
+
+.prompt-sidebar .menu .option.active {
+    background-color: #44d6a5;
+    color: black;
+}
+
+.prompt-sidebar .menu .option.active::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -70px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 13px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.draft::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px 0px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state01::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -30px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state02::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -40px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state03::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -50px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state04::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -60px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state05::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -70px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state06::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -70px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state07::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -70px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
+}
+
+.prompt-sidebar .menu .option.state08::before {
+    content: '';
+    background: url(https://joeldom.github.io/asset/ui-img/infooverload_ltr_dark_1x.png) no-repeat 0px -70px;
+    height: 10px;
+    position: absolute;
+    width: 14px;
+    top: 11px;
+    left: 5px;
 }
 
 .prompt-sidebar .menu .option {
     color: rgb(129, 129, 129);
     padding: 12px 10px 10px;
     white-space: nowrap;
-    padding: .46em;
+    padding: .35em 1.82em;
     display: block;
+    position: relative;
     /* Prevent text wrapping */
 }
 
@@ -414,17 +552,16 @@
     /* background-color: rgb(2, 24, 24); */
     background-color: rgba(2, 24, 24, 0.637);
     color: white;
-    margin: 0 0 0 4px;
     cursor: pointer;
 }
 
 @keyframes optionArrowRight {
     from {
-        right: inherit;
+        right: 100%;
         /* Start position */
     }
     to {
-        right: 18px;
+        right: 0%;
         /* End position */
     }
 }
@@ -433,9 +570,12 @@
     content: url("data:image/svg+xml,%3Csvg class='inline' focusable='false' preserveAspectRatio='xMidYMid meet' xmlns='http://www.w3.org/2000/svg' fill='%23FFF' aria-hidden='true' width='12' height='12' viewBox='0 0 20 20'%3E%3Cpath d='M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z'/%3E%3C/svg%3E");
     width: 16px;
     height: 16px;
-    padding: 0 0 0 .66em;
+    /* padding: 0 0 0 .66em; */
+    display: inline;
+    position: absolute;
+    margin-left: 4px;
     fill: white;
-    animation: optionArrowRight 0.5s;
+    animation: optionArrowRight 1s;
 }
 
 .prompt-sidebar .details {
@@ -443,7 +583,7 @@
     flex-direction: column;
     width: 100%;
     gap: 12px;
-    padding: .8em;
+    padding: .6em 1.2em;
 }
 
 .prompt-sidebar a:link,
@@ -457,7 +597,7 @@
     width: 100%;
     border: 1px solid var(--dark-blue);
     padding: 4px 12px;
-    margin: .8em;
+    /* margin: .8em; */
     cursor: pointer;
     border-radius: 20px;
     align-items: center;

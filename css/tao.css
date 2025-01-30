@@ -12,7 +12,7 @@ body.with-navbar {
 }
 
 .wrapper {
-    background-color: #1a1e1c !important;
+    background-color: #1a1e1c;
 }
 
 @media (min-width: 992px) {

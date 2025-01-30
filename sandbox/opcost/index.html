@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opportunity Cost Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .option {
+            background-color: #f5f5f5;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #e0f7fa;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        input[type="number"] {
+            width: 100%;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Opportunity Cost Calculator</h1>
+
+    <div style="background-color: #000; color: #fff; padding: 20px; margin: 20px 0; border-radius: 5px; font-style: italic; text-align: center;">
+        <p>"If you have the courage to make it through a lonely night with nothing but self-destructive thoughts to keep you company, darling, you have the courage to go through anything."</p>
+    </div>
+
+    <div class="option">
+        <h3>Option 1</h3>
+        <label for="option1Name">Name:</label>
+        <input type="text" id="option1Name" placeholder="Enter option 1 name">
+        <label for="option1Benefit">Expected Benefit ($):</label>
+        <input type="number" id="option1Benefit" placeholder="Enter expected benefit">
+        <label for="option1Cost">Cost ($):</label>
+        <input type="number" id="option1Cost" placeholder="Enter cost">
+    </div>
+
+    <div class="option">
+        <h3>Option 2</h3>
+        <label for="option2Name">Name:</label>
+        <input type="text" id="option2Name" placeholder="Enter option 2 name">
+        <label for="option2Benefit">Expected Benefit ($):</label>
+        <input type="number" id="option2Benefit" placeholder="Enter expected benefit">
+        <label for="option2Cost">Cost ($):</label>
+        <input type="number" id="option2Cost" placeholder="Enter cost">
+    </div>
+
+    <button onclick="calculateOpportunityCost()">Calculate Opportunity Cost</button>
+
+    <div id="result" class="result"></div>
+
+    <script>
+        function calculateOpportunityCost() {
+            // Get input values
+            const option1 = {
+                name: document.getElementById('option1Name').value || 'Option 1',
+                benefit: parseFloat(document.getElementById('option1Benefit').value) || 0,
+                cost: parseFloat(document.getElementById('option1Cost').value) || 0
+            };
+
+            const option2 = {
+                name: document.getElementById('option2Name').value || 'Option 2',
+                benefit: parseFloat(document.getElementById('option2Benefit').value) || 0,
+                cost: parseFloat(document.getElementById('option2Cost').value) || 0
+            };
+
+            // Calculate net benefits
+            const netBenefit1 = option1.benefit - option1.cost;
+            const netBenefit2 = option2.benefit - option2.cost;
+
+            // Determine better option and opportunity cost
+            let betterOption, opportunityCost;
+            if (netBenefit1 > netBenefit2) {
+                betterOption = option1;
+                opportunityCost = netBenefit2;
+            } else {
+                betterOption = option2;
+                opportunityCost = netBenefit1;
+            }
+
+            // Display results
+            const resultDiv = document.getElementById('result');
+            resultDiv.style.display = 'block';
+            resultDiv.innerHTML = `
+                <h3>Results:</h3>
+                <h4>Calculations Breakdown:</h4>
+                <p>${option1.name}:</p>
+                <ul>
+                    <li>Benefit: $${option1.benefit.toFixed(2)}</li>
+                    <li>Cost: $${option1.cost.toFixed(2)}</li>
+                    <li>Net Benefit: $${option1.benefit.toFixed(2)} - $${option1.cost.toFixed(2)} = $${netBenefit1.toFixed(2)}</li>
+                </ul>
+                <p>${option2.name}:</p>
+                <ul>
+                    <li>Benefit: $${option2.benefit.toFixed(2)}</li>
+                    <li>Cost: $${option2.cost.toFixed(2)}</li>
+                    <li>Net Benefit: $${option2.benefit.toFixed(2)} - $${option2.cost.toFixed(2)} = $${netBenefit2.toFixed(2)}</li>
+                </ul>
+                <h4>Final Analysis:</h4>
+                <p><strong>Better choice:</strong> ${betterOption.name} (Higher net benefit: $${Math.max(netBenefit1, netBenefit2).toFixed(2)})</p>
+                <p><strong>Opportunity cost:</strong> $${Math.abs(opportunityCost).toFixed(2)} (Net benefit of foregone option)</p>
+                <p><strong>Difference in net benefit:</strong> $${Math.abs(netBenefit1 - netBenefit2).toFixed(2)}</p>
+            `;
+        }
+    </script>
+</body>
+
+</html>
