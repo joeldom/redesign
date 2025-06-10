@@ -6804,7 +6804,7 @@ mark {
 }
 
 .toggle .quote-toggle {
-    color: #545454;
+    color: #adadad;
     outline: none;
     border: none;
     position: relative;
@@ -6861,7 +6861,7 @@ ul#cyclelist li,
 }
 
 .toggle:hover button i {
-    background: white;
+    /* background: white; */
     -moz-transition: all 1s;
     -o-transition: all 1s;
     -webkit-transition: all 1s;

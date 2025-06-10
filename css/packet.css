@@ -143,6 +143,11 @@
   padding: 2.3em 18px 1.3em 18px;
 } */
 
+div[class^="col-"]:hover:has(> .packet) {
+    z-index: 9;
+    /* z-index of 9 when the parent div is hovered */
+}
+
 .packet:hover {
     margin: 0 -12px;
 }
