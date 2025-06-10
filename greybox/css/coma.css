@@ -8120,6 +8120,8 @@ ul#cyclelist li,
     color: white;
     background-color: white-cool;
     font-size: 2em;
+    display: block;
+    border-bottom: none;
 }
 
 .footer-para #back-top a:hover {
