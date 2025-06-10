@@ -16,7 +16,7 @@
     <meta name="twitter:card" content="summary || summary_large_image || player || app" />
     <meta name="twitter:creator" content="@joeldombek" />
 
-    <title>SANDBOX 🔥</title>
+    <title>SANDBOX 🔥 redesign v3.6.25</title>
 
     <!--==============================================================================================================================
 
@@ -37,6 +37,7 @@
 
      =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,9 +54,10 @@
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
     <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
 
-    <link rel="stylesheet" href="../greybox/css/coma.css" />
-    <link rel="stylesheet" href="../css/tao.css" />
-    <link rel="stylesheet" href="../css/sandbox.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/greybox/css/coma.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/sandbox.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 
@@ -64,7 +66,7 @@
     <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
 </head>
 
-<body id="sandbox" class="parallax">
+<body id="sandbox" class="parallax light-mode">
     <div class="wrapper">
         <a id="top" class="anchor"></a>
         <!-- Nav Section sans container -->
@@ -395,7 +397,7 @@
                 <br class="gap" />
                 <figure class="quote">
                     <span class="h2" style="text-align: center;display: block;">
-                        Data Thread
+                        Projects
                     </span>
                 </figure>
                 <div id="term-container" class="strings" style="text-align: center;">Loading...</div>
@@ -410,20 +412,21 @@
         <div class="container">
             <div class="row">
                 <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                    <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-moon"></i></button>
                     <span id="back-top">
-                      <a href="#top">
-                        <svg focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#FFF" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" transform="rotate(-90)" class="inline">
-                          <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
-                        </svg>
-                      </a>
-                    </span>
+						<a href="#top">
+						  <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#FFF" aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" transform="rotate(-90)" class="inline">
+							<path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+						  </svg>
+						</a>
+					  </span>
                     <div class="row">
                         <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
                             <img src="https://joeldom.github.io/asset/chip-logo.png" style="width: auto;max-height:80px;" />
                         </a>
                         <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
                         <div class="col-xs-12 col-sm-6">
-                            <p>The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
+                            <p style="padding: 0 24px;">The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
                                     target="_blank">Resume</a>.</p>
                             <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
                                 <li><a href="https://joeldom.github.io/">Home</a></li>
@@ -439,38 +442,46 @@
                         </div>
                         <div class="col-xs-12 col-sm-4">
                             <div class="row">
-                                <div class="col-sm-4 col-xs-12">
+                                <div class="col-sm-4 col-xs-12 hidden-xs">
+                                    <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
                                     <ul class="list-unstyled">
+                                        <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
                                         <li>
-                                            <a href="https://www.instagram.com/joeld/" target="_blank"><span class="hidden-xs">About me</span></a>
+                                            <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">psychology</i><span class="hidden-xs"> About me</span></a>
                                         </li>
                                         <li>
-                                            <a href="https://joeldom.github.io/style-guide/" target="_blank"><span class="hidden-xs">Style&nbsp;Guide</span></a>
+                                            <a href="https://joeldom.github.io/style-guide/" target="_blank"><i class="material-icons">palette</i><span class="hidden-xs"> Style Guide</span></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><span class="hidden-xs">Linkedin</span></a>
+                                            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
                                         </li>
                                         <li>
-                                            <a href="https://joeldom.github.io/resume/"><span class="hidden-xs">Resume</span></a>
+                                            <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
                                         </li>
                                     </ul>
                                 </div>
                                 <div class="col-sm-4 col-xs-12 hidden-xs">
+                                    <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
                                     <ul class="list-unstyled">
+                                        <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
                                         <li>
-                                            <a href="https://www.instagram.com/joeld/" target="_blank"><span class="hidden-xs">Instagram</span></a>
+                                            <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">camera</i><span class="hidden-xs"> Instagram</span></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.twitch.tv/joeldombek" target="_blank"><span class="hidden-xs">TwitchTV</span></a>
+                                            <a href="https://twitter.com/joeldombek" target="_blank"><i class="fa fa-twitter"></i><span class="hidden-xs"> Twitter</span></a>
                                         </li>
                                         <li>
-                                            <a href="https://www.youtube.com/channel/UCc6vtfZ6Ln5i2ujRzisK_yA" target="_blank"><span class="hidden-xs">Youtube</span></a>
+                                            <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+                                        </li>
+                                        <li>
+                                            <a href="https://joeldom.github.io/resume/"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
                                         </li>
                                     </ul>
                                 </div>
+
                                 <div class="col-sm-4 col-xs-12">
                                     <p class="text-right">
-                                        JOEL<strong>DOMBEK</strong><br class="hidden-xs" /> <small> &copy;2024 <br class="hidden-sm"/>V7.11.30.24<br class="hidden-xs" /></small>
+                                        JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2025</small><small><br class="hidden-sm">V8.06.10.25<br class="hidden-xs"><span class="hidden-xs">©2025</span></small>
                                     </p>
                                     <br /><br /><br />
                                 </div>
@@ -483,8 +494,9 @@
     </div>
     <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
     <!-- <script src="../greybox/js/main.js"></script> -->
-    <script src="../js/sandbox.js"></script>
-    <script src="../js/keyShuffle.js"></script>
+    <script src="https://joeldom.github.io/redesign/js/sandbox.js"></script>
+    <script src="https://joeldom.github.io/redesign/js/keyShuffle.js"></script>
+    <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 
     <!-- BASE Google tag (gtag.js) -->
