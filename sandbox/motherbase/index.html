@@ -16,12 +16,11 @@
     <meta property="og:description" content="The resume of Joel Dombek, a multi-disciplinary designer : developer and brand specialist with a focus on user interaction and design." />
     <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-2025.png" />
     <title>MOTHERBASE 💿 MGSV Recruit Generator</title>
+
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
             background-color: #000;
             /* Pure black background */
             color: #E0E0E0;
@@ -31,6 +30,17 @@
             height: 100%;
             /* Full browser window height */
         }
+        
+        .rosterPane {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        
+        .omega {
+            position: fixed !important;
+        }
+        /* https://codepen.io/alvarotrigo/pen/ZEJqLzY */
         
         .firefly {
             position: absolute;
@@ -218,8 +228,27 @@
             /* Semi-transparent gray with 12% opacity */
             border-radius: 4px;
         }
+        /* sharp blue */
         
-        .recruit-info {
+        .recruit {
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            position: relative;
+            border: 1px solid #201e34;
+            background: #3b266b1f;
+            border-radius: 0px;
+        }
+        
+        .recruit span {
+            line-height: 1.5em;
+        }
+        
+        .recruit span:hover {
+            color: #FFF;
+            cursor: pointer;
+        }
+        
+        .recruit .recruit-info {
             margin: 5px 0;
             font-size: 16px;
             color: #E0E0E0;
@@ -304,213 +333,216 @@
 
 <body>
     <h1>MGSV Recruit Generator</h1>
-    <button onclick="generateAndDisplayRecruit()">Generate Recruit</button>
-    <div id="recruitOutput">
 
-        <!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/RxtIsA4S64k?autoplay=1&mute=1" title="Moonlit Wilderness -D.T.O. Mix- (Moonlit Wilderness)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    <button onclick="generateAndDisplayRecruit()">Generate</button>
+    <div class="rosterPane">
+        <audio autoplay="" controls="" loop="" style="width: 100%;" crossorigin="anonymous"><source src="https://joeldom.github.io/asset/audio/songs/AFX-215061.mp3" type="audio/mp3"></audio>
+        <div id="recruitOutput">
+
+            <!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/RxtIsA4S64k?autoplay=1&mute=1" title="Moonlit Wilderness -D.T.O. Mix- (Moonlit Wilderness)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
 
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/2eEuWXdaWic?autoplay=1&mute=1" title="Mother Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
-    </div>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/2eEuWXdaWic?autoplay=1&mute=1" title="Mother Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+        </div>
 
-    <script>
-        // Codename components
-        const prefixes = [
-            "Alive", "Armored", "Ashen", "Assassin", "Bastard", "Biting", "Bitter", "Blazing", "Bloody", "Blue",
-            "Brass", "Brutal", "Bullet", "Cannibal", "Charging", "Copper", "Crawling", "Creeping", "Crimson", "Crying",
-            "Cunning", "Dancing", "Dark", "Death", "Devil", "Dire", "Dizzy", "Doom", "Eagle", "Fire",
-            "Flaming", "Frantic", "Frigid", "Glacier", "Golden", "Greedy", "Gray", "Growling", "Hawk", "Hissing",
-            "Howling", "Hungry", "Hunting", "Husky", "Ice", "Iron", "Jade", "Jumping", "Killer", "Lonely",
-            "Mad", "Midnight", "Obsidian", "Ochre", "Onyx", "Panzer", "Pirate", "Pouncing", "Prowling", "Punching",
-            "Rabid", "Raging", "Rampant", "Rancid", "Raving", "Razor", "Roaring", "Rogue", "Running", "Sadistic",
-            "Seething", "Shining", "Silent", "Silver", "Sinister", "Sky", "Sly", "Smoking", "Spitting", "Spunky",
-            "Stalking", "Striker", "Stubborn", "Sunny", "Thunder", "Titanium", "Twilight", "Vampire", "Vengeful", "Vile",
-            "White", "Wild"
-        ];
-
-        const animals = [
-            "Adder", "Agama", "Badger", "Bat", "Bear", "Beetle", "Bison", "Boa", "Boar", "Buffalo",
-            "Bull", "Buzzard", "Cat", "Cheetah", "Cobra", "Coyote", "Crab", "Crow", "Dhole", "Dingo",
-            "Dragon", "Eagle", "Echidna", "Eel", "Elk", "Falcon", "Ferret", "Gazelle", "Gecko", "Gibbon",
-            "Goat", "Gopher", "Griffon", "Grizzly", "Harrier", "Hawk", "Heron", "Hippo", "Hog", "Hornet",
-            "Hound", "Husky", "Hyena", "Iguana", "Jackal", "Jaguar", "Koala", "Leopard", "Lion", "Lizard",
-            "Llama", "Lynx", "Macaw", "Mammoth", "Mantis", "Marlin", "Mastiff", "Mole", "Moose", "Moth",
-            "Mouse", "Orca", "Osprey", "Otter", "Owl", "Ox", "Panda", "Panther", "Phoenix", "Piranha",
-            "Python", "Raccoon", "Ram", "Raptor", "Raven", "Rhino", "Roach", "Rooster", "Serpent", "Shark",
-            "Sloth", "Slug", "Sparrow", "Spider", "Stallion", "Sturgeon", "Swan", "Tiger", "Tigress", "Turkey",
-            "Unicorn", "Viper", "Vulture", "Wallaby", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wombat",
-            "Worm", "Zebra"
-        ];
-
-        // Global lineage counter
-        let lineageIndex = 0;
-
-        // Grade mapping function with class assignment
-        function getGrade(statValue) {
-            const grades = [{
-                grade: "E",
-                class: "grade0"
-            }, {
-                grade: "D",
-                class: "grade1"
-            }, {
-                grade: "C",
-                class: "grade2"
-            }, {
-                grade: "B",
-                class: "grade3"
-            }, {
-                grade: "A",
-                class: "grade4"
-            }, {
-                grade: "A+",
-                class: "grade5"
-            }, {
-                grade: "A++",
-                class: "grade6"
-            }, {
-                grade: "S",
-                class: "grade7"
-            }, {
-                grade: "S+",
-                class: "grade8"
-            }, {
-                grade: "S++",
-                class: "grade9"
-            }];
-            return statValue >= 1 && statValue <= 10 ? grades[statValue - 1] : {
-                grade: "N/A",
-                class: ""
-            };
-        }
-
-        // Function 1: Generate stats
-        function generateStats() {
-            const stats = {
-                Combat: Math.floor(Math.random() * 10) + 1,
-                R_D: Math.floor(Math.random() * 10) + 1,
-                Base_Development: Math.floor(Math.random() * 10) + 1,
-                Support: Math.floor(Math.random() * 10) + 1,
-                Intel: Math.floor(Math.random() * 10) + 1,
-                Medical: Math.floor(Math.random() * 10) + 1
-            };
-
-            const grades = {
-                Combat: getGrade(stats.Combat),
-                R_D: getGrade(stats.R_D),
-                Base_Development: getGrade(stats.Base_Development),
-                Support: getGrade(stats.Support),
-                Intel: getGrade(stats.Intel),
-                Medical: getGrade(stats.Medical)
-            };
-
-            // Calculate overall rank
-            const statValues = [
-                stats.Combat,
-                stats.R_D,
-                stats.Base_Development,
-                stats.Support,
-                stats.Intel,
-                stats.Medical
+        <script>
+            // Codename components
+            const prefixes = [
+                "Alive", "Armored", "Ashen", "Assassin", "Bastard", "Biting", "Bitter", "Blazing", "Bloody", "Blue",
+                "Brass", "Brutal", "Bullet", "Cannibal", "Charging", "Copper", "Crawling", "Creeping", "Crimson", "Crying",
+                "Cunning", "Dancing", "Dark", "Death", "Devil", "Dire", "Dizzy", "Doom", "Eagle", "Fire",
+                "Flaming", "Frantic", "Frigid", "Glacier", "Golden", "Greedy", "Gray", "Growling", "Hawk", "Hissing",
+                "Howling", "Hungry", "Hunting", "Husky", "Ice", "Iron", "Jade", "Jumping", "Killer", "Lonely",
+                "Mad", "Midnight", "Obsidian", "Ochre", "Onyx", "Panzer", "Pirate", "Pouncing", "Prowling", "Punching",
+                "Rabid", "Raging", "Rampant", "Rancid", "Raving", "Razor", "Roaring", "Rogue", "Running", "Sadistic",
+                "Seething", "Shining", "Silent", "Silver", "Sinister", "Sky", "Sly", "Smoking", "Spitting", "Spunky",
+                "Stalking", "Striker", "Stubborn", "Sunny", "Thunder", "Titanium", "Twilight", "Vampire", "Vengeful", "Vile",
+                "White", "Wild"
             ];
-            const averageValue = Math.round(statValues.reduce((sum, val) => sum + val, 0) / 6);
-            const overallRank = getGrade(averageValue);
 
-            return {
-                stats,
-                grades,
-                overallRank: {
-                    value: averageValue,
-                    grade: overallRank.grade,
-                    class: overallRank.class
-                }
-            };
-        }
-
-        // Function 2: Assign codename based on stats
-        function assignCodename(stats) {
-            const statValues = [
-                stats.Combat,
-                stats.R_D,
-                stats.Base_Development,
-                stats.Support,
-                stats.Intel,
-                stats.Medical
+            const animals = [
+                "Adder", "Agama", "Badger", "Bat", "Bear", "Beetle", "Bison", "Boa", "Boar", "Buffalo",
+                "Bull", "Buzzard", "Cat", "Cheetah", "Cobra", "Coyote", "Crab", "Crow", "Dhole", "Dingo",
+                "Dragon", "Eagle", "Echidna", "Eel", "Elk", "Falcon", "Ferret", "Gazelle", "Gecko", "Gibbon",
+                "Goat", "Gopher", "Griffon", "Grizzly", "Harrier", "Hawk", "Heron", "Hippo", "Hog", "Hornet",
+                "Hound", "Husky", "Hyena", "Iguana", "Jackal", "Jaguar", "Koala", "Leopard", "Lion", "Lizard",
+                "Llama", "Lynx", "Macaw", "Mammoth", "Mantis", "Marlin", "Mastiff", "Mole", "Moose", "Moth",
+                "Mouse", "Orca", "Osprey", "Otter", "Owl", "Ox", "Panda", "Panther", "Phoenix", "Piranha",
+                "Python", "Raccoon", "Ram", "Raptor", "Raven", "Rhino", "Roach", "Rooster", "Serpent", "Shark",
+                "Sloth", "Slug", "Sparrow", "Spider", "Stallion", "Sturgeon", "Swan", "Tiger", "Tigress", "Turkey",
+                "Unicorn", "Viper", "Vulture", "Wallaby", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wombat",
+                "Worm", "Zebra"
             ];
-            // Combine stats with weights for varied codename selection
-            const hash = statValues.reduce((acc, val, idx) => acc + val * (idx + 1), 0);
-            const prefixIndex = hash % prefixes.length; // 0-91
-            const animalIndex = (hash * 17) % animals.length; // 0-101, multiplier for variation
 
-            const prefix = prefixes[prefixIndex];
-            const animal = animals[animalIndex];
+            // Global lineage counter
+            let lineageIndex = 0;
 
-            return {
-                name: `${prefix} ${animal}`,
-                prefixIndex: prefixIndex,
-                animalIndex: animalIndex,
-                uniqueIndex: prefixIndex * animals.length + animalIndex
-            };
-        }
+            // Grade mapping function with class assignment
+            function getGrade(statValue) {
+                const grades = [{
+                    grade: "E",
+                    class: "grade0"
+                }, {
+                    grade: "D",
+                    class: "grade1"
+                }, {
+                    grade: "C",
+                    class: "grade2"
+                }, {
+                    grade: "B",
+                    class: "grade3"
+                }, {
+                    grade: "A",
+                    class: "grade4"
+                }, {
+                    grade: "A+",
+                    class: "grade5"
+                }, {
+                    grade: "A++",
+                    class: "grade6"
+                }, {
+                    grade: "S",
+                    class: "grade7"
+                }, {
+                    grade: "S+",
+                    class: "grade8"
+                }, {
+                    grade: "S++",
+                    class: "grade9"
+                }];
+                return statValue >= 1 && statValue <= 10 ? grades[statValue - 1] : {
+                    grade: "N/A",
+                    class: ""
+                };
+            }
 
-        // Function 3: Generate recruit
-        function generateRecruit() {
-            // Step 1: Generate stats
-            const {
-                stats,
-                grades,
-                overallRank
-            } = generateStats();
+            // Function 1: Generate stats
+            function generateStats() {
+                const stats = {
+                    Combat: Math.floor(Math.random() * 10) + 1,
+                    R_D: Math.floor(Math.random() * 10) + 1,
+                    Base_Development: Math.floor(Math.random() * 10) + 1,
+                    Support: Math.floor(Math.random() * 10) + 1,
+                    Intel: Math.floor(Math.random() * 10) + 1,
+                    Medical: Math.floor(Math.random() * 10) + 1
+                };
 
-            // Step 2: Assign codename based on stats
-            const codename = assignCodename(stats);
+                const grades = {
+                    Combat: getGrade(stats.Combat),
+                    R_D: getGrade(stats.R_D),
+                    Base_Development: getGrade(stats.Base_Development),
+                    Support: getGrade(stats.Support),
+                    Intel: getGrade(stats.Intel),
+                    Medical: getGrade(stats.Medical)
+                };
 
-            // Step 3: Assign lineage index
-            const recruit = {
-                codename: codename.name,
-                codenameIndices: {
-                    prefixIndex: codename.prefixIndex,
-                    animalIndex: codename.animalIndex,
-                    uniqueIndex: codename.uniqueIndex
-                },
-                stats: stats,
-                grades: grades,
-                overallRank: overallRank,
-                lineageIndex: lineageIndex++
-            };
+                // Calculate overall rank
+                const statValues = [
+                    stats.Combat,
+                    stats.R_D,
+                    stats.Base_Development,
+                    stats.Support,
+                    stats.Intel,
+                    stats.Medical
+                ];
+                const averageValue = Math.round(statValues.reduce((sum, val) => sum + val, 0) / 6);
+                const overallRank = getGrade(averageValue);
 
-            return recruit;
-        }
+                return {
+                    stats,
+                    grades,
+                    overallRank: {
+                        value: averageValue,
+                        grade: overallRank.grade,
+                        class: overallRank.class
+                    }
+                };
+            }
 
-        // Display and log recruit
-        function generateAndDisplayRecruit() {
-            const recruit = generateRecruit();
-            const outputDiv = document.getElementById('recruitOutput');
+            // Function 2: Assign codename based on stats
+            function assignCodename(stats) {
+                const statValues = [
+                    stats.Combat,
+                    stats.R_D,
+                    stats.Base_Development,
+                    stats.Support,
+                    stats.Intel,
+                    stats.Medical
+                ];
+                // Combine stats with weights for varied codename selection
+                const hash = statValues.reduce((acc, val, idx) => acc + val * (idx + 1), 0);
+                const prefixIndex = hash % prefixes.length; // 0-91
+                const animalIndex = (hash * 17) % animals.length; // 0-101, multiplier for variation
 
-            // Create a new div for the recruit
-            const recruitDiv = document.createElement('div');
-            recruitDiv.className = 'recruit';
-            recruitDiv.innerHTML = `
-        <div class="recruit-info"><strong>Codename:</strong> ${recruit.codename}</div>
-        <div class="stat"><strong>Combat:</strong> <span class="${recruit.grades.Combat.class}">${recruit.grades.Combat.grade}</span> (${recruit.stats.Combat})</div>
-        <div class="stat"><strong>R&D:</strong> <span class="${recruit.grades.R_D.class}">${recruit.grades.R_D.grade}</span> (${recruit.stats.R_D})</div>
-        <div class="stat"><strong>Base Development:</strong> <span class="${recruit.grades.Base_Development.class}">${recruit.grades.Base_Development.grade}</span> (${recruit.stats.Base_Development})</div>
-        <div class="stat"><strong>Support:</strong> <span class="${recruit.grades.Support.class}">${recruit.grades.Support.grade}</span> (${recruit.stats.Support})</div>
-        <div class="stat"><strong>Intel:</strong> <span class="${recruit.grades.Intel.class}">${recruit.grades.Intel.grade}</span> (${recruit.stats.Intel})</div>
-        <div class="stat"><strong>Medical:</strong> <span class="${recruit.grades.Medical.class}">${recruit.grades.Medical.grade}</span> (${recruit.stats.Medical})</div>
-        <div class="stat rank"><strong>Overall Rank:</strong> <span class="${recruit.overallRank.class}">${recruit.overallRank.grade}</span> (${recruit.overallRank.value})</div>
-        <div class="indices"><strong>Codename Indices:</strong> Prefix=${recruit.codenameIndices.prefixIndex}, Animal=${recruit.codenameIndices.animalIndex}, Unique=${recruit.codenameIndices.uniqueIndex}</div>
-        <div class="lineage"><strong>Lineage Index:</strong> ${recruit.lineageIndex}</div>
+                const prefix = prefixes[prefixIndex];
+                const animal = animals[animalIndex];
+
+                return {
+                    name: `${prefix} ${animal}`,
+                    prefixIndex: prefixIndex,
+                    animalIndex: animalIndex,
+                    uniqueIndex: prefixIndex * animals.length + animalIndex
+                };
+            }
+
+            // Function 3: Generate recruit
+            function generateRecruit() {
+                // Step 1: Generate stats
+                const {
+                    stats,
+                    grades,
+                    overallRank
+                } = generateStats();
+
+                // Step 2: Assign codename based on stats
+                const codename = assignCodename(stats);
+
+                // Step 3: Assign lineage index
+                const recruit = {
+                    codename: codename.name,
+                    codenameIndices: {
+                        prefixIndex: codename.prefixIndex,
+                        animalIndex: codename.animalIndex,
+                        uniqueIndex: codename.uniqueIndex
+                    },
+                    stats: stats,
+                    grades: grades,
+                    overallRank: overallRank,
+                    lineageIndex: lineageIndex++
+                };
+
+                return recruit;
+            }
+
+            // Display and log recruit
+            function generateAndDisplayRecruit() {
+                const recruit = generateRecruit();
+                const outputDiv = document.getElementById('recruitOutput');
+
+                // Create a new div for the recruit
+                const recruitDiv = document.createElement('div');
+                recruitDiv.className = 'recruit';
+                recruitDiv.innerHTML = `
+        <div class="recruit-info"><strong><span title="id: ${recruit.lineageIndex} prefix: ${recruit.codenameIndices.prefixIndex} animal: ${recruit.codenameIndices.animalIndex} key: ${recruit.codenameIndices.uniqueIndex}">${recruit.codename}</span></strong></div>
+        <div class="stat">Combat: <strong><span class="${recruit.grades.Combat.class}" title="${recruit.stats.Combat}">${recruit.grades.Combat.grade}</span></strong></div>
+        <div class="stat">R&D:<strong> <span class="${recruit.grades.R_D.class}" title="${recruit.stats.R_D}">${recruit.grades.R_D.grade}</span></strong></div>
+        <div class="stat">Development:<strong> <span class="${recruit.grades.Base_Development.class}" title="${recruit.stats.Base_Development}">${recruit.grades.Base_Development.grade}</span></strong></div>
+        <div class="stat">Support:<strong> <span class="${recruit.grades.Support.class}" title="${recruit.stats.Support}">${recruit.grades.Support.grade}</span></strong></div>
+        <div class="stat">Intel:<strong> <span class="${recruit.grades.Intel.class}" title="${recruit.stats.Intel}">${recruit.grades.Intel.grade}</span></strong></div>
+        <div class="stat">Medical:<strong> <span class="${recruit.grades.Medical.class}" title="${recruit.stats.Medical}">${recruit.grades.Medical.grade}</span></strong></div>
+        <div class="stat rank"><small>Overall</small><strong> <span class="${recruit.overallRank.class}" title="${recruit.overallRank.value}">${recruit.overallRank.grade}</span></strong></div>
       `;
 
-            // Append to output div (newest recruit at the top)
-            outputDiv.insertBefore(recruitDiv, outputDiv.firstChild);
+                // Append to output div (newest recruit at the top)
+                outputDiv.insertBefore(recruitDiv, outputDiv.firstChild);
 
-            // Log full recruit object to console
-            console.log(recruit);
-        }
-    </script>
+                // Log full recruit object to console
+                console.log(recruit);
+            }
+        </script>
+    </div>
+    <!-- rosterPane -->
     <div class="firefly"></div>
     <div class="firefly"></div>
     <div class="firefly"></div>
@@ -526,6 +558,7 @@
     <div class="firefly"></div>
     <div class="firefly"></div>
     <div class="firefly"></div>
+    <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © X.X.MMXXIV <a href="https://joeldom.github.io/redesign/sandbox/#login">v1</a></p>
 </body>
 
 </html>
