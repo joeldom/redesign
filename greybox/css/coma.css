@@ -9699,6 +9699,11 @@ BRANDBLUE STYLIng FOR EVERYTHING
     border-radius: 0px;
 }
 
+a .read-more,
+a .see-more {
+    border-bottom: none;
+}
+
 .palette-brandblue {
     color: #1a3acc;
     background-color: #f5f5f5;
