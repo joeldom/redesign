@@ -132,17 +132,18 @@ body.dark-mode #chat-prompt.palette-darkolive {
 #user-input {
     width: 100%;
     padding: 10px 20px;
-    border: 2px solid #2d2d2d;
+    border: 1px solid #2d2d2d;
     font-size: 16px;
     border-radius: var(--radius);
     background-color: #1a1a1a;
     color: white;
     padding: 12px 28px;
+    transition: all .2s;
 }
 
 #user-input:focus {
     outline: none;
-    border-color: #848484;
+    border-color: #7f7cf9;
 }
 
 
@@ -178,7 +179,7 @@ body.dark-mode #chat-prompt.palette-darkolive {
 }
 
 .user-message {
-    color: #333;
+    /* color: #333; */
     font-size: 16px;
     margin: 0;
 }

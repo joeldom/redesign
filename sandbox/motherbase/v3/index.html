@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>MOTHERBASE 💿 MGSV Recruit Generator</title>
+
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #E0E0E0;
+            overflow-x: hidden;
+            height: 100%;
+        }
+        
+        .split-layout {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        
+        #leftPanel {
+            width: 50%;
+            background-color: #1a1a1a;
+            padding: 10px;
+            border: 1px solid #333;
+            border-radius: 8px;
+        }
+        
+        #rightPanel {
+            width: 50%;
+        }
+        
+        button {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: rgb(22, 24, 28);
+            color: white;
+            border: 1px solid rgb(42, 45, 48);
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #4f0909;
+            border-color: #8a1111;
+        }
+        
+        .rosterPane {
+            margin-top: 20px;
+        }
+        
+        .recruit {
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            border: 1px solid #201e34;
+            background: #3b266b1f;
+        }
+        
+        canvas {
+            background-color: #2a2a2a;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MGSV Recruit Generator</h1>
+
+    <div style="text-align: center;">
+        <button onclick="generateAndDisplayRecruit()">Generate Recruit</button>
+        <button onclick="rollDiceMenu()">🎲 Roll Dice</button>
+    </div>
+
+    <div class="split-layout">
+        <div id="leftPanel">
+            <h2>Stat Summary</h2>
+            <div id="statTotals">
+                <p>Combat: 0</p>
+                <p>R&D: 0</p>
+                <p>Development: 0</p>
+                <p>Support: 0</p>
+                <p>Intel: 0</p>
+                <p>Medical: 0</p>
+                <p><strong>Total Recruits: 0</strong></p>
+            </div>
+            <canvas id="statsChart" width="300" height="200"></canvas>
+        </div>
+
+        <div id="rightPanel">
+            <div id="recruitOutput"></div>
+        </div>
+    </div>
+
+    <script>
+        const prefixes = [
+            "Alive", "Armored", "Ashen", "Assassin", "Bastard", "Biting", "Bitter", "Blazing", "Bloody", "Blue",
+            "Brass", "Brutal", "Bullet", "Cannibal", "Charging", "Copper", "Crawling", "Creeping", "Crimson", "Crying",
+            "Cunning", "Dancing", "Dark", "Death", "Devil", "Dire", "Dizzy", "Doom", "Eagle", "Fire",
+            "Flaming", "Frantic", "Frigid", "Glacier", "Golden", "Greedy", "Gray", "Growling", "Hawk", "Hissing",
+            "Howling", "Hungry", "Hunting", "Husky", "Ice", "Iron", "Jade", "Jumping", "Killer", "Lonely",
+            "Mad", "Midnight", "Obsidian", "Ochre", "Onyx", "Panzer", "Pirate", "Pouncing", "Prowling", "Punching",
+            "Rabid", "Raging", "Rampant", "Rancid", "Raving", "Razor", "Roaring", "Rogue", "Running", "Sadistic",
+            "Seething", "Shining", "Silent", "Silver", "Sinister", "Sky", "Sly", "Smoking", "Spitting", "Spunky",
+            "Stalking", "Striker", "Stubborn", "Sunny", "Thunder", "Titanium", "Twilight", "Vampire", "Vengeful", "Vile",
+            "White", "Wild"
+        ];
+
+        const animals = [
+            "Adder", "Agama", "Badger", "Bat", "Bear", "Beetle", "Bison", "Boa", "Boar", "Buffalo",
+            "Bull", "Buzzard", "Cat", "Cheetah", "Cobra", "Coyote", "Crab", "Crow", "Dhole", "Dingo",
+            "Dragon", "Eagle", "Echidna", "Eel", "Elk", "Falcon", "Ferret", "Gazelle", "Gecko", "Gibbon",
+            "Goat", "Gopher", "Griffon", "Grizzly", "Harrier", "Hawk", "Heron", "Hippo", "Hog", "Hornet",
+            "Hound", "Husky", "Hyena", "Iguana", "Jackal", "Jaguar", "Koala", "Leopard", "Lion", "Lizard",
+            "Llama", "Lynx", "Macaw", "Mammoth", "Mantis", "Marlin", "Mastiff", "Mole", "Moose", "Moth",
+            "Mouse", "Orca", "Osprey", "Otter", "Owl", "Ox", "Panda", "Panther", "Phoenix", "Piranha",
+            "Python", "Raccoon", "Ram", "Raptor", "Raven", "Rhino", "Roach", "Rooster", "Serpent", "Shark",
+            "Sloth", "Slug", "Sparrow", "Spider", "Stallion", "Sturgeon", "Swan", "Tiger", "Tigress", "Turkey",
+            "Unicorn", "Viper", "Vulture", "Wallaby", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wombat",
+            "Worm", "Zebra"
+        ];
+
+        const statTotals = {
+            Combat: 0,
+            R_D: 0,
+            Base_Development: 0,
+            Support: 0,
+            Intel: 0,
+            Medical: 0
+        };
+        let totalRecruits = 0;
+        let statsChart;
+        let lineageIndex = 0;
+
+        function initChart() {
+            const ctx = document.getElementById('statsChart').getContext('2d');
+            statsChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: ['Combat', 'R&D', 'Development', 'Support', 'Intel', 'Medical'],
+                    datasets: [{
+                        label: 'Total Stat Values',
+                        data: [0, 0, 0, 0, 0, 0],
+                        backgroundColor: '#3C89FF'
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateChart() {
+            statsChart.data.datasets[0].data = [
+                statTotals.Combat,
+                statTotals.R_D,
+                statTotals.Base_Development,
+                statTotals.Support,
+                statTotals.Intel,
+                statTotals.Medical
+            ];
+            statsChart.update();
+        }
+
+        function renderStatTotals() {
+            const statTotalsDiv = document.getElementById('statTotals');
+            statTotalsDiv.innerHTML = `
+                <p>Combat: ${statTotals.Combat}</p>
+                <p>R&D: ${statTotals.R_D}</p>
+                <p>Development: ${statTotals.Base_Development}</p>
+                <p>Support: ${statTotals.Support}</p>
+                <p>Intel: ${statTotals.Intel}</p>
+                <p>Medical: ${statTotals.Medical}</p>
+                <p><strong>Total Recruits: ${totalRecruits}</strong></p>
+            `;
+        }
+
+        function getGrade(statValue) {
+            const grades = ['E', 'D', 'C', 'B', 'A', 'A+', 'A++', 'S', 'S+', 'S++'];
+            const classes = ['grade0', 'grade1', 'grade2', 'grade3', 'grade4', 'grade5', 'grade6', 'grade7', 'grade8', 'grade9'];
+            const index = Math.max(0, Math.min(statValue - 1, 9));
+            return {
+                grade: grades[index],
+                className: classes[index]
+            };
+        }
+
+        function generateStats() {
+            return {
+                Combat: Math.floor(Math.random() * 10) + 1,
+                R_D: Math.floor(Math.random() * 10) + 1,
+                Base_Development: Math.floor(Math.random() * 10) + 1,
+                Support: Math.floor(Math.random() * 10) + 1,
+                Intel: Math.floor(Math.random() * 10) + 1,
+                Medical: Math.floor(Math.random() * 10) + 1
+            };
+        }
+
+        function generateCodename() {
+            const prefixIndex = Math.floor(Math.random() * prefixes.length);
+            const animalIndex = Math.floor(Math.random() * animals.length);
+            const prefix = prefixes[prefixIndex];
+            const animal = animals[animalIndex];
+            return {
+                name: `${prefix} ${animal}`,
+                prefixIndex,
+                animalIndex,
+                uniqueIndex: prefixIndex * animals.length + animalIndex
+            };
+        }
+
+        function generateAndDisplayRecruit() {
+            const stats = generateStats();
+            const codename = generateCodename();
+            const outputDiv = document.getElementById('recruitOutput');
+
+            const recruitDiv = document.createElement('div');
+            recruitDiv.className = 'recruit';
+            recruitDiv.innerHTML = `
+                <div><strong><span title="id: ${lineageIndex} prefix: ${codename.prefixIndex} animal: ${codename.animalIndex} key: ${codename.uniqueIndex}">${codename.name}</span></strong></div>
+                <div>Combat: <span class="${getGrade(stats.Combat).className}" title="${stats.Combat}">${getGrade(stats.Combat).grade}</span></div>
+                <div>R&D: <span class="${getGrade(stats.R_D).className}" title="${stats.R_D}">${getGrade(stats.R_D).grade}</span></div>
+                <div>Development: <span class="${getGrade(stats.Base_Development).className}" title="${stats.Base_Development}">${getGrade(stats.Base_Development).grade}</span></div>
+                <div>Support: <span class="${getGrade(stats.Support).className}" title="${stats.Support}">${getGrade(stats.Support).grade}</span></div>
+                <div>Intel: <span class="${getGrade(stats.Intel).className}" title="${stats.Intel}">${getGrade(stats.Intel).grade}</span></div>
+                <div>Medical: <span class="${getGrade(stats.Medical).className}" title="${stats.Medical}">${getGrade(stats.Medical).grade}</span></div>
+            `;
+            outputDiv.insertBefore(recruitDiv, outputDiv.firstChild);
+
+            for (const stat in stats) {
+                statTotals[stat] += stats[stat];
+            }
+            totalRecruits++;
+            lineageIndex++;
+            renderStatTotals();
+            updateChart();
+        }
+
+        function rollDiceMenu() {
+            const sides = prompt("Enter dice sides (6, 10, 21):");
+            const diceSides = parseInt(sides);
+            if (![6, 10, 21].includes(diceSides)) {
+                alert("Invalid dice. Choose 6, 10, or 21.");
+                return;
+            }
+            rollDice(diceSides);
+        }
+
+        function rollDice(sides) {
+            const playerRoll = Math.floor(Math.random() * sides) + 1;
+            const aiRoll = Math.floor(Math.random() * sides) + 1;
+            let recruitChange = 0;
+
+            if (playerRoll > aiRoll) {
+                recruitChange = sides;
+                alert(`🎲 You rolled ${playerRoll}, AI rolled ${aiRoll}. You win +${sides} recruits!`);
+            } else if (playerRoll < aiRoll) {
+                recruitChange = -sides;
+                alert(`🎲 You rolled ${playerRoll}, AI rolled ${aiRoll}. You lose ${sides} recruits.`);
+            } else {
+                alert(`🎲 Tie! You rolled ${playerRoll}, AI rolled ${aiRoll}. No change.`);
+            }
+
+            totalRecruits += recruitChange;
+            renderStatTotals();
+            updateChart();
+        }
+
+        window.onload = initChart;
+    </script>
+</body>
+
+</html>

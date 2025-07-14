@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta property="og:title" content="MOTHERBASE 💿 MGSV Recruit Generator" />
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/8/8f/Metal_Gear_Solid_V_The_Phantom_Pain_cover.png" />
+    <meta property="og:description" content="Generate MGSV-style recruits with stats and codenames." />
+    <meta name="twitter:card" content="summary || summary_large_image || player || app" />
+    <meta name="twitter:creator" content="@joeldombek" />
+    <link rel='shortlink' href='http://www.joeldombek.com/' />
+    <meta property="og:url" content="https://joeldom.github.io/redesign/sandbox/motherbase/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="MOTHERBASE 💿 MGSV Recruit Generator" />
+    <meta property="og:description" content="The resume of Joel Dombek, a multi-disciplinary designer : developer and brand specialist with a focus on user interaction and design." />
+    <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-2025.png" />
+    <title>MOTHERBASE 💿 MGSV Recruit Generator</title>
+
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            /* Pure black background */
+            color: #E0E0E0;
+            /* Light gray text for readability */
+            overflow-x: hidden;
+            /* Prevent orbs from escaping the viewport */
+            height: 100%;
+            /* Full browser window height */
+        }
+        
+        .rosterPane {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        
+        .omega {
+            position: fixed !important;
+        }
+        /* https://codepen.io/alvarotrigo/pen/ZEJqLzY */
+        
+        .firefly {
+            position: absolute;
+            background: radial-gradient(circle, #6cd2dc 10%, transparent 70%);
+            border-radius: 50%;
+            animation: floatAndFade 8s infinite ease-in-out;
+        }
+        
+        .firefly:nth-child(1) {
+            width: 10px;
+            height: 10px;
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
+        
+        .firefly:nth-child(2) {
+            width: 10px;
+            height: 10px;
+            top: 70%;
+            left: 80%;
+            animation-delay: 2s;
+        }
+        
+        .firefly:nth-child(3) {
+            width: 8px;
+            height: 8px;
+            top: 30%;
+            left: 30%;
+            animation-delay: 1s;
+        }
+        
+        .firefly:nth-child(4) {
+            width: 8px;
+            height: 8px;
+            top: 50%;
+            left: 20%;
+            animation-delay: 3s;
+        }
+        
+        .firefly:nth-child(5) {
+            width: 8px;
+            height: 8px;
+            top: 10%;
+            left: 60%;
+            animation-delay: 0.5s;
+        }
+        
+        .firefly:nth-child(6) {
+            width: 8px;
+            height: 8px;
+            top: 80%;
+            left: 40%;
+            animation-delay: 4s;
+        }
+        
+        .firefly:nth-child(7) {
+            width: 8px;
+            height: 8px;
+            top: 40%;
+            left: 70%;
+            animation-delay: 1.5s;
+        }
+        
+        .firefly:nth-child(8) {
+            width: 8px;
+            height: 8px;
+            top: 60%;
+            left: 15%;
+            animation-delay: 2.5s;
+        }
+        
+        .firefly:nth-child(9) {
+            width: 8px;
+            height: 8px;
+            top: 20%;
+            left: 85%;
+            animation-delay: 0.8s;
+        }
+        
+        .firefly:nth-child(10) {
+            width: 8px;
+            height: 8px;
+            top: 90%;
+            left: 50%;
+            animation-delay: 3.5s;
+        }
+        
+        .firefly:nth-child(11) {
+            width: 9px;
+            height: 9px;
+            top: 25%;
+            left: 45%;
+            animation-delay: 1.2s;
+        }
+        
+        .firefly:nth-child(12) {
+            width: 8px;
+            height: 8px;
+            top: 65%;
+            left: 25%;
+            animation-delay: 3.2s;
+        }
+        
+        .firefly:nth-child(13) {
+            width: 10px;
+            height: 10px;
+            top: 15%;
+            left: 75%;
+            animation-delay: 0.7s;
+        }
+        
+        .firefly:nth-child(14) {
+            width: 9px;
+            height: 9px;
+            top: 85%;
+            left: 30%;
+            animation-delay: 4.2s;
+        }
+        
+        .firefly:nth-child(15) {
+            width: 8px;
+            height: 8px;
+            top: 45%;
+            left: 90%;
+            animation-delay: 2.0s;
+        }
+        
+        @keyframes floatAndFade {
+            0% {
+                opacity: 0;
+                transform: translate(0, 0) scale(0.5);
+            }
+            20% {
+                opacity: 1;
+            }
+            80% {
+                opacity: 1;
+                transform: translate(100px, -100px) scale(1.2) rotate(360deg);
+            }
+            100% {
+                opacity: 0;
+                transform: translate(200px, -200px) scale(0.5) rotate(720deg);
+            }
+        }
+        
+        h1 {
+            text-align: center;
+            color: #E0E0E0;
+            /* Light gray for header */
+        }
+        
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: rgb(22, 24, 28);
+            color: white;
+            border-style: solid;
+            border-width: 1px;
+            border-radius: 5px;
+            border-color: rgb(42, 45, 48);
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #4f0909;
+            border-color: #8a1111;
+        }
+        /* Removed #recruitOutput styling */
+        /* #recruitOutput {
+      background-color: #2A2F31;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    } */
+        
+        .recruit {
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            position: relative;
+            border: 1px solid #333;
+            background: #6a6a6a1f;
+            /* Semi-transparent gray with 12% opacity */
+            border-radius: 4px;
+        }
+        /* sharp blue */
+        
+        .recruit {
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            position: relative;
+            border: 1px solid #201e34;
+            background: #3b266b1f;
+            border-radius: 0px;
+        }
+        
+        .recruit span {
+            line-height: 1.5em;
+        }
+        
+        .recruit span:hover {
+            color: #FFF;
+            cursor: pointer;
+        }
+        
+        .recruit .recruit-info {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #E0E0E0;
+        }
+        
+        .stat,
+        .indices,
+        .lineage {
+            margin: 5px 0;
+            font-size: 14px;
+            color: #B0B0B0;
+            /* Slightly darker text for details */
+        }
+        /* Grade classes with specified colors */
+        
+        .grade0 {
+            color: #FFFFFF;
+        }
+        /* E - White */
+        
+        .grade1 {
+            color: #ADE0FF;
+        }
+        /* D - Light Blue */
+        
+        .grade2 {
+            color: #6EA7FE;
+        }
+        /* C - Medium Blue */
+        
+        .grade3 {
+            color: #3C89FF;
+        }
+        /* B - Blue */
+        
+        .grade4 {
+            color: #D2FF3C;
+        }
+        /* A - Lime Green */
+        
+        .grade5 {
+            color: #FFF93C;
+        }
+        /* A+ - Yellow */
+        
+        .grade6 {
+            color: #FFC527;
+        }
+        /* A++ - Orange-Yellow */
+        
+        .grade7 {
+            color: #FF8A15;
+        }
+        /* S - Orange */
+        
+        .grade8 {
+            color: #FF6200;
+        }
+        /* S+ - Deep Orange */
+        
+        .grade9 {
+            color: #AE00FF;
+        }
+        /* S++ - Purple */
+        /* Style for rank grade spans using wildcard */
+        
+        .rank [class*="grade"] {
+            display: block;
+            font-size: 2em;
+            text-align: right;
+        }
+        /* Position and style for rank stat */
+        
+        .rank {
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>MGSV Recruit Generator</h1>
+
+    <button onclick="generateAndDisplayRecruit()">Generate</button>
+    <div class="rosterPane">
+        <audio autoplay="" controls="" loop="" style="width: 100%;" crossorigin="anonymous"><source src="https://joeldom.github.io/asset/audio/songs/AFX-215061.mp3" type="audio/mp3"></audio>
+        <div id="recruitOutput">
+
+            <!-- <iframe width="100%" height="400" src="https://www.youtube.com/embed/RxtIsA4S64k?autoplay=1&mute=1" title="Moonlit Wilderness -D.T.O. Mix- (Moonlit Wilderness)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/2eEuWXdaWic?autoplay=1&mute=1" title="Mother Base" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+        </div>
+
+        <script>
+            // Codename components
+            const prefixes = [
+                "Alive", "Armored", "Ashen", "Assassin", "Bastard", "Biting", "Bitter", "Blazing", "Bloody", "Blue",
+                "Brass", "Brutal", "Bullet", "Cannibal", "Charging", "Copper", "Crawling", "Creeping", "Crimson", "Crying",
+                "Cunning", "Dancing", "Dark", "Death", "Devil", "Dire", "Dizzy", "Doom", "Eagle", "Fire",
+                "Flaming", "Frantic", "Frigid", "Glacier", "Golden", "Greedy", "Gray", "Growling", "Hawk", "Hissing",
+                "Howling", "Hungry", "Hunting", "Husky", "Ice", "Iron", "Jade", "Jumping", "Killer", "Lonely",
+                "Mad", "Midnight", "Obsidian", "Ochre", "Onyx", "Panzer", "Pirate", "Pouncing", "Prowling", "Punching",
+                "Rabid", "Raging", "Rampant", "Rancid", "Raving", "Razor", "Roaring", "Rogue", "Running", "Sadistic",
+                "Seething", "Shining", "Silent", "Silver", "Sinister", "Sky", "Sly", "Smoking", "Spitting", "Spunky",
+                "Stalking", "Striker", "Stubborn", "Sunny", "Thunder", "Titanium", "Twilight", "Vampire", "Vengeful", "Vile",
+                "White", "Wild"
+            ];
+
+            const animals = [
+                "Adder", "Agama", "Badger", "Bat", "Bear", "Beetle", "Bison", "Boa", "Boar", "Buffalo",
+                "Bull", "Buzzard", "Cat", "Cheetah", "Cobra", "Coyote", "Crab", "Crow", "Dhole", "Dingo",
+                "Dragon", "Eagle", "Echidna", "Eel", "Elk", "Falcon", "Ferret", "Gazelle", "Gecko", "Gibbon",
+                "Goat", "Gopher", "Griffon", "Grizzly", "Harrier", "Hawk", "Heron", "Hippo", "Hog", "Hornet",
+                "Hound", "Husky", "Hyena", "Iguana", "Jackal", "Jaguar", "Koala", "Leopard", "Lion", "Lizard",
+                "Llama", "Lynx", "Macaw", "Mammoth", "Mantis", "Marlin", "Mastiff", "Mole", "Moose", "Moth",
+                "Mouse", "Orca", "Osprey", "Otter", "Owl", "Ox", "Panda", "Panther", "Phoenix", "Piranha",
+                "Python", "Raccoon", "Ram", "Raptor", "Raven", "Rhino", "Roach", "Rooster", "Serpent", "Shark",
+                "Sloth", "Slug", "Sparrow", "Spider", "Stallion", "Sturgeon", "Swan", "Tiger", "Tigress", "Turkey",
+                "Unicorn", "Viper", "Vulture", "Wallaby", "Wasp", "Weasel", "Weevil", "Whale", "Wolf", "Wombat",
+                "Worm", "Zebra"
+            ];
+
+            // Global lineage counter
+            let lineageIndex = 0;
+
+            // Grade mapping function with class assignment
+            function getGrade(statValue) {
+                const grades = [{
+                    grade: "E",
+                    class: "grade0"
+                }, {
+                    grade: "D",
+                    class: "grade1"
+                }, {
+                    grade: "C",
+                    class: "grade2"
+                }, {
+                    grade: "B",
+                    class: "grade3"
+                }, {
+                    grade: "A",
+                    class: "grade4"
+                }, {
+                    grade: "A+",
+                    class: "grade5"
+                }, {
+                    grade: "A++",
+                    class: "grade6"
+                }, {
+                    grade: "S",
+                    class: "grade7"
+                }, {
+                    grade: "S+",
+                    class: "grade8"
+                }, {
+                    grade: "S++",
+                    class: "grade9"
+                }];
+                return statValue >= 1 && statValue <= 10 ? grades[statValue - 1] : {
+                    grade: "N/A",
+                    class: ""
+                };
+            }
+
+            // Function 1: Generate stats
+            function generateStats() {
+                const stats = {
+                    Combat: Math.floor(Math.random() * 10) + 1,
+                    R_D: Math.floor(Math.random() * 10) + 1,
+                    Base_Development: Math.floor(Math.random() * 10) + 1,
+                    Support: Math.floor(Math.random() * 10) + 1,
+                    Intel: Math.floor(Math.random() * 10) + 1,
+                    Medical: Math.floor(Math.random() * 10) + 1
+                };
+
+                const grades = {
+                    Combat: getGrade(stats.Combat),
+                    R_D: getGrade(stats.R_D),
+                    Base_Development: getGrade(stats.Base_Development),
+                    Support: getGrade(stats.Support),
+                    Intel: getGrade(stats.Intel),
+                    Medical: getGrade(stats.Medical)
+                };
+
+                // Calculate overall rank
+                const statValues = [
+                    stats.Combat,
+                    stats.R_D,
+                    stats.Base_Development,
+                    stats.Support,
+                    stats.Intel,
+                    stats.Medical
+                ];
+                const averageValue = Math.round(statValues.reduce((sum, val) => sum + val, 0) / 6);
+                const overallRank = getGrade(averageValue);
+
+                return {
+                    stats,
+                    grades,
+                    overallRank: {
+                        value: averageValue,
+                        grade: overallRank.grade,
+                        class: overallRank.class
+                    }
+                };
+            }
+
+            // Function 2: Assign codename based on stats
+            function assignCodename(stats) {
+                const statValues = [
+                    stats.Combat,
+                    stats.R_D,
+                    stats.Base_Development,
+                    stats.Support,
+                    stats.Intel,
+                    stats.Medical
+                ];
+                // Combine stats with weights for varied codename selection
+                const hash = statValues.reduce((acc, val, idx) => acc + val * (idx + 1), 0);
+                const prefixIndex = hash % prefixes.length; // 0-91
+                const animalIndex = (hash * 17) % animals.length; // 0-101, multiplier for variation
+
+                const prefix = prefixes[prefixIndex];
+                const animal = animals[animalIndex];
+
+                return {
+                    name: `${prefix} ${animal}`,
+                    prefixIndex: prefixIndex,
+                    animalIndex: animalIndex,
+                    uniqueIndex: prefixIndex * animals.length + animalIndex
+                };
+            }
+
+            // Function 3: Generate recruit
+            function generateRecruit() {
+                // Step 1: Generate stats
+                const {
+                    stats,
+                    grades,
+                    overallRank
+                } = generateStats();
+
+                // Step 2: Assign codename based on stats
+                const codename = assignCodename(stats);
+
+                // Step 3: Assign lineage index
+                const recruit = {
+                    codename: codename.name,
+                    codenameIndices: {
+                        prefixIndex: codename.prefixIndex,
+                        animalIndex: codename.animalIndex,
+                        uniqueIndex: codename.uniqueIndex
+                    },
+                    stats: stats,
+                    grades: grades,
+                    overallRank: overallRank,
+                    lineageIndex: lineageIndex++
+                };
+
+                return recruit;
+            }
+
+            // Display and log recruit
+            function generateAndDisplayRecruit() {
+                const recruit = generateRecruit();
+                const outputDiv = document.getElementById('recruitOutput');
+
+                // Create a new div for the recruit
+                const recruitDiv = document.createElement('div');
+                recruitDiv.className = 'recruit';
+                recruitDiv.innerHTML = `
+        <div class="recruit-info"><strong><span title="id: ${recruit.lineageIndex} prefix: ${recruit.codenameIndices.prefixIndex} animal: ${recruit.codenameIndices.animalIndex} key: ${recruit.codenameIndices.uniqueIndex}">${recruit.codename}</span></strong></div>
+        <div class="stat">Combat: <strong><span class="${recruit.grades.Combat.class}" title="${recruit.stats.Combat}">${recruit.grades.Combat.grade}</span></strong></div>
+        <div class="stat">R&D:<strong> <span class="${recruit.grades.R_D.class}" title="${recruit.stats.R_D}">${recruit.grades.R_D.grade}</span></strong></div>
+        <div class="stat">Development:<strong> <span class="${recruit.grades.Base_Development.class}" title="${recruit.stats.Base_Development}">${recruit.grades.Base_Development.grade}</span></strong></div>
+        <div class="stat">Support:<strong> <span class="${recruit.grades.Support.class}" title="${recruit.stats.Support}">${recruit.grades.Support.grade}</span></strong></div>
+        <div class="stat">Intel:<strong> <span class="${recruit.grades.Intel.class}" title="${recruit.stats.Intel}">${recruit.grades.Intel.grade}</span></strong></div>
+        <div class="stat">Medical:<strong> <span class="${recruit.grades.Medical.class}" title="${recruit.stats.Medical}">${recruit.grades.Medical.grade}</span></strong></div>
+        <div class="stat rank"><small>Overall</small><strong> <span class="${recruit.overallRank.class}" title="${recruit.overallRank.value}">${recruit.overallRank.grade}</span></strong></div>
+      `;
+
+                // Append to output div (newest recruit at the top)
+                outputDiv.insertBefore(recruitDiv, outputDiv.firstChild);
+
+                // Log full recruit object to console
+                console.log(recruit);
+            }
+        </script>
+    </div>
+    <!-- rosterPane -->
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © X.X.MMXXIV <a href="https://joeldom.github.io/redesign/sandbox/#login">v1</a></p>
+</body>
+
+</html>

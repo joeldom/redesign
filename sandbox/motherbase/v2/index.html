@@ -6,15 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>MOTHERBASE 💿 MGSV Recruit Generator</title>
 
-    <!-- Bootstrap and your custom styles -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://joeldom.github.io/redesign/greybox/css/coma.css" rel="stylesheet">
-    <link href="https://joeldom.github.io/style-guide/css/login.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
-
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -163,14 +156,6 @@
             }
         }
         
-        .omega {
-            position: fixed !important;
-            bottom: 10px;
-            left: 10px;
-            font-size: 0.9em;
-            color: #B0B0B0;
-        }
-        
         canvas {
             background-color: #2a2a2a;
             border-radius: 8px;
@@ -184,15 +169,7 @@
 
     <div style="text-align: center;">
         <button onclick="generateAndDisplayRecruit()">Generate Recruit</button>
-        <div class="form-group d-inline-block">
-            <select id="diceSelect" class="form-select d-inline-block w-auto">
-                <option selected disabled>🎲 Select Dice</option>
-                <option value="6">6-sided</option>
-                <option value="10">10-sided</option>
-                <option value="21">21-sided</option>
-            </select>
-        </div>
-        <button onclick="rollDiceFromSelect()">Roll</button>
+        <button onclick="rollDiceMenu()">🎲 Roll Dice</button>
     </div>
 
     <div class="split-layout">
@@ -220,18 +197,11 @@
         </div>
     </div>
 
-    <!-- Toast Alert -->
-    <div id="snackbar" class="toast position-fixed bottom-0 end-0 p-3" role="alert" aria-live="assertive" aria-atomic="true" style="display: none;">
-        <div class="toast-header">
-            <strong class="me-auto">Alert</strong>
-            <small></small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body" id="snackbarMessage"></div>
-    </div>
-
-    <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © X.X.MMXXIV <a href="https://joeldom.github.io/redesign/sandbox/#login">v1</a></p>
-
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
+    <div class="firefly"></div>
     <div class="firefly"></div>
     <div class="firefly"></div>
     <div class="firefly"></div>
@@ -249,7 +219,6 @@
         };
         let totalRecruits = 0;
         let statsChart;
-        let toastInstance;
 
         function initChart() {
             const ctx = document.getElementById('statsChart').getContext('2d');
@@ -376,11 +345,11 @@
             updateChart();
         }
 
-        function rollDiceFromSelect() {
-            const diceSelect = document.getElementById('diceSelect');
-            const diceSides = parseInt(diceSelect.value);
+        function rollDiceMenu() {
+            const sides = prompt("Enter dice sides (6, 10, 21):");
+            const diceSides = parseInt(sides);
             if (![6, 10, 21].includes(diceSides)) {
-                showToast("Please select a valid dice size.");
+                alert("Invalid dice. Choose 6, 10, or 21.");
                 return;
             }
             rollDice(diceSides);
@@ -390,29 +359,20 @@
             const playerRoll = Math.floor(Math.random() * sides) + 1;
             const aiRoll = Math.floor(Math.random() * sides) + 1;
             let recruitChange = 0;
-            let message = "";
 
             if (playerRoll > aiRoll) {
                 recruitChange = sides;
-                message = `🎲 You rolled ${playerRoll}, AI rolled ${aiRoll}. You win +${sides} recruits!`;
+                alert(`🎲 You rolled ${playerRoll}, AI rolled ${aiRoll}. You win +${sides} recruits!`);
             } else if (playerRoll < aiRoll) {
                 recruitChange = -sides;
-                message = `🎲 You rolled ${playerRoll}, AI rolled ${aiRoll}. You lose ${sides} recruits.`;
+                alert(`🎲 You rolled ${playerRoll}, AI rolled ${aiRoll}. You lose ${sides} recruits.`);
             } else {
-                message = `🎲 Tie! You rolled ${playerRoll}, AI rolled ${aiRoll}. No change.`;
+                alert(`🎲 Tie! You rolled ${playerRoll}, AI rolled ${aiRoll}. No change.`);
             }
 
             totalRecruits += recruitChange;
             renderStatTotals();
             updateChart();
-            showToast(message);
-        }
-
-        function showToast(message) {
-            const toastEl = document.getElementById('snackbar');
-            document.getElementById('snackbarMessage').innerText = message;
-            const toast = new bootstrap.Toast(toastEl);
-            toast.show();
         }
 
         window.onload = initChart;
