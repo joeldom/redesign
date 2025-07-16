@@ -125,6 +125,20 @@ body.dark-mode #chat-prompt.palette-darkolive {
     cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+    .prompt-iframe {
+        width: 100%;
+        min-height: 500px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .prompt-iframe {
+        width: 940px;
+        min-height: 500px;
+    }
+}
+
 .char {
     animation-delay: calc( sin((var(--index) / var(--total)) * 90deg) * var(--duration));
 }

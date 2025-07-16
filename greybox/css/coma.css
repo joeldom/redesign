@@ -2208,15 +2208,15 @@ a {
 }
 
 a:hover {
-    color: black;
-    text-decoration: underline;
+    /* color: black; */
+    /* text-decoration: underline; */
 }
 
 a:focus {
-    color: black;
-    text-decoration: underline;
-    outline: 5px auto -webkit-focus-ring-color;
-    outline-offset: -2px;
+    /* color: black; */
+    /* text-decoration: underline; */
+    /* outline: 5px auto -webkit-focus-ring-color; */
+    /* outline-offset: -2px; */
 }
 
 a p {
@@ -3625,14 +3625,14 @@ strong {
     font-weight: 700;
 }
 
-a {
+p>a {
     border-bottom: 1px dotted;
     -webkit-transition: 0.2s ease;
     transition: 0.2s ease;
 }
 
-a:hover,
-a:focus {
+p>a:hover,
+p>a:focus {
     border-bottom-style: solid;
     text-decoration: none;
 }
