@@ -212,7 +212,7 @@ body.with-navbar {
 .tile-splash p,
 .tile-splash a {
     font-size: 16px;
-    color: #101940;
+    color: #1a3acc;
     -webkit-animation: color-change 3s infinite;
     -moz-animation: color-change 3s infinite;
     -o-animation: color-change 3s infinite;
@@ -338,61 +338,61 @@ p {
 
 @-webkit-keyframes color-change {
     0% {
-        color: #101940;
+        color: #112788;
     }
     50% {
         color: #1a3acc;
     }
     100% {
-        color: #101940;
+        color: #112788;
     }
 }
 
 @-moz-keyframes color-change {
     0% {
-        color: #101940;
+        color: #112788;
     }
     50% {
         color: #1a3acc;
     }
     100% {
-        color: #101940;
+        color: #112788;
     }
 }
 
 @-ms-keyframes color-change {
     0% {
-        color: #101940;
+        color: #112788;
     }
     50% {
         color: #1a3acc;
     }
     100% {
-        color: #101940;
+        color: #112788;
     }
 }
 
 @-o-keyframes color-change {
     0% {
-        color: #101940;
+        color: #112788;
     }
     50% {
         color: #1a3acc;
     }
     100% {
-        color: #101940;
+        color: #112788;
     }
 }
 
 @keyframes color-change {
     0% {
-        color: #101940;
+        color: #112788;
     }
     50% {
         color: #1a3acc;
     }
     100% {
-        color: #101940;
+        color: #112788;
     }
 }
 
