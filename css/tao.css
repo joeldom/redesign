@@ -1,4 +1,9 @@
-/* 2022 additions */
+/* 2025 additions */
+
+@import url("https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inter:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.doto {
+    font-family: "Doto", sans-serif !important;
+}
 
 html,
 body {
