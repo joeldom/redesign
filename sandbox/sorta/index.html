@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merge Sort Visualizer with Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #08131a;
+            color: #fff;
+        }
+        
+        #deltaOutput {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+            margin: 20px;
+        }
+        
+        #chartContainer {
+            width: 80%;
+            margin: 20px auto;
+        }
+        
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            background-color: #0a1e20;
+            color: #fff;
+            border: 1px solid #fff;
+            border-radius: 5px;
+        }
+        
+        #output {
+            margin-top: 20px;
+            text-align: left;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Merge Sort Visualizer</h1>
+    <div id="deltaOutput">Delta: Not calculated yet</div>
+    <div>
+        <button onclick="generateNewData()">Generate New Data</button>
+        <button onclick="sortOddFirst()">Sort Odd First</button>
+        <button onclick="sortEvenFirst()">Sort Even First</button>
+        <button onclick="compareSorts()">Compare Odd/Even</button>
+    </div>
+    <div id="chartContainer">
+        <canvas id="sortChart"></canvas>
+    </div>
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
