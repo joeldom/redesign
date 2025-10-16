@@ -213,11 +213,11 @@ body.with-navbar {
 .tile-splash a {
     font-size: 16px;
     color: #1a3acc;
-    -webkit-animation: color-change 3s infinite;
+    /* -webkit-animation: color-change 3s infinite;
     -moz-animation: color-change 3s infinite;
     -o-animation: color-change 3s infinite;
     -ms-animation: color-change 3s infinite;
-    animation: color-change 3s infinite;
+    animation: color-change 3s infinite; */
 }
 
 .tile-splash p:hover,

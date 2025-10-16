@@ -11,27 +11,44 @@
 
 :root {
     /* colors */
-    --brand-blue: #1a3acc;
-    --dark-blue: #001c9b;
-    --very-dark-blue: #000e4e;
-    --magenta: #ab1acc;
-    --fuchsia: #84017e;
+    --brand-blue: #1A3ACC;
+    --dark-blue: #001C9B;
+    --very-dark-blue: #000E4E;
+    --cool-blue: #E0E9FE;
+    --magenta: #AB1ACC;
+    --fuchsia: #84017E;
     --blood-red: #600000;
-    --dim-red: #ee0202;
-    --golden: #ccab1a;
+    --dim-red: #EE0202;
+    --legacy: #008080;
+    --java: #1ACCAB;
+    --mint: #C0FFEA;
+    --pale-blue: #A6AAF4;
+    --robin: #A5C4DB;
+    --golden: #CCAB1A;
+    --burlywood: #DEB887;
+    --safety-green: #BBFF32;
+    --bright-green: #14E158;
+    --mint-green: #2E8C5F;
+    --pale-olive: #648476;
     --bright-orange: rgba(255, 111, 63, 0.5);
-    --orange: #ff6f3f;
-    --dark-olive: #1a1e1c;
-    --black: #0a0c0e;
-    --white: #ffffff;
-    --base-bright: #f0f4f7;
-    --bright-grey: #f2f2f2;
-    --light-grey: #cfcfcf;
+    --orange: #FF6F3F;
+    --dark-olive: #1A1E1C;
+    --black: #0A0C0E;
+    --white: #FFFFFF;
+    --base-bright: #F0F4F7;
+    --bright-grey: #F2F2F2;
+    --light-grey: #CFCFCF;
+    --dim-grey: #c5c5c5;
     --warm-grey: #818181;
-    --metal: #5a6771;
-    --ever-green: #142a2d;
-    --cool-blue: #e0e9fe;
-    --euphoria: #00050f;
+    --metal: #5A6771;
+    --discord: #292B2F;
+    --ever-green: #142A2D;
+    --deep-green: #0A202E;
+    --warm-black: #2D2828;
+    --deep-root: #004161;
+    --euphoria: #00050F;
+    --euphoria-bg: rgba(0, 5, 15, 1);
+    --trans-black: rgba(0, 0, 0, 0.5);
     /* properties */
     --font-base-size: 14px;
     --font-small-size: 12px;
@@ -3592,7 +3609,7 @@ h6 {
 
 p {
     margin-bottom: 18px;
-    font-weight: 500;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
@@ -3743,7 +3760,7 @@ p>a:focus {
     }
     .overlap-sm {
         position: relative;
-        margin-top: -36px;
+        margin: -36px -12px 0 12px;
         z-index: 2;
     }
     .underlap-sm {
@@ -5105,7 +5122,7 @@ p[class*="col-"] {
 }
 
 .tile-text:hover {
-    background-color: rgba(000, 101, 101, 0.1);
+    background-color: rgba(0, 0, 0, 0.5);
     border: 1px solid aliceblue;
     padding: 12px;
     cursor: pointer;
@@ -7655,6 +7672,14 @@ ul#cyclelist li,
 .navbar:hover {
     background-color: white;
     border-bottom: 1px solid #eee;
+    backdrop-filter: blur(1.4px);
+}
+
+body.dark-mode .navbar,
+body.dark-mode .navbar:hover {
+    background-color: #000000d1;
+    border-bottom: 1px solid #3131317a;
+    backdrop-filter: blur(1.4px);
 }
 
 .navbar-brand {
@@ -7716,6 +7741,23 @@ ul#cyclelist li,
 .dropdown-submenu>li>a.dropdown-toggle:focus {
     background: transparent;
     color: black;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+body.dark-mode .navbar-nav>li>a:hover,
+body.dark-mode .dropdown-menu>li>a:hover,
+body.dark-mode .dropdown-submenu>li>a:hover,
+body.dark-mode .navbar-nav>li>a:focus,
+body.dark-mode .dropdown-menu>li>a:focus,
+body.dark-mode .dropdown-submenu>li>a:focus,
+body.dark-mode .navbar-nav>li>a.dropdown-toggle:hover,
+body.dark-mode .dropdown-menu>li>a.dropdown-toggle:hover,
+body.dark-mode .dropdown-submenu>li>a.dropdown-toggle:hover,
+body.dark-mode .navbar-nav>li>a.dropdown-toggle:focus,
+body.dark-mode .dropdown-menu>li>a.dropdown-toggle:focus,
+body.dark-mode .dropdown-submenu>li>a.dropdown-toggle:focus {
+    background: transparent;
+    color: white;
     filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
@@ -9705,8 +9747,13 @@ a .see-more {
 }
 
 .palette-brandblue {
-    color: #1a3acc;
+    color: var(--discord);
     background-color: #f5f5f5;
+}
+
+.palette-brandblue.base {
+    color: var(--discord);
+    background-color: var(--base-bright);
 }
 
 .palette-brandblue .read-more,

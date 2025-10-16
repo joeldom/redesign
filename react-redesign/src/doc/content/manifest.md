@@ -876,6 +876,19 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 |                                    | Eyes Wide Shut                      |                             |                                           |                         |                        |                      |
 |                                    | The Shining                         |                             |                                           |                         |                        |                      |
 |                                    | Collateral                          |                             |                                           |                         |                        |                      |
+|                                    | Exorsist III                        |                             |                                           |                         |                        |                      |
+
+# Quotes
+
+1. He put his disease in me. - Blue Velvet
+2. We live inside a dream. Fire Walk with me
+3. Rest easy Champ, that's short for champion. -David Lynch
+
+# Stories
+
+1. Echoes of Eternity `https://chatgpt.com/share/6800e003-3fe8-800b-8e18-66c83498ee0d`
+
+<img width="100%" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsuewatling.blogs.lincoln.ac.uk%2Ffiles%2F2014%2F12%2Fblog-labyrinth-maze.jpg&f=1&nofb=1"/>
 
 ---
 
@@ -895,10 +908,10 @@ an enerygy event in tthe solar system happens that makes another inteligent spec
 
 | Character      | Franchise | #   |
 | -------------- | --------- | --- |
-| Jill Valentine | Capcom    |
-| Mai Shiranui   | SNK       |
-| Kunimitsu      | NAMCO     |
-| Morgan         | Capcom    |
+| Jill Valentine | Capcom    | #   |
+| Mai Shiranui   | SNK       | #   |
+| Kunimitsu      | NAMCO     | #   |
+| Morgan         | Capcom    | #   |
 
 ---
 
