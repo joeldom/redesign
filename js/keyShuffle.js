@@ -25,6 +25,8 @@ function fetchAndCycleStrings(containerId, dataKey) {
 
 // Call the function for each section
 fetchAndCycleStrings("site-term-container", "SiteStrings");
+fetchAndCycleStrings("work-term-container", "WorkStrings");
 fetchAndCycleStrings("resume-term-container", "ResumeStrings");
 fetchAndCycleStrings("styleguide-term-container", "StyleguideStrings");
 fetchAndCycleStrings("sandbox-term-container", "SandboxStrings");
+fetchAndCycleStrings("casestudies-term-container", "CaseStudiesStrings");
