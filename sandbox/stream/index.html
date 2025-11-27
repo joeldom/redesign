@@ -15,332 +15,8 @@
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/120x120.png" sizes="120x120" />
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/152x152.png" sizes="152x152" />
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
-            background: #0a0a0a;
-            color: #ffffff;
-            overflow: hidden;
-            height: 100vh;
-        }
-        
-        .screen {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.6s ease-in-out;
-        }
-        
-        .screen.active {
-            opacity: 1;
-            pointer-events: all;
-        }
-        /* Setup Screen */
-        
-        .setup-screen {
-            /* background: linear-gradient(135deg, #1a1a1a 0%, #0a0a0a 100%); */
-            background-color: #1a1e1c;
-        }
-        
-        .setup-container {
-            background: rgba(20, 20, 20, 0.95);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 1px;
-            padding: 24px 48px 48px;
-            width: 90%;
-            max-width: 500px;
-            /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); */
-        }
-        
-        .setup-container .logo-header {
-            display: block;
-            margin: 0 auto 8px;
-        }
-        
-        .setup-container h2 {
-            font-size: 18px;
-            font-weight: 100;
-            margin-bottom: 18px;
-            text-align: center;
-            color: #ffffff;
-            letter-spacing: 0.5px;
-        }
-        
-        .form-group {
-            margin-bottom: 24px;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 8px;
-            font-size: 13px;
-            font-weight: 500;
-            color: rgba(255, 255, 255, 0.7);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: 14px 16px;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.15);
-            border-radius: 8px;
-            color: #ffffff;
-            font-size: 15px;
-            transition: all 0.3s ease;
-        }
-        
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: rgba(255, 255, 255, 0.4);
-            background: rgba(255, 255, 255, 0.08);
-        }
-        
-        .form-group select option {
-            background: #1a1a1a;
-            color: #ffffff;
-            padding: 12px;
-        }
-        
-        .form-group textarea {
-            resize: vertical;
-            min-height: 80px;
-            font-family: inherit;
-        }
-        
-        .start-btn {
-            width: 100%;
-            padding: 16px;
-            background: linear-gradient(135deg, #2a2a2a 0%, #1a1a1a 100%);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 8px;
-            color: #ffffff;
-            font-size: 15px;
-            font-weight: 600;
-            cursor: pointer;
-            text-transform: uppercase;
-            letter-spacing: 1.5px;
-            transition: all 0.3s ease;
-            margin-top: 16px;
-        }
-        
-        .start-btn:hover {
-            background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);
-            border-color: rgba(255, 255, 255, 0.4);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-        }
-        /* Timer Screen */
-        
-        .timer-screen {
-            /* background: linear-gradient(135deg, #0f0f0f 0%, #000000 100%); */
-            background-color: #000;
-            flex-direction: column;
-        }
-        
-        .logo {
-            width: 120px;
-            height: auto;
-            margin-bottom: 32px;
-            opacity: 0.9;
-        }
-        
-        .stream-title {
-            font-size: 32px;
-            font-weight: 700;
-            margin-bottom: 48px;
-            text-align: center;
-            max-width: 80%;
-            line-height: 1.4;
-        }
-        
-        .timer-display {
-            font-size: 120px;
-            font-weight: 700;
-            font-variant-numeric: tabular-nums;
-            letter-spacing: 4px;
-            margin-bottom: 24px;
-            text-shadow: 0 0 40px rgba(255, 255, 255, 0.3);
-        }
-        
-        .milliseconds {
-            font-size: 60px;
-            opacity: 0.7;
-            margin-left: 8px;
-        }
-        
-        .timer-label {
-            font-size: 18px;
-            font-weight: 500;
-            color: rgba(255, 255, 255, 0.6);
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
-        /* Launch Screen */
-        
-        .launch-screen {
-            background: #000000;
-        }
-        
-        .launch-screen .background-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 1;
-            image-rendering: -webkit-optimize-contrast;
-            image-rendering: crisp-edges;
-            image-rendering: pixelated;
-        }
-        
-        .background-container.cover {
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        
-        .background-container.tiled {
-            background-size: auto;
-            background-position: top left;
-            background-repeat: repeat;
-        }
-        
-        .background-container.centered {
-            background-size: auto;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-        
-        .launch-content {
-            position: relative;
-            z-index: 2;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: rgba(0, 0, 0, 0.4);
-            width: 100%;
-            height: 100%;
-            backdrop-filter: blur(4px);
-        }
-        
-        .launch-message {
-            font-size: 48px;
-            font-weight: 700;
-            margin-top: 24px;
-            text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
-            max-width: 80%;
-            line-height: 1.3;
-        }
-        /* Back Button */
-        
-        .back-btn {
-            position: absolute;
-            bottom: 32px;
-            right: 32px;
-            width: 56px;
-            height: 56px;
-            background: rgba(20, 20, 20, 0.9);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            opacity: 0;
-            transition: opacity 0.3s ease, transform 0.3s ease, background 0.3s ease;
-            z-index: 10;
-        }
-        
-        .back-btn:hover {
-            opacity: 1 !important;
-            background: rgba(30, 30, 30, 0.95);
-            transform: scale(1.1);
-        }
-        
-        .timer-screen:hover .back-btn,
-        .launch-screen:hover .back-btn {
-            opacity: 1;
-        }
-        
-        .back-btn svg {
-            width: 24px;
-            height: 24px;
-            fill: #ffffff;
-        }
-        
-        @media (max-width: 768px) {
-            .setup-container {
-                padding: 32px 24px;
-                width: 95%;
-            }
-            .timer-display {
-                font-size: 72px;
-                letter-spacing: 2px;
-            }
-            .milliseconds {
-                font-size: 36px;
-            }
-            .stream-title {
-                font-size: 24px;
-            }
-            .launch-message {
-                font-size: 32px;
-            }
-            .logo {
-                width: 80px;
-            }
-        }
-        
-        .omega {
-            font-family: Arial, sans-serif;
-            font-size: 14px;
-            color: #949494;
-            line-height: 1.78571;
-            display: block;
-            position: absolute;
-            bottom: 0;
-            margin: 0 auto;
-            width: 100%;
-            opacity: 0.5;
-            text-align: center;
-            background: #021317b2;
-            background: #203135b2;
-            border-top: 1px solid #000000;
-            transition: background 1.3s ease;
-            z-index: 9999;
-        }
-        
-        .omega:hover {
-            background: #000000;
-            transition: background 0.93s ease;
-        }
-        
-        .omega a {
-            text-decoration: none;
-            color: #ccc;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@10.2.0/public/assets/styles/choices.min.css">
 </head>
 
 <body>
@@ -373,10 +49,27 @@
                 <div class="form-group">
                     <label for="backgroundUrl">Background Image/GIF URL</label>
                     <input type="url" id="backgroundUrl" placeholder="https://example.com/image.gif (optional)">
-                    <span class="background-url-hint" style="font-size: .85em;display: block;margin:10px 0 0 10px;">
+                    <span class="background-url-hint">
 						<pre title="WideVibe">https://cdn.7tv.app/emote/01G1GXCR380004YN3NKDRR9QHD/4x.avif</pre>
 						<pre title="Quin">https://cdn.7tv.app/emote/01J7XAZN780001NDPTMGEE20VK/4x.avif</pre>
+						<pre title="OOOO">https://cdn.7tv.app/emote/01GSE8A49G00018WDRMDCKD989/4x.avif</pre>
+						<pre title="peepoChat">https://cdn.7tv.app/emote/01F60AVQP8000B1Q26TYT3VYCT/4x.avif</pre>
+						<pre title="AufSuess">https://cdn.7tv.app/emote/01GRVD57CG00086CSN5RNWSHA6/4x.avif</pre>
+						<pre title="peepoEyeroll">https://cdn.7tv.app/emote/01FCGPX3VR0008XKZT17QKXB3Q/4x.avif</pre>
+						<pre title="pepeSadJam">https://cdn.7tv.app/emote/01F6Q6SZD80009K4HVQSZX258R/4x.avif</pre>
+						<pre title="hey">https://cdn.7tv.app/emote/01HPH9YKSG000A03X4YAK30NT1/4x.avif</pre>
+						<pre title="peepoCube">https://cdn.7tv.app/emote/01FYTGPTZR0001S5T44EC5WCX8/4x.avif</pre>
+						<pre title="tasty">https://cdn.7tv.app/emote/01G0Y0C32R0005B2DBC6FW4H8W/4x.avif</pre>
+						<pre title="Igotmyeyesonyou">https://cdn.7tv.app/emote/01HFNET5C00009W20WFPVWSF0Y/4x.avif</pre>
+						<pre title="smh">https://cdn.7tv.app/emote/01F6R50PYR0004V0XPDH2CKXCH/4x.avif</pre>
+						<pre title="catRAVE">https://cdn.7tv.app/emote/01FRHPVJQ80005RSBJP7VAF4B0/4x.avif</pre>
+						<pre title="catNOD">https://cdn.7tv.app/emote/01FNMBRDN8000EJT2EVEY3EM1H/4x.avif</pre>
+						<pre title="ratJAM">https://cdn.7tv.app/emote/01FBFTDSJR0002BEVDT2R40FEG/4x.avif</pre>
+						<pre title="Nerdge">https://cdn.7tv.app/emote/01FNNGQF2R000EJT2EVEY3EQZC/4x.avif</pre>
+						<pre title="peepoShy">https://cdn.7tv.app/emote/01FNEYTSFR000FZADBM40VPGAZ/4x.avif</pre>
+						<pre title="SNIFFA">https://cdn.7tv.app/emote/01GJ1ZE88G000AX3JVD75SVSSV/4x.avif</pre>
 					</span>
+                    <br /><br />
                 </div>
 
                 <div class="form-group">
@@ -393,10 +86,10 @@
                     <textarea id="launchMsg" placeholder="Message to display when stream starts"></textarea>
                 </div>
 
-                <button type="submit" class="start-btn">Start Timer</button>
+                <button type="submit" class="start-btn">Start</button>
             </form>
         </div>
-        <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © X.X.MMXXV <a href="https://joeldom.github.io/redesign/sandbox/">v1</a></p>
+        <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © 2025 <a href="https://joeldom.github.io/redesign/sandbox/">v1</a></p>
     </div>
 
     <!-- Timer Screen -->
@@ -428,112 +121,8 @@
         </div>
     </div>
 
-    <script>
-        let countdownInterval;
-        let streamData = {};
-        let currentScreen = 'setup';
-
-        const screens = {
-            setup: document.querySelector('.setup-screen'),
-            timer: document.querySelector('.timer-screen'),
-            launch: document.querySelector('.launch-screen')
-        };
-
-        // Spacebar listener to skip to launch
-        document.addEventListener('keydown', function(e) {
-            if (e.code === 'Space' && currentScreen === 'timer') {
-                e.preventDefault();
-                if (countdownInterval) {
-                    clearInterval(countdownInterval);
-                }
-                launchStream();
-            }
-        });
-
-        function switchScreen(from, to) {
-            screens[from].classList.remove('active');
-            currentScreen = to;
-            setTimeout(() => {
-                screens[to].classList.add('active');
-            }, 200);
-        }
-
-        document.getElementById('setupForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-
-            const customBgUrl = document.getElementById('backgroundUrl').value.trim();
-            const defaultBgUrl = 'https://joeldom.github.io/asset/images/r/beyond-matrix.gif';
-            const bgStyle = document.getElementById('bgStyle').value;
-
-            streamData = {
-                title: document.getElementById('title').value,
-                minutes: parseFloat(document.getElementById('timeSelect').value),
-                launchMsg: document.getElementById('launchMsg').value,
-                backgroundUrl: customBgUrl || defaultBgUrl,
-                backgroundStyle: bgStyle
-            };
-
-            document.getElementById('displayTitle').textContent = streamData.title;
-
-            const bgElement = document.getElementById('backgroundContainer');
-            bgElement.style.backgroundImage = `url('${streamData.backgroundUrl}')`;
-            bgElement.className = 'background-container ' + streamData.backgroundStyle;
-
-            switchScreen('setup', 'timer');
-            startCountdown(streamData.minutes);
-        });
-
-        function startCountdown(minutes) {
-            let totalMilliseconds = minutes * 60 * 1000;
-            const startTime = Date.now();
-            const endTime = startTime + totalMilliseconds;
-
-            function updateDisplay() {
-                const now = Date.now();
-                const remaining = endTime - now;
-
-                if (remaining <= 0) {
-                    document.getElementById('timerDisplay').textContent = '00:00';
-                    document.getElementById('millisDisplay').textContent = '.000';
-                    document.getElementById('millisDisplay').textContent = '.000';
-                    clearInterval(countdownInterval);
-                    launchStream();
-                    return;
-                }
-
-                const mins = Math.floor(remaining / 60000);
-                const secs = Math.floor((remaining % 60000) / 1000);
-                const ms = Math.floor((remaining % 1000));
-
-                document.getElementById('timerDisplay').textContent =
-                    `${String(mins).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
-                document.getElementById('millisDisplay').textContent =
-                    `.${String(ms).padStart(3, '0')}`;
-            }
-
-            updateDisplay();
-            countdownInterval = setInterval(updateDisplay, 10); // Update every 10ms for smooth milliseconds
-        }
-
-        function launchStream() {
-            document.getElementById('displayLaunchMsg').textContent = streamData.launchMsg;
-            switchScreen('timer', 'launch');
-        }
-
-        function resetToSetup() {
-            if (countdownInterval) {
-                clearInterval(countdownInterval);
-            }
-
-            const currentScreen = document.querySelector('.screen.active');
-            const screenName = currentScreen.classList.contains('timer-screen') ? 'timer' : 'launch';
-
-            switchScreen(screenName, 'setup');
-
-            document.getElementById('setupForm').reset();
-            document.getElementById('timerDisplay').textContent = '00:00';
-        }
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@10.2.0/public/assets/scripts/choices.min.js"></script>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
