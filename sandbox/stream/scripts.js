@@ -23,7 +23,38 @@ const bgStyleSelect = new Choices('#bgStyle', {
     allowHTML: false
 });
 
-// Spacebar listener to skip to launch
+// Live background preview on setup screen
+const defaultBgUrl = 'https://joeldom.github.io/asset/images/r/beyond-matrix.gif';
+const setupBgPreview = document.getElementById('setupBackgroundPreview');
+const bgUrlInput = document.getElementById('backgroundUrl');
+const bgStyleInput = document.getElementById('bgStyle');
+
+// Don't set initial background - leave it empty
+
+// Update background preview as user types
+bgUrlInput.addEventListener('input', function() {
+    const inputValue = this.value.trim().toLowerCase();
+
+    if (inputValue === 'default') {
+        setupBgPreview.style.backgroundImage = `url('${defaultBgUrl}')`;
+    } else if (inputValue === '') {
+        setupBgPreview.style.backgroundImage = 'none';
+    } else {
+        setupBgPreview.style.backgroundImage = `url('${this.value.trim()}')`;
+    }
+});
+
+// Update background style as user changes dropdown
+bgStyleInput.addEventListener('change', function() {
+    setupBgPreview.className = 'background-preview ' + this.value;
+});
+
+// Also listen to Choices.js change event
+document.getElementById('bgStyle').addEventListener('change', function() {
+    setupBgPreview.className = 'background-preview ' + this.value;
+});
+
+// Spacebar listener to skip to launch, ESC to go back
 document.addEventListener('keydown', function(e) {
     if (e.code === 'Space' && currentScreen === 'timer') {
         e.preventDefault();
@@ -31,6 +62,11 @@ document.addEventListener('keydown', function(e) {
             clearInterval(countdownInterval);
         }
         launchStream();
+    }
+
+    if (e.code === 'Escape' && (currentScreen === 'timer' || currentScreen === 'launch')) {
+        e.preventDefault();
+        resetToSetup();
     }
 });
 

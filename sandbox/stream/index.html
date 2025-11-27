@@ -22,6 +22,7 @@
 <body>
     <!-- Setup Screen -->
     <div class="screen setup-screen active">
+        <div class="background-preview cover" id="setupBackgroundPreview"></div>
         <div class="setup-container">
             <img class="logo-header" src="https://joeldom.github.io/asset/chip-logo.png" width="52px" height="52px">
             <h2>Stream Setup</h2>
@@ -99,6 +100,13 @@
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
             </svg>
         </button>
+        <div class="shortcuts-btn">
+            ?
+            <div class="shortcuts-tooltip">
+                <p><kbd>SPACE</kbd> Skip to launch</p>
+                <p><kbd>ESC</kbd> Back to setup</p>
+            </div>
+        </div>
         <img src="https://joeldom.github.io/asset/chip-logo.png" alt="Logo" class="logo">
         <div class="stream-title" id="displayTitle"></div>
         <div class="timer-display">
@@ -116,6 +124,12 @@
                     <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
                 </svg>
             </button>
+            <div class="shortcuts-btn">
+                ?
+                <div class="shortcuts-tooltip">
+                    <p><kbd>ESC</kbd> Back to setup</p>
+                </div>
+            </div>
             <img src="https://joeldom.github.io/asset/chip-logo.png" alt="Logo" class="logo">
             <div class="launch-message" id="displayLaunchMsg"></div>
         </div>
