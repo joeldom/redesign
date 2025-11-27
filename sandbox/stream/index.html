@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" type="image/x-icon">
+
+    <title>Stream Start Screen</title>
+
+    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" rel="icon" type="image/x-icon">
     <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/64x64.png" sizes="64x64" />
     <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/128x128.png" sizes="128x128" />
     <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/192x192.png" sizes="192x192" />
@@ -12,7 +15,6 @@
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/120x120.png" sizes="120x120" />
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/152x152.png" sizes="152x152" />
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
-    <title>Joel's Stream Start Screen</title>
     <style>
         * {
             margin: 0;
@@ -57,16 +59,21 @@
             background: rgba(20, 20, 20, 0.95);
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 1px;
-            padding: 48px;
+            padding: 24px 48px 48px;
             width: 90%;
             max-width: 500px;
-            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+            /* box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5); */
+        }
+        
+        .setup-container .logo-header {
+            display: block;
+            margin: 0 auto 8px;
         }
         
         .setup-container h2 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 32px;
+            font-size: 18px;
+            font-weight: 100;
+            margin-bottom: 18px;
             text-align: center;
             color: #ffffff;
             letter-spacing: 0.5px;
@@ -304,6 +311,35 @@
                 width: 80px;
             }
         }
+        
+        .omega {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #949494;
+            line-height: 1.78571;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            width: 100%;
+            opacity: 0.5;
+            text-align: center;
+            background: #021317b2;
+            background: #203135b2;
+            border-top: 1px solid #000000;
+            transition: background 1.3s ease;
+            z-index: 9999;
+        }
+        
+        .omega:hover {
+            background: #000000;
+            transition: background 0.93s ease;
+        }
+        
+        .omega a {
+            text-decoration: none;
+            color: #ccc;
+        }
     </style>
 </head>
 
@@ -311,6 +347,7 @@
     <!-- Setup Screen -->
     <div class="screen setup-screen active">
         <div class="setup-container">
+            <img class="logo-header" src="https://joeldom.github.io/asset/chip-logo.png" width="52px" height="52px">
             <h2>Stream Setup</h2>
             <form id="setupForm">
                 <div class="form-group">
@@ -321,10 +358,10 @@
                 <div class="form-group">
                     <label for="timeSelect">Time Until Start</label>
                     <select id="timeSelect" required>
-                        <option value="0.167">10 seconds</option>
+                        <option value="0.167" selected>10 seconds</option>
                         <option value="1">1 minute</option>
                         <option value="2">2 minutes</option>
-                        <option value="5" selected>5 minutes</option>
+                        <option value="5">5 minutes</option>
                         <option value="10">10 minutes</option>
                         <option value="15">15 minutes</option>
                         <option value="20">20 minutes</option>
@@ -336,9 +373,9 @@
                 <div class="form-group">
                     <label for="backgroundUrl">Background Image/GIF URL</label>
                     <input type="url" id="backgroundUrl" placeholder="https://example.com/image.gif (optional)">
-                    <span class="background-url-hint" style="font-size: .85em;">
-						<pre>https://cdn.7tv.app/emote/01G1GXCR380004YN3NKDRR9QHD/4x.avif</pre>
-						<pre>https://cdn.7tv.app/emote/01J7XAZN780001NDPTMGEE20VK/4x.avif</pre>
+                    <span class="background-url-hint" style="font-size: .85em;display: block;margin:10px 0 0 10px;">
+						<pre title="WideVibe">https://cdn.7tv.app/emote/01G1GXCR380004YN3NKDRR9QHD/4x.avif</pre>
+						<pre title="Quin">https://cdn.7tv.app/emote/01J7XAZN780001NDPTMGEE20VK/4x.avif</pre>
 					</span>
                 </div>
 
@@ -359,6 +396,7 @@
                 <button type="submit" class="start-btn">Start Timer</button>
             </form>
         </div>
+        <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © X.X.MMXXV <a href="https://joeldom.github.io/redesign/sandbox/">v1</a></p>
     </div>
 
     <!-- Timer Screen -->
