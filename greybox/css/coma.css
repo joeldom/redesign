@@ -10965,6 +10965,13 @@ a.grid-post.link {
         top: -5px;
         z-index: 9;
         border: 3px solid #fff;
+        cursor: pointer;
+    }
+    body.dark-mode .timeline__item:before {
+        background-color: #000;
+    }
+    body.dark-mode .timeline__item:hover:before {
+        background-color: #fff;
     }
 }
 
@@ -11035,6 +11042,12 @@ a.grid-post.link {
     color: #fff;
 }
 
+body.dark-mode .palette-brandblue.palette-inverse .timeline__divider--month .timeline__divider_content,
+body.dark-mode .palette-brandblue.palette-inverse .timeline__divider--month-range .timeline__divider_content {
+    background-color: #000;
+    color: #fff;
+}
+
 .palette-brandblue.palette-inverse.warm .timeline__divider--month .timeline__divider_content,
 .palette-brandblue.palette-inverse.warm .timeline__divider--month-range .timeline__divider_content {
     background-color: #142a2d;
@@ -11051,6 +11064,10 @@ a.grid-post.link {
 
 .palette-brandblue.palette-inverse .timeline__divider--month-range-break {
     border-left: 2px dashed #1a3acc;
+}
+
+body.dark-mode .palette-brandblue.palette-inverse .timeline__divider--month-range-break {
+    border-left: 2px dashed #000;
 }
 
 .palette-brandblue.palette-inverse.warm .timeline__divider--month-range-break {
