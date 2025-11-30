@@ -127,7 +127,7 @@ class EnhancedViewer {
             title: titleEl ? titleEl.textContent : 'Untitled',
             category: categoryEl ? categoryEl.textContent : '',
             location: '',
-            description: '<p>Additional details coming soon.</p>'
+            description: '<p>No description</p>'
         };
     }
 
@@ -135,7 +135,7 @@ class EnhancedViewer {
         const closeButton = document.createElement('button');
         closeButton.className = 'viewer-close';
         closeButton.setAttribute('aria-label', 'Close viewer');
-        closeButton.innerHTML = '&times;';
+        closeButton.innerHTML = '&times; <span class="context">Close</span>';
         return closeButton;
     }
 
@@ -181,7 +181,10 @@ class EnhancedViewer {
 			<div class="viewer-description">
 				${content.description || '<p>No additional details available.</p>'}
 			</div>
-			<!-- Remove the entire nav section -->
+			<nav class="viewer-nav">
+                <button class="viewer-nav-btn prev" aria-label="Previous project">Previous</button>
+                <button class="viewer-nav-btn next" aria-label="Next project">Next</button>
+            </nav>
 		`;
 
         contentArea.innerHTML = contentHTML;

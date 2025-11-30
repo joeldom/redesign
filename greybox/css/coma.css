@@ -5852,6 +5852,7 @@ p[class*="col-"] {
     border: none;
 }
 
+.grid .grid-inner.full-3 article a .name:after,
 .grid .grid-inner.full-3 article a .cat:after {
     height: 2px;
     width: 60px;
@@ -5888,6 +5889,7 @@ p[class*="col-"] {
     cursor: pointer;
 }
 
+.grid .grid-inner.full-3 article:hover .name:after,
 .grid .grid-inner.full-3 article:hover .cat:after {
     width: 100px;
 }
@@ -6396,6 +6398,7 @@ mark {
     color: #fff;
 }
 
+.article-inner .name,
 .article-inner .cat {
     font-size: 25.2px;
     font-weight: 900;
