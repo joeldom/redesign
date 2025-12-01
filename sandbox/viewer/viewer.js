@@ -139,33 +139,6 @@ class EnhancedViewer {
         return closeButton;
     }
 
-    // createContentArea(content) {
-    //     const contentArea = document.createElement('div');
-    //     contentArea.className = 'viewer-content-area';
-
-    //     console.log('Creating content area with:', content);
-
-    //     const contentHTML = `
-    //         <header class="viewer-header">
-    //             <div class="viewer-meta">
-    //                 <span class="viewer-category">${this.escapeHtml(content.category || '')}</span>
-    //                 <span class="viewer-location">${this.escapeHtml(content.location || '')}</span>
-    //             </div>
-    //             <h2 class="viewer-title">${this.escapeHtml(content.title || '')}</h2>
-    //         </header>
-    //         <div class="viewer-description">
-    //             ${content.description || '<p>No additional details available.</p>'}
-    //         </div>
-    //         <nav class="viewer-nav">
-    //             <button class="viewer-nav-btn prev" aria-label="Previous project">&larr; Previous</button>
-    //             <button class="viewer-nav-btn next" aria-label="Next project">Next &rarr;</button>
-    //         </nav>
-    //     `;
-
-    //     contentArea.innerHTML = contentHTML;
-    //     return contentArea;
-    // }
-
     createContentArea(content) {
         const contentArea = document.createElement('div');
         contentArea.className = 'viewer-content-area';
@@ -207,7 +180,11 @@ class EnhancedViewer {
         const closeViewer = () => this.closeViewer();
 
         closeButton.addEventListener('click', closeViewer);
+
+        // Close when clicking the dark background (overlay itself)
         viewerOverlay.addEventListener('click', (event) => {
+            // Only close if clicking the overlay itself (dark background)
+            // NOT the viewer-container or any of its children
             if (event.target === viewerOverlay) {
                 closeViewer();
             }
