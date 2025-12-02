@@ -48,7 +48,7 @@
     background: rgba(255, 255, 255, 0);
     border: none;
     color: white;
-    font-size: 2rem;
+    font-size: 32px;
     width: 100px;
     height: 100vh;
     border-radius: 1px;
@@ -74,7 +74,7 @@
     display: block;
     color: #000;
     opacity: 0;
-    font-size: 1em;
+    font-size: 20px;
     position: absolute;
     top: 50vh;
     transform: rotate(-90deg);
