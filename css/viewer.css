@@ -166,6 +166,7 @@
     margin: 0 0 .5em 0;
     display: inline-block;
     width: min-content;
+    white-space: nowrap;
 }
 
 .viewer-category:hover {
