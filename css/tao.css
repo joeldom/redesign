@@ -49,6 +49,11 @@
         background-color: #1a1e1c;
         color: #1a3acc;
     }
+    
+    body.dark-mode .palette-darkolive {
+        background-color: #0f0f0f !important;
+        color: #1a3acc;
+    }
     /* @media (min-width: 768px) {
     .wrapper {
         padding-top: 0px;
