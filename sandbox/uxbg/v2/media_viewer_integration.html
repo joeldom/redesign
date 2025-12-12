@@ -1,0 +1,241 @@
+<!-- INTEGRATION INSTRUCTIONS:
+     1. Add the CSS block to your <head> section (after your existing stylesheets)
+     2. Add the mouse indicator div right after opening <body> tag
+     3. Add the media viewer div right after the mouse indicator
+     4. Add the script block before closing </body> tag
+     5. Add class="buttons-visible" to #collapse1 div
+-->
+
+<!-- ========== STEP 1: ADD TO <head> SECTION ========== -->
+<style>
+/* Media viewer layer - sits between background and content */
+.media-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.media-viewer.active {
+    opacity: 1;
+}
+
+.media-viewer video,
+.media-viewer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7) contrast(1.1);
+}
+
+/* Ensure collapse1 content is above media viewer */
+#collapse1 {
+    position: relative;
+    z-index: 2;
+}
+
+/* Button row fade states */
+#collapse1 .row {
+    transition: opacity 0.4s ease;
+}
+
+#collapse1.buttons-hidden .row {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#collapse1.buttons-visible .row {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Mouse indicator */
+.mouse-indicator {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #e0e9fe;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.15s ease;
+    opacity: 0;
+    mix-blend-mode: difference;
+}
+
+.mouse-indicator.active {
+    opacity: 1;
+}
+</style>
+
+
+<!-- ========== STEP 2 & 3: ADD RIGHT AFTER <body> TAG ========== -->
+<!-- Mouse indicator -->
+<div class="mouse-indicator"></div>
+
+<!-- Media viewer layer (between bg and content) -->
+<div class="media-viewer" id="mediaViewer">
+    <img src="https://media1.tenor.com/images/371f9f39bf86b53a2de6468e7bf142d4/tenor.gif" alt="Nature background">
+</div>
+
+
+<!-- ========== STEP 4: MODIFY YOUR #collapse1 DIV ========== -->
+<!-- CHANGE FROM: -->
+<div id="collapse1" class="container-fluid palette-darkolive grid-bg">
+
+<!-- CHANGE TO: -->
+<div id="collapse1" class="container-fluid palette-darkolive grid-bg buttons-visible">
+
+
+<!-- ========== STEP 5: ADD BEFORE CLOSING </body> TAG ========== -->
+<script>
+    // ===== CONFIGURATION =====
+    const CONFIG = {
+        IDLE_DELAY: 2000,              // Milliseconds before GIF appears when idle
+        HIDE_BUTTONS_ON_IDLE: true,    // Set to false to keep buttons visible when GIF shows
+        BUTTON_FADE_DURATION: 400      // Button fade animation duration (matches CSS transition)
+    };
+    // =========================
+
+    // State management
+    let idleTimer = null;
+    let isGifVisible = false;
+    let lastMouseMove = Date.now();
+
+    // DOM elements
+    const mediaViewer = document.getElementById('mediaViewer');
+    const buttonContainer = document.getElementById('collapse1');
+    const mouseIndicator = document.querySelector('.mouse-indicator');
+
+    // Mouse/touch tracking
+    function handleMouseMove(e) {
+        const x = e.clientX || (e.touches && e.touches[0].clientX);
+        const y = e.clientY || (e.touches && e.touches[0].clientY);
+        
+        if (!x || !y) return;
+
+        // Update mouse indicator position
+        mouseIndicator.style.left = `${x}px`;
+        mouseIndicator.style.top = `${y}px`;
+        mouseIndicator.classList.add('active');
+
+        lastMouseMove = Date.now();
+
+        // If GIF is showing, hide it immediately on mouse move
+        if (isGifVisible) {
+            hideGif();
+        }
+
+        // Clear existing idle timer
+        if (idleTimer) {
+            clearTimeout(idleTimer);
+        }
+
+        // Set new idle timer to show GIF after configured delay
+        idleTimer = setTimeout(() => {
+            showGif();
+        }, CONFIG.IDLE_DELAY);
+    }
+
+    // Show GIF overlay
+    function showGif() {
+        isGifVisible = true;
+        mediaViewer.classList.add('active');
+
+        // Hide buttons if configured to do so
+        if (CONFIG.HIDE_BUTTONS_ON_IDLE) {
+            buttonContainer.classList.add('buttons-hidden');
+            buttonContainer.classList.remove('buttons-visible');
+        }
+
+        // Start video playback if it's a video element
+        const video = mediaViewer.querySelector('video');
+        if (video) {
+            video.play().catch(err => console.log('Video autoplay prevented:', err));
+        }
+    }
+
+    // Hide GIF overlay
+    function hideGif() {
+        isGifVisible = false;
+        mediaViewer.classList.remove('active');
+
+        // Show buttons again
+        buttonContainer.classList.remove('buttons-hidden');
+        buttonContainer.classList.add('buttons-visible');
+
+        // Pause video if it's playing
+        const video = mediaViewer.querySelector('video');
+        if (video) {
+            video.pause();
+        }
+    }
+
+    // Hide mouse indicator when idle
+    function checkMouseIdle() {
+        if (Date.now() - lastMouseMove > CONFIG.IDLE_DELAY + 1000) {
+            mouseIndicator.classList.remove('active');
+        }
+    }
+
+    // Touch events
+    function handleTouchStart(e) {
+        handleMouseMove(e);
+    }
+
+    // Event listeners
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('touchstart', handleTouchStart);
+    document.addEventListener('touchmove', handleMouseMove);
+
+    // Check for mouse idle periodically
+    setInterval(checkMouseIdle, 500);
+
+    // Start the idle timer on page load
+    idleTimer = setTimeout(() => {
+        showGif();
+    }, CONFIG.IDLE_DELAY);
+
+    // Helper function to switch media (for testing)
+    window.switchToVideo = function(videoUrl) {
+        mediaViewer.innerHTML = `
+            <video loop muted playsinline>
+                <source src="${videoUrl}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        `;
+        
+        if (isGifVisible) {
+            const video = mediaViewer.querySelector('video');
+            video.play().catch(err => console.log('Video playback error:', err));
+        }
+    };
+
+    window.switchToGif = function(gifUrl) {
+        mediaViewer.innerHTML = `<img src="${gifUrl}" alt="Background media">`;
+    };
+
+    // Cleanup on page unload
+    window.addEventListener('beforeunload', () => {
+        if (idleTimer) {
+            clearTimeout(idleTimer);
+        }
+    });
+
+    // Log configuration for developers
+    console.log('%c🎬 Interactive Background Viewer', 'font-size: 16px; font-weight: bold; color: #1a3acc;');
+    console.log('%cConfiguration:', 'font-weight: bold;');
+    console.log('  IDLE_DELAY:', CONFIG.IDLE_DELAY + 'ms');
+    console.log('  HIDE_BUTTONS_ON_IDLE:', CONFIG.HIDE_BUTTONS_ON_IDLE);
+    console.log('  BUTTON_FADE_DURATION:', CONFIG.BUTTON_FADE_DURATION + 'ms');
+    console.log('\n%cAvailable functions:', 'font-weight: bold;');
+    console.log('- switchToVideo("url") - Load a video background');
+    console.log('- switchToGif("url") - Load a GIF background');
+    console.log('\n%cExample usage:', 'font-weight: bold;');
+    console.log('switchToVideo("https://example.com/nature.mp4")');
+</script>

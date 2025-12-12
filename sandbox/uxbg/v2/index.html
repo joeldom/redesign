@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Joel Dombek Design</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="greybox/css/coma.css" />
+    <link rel="stylesheet" href="css/tao.css" />
+    <link rel="stylesheet" href="../style-guide/css/theme.css" />
+    <link rel="stylesheet" href="css/prompt.css" />
+    
+    <style>
+        .media-viewer {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.6s ease;
+        }
+        .media-viewer.active { opacity: 1; }
+        .media-viewer video, .media-viewer img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.7) contrast(1.1);
+        }
+        #collapse1 {
+            position: relative;
+            z-index: 2;
+        }
+        #collapse1 .row { transition: opacity 0.4s ease; }
+        #collapse1.buttons-hidden .row {
+            opacity: 0;
+            pointer-events: none;
+        }
+        #collapse1.buttons-visible .row {
+            opacity: 1;
+            pointer-events: all;
+        }
+        .mouse-indicator {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            border: 2px solid #e0e9fe;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transition: transform 0.15s ease;
+            opacity: 0;
+            mix-blend-mode: difference;
+        }
+        .mouse-indicator.active { opacity: 1; }
+    </style>
+    
+    <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+    <script src="https://unpkg.com/freezeframe/dist/freezeframe.min.js"></script>
+</head>
+
+<body class="home page page-template margin-para dark-mode">
+    
+    <div class="mouse-indicator"></div>
+    <div class="media-viewer" id="mediaViewer">
+        <img src="https://media1.tenor.com/images/371f9f39bf86b53a2de6468e7bf142d4/tenor.gif" alt="background">
+    </div>
+
+    <div class="wrapper">
+        <div class="toggle">
+            <div class="container-fluid">
+                <button href="#collapse1" class="quote-toggle" style="z-index: 999;">
+                    Collapse section &nbsp;<i class="material-icons">clear</i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="collapse1" class="container-fluid palette-darkolive grid-bg buttons-visible">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+            <div class="col-xs-12 col-sm-4">
+                <section class="tile-spacer"><p>&emsp;</p></section>
+                <br class="gap visible-lg" />
+            </div>
+            <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-md-4">
+                <section class="tile-splash first">
+                    <a href="https://joeldom.github.io/redesign/">
+                        <p>JOEL<strong>DOMBEK</strong> /名前
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" fill="red" width="20" height="20" viewBox="0 0 20 20">
+                                <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                            </svg>
+                        </p>
+                    </a>
+                </section>
+                <br class="gap visible-md visible-lg" />
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">&emsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-md-4">
+                <section class="tile-splash">
+                    <a href="https://joeldom.github.io/redesign/all/" title="All work">
+                        <p>WORK / <span id="work-term-container">工作</span>
+                            <span class="tile-detail">v1.12.25</span><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#1a3acc" width="20" height="20" viewBox="0 0 20 20" class="inline">
+                                <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                            </svg>
+                        </p>
+                    </a>
+                </section>
+                <br class="gap visible-md visible-lg" />
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">&emsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-md-4">
+                <section class="tile-splash">
+                    <a href="https://joeldom.github.io/style-guide/" title="Style Guide">
+                        <p>STYLE GUIDE / <span id="styleguide-term-container">样式指南</span> <span class="tile-detail">v2.1.25</span><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#1a3acc" width="20" height="20" viewBox="0 0 20 20" class="inline">
+                                <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                            </svg>
+                        </p>
+                    </a>
+                </section>
+                <br class="gap visible-md visible-lg" />
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">&emsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-md-4">
+                <section class="tile-splash">
+                    <a href="https://joeldom.github.io/redesign/sandbox/" title="Code Sandbox">
+                        <p>SANDBOX / <span id="sandbox-term-container">沙盒</span> <span class="tile-detail">v1.2.17</span><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="#1a3acc" width="20" height="20" viewBox="0 0 20 20" class="inline">
+                                <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                            </svg>
+                        </p>
+                    </a>
+                </section>
+                <br class="gap visible-lg" />
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-12 col-lg-12">&nbsp;</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-4 visible-sm visible-md visible-lg">&emsp;</div>
+            <div class="col-xs-12 col-sm-8 col-md-4">
+                <section class="tile-splash">
+                    <a href="https://joeldom.github.io/style-guide/ux/Case-Studies/" title="Case Studies">
+                        <p>CASE STUDIES / <span id="casestudies-term-container">案例研究</span> <span class="tile-detail">v2.1.23</span><br>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" class="inline">
+                                <path d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+                            </svg>
+                        </p>
+                    </a>
+                </section>
+                <br class="gap visible-lg" />
+            </div>
+            <div class="col-xs-12 col-sm-4">&emsp;</div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script>
+    <script src="https://joeldom.github.io/redesign/js/typed-content.js"></script>
+    <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+    
+    <script>
+        const CONFIG = {
+            IDLE_DELAY: 2000,
+            HIDE_BUTTONS_ON_IDLE: true,
+            BUTTON_FADE_DURATION: 400
+        };
+
+        let idleTimer = null, isGifVisible = false, lastMouseMove = Date.now();
+        const mediaViewer = document.getElementById('mediaViewer');
+        const buttonContainer = document.getElementById('collapse1');
+        const mouseIndicator = document.querySelector('.mouse-indicator');
+
+        function handleMouseMove(e) {
+            const x = e.clientX || (e.touches && e.touches[0].clientX);
+            const y = e.clientY || (e.touches && e.touches[0].clientY);
+            if (!x || !y) return;
+
+            mouseIndicator.style.left = x + 'px';
+            mouseIndicator.style.top = y + 'px';
+            mouseIndicator.classList.add('active');
+            lastMouseMove = Date.now();
+
+            if (isGifVisible) hideGif();
+            if (idleTimer) clearTimeout(idleTimer);
+            idleTimer = setTimeout(showGif, CONFIG.IDLE_DELAY);
+        }
+
+        function showGif() {
+            isGifVisible = true;
+            mediaViewer.classList.add('active');
+            if (CONFIG.HIDE_BUTTONS_ON_IDLE) {
+                buttonContainer.classList.add('buttons-hidden');
+                buttonContainer.classList.remove('buttons-visible');
+            }
+            const video = mediaViewer.querySelector('video');
+            if (video) video.play().catch(err => console.log('Video autoplay prevented:', err));
+        }
+
+        function hideGif() {
+            isGifVisible = false;
+            mediaViewer.classList.remove('active');
+            buttonContainer.classList.remove('buttons-hidden');
+            buttonContainer.classList.add('buttons-visible');
+            const video = mediaViewer.querySelector('video');
+            if (video) video.pause();
+        }
+
+        function checkMouseIdle() {
+            if (Date.now() - lastMouseMove > CONFIG.IDLE_DELAY + 1000) {
+                mouseIndicator.classList.remove('active');
+            }
+        }
+
+        document.addEventListener('mousemove', handleMouseMove);
+        document.addEventListener('touchstart', handleMouseMove);
+        document.addEventListener('touchmove', handleMouseMove);
+        setInterval(checkMouseIdle, 500);
+        idleTimer = setTimeout(showGif, CONFIG.IDLE_DELAY);
+
+        window.switchToVideo = function(url) {
+            mediaViewer.innerHTML = '<video loop muted playsinline><source src="' + url + '" type="video/mp4"></video>';
+            if (isGifVisible) mediaViewer.querySelector('video').play();
+        };
+
+        window.switchToGif = function(url) {
+            mediaViewer.innerHTML = '<img src="' + url + '" alt="Background media">';
+        };
+
+        window.addEventListener('beforeunload', () => { if (idleTimer) clearTimeout(idleTimer); });
+        
+        console.log('%c🎬 Interactive Background Viewer', 'font-size: 16px; font-weight: bold; color: #1a3acc;');
+        console.log('Config:', CONFIG);
+        console.log('Functions: switchToVideo("url"), switchToGif("url")');
+    </script>
+</body>
+</html>
