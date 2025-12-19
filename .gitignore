@@ -54,7 +54,7 @@ greybox/config.codekit
 
 *.psd
 *.ai
-*.mp4
+.mp4
 *.mov
 *.pdf
 .pdf
