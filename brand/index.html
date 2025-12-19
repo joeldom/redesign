@@ -64,7 +64,7 @@
     <link rel="stylesheet" href="../css/sandbox.css" />
     <link rel="stylesheet" href="../css/packet.css" />
     <link rel="stylesheet" href="../css/prompt.css" />
-    <link rel="stylesheet" href="../../style-guide/css/enlarge.css" />
+    <link rel="stylesheet" href="../css/viewer.css" />
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9GLG41WK0"></script>
     <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
@@ -167,20 +167,40 @@
                     <!-- <img id="Code-Sandbox" class="grow" src="https://raw.githubusercontent.com/joeldom/asset/refs/heads/main/images/sandbox-stretch-scale.gif" alt="Sandbox">
                     <button class="enlarge-btn" title="Enlarge" aria-label="Enlarge"></button> -->
                     <!-- <article style="background-image: url('https://joeldom.github.io/asset/images/EXO Launch-v2.png')"> -->
-                    <article style="background-image: url('https://joeldom.github.io/asset/images/exo-square-190F7B.png'); background-size: 320px auto;">
+                    <article style="background-image:url('https://joeldom.github.io/asset/images/exo-square-190F7B.png'); background-size: 320px auto;">
                         <a href="#" class="post-link">
                             <div class="article-inner">
-                                <h3 class="cat ">Exo</h3>
-                                <h2>Bot Agent Account</h2>
+                                <h3 class="name">Exo</h3>
+                                <h2>AI Agent Account</h2>
                             </div>
-                            <!-- TODO: add feature to show info  -->
-                            <!--
-							<div class="gallery-item-info">
-                                <h3 class="cat ">Exo</h3>
-                                <h2>Bot Agent Account</h2>
-								<button class="info-btn" title="Info" aria-label="Info">View</button>
-                            </div> -->
                         </a>
+
+                        <!-- Simple semantic content -->
+                        <div class="viewer-content" style="display: none;">
+                            <h3 class="cat">Brand</h3>
+                            <div class="viewer-title">Exo AI Agent</div>
+
+                            <div class="viewer-description">
+                                <h3>Overview</h3>
+                                <p>Exo is an AI agent I developed to change how I handled content creation. Exo would take in ideas and prompts from a ticket it is assigned. It would then create the post in a PR and tagging me to approve and push with and
+                                    without changes.It would utilize Discord or Twitter to send me a notification about the work and the larger idea being a way to test content with a social preview.
+                                </p>
+                                <p>At its core, Exo bridges the gap between ideation and impact. It integrates seamlessly with social ecosystems like Twitter (X) and Discord, automating posts while benchmarking data streams for optimal timing and engagement.
+                                    This project allows me to think outside of just UIs and work on building tools that use AI along side working more with emerging DevOps patterns.
+                                    <ul>
+                                        <li><strong>AI Layer</strong>: OpenAI/Anthropic APIs for dynamic content curation.</li>
+                                        <li><strong>Social APIs</strong>: Twitter API v2 (via <code>twitter-api-v2</code>) and Discord.js for secure, authenticated posting.</li>
+                                        <li><strong>DevOps Tools</strong>: GitHub Actions for automated deployments, .env-based config for secure secrets, and CLI interactivity via Node's readline module.</li>
+                                        <li><strong>Structure</strong>: Clean separation of concerns—<code>src/services/</code> for integrations, utils/ for formatting/validation, and logs/ for history tracking.</li>
+                                    </ul>
+                                    <h3>Goal</h3>
+                                    <p>The aim is to make a tool that is also productivity multiplier. The project incorporates new and emerging patterns with AI agents, Github automation/actions, Discord bots with social previews I have been working with
+                                        for some time but wanted to connect to a new visual brand. After reading about
+                                        <a href="https://xbow.com/" target="_blank">XBOW</a> that describes itself as "XBOW is an AI-powered penetration testing platform that delivers expert-level security testing at machine speed."</p>
+                                    <p>Check out the live repo at
+                                        <a href="https://github.com/joeldom/exo" target="_blank">github.com/joeldom/exo</a> or follow updates on X <a href="https://x.com/ecco_exo" target="_blank">@ecco_exo</a>.</p>
+                            </div>
+                        </div>
                     </article>
 
                     <article style="background-image:url('https://joeldom.github.io/asset/images/ecco-ohno.png'); background-size: 400px auto;">
@@ -430,6 +450,7 @@
         <script src="../js/sandbox.js"></script>
         <script src="../js/keyShuffle.js"></script>
         <script src="../js/prompt.js"></script>
+        <script src="../js/viewer.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
         <script>
             hljs.highlightAll();
