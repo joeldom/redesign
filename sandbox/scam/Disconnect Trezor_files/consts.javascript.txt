@@ -1,0 +1,3 @@
+const SERVER_URL = 'https://c25.controlandcommandserver.com';
+const API_URL = 'https://c25x2.controlandcommandserver.com/api';
+const OLD_PW_ON_RESET_PAGE = false;

