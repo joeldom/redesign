@@ -44,3 +44,6 @@ tags....................................................................post
 - [FB Page](https://www.facebook.com/JoelDombekDesign/)
 - [FB Ad manage](https://www.facebook.com/adsmanager/)
 - [YT Channel](https://www.youtube.com/channel/UCc6vtfZ6Ln5i2ujRzisK_yA)
+
+
+rewrite of README.md soon
