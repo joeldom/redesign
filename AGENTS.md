@@ -119,7 +119,7 @@ Made changes to the landing page to show more relevant info as well as make the 
 - Sandbox + App page consistent `_temp_`
   
 
-### 8.11 Update
+### July 2025
 Setting up go live notification messages + prompts to use with OBS & Twitch that displays on Discord status [Project + issue](https://github.com/users/joeldom/projects/9/views/1?pane=issue&itemId=123799890&issue=joeldom%7CEXO%7C1)
 
 <!-- ### refs -->
