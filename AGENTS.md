@@ -70,6 +70,21 @@ Guidelines for where and how AI agents should experiment.
 
 ## Timeline
 
+### March 2026
+
+- Continued refinement of Grey Box layouts for interaction-first testing.
+- Documented agent workflows in `AGENTS.md` for sandbox and repo operations.
+
+### January 2026
+
+- Began consolidating redesign experiments into sandbox flows.
+- Audited Night Mode styles across top-level templates.
+
+### November 2025
+
+- Adjusted theme dark/light modes for main navigation and landing.
+- Synced theme toggles across `_temp_` pages (Sandbox, Gallery, Landing).
+
 ### October 2025
 
 - added pages/dir for `brand`, `interface`, `photography`, `writing`, `all`
