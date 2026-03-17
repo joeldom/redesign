@@ -1,22 +1,4 @@
 # Agents Workflow Instructions
-
-This is the `.AGENTS` file for the UI/UX testing page & test environment for [joeldombek.com](http://www.joeldombek.com) redesign. Catalog of ideas and issue tracking with live dev environment. The development diary and updated issue tracking can be seen at [2026](http://joeldom.github.io/redesign/)
-
-### Grey Box `init`
-
-The idea of this is to layout page template elements independent of content and focus on user interaction and organization. The current build [Grey Box](http://joeldom.github.io/redesign/greybox/) will have know todo's and issues detailed along with ideas for future builds.
-
-### Brief
-
-Development of a production environment for testing (main, resume, projects, assets) phases & maintain a consistent update lifecycle.
-
-### Abstract
-
-
-
-
----
-
 ## Agent Overview (Read Me First)
 
 - **Purpose**: UI/UX testing page & test environment for the site redesign.
@@ -24,6 +6,33 @@ Development of a production environment for testing (main, resume, projects, ass
 - **Status Log**: Development diary and issue tracking are mirrored at [2025](http://joeldom.github.io/redesign/).
 
 ---
+
+This `.AGENTS` file defines guidelines and workflows specifically for AI agents collaborating on the UI/UX testing and live development environment for [joeldombek.com](http://www.joeldombek.com). As an AI Agent, use this file as your workflow reference for:
+
+- Understanding how to generate, track, and link ideas/tasks to relevant GitHub issues. 
+  - Consider adding a dedicated area here (or in a supporting file) to list active GitHub project/issue links. These can serve as default prompt sources for:
+    - Utility/task-runner prompts (e.g., generating test plans, assigning next actions).
+    - Concept > prototype > sandbox flows: clearly document where AI experiments should move from an initial idea, through prototyping, into sandbox/test directories.
+- When creating or updating prompts for automations, reference the live dev environment and associated issue links to keep everything coordinated.
+- Use standardized links to known issues and the [2026 development diary](http://joeldom.github.io/redesign/) as jumping-off points for new experiments, improvements, or documentation files.
+- Maintain a clear mapping between ideas, issue tracking, prompt templates (including those for concept/experiment/sandbox flow), and the final implemented files for smoother AI-human handoff and review.
+
+
+<!-- ### Grey Box `init`
+
+The idea of this is to layout page template elements independent of content and focus on user interaction and organization. The current build [Grey Box](http://joeldom.github.io/redesign/greybox/) will have know todo's and issues detailed along with ideas for future builds. -->
+
+<!-- ### Brief
+
+Development of a production environment for testing (main, resume, projects, assets) phases & maintain a consistent update lifecycle.
+
+### Abstract -->
+
+
+
+
+---
+
 
 ## Agent Sandbox Workflow
 
