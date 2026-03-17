@@ -1,0 +1,91 @@
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Compiled files
+*.log
+*.bak
+*.swp
+*.out
+*.pid
+*.pid.lock
+*.seed
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+
+# OS generated files
+ehthumbs.db
+Desktop.ini
+
+# Editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Package management files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+*~
+
+# Node.js
+npm-debug.log
+node_modules/
+/dist/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/vendor/bundle
+/.bundle
+/.sass-cache
+/.vagrant/
+/vendor/bundle/
+/log/
+/tmp/
+!/log/.keep
+!/tmp/.keep

@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]--
+<html lang="en-US" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title></title>
+
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="base.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <style>
+      body{
+        padding: 1em 4em;
+      }
+      .material-icons{font-size: inherit !important;vertical-align: middle;}
+      h2, .grid-post__title{
+        font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        color: #545454;
+      }
+      p, .grid-post__content{
+        font-family: "Helvetica-Neue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+        color: #545454;
+        letter-spacing: .005em;
+        text-rendering: optimizeLegibility;
+        font-size: 14px !important;
+
+      }
+      time{
+        font-size: 85%;
+        font-weight: 400;
+      }
+      .grid-post__metadata span{padding: 0;}
+      button{color: #545454;}
+      .social button{font-size: 12px;pointer: }
+      .social span{
+        margin-right: 8px;
+        position: relative;
+      }
+      .social span button{text-decoration: none;border: none;}
+      .social span button:hover{color: black;}
+      .social span button span.hint, .social span.hint{
+        pointer-events: none;
+        display: none;
+        position: absolute;
+        top: -2.5rem;
+        left: 0;
+        height: 2rem;
+        line-height: 2rem;
+        background-color: #545454;
+        border-radius: 1rem;
+        padding: 0 0.6875rem;
+        color: white !important;
+        white-space: nowrap;
+        -webkit-transition: opacity 150ms ease, visibility 0s ease 150ms;
+        transition: opacity 150ms ease, visibility 0s ease 150ms;
+        -webkit-transform: translateX(calc(-50% + 20px));
+        -ms-transform: translateX(calc(-50% + 20px));
+      }
+      .social span button:hover span.hint, .social button:hover span.hint{
+        display: inline-block;
+        color: white;
+        z-index: 999;
+      }
+      .timeline__item--left .grid-post__metadata{
+        /*padding-right: 110px;*/
+        right: -30px;
+        position: relative;
+      }
+      .timeline__item--right .grid-post__metadata{
+        /*padding-left: 110px;*/
+        left: -30px;
+        position: relative;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <div class="timeline">
+
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/951593">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2014-08-13T15:16:30-04:00">August 13, 2014</time>
+    </p>
+    <h2 class="grid-post__title">
+    A new project: Coaster/Opener
+    </h2>
+    <div class="grid-post__content">
+
+    <p>We just launched our latest project on Kickstarter, the stainless steel Coaster/Opener- heavy duty, american made coasters with some familiar details. Clearly we have spent more time drinking... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider">
+    <div class="timeline__divider--month-range">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2014-07-31T23:59:59-04:00">Jul 2014</time>
+    </div>
+    </div>
+    <div class="month-range--long timeline__divider--month-range-break"></div>
+    <div class="timeline__divider--month-range">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2014-02-28T23:59:59-05:00">Feb 2014</time>
+    </div>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/736552">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2014-02-02T18:01:10-05:00">February 2, 2014</time>
+    </p>
+    <h2 class="grid-post__title">
+    Bandboards now available in our webshop
+    </h2>
+    <div class="grid-post__content">
+
+    <p>Many have asked when our Bandboard aluminum clipboard would be available for sale. Now that all of the Kickstarter Rewards have shipped, we have the remainder of our... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--month">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2014-01-31T23:59:59-05:00">Jan 2014</time>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/715864">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2014-01-09T17:29:20-05:00">January 9, 2014</time>
+    </p>
+    <h2 class="grid-post__title">
+    OOPS
+    </h2>
+    <div class="grid-post__metadata">
+      <div class="social">
+					<span class="post-views">
+						<button>
+							<i class="fa fa-eye"></i> 100
+							<span class="hint">Views</span>
+						</button>
+					</span>
+					<span class="post-time-ago">
+						<button>
+							1d
+							<span class="hint">Posted</span>
+						</button>
+					</span>
+					<span class="comment-tools">
+						<button>
+							<i class="fa fa-comment-o"></i> 5
+							<span class="hint">Comments</span>
+					  </button>
+					</span>
+					<span class="love-tools">
+						<button>
+							<i class="fa fa-heart-o"></i>
+							<span class="hint">Love</span>
+					  </button>
+					</span>
+					<span class="share-tools">
+						<button>
+							<i class="fa fa-share"></i>
+							<span class="hint">Share</span>
+					  </button>
+					</span>
+				</div>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/710670">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2014-01-03T13:59:06-05:00">January 3, 2014</time>
+    </p>
+    <h2 class="grid-post__title">
+    new TITANIUM A3 wallet
+    </h2>
+    <div class="grid-post__content">
+
+    <p>Hoping you had a fine holiday season.</p>
+    <p>During the campaign this time last year many of you asked about the wallets in titanium. We decided to do a... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+      <div class="social">
+          <span class="post-views">
+            <button>
+              <i class="fa fa-eye"></i> 100
+              <span class="hint">Views</span>
+            </a>
+          </span>
+          <span class="post-time-ago">
+            <button>
+              1d
+              <span class="hint">Posted</span>
+            </button>
+          </span>
+          <span class="comment-tools">
+            <button>
+              <i class="fa fa-comment-o"></i> 5
+              <span class="hint">Comments</span>
+            </button>
+          </span>
+          <span class="love-tools">
+            <button>
+              <i class="fa fa-heart-o"></i>
+              <span class="hint">Love</span>
+            </button>
+          </span>
+          <span class="share-tools">
+            <button>
+              <i class="fa fa-share"></i>
+              <span class="hint">Share</span>
+            </button>
+          </span>
+        </div>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider">
+    <div class="timeline__divider--month-range">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-12-31T23:59:59-05:00">Dec 2013</time>
+    </div>
+    </div>
+    <div class="month-range--short timeline__divider--month-range-break"></div>
+    <div class="timeline__divider--month-range">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-09-30T23:59:59-04:00">Sep 2013</time>
+    </div>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/602261">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-09-17T20:12:41-04:00">September 17, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    ANOTHER O-RING AND ALUMINUM PRODUCT
+    </h2>
+    <div class="grid-post__metadata">
+    <span>
+    1 Comment
+    </span>
+    <span>
+    <div class="ss-icon ss-backer"></div>
+    <b>
+    For backers only
+    </b>
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider">
+    <div class="timeline__divider--month-range">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-08-31T23:59:59-04:00">Aug 2013</time>
+    </div>
+    </div>
+    <div class="month-range--short timeline__divider--month-range-break"></div>
+    <div class="timeline__divider--month-range">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-04-30T23:59:59-04:00">Apr 2013</time>
+    </div>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/466271">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-29T17:16:16-04:00">April 29, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    IT IS DONE.
+    </h2>
+    <div class="grid-post__content">
+
+    <p>It took us a bit longer than we thought (meaning countless hours in line at the post office) but finally, as of today, all rewards have been shipped.... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    6 Comments
+    </span>
+    <span aria-hidden="true" class="-icon__image" options="{&quot;original-title&quot;=>&quot;This post has images&quot;}"></span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/462402">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-23T22:22:16-04:00">April 23, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    ALMOST COMPLETE
+    </h2>
+    <div class="grid-post__content">
+    <p>We are almost done shipping all of the orders. It is clearly taking longer than we thought (especially those customs forms for the international packages!)</p>
+    <p>At this point we have... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    14 Comments
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/457919">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-18T15:01:20-04:00">April 18, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    BLACK IS BACK!!!
+    </h2>
+    <div class="grid-post__metadata">
+    <span>
+    14 Comments
+    </span>
+    <span>
+    <div class="ss-icon ss-backer"></div>
+    <b>
+    For backers only
+    </b>
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+      <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/455767">
+        <p class="grid-post__date">
+          <time class="js-adjust-time" data-format="LL" datetime="2013-04-16T11:00:20-04:00">April 16, 2013</time>
+        </p>
+        <h2 class="grid-post__title">THE LATEST</h2>
+        <div class="grid-post__content">
+          <p>We are pleased to hear from many supporters about how happy they are with the product. We hope that all of you who ordered plates in black will... <u class="nowrap">Read more</u></p>
+        </div>
+        <div class="grid-post__metadata">
+          <div class="social">
+    					<span class="post-views">
+    						<button>
+    							<i class="fa fa-eye"></i> 100
+    							<span class="hint">Views</span>
+    						</button>
+    					</span>
+    					<span class="post-time-ago">
+    						<button>
+    							1d
+    							<span class="hint">Posted</span>
+    						</button>
+    					</span>
+    					<span class="comment-tools">
+    						<button>
+    							<i class="fa fa-comment-o"></i> 5
+    							<span class="hint">Comments</span>
+    					  </button>
+    					</span>
+    					<span class="love-tools">
+    						<button>
+    							<i class="fa fa-heart-o"></i>
+    							<span class="hint">Love</span>
+    					  </button>
+    					</span>
+    					<span class="share-tools">
+    						<button>
+    							<i class="fa fa-share"></i>
+    							<span class="hint">Share</span>
+    					  </button>
+    					</span>
+    				</div>
+        </div>
+      </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/451944">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-11T16:59:23-04:00">April 11, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    BLACK WILL BE BACK...
+    </h2>
+    <div class="grid-post__content">
+
+    <p>I know you are all patiently waiting on the black to come back. So are we. We expect it any day now, but it was after all the... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    3 Comments
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/448024">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-07T14:31:38-04:00">April 7, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    SHIPPING PARTY
+    </h2>
+    <div class="grid-post__content">
+    <p>Well, it has been quite a busy weekend. Shipping almost 1000 orders is quite a task, but it looks like everything that does not involve a black plate will be... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    12 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/445114">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-03T21:21:10-04:00">April 3, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    GOOD NEWS! RED AND GREY O-RINGS, BUT..........
+    </h2>
+    <div class="grid-post__content">
+
+    <p>So the good news is, we just received the red and grey o-rings and they look fantastic. Below are some shots comparing them with the orange and black.... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    23 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/443166">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-04-01T22:14:07-04:00">April 1, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    WALLETS ARE READY TO SHIP
+    </h2>
+    <div class="grid-post__content">
+
+    <p>We have all of the plates back from the anodizer and just received a massive box of black o-rings. We are still waiting on red and grey o-rings,... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    13 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--month">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-03-31T23:59:59-04:00">Mar 2013</time>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/434665">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-03-22T11:46:18-04:00">March 22, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    ORANGE O-RINGS ARE IN!
+    </h2>
+    <div class="grid-post__content">
+
+    <p>We just received the orange o-rings and expect the red, grey and our massive order of black to arrive mid next week. At this time we should have... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    9 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/424688">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-03-10T17:17:52-04:00">March 10, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    SORTING AND PREPPING FOR ANODIZATION
+    </h2>
+    <div class="grid-post__content">
+    <p>We have spent the afternoon sorting through the plates to check and double check our counts for anodization. All is well and we will drop them off tomorrow for the... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    11 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/422853">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-03-08T01:48:54-05:00">March 8, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    LASERCUTTING IS COMPLETE
+    </h2>
+    <div class="grid-post__content">
+    <p>At long last the laser cutting, tumbling, and deburring is complete. We now need to sort through thousands of plates to make sure everything is in order and then drop... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    9 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/417073">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-03-01T21:18:23-05:00">March 1, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    MAKING PROGRESS
+    </h2>
+    <div class="grid-post__content">
+    <p>Hello all.</p>
+    <p>The laser cutting is complete. Now all four thousand plates need to be tumbled and de-burred. We expect this to be done by late next week, and then... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    3 Comments
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--month">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-02-28T23:59:59-05:00">Feb 2013</time>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/402873">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-02-10T13:00:41-05:00">February 10, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    PRODUCTION HAS BEGUN
+    </h2>
+    <div class="grid-post__content">
+
+    <p>Just wanted to post a brief update about the status of the project, but firstly let me remind you all to complete the survey if you haven't done... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    11 Comments
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/399414">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-02-05T11:37:34-05:00">February 5, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    REGARDING THE SURVEY
+    </h2>
+    <div class="grid-post__metadata">
+    <span>
+    13 Comments
+    </span>
+    <span>
+    <div class="ss-icon ss-backer"></div>
+    <b>
+    For backers only
+    </b>
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/398989">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-02-04T18:27:19-05:00">February 4, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    WE DID IT, WITH YOUR SUPPORT
+    </h2>
+    <div class="grid-post__metadata">
+    <span>
+    1 Comment
+    </span>
+    <span>
+    <div class="ss-icon ss-backer"></div>
+    <b>
+    For backers only
+    </b>
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--successful">
+    <div class="timeline__divider_content">
+    <div class="h5 bold mb1">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-02-04T16:47:05-05:00">February 4, 2013</time>
+    </div>
+    <div class="h3">
+    Successfully raised $45,241 USD with 778 backers
+    </div>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/397321">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-02-01T18:40:40-05:00">February 1, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    FINAL DRAWINGS OF WALLETS / NOTES ON MANUFACTURE AND DELIVERY
+    </h2>
+    <div class="grid-post__content">
+    <p>Hello  all-<br>Below you will find final images of the wallets, as they will look for production. There was much discussion throughout the process about the details and we have... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    25 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--month">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2013-01-31T23:59:59-05:00">Jan 2013</time>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/396589">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-31T18:19:10-05:00">January 31, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    MIXED PLATES ON WALLETS
+    </h2>
+    <div class="grid-post__content">
+    <p>Many have asked what the wallets look like with mixed finishes. Here is an array of various A2 wallets and an old A3 so you can get an idea. As... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    3 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/395939">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-30T20:05:51-05:00">January 30, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    NEW FINISH: TYPE3 HARDCOAT DYE-LESS ANODIZED
+    </h2>
+    <div class="grid-post__content">
+    <p>We just received some samples from our anodizer, so we can finally confirm that TYPE 3 Dye-less hardcoat in addition to raw, hardcoat black and clear anodized.&nbsp;</p>
+    <p>This type 3... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    8 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/394910">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-29T13:59:55-05:00">January 29, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    STRETCH GOAL COLOR O-RINGS: WE ARE ADDING RED!
+    </h2>
+    <div class="grid-post__content">
+
+    <p>If you have not been following the comments for the last update on our stretch goal we will briefly summarize: </p>
+    <p>We clearly made a mistake in stating that... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    25 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/394734">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-29T09:00:50-05:00">January 29, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    CUSTOM COLOR O-RINGS
+    </h2>
+    <div class="grid-post__content">
+    <p>We met our stretch goal of $30,000 yesterday and are pleased to now offer a limited run of custom made colored o-rings. Based on the comments and messages we received... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    19 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/393876">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-27T23:37:52-05:00">January 27, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    Why support this wallet project?
+    </h2>
+    <div class="grid-post__content">
+    <p>As members of the Kickstarter Community you have many choices, and we are very thankful for those who have chosen to support this project. For those still questioning, we have... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    18 Comments
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/389362">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-20T15:04:22-05:00">January 20, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    TRAVELER'S PACKAGE CLARIFICATION
+    </h2>
+    <div class="grid-post__content">
+    <p>Just to be clear, those who pledge on the "traveler's package" will have the choice between the A3/A3s and A2/A2+1 to go with their passport wallet. Even though the A2+1... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    2 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/387061">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-15T23:39:36-05:00">January 15, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    STRETCH GOAL: CUSTOM COLOR O-RINGS!
+    </h2>
+    <div class="grid-post__content">
+    <p>Hello current and hopefully future supporters,</p>
+    <p>So far our project has made steady progress and we have greatly exceeded our original goal of $6000. There have been many requests about... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    24 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/385489">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-13T16:42:49-05:00">January 13, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    NEW VIDEO / INSTRUCTIONAL
+    </h2>
+    <div class="grid-post__content">
+    <p>Many have asked what it is like to load the wallets up with more than a a card and bill as we have shown in our original video, so we... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    4 Comments
+    </span>
+    <span aria-hidden="true" class="ksr-icon__video" options="{&quot;original-title&quot;=>&quot;This post has video&quot;}"></span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/385399">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-13T16:12:38-05:00">January 13, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    NEW! A2+1 : three plate compact wallet
+    </h2>
+    <div class="grid-post__content">
+    <p>In response to multiple requests, we have decided to offer a three-plate version of the A2. Many have requested that the third plate be a rectangle, but after multiple prototypes... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    4 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/381567">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-06T22:57:51-05:00">January 6, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    The new A3 "short" will be an option dubbed the A3s.
+    </h2>
+    <div class="grid-post__content">
+    <p>Just to be clear, even though we have made a change to make the A3 a bit shorter, we will still honor pledges for the old A3 for those that... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    4 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/381428">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-06T18:25:02-05:00">January 6, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    A3 wallet revised: now smaller (slightly)
+    </h2>
+    <div class="grid-post__content">
+    <p>Yesterday we experimented with shortening the length of the A3 wallet. We cut a prototype from black acetal plastic and found that we can reduce the length by close to... <u class="nowrap">Read more</u></p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    10 Comments
+    </span>
+
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__item timeline__item--left">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/380502">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2013-01-04T17:26:56-05:00">January 4, 2013</time>
+    </p>
+    <h2 class="grid-post__title">
+    New Reward: Travellers package for larger B "Euro" and C passport wallets
+    </h2>
+    <div class="grid-post__content">
+    <p>At the request of many, we have added a new reward which is a combination of a passport wallet (C) and the B "Euro" wallet.</p>
+    </div>
+    <div class="grid-post__metadata">
+    <span>
+    2 Comments
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--month">
+    <div class="timeline__divider_content">
+    <time class="js-adjust-time" data-format="MMM YYYY" datetime="2012-12-31T23:59:59-05:00">Dec 2012</time>
+    </div>
+    </div>
+
+    <div class="timeline__item timeline__item--right">
+    <a class="grid-post link" href="/projects/1827908565/aluminum-plate-wallet-system/posts/378279">
+    <p class="grid-post__date">
+    <time class="js-adjust-time" data-format="LL" datetime="2012-12-31T22:36:23-05:00">December 31, 2012</time>
+    </p>
+    <h2 class="grid-post__title">
+    WE DID IT.
+    </h2>
+    <div class="grid-post__metadata">
+    <span>
+    3 Comments
+    </span>
+    <span>
+    <div class="ss-icon ss-backer"></div>
+    <b>
+    For backers only
+    </b>
+    </span>
+    </div>
+    </a>
+    </div>
+
+    <div class="timeline__divider timeline__divider--launched timeline__divider--launched--design">
+    <div class="timeline__divider_content">
+    <div class="h5 bold mb1">
+    <time class="js-adjust-time" data-format="LL" datetime="2012-12-26T16:47:06-05:00">December 26, 2012</time>
+    </div>
+    <div class="h2">
+    Project launched
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+</body>
+</html>

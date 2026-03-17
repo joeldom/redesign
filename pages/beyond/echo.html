@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Fractal Wave Pattern</title>
+    <style>
+      canvas {
+        border: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="fractalCanvas" width="800" height="600"></canvas>
+
+    <script>
+      const canvas = document.getElementById("fractalCanvas");
+      const ctx = canvas.getContext("2d");
+
+      let animationFrame;
+
+      function drawFractal(x, y, width, height, depth) {
+        if (depth === 0) {
+          ctx.fillRect(x, y, width, height);
+        } else {
+          const newWidth = width / 3;
+          const newHeight = height / 3;
+
+          drawFractal(x, y, newWidth, newHeight, depth - 1);
+          drawFractal(x + newWidth, y, newWidth, newHeight, depth - 1);
+          drawFractal(x + 2 * newWidth, y, newWidth, newHeight, depth - 1);
+
+          drawFractal(x, y + newHeight, newWidth, newHeight, depth - 1);
+          drawFractal(
+            x + 2 * newWidth,
+            y + newHeight,
+            newWidth,
+            newHeight,
+            depth - 1
+          );
+
+          drawFractal(x, y + 2 * newHeight, newWidth, newHeight, depth - 1);
+          drawFractal(
+            x + newWidth,
+            y + 2 * newHeight,
+            newWidth,
+            newHeight,
+            depth - 1
+          );
+          drawFractal(
+            x + 2 * newWidth,
+            y + 2 * newHeight,
+            newWidth,
+            newHeight,
+            depth - 1
+          );
+        }
+      }
+
+      function drawLoop(time) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Use time to create an animation effect
+        const animationSpeed = 0.005;
+        const angle = time * animationSpeed;
+
+        // Calculate position based on time
+        const x = Math.sin(angle) * 50 + 200;
+        const y = Math.cos(angle) * 50 + 200;
+
+        drawFractal(x, y, canvas.width - 2 * x, canvas.height - 2 * y, 4);
+
+        animationFrame = requestAnimationFrame(drawLoop);
+      }
+
+      // Start the drawing loop
+      drawLoop();
+
+      // Stop the animation after 10 seconds (10000 milliseconds)
+      setTimeout(() => {
+        cancelAnimationFrame(animationFrame);
+      }, 10000);
+    </script>
+  </body>
+</html>

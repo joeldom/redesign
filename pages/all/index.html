@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<!-- TODO
+    [] write .js to addElement to "Response" area over time to simulate a greeting
+	[] use GPT styling to create the complex input
+ -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>All Work</title>
+    <meta name="description" content="Principle design for integrated chat +UX +UI concept | Joel Dombek © X.X.MMXXV ">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Principle design for integrated chat +UX +UI concept | Joel Dombek © X.X.MMXXV " />
+    <meta name="twitter:title" content="ECCO Ai / principle design for integrated chat" />
+    <meta name="twitter:site" content="@joeldombek" />
+    <meta name="twitter:creator" content="@joeldombek" />
+    <link rel='shortlink' href='http://www.joeldombek.com/' />
+    <meta property="og:url" content="http://joeldom.github.io/redesign/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="ECCO Ai / principle design for integrated chat" />
+    <meta property="og:description" content="Principle design for integrated chat +UX +UI concept | Joel Dombek © X.X.MMXXV" />
+    <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-24.png" />
+    <!--==============================================================================================================================
+
+
+
+           @@@  @@@@@@  @@@@@@@@ @@@       @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@  @@@@@@@@ @@@  @@@       @@@@@@@  @@@@@@  @@@@@@@@@@
+           @@@ @@@@@@@@ @@@@@@@@ @@@       @@@@@@@@ @@@@@@@@ @@@@@@@@@@@ @@@@@@@@ @@@@@@@@ @@@  @@@      @@@@@@@@ @@@@@@@@ @@@@@@@@@@@
+           @@! @@!  @@@ @@!      @@!       @@!  @@@ @@!  @@@ @@! @@! @@! @@!  @@@ @@!      @@!  !@@      !@@      @@!  @@@ @@! @@! @@!
+           !@! !@!  @!@ !@!      !@!       !@!  @!@ !@!  @!@ !@! !@! !@! !@   @!@ !@!      !@!  @!!      !@!      !@!  @!@ !@! !@! !@!
+           !!@ @!@  !@! @!!!:!   @!!       @!@  !@! @!@  !@! @!! !!@ @!@ @!@!@!@  @!!!:!   @!@@!@!       !@!      @!@  !@! @!! !!@ @!@
+           !!! !@!  !!! !!!!!:   !!!       !@!  !!! !@!  !!! !@!   ! !@! !!!@!!!! !!!!!:   !!@!!!        !!!      !@!  !!! !@!   ! !@!
+           !!: !!:  !!! !!:      !!:       !!:  !!! !!:  !!! !!:     !!: !!:  !!! !!:      !!: :!!       :!!      !!:  !!! !!:     !!:
+      !!:  :!: :!:  !:! :!:       :!:      :!:  !:! :!:  !:! :!:     :!: :!:  !:! :!:      :!:  !:! :!:  :!:      :!:  !:! :!:     :!:
+      ::: : :: ::::: ::  :: ::::  :: ::::   :::: :: ::::: :: :::     ::   :: ::::  :: :::: :::  ::: :::   ::: ::: ::::: :: :::     ::
+       : :::    : :  :  : :: ::  : :: : :  :: :  :   : :  :   :      :   :: : ::  : :: ::   :   ::  :::   :: :: :  : :  :   :      :
+
+                                                    ~ ~ ~ ~ ~ ~ v1 ~ ~ ~ ~ ~ ~
+
+     =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/utility.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css" />
+    <!-- <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" rel="icon" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+    <!-- <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" /> -->
+    <link rel="stylesheet" href="../../style-guide/css/theme.css" />
+    <link rel="stylesheet" href="../greybox/css/coma.css" />
+    <link rel="stylesheet" href="../css/tao.css" />
+    <link rel="stylesheet" href="../css/lib.css" />
+    <link rel="stylesheet" href="../css/sandbox.css" />
+    <link rel="stylesheet" href="../css/packet.css" />
+    <link rel="stylesheet" href="../css/prompt.css" />
+    <link rel="stylesheet" href="../css/viewer.css" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9GLG41WK0"></script>
+    <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+</head>
+
+<body id="sandbox" class="parallax dark-mode">
+    <div class="wrapper">
+        <a id="top" class="anchor"></a>
+        <div id="navbar" class="navbar navbar-fixed-top headroom" role="banner">
+            <div class="">
+                <!-- <a class="navbar-brand" href="https://joeldom.github.io/redesign/sandbox/">
+                    <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="20" height="14" viewBox="0 0 20 20">
+						<path transform="scale(-1, 1) translate(-20, 0)" d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+					</svg> Go Back</a> -->
+                <a class="navbar-brand" href="https://joeldom.github.io/redesign/">JOEL<strong>DOMBEK</strong></a>
+                <nav class="navbar-responsive-collapse">
+                    <ul class="nav navbar-nav pull-right" role="navigation">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="https://joeldom.github.io/redesign/all">Work</a>
+                            <ul class="dropdown-menu">
+                                <li class="">
+                                    <a href="https://joeldom.github.io/redesign/all" title="All Work">All</a>
+                                </li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/brand" title="Logos & Branding">Brand</a></li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/sandbox/" title="Sandbox">Code</a></li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/interface/" title="UI Design">Interface</a></li>
+                                <!-- <li class=""><a href="#" title="Coming Soon!">Photography</a></li> -->
+                                <!-- <li class=""><a href="#" title="Coming Soon!">Print</a></li> -->
+                                <li class=""><a href="https://joeldom.github.io/style-guide/ux/" title="UX Case Studies">UX</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Ideas</a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="https://joeldom.github.io/redesign/quotes/" title="Some quotes related to design and development and philosophy and random musings">Quotes</a></li>
+                                <li class="">
+                                    <a href="#" title="Coming Soon!">Inspiration</a>
+                                </li>
+                                <li class="">
+                                    <!-- <a href="https://www.joeldombek.com/blog/">Blog</a> -->
+                                    <a href="https://github.com/joeldom" target="_blank" title="View my Github profile">Github</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Info</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a id="nav-search" href="#"><i class="material-icons">search</i></a>
+                                </li>
+                                <li class="">
+                                    <a href="https://joeldom.github.io/redesign/about">About</a>
+                                </li>
+                                <li class=""><a href="https://joeldom.github.io/style-guide/ux/">Case Studies</a></li>
+                                <!-- <li class=""><a href="#">Annual Report</a></li> -->
+                                <li class="">
+                                    <a href="https://joeldom.github.io/resume/">Resume</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://joeldom.github.io/redesign/contact" title="Get in touch">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="navbar-toggle">
+					<!-- <span href="#menu" class="trinav"></span> -->
+					<span href="#menu" class="ventnav">
+						<svg xmlns="https://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+							<path d="M7.77636 0.797607V8.53684H0.0371094L7.77636 0.797607Z" fill="#C5C5C5"/>
+							<path d="M7.77636 9.42798V17.1672H0.0371094L7.77636 9.42798Z" fill="#C5C5C5"/>
+							<path d="M7.77636 18.0583V25.7976H0.0371094L7.77636 18.0583Z" fill="#C5C5C5"/>
+							<path d="M16.4067 0.797607V8.53684H8.66748L16.4067 0.797607Z" fill="#C5C5C5"/>
+							<path d="M16.4067 9.42798V17.1672H8.66748L16.4067 9.42798Z" fill="#C5C5C5"/>
+							<path d="M16.4067 18.0583V25.7976H8.66748L16.4067 18.0583Z" fill="#C5C5C5"/>
+							<path d="M25.0371 0.797607V8.53684H17.2979L25.0371 0.797607Z" fill="#C5C5C5"/>
+							<path d="M25.0371 9.42798V17.1672H17.2979L25.0371 9.42798Z" fill="#C5C5C5"/>
+							<path d="M25.0371 18.0583V25.7976H17.2979L25.0371 18.0583Z" fill="#C5C5C5"/>
+						</svg>
+					</span>
+				</button>
+            </div>
+        </div>
+    </div>
+    <!-- / Nav Section -->
+    <!--/wrapper-->
+    <!-- 
+		[] ideas around having a bookmark site tree data display API chain
+		[] 大魔界村とかスト2なんかべたすぎるだろ。北斗の拳とかおそ松くんなんかレアな作品なのに選ばれていないのが疑問に思う。
+	-->
+
+    <div class="wrapper">
+        <!-- RELATED SECTION START -->
+        <div id="gallery" class="related-posts">
+            <div class="grid palette-inverse">
+                <div class="grid-inner full-3">
+                    <!-- <img id="Code-Sandbox" class="grow" src="https://raw.githubusercontent.com/joeldom/asset/refs/heads/main/images/sandbox-stretch-scale.gif" alt="Sandbox">
+                    <button class="enlarge-btn" title="Enlarge" aria-label="Enlarge"></button> -->
+                    <!-- <article style="background-image: url('https://joeldom.github.io/asset/images/EXO Launch-v2.png')"> -->
+                    <article style="background-image:url('https://joeldom.github.io/asset/images/exo-square-190F7B.png'); background-size: 320px auto;">
+                        <a href="#" class="post-link">
+                            <div class="article-inner">
+                                <h3 class="name">Exo</h3>
+                                <h2>AI Agent Account</h2>
+                            </div>
+                        </a>
+
+                        <!-- Simple semantic content -->
+                        <div class="viewer-content" style="display: none;">
+                            <h3 class="cat">Brand</h3>
+                            <div class="viewer-title">Exo AI Agent</div>
+
+                            <div class="viewer-description">
+                                <h3>Overview</h3>
+                                <p>Exo is an AI agent I developed to change how I handled content creation. Exo would take in ideas and prompts from a ticket it is assigned. It would then create the post in a PR and tagging me to approve and push with and
+                                    without changes.It would utilize Discord or Twitter to send me a notification about the work and the larger idea being a way to test content with a social preview.
+                                </p>
+                                <p>At its core, Exo bridges the gap between ideation and impact. It integrates seamlessly with social ecosystems like Twitter (X) and Discord, automating posts while benchmarking data streams for optimal timing and engagement.
+                                    This project allows me to think outside of just UIs and work on building tools that use AI along side working more with emerging DevOps patterns.</p>
+                                <ul>
+                                    <li><strong>AI Layer</strong>: OpenAI/Anthropic APIs for dynamic content curation.</li>
+                                    <li><strong>Social APIs</strong>: Twitter API v2 (via <code>twitter-api-v2</code>) and Discord.js for secure, authenticated posting.</li>
+                                    <li><strong>DevOps Tools</strong>: GitHub Actions for automated deployments, .env-based config for secure secrets, and CLI interactivity via Node's readline module.</li>
+                                    <li><strong>Structure</strong>: Clean separation of concerns—<code>src/services/</code> for integrations, utils/ for formatting/validation, and logs/ for history tracking.</li>
+                                </ul>
+                                <h3>Goal</h3>
+                                <p>The aim is to make a tool that is also productivity multiplier. The project incorporates new and emerging patterns with AI agents, Github automation/actions, Discord bots with social previews I have been working with for
+                                    some time but wanted to connect to a new visual brand. After reading about
+                                    <a href="https://xbow.com/" target="_blank">XBOW</a> that describes itself as "XBOW is an AI-powered penetration testing platform that delivers expert-level security testing at machine speed."</p>
+                                <p>Check out the live repo at
+                                    <a href="https://github.com/joeldom/exo" target="_blank">github.com/joeldom/exo</a> or follow updates on X <a href="https://x.com/ecco_exo" target="_blank">@ecco_exo</a>.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article style="background-image:url('https://joeldom.github.io/asset/images/ecco-ohno.png'); background-size: 400px auto;">
+                        <a href="#" class="post-link">
+                            <div class="article-inner">
+                                <h3 class="cat ">Ghost</h3>
+                                <h2>Emotive Chat feedback</h2>
+                            </div>
+                        </a>
+                        <!-- Simple semantic content -->
+                        <div class="viewer-content" style="display: none;">
+                            <h3 class="cat">Design System</h3>
+                            <div class="viewer-title">Exo AI Agent</div>
+
+                            <div class="viewer-description">
+                                <h3>Overview</h3>
+                                <p></p>
+                                <p>At its core, Exo bridges the gap between ideation and impact. It integrates seamlessly with social ecosystems like Twitter (X) and Discord, automating posts while benchmarking data streams for optimal timing and engagement.
+                                    This project allows me to think outside of just UIs and work on building tools that use AI along side working more with emerging DevOps patterns.</p>
+                                <ul>
+                                    <li><strong>AI Layer</strong>: OpenAI/Anthropic APIs for dynamic content curation.</li>
+                                    <li><strong>Social APIs</strong>: Twitter API v2 (via <code>twitter-api-v2</code>) and Discord.js for secure, authenticated posting.</li>
+                                    <li><strong>DevOps Tools</strong>: GitHub Actions for automated deployments, .env-based config for secure secrets, and CLI interactivity via Node's readline module.</li>
+                                    <li><strong>Structure</strong>: Clean separation of concerns—<code>src/services/</code> for integrations, utils/ for formatting/validation, and logs/ for history tracking.</li>
+                                </ul>
+                                <h3>Goal</h3>
+                                <p>The aim is to make a tool that is also productivity multiplier. The project incorporates new and emerging patterns with AI agents, Github automation/actions, Discord bots with social previews I have been working with for
+                                    some time but wanted to connect to a new visual brand. After reading about
+                                    <a href="https://xbow.com/" target="_blank">XBOW</a> that describes itself as "XBOW is an AI-powered penetration testing platform that delivers expert-level security testing at machine speed."</p>
+                                <p>Check out the live repo at
+                                    <a href="https://github.com/joeldom/exo" target="_blank">github.com/joeldom/exo</a> or follow updates on X <a href="https://x.com/ecco_exo" target="_blank">@ecco_exo</a>.</p>
+                            </div>
+                    </article>
+
+                    <article style="background-image:url('https://joeldom.github.io/asset/images/App Logo EccoAi.png'); background-size: 320px auto;">
+                        <a href="#" class="post-link">
+                            <div class="article-inner">
+                                <h3 class="cat ">Ecco</h3>
+                                <h2>Umbrella brand</h2>
+                            </div>
+                        </a>
+                    </article>
+                    </div>
+                </div>
+                <div class="grid palette-inverse">
+                    <div class="grid-inner full-3">
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/Card-Concept.png'); background-size: 420px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">JD</h3>
+                                    <h2>My brand</h2>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/stier tag v2 text F.png'); background-size: 310px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat">S&nbsp;&ndash;&nbsp;Tier</h3>
+                                    <h2>Clothing line</h2>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/chip-2025.png'); background-size: 320px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">2025</h3>
+                                    <h2>Annual Report</h2>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="grid palette-inverse">
+                    <div class="grid-inner full-3">
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/Case Studies file.png'); background-size: 320px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">File System</h3>
+                                    <h2>Supplemental Icons</h2>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article style="background-image:url('https://joeldom.github.io/asset/PS CS6 Splash/PS CS6 Splash.png'); background-size: 600px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">TBD</h3>
+                                    <h2>Brand info byline</h2>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/missing-image-icon.png'); background-size: 160px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">TBD</h3>
+                                    <h2>Brand info byline</h2>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+                <div class="grid palette-inverse">
+                    <div class="grid-inner full-3">
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/missing-image-icon.png'); background-size: 160px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">TBD</h3>
+                                    <h2>Brand info byline</h2>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/missing-image-icon.png'); background-size: 160px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">TBD</h3>
+                                    <h2>Brand info byline</h2>
+                                </div>
+                            </a>
+                        </article>
+
+                        <article style="background-image:url('https://joeldom.github.io/asset/images/missing-image-icon.png'); background-size: 160px auto;">
+                            <a href="#" class="post-link">
+                                <div class="article-inner">
+                                    <h3 class="cat ">TBD</h3>
+                                    <h2>Product info byline</h2>
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            <!-- related-posts -->
+            <aside class="container">
+                <div class="module module-related row">
+                    <header class="module-header col-sm-12">
+                        <h2 class="module-title h4">Brand &amp; Identity</h2>
+                    </header>
+                    <div class="col-sm-4">
+                        <article class="tile tile-text">
+                            <header class="tile-header">
+                                <p><small>Look &amp; Feel</small></p>
+                                <h3 class="h3"><a href="#">Style</a></h3>
+                            </header>
+                            <div class="tile-excerpt hidden-xs">
+                                <p>Each mark starts with a tone — atmosphere, texture, and weight. Style isn’t just about how something looks, but what it suggests. I study how a shape feels before it speaks, balancing restraint and expression to leave an
+                                    impression that lingers. […]</p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <article class="tile tile-text">
+                            <header class="tile-header">
+                                <p><small>Clients</small></p>
+                                <h3 class="h3"><a href="#">Stories</a></h3>
+                            </header>
+                            <div class="tile-excerpt hidden-xs">
+                                <p>Logos made for companies, businesses, independent creators, small teams, and a few long-standing collaborations. Every project reflects a shared goal: to translate intent into something seen, remembered, and trusted. To
+                                    hint at a larger story with shapes & color with type pairing. Each carries its own rhythm — raw, refined, built to endure. […]
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <article class="tile tile-text">
+                            <header class="tile-header">
+                                <p><small>Process</small></p>
+                                <h3 class="h3"><a href="#">Craft</a></h3>
+                            </header>
+                            <div class="tile-excerpt hidden-xs">
+                                <p>With each logo is the process — sketch, rebuild, reduce, refine, iterate — until something is found between structure and instinct. Ultimatly meeting the expectations of it's intended out put but also being surprising when
+                                    it feels obvious. Many rounds of A/B tests later and sometimes when there are competing concepts... time. […]</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <br/>
+            </aside>
+            <!-- RELATED SECTION END -->
+            <!-- related-posts -->
+
+            <div class="footer-para">
+                <div class="container">
+                    <div class="row">
+                        <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                            <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-moon"></i></button>
+                            <span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
+                            <div class="row">
+                                <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
+                                    <!-- Todo adjust the size to be smaller across all files 64px is nice -->
+                                    <img src="https://joeldom.github.io/asset/chip-logo.png" style="width: auto;max-height:80px;" />
+                                </a>
+                                <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                                <div class="col-xs-12 col-sm-6">
+                                    <!-- <p style="padding: 0 24px;">The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
+										target="_blank">Resume</a>.</p> -->
+                                    <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
+                                        <li><a href="https://joeldom.github.io/redesign/">Home</a></li>
+                                        <li><a href="https://joeldom.github.io/redesign/work">Work</a></li>
+                                        <li><a href="https://joeldom.github.io/redesign/sandbox/writing/">Writing</a></li>
+                                        <li><a href="https://joeldom.github.io/redesign/ideas">Ideas</a></li>
+                                        <li><a href="https://joeldom.github.io/redesign/quotes">Quotes</a></li>
+                                        <li><a href="https://joeldom.github.io/redesign/about">About</a></li>
+                                        <li><a href="https://joeldom.github.io/resume">Resume</a></li>
+                                        <!-- <li><a href="https://joeldom.github.io/contact">Contact</a></li> -->
+                                        <!-- <li><a href="https://joeldom.github.io/search">Search</a></li> -->
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-4">
+                                    <div class="row">
+                                        <div class="col-sm-4 col-xs-12 hidden-xs">
+                                            <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                            <ul class="list-unstyled">
+                                                <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                                <li>
+                                                    <a href="https://www.instagram.com/joeld/" target="_blank"><i class="fa fa-user-circle" aria-hidden="true"></i><span class="hidden-xs"> About</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://joeldom.github.io/style-guide/" target="_blank"><i class="fa fa-paint-brush" aria-hidden="true"></i><span class="hidden-xs"> Style&nbsp;Guide</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://joeldom.github.io/redesign/sandbox/" target="_blank"><i class="material-icons">palette</i><span class="hidden-xs"> Sandbox</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://joeldom.github.io/resume/" target="_blank"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-4 col-xs-12 hidden-xs">
+                                            <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                            <ul class="list-unstyled">
+                                                <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                                <li>
+                                                    <a href="https://github.com/joeldom" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><span class="hidden-xs"> Github</span></a>
+
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+
+                                                </li>
+                                                <li>
+                                                    <a href="https://twitter.com/joeldombek" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span class="hidden-xs"> Twitter</span></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">camera</i><span class="hidden-xs"> Insta</span></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="col-sm-4 col-xs-12">
+                                            <p class="text-right">
+                                                JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small>
+                                            </p>
+                                            <br /><br /><br />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+            <!-- footer-in -->
+            <div id="footer-temp"></div>
+            <script>
+                async function includeTemplate(placeholderId, templatePath) {
+                    try {
+                        const response = await fetch(templatePath);
+                        if (!response.ok) throw new Error(`Failed to fetch ${templatePath}: ${response.statusText}`);
+                        const template = await response.text();
+                        document.getElementById(placeholderId).innerHTML = template;
+                    } catch (error) {
+                        console.error(`Error loading template ${templatePath}:`, error);
+                        document.getElementById(placeholderId).innerHTML = '<p>Error loading template</p>';
+                    }
+                }
+                includeTemplate('footer-temp', '../templates/footer.html');
+            </script>
+            <!-- Scripts -->
+            <script src="../js/gtag.js"></script>
+            <script src="../js/sandbox.js"></script>
+            <script src="../js/keyShuffle.js"></script>
+            <script src="../js/prompt.js"></script>
+            <script src="../js/viewer.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+            <script>
+                hljs.highlightAll();
+            </script>
+            <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+            <script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script>
+            <script src="https://joeldom.github.io/redesign/greybox/js/contact.js"></script>
+            <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+            <script src="https://joeldom.github.io/redesign/js/typed-content.js"></script>
+            <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
+            <script src="../../style-guide/js/enlarge.js"></script>
+</body>
+
+</html>
