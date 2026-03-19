@@ -6943,7 +6943,8 @@ ul#cyclelist li,
 @media (max-width: 767px) {
     .toggle {
         position: absolute;
-        right: 13px;
+        /* right: 13px; */
+        right: 0px;
     }
     .toggle .quote-toggle {
         width: 200px;

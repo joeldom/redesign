@@ -315,9 +315,10 @@
             width: 215px;
             font-size: 1.19em;
             color: #606060 !important;
-            height: 4vw;
-            min-height: 25px;
-            opacity: 0.5;
+            /* height: 4vw; */
+            /* min-height: 25px; */
+            width: 100%;
+            opacity: 0;
             background: rgba(50, 50, 50, 0.5) !important;
         }
         .toggle .quote-toggle:hover {
