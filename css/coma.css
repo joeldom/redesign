@@ -232,12 +232,14 @@ select {
 button,
 html input[type="button"] {
     -webkit-appearance: button;
+    appearance: button;
     cursor: pointer;
 }
 
 input[type="reset"],
 input[type="submit"] {
     -webkit-appearance: button;
+    appearance: button;
     cursor: pointer;
 }
 
@@ -254,6 +256,7 @@ input[type="radio"] {
 
 input[type="search"] {
     -webkit-appearance: textfield;
+    appearance: textfield;
     -moz-box-sizing: content-box;
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
@@ -2226,11 +2229,13 @@ a {
 }
 
 a:hover {
+    transition: all 0.2s ease-in-out;
     /* color: black; */
     /* text-decoration: underline; */
 }
 
 a:focus {
+    transition: all 0.2s ease-in-out;
     /* color: black; */
     /* text-decoration: underline; */
     /* outline: 5px auto -webkit-focus-ring-color; */
@@ -2516,7 +2521,8 @@ output {
     font-size: 14px;
     line-height: 1.28571;
     color: #b0aca8;
-    vertical-align: middle;
+    /* vertical-align: middle; */
+    appearance: textfield;
 }
 
 .open .dropdown-toggle.btn-warning {

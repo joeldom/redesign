@@ -51,11 +51,15 @@
     <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
     <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
 
-    <link rel="stylesheet" href="greybox/css/coma.css" />
-    <link rel="stylesheet" href="css/tao.css" />
     <link rel="stylesheet" href="../style-guide/css/theme.css" />
+    <link rel="stylesheet" href="css/coma.css" />
+    <link rel="stylesheet" href="css/tao.css" />
+    <link rel="stylesheet" href="css/lib.css" />
+    <link rel="stylesheet" href="css/sandbox.css" />
+    <link rel="stylesheet" href="css/packet.css" />
     <link rel="stylesheet" href="css/prompt.css" />
-
+    <link rel="stylesheet" href="css/viewer.css" />
+    <link rel="stylesheet" href="css/player.css" />
     <!-- Top Scripts -->
     <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
     <script type="text/javascript" src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
@@ -160,6 +164,35 @@
     <!--/wrapper-->
 
     <div id="collapse1" class="container-fluid palette-darkolive grid-bg">
+        <!-- https://www.mek.gallery/ -->
+        <!-- <video loop autoplay muted width="100%" height="auto" controls>
+			<source src="gundam-hottoto.mp4" type="video/mp4">
+		  Your browser does not support the video tag.
+		  </video> -->
+        <!-- Media viewer layer (between bg and content) -->
+        <div class="media-viewer" id="mediaViewer">
+
+            <video id="gundam" loop autoplay="autoplay" muted width="100%" height="auto" controls>
+				<source src="gundam-hottoto.mp4" type="video/mp4">
+			  Your browser does not support the video tag.
+			  </video>
+
+            <!-- <img src="https://media1.tenor.com/images/371f9f39bf86b53a2de6468e7bf142d4/tenor.gif" alt="Nature background"> -->
+        </div>
+        <!-- Video Controls -->
+        <div class="video-controls" id="videoControls">
+            <button class="video-control-btn" id="visibilityBtn" title="Keep video visible">
+				<i class="fa fa-eye-slash"></i>
+			</button>
+            <button class="video-control-btn" id="muteBtn" title="Unmute video">
+                <i class="fa fa-volume-mute"></i>
+            </button>
+            <button class="video-control-btn" id="playPauseBtn" title="Pause video">
+                <i class="fa fa-pause"></i>
+            </button>
+        </div>
+        <!-- / Video Controls -->
+
         <div class="row">
             <div class="col-xs-12 col-sm-4 visible-md visible-lg">&emsp;</div>
             <div class="col-xs-12 col-sm-4">
@@ -615,6 +648,7 @@
     </div>
     <!-- footer-para -->
 
+
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script>
@@ -624,6 +658,8 @@
     <script src="https://joeldom.github.io/redesign/js/sandbox.js"></script>
     <script src="https://joeldom.github.io/redesign/js/keyShuffle.js"></script>
     <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
+    <script src="js/player.js"></script>
+
 </body>
 
 </html>
