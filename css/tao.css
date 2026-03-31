@@ -194,7 +194,9 @@ body#sandbox.light-mode .tile-count {
     box-shadow: 0px 0px 4px #1212126b;
 }
 
+body#sandbox.light-mode .tile-category:hover,
 .tile-category:hover,
+body#sandbox.light-mode .tile-count:hover,
 .tile-count:hover {
     background: #45e1bf77;
     color: #45e1bf;
