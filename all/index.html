@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <title>Brand</title>
+    <title>All Work</title>
     <meta name="description" content="Principle design for integrated chat +UX +UI concept | Joel Dombek © X.X.MMXXV ">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="twitter:card" content="summary" />
@@ -93,9 +93,10 @@
                                 </li>
                                 <li class=""><a href="https://joeldom.github.io/redesign/brand" title="Logos & Branding">Brand</a></li>
                                 <li class=""><a href="https://joeldom.github.io/redesign/sandbox/" title="Sandbox">Code</a></li>
-                                <li class=""><a href="https://joeldom.github.io/redesign/interface" title="UX/UI">Interface</a></li>
-                                <li class=""><a href="#" title="Coming Soon!">Photography</a></li>
-                                <li class=""><a href="#" title="Coming Soon!">Print</a></li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/interface/" title="UI Design">Interface</a></li>
+                                <!-- <li class=""><a href="#" title="Coming Soon!">Photography</a></li> -->
+                                <!-- <li class=""><a href="#" title="Coming Soon!">Print</a></li> -->
+                                <li class=""><a href="https://joeldom.github.io/style-guide/ux/" title="UX Case Studies">UX</a></li>
                             </ul>
                         </li>
                         <li class="dropdown">
@@ -470,7 +471,20 @@
             </div>
         </div>
         <!-- footer-para -->
-
+        <script>
+            async function includeTemplate(placeholderId, templatePath) {
+                try {
+                    const response = await fetch(templatePath);
+                    if (!response.ok) throw new Error(`Failed to fetch ${templatePath}: ${response.statusText}`);
+                    const template = await response.text();
+                    document.getElementById(placeholderId).innerHTML = template;
+                } catch (error) {
+                    console.error(`Error loading template ${templatePath}:`, error);
+                    document.getElementById(placeholderId).innerHTML = '<p>Error loading template</p>';
+                }
+            }
+            includeTemplate('footer-temp', '../templates/footer.html');
+        </script>
         <!-- Scripts -->
         <script src="../js/gtag.js"></script>
         <script src="../js/sandbox.js"></script>
