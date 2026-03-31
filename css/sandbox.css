@@ -51,6 +51,10 @@ body {
     font-family: "Inter", sans-serif !important;
 }
 
+body#sandbox.light-mode {
+    background-color: #ffffff;
+}
+
 svg {
     vertical-align: middle;
 }
@@ -204,6 +208,11 @@ svg {
 .scroll-pane:hover {
     /* transform: translateY(-5px); */
     box-shadow: 56px -34px 90px #00050F52 inset, -56px -34px 90px #00050F52 inset;
+}
+
+body#sandbox.light-mode .scroll-pane:hover {
+    /* transform: translateY(-5px); */
+    box-shadow: none;
 }
 
 .container-frame {
