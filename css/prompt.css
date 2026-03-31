@@ -22,6 +22,12 @@ body.dark-mode #chat-prompt.palette-darkolive {
     background-position: center;
 }
 
+body#sandbox.light-mode .grid-bg {
+    background-image: linear-gradient(#B3B3B3 1px, transparent 1px), linear-gradient(90deg, #C4C4C4 1px, transparent 1px);
+    background-size: 64px 64px;
+    background-position: center;
+}
+
 .prompt-pane {
     width: 100%;
     overflow-x: hidden;
