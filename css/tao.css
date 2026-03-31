@@ -180,8 +180,11 @@
     
     .tile-splash:hover {
         background: white !important;
+        /* background-color: #7f7cf9; */
         animation: none;
-        border: 1px solid #7ae145;
+        /* border: 1px solid #7ae145; */
+        /* border: 1px solid #45e193; */
+        border: 1px solid #45e1bf;
         transition: border 700ms;
         box-shadow: 4px 5px 10px 0px #000;
         transition: box-shadow 200ms;
@@ -250,9 +253,39 @@
         animation: none 1s infinite;
     }
     
+    [id$="-term-container"] {
+        /* Your styles here */
+        /* background: yellow;
+        border: 2px solid red; */
+        color: #838aaca8;
+    }
+    
+    .tile-splash p:hover [id$="-term-container"],
+    .tile-splash a:hover [id$="-term-container"] {
+        /* color: #1a3acc; */
+        color: #73788f;
+    }
+    
+    [id$="-term-container"]::before {
+        content: "/";
+        font-size: 1.2rem;
+        /* content: ":"; */
+        margin: 0 7px;
+        /* font-weight: bold; */
+        color: inherit;
+        color: #00000021;
+    }
+    
+    .tile-splash p:hover [id$="-term-container"]::before,
+    .tile-splash a:hover [id$="-term-container"]::before {
+        /* color: #1a3acc; */
+        color: #a8a8a8;
+    }
+    
     .tile-splash p svg path,
     .tile-splash a svg path {
-        fill: rgba(26, 58, 204, 0.23);
+        /* fill: rgba(26, 58, 204, 0.23); */
+        fill: rgb(255, 255, 255);
     }
     
     .tile-splash p:hover svg path,
@@ -275,14 +308,26 @@
     /* https://stackoverflow.com/questions/30240181/can-i-apply-animations-to-margins */
     
     .tile-splash svg path {
-        fill: inherit;
-        animation: color-change 5s infinite !important;
+        /* fill: inherit; */
+        fill: ##f9f8f8;
+        /* animation: color-change 5s infinite !important; */
     }
     
     .tile-splash a:hover svg,
     .tile-splash p:hover svg {
         margin: 6px 0 0 100%;
         transition: margin 700ms;
+        /* transition: margin 900ms; */
+        /* transition: margin 1200ms; */
+        animation: tile-arrow 7s !important;
+    }
+    
+    .tile-splash a:hover svg path,
+    .tile-splash p:hover svg path {
+        /* fill: inherit; */
+        /* fill: #1a3acc; */
+        /* fill: #a8a8a8; */
+        animation: tile-arrow 5s !important;
     }
     
     .tile-splash a:hover svg.inline,
@@ -425,6 +470,96 @@ p {
         }
     }
     /* \\\\\\\ button -> gradient -> animation \\\\\\\\ */
+    
+    @-webkit-keyframes tile-arrow {
+        0% {
+            fill: #f0f0f0;
+        }
+        15% {
+            fill: #a8a8a8;
+        }
+        50% {
+            fill: #a8a8a8;
+        }
+        75% {
+            fill: #a8a8a8;
+        }
+        100% {
+            fill: #1a3acc;
+        }
+    }
+    
+    @-moz-keyframes tile-arrow {
+        0% {
+            fill: #f0f0f0;
+        }
+        15% {
+            fill: #a8a8a8;
+        }
+        50% {
+            fill: #a8a8a8;
+        }
+        75% {
+            fill: #a8a8a8;
+        }
+        100% {
+            fill: #1a3acc;
+        }
+    }
+    
+    @-ms-keyframes tile-arrow {
+        0% {
+            fill: #f0f0f0;
+        }
+        15% {
+            fill: #a8a8a8;
+        }
+        50% {
+            fill: #a8a8a8;
+        }
+        75% {
+            fill: #a8a8a8;
+        }
+        100% {
+            fill: #1a3acc;
+        }
+    }
+    
+    @-o-keyframes tile-arrow {
+        0% {
+            fill: #f0f0f0;
+        }
+        15% {
+            fill: #a8a8a8;
+        }
+        50% {
+            fill: #a8a8a8;
+        }
+        75% {
+            fill: #a8a8a8;
+        }
+        100% {
+            fill: #1a3acc;
+        }
+    }
+    
+    @keyframes tile-arrow {
+        0% {
+            fill: #f0f0f0;
+        }
+        15% {
+            fill: #a8a8a8;
+        }
+        50% {
+            fill: #a8a8a8;
+        }
+        75% {
+            fill: #a8a8a8;
+        }
+        100% {
+            fill: #1a3acc;
+        }
+    }
     
     .text-rainbow-animation {
         font-family: arial black;
