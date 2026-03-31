@@ -186,18 +186,18 @@ margin: 0;
     text-align: right;
 }
 
-.tile-category:hover,
-.tile-count:hover {
-    background: #45e1bf77;
-    color: #45e1bf;
-}
-
 body#sandbox.light-mode .tile-category,
 body#sandbox.light-mode .tile-count {
     background: #424242;
     color: #b7b7b7;
     border: none;
     box-shadow: 0px 0px 4px #1212126b;
+}
+
+.tile-category:hover,
+.tile-count:hover {
+    background: #45e1bf77;
+    color: #45e1bf;
 }
 
 .tile-splash {
@@ -438,7 +438,7 @@ animation: color-change 3s infinite; */
     }
     .tile-tabs .tile-count {
         right: 0;
-        margin-right: 0;
+        margin-right: 24px;
     }
     .toggle .quote-toggle {
         width: 215px;
