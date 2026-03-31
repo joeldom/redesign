@@ -330,7 +330,7 @@
     @media (max-width: 767px) {
         .tile-splash,
         .tile-last,
-        .tile-group-detail {
+        .tile-tabs {
             margin: 0 25px !important;
         }
         .toggle .quote-toggle {
