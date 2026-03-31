@@ -167,6 +167,7 @@ margin: 0;
     z-index: 5;
     position: relative;
     box-shadow: 6px 0px 1px #1212126b;
+    transition: all 5s ease-in !important;
 }
 
 .tile-count {
@@ -184,6 +185,14 @@ margin: 0;
     position: absolute;
     right: 0;
     text-align: right;
+    transition: all 16s ease-in !important;
+}
+
+.tile-count span {
+    background: #00000078;
+    border-radius: 12px;
+    padding: 1px 5px;
+    filter: saturate(206%);
 }
 
 body#sandbox.light-mode .tile-category,
@@ -200,6 +209,7 @@ body#sandbox.light-mode .tile-count:hover,
 .tile-count:hover {
     background: #45e1bf77;
     color: #45e1bf;
+    transition: all 1s ease-out !important;
 }
 
 .tile-splash {
@@ -628,6 +638,17 @@ animation: color-change 1s infinite;
     }
     100% {
         fill: #1a3acc;
+    }
+}
+
+@keyframes sandbox-tab {
+    0% {
+        background: #45e1bf77;
+        color: #45e1bf;
+    }
+    100% {
+        background: inherit;
+        color: inherit;
     }
 }
 
