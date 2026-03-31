@@ -30,3 +30,7 @@ fetchAndCycleStrings("resume-term-container", "ResumeStrings");
 fetchAndCycleStrings("styleguide-term-container", "StyleguideStrings");
 fetchAndCycleStrings("sandbox-term-container", "SandboxStrings");
 fetchAndCycleStrings("casestudies-term-container", "CaseStudiesStrings");
+// Page, Project, and Template counts
+fetchAndCycleStrings("top-page-count", "TopPageCountStrings");
+fetchAndCycleStrings("project-count", "ProjectCountStrings");
+fetchAndCycleStrings("template-count", "TemplateCountStrings");
