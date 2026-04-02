@@ -170,5 +170,5 @@ Setting up go live notification messages + prompts to use with OBS & Twitch that
 <img title="S-Tier b y Joel Dombek NEW! clothing line for Fall 2025" alt="S-Tier Tag" style="display:inline-block;height:auto;max-width:400px" src="https://joeldom.github.io/asset/images/chip-2025.png">
 
 
-https://joeldom.github.io/asset/chip-logo.png
-App Logo EccoAi.png
+<!-- https://joeldom.github.io/asset/chip-logo.png
+App Logo EccoAi.png -->
