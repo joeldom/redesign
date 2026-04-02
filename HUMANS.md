@@ -171,6 +171,7 @@ Demoing all of the types of work with [Chart.js - Radar](https://www.chartjs.org
 <img title="JD Disc Portfolio" style="" alt="JD Disc" src="https://joeldom.github.io/asset/images/Disc%20Case%20red.png" >
 
 <img title="Adobe Photoshop CS6 Pro Extended Edition" alt="Jill Adobe PS CS6 Splash" src="https://joeldom.github.io/asset/PS%20CS6%20Splash/PS%20CS6%20Splash.png" >
+
 ---
 
 ## Version History
