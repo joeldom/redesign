@@ -146,6 +146,11 @@ Keep `/site` in sync with promoted changes from the redesign repo before each de
     <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
 ```
 
+### Types of Work Chart
+
+Demoing all of the types of work with [Chart.js - Radar](https://www.chartjs.org/docs/latest/samples/other-charts/radar.html) to show how the balance of my projects and work items look from 500ft.
+
+
 ### Social Preview
 
 <img title="EXO Logo" alt="EXO Logo" style="border-radius:52px;display:inline-block;width:150px;height:150px;" src="https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg"><img title="EXO - Content Manger v1" alt="EXO - Content Manger hero v1 " style="display:inline-block;height:150px;min-height:100%;" src="https://pbs.twimg.com/profile_banners/1948686367573291008/1753445934/1500x500">
