@@ -146,10 +146,19 @@ Keep `/site` in sync with promoted changes from the redesign repo before each de
     <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
 ```
 
-### Types of Work Chart
+### Charts
+
+**Types of Work**
 
 Demoing all of the types of work with [Chart.js - Radar](https://www.chartjs.org/docs/latest/samples/other-charts/radar.html) to show how the balance of my projects and work items look from 500ft.
 
+---
+
+**Contribution Cal**
+
+[Chart.js - Scatter](https://www.chartjs.org/docs/latest/samples/other-charts/scatter.html)
+
+---
 
 ### Social Preview
 
