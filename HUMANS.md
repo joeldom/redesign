@@ -33,8 +33,9 @@
   - f35 jet
   - gundam
 - References
-  - House of Leaves
-  - Sphere
+  - Alien Universe - Nostromo, Xenomorph
+  - House of Leaves - Overly detailed documentation and web of content
+  - Sphere - Talk with Alien/AI
   - 3 Body Problem - idealized future tech - post-modern UI
   - HEALTH RAT: WARS, R-TYPE
   - Marilyn Manson - Mechanical Animals - Coma White
