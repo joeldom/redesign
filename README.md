@@ -1,3 +1,7 @@
+<a href="http://joeldom.github.io/redesign/sandbox/" target="_blank">
+  <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://raw.githubusercontent.com/joeldom/asset/main/twitter-header.png" width="847" height="120" />
+</a>
+
 # Systems Redesign
 
 This is the `.README` file for the UI/UX testing page & test environment for [joeldombek.com](http://www.joeldombek.com) redesign. Catalog of ideas and issue tracking with live dev environment. The development diary and updated issue tracking can be seen at [2025](http://joeldom.github.io/redesign/)
