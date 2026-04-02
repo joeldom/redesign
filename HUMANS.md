@@ -1,3 +1,53 @@
+<a href="http://joeldom.github.io/redesign/sandbox/" target="_blank">
+  <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://raw.githubusercontent.com/joeldom/asset/main/twitter-header.png" width="847" height="120" />
+</a>
+
+<!-- 
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+- Interests
+  - Swiss Type
+  - H. R. Geiger
+- Inspiration
+  - Sony Playstation
+    - PS1 + PS1 20th Anniversary
+  - Resident Evil
+    - Requiem - Grace in puzzle building. Color
+  - Metal Gear Solid
+    - Menus  & Group Symbols
+  - Ninja Gaiden
+    - UI & Lore / History designs
+  - Final Fantasy
+    -FFXV - Noctis & Luna. Night Sky Prince. World of Darkness. https://youtu.be/bGKS0q7wl08 [] Etro Godess of Sleep/Dreams/Death. Love after Death. Love & Death
+    
+- Hero spot visuals
+  - iceberg 
+  - ocean waves
+  - oil rig
+  - f35 jet
+  - gundam
+- References
+  - House of Leaves
+  - Sphere
+  - 3 Body Problem - idealized future tech - post-modern UI
+  - HEALTH RAT: WARS, R-TYPE
+  - Marilyn Manson - Mechanical Animals - Coma White
+  - XBOW - Pen Testing "Dark Mode" theme
+  - X / Twitter - Grok - Dark Mode - Chat Prompt
+  
+- Collaborators
+  - tbd
+- Shot Plans
+ - Ethan Honda - Cemetery - Garage
+ - Marchelle GTI -Banksville (passing shot)(from distance to close)
+-->
+
 # HUMANS.md
 
 This is the human-facing companion to `AGENTS.md`. Where that file instructs AI agents on workflow and conventions, this one captures intent — what the project is, where it lives, how to run it, and what's been built so far.
@@ -38,6 +88,66 @@ The `/site` directory holds the portable production build — cleaned, self-cont
 ```
 
 Keep `/site` in sync with promoted changes from the redesign repo before each deploy.
+
+### Meta Header
+
+```
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta property="og:url" content="http://joeldom.github.io/resume/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Joel Dombek - Multi-Disciplinary Designer & Developer" />
+    <meta property="og:description" content="The portfolio of Joel Dombek, a multi-disciplinary designer : developer and brand specialist with a focus on user interaction and design." />
+    <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-24.png" />
+    <meta name="twitter:card" content="The portfolio of Joel Dombek, a multi-disciplinary designer : developer and brand specialist with a focus on user interaction and design." />
+    <meta name="twitter:creator" content="@joeldombek" />
+    <link rel='shortlink' href='http://www.joeldombek.com/' />
+
+    <title>Joel Dombek Design</title>
+
+    <!--==============================================================================================================================
+
+
+
+           @@@  @@@@@@  @@@@@@@@ @@@       @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@  @@@@@@@@ @@@  @@@       @@@@@@@  @@@@@@  @@@@@@@@@@
+           @@@ @@@@@@@@ @@@@@@@@ @@@       @@@@@@@@ @@@@@@@@ @@@@@@@@@@@ @@@@@@@@ @@@@@@@@ @@@  @@@      @@@@@@@@ @@@@@@@@ @@@@@@@@@@@
+           @@! @@!  @@@ @@!      @@!       @@!  @@@ @@!  @@@ @@! @@! @@! @@!  @@@ @@!      @@!  !@@      !@@      @@!  @@@ @@! @@! @@!
+           !@! !@!  @!@ !@!      !@!       !@!  @!@ !@!  @!@ !@! !@! !@! !@   @!@ !@!      !@!  @!!      !@!      !@!  @!@ !@! !@! !@!
+           !!@ @!@  !@! @!!!:!   @!!       @!@  !@! @!@  !@! @!! !!@ @!@ @!@!@!@  @!!!:!   @!@@!@!       !@!      @!@  !@! @!! !!@ @!@
+           !!! !@!  !!! !!!!!:   !!!       !@!  !!! !@!  !!! !@!   ! !@! !!!@!!!! !!!!!:   !!@!!!        !!!      !@!  !!! !@!   ! !@!
+           !!: !!:  !!! !!:      !!:       !!:  !!! !!:  !!! !!:     !!: !!:  !!! !!:      !!: :!!       :!!      !!:  !!! !!:     !!:
+      !!:  :!: :!:  !:! :!:       :!:      :!:  !:! :!:  !:! :!:     :!: :!:  !:! :!:      :!:  !:! :!:  :!:      :!:  !:! :!:     :!:
+      ::: : :: ::::: ::  :: ::::  :: ::::   :::: :: ::::: :: :::     ::   :: ::::  :: :::: :::  ::: :::   ::: ::: ::::: :: :::     ::
+       : :::    : :  :  : :: ::  : :: : :  :: :  :   : :  :   :      :   :: : ::  : :: ::   :   ::  :::   :: :: :  : :  :   :      :
+
+                                                    ~ ~ ~ ~ ~ ~ v404 ~ ~ ~ ~ ~ ~
+
+     =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="shortlink" href="https://www.joeldombek.com/" />
+    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" type="image/x-icon">
+    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/64x64.png" sizes="64x64" />
+    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/128x128.png" sizes="128x128" />
+    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/76x76.png" sizes="76x76" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/120x120.png" sizes="120x120" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/152x152.png" sizes="152x152" />
+    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
+    <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
+```
+
+
+### Social Preview
 
 ---
 
