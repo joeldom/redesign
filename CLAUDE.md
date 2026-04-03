@@ -1,3 +1,7 @@
+<a href="http://joeldom.github.io/redesign/sandbox/" target="_blank">
+  <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://raw.githubusercontent.com/joeldom/asset/main/twitter-header.png" width="847" height="120" />
+</a>
+
 # CLAUDE.md
 
 This file is the AI collaboration reference for the joeldombek.com redesign project. It sits alongside `AGENTS.md` (agent workflow rules) and `HUMANS.md` (project intent and history) as the third doc in the trio — specifically focused on how Claude participates in the design and development process, what's currently in flight, and how work moves from idea to tested feature to shipped code.
