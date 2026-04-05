@@ -5,6 +5,7 @@
 
 # To-Do
 
+
 ## 🐛 Fixes
 
 - [ ] Fix social icons in the footer of pages
@@ -424,3 +425,16 @@
   - Agent setup steps → `humans.md`
   - XL task protocol → `agents.md` + `CLAUDE.md` + `humans.md`
 - [ ] Add a header to `todo.md` explaining its role as the inbox and the four-file system
+
+---
+
+## Content Map
+
+- Port > [joeldombek.com](http://www.joeldombek.com)
+- [joeldom.github.com/redesign](http://www.joeldom.github.com/redesign) `repo` `page`
+- [joeldom.github.com/resume](http://www.joeldom.github.com/resume) `repo` `page`
+- [joeldom.github.com/redesign/sandbox](http://www.joeldom.github.com/redesign/sandbox) `temp`
+- [joeldom.github.com/work/writing](https://chatgpt.com/share/6800e003-3fe8-800b-8e18-66c83498ee0d) `gpt` `claude`
+- [joeldom.github.com/asset](http://www.joeldom.github.com/asset) `repo` `api`
+
+---
