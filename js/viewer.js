@@ -154,10 +154,14 @@ class EnhancedViewer {
 			<div class="viewer-description">
 				${content.description || '<p>No additional details available.</p>'}
 			</div>
-			<nav class="viewer-nav">
-                <button class="viewer-nav-btn prev" aria-label="Previous project">Previous</button>
-                <button class="viewer-nav-btn next" aria-label="Next project">Next</button>
-            </nav>
+			<!-- nav -->
+			<!-- 
+				<nav class="viewer-nav" style="display: none;">
+					<button class="viewer-nav-btn prev" aria-label="Previous project">Previous</button>
+					<button class="viewer-nav-btn next" aria-label="Next project">Next</button>
+				</nav>
+			-->
+			<br/><br/>
 		`;
 
         contentArea.innerHTML = contentHTML;
