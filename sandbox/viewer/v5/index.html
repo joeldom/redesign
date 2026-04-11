@@ -431,6 +431,13 @@
                 line-height: 1;
                 padding: 1em 2em;
                 border-left: 1px solid #84848400; */
+                opacity: 0% !important;
+                transition: all 0.2s ease;
+            }
+            
+            .viewer-close:hover {
+                opacity: 100% !important;
+                transition: all 0.2s ease;
             }
             
             .viewer-close span.context {
@@ -453,6 +460,27 @@
                 /* transform: rotate(-90deg);
                 transition: all 0.2s ease; */
             }
+            
+            .viewer-content-area {
+                /* grid-column: 1;
+                grid-row: 1;
+                padding: 3rem 2rem 0 2rem;
+                background: var(--black);
+                overflow-y: scroll;
+                color: white;
+                font-family: 'Inter', sans-serif;
+                scrollbar-color: #444444 black;
+                scrollbar-width: thin;
+                mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 8px, black 8px);
+                mask-size: 100% 20000px;
+                mask-position: left bottom;
+                -webkit-mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 8px, black 8px);
+                -webkit-mask-size: 100% 20000px;
+                -webkit-mask-position: left bottom;
+                transition: mask-position 0.3s, -webkit-mask-position 0.3s; */
+                z-index: 11;
+            }
+            /* ── END PATCHES ────────────────────────────────────────────*/
             /* ── Gallery area ──────────────────────────────────────────── */
             
             .viewer-image-area--gallery {
@@ -527,6 +555,7 @@
                 transform: scale(1.3);
             }
             /* ── Arrow buttons — base ──────────────────────────────────── */
+            /* BUG Image Arrows don't hide after changing item in set */
             
             .viewer-image-arrow {
                 position: absolute;
@@ -585,8 +614,9 @@
                 bottom: 10px;
                 left: 50%;
                 transform: translateX(-50%);
-                color: rgba(255, 255, 255, 0.55);
+                color: rgb(255, 255, 255);
                 font-size: 11px;
+                font-weight: 100;
                 letter-spacing: 0.08em;
                 font-family: inherit;
                 pointer-events: none;
@@ -595,6 +625,7 @@
                 /* Same auto-hide behaviour as arrows */
                 opacity: 0;
                 transition: opacity 600ms ease-out;
+                filter: contrast(100%);
             }
             
             .viewer-image-counter.is-visible {
