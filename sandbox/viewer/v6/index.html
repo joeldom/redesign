@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<!-- TODO
+	[] Think about having another button appear at the last item in a set to "loop" with half/full-circle with arrow like spotify "repeat" button
+	[] Think about having the buttons for the 
+    [] Agent needs to fix how items in a set are scrolled through and differentiate between groups and sets in a collection.
+	CLAUDE CHAT ARTIFACT: https://claude.ai/chat/4319177f-0ba2-43bb-bf5b-752c4b1d9507
+		For static sets:
+		<div class="set" data-set-id="exo" style="display:none;">
+			<img data-src="image1.png" alt="..." />
+			<img data-src="image2.png" alt="..." />
+			<img data-src="image3.png" alt="..." />
+		</div>
+	[] Arrows and Item in Set count displays after scrolling or choosing from side selection.
+	[] Side dots should start as shown and animate down in opacity, and show 100% when scrolled. This is still not fixed.
+	[] Viewer CSS needs collected and patches applied to section where !important was used.
+ -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>Viewer Feature v6</title>
+    <meta name="description" content="Feature work on Viewer component - Testing Phase">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="Feature work on Viewer component - Testing Phase" />
+    <meta name="twitter:title" content="Viewer Component v6" />
+    <meta name="twitter:site" content="@joeldombek" />
+    <meta name="twitter:creator" content="@joeldombek" />
+    <link rel='shortlink' href='http://www.joeldombek.com/' />
+    <meta property="og:url" content="http://joeldom.github.io/redesign/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Viewer Feature: principle design" />
+    <meta property="og:description" content="Viewer Feature: principle design for a Viewer Component that allows for sets and collections." />
+    <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-med-2026.png" />
+    <!--==============================================================================================================================
+
+
+
+           @@@  @@@@@@  @@@@@@@@ @@@       @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@  @@@@@@@@ @@@  @@@       @@@@@@@  @@@@@@  @@@@@@@@@@
+           @@@ @@@@@@@@ @@@@@@@@ @@@       @@@@@@@@ @@@@@@@@ @@@@@@@@@@@ @@@@@@@@ @@@@@@@@ @@@  @@@      @@@@@@@@ @@@@@@@@ @@@@@@@@@@@
+           @@! @@!  @@@ @@!      @@!       @@!  @@@ @@!  @@@ @@! @@! @@! @@!  @@@ @@!      @@!  !@@      !@@      @@!  @@@ @@! @@! @@!
+           !@! !@!  @!@ !@!      !@!       !@!  @!@ !@!  @!@ !@! !@! !@! !@   @!@ !@!      !@!  @!!      !@!      !@!  @!@ !@! !@! !@!
+           !!@ @!@  !@! @!!!:!   @!!       @!@  !@! @!@  !@! @!! !!@ @!@ @!@!@!@  @!!!:!   @!@@!@!       !@!      @!@  !@! @!! !!@ @!@
+           !!! !@!  !!! !!!!!:   !!!       !@!  !!! !@!  !!! !@!   ! !@! !!!@!!!! !!!!!:   !!@!!!        !!!      !@!  !!! !@!   ! !@!
+           !!: !!:  !!! !!:      !!:       !!:  !!! !!:  !!! !!:     !!: !!:  !!! !!:      !!: :!!       :!!      !!:  !!! !!:     !!:
+      !!:  :!: :!:  !:! :!:       :!:      :!:  !:! :!:  !:! :!:     :!: :!:  !:! :!:      :!:  !:! :!:  :!:      :!:  !:! :!:     :!:
+      ::: : :: ::::: ::  :: ::::  :: ::::   :::: :: ::::: :: :::     ::   :: ::::  :: :::: :::  ::: :::   ::: ::: ::::: :: :::     ::
+       : :::    : :  :  : :: ::  : :: : :  :: :  :   : :  :   :      :   :: : ::  : :: ::   :   ::  :::   :: :: :  : :  :   :      :
+
+                                                    ~ ~ ~ ~ ~ ~ v1 ~ ~ ~ ~ ~ ~
+
+     =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/utility.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/login.css" />
+    <!-- <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/default.min.css">
+    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" rel="icon" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+    <!-- <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" /> -->
+    <link rel="stylesheet" href="../../../../style-guide/css/theme.css" />
+    <link rel="stylesheet" href="../../../greybox/css/coma.css" />
+    <link rel="stylesheet" href="../../../css/tao.css" />
+    <link rel="stylesheet" href="../../../css/lib.css" />
+    <link rel="stylesheet" href="../../../css/sandbox.css" />
+    <link rel="stylesheet" href="../../../css/packet.css" />
+    <link rel="stylesheet" href="../../../css/prompt.css" />
+    <link rel="stylesheet" href="../../../css/viewer.css" />
+    <link rel="stylesheet" href="../../../../style-guide/css/enlarge.css" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D9GLG41WK0"></script>
+    <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
+    <script src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
+</head>
+
+<body id="sandbox" class="parallax dark-mode">
+    <div class="wrapper">
+        <a id="top" class="anchor"></a>
+        <div id="navbar" class="navbar navbar-fixed-top headroom" role="banner">
+            <div class="">
+                <!-- <a class="navbar-brand" href="https://joeldom.github.io/redesign/sandbox/">
+                    <svg class="inline" focusable="false" preserveAspectRatio="xMidYMid meet" xmlns="https://www.w3.org/2000/svg" fill="#1a3acc" aria-hidden="true" width="20" height="14" viewBox="0 0 20 20">
+						<path transform="scale(-1, 1) translate(-20, 0)" d="M11.8 2.8L10.8 3.8 16.2 9.3 1 9.3 1 10.7 16.2 10.7 10.8 16.2 11.8 17.2 19 10z"></path>
+					</svg> Go Back</a> -->
+                <a class="navbar-brand" href="https://joeldom.github.io/redesign/">JOEL<strong>DOMBEK</strong></a>
+                <nav class="navbar-responsive-collapse">
+                    <ul class="nav navbar-nav pull-right" role="navigation">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="https://joeldom.github.io/redesign/all">Work</a>
+                            <ul class="dropdown-menu">
+                                <li class="">
+                                    <a href="https://joeldom.github.io/redesign/all" title="All Work">All</a>
+                                </li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/brand" title="Logos & Branding">Brand</a></li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/sandbox/" title="Sandbox">Code</a></li>
+                                <li class=""><a href="https://joeldom.github.io/redesign/interface" title="UX/UI">Interface</a></li>
+                                <li class=""><a href="#" title="Coming Soon!">Photography</a></li>
+                                <li class=""><a href="#" title="Coming Soon!">Print</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Ideas</a>
+                            <ul class="dropdown-menu">
+                                <li class=""><a href="#" title="Coming Soon!">Quotes</a></li>
+                                <li class="">
+                                    <a href="https://www.joeldombek.com/ideas/inspiration/">Inspiration</a>
+                                </li>
+                                <li class="">
+                                    <!-- <a href="https://www.joeldombek.com/blog/">Blog</a> -->
+                                    <a href="https://github.com/joeldom" target="_blank" title="View my Github profile">Github</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#">Info</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a id="nav-search" href="#"><i class="material-icons">search</i></a>
+                                </li>
+                                <li class="">
+                                    <a href="https://joeldom.github.io/redesign/about">About</a>
+                                </li>
+                                <li class=""><a href="https://joeldom.github.io/style-guide/ux/">Case Studies</a></li>
+                                <!-- <li class=""><a href="#">Annual Report</a></li> -->
+                                <li class="">
+                                    <a href="https://joeldom.github.io/resume/">Resume</a>
+                                </li>
+                                <li class="">
+                                    <a href="https://joeldom.github.io/redesign/contact" title="Get in touch">Contact</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <button type="button" class="navbar-toggle">
+					<!-- <span href="#menu" class="trinav"></span> -->
+					<span href="#menu" class="ventnav">
+						<svg xmlns="https://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+							<path d="M7.77636 0.797607V8.53684H0.0371094L7.77636 0.797607Z" fill="#C5C5C5"/>
+							<path d="M7.77636 9.42798V17.1672H0.0371094L7.77636 9.42798Z" fill="#C5C5C5"/>
+							<path d="M7.77636 18.0583V25.7976H0.0371094L7.77636 18.0583Z" fill="#C5C5C5"/>
+							<path d="M16.4067 0.797607V8.53684H8.66748L16.4067 0.797607Z" fill="#C5C5C5"/>
+							<path d="M16.4067 9.42798V17.1672H8.66748L16.4067 9.42798Z" fill="#C5C5C5"/>
+							<path d="M16.4067 18.0583V25.7976H8.66748L16.4067 18.0583Z" fill="#C5C5C5"/>
+							<path d="M25.0371 0.797607V8.53684H17.2979L25.0371 0.797607Z" fill="#C5C5C5"/>
+							<path d="M25.0371 9.42798V17.1672H17.2979L25.0371 9.42798Z" fill="#C5C5C5"/>
+							<path d="M25.0371 18.0583V25.7976H17.2979L25.0371 18.0583Z" fill="#C5C5C5"/>
+						</svg>
+					</span>
+				</button>
+            </div>
+        </div>
+    </div>
+    <!-- / Nav Section -->
+    <!--/wrapper-->
+    <!-- 
+		[] ideas around having a bookmark site tree data display API chain
+		[] 大魔界村とかスト2なんかべたすぎるだろ。北斗の拳とかおそ松くんなんかレアな作品なのに選ばれていないのが疑問に思う。
+	-->
+
+    <div class="wrapper">
+        <!-- RELATED SECTION START -->
+        <div id="gallery" class="related-posts">
+            <div class="grid palette-inverse">
+                <div class="grid-inner full-3">
+
+                    <article style="background-image:url('https://joeldom.github.io/asset/images/exo-square-190F7B.png'); background-size: 320px auto;">
+                        <a href="#" class="post-link">
+                            <div class="article-inner">
+                                <h3 class="name">Exo</h3>
+                                <h2>AI Agent Account</h2>
+                            </div>
+                        </a>
+
+                        <!-- Image set — data-set-id hooks to future API hydration -->
+                        <div class="set" data-set-id="exo" style="display:none;">
+                            <img data-src="https://joeldom.github.io/asset/images/exo-square-190F7B.png" alt="Exo brand mark" />
+                            <img data-src="https://camo.githubusercontent.com/8ba9601aa3901e770f863dbcbdcfdc4abfe9180693f630526a66f4655645eb77/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f62616e6e6572732f313934383638363336373537333239313030382f313735333434353933342f3135303078353030"
+                                alt="Exo social banner" />
+                            <img data-src="https://joeldom.github.io/asset/chip-logo.png" alt="Exo chip logo" />
+                        </div>
+
+                        <!-- Simple semantic content -->
+                        <div class="viewer-content" style="display: none;">
+                            <h3 class="cat">Brand</h3>
+                            <div class="viewer-title">Exo AI Agent</div>
+
+                            <div class="viewer-description">
+                                <h3>Overview</h3>
+                                <p>Exo is an AI agent I developed to change how I handled content creation. Exo would take in ideas and prompts from a ticket it is assigned. It would then create the post in a PR and tagging me to approve and push with and
+                                    without changes.It would utilize Discord or Twitter to send me a notification about the work and the larger idea being a way to test content with a social preview.
+                                </p>
+                                <p>At its core, Exo bridges the gap between ideation and impact. It integrates seamlessly with social ecosystems like Twitter (X) and Discord, automating posts while benchmarking data streams for optimal timing and engagement.
+                                    This project allows me to think outside of just UIs and work on building tools that use AI along side working more with emerging DevOps patterns.</p>
+                                <ul>
+                                    <li><strong>AI Layer</strong>: OpenAI/Anthropic APIs for dynamic content curation.</li>
+                                    <li><strong>Social APIs</strong>: Twitter API v2 (via <code>twitter-api-v2</code>) and Discord.js for secure, authenticated posting.</li>
+                                    <li><strong>DevOps Tools</strong>: GitHub Actions for automated deployments, .env-based config for secure secrets, and CLI interactivity via Node's readline module.</li>
+                                    <li><strong>Structure</strong>: Clean separation of concerns—<code>src/services/</code> for integrations, utils/ for formatting/validation, and logs/ for history tracking.</li>
+                                </ul>
+                                <h3>Goal</h3>
+                                <p>The aim is to make a tool that is also productivity multiplier. The project incorporates new and emerging patterns with AI agents, Github automation/actions, Discord bots with social previews I have been working with for
+                                    some time but wanted to connect to a new visual brand. After reading about
+                                    <a href="https://xbow.com/" target="_blank">XBOW</a> that describes itself as "XBOW is an AI-powered penetration testing platform that delivers expert-level security testing at machine speed."</p>
+                                <p>Check out the live repo at
+                                    <a href="https://github.com/joeldom/exo" target="_blank">github.com/joeldom/exo</a> or follow updates on X <a href="https://x.com/ecco_exo" target="_blank">@ecco_exo</a>.</p>
+                                <h3>Details</h3>
+                                <p>A Viewer able to handle many different types of content and various levels of detail about each piece. A component that is robust to be used in place of full-blown pages for projects.
+                                </p>
+                                <a href="https://joeldom.github.io/redesign/sandbox/prompt/" title="Exo AI Agent Account Case Study"><span class="see-more">Case Study</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article style="background-image:url('https://camo.githubusercontent.com/8ba9601aa3901e770f863dbcbdcfdc4abfe9180693f630526a66f4655645eb77/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f62616e6e6572732f313934383638363336373537333239313030382f313735333434353933342f3135303078353030'); background-size: 700px auto;">
+                        <a href="#" class="post-link">
+                            <div class="article-inner">
+                                <h3 class="cat ">Brand</h3>
+                                <h2>Exo Social</h2>
+                            </div>
+                        </a>
+
+                        <!-- Image set — single image for now -->
+                        <div class="set" data-set-id="exo-social" style="display:none;">
+                            <img data-src="https://camo.githubusercontent.com/8ba9601aa3901e770f863dbcbdcfdc4abfe9180693f630526a66f4655645eb77/68747470733a2f2f7062732e7477696d672e636f6d2f70726f66696c655f62616e6e6572732f313934383638363336373537333239313030382f313735333434353933342f3135303078353030"
+                                alt="Exo social banner" />
+                        </div>
+
+                        <div class="viewer-content" style="display: none;">
+                            <div class="viewer-title">Exo Agent</div>
+                            <div class="viewer-description">
+                                <p>This is a test of the enhanced viewer system.</p>
+                                <ul>
+                                    <li>Feature one</li>
+                                    <li>Feature two</li>
+                                    <li>Feature three</li>
+                                </ul>
+                                <p>If you can see this content, the viewer is working!</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article style="background-image:url('https://joeldom.github.io/asset/images/missing-image-icon.png'); background-size: 160px auto;">
+                        <a href="#" class="post-link">
+                            <div class="article-inner">
+                                <h3 class="cat ">TBD</h3>
+                                <h2>Product info byline</h2>
+                            </div>
+                        </a>
+
+                        <!-- Image set — placeholder images for now -->
+                        <div class="set" data-set-id="tbd" style="display:none;">
+                            <img data-src="https://joeldom.github.io/asset/images/missing-image-icon.png" alt="Placeholder" />
+                        </div>
+
+                        <div class="viewer-content" style="display: none;">
+                            <h3 class="cat">TBD</h3>
+                            <div class="viewer-title">Product info byline</div>
+                            <div class="viewer-description">
+                                <h3>Coming Soon</h3>
+                                <p>Details for this project are on the way. Check back soon.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+        <!-- related-posts -->
+        <aside class="container">
+            <div class="module module-related row">
+                <header class="module-header col-sm-12">
+                    <h2 class="module-title h4">Feature Prototype</h2>
+                </header>
+                <div class="col-sm-4">
+                    <article class="tile tile-text">
+                        <header class="tile-header">
+                            <p><small>Look &amp; Feel</small></p>
+                            <h3 class="h3"><a href="#">Viewer: Deeper Project / Topic Insight</a></h3>
+                        </header>
+                        <div class="tile-excerpt hidden-xs">
+                            <p>Designing a responsive Viewer to give an enlarged view of both an visual media asset as well as expand on its general concept and purpose. With the Viewer feature able to enlarge from a tile preview to pair a technical write-up
+                                alongside an album collection or variations showcases a project without navigating away from others. […]
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article class="tile tile-text">
+                        <header class="tile-header">
+                            <p><small>Enhancement</small></p>
+                            <h3 class="h3"><a href="#">Stories</a></h3>
+                        </header>
+                        <div class="tile-excerpt hidden-xs">
+                            <p>With projects able to be showcased and show the stories around them it streamlines the flow while not fully interrupting the larger immersion. […]
+                            </p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-sm-4">
+                    <article class="tile tile-text">
+                        <header class="tile-header">
+                            <p><small>Process</small></p>
+                            <h3 class="h3"><a href="#">Heuristics</a></h3>
+                        </header>
+                        <div class="tile-excerpt hidden-xs">
+                            <p>Figuring out how to add a layer arose from wanting to avoid disrupting the flow of where attention was alongside being able to elaborate with greater detail showing the scope and future-states that would handle albums of various
+                                types of media together. […]</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <br/>
+        </aside>
+        <!-- RELATED SECTION END -->
+        <!-- related-posts -->
+
+        <div class="footer-para">
+            <div class="container">
+                <div class="row">
+                    <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                        <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-moon"></i></button>
+                        <span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
+                        <div class="row">
+                            <a class="footer-brand col-xs-6 col-sm-2" href="#" itemprop="name">
+                                <!-- Todo adjust the size to be smaller across all files 64px is nice -->
+                                <img src="https://joeldom.github.io/asset/chip-logo.png" style="width: auto;max-height:80px;" />
+                            </a>
+                            <div class="col-xs-12 col-sm-4 hidden-sm hidden-md hidden-lg">&nbsp;</div>
+                            <div class="col-xs-12 col-sm-6">
+                                <!-- <p style="padding: 0 24px;">The portfolio and blog of Joel Dombek, a professional with over a decade of expertise in logo design, brand identity, graphic design, advertising, marketing, web design, and UX design. Find additional details in my <a href="https://joeldom.github.io/resume/"
+										target="_blank">Resume</a>.</p> -->
+                                <ul class="list-unstyled hidden-sm hidden-md hidden-lg">
+                                    <li><a href="https://joeldom.github.io/redesign/">Home</a></li>
+                                    <li><a href="https://joeldom.github.io/redesign/work">Work</a></li>
+                                    <li><a href="https://joeldom.github.io/redesign/sandbox/writing/">Writing</a></li>
+                                    <li><a href="https://joeldom.github.io/redesign/ideas">Ideas</a></li>
+                                    <li><a href="https://joeldom.github.io/redesign/quotes">Quotes</a></li>
+                                    <li><a href="https://joeldom.github.io/redesign/about">About</a></li>
+                                    <li><a href="https://joeldom.github.io/resume">Resume</a></li>
+                                    <!-- <li><a href="https://joeldom.github.io/contact">Contact</a></li> -->
+                                    <!-- <li><a href="https://joeldom.github.io/search">Search</a></li> -->
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="row">
+                                    <div class="col-sm-4 col-xs-12 hidden-xs">
+                                        <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                        <ul class="list-unstyled">
+                                            <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                            <li>
+                                                <a href="https://www.instagram.com/joeld/" target="_blank"><i class="fa fa-user-circle" aria-hidden="true"></i><span class="hidden-xs"> About</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://joeldom.github.io/style-guide/" target="_blank"><i class="fa fa-paint-brush" aria-hidden="true"></i><span class="hidden-xs"> Style&nbsp;Guide</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://joeldom.github.io/redesign/sandbox/" target="_blank"><i class="material-icons">palette</i><span class="hidden-xs"> Sandbox</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://joeldom.github.io/resume/" target="_blank"><i class="fa fa-file-pdf-o"></i><span class="hidden-xs"> Resume</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-4 col-xs-12 hidden-xs">
+                                        <!-- <a href="https://www.joeldombek.com/contact/"><strong itemprop="name">Contact</strong></a><br> -->
+                                        <ul class="list-unstyled">
+                                            <!-- <li><a href="#" target="_blank"><i class="fa fa-facebook-official"></i> Facebook</a></li> -->
+                                            <li>
+                                                <a href="https://github.com/joeldom" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><span class="hidden-xs"> Github</span></a>
+
+                                            </li>
+                                            <li>
+                                                <a href="https://www.linkedin.com/in/joel-dombek-6b056828/" target="_blank"><i class="fa fa-linkedin"></i><span class="hidden-xs"> LinkedIn</span></a>
+
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/joeldombek" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span class="hidden-xs"> Twitter</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/joeld/" target="_blank"><i class="material-icons">camera</i><span class="hidden-xs"> Insta</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="col-sm-4 col-xs-12">
+                                        <p class="text-right">
+                                            JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small>
+                                        </p>
+                                        <br /><br /><br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <!-- <script src="../../js/gtag.js"></script> -->
+        <!-- <script src="../../js/sandbox.js"></script> -->
+        <!-- <script src="../../js/keyShuffle.js"></script> -->
+        <!-- <script src="../../js/prompt.js"></script> -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+        <script>
+            hljs.highlightAll();
+        </script>
+        <script src="https://joeldom.github.io/redesign/greybox/js/main.js"></script>
+        <!-- <script src="https://joeldom.github.io/redesign/greybox/js/void__quotes.js"></script> -->
+        <!-- <script src="https://joeldom.github.io/redesign/greybox/js/contact.js"></script> -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"</script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <script src="../../../style-guide/js/theme.js"></script>
+        <script src="../../../style-guide/js/enlarge.js"></script>
+        <script src="viewer-v5.js"></script>
+
+        <!-- viewer-gallery styles — inline until extracted to viewer.css -->
+        <style>
+            /* ── Viewer V5 ─────────────────────────────────────────────────	 */
+            /* PATCH: Adjust the close button to be 9 z-index to be below the -> .viewer-image-dots*/
+            
+            .viewer-close {
+                /* position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(255, 255, 255, 0);
+                border: none;
+                color: white;
+                font-size: 32px;
+                width: 100px;
+                height: 100vh;
+                border-radius: 1px;
+                cursor: pointer; */
+                z-index: 9 !important;
+                /* display: flex;
+                align-items: start;
+                justify-content: center;
+                transition: all 0.2s ease;
+                font-family: Arial, sans-serif;
+                line-height: 1;
+                padding: 1em 2em;
+                border-left: 1px solid #84848400; */
+                opacity: 0% !important;
+                transition: all 0.2s ease;
+            }
+            
+            .viewer-close:hover {
+                opacity: 100% !important;
+                transition: all 0.2s ease;
+            }
+            
+            .viewer-close span.context {
+                /* display: block;
+                color: #000;
+                opacity: 0;
+                font-size: 20px;
+                position: absolute; */
+                top: 32%;
+                /* transform: rotate(-90deg);
+                transition: all 0.2s ease; */
+            }
+            
+            .viewer-close:hover span.context {
+                /* color: white;
+                display: block;
+                opacity: 1;
+                position: absolute; */
+                top: 49vh;
+                /* transform: rotate(-90deg);
+                transition: all 0.2s ease; */
+            }
+            
+            .viewer-content-area {
+                /* grid-column: 1;
+                grid-row: 1;
+                padding: 3rem 2rem 0 2rem;
+                background: var(--black);
+                overflow-y: scroll;
+                color: white;
+                font-family: 'Inter', sans-serif;
+                scrollbar-color: #444444 black;
+                scrollbar-width: thin;
+                mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 8px, black 8px);
+                mask-size: 100% 20000px;
+                mask-position: left bottom;
+                -webkit-mask-image: linear-gradient(to top, transparent, black), linear-gradient(to left, transparent 8px, black 8px);
+                -webkit-mask-size: 100% 20000px;
+                -webkit-mask-position: left bottom;
+                transition: mask-position 0.3s, -webkit-mask-position 0.3s; */
+                z-index: 11;
+            }
+            
+            .read-more,
+            .see-more,
+            #c_form input[type="submit"] {
+                /* border: 3px solid #000;
+                display: inline-block;
+                font-family: sans-serif;
+                font-size: 13px;
+                font-weight: bold;
+                line-height: 40px;
+                text-align: center;
+                text-decoration: none;
+                padding: 0.4125em 2.5em;
+                -webkit-text-size-adjust: none;
+                mso-hide: all;
+                transition: color 400ms, background-color 400ms;
+                cursor: pointer;
+                border-radius: 0px; */
+                background-color: #ffe4c408;
+            }
+            /* ── END PATCHES ────────────────────────────────────────────*/
+            /* ── Gallery area ──────────────────────────────────────────── */
+            
+            .viewer-image-area--gallery {
+                position: relative;
+                overflow: hidden;
+            }
+            /* ── Sliding track ─────────────────────────────────────────── */
+            
+            .viewer-image-track {
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                transform: translateY(0);
+                transition: transform 0.42s cubic-bezier(0.4, 0, 0.2, 1);
+                will-change: transform;
+            }
+            
+            .viewer-image-slide {
+                width: 100%;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-size: contain;
+            }
+            /* ── Dot indicators ────────────────────────────────────────── */
+            
+            .viewer-image-dots {
+                position: absolute;
+                /* right: 28px; */
+                right: 0;
+                padding: 2em 3em;
+                top: 50%;
+                transform: translateY(-50%);
+                display: flex;
+                flex-direction: column;
+                /* gap: 8px; */
+                gap: 12px;
+                z-index: 10;
+                filter: contrast(50%);
+                /* Start visible, fade to low opacity after 1.5s — JS could handle
+                   the initial delay but CSS-only approach: use animation */
+                opacity: 100%;
+                animation: dots-fade-in 0.2s ease forwards, dots-idle 1s 1.5s ease forwards;
+                transition: opacity 0.25s ease;
+            }
+            
+            @keyframes dots-fade-in {
+                from {
+                    opacity: 0;
+                }
+                to {
+                    opacity: 1;
+                }
+            }
+            
+            @keyframes dots-idle {
+                from {
+                    opacity: 1;
+                }
+                to {
+                    opacity: 0.2;
+                }
+            }
+            
+            .viewer-image-dots:hover {
+                opacity: 100%;
+                transition: opacity 0.25s ease;
+            }
+            
+            .viewer-image-dot {
+                /* width: 10px; */
+                width: 18px;
+                height: 8px;
+                /* border-radius: 50%; */
+                border-radius: 1px;
+                border: none;
+                background: rgba(255, 255, 255, 0.35);
+                border: 1px solid rgba(90, 67, 67, 0.534);
+                cursor: pointer;
+                padding: 0;
+                transition: background 0.25s ease, transform 0.25s ease;
+            }
+            
+            .viewer-image-dot:hover {
+                background: rgba(147, 112, 180, 0.65);
+                transform: scale(1.5);
+                border: 1px solid rgba(117, 123, 176, 0.54);
+            }
+            
+            .viewer-image-dot.is-active {
+                /* background: rgba(114, 193, 185, 0.95); */
+                background: rgba(98, 103, 151, 0.521);
+                border: 1px solid rgba(82, 76, 90, 0.322);
+                transform: scale(1.3);
+            }
+            /* ── Arrow buttons — base ──────────────────────────────────── */
+            /* BUG FIXED: inline opacity was overriding the class system.
+               Now using is-boundary class — no inline styles on arrows. */
+            
+            .viewer-image-arrow {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: 10;
+                background: rgba(255, 255, 255, 0.12);
+                border: 1px solid rgba(255, 255, 255, 0.22);
+                color: #fff;
+                width: 36px;
+                height: 36px;
+                font-size: 16px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                /* Auto-hide: invisible by default, slow fade out */
+                opacity: 0;
+                transition: opacity 600ms ease-out, background 150ms ease;
+            }
+            /* Show immediately with a very slight ease-in on hover */
+            
+            .viewer-image-arrow:hover,
+            .viewer-image-arrow.is-visible {
+                opacity: 1;
+                transition: opacity 80ms ease-in, background 150ms ease;
+            }
+            
+            .viewer-image-arrow:hover {
+                background: rgba(255, 255, 255, 0.25);
+            }
+            
+            .viewer-image-arrow--prev {
+                top: 12px;
+            }
+            
+            .viewer-image-arrow--next {
+                bottom: 46px;
+            }
+            /* ── Arrow shape: round (default) ─────────────────────────── */
+            
+            .viewer-arrows--round .viewer-image-arrow {
+                border-radius: 50%;
+            }
+            /* ── Arrow shape: square ───────────────────────────────────── */
+            
+            .viewer-arrows--square .viewer-image-arrow {
+                border-radius: 4px;
+            }
+            /* ── Arrow boundary (first/last image) ─────────────────────── */
+            
+            .viewer-image-arrow.is-boundary.is-visible {
+                opacity: 0.3;
+            }
+            /* ── Counter label ─────────────────────────────────────────── */
+            
+            .viewer-image-counter {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: rgb(255, 255, 255);
+                font-size: 11px;
+                font-weight: 100;
+                letter-spacing: 0.08em;
+                font-family: inherit;
+                pointer-events: none;
+                z-index: 10;
+                white-space: nowrap;
+                /* Same auto-hide behaviour as arrows */
+                opacity: 0;
+                transition: opacity 600ms ease-out;
+                filter: contrast(100%);
+            }
+            
+            .viewer-image-counter.is-visible {
+                opacity: 1;
+                transition: opacity 80ms ease-in;
+            }
+        </style>
+</body>
+
+</html>
