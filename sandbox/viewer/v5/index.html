@@ -8,11 +8,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
     <title>All Work</title>
-    <meta name="description" content="Principle design for integrated chat +UX +UI concept | Joel Dombek © X.X.MMXXV ">
+    <meta name="description" content="Feature work on Viewer component - Testing Phase">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="Principle design for integrated chat +UX +UI concept | Joel Dombek © X.X.MMXXV " />
-    <meta name="twitter:title" content="ECCO Ai / principle design for integrated chat" />
+    <meta name="twitter:description" content="Feature work on Viewer component - Testing Phase" />
+    <meta name="twitter:title" content="Viewer Component v5" />
     <meta name="twitter:site" content="@joeldombek" />
     <meta name="twitter:creator" content="@joeldombek" />
     <link rel='shortlink' href='http://www.joeldombek.com/' />
@@ -205,6 +205,9 @@
                                     <a href="https://xbow.com/" target="_blank">XBOW</a> that describes itself as "XBOW is an AI-powered penetration testing platform that delivers expert-level security testing at machine speed."</p>
                                 <p>Check out the live repo at
                                     <a href="https://github.com/joeldom/exo" target="_blank">github.com/joeldom/exo</a> or follow updates on X <a href="https://x.com/ecco_exo" target="_blank">@ecco_exo</a>.</p>
+                                <h3>Details</h3>
+                                <p>A Viewer able to handle many different types of content and various levels of detail about each piece. A component that is robust to be used in place of full-blown pages for projects.
+                                </p>
                             </div>
                         </div>
                     </article>
@@ -487,11 +490,19 @@
                 /* gap: 8px; */
                 gap: 12px;
                 z-index: 10;
+                filter: contrast(50%);
+                opacity: 20%;
+                transition: opacity .2s ease, opacity 3s ease;
+            }
+            
+            .viewer-image-dots:hover {
+                opacity: 100%;
+                transition: opacity 0.25s ease, opacity 0.25s ease;
             }
             
             .viewer-image-dot {
                 /* width: 10px; */
-                width: 16px;
+                width: 18px;
                 height: 8px;
                 /* border-radius: 50%; */
                 border-radius: 1px;
@@ -506,12 +517,12 @@
             .viewer-image-dot:hover {
                 background: rgba(147, 112, 180, 0.65);
                 transform: scale(1.5);
-                border: 1px solid rgba(71, 77, 136, 0.541);
+                border: 1px solid rgba(117, 123, 176, 0.54);
             }
             
             .viewer-image-dot.is-active {
                 /* background: rgba(114, 193, 185, 0.95); */
-                background: rgba(85, 90, 139, 0.521);
+                background: rgba(98, 103, 151, 0.521);
                 border: 1px solid rgba(82, 76, 90, 0.322);
                 transform: scale(1.3);
             }
