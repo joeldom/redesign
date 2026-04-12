@@ -17,7 +17,7 @@ Development of a production environment for testing (main, resume, projects, ass
 ### Abstract
 
 
-
+[Stake](http://joeldom.github.io/redesign/sandbox/v2/stake.html)
 
 ## Content Map
 
