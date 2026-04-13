@@ -114,7 +114,9 @@
         }
         
         .logo::before {
-            content: '🔥';
+            /* content: '🔥'; */
+            /* content: '💳'; */
+            content: '💵';
             font-size: 2rem;
         }
         
@@ -163,10 +165,10 @@
         .stats {
             display: flex;
             gap: 2rem;
-            background: rgba(15, 15, 25, 0.92);
+            background: rgba(15, 15, 25, 0.61);
             padding: 1.5rem 2rem;
             border: 1px solid rgba(167, 139, 250, 0.25);
-            backdrop-filter: blur(12px);
+            /* backdrop-filter: blur(12px); */
             border-top-left-radius: 12px;
             border-top-right-radius: 12px;
         }
@@ -399,7 +401,10 @@
 
     <!-- Header (with your changes) -->
     <div class="header">
-        <div class="logo">STAKE</div>
+        <!-- <div class="logo">STAKE</div> -->
+        <div class="logo">Delta Creme</div>
+        <!-- <div class="logo">Quant/Creme</div> -->
+        <!-- <div class="logo">Cream Stake/div> -->
 
         <div class="nav">
             <a href="#">Dashboard</a>
@@ -438,6 +443,7 @@
             <div class="stat">
                 <div class="stat-label">Initial Stake</div>
                 <div class="stat-value">$10,000</div>
+                <div class="stat-change positive">↑ %5 Week</div>
             </div>
             <div class="stat">
                 <div class="stat-label">Current Creme Value</div>
@@ -447,10 +453,12 @@
             <div class="stat">
                 <div class="stat-label">Trades</div>
                 <div class="stat-value">14</div>
+                <div class="stat-change positive">↑ +10 /day</div>
             </div>
             <div class="stat">
                 <div class="stat-label">Avg Daily Return</div>
                 <div class="stat-value">2.62%</div>
+                <div class="stat-change positive">↑ $1.33 /day</div>
             </div>
         </div>
 
