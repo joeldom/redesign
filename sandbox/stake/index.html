@@ -383,7 +383,7 @@
         
         .alpha {
             display: block;
-            position: absolute;
+            position: fixed;
             top: 0;
             margin: 0 auto;
             width: 100%;
@@ -391,11 +391,17 @@
             font-size: 14px;
             line-height: 1.78571;
             text-align: center;
-            background: #021317b2;
-            background: #203135b2;
+            /* background: #021317b2; */
+            /* background: #203135b2; */
+            background: #171717b2;
             /* border-bottom: 1px solid #56565685; */
-            transition: background 1.3s ease;
+            transition: background 1.3s ease, border 1.3s ease;
             z-index: 9999;
+        }
+        
+        .alpha:hover {
+            /* border-bottom: 1px solid #212121d4; */
+            transition: border 1.3s ease;
         }
         
         .alpha a {
