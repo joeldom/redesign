@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <title>Stake AI • Creme</title>
-    <meta name="description" content="AI-Powered Trading & Staking Platform - Creme Performance Viewer">
+    <title>Delta • Creme</title>
+    <meta name="description" content="AI-Powered Trading & Staking Platform - Delta + Creme Performance Viewer">
 
     <!-- Twitter / Open Graph Meta -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="AI-powered Creme performance overlay with flickering background" />
-    <meta name="twitter:title" content="Stake AI • Creme Demo" />
+    <meta name="twitter:title" content="Delta • Creme v1" />
     <meta name="twitter:site" content="@beyondxalive" />
     <meta property="og:url" content="https://stake-ai.demo" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Stake AI • Creme" />
+    <meta property="og:title" content="Delta • Creme" />
     <meta property="og:description" content="Weekly AI trading performance overlay" />
     <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-med-2026.png" />
     <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" rel="icon" type="image/x-icon">
@@ -49,8 +49,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
          :root {
-            --primary: #00ff9d;
-            --accent: #a78bfa;
+            /* --primary: #00ff9d; */
+            --primary: #77ffcb;
+            /* --accent: #a78bfa; */
+            /* --accent: #8971cfd0; */
+            --accent: #b69dff;
         }
         
         * {
@@ -61,10 +64,10 @@
         
         body {
             font-family: 'Inter', system_ui, sans-serif;
-            background: #000000;
+            background: #020311;
             color: #ffffff;
             min-height: 100vh;
-            padding: 2rem 2rem 6rem;
+            padding: 2rem 0 6rem;
             line-height: 1.6;
             overflow-x: hidden;
             position: relative;
@@ -94,7 +97,7 @@
         
         .header {
             max-width: 1200px;
-            margin: 0 auto 3rem;
+            margin: 0 auto 1rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -106,7 +109,8 @@
             font-family: 'Space Grotesk', sans-serif;
             font-size: 2.1rem;
             font-weight: 600;
-            letter-spacing: -2px;
+            /* letter-spacing: -2px; */
+            letter-spacing: 2px;
             color: var(--primary);
             display: flex;
             align-items: center;
@@ -116,7 +120,17 @@
         .logo::before {
             /* content: '🔥'; */
             /* content: '💳'; */
-            content: '💵';
+            /* content: '💵'; */
+            /* content: url("https://joeldom.github.io/asset/images/App%20Logo%20EccoAi.png"); */
+            display: inline-block;
+            width: 48px;
+            height: 48px;
+            /* margin-right: 5px; */
+            content: "";
+            /* background: url("https://joeldom.github.io/asset/images/App%20Logo%20EccoAi.png") no-repeat 0 0; */
+            background: url("https://joeldom.github.io/asset/icons/hourglass.png") no-repeat 0 0;
+            /* background-size: 100%; */
+            background-size: 67%;
             font-size: 2rem;
         }
         
@@ -169,8 +183,13 @@
             padding: 1.5rem 2rem;
             border: 1px solid rgba(167, 139, 250, 0.25);
             /* backdrop-filter: blur(12px); */
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-bottom: 0;
+        }
+        
+        .stats:hover {
+            background: rgb(15, 15, 25);
         }
         
         .stat {
@@ -201,6 +220,13 @@
         
         .graph-card {
             background: rgba(8, 8, 18, 0.63);
+            padding: 2rem;
+            border: 1px solid rgba(167, 139, 250, 0.3);
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.6);
+        }
+        
+        .graph-card:hover {
+            background: rgb(8, 8, 18);
             padding: 2rem;
             border: 1px solid rgba(167, 139, 250, 0.3);
             box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.6);
@@ -261,16 +287,27 @@
         }
         /* Footer & Changelog Styling */
         
-        .footer-info,
+        .footer-info {
+            max-width: 1200px;
+            margin: 4rem auto 0;
+            padding: 2rem;
+            /* background: rgba(10, 10, 20, 0.43); */
+            /* border: 1px solid #333; */
+            font-size: 0.95rem;
+            line-height: 1.7;
+            color: #ccc;
+        }
+        
         .changelog-section {
             max-width: 1200px;
             margin: 4rem auto 0;
             padding: 2rem;
-            background: rgba(10, 10, 20, 0.43);
-            border: 1px solid #333;
+            /* background: rgba(10, 10, 20, 0.43); */
+            /* border: 1px solid #333; */
             font-size: 0.95rem;
             line-height: 1.7;
             color: #ccc;
+            border-top: 1px solid #69593a80;
         }
         
         .footer-info h3,
@@ -342,6 +379,33 @@
             font-size: 0.92rem;
             color: #bbb;
         }
+        
+        .omega {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            margin: 0 auto;
+            width: 100%;
+            opacity: 0.5;
+            font-size: 14px;
+            line-height: 1.78571;
+            text-align: center;
+            background: #021317b2;
+            background: #203135b2;
+            border-top: 1px solid #000000;
+            transition: background 1.3s ease;
+            z-index: 9999;
+        }
+        
+        .omega:hover {
+            background: #000000;
+            transition: background 0.93s ease;
+        }
+        
+        .omega a {
+            text-decoration: none;
+            color: #ccc;
+        }
     </style>
 
     <!-- 
@@ -402,7 +466,7 @@
     <!-- Header (with your changes) -->
     <div class="header">
         <!-- <div class="logo">STAKE</div> -->
-        <div class="logo">Delta Creme</div>
+        <div class="logo">DELTA</div>
         <!-- <div class="logo">Quant/Creme</div> -->
         <!-- <div class="logo">Cream Stake/div> -->
 
@@ -410,21 +474,21 @@
             <a href="#">Dashboard</a>
             <a href="#">Live Trades</a>
             <a href="#">Creme</a>
-            <a href="#">AI Agent</a>
-            <a href="#">Leaderboard</a>
+            <a href="#">Agent</a>
+            <a href="#">Timeline</a>
             <a href="#">Docs</a>
         </div>
 
         <div style="display: flex; align-items: center; gap: 12px; background: #111; padding: 8px 20px; border-radius: 9999px; font-size: 0.95rem;">
             <div class="ai-pill" style="width: 10px; height: 10px; background: #00ff9d; border-radius: 50%; box-shadow: 0 0 12px #00ff9d;"></div>
-            Agent Online
+            Online
         </div>
     </div>
 
     <div class="main">
         <div class="dashboard-header">
             <div>
-                <div class="subtitle">Agent Driven CREME LAYER</div>
+                <div class="subtitle">Agent Trade Metrics</div>
                 <h1 class="title">Performance Summary</h1>
                 <p style="color:#888; margin-top:8px;">This week (green) vs Last week (purple) • General stats only • No personal data shown</p>
             </div>
@@ -433,8 +497,8 @@
                 <div style="font-size: 2.8rem; font-weight: 700; letter-spacing: -2px; color: var(--primary);">
                     +18.37%
                 </div>
-                <div style="color:#00ff9d;">this week on $10,000 stake</div>
-                <div style="margin-top: 4px; font-size: 1rem; color: #a78bfa;">last week +7.80%</div>
+                <div style="color:#00ff9d;">this week's stake $<strong>10,000</strong></div>
+                <div style="margin-top: 4px; font-size: 1rem; color: #a78bfa;">last week +<strong>7.80</strong>%</div>
             </div>
         </div>
 
@@ -465,7 +529,9 @@
         <!-- Graph (with your changes) -->
         <div class="graph-card">
             <div class="graph-header">
-                <div class="graph-title">Metrics (7-Day Overlay)</div>
+                <div class="graph-title">Metrics
+                    <small style="font-size: .5em;">(7-Day)</small>
+                </div>
                 <div class="period">THIS WEEK vs LAST WEEK</div>
             </div>
             <canvas id="cremeChart"></canvas>
@@ -549,6 +615,7 @@
             </div>
         </div>
     </div>
+    <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © 2026 <a href="https://joeldom.github.io/redesign/sandbox/#login">v1</a></p>
 
     <script>
         const labels = ['Apr 1', 'Apr 2', 'Apr 3', 'Apr 4', 'Apr 5', 'Apr 6', 'Apr 7'];
