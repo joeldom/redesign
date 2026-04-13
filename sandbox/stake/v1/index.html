@@ -37,6 +37,7 @@
                                                     ~ ~ ~ ~ ~ ~ v1 ~ ~ ~ ~ ~ ~
 
      =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
+
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,7 +81,7 @@
             pointer-events: none;
             opacity: 0;
             transition: opacity 1.2s ease-in-out;
-            background: conic-gradient(from 180deg at 50% 70%, hsla(0, 0%, 98%, 0.035) 0deg, #00ffab 72deg, #2000ff 144deg, #709ab9 216deg, #4dffbf 288deg, hsla(0, 0%, 98%, 0.035) 1turn);
+            background: conic-gradient( from 180deg at 50% 70%, hsla(0, 0%, 98%, 0.035) 0deg, #00ffab 72deg, #2000ff 144deg, #709ab9 216deg, #4dffbf 288deg, hsla(0, 0%, 98%, 0.035) 1turn);
             mask: radial-gradient(circle at 50% 50%, white 1.5px, transparent 2.2px) 50% 50% / 28px 28px, url("https://assets.codepen.io/605876/noise-mask.png") 256px 50% / 256px 256px;
             mask-composite: intersect;
             animation: flicker 18s infinite linear;
@@ -164,7 +165,9 @@
             display: flex;
             gap: 2rem;
             background: rgba(15, 15, 25, 0.92);
+            /* border-radius: 16px; */
             padding: 1.5rem 2rem;
+            /* margin-bottom: 2rem; */
             border: 1px solid rgba(167, 139, 250, 0.25);
             backdrop-filter: blur(12px);
             border-top-left-radius: 12px;
@@ -199,9 +202,11 @@
         
         .graph-card {
             background: rgba(8, 8, 18, 0.63);
+            /* border-radius: 20px; */
             padding: 2rem;
             border: 1px solid rgba(167, 139, 250, 0.3);
             box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.6);
+            /* backdrop-filter: blur(2px); */
         }
         
         .graph-header {
@@ -257,88 +262,24 @@
                 opacity: 0.4;
             }
         }
-        /* Footer & Changelog Styling */
+        /* Footer Info Styling */
         
-        .footer-info,
-        .changelog-section {
+        .footer-info {
             max-width: 1200px;
             margin: 4rem auto 0;
             padding: 2rem;
             background: rgba(10, 10, 20, 0.43);
+            /* border-radius: 16px; */
             border: 1px solid #333;
             font-size: 0.95rem;
             line-height: 1.7;
             color: #ccc;
         }
         
-        .footer-info h3,
-        .changelog-section h3 {
+        .footer-info h3 {
             color: var(--primary);
             margin-bottom: 1rem;
             font-size: 1.3rem;
-        }
-        /* Kickstarter-style Vertical Timeline */
-        
-        .timeline {
-            position: relative;
-            max-width: 100%;
-            margin-top: 2rem;
-        }
-        
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 30px;
-            top: 0;
-            bottom: 0;
-            width: 3px;
-            background: linear-gradient(to bottom, #00ff9d, #a78bfa);
-            opacity: 0.3;
-        }
-        
-        .timeline-item {
-            position: relative;
-            margin-bottom: 2.5rem;
-            display: flex;
-            gap: 2rem;
-        }
-        
-        .timeline-date {
-            min-width: 80px;
-            text-align: right;
-            font-size: 0.9rem;
-            color: #888;
-            padding-top: 6px;
-        }
-        
-        .timeline-dot {
-            position: absolute;
-            left: 27px;
-            width: 12px;
-            height: 12px;
-            background: #000;
-            border: 3px solid var(--primary);
-            border-radius: 50%;
-            z-index: 1;
-        }
-        
-        .timeline-content {
-            background: rgba(20, 20, 35, 0.6);
-            padding: 1rem 1.5rem;
-            border-radius: 12px;
-            border: 1px solid rgba(167, 139, 250, 0.2);
-            flex: 1;
-            margin-left: 40px;
-        }
-        
-        .timeline-content h4 {
-            color: var(--primary);
-            margin-bottom: 6px;
-        }
-        
-        .timeline-content p {
-            font-size: 0.92rem;
-            color: #bbb;
         }
     </style>
 
@@ -385,7 +326,7 @@
     Store all keys securely in .env. In production the Creme graph pulls data from /api/creme.
     
     This demo is a self-contained HTML/CSS/JS file for quick testing.
-    The flickering background starts after ~10 seconds (randomized).
+    The flickering background starts after ~10 seconds.
     Full production version would replace static seed data with real backend calls.
     
     LEGAL NOTE: Educational/demo only. Trading involves substantial risk of loss.
@@ -397,7 +338,7 @@
 
     <div class="demo-badge">LIVE DEMO</div>
 
-    <!-- Header (with your changes) -->
+    <!-- Header -->
     <div class="header">
         <div class="logo">STAKE</div>
 
@@ -433,7 +374,7 @@
             </div>
         </div>
 
-        <!-- Stats (with your changes) -->
+        <!-- Stats -->
         <div class="stats">
             <div class="stat">
                 <div class="stat-label">Initial Stake</div>
@@ -454,7 +395,7 @@
             </div>
         </div>
 
-        <!-- Graph (with your changes) -->
+        <!-- Graph -->
         <div class="graph-card">
             <div class="graph-header">
                 <div class="graph-title">Metrics (7-Day Overlay)</div>
@@ -464,7 +405,7 @@
         </div>
     </div>
 
-    <!-- Visible Footer with Full Explanation (your changes preserved) -->
+    <!-- Visible Footer with Full Explanation -->
     <div class="footer-info">
         <h3>Stake AI — App Concept &amp; Tech Stack</h3>
         <p><strong>Core Idea:</strong> Users deposit funds → AI agent automatically executes trades and staking decisions across stocks, crypto, and DeFi. The highlight is <strong>“Creme”</strong> — a clean, anonymized performance metric showing profit on
@@ -486,60 +427,8 @@
         </p>
 
         <p style="margin-top: 1rem; font-size: 0.85rem; color: #555;">
-            Flickering background starts automatically after ~10 seconds (randomized delay).<br> This is a self-contained demo. Copy-paste into index.html to test.
+            Flickering background starts automatically after ~10 seconds.<br> This is a self-contained demo. Copy-paste into index.html to test.
         </p>
-    </div>
-
-    <!-- New Changelog Section with Kickstarter-style Vertical Timeline -->
-    <div class="changelog-section">
-        <h3>Changelog • Recent Updates</h3>
-
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-date">Apr 13<br>2026</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Added Kickstarter-style Timeline</h4>
-                    <p>Implemented vertical timeline for changelog with glowing line and dots. Background flicker delay randomized for better UX.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-date">Apr 12<br>2026</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>UI Polish &amp; Customization</h4>
-                    <p>Updated header to "STAKE", simplified titles, adjusted stats/graph card styling (removed some borders/radii for cleaner look), and tuned conic-gradient colors.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-date">Apr 11<br>2026</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Flicker Background Integration</h4>
-                    <p>Added subtle conic-gradient + noise mask background inspired by CodePen. Starts automatically after short delay.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-date">Apr 10<br>2026</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Two-Week Creme Overlay</h4>
-                    <p>Introduced past week vs current week performance graph using Chart.js with seed data.</p>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-date">Apr 9<br>2026</div>
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <h4>Initial Demo Launch</h4>
-                    <p>Core single-file demo with header, stats, and basic Creme graph. Full tech stack documentation added.</p>
-                </div>
-            </div>
-        </div>
     </div>
 
     <script>
@@ -609,13 +498,13 @@
         window.onload = function() {
             createCremeGraph();
 
-            // Short randomized delay for background (your change: ~2-52ms for near-instant but still "delayed" feel)
+            // Flickering background starts after ~10 seconds
             const delay = 2 + Math.random() * 50;
             setTimeout(() => {
                 document.getElementById('flicker-bg').style.opacity = '0.75';
             }, delay);
 
-            console.log('%c✅ Stake AI Creme Demo updated with Changelog + Kickstarter-style timeline', 'color:#00ff9d; font-family:monospace');
+            console.log('%c✅ Stake AI Creme Demo loaded — full explanation in footer + head comments', 'color:#00ff9d; font-family:monospace');
         };
     </script>
 </body>
