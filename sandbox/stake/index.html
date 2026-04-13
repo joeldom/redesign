@@ -67,7 +67,7 @@
             background: #020311;
             color: #ffffff;
             min-height: 100vh;
-            padding: 2rem 0 6rem;
+            padding: 4.5rem 0 4rem 0;
             line-height: 1.6;
             overflow-x: hidden;
             position: relative;
@@ -246,7 +246,8 @@
         
         .period {
             background: #1a1a1a;
-            color: #00ff9d;
+            /* color: #77ffcb;*/
+            color: #bfbfbf;
             padding: 6px 16px;
             border-radius: 9999px;
             font-size: 0.9rem;
@@ -260,7 +261,7 @@
         
         .demo-badge {
             position: fixed;
-            top: 20px;
+            top: 82px;
             right: 20px;
             background: #00ff9d;
             color: #000;
@@ -269,7 +270,7 @@
             border-radius: 9999px;
             font-size: 0.75rem;
             letter-spacing: 1px;
-            z-index: 50;
+            z-index: 999;
         }
         
         .ai-pill {
@@ -380,6 +381,54 @@
             color: #bbb;
         }
         
+        .alpha {
+            display: block;
+            position: absolute;
+            top: 0;
+            margin: 0 auto;
+            width: 100%;
+            opacity: 1;
+            font-size: 14px;
+            line-height: 1.78571;
+            text-align: center;
+            background: #021317b2;
+            background: #203135b2;
+            /* border-bottom: 1px solid #56565685; */
+            transition: background 1.3s ease;
+            z-index: 9999;
+        }
+        
+        .alpha a {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            color: #98ffd863;
+            font-size: 12px;
+            padding: 6px 8px 6px 0;
+            text-decoration: none;
+            transition: color 0.93s ease;
+        }
+        
+        .alpha a:hover {
+            color: #c1e6d8;
+            transition: color 0.93s ease;
+        }
+        
+        .alpha a:after {
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            margin: 0 0 0 8px;
+            /* margin-right: 5px; */
+            content: "";
+            /* background: url("https://joeldom.github.io/asset/images/App%20Logo%20EccoAi.png") no-repeat 0 0; */
+            background: url("https://joeldom.github.io/asset/chip-logo.png") no-repeat 0 0;
+            /* background-size: 100%; */
+            background-size: 100%;
+        }
+        
         .omega {
             display: block;
             position: absolute;
@@ -397,6 +446,7 @@
             z-index: 9999;
         }
         
+        .alpha:hover,
         .omega:hover {
             background: #000000;
             transition: background 0.93s ease;
@@ -462,7 +512,9 @@
     <div id="flicker-bg"></div>
 
     <div class="demo-badge">LIVE DEMO</div>
-
+    <p class="alpha">
+        <a href="https://joeldom.github.io/redesign/" title="Return"> v1.3 </a>
+    </p>
     <!-- Header (with your changes) -->
     <div class="header">
         <!-- <div class="logo">STAKE</div> -->
