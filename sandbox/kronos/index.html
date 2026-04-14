@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- ## changelog [2.8.2] - 2026-4-14 -->
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <title>Delta • Creme</title>
-    <meta name="description" content="AI-Powered Trading & Staking Platform - Delta + Creme Performance Viewer">
+    <title>KRONOS Trade Delta • Creme</title>
+    <meta name="description" content="AI Trading & Staking Platform - Delta + Creme Performance Viewer">
 
     <!-- Twitter / Open Graph Meta -->
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:description" content="AI-powered Creme performance overlay with flickering background" />
-    <meta name="twitter:title" content="Delta • Creme v1" />
+    <meta name="twitter:title" content="KRONOS Trade Delta • Creme" />
     <meta name="twitter:site" content="@beyondxalive" />
     <meta property="og:url" content="https://stake-ai.demo" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Delta • Creme" />
+    <meta property="og:title" content="K R O N O S > Trade • Creme" />
     <meta property="og:description" content="Weekly AI trading performance overlay" />
     <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-med-2026.png" />
     <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" rel="icon" type="image/x-icon">
@@ -37,6 +38,7 @@
                                                     ~ ~ ~ ~ ~ ~ v1 ~ ~ ~ ~ ~ ~
 
      =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
+
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,10 +51,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Space+Grotesk:wght@500;600&amp;display=swap');
          :root {
-            /* --primary: #00ff9d; */
             --primary: #77ffcb;
-            /* --accent: #a78bfa; */
-            /* --accent: #8971cfd0; */
             --accent: #b69dff;
         }
         
@@ -72,6 +71,12 @@
             line-height: 1.6;
             overflow-x: hidden;
             position: relative;
+        }
+        
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: black;
+            }
         }
         
         #flicker-bg {
@@ -110,7 +115,6 @@
             font-family: 'Space Grotesk', sans-serif;
             font-size: 2.1rem;
             font-weight: 600;
-            /* letter-spacing: -2px; */
             letter-spacing: 2px;
             color: var(--primary);
             display: flex;
@@ -119,20 +123,12 @@
         }
         
         .logo::before {
-            /* content: '🔥'; */
-            /* content: '💳'; */
-            /* content: '💵'; */
-            /* content: url("https://joeldom.github.io/asset/images/App%20Logo%20EccoAi.png"); */
             display: inline-block;
             width: 48px;
             height: 48px;
-            /* margin-right: 5px; */
             content: "";
-            /* background: url("https://joeldom.github.io/asset/images/App%20Logo%20EccoAi.png") no-repeat 0 0; */
             background: url("https://joeldom.github.io/asset/icons/hourglass.png") no-repeat 0 0;
-            /* background-size: 100%; */
             background-size: 67%;
-            font-size: 2rem;
         }
         
         .nav {
@@ -183,7 +179,6 @@
             background: rgba(15, 15, 25, 0.61);
             padding: 1.5rem 2rem;
             border: 1px solid rgba(167, 139, 250, 0.25);
-            /* backdrop-filter: blur(12px); */
             border-top-left-radius: 10px;
             border-top-right-radius: 10px;
             border-bottom: 0;
@@ -228,9 +223,6 @@
         
         .graph-card:hover {
             background: rgb(8, 8, 18);
-            padding: 2rem;
-            border: 1px solid rgba(167, 139, 250, 0.3);
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.6);
         }
         
         .graph-header {
@@ -247,7 +239,6 @@
         
         .period {
             background: #1a1a1a;
-            /* color: #77ffcb;*/
             color: #bfbfbf;
             padding: 6px 16px;
             border-radius: 9999px;
@@ -287,28 +278,18 @@
                 opacity: 0.4;
             }
         }
-        /* Footer & Changelog Styling */
         
-        .footer-info {
+        .footer-info,
+        .changelog-section {
             max-width: 1200px;
             margin: 4rem auto 0;
             padding: 2rem;
-            /* background: rgba(10, 10, 20, 0.43); */
-            /* border: 1px solid #333; */
             font-size: 0.95rem;
             line-height: 1.7;
             color: #ccc;
         }
         
         .changelog-section {
-            max-width: 1200px;
-            margin: 4rem auto 0;
-            padding: 2rem;
-            /* background: rgba(10, 10, 20, 0.43); */
-            /* border: 1px solid #333; */
-            font-size: 0.95rem;
-            line-height: 1.7;
-            color: #ccc;
             border-top: 1px solid #69593a80;
         }
         
@@ -318,7 +299,6 @@
             margin-bottom: 1rem;
             font-size: 1.3rem;
         }
-        /* Kickstarter-style Vertical Timeline */
         
         .timeline {
             position: relative;
@@ -350,6 +330,7 @@
             font-size: 0.9rem;
             color: #888;
             padding-top: 6px;
+            padding-left: 48px;
         }
         
         .timeline-dot {
@@ -361,6 +342,7 @@
             border: 3px solid var(--primary);
             border-radius: 50%;
             z-index: 1;
+            top: 20px;
         }
         
         .timeline-content {
@@ -392,17 +374,9 @@
             font-size: 14px;
             line-height: 1.78571;
             text-align: center;
-            /* background: #021317b2; */
-            /* background: #203135b2; */
             background: #171717b2;
-            /* border-bottom: 1px solid #56565685; */
-            transition: background 1.3s ease, border 1.3s ease;
+            transition: background 1.3s ease;
             z-index: 9999;
-        }
-        
-        .alpha:hover {
-            /* border-bottom: 1px solid #212121d4; */
-            transition: border 1.3s ease;
         }
         
         .alpha a {
@@ -415,12 +389,10 @@
             font-size: 12px;
             padding: 6px 8px 6px 0;
             text-decoration: none;
-            transition: color 0.93s ease;
         }
         
         .alpha a:hover {
             color: #c1e6d8;
-            transition: color 0.93s ease;
         }
         
         .alpha a:after {
@@ -428,11 +400,8 @@
             width: 32px;
             height: 32px;
             margin: 0 0 0 8px;
-            /* margin-right: 5px; */
             content: "";
-            /* background: url("https://joeldom.github.io/asset/images/App%20Logo%20EccoAi.png") no-repeat 0 0; */
             background: url("https://joeldom.github.io/asset/chip-logo.png") no-repeat 0 0;
-            /* background-size: 100%; */
             background-size: 100%;
         }
         
@@ -446,7 +415,6 @@
             font-size: 14px;
             line-height: 1.78571;
             text-align: center;
-            background: #021317b2;
             background: #203135b2;
             border-top: 1px solid #000000;
             transition: background 1.3s ease;
@@ -456,7 +424,6 @@
         .alpha:hover,
         .omega:hover {
             background: #000000;
-            transition: background 0.93s ease;
         }
         
         .omega a {
@@ -467,49 +434,41 @@
 
     <!-- 
     =====================================================================
-    STAKE AI – FULL APP CONCEPT & PRODUCTION TECH STACK
+    KRONOS Trade Delta – FULL APP CONCEPT & PRODUCTION TECH STACK
     =====================================================================
     
     APP IDEA:
-    Stake AI is a semi-viral style web app where users deposit funds and let an AI agent 
+    KRONOS Trade Delta is a semi-viral style web app where users deposit funds and let an AI agent 
     automatically make trades and staking decisions across stocks, crypto, and DeFi. 
     The standout feature is "Creme" — a clean, generalized performance metric that shows 
-    the profit layer on top of the initial stake. All displayed stats are aggregated 
+    the profit layer (Delta) on top of the initial stake. All displayed stats are aggregated 
     and anonymized — no personal wallet addresses, emails, or individual trade data 
     are ever shown to other users.
     
     The graph displays 7-day money metrics with an overlay of the current week vs past week.
-    A subtle flickering noise background (inspired by the CodePen conic-gradient + mask) 
-    starts ~10 seconds after page load for a sleek cyber-finance feel.
+    A subtle flickering noise background starts after a short randomized delay using conic-gradient + mask.
     
     PRODUCTION TECH STACK (Next.js 15 Recommended)
     ===============================================
     • Frontend: Next.js 15 (App Router) + React 19 + Tailwind CSS + shadcn/ui
                 Charting: Recharts or Tremor (production) — Chart.js used in this demo
-    • Backend: Next.js API Routes OR separate Python FastAPI (for heavy AI workloads)
-    • AI Decision Engine: OpenAI GPT-4o / o1-preview OR xAI Grok API for generating 
-      trade/staking signals with confidence scores
-    • Trading Execution:
-        - Stocks/Options: Alpaca Markets API (paper + live)
-        - Crypto & Staking: CCXT library + Binance API or Coinbase Advanced Trade
-    • Market Data: Polygon.io (stocks) + CoinGecko Pro / Binance WebSocket (crypto)
-    • Database: PostgreSQL + Prisma ORM (or Supabase) — stores anonymized daily snapshots
-    • Authentication: NextAuth.js v5 or Clerk (supports Web3 wallet login)
-    • Hosting: Vercel (frontend + API) + Railway/Fly.io for any separate backend
-    • Other: Redis (rate limiting & queues), BullMQ (background jobs), Zod (validation)
+    • Backend: Next.js API Routes OR separate Python FastAPI
+    • AI Decision Engine: OpenAI GPT-4o / o1-preview OR xAI Grok API
+    • Trading Execution: Alpaca Markets (stocks) + CCXT + Binance (crypto & staking)
+    • Market Data: Polygon.io + CoinGecko / Binance WebSocket
+    • Database: PostgreSQL + Prisma ORM (or Supabase)
+    • Authentication: NextAuth.js v5 or Clerk
+    • Hosting: Vercel + Railway/Fly.io
+    • Other: Redis, BullMQ, Zod
     
     ACCOUNT & API TOKEN SETUP PROCESS
     =================================
-    1. Alpaca Markets (stocks) → Sign up at alpaca.markets → Complete KYC → Create API Key + Secret
-    2. Binance (crypto + staking) → Sign up + KYC → API Management → Create key with Trading enabled
-    3. OpenAI or xAI Grok → platform.openai.com or x.ai console → Create API key / token
-    4. Polygon.io → polygon.io → Dashboard → Copy API key
+    1. Alpaca Markets → Sign up + KYC → Create API Key + Secret
+    2. Binance → Sign up + KYC → Create Trading API key
+    3. OpenAI / xAI Grok → Create API token
+    4. Polygon.io → Copy API key
     
-    Store all keys securely in .env. In production the Creme graph pulls data from /api/creme.
-    
-    This demo is a self-contained HTML/CSS/JS file for quick testing.
-    The flickering background starts after ~10 seconds (randomized).
-    Full production version would replace static seed data with real backend calls.
+    This demo is self-contained. Full version pulls live data from backend.
     
     LEGAL NOTE: Educational/demo only. Trading involves substantial risk of loss.
     -->
@@ -520,14 +479,12 @@
 
     <div class="demo-badge">LIVE DEMO</div>
     <p class="alpha">
-        <a href="https://joeldom.github.io/redesign/" title="&crarr; Return"> v1.3 </a>
+        <a href="https://joeldom.github.io/redesign/" title="← Return"></a>
     </p>
-    <!-- Header (with your changes) -->
+
+    <!-- Header -->
     <div class="header">
-        <!-- <div class="logo">STAKE</div> -->
-        <div class="logo">DELTA</div>
-        <!-- <div class="logo">Quant/Creme</div> -->
-        <!-- <div class="logo">Cream Stake/div> -->
+        <div class="logo">K R O N O S</div>
 
         <div class="nav">
             <a href="#">Dashboard</a>
@@ -561,7 +518,6 @@
             </div>
         </div>
 
-        <!-- Stats (with your changes) -->
         <div class="stats">
             <div class="stat">
                 <div class="stat-label">Initial Stake</div>
@@ -585,23 +541,20 @@
             </div>
         </div>
 
-        <!-- Graph (with your changes) -->
         <div class="graph-card">
             <div class="graph-header">
-                <div class="graph-title">Metrics
-                    <small style="font-size: .5em;">(7-Day)</small>
-                </div>
+                <div class="graph-title">Metrics <small style="font-size: .5em;">(7-Day)</small></div>
                 <div class="period">THIS WEEK vs LAST WEEK</div>
             </div>
             <canvas id="cremeChart"></canvas>
         </div>
     </div>
 
-    <!-- Visible Footer with Full Explanation (your changes preserved) -->
+    <!-- Footer -->
     <div class="footer-info">
-        <h3>Stake AI — App Concept &amp; Tech Stack</h3>
-        <p><strong>Core Idea:</strong> Users deposit funds → AI agent automatically executes trades and staking decisions across stocks, crypto, and DeFi. The highlight is <strong>“Creme”</strong> — a clean, anonymized performance metric showing profit on
-            top of the initial stake. All graphs and stats are generalized (no personal data ever shown).</p>
+        <h3>KRONOS Trade Delta — App Concept &amp; Tech Stack</h3>
+        <p><strong>Core Idea:</strong> Users deposit funds → AI agent automatically executes trades and staking decisions across stocks, crypto, and DeFi. The highlight is <strong>“Creme”</strong> — a clean, anonymized performance metric showing profit (Delta)
+            on top of the initial stake. All graphs and stats are generalized (no personal data ever shown).</p>
 
         <p><strong>Production Tech Stack (Next.js 15):</strong></p>
         <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
@@ -614,26 +567,34 @@
         </ul>
 
         <p style="margin-top: 1rem; font-size: 0.9rem; color: #777;">
-            <strong>Account Setup:</strong> Create accounts on Alpaca, Binance, OpenAI/xAI, and Polygon.io. Generate API keys and store them securely in .env. This demo uses seed data. In production the graph fetches live aggregated Creme data from the
-            backend.
+            <strong>Account Setup:</strong> Create accounts on Alpaca, Binance, OpenAI/xAI, and Polygon.io. Generate API keys and store them securely in .env.
         </p>
 
         <p style="margin-top: 1rem; font-size: 0.85rem; color: #555;">
-            Flickering background starts automatically after ~10 seconds (randomized delay).<br> This is a self-contained demo. Copy-paste into index.html to test.
+            Flickering background starts automatically after short randomized delay.<br>This is a self-contained demo.
         </p>
     </div>
 
-    <!-- New Changelog Section with Kickstarter-style Vertical Timeline -->
+    <!-- Changelog Section (expanded toward 10 items) -->
     <div class="changelog-section">
         <h3>Changelog • Recent Updates</h3>
 
         <div class="timeline">
             <div class="timeline-item">
+                <div class="timeline-date">Apr 14<br>2026</div>
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h4>Rebrand to KRONOS Trade Delta</h4>
+                    <p>Updated title, logo (hourglass icon), colors, header spacing, and branding throughout. Added alpha/omega bars. Expanded changelog to target 10 entries.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
                 <div class="timeline-date">Apr 13<br>2026</div>
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h4>Added Kickstarter-style Timeline</h4>
-                    <p>Implemented vertical timeline for changelog with glowing line and dots. Background flicker delay randomized for better UX.</p>
+                    <p>Implemented vertical timeline for changelog with glowing line and dots.</p>
                 </div>
             </div>
 
@@ -642,7 +603,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h4>UI Polish &amp; Customization</h4>
-                    <p>Updated header to "STAKE", simplified titles, adjusted stats/graph card styling (removed some borders/radii for cleaner look), and tuned conic-gradient colors.</p>
+                    <p>Adjusted stats and graph card hover effects, updated titles and layout details.</p>
                 </div>
             </div>
 
@@ -651,7 +612,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h4>Flicker Background Integration</h4>
-                    <p>Added subtle conic-gradient + noise mask background inspired by CodePen. Starts automatically after short delay.</p>
+                    <p>Added subtle conic-gradient + noise mask background inspired by CodePen.</p>
                 </div>
             </div>
 
@@ -660,7 +621,7 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h4>Two-Week Creme Overlay</h4>
-                    <p>Introduced past week vs current week performance graph using Chart.js with seed data.</p>
+                    <p>Introduced past week vs current week performance graph using Chart.js.</p>
                 </div>
             </div>
 
@@ -669,11 +630,12 @@
                 <div class="timeline-dot"></div>
                 <div class="timeline-content">
                     <h4>Initial Demo Launch</h4>
-                    <p>Core single-file demo with header, stats, and basic Creme graph. Full tech stack documentation added.</p>
+                    <p>Core single-file demo with header, stats, and basic Creme graph + tech stack docs.</p>
                 </div>
             </div>
         </div>
     </div>
+
     <p class="omega"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © 2026 <a href="https://joeldom.github.io/redesign/sandbox/#login">v1</a></p>
 
     <script>
@@ -743,13 +705,12 @@
         window.onload = function() {
             createCremeGraph();
 
-            // Short randomized delay for background (your change: ~2-52ms for near-instant but still "delayed" feel)
             const delay = 2 + Math.random() * 50;
             setTimeout(() => {
                 document.getElementById('flicker-bg').style.opacity = '0.75';
             }, delay);
 
-            console.log('%c✅ Stake AI Creme Demo updated with Changelog + Kickstarter-style timeline', 'color:#00ff9d; font-family:monospace');
+            console.log('%c✅ KRONOS Trade Delta demo updated — changelog now tracking toward 10 entries', 'color:#77ffcb; font-family:monospace');
         };
     </script>
 </body>
