@@ -1,3 +1,13 @@
+// ─── Configuration ────────────────────────────────────────────────────────────
+const VIEWER_CONFIG = {
+    // 'round' → circular buttons  |  'square' → squared-off buttons
+    arrowStyle: 'round',
+
+    // ms before arrows + counter fade out after last interaction
+    controlsHideDelay: 1500,
+};
+// ──────────────────────────────────────────────────────────────────────────────
+
 // Enhanced viewer component for detailed content display
 class EnhancedViewer {
     constructor() {
@@ -5,6 +15,7 @@ class EnhancedViewer {
         this.currentImageIndex = 0;
         this.images = [];
         this.isAnimating = false;
+        this._hideControlsTimer = null;
         this.init();
     }
 
@@ -117,6 +128,7 @@ class EnhancedViewer {
         if (this.currentViewer._keyHandler) {
             document.removeEventListener('keydown', this.currentViewer._keyHandler);
         }
+        clearTimeout(this._hideControlsTimer);
         document.body.removeChild(this.currentViewer);
         document.body.style.overflow = '';
         this.currentViewer = null;
@@ -203,6 +215,9 @@ class EnhancedViewer {
             // ── Multi-image gallery ───────────────────────────────────────────
             imageArea.classList.add('viewer-image-area--gallery');
 
+            // Apply configured button shape
+            imageArea.classList.add(`viewer-arrows--${VIEWER_CONFIG.arrowStyle}`);
+
             // Track that slides vertically
             const track = document.createElement('div');
             track.className = 'viewer-image-track';
@@ -258,9 +273,46 @@ class EnhancedViewer {
 
             // Touch → snap
             this._attachTouchSnap(imageArea);
+
+            // Auto-hide controls after idle
+            this._attachControlsAutoHide(imageArea);
         }
 
         return imageArea;
+    }
+
+    // ─── Controls Auto-hide ───────────────────────────────────────────────────
+
+    /**
+     * Controls (arrows + counter) are hidden by default via CSS opacity: 0.
+     * They appear immediately on hover (CSS handles that instantly).
+     * On any interaction — hover enter, scroll, navigate — we also keep them
+     * visible and schedule a hide after VIEWER_CONFIG.controlsHideDelay ms.
+     */
+    _attachControlsAutoHide(imageArea) {
+        // Show on mouse enter, schedule hide on mouse leave
+        imageArea.addEventListener('mouseenter', () => this._showControls());
+        imageArea.addEventListener('mouseleave', () => this._scheduleHideControls());
+        imageArea.addEventListener('mousemove', () => this._showControls());
+    }
+
+    _showControls() {
+        if (!this.currentViewer) return;
+        clearTimeout(this._hideControlsTimer);
+        this.currentViewer.querySelectorAll(
+            '.viewer-image-arrow, .viewer-image-counter'
+        ).forEach(el => el.classList.add('is-visible'));
+        this._scheduleHideControls();
+    }
+
+    _scheduleHideControls() {
+        clearTimeout(this._hideControlsTimer);
+        this._hideControlsTimer = setTimeout(() => {
+            if (!this.currentViewer) return;
+            this.currentViewer.querySelectorAll(
+                '.viewer-image-arrow, .viewer-image-counter'
+            ).forEach(el => el.classList.remove('is-visible'));
+        }, VIEWER_CONFIG.controlsHideDelay);
     }
 
     // ─── Snapping Input Handlers ──────────────────────────────────────────────
@@ -274,6 +326,8 @@ class EnhancedViewer {
             e.stopPropagation();
 
             if (this.isAnimating) return;
+
+            this._showControls();
 
             scrollAccum += e.deltaY;
 
@@ -319,6 +373,7 @@ class EnhancedViewer {
         if (index === this.currentImageIndex) return;
 
         this.isAnimating = true;
+        this._showControls();
 
         const track = this.currentViewer.querySelector('.viewer-image-track');
         if (!track) { this.isAnimating = false; return; }

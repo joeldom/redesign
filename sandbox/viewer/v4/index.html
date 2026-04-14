@@ -389,24 +389,20 @@
         <script src="../../../style-guide/js/enlarge.js"></script>
         <script src="viewer-v4.js"></script>
 
-        <!--
-        viewer-v3 gallery CSS — move these rules into viewer.css when ready.
-    -->
+        <!-- viewer-gallery styles — inline until extracted to viewer.css -->
         <style>
-            /* ── Multi-image gallery area ─────────────────────────────── */
+            /* ── Gallery area ──────────────────────────────────────────── */
             
             .viewer-image-area--gallery {
                 position: relative;
                 overflow: hidden;
             }
-            /* Sliding track — slides stack vertically, track shifts up per step */
+            /* ── Sliding track ─────────────────────────────────────────── */
             
             .viewer-image-track {
                 position: absolute;
                 inset: 0;
                 width: 100%;
-                height: 300%;
-                /* 3 slides × 100% */
                 transform: translateY(0);
                 transition: transform 0.42s cubic-bezier(0.4, 0, 0.2, 1);
                 will-change: transform;
@@ -414,13 +410,11 @@
             
             .viewer-image-slide {
                 width: 100%;
-                height: calc(100% / 3);
-                /* 1 / slide-count */
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: contain;
             }
-            /* Dot indicators */
+            /* ── Dot indicators ────────────────────────────────────────── */
             
             .viewer-image-dots {
                 position: absolute;
@@ -441,14 +435,18 @@
                 background: rgba(255, 255, 255, 0.35);
                 cursor: pointer;
                 padding: 0;
-                transition: background 0.25s, transform 0.25s;
+                transition: background 0.25s ease, transform 0.25s ease;
+            }
+            
+            .viewer-image-dot:hover {
+                background: rgba(255, 255, 255, 0.65);
             }
             
             .viewer-image-dot.is-active {
                 background: rgba(255, 255, 255, 0.95);
                 transform: scale(1.3);
             }
-            /* Arrow buttons */
+            /* ── Arrow buttons — base ──────────────────────────────────── */
             
             .viewer-image-arrow {
                 position: absolute;
@@ -460,14 +458,28 @@
                 color: #fff;
                 width: 36px;
                 height: 36px;
-                border-radius: 50%;
                 font-size: 16px;
                 cursor: pointer;
-                transition: opacity 0.25s, background 0.2s;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 backdrop-filter: blur(4px);
+                -webkit-backdrop-filter: blur(4px);
+                /* Auto-hide: invisible by default, slow fade out */
+                opacity: 0;
+                transition: opacity 600ms ease-out, background 150ms ease;
+            }
+            /* Show immediately with a very slight ease-in on hover */
+            
+            .viewer-image-arrow:hover,
+            .viewer-image-arrow.is-visible {
+                opacity: 1;
+                transition: opacity 80ms ease-in, background 150ms ease;
+            }
+            /* Dim at first/last image boundary */
+            
+            .viewer-image-arrow[style*="opacity: 0.3"] {
+                opacity: 0.3 !important;
             }
             
             .viewer-image-arrow:hover {
@@ -481,7 +493,17 @@
             .viewer-image-arrow--next {
                 bottom: 46px;
             }
-            /* Counter label */
+            /* ── Arrow shape: round (default) ─────────────────────────── */
+            
+            .viewer-arrows--round .viewer-image-arrow {
+                border-radius: 50%;
+            }
+            /* ── Arrow shape: square ───────────────────────────────────── */
+            
+            .viewer-arrows--square .viewer-image-arrow {
+                border-radius: 4px;
+            }
+            /* ── Counter label ─────────────────────────────────────────── */
             
             .viewer-image-counter {
                 position: absolute;
@@ -491,9 +513,18 @@
                 color: rgba(255, 255, 255, 0.55);
                 font-size: 11px;
                 letter-spacing: 0.08em;
+                font-family: inherit;
                 pointer-events: none;
                 z-index: 10;
-                font-family: inherit;
+                white-space: nowrap;
+                /* Same auto-hide behaviour as arrows */
+                opacity: 0;
+                transition: opacity 600ms ease-out;
+            }
+            
+            .viewer-image-counter.is-visible {
+                opacity: 1;
+                transition: opacity 80ms ease-in;
             }
         </style>
 </body>
