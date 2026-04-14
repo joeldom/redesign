@@ -155,12 +155,10 @@ class EnhancedViewer {
 				${content.description || '<p>No additional details available.</p>'}
 			</div>
 			<!-- nav -->
-			<!-- 
 				<nav class="viewer-nav" style="display: none;">
 					<button class="viewer-nav-btn prev" aria-label="Previous project">Previous</button>
 					<button class="viewer-nav-btn next" aria-label="Next project">Next</button>
 				</nav>
-			-->
 			<br/><br/>
 		`;
 
