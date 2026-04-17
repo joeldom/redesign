@@ -1,3 +1,22 @@
+//
+//	TODO: v5
+//
+//
+//	[]	
+// //
+//	[] Agent needs to fix how items in a set are scrolled through and differentiate between groups and sets in a collection.
+// 		CLAUDE CHAT ARTIFACT: https: //claude.ai/chat/4319177f-0ba2-43bb-bf5b-752c4b1d9507
+//
+// For static sets:
+//     <div class="set" data-set-id="exo" style="display:none;" >
+//			<img data-src="image1.png" alt="..." / >
+//			<img data-src="image2.png" alt="..." / >
+//			<img data-src="image3.png" alt="..." / >
+//     </div>
+//	[] Arrows and Item in Set count displays after scrolling or choosing from side selection.[] Side dots should start as shown and animate down in opacity, and show 100 % when scrolled.[] Viewer CSS needs collected and patches applied to section where!important was used.
+//
+//
+
 // ─── Configuration ────────────────────────────────────────────────────────────
 const VIEWER_CONFIG = {
     // 'round' → circular buttons  |  'square' → squared-off buttons
