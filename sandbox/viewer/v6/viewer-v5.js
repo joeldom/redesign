@@ -1,6 +1,8 @@
 //
 //  viewer-v5.js
 //
+//  <!-- ## changelog [v5.8.1] - 2026-4-20 : 04:47:01 UTC-->
+//
 //  TODO
 //  [x] .set markup pattern in place — each article owns its image collection
 //  [ ] Side dots start visible, fade to low opacity, show 100% on interact
@@ -35,6 +37,8 @@ const VIEWER_CONFIG = {
  *   Single-image articles work identically — just one <img data-src> in the set.
  *   If no .set is found, falls back to the article's background-image.
  */
+
+
 class EnhancedViewer {
     constructor() {
         this.currentViewer = null;
