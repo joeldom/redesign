@@ -27,6 +27,15 @@ Development of a production environment for testing (main, resume, projects, ass
 
 ## Timeline
 
+### April 2026
+
+- All/Work Page and subsequent pages ref added
+- Viewer for collection -> items and/or "projects"
+- Video/Content player for the hero spot (initially into wider Viewer later)
+- AGENTS, HUMANS, [...] files for adding memory
+- [Kronos Trade](https://joeldom.github.io/redesign/sandbox/kronos/) App 
+- 
+
 ### October 2025
 
 - added pages/dir for `brand`, `interface`, `photography`, `writing`, `all`
