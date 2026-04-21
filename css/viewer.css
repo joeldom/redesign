@@ -280,7 +280,8 @@
                 grid-column: 1;
                 grid-row: 1;
                 padding: 1rem;
-                max-height: 55vh;
+                /* max-height: 55vh; */
+                max-height: !00%;
             }
             .viewer-title {
                 font-size: 1.5rem;
