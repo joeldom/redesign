@@ -533,20 +533,6 @@
     <!--/wrapper-->
 
     <div id="timeline-temp"></div>
-    <script>
-        async function includeTemplate(placeholderId, templatePath) {
-            try {
-                const response = await fetch(templatePath);
-                if (!response.ok) throw new Error(`Failed to fetch ${templatePath}: ${response.statusText}`);
-                const template = await response.text();
-                document.getElementById(placeholderId).innerHTML = template;
-            } catch (error) {
-                console.error(`Error loading template ${templatePath}:`, error);
-                document.getElementById(placeholderId).innerHTML = '<p>Error loading template</p>';
-            }
-        }
-        includeTemplate('timeline-temp', '/templates/timeline.html');
-    </script>
 
     <div class="related-posts main">
         <div class="grid palette-inverse">
@@ -662,6 +648,22 @@
     </div>
     <!-- footer-para -->
 
+    <!-- TEMPLATE INCLUDE -->
+    <script>
+        async function includeTemplate(placeholderId, templatePath) {
+            try {
+                const response = await fetch(templatePath);
+                if (!response.ok) throw new Error(`Failed to fetch ${templatePath}: ${response.statusText}`);
+                const template = await response.text();
+                document.getElementById(placeholderId).innerHTML = template;
+            } catch (error) {
+                console.error(`Error loading template ${templatePath}:`, error);
+                document.getElementById(placeholderId).innerHTML = '<p>Error loading template</p>';
+            }
+        }
+        includeTemplate('timeline-temp', 'templates/timeline.html');
+    </script>
+    <!-- /TEMPLATE INCLUDE -->
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
