@@ -1,7 +1,7 @@
 //
-//  viewer-v5.js
+//  viewer-v6.js
 //
-//  <!-- ## changelog [v5.8.1] - 2026-4-20 : 04:47:01 UTC-->
+//  <!-- ## changelog [v6.8.1] - 2026-4-20 : 04:47:01 UTC-->
 //
 //  TODO
 //  [x] .set markup pattern in place — each article owns its image collection
