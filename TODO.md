@@ -38,15 +38,53 @@
   - Filter runs client-side — fast, no page reload, no server needed
   - JSON structure should be consistent with Sets / viewer data model where possible to stay unified
 
-- [ ] Behavior details to define
-  - Does the bar float fixed to the bottom or top of the viewport?
-  - Does it auto-hide like the viewer controls, or stay visible on the work page?
-  - Does filtering animate the tile grid (fade, reorder, collapse) or just show/hide?
-  - Empty state: what shows when no results match?
+- [ ] **Filter bar positioning & sizing**
+  - Sits near the bottom of the grid frame — same zone as the omni-input in most AI agent interfaces
+  - Width: slightly less than 33.333% (just under 1/3) — centered horizontally
+  - Feels inset, not full-width — intimate, not dominant
+
+- [ ] **Filter bar visibility & hide behavior**
+  - Visible by default on the work page
+  - Hides on some idle or scroll event — TBD exact trigger
+  - Reappears on any keypress, mouse move, or tap (similar to viewer controls auto-hide pattern)
+
+- [ ] **Input behavior**
+  - Text field activates filtering automatically on any keystroke — no submit needed
+  - Category chips appear inline in the filter bar when a category is selected from the list
+  - Multiple categories can be selected; each renders as a chip
+  - Chips are dismissible individually to deselect
+
+- [ ] **Animation speed — inversely proportionate to result count**
+  - Threshold: ~9–12 results (3×3 grid = 9 / 3×3 + scroll row = 12)
+  - **Few results (≤ 9–12):** slow, gentle animation — tiles ease/nest into place, feels deliberate and considered
+  - **Many results (> 12):** animation disabled or near-instant — renders as fast as possible, simulates a fast site, no perceived lag
+  - The contrast between the two states should feel intentional — slow = curated, fast = powerful
+
+- [ ] **Fallback / empty state — minimum 1 row always visible**
+  - If filtered results would leave the grid empty or near-empty, show a fallback row
+  - Fallback row contains links/tiles to other sections entirely: Sandbox, Case Studies, GitHub
+  - This ensures the page never feels broken and gives the user somewhere to go
+  - Fallback row is distinct visually from project tiles — clearly a different category of option
 
 - [ ] Tie into existing project tile structure
   - Filtered results should show/hide or reorder the existing tile grid
   - Category list in the dropdown should be auto-generated from the JSON — not hardcoded
+
+- [ ] **Work page filter categories — finalized active list:**
+  - `All` `Brand` `Code` `Design` `Drawing` `Photography` `UI` `UX`
+
+- [ ] **Tabled categories — no current work but valid future buckets:**
+  - `Motion` — animation, micro-interactions, prototypes
+  - `Print` — posters, editorial, packaging, physical
+  - `Type` — custom lettering, type-heavy work
+  - `3D` — dimensional work, UI/product renders
+  - `Direction` — art direction / creative direction as distinct from execution
+  - `Illustration` — if Drawing and Illustration diverge as separate buckets
+  - `Systems` — design systems as a standalone category
+  - `Research` — UX research, discovery, strategy work
+  - Note: these categories may recontextualize how existing projects are filed — worth a pass when activating any of them
+
+
 
 ## ⚙️ Build & Asset Pipeline
 
@@ -523,6 +561,20 @@
 
 ---
 
+
+### ✍️ Agent Signing Protocol
+> Every changelog entry made by an agent must be signed with model and version.
+> Human entries are signed with `👤 Joel`. This creates a visible audit trail of who did what.
+
+**Format:**
+- Agent entry: `- **vX.XX — YYYY-MM-DD** — [summary] — 🤖 claude-sonnet-4-6`
+- Human entry: `- **vX.XX — YYYY-MM-DD** — [summary] — 👤 Joel`
+
+- [ ] Backfill existing changelog entries with `🤖 claude-sonnet-4-6` — all prior entries in this session were made by Claude Sonnet 4.6
+- [ ] Add signing protocol to `AGENTS.md` and `CLAUDE.md` — required for any agent touching the changelog
+- [ ] Add signing legend to `HUMANS.md` — so Joel knows what to look for and how to sign his own entries
+- [ ] Note: signed changelogs double as a portfolio artifact showing real HUMAN ↔ AGENT collaboration workflow
+
 ### Migration To-Do
 - [ ] Create `agents.md` as the universal boilerplate agent file
 - [ ] Audit existing `CLAUDE.md` and fold in what we've built here
@@ -545,27 +597,35 @@
 
 ---
 
-- **v0.24 — 2026-05-01** — Added Work Page Filter section: floating omni-input bar with freeform text search and category dropdown, JSON-driven client-side filtering, behavior and animation details TBD.
-- **v0.23 — 2026-05-01** — Added Kanban board research section: native GitHub issue reading, four tool options evaluated (Kanban Code, claude-code-kanban, KANBAII, Vibe Kanban), sizing-to-label system, and agent issue protocol for CLAUDE.md.
-- **v0.22 — 2026-05-01** — Clarified Onboarding and Feedback items need new tiles and case study pages. Added viewer-v6.js build and dual deployment to-do (GitHub Pages + Bluehost FTP).
-- **v0.21 — 2026-05-01** — Added three items to Improvements: linking projects to case studies, Onboarding example page, and Feedback form example page.
-- **v0.20 — 2026-04-08** — Added changelog section to track file history and provide project memory across sessions and agents.
-- **v0.19 — 2026-04-08** — Clarified four-file system (`TODO.md`, `HUMANS.md`, `AGENTS.md`, `CLAUDE.md`); added migration checklist mapping every section to its target file.
-- **v0.18 — 2026-04-08** — Added XL task two-step protocol: questions first, then plan, then Joel approval before any code is touched.
-- **v0.17 — 2026-04-08** — Added task sizing system (S / M / L / XL) with definitions, examples, and agent sizing protocol including mid-task escalation rules.
-- **v0.16 — 2026-04-08** — Added agent communication and flagging system: Discord webhook for pings, GitHub issue threads for Q&A, bundling logic, and files to create (`humans.md`, update `CLAUDE.md`).
-- **v0.15 — 2026-04-08** — Added Joel vs Agent touch point responsibility matrix covering accounts setup, day-to-day dev, build pipeline, deployments, and social posting.
-- **v0.14 — 2026-04-08** — Added agent self-diagnostic block intended for `CLAUDE.md`: checks API key, GitHub App access, branch access, and `CLAUDE.md` presence on every session start.
-- **v0.13 — 2026-04-08** — Added agent integration research section with two paths: local Claude Code CLI setup and cloud via GitHub Issues and Actions, including step-by-step one-time setup.
-- **v0.12 — 2026-04-08** — Added two GitHub Actions workflow files plan (`user-build.yml` / `agent-build.yml`) with branch conventions and `[agent]` commit message fallback.
-- **v0.11 — 2026-04-08** — Defined two build paths: user build (Gulp watch local, GitHub Action as safety net) and agent build (source only, Action handles minification).
-- **v0.10 — 2026-04-08** — Added build and asset pipeline section: Gulp + npm scripts for CSS/JS minification with watch mode and manual force-regenerate trigger.
-- **v0.09 — 2026-04-08** — Added ongoing agent file maintenance section; clarified `CLAUDE.md` as a living document updated after every post, completed task, and terminology change.
-- **v0.08 — 2026-04-08** — Added agent memory scaffold: `CLAUDE.md` as universal agent project file with post log schema (date, platform, type, caption, URL).
-- **v0.07 — 2026-04-08** — Added social preview system: repeatable pipeline for pages/projects/posts, OG image spec (1200×630px), Twitter/X and Discord credential requirements.
-- **v0.06 — 2026-04-08** — Added mobile nav hover color bug, hamburger animation to-do, and footer SVG chevron color-cycling fix to Fixes section.
-- **v0.05 — 2026-04-08** — Added footer third-party icon rendering bug: suspected FA5/FA6 library version mismatch on CDN source.
-- **v0.04 — 2026-04-08** — Added Improvements section; added mega menu nav unification item (single source of truth template).
-- **v0.03 — 2026-04-08** — Added Tile Splash viewer Sets support: cover image display-only, gallery scroll view, multiple Sets per Tile Splash.
-- **v0.02 — 2026-04-08** — Added Photography section: Tile Splash 9×9 grid, scrollable white key album cards, 9×9 photo galleries per album.
-- **v0.01 — 2026-04-08** — Initial file created. Added Fixes section with social icons footer bug. Project inbox established.
+### 📅 2026-05-23 — 🤖 claude-sonnet-4-6
+- **v0.27** — Detailed Work Page Filter UX: positioning, sizing, hide behavior, chip selection, inverse animation speed threshold (9–12 results), and fallback row spec.
+- **v0.26** — Added active and tabled work page filter categories; tabled categories noted as future reframing opportunities for existing projects.
+- **v0.25** — Added agent signing protocol to changelog; backfilled all prior entries with model signature. Established HUMAN ↔ AGENT audit trail convention.
+- **v0.24** — Added Work Page Filter section: floating omni-input bar with freeform text search and category dropdown, JSON-driven client-side filtering, behavior and animation details TBD.
+
+### 📅 2026-05-01 — 🤖 claude-sonnet-4-6
+- **v0.23** — Added Kanban board research section: native GitHub issue reading, four tool options evaluated (Kanban Code, claude-code-kanban, KANBAII, Vibe Kanban), sizing-to-label system, and agent issue protocol for CLAUDE.md.
+- **v0.22** — Clarified Onboarding and Feedback items need new tiles and case study pages. Added viewer-v6.js build and dual deployment to-do (GitHub Pages + Bluehost FTP).
+- **v0.21** — Added three items to Improvements: linking projects to case studies, Onboarding example page, and Feedback form example page.
+
+### 📅 2026-04-08 — 🤖 claude-sonnet-4-6
+- **v0.20** — Added changelog section to track file history and provide project memory across sessions and agents.
+- **v0.19** — Clarified four-file system (`TODO.md`, `HUMANS.md`, `AGENTS.md`, `CLAUDE.md`); added migration checklist mapping every section to its target file.
+- **v0.18** — Added XL task two-step protocol: questions first, then plan, then Joel approval before any code is touched.
+- **v0.17** — Added task sizing system (S / M / L / XL) with definitions, examples, and agent sizing protocol including mid-task escalation rules.
+- **v0.16** — Added agent communication and flagging system: Discord webhook for pings, GitHub issue threads for Q&A, bundling logic, and files to create (`humans.md`, update `CLAUDE.md`).
+- **v0.15** — Added Joel vs Agent touch point responsibility matrix covering accounts setup, day-to-day dev, build pipeline, deployments, and social posting.
+- **v0.14** — Added agent self-diagnostic block intended for `CLAUDE.md`: checks API key, GitHub App access, branch access, and `CLAUDE.md` presence on every session start.
+- **v0.13** — Added agent integration research section with two paths: local Claude Code CLI setup and cloud via GitHub Issues and Actions, including step-by-step one-time setup.
+- **v0.12** — Added two GitHub Actions workflow files plan (`user-build.yml` / `agent-build.yml`) with branch conventions and `[agent]` commit message fallback.
+- **v0.11** — Defined two build paths: user build (Gulp watch local, GitHub Action as safety net) and agent build (source only, Action handles minification).
+- **v0.10** — Added build and asset pipeline section: Gulp + npm scripts for CSS/JS minification with watch mode and manual force-regenerate trigger.
+- **v0.09** — Added ongoing agent file maintenance section; clarified `CLAUDE.md` as a living document updated after every post, completed task, and terminology change.
+- **v0.08** — Added agent memory scaffold: `CLAUDE.md` as universal agent project file with post log schema (date, platform, type, caption, URL).
+- **v0.07 — 2026-04-08** — Added social preview system: repeatable pipeline for pages/projects/posts, OG image spec (1200×630px), Twitter/X and Discord credential requirements. — 🤖 claude-sonnet-4-6
+- **v0.06 — 2026-04-08** — Added mobile nav hover color bug, hamburger animation to-do, and footer SVG chevron color-cycling fix to Fixes section. — 🤖 claude-sonnet-4-6
+- **v0.05 — 2026-04-08** — Added footer third-party icon rendering bug: suspected FA5/FA6 library version mismatch on CDN source. — 🤖 claude-sonnet-4-6
+- **v0.04 — 2026-04-08** — Added Improvements section; added mega menu nav unification item (single source of truth template). — 🤖 claude-sonnet-4-6
+- **v0.03 — 2026-04-08** — Added Tile Splash viewer Sets support: cover image display-only, gallery scroll view, multiple Sets per Tile Splash. — 🤖 claude-sonnet-4-6
+- **v0.02 — 2026-04-08** — Added Photography section: Tile Splash 9×9 grid, scrollable white key album cards, 9×9 photo galleries per album. — 🤖 claude-sonnet-4-6
+- **v0.01 — 2026-04-08** — Initial file created. Added Fixes section with social icons footer bug. Project inbox established. — 🤖 claude-sonnet-4-6
