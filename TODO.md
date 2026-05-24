@@ -1,10 +1,17 @@
 <a href="http://joeldom.github.io/redesign/sandbox/" target="_blank">
   <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://raw.githubusercontent.com/joeldom/asset/main/twitter-header.png" width="847" height="120" />
 </a>
-<!-- Site To-Do List -->
 
-# To-Do
+# TODO.md
 
+> The project inbox. Everything lands here first.
+> Maintained by Joel and any assigned agent.
+> Items get migrated into `HUMANS.md`, `AGENTS.md`, or `CLAUDE.md` during review sessions.
+> When in doubt, add it here.
+
+---
+
+# Site To-Do List
 
 ## 🐛 Fixes
 
@@ -14,6 +21,32 @@
 - [ ] **Mobile nav — hamburger animation**: Animate the stylized triangles that form the hamburger-style menu toggle (similar to a hamburger bar but more stylized)
 - [ ] **Footer SVG — back to top chevron**: Rogue color-cycling animation on the upward chevron SVG in certain edge case scenarios — likely a known issue with the animation state
 
+
+## 🔍 Work Page Filter — Omni Input
+
+> Floating filter bar for the work/projects page. Inspired by the chat input style — clean, minimal, floating. Filters project tiles in real time from a JSON source.
+
+- [ ] Design and build a floating omni-input filter bar for the work page
+  - Visually styled like a floating chat input (similar to this Claude window)
+  - Contains two inputs:
+    - **Text field** — freeform search, matches any term present in the project data (title, tags, description, tech, etc.)
+    - **Category dropdown or flyout** — lists project types/categories for quick filtering (e.g. UX, Dev, Branding, Case Study, etc.)
+  - Both inputs work together — text narrows within the selected category, or either can be used independently
+
+- [ ] Drive filtering from a JSON source
+  - Projects defined in a `projects.json` (or similar) with fields for title, type/category, tags, description, and any other filterable terms
+  - Filter runs client-side — fast, no page reload, no server needed
+  - JSON structure should be consistent with Sets / viewer data model where possible to stay unified
+
+- [ ] Behavior details to define
+  - Does the bar float fixed to the bottom or top of the viewport?
+  - Does it auto-hide like the viewer controls, or stay visible on the work page?
+  - Does filtering animate the tile grid (fade, reorder, collapse) or just show/hide?
+  - Empty state: what shows when no results match?
+
+- [ ] Tie into existing project tile structure
+  - Filtered results should show/hide or reorder the existing tile grid
+  - Category list in the dropdown should be auto-generated from the JSON — not hardcoded
 
 ## ⚙️ Build & Asset Pipeline
 
@@ -39,6 +72,10 @@
 ## 🔧 Improvements
 
 - [ ] Unify the mega menu nav to reference a template/component as the single source of truth
+- [ ] Link new projects to their respective case studies
+- [ ] Create new project tiles and case study pages for **Onboarding example** and **Feedback form example** — neither currently has a tile in the grid or a case study
+- [ ] Add an Onboarding flow example page
+- [ ] Add a Feedback form example page
 
 ## 📣 Social Preview System
 
@@ -54,6 +91,13 @@
   - Both platforms need: generated preview image, short caption, and a URL
 
 - [ ] Source / generate a small set of abstract background images for the preview templates
+
+## 🎬 Viewer & Deployment
+
+- [ ] Build and finalize **viewer-v6.js** — next iteration of the image viewer
+  - Add to `/redesign` root of `joeldom.github.io`
+  - Port and deploy to `joeldombek.com` via Bluehost FTP
+  - Confirm v6 works in both environments before retiring v5
 
 ## 📸 Photography Section
 
@@ -93,6 +137,71 @@
   - Update site map section as new pages/sections go live
   - Update naming conventions if terminology evolves (e.g. Sets, Tile Splash, White Keys)
 - [ ] Ensure the agent file stays portable — clean enough for any agent to read cold
+
+
+## 🗂️ Kanban Board & Issue Visibility for the Agent
+
+> Research phase. Goal: agent can see the Kanban board, read open issues, identify what's being worked on, check if a task has an issue, and create one if not. Sizing system ties directly into issue labels.
+
+---
+
+### How the Agent Reads GitHub Issues (native — no extra tooling)
+- The Claude GitHub App already has `issues: read` access once installed
+- Agent can read all open issues, their titles, body, labels, and assignees via the GitHub API in any Action context
+- In `CLAUDE.md`, instruct the agent to check open issues at session start and cross-reference against what it's working on
+- If working on something with no corresponding issue → agent creates one before starting work (S/M tasks) or flags Joel first (L/XL tasks)
+
+---
+
+### Kanban Tools Worth Evaluating (all Claude Code compatible)
+
+**Kanban Code** *(most feature-complete, macOS native)*
+- Native macOS app (SwiftUI), cards created from GitHub issues get named worktrees (`issue-123`), cards flow automatically from backlog to done as Claude works and opens PRs
+- Push notifications to phone when agent needs attention
+- With `kanban list --json` the agent can see all active cards, their status, tokens, and context usage — agent-readable programmatically
+- Best fit if Joel wants a native Mac app as the primary interface
+
+**claude-code-kanban / Claude Task Viewer** *(lightweight, terminal + browser)*
+- Reads Claude Code's native task files at `~/.claude/tasks/`, watches with chokidar, pushes live updates to browser via SSE — read-only, nothing modified
+- Tasks move through Pending → In Progress → Completed as Claude works, with waiting-for-user amber highlights and task dependency visibility
+- Run with a single command: `npx claude-code-kanban`
+- Best fit for a lightweight local dashboard with no extra setup
+
+**KANBAII** *(npm, agent-native)*
+- AI-native kanban board purpose-built for Claude Code — plan visually, track progress, let AI execute. Features sequential and parallel multi-agent orchestration with real-time cost tracking per task
+- Run with `npx kanbaii start`
+- Best fit if parallel multi-agent work becomes part of the workflow later
+
+**Vibe Kanban** *(open source, sunsetting as a product)*
+- Issue statuses update automatically when agents start working and when PRs are created or merged
+- Now community-maintained open source — viable but lower support going forward
+
+---
+
+### Sizing System → GitHub Issue Labels
+- [ ] Create GitHub issue labels that mirror the t-shirt sizing system:
+  - `size: S` / `size: M` / `size: L` / `size: XL`
+- [ ] Agent applies a size label when creating or picking up an issue
+- [ ] XL issues get a `needs-plan` label added — agent must post written plan and wait for Joel approval before work starts
+- [ ] L/XL issues also get `joel-review` label to surface them clearly in the board
+- [ ] Size labels feed into the changelog and post log over time as a calibration record
+
+---
+
+### Agent Issue Protocol (for CLAUDE.md)
+- At session start, agent reads all open issues and identifies any that match current work
+- If working on something with no issue → create one with title, description, and size label before starting
+- If an issue exists but has no size label → agent applies one based on the sizing rubric
+- XL issues: agent posts a bundled question comment + Discord ping to Joel before writing a plan
+- L issues: agent posts plan to issue as a comment, waits for Joel thumbs-up before coding
+- S/M issues: agent proceeds, flags anything unexpected mid-work
+
+---
+
+### Files to Update
+- [ ] Add issue protocol to `CLAUDE.md`
+- [ ] Add label setup steps to `HUMANS.md` (Joel creates the labels in GitHub)
+- [ ] Add to Joel vs Agent matrix: 👤 Joel creates size labels in repo, 🤖 Agent applies them per task
 
 ## 🤖 Agent Integration — Research & Setup
 
@@ -428,13 +537,35 @@
 
 ---
 
-## Content Map
+## 📋 Changelog
 
-- Port > [joeldombek.com](http://www.joeldombek.com)
-- [joeldom.github.com/redesign](http://www.joeldom.github.com/redesign) `repo` `page`
-- [joeldom.github.com/resume](http://www.joeldom.github.com/resume) `repo` `page`
-- [joeldom.github.com/redesign/sandbox](http://www.joeldom.github.com/redesign/sandbox) `temp`
-- [joeldom.github.com/work/writing](https://chatgpt.com/share/6800e003-3fe8-800b-8e18-66c83498ee0d) `gpt` `claude`
-- [joeldom.github.com/asset](http://www.joeldom.github.com/asset) `repo` `api`
+> Last 20 versions of this file. Updated every time TODO.md is read and modified.
+> Format: `vX.X — [date] — 1-2 sentence summary of what changed.`
+> Maintained by Joel and any agent. Most recent at the top.
 
 ---
+
+- **v0.24 — 2026-05-01** — Added Work Page Filter section: floating omni-input bar with freeform text search and category dropdown, JSON-driven client-side filtering, behavior and animation details TBD.
+- **v0.23 — 2026-05-01** — Added Kanban board research section: native GitHub issue reading, four tool options evaluated (Kanban Code, claude-code-kanban, KANBAII, Vibe Kanban), sizing-to-label system, and agent issue protocol for CLAUDE.md.
+- **v0.22 — 2026-05-01** — Clarified Onboarding and Feedback items need new tiles and case study pages. Added viewer-v6.js build and dual deployment to-do (GitHub Pages + Bluehost FTP).
+- **v0.21 — 2026-05-01** — Added three items to Improvements: linking projects to case studies, Onboarding example page, and Feedback form example page.
+- **v0.20 — 2026-04-08** — Added changelog section to track file history and provide project memory across sessions and agents.
+- **v0.19 — 2026-04-08** — Clarified four-file system (`TODO.md`, `HUMANS.md`, `AGENTS.md`, `CLAUDE.md`); added migration checklist mapping every section to its target file.
+- **v0.18 — 2026-04-08** — Added XL task two-step protocol: questions first, then plan, then Joel approval before any code is touched.
+- **v0.17 — 2026-04-08** — Added task sizing system (S / M / L / XL) with definitions, examples, and agent sizing protocol including mid-task escalation rules.
+- **v0.16 — 2026-04-08** — Added agent communication and flagging system: Discord webhook for pings, GitHub issue threads for Q&A, bundling logic, and files to create (`humans.md`, update `CLAUDE.md`).
+- **v0.15 — 2026-04-08** — Added Joel vs Agent touch point responsibility matrix covering accounts setup, day-to-day dev, build pipeline, deployments, and social posting.
+- **v0.14 — 2026-04-08** — Added agent self-diagnostic block intended for `CLAUDE.md`: checks API key, GitHub App access, branch access, and `CLAUDE.md` presence on every session start.
+- **v0.13 — 2026-04-08** — Added agent integration research section with two paths: local Claude Code CLI setup and cloud via GitHub Issues and Actions, including step-by-step one-time setup.
+- **v0.12 — 2026-04-08** — Added two GitHub Actions workflow files plan (`user-build.yml` / `agent-build.yml`) with branch conventions and `[agent]` commit message fallback.
+- **v0.11 — 2026-04-08** — Defined two build paths: user build (Gulp watch local, GitHub Action as safety net) and agent build (source only, Action handles minification).
+- **v0.10 — 2026-04-08** — Added build and asset pipeline section: Gulp + npm scripts for CSS/JS minification with watch mode and manual force-regenerate trigger.
+- **v0.09 — 2026-04-08** — Added ongoing agent file maintenance section; clarified `CLAUDE.md` as a living document updated after every post, completed task, and terminology change.
+- **v0.08 — 2026-04-08** — Added agent memory scaffold: `CLAUDE.md` as universal agent project file with post log schema (date, platform, type, caption, URL).
+- **v0.07 — 2026-04-08** — Added social preview system: repeatable pipeline for pages/projects/posts, OG image spec (1200×630px), Twitter/X and Discord credential requirements.
+- **v0.06 — 2026-04-08** — Added mobile nav hover color bug, hamburger animation to-do, and footer SVG chevron color-cycling fix to Fixes section.
+- **v0.05 — 2026-04-08** — Added footer third-party icon rendering bug: suspected FA5/FA6 library version mismatch on CDN source.
+- **v0.04 — 2026-04-08** — Added Improvements section; added mega menu nav unification item (single source of truth template).
+- **v0.03 — 2026-04-08** — Added Tile Splash viewer Sets support: cover image display-only, gallery scroll view, multiple Sets per Tile Splash.
+- **v0.02 — 2026-04-08** — Added Photography section: Tile Splash 9×9 grid, scrollable white key album cards, 9×9 photo galleries per album.
+- **v0.01 — 2026-04-08** — Initial file created. Added Fixes section with social icons footer bug. Project inbox established.
