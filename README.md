@@ -19,7 +19,7 @@ Development of a production environment for testing (main, resume, projects, ass
 High-level overview of the Repo for how `redesign` features are developed and tested and then evaluated to be added to the wider site/app.
 
 ## Resources
-
+<!--ISSUE FIX LINKS -->
 - [HUMANS.md](http://www.joeldom.github.com/redesign/HUMANS.md)
 - [AGENTS.md](http://www.joeldom.github.com/redesign/AGENTS.md)
 - [CLAUDE.md](http://www.joeldom.github.com/redesign/CLAUDE.md)
