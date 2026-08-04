@@ -13,6 +13,13 @@
 
 # Site To-Do List
 
+### How to use
+
+1. Add this file as context to Agent context window
+2. Describe task/feature with any known resources for further add context
+3. Agent will evaluate and outline tasks
+4. Agent will add needed context and update change log.
+
 ## 🐛 Fixes
 
 - [ ] Fix social icons in the footer of pages
