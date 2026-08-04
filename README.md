@@ -31,6 +31,15 @@ Development of a production environment for testing (main, resume, projects, ass
 
 ## Timeline
 
+### August 2026
+
+Viewer.js main feature along with Player.js are major features.  Viewer allows for the viewing of likes at full-brrowser size. Player.js can have .gift. mp4 .webp play inside and behind the main key navigation.
+
+#### TBD
+
+- weekly and monthly todo calendar 
+- adding HUMANS and AGENTS.md files to assets for first order retrievability
+
 ### April 2026
 
 - All/Work Page and subsequent pages ref added
