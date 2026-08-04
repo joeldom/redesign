@@ -20,10 +20,10 @@ High-level overview of the Repo for how `redesign` features are developed and te
 
 ## Resources
 <!--ISSUE FIX LINKS -->
-- [HUMANS.md](http://www.joeldom.github.com/redesign/HUMANS.md)
-- [AGENTS.md](http://www.joeldom.github.com/redesign/AGENTS.md)
-- [CLAUDE.md](http://www.joeldom.github.com/redesign/CLAUDE.md)
-- [TODO.md](http://www.joeldom.github.com/redesign/TODO.md)
+- [HUMANS.md](http://www.joeldom.github.com/redesign/HUMANS.md) - Provides context for Human contributors.
+- [AGENTS.md](http://www.joeldom.github.com/redesign/AGENTS.md) - Provides context for Agent contributors.
+- [CLAUDE.md](http://www.joeldom.github.com/redesign/CLAUDE.md) - Provides context for Claude (out of date compared with AGENTS.
+- [TODO.md](http://www.joeldom.github.com/redesign/TODO.md) - Provides context for Agents & Humans and how to contribute to `features/projects`.
 
 ## Content Map
 
