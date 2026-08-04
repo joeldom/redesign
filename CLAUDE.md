@@ -22,7 +22,7 @@ The project runs on a parallel track: **Joel builds, tests, and pushes. Claude c
 
 ---
 
-## Two Sandboxes, One Pipeline
+## Sandbox & Pipeline
 
 This project uses two distinct sandbox environments that serve different purposes and feed into each other.
 
