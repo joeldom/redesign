@@ -1,9 +1,7 @@
 # Google Calendar-Style Day View + Event Modal Prototype
 
-[Demo](https://joeldom.github.io/redesign/sandbox/cal/)
-
 **Experiment**: Single-page day-view calendar with complex event scheduler modal  
-**Date**: August 5, 2026  
+**Date**: August 5, 2026 (updated later same day)  
 **Author / Agent context**: Built following [joeldom.github.io/redesign/AGENTS.md](https://joeldom.github.io/redesign/AGENTS.md) sandbox guidelines  
 **Files**:
 - `index.html` — complete self-contained prototype (HTML + CSS + JS)
@@ -13,28 +11,29 @@
 A self-contained single-page prototype that mimics the core interaction of Google Calendar (dark-mode mobile style):
 - A day-view grid with hourly time blocks.
 - Clicking any time slot or an existing event opens a rich “Add event / Task / Birthday” modal.
-- The modal contains every major input shown in the reference screenshot.
+- Supports multiple overlapping events (seed + newly created).
 
-This serves as a UI/UX interaction experiment and test bed, aligned with the agent workflow for concept → prototype → sandbox promotion.
-
-## Specs (as provided)
+## Specs
 
 ### Calendar View
 - **Day view only** with hourly rows (7 AM – 8 PM).
-- Time blocks can overlap (grid supports multiple simultaneous events).
-- One sample event pre-populated: **“Lunch”**, 12:00–1:00 PM (1 hour), fully editable.
-- Temporary / in-memory data only — **no localStorage, no persistence, no real save**.
-- Mobile-first layout with reasonable responsive behavior for desktop.
-- Simple logo / branding area in the sticky header that the modal covers when opened.
+- Time blocks support overlapping events.
+- Seed data: one “Lunch” event (12:00–1:00 PM).
+- Users can create additional events by clicking any hour row.
+- Soft limit of **48 events** (24 × 2) for testing the UI.
+- Temporary / in-memory data only — no localStorage or persistence.
+- Mobile-first with reasonable desktop responsiveness.
+- Simple logo/branding area in the sticky header (covered by the modal when open).
 
 ### Modal (matches the provided dark-mode screenshot)
-**Working features** (functional):
+**Working features**:
 - Title input
 - Start & end date/time pickers (`datetime-local`)
-- Save button (updates the visual sample event only)
+- Save button (creates new or updates existing event)
 - Close button + overlay click to dismiss
+- Proper create vs edit handling via event IDs
 
-**Visual-only features** (present and interactive for look & feel, but no real output or side effects):
+**Visual-only features** (present and lightly interactive):
 - Event / Task / Birthday type pills
 - Account / calendar selector row
 - Color / label chips (Family, Friends, Sports, Time, To Do)
@@ -48,27 +47,35 @@ This serves as a UI/UX interaction experiment and test bed, aligned with the age
 
 ### Design & Tech
 - Dark theme matching the reference screenshot.
-- Material Icons (via Google Fonts CDN) used throughout.
+- Material Icons (Google Fonts CDN).
 - Vanilla HTML / CSS / JS only — single self-contained file.
 - No external frameworks or build step.
 
 ## How to Run
 1. Open `index.html` in any modern browser.
-2. Click any hour row to create a new event, or click the “Lunch” block to edit it.
-3. Change the title or times and hit **Save** to see the visual update.
-4. Close via the X or by clicking outside the modal.
+2. Click any hour row → creates a new event.
+3. Click an existing event block → edits it.
+4. Change title or times and hit **Save**.
+5. Close via the X or by clicking outside the modal.
 
 ## Technical Notes
-- Hours rendered dynamically (7 AM–8 PM).
-- Event positioning calculated in pixels (`top` + `height`) so overlapping works naturally.
-- Save only mutates the single in-memory sample event and re-renders the block.
-- All other controls are purely presentational.
+- Events stored in a simple in-memory array.
+- Each event has a unique `id`.
+- Positioning calculated in pixels so overlapping works naturally.
+- Soft cap of 48 events with a simple alert when reached.
+- Save validates that end time is after start time.
+
+## Changelog (latest)
+- Replaced single static event with a multi-event array.
+- Added create + edit support (up to 48 events).
+- Improved re-rendering of all blocks after save.
+- Added basic validation on save.
 
 ## Next Steps / Promotion Path (per AGENTS.md)
-1. Validate interaction fidelity against the original screenshot.
-2. Summarize findings or requested changes.
-3. If approved, promote from sandbox into a more permanent location following the agent workflow guidelines.
+1. Validate interaction fidelity and multi-event behavior.
+2. Collect further feedback.
+3. Summarize findings and promote from sandbox if approved.
 
 ## Related
-- Reference UI: Google Calendar mobile “Add event” screen (dark mode, Aug 5 2026 screenshot)
+- Reference UI: Google Calendar mobile “Add event” screen (dark mode)
 - Agent workflow: https://joeldom.github.io/redesign/AGENTS.md
