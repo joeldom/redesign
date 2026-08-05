@@ -68,60 +68,46 @@ A self-contained single-page prototype that mimics the core interaction of Googl
 4. Select exactly one label chip — it controls the event’s color.
 5. Save or close.
 
-## Data Storage Thoughts (Static → Dynamic)
+---
 
-**Current**: Pure in-memory JavaScript array (lost on refresh).
+## Data Storage – Deep Thoughts (Static vs Dynamic)
 
-**Simple static options**
-- Hard-coded seed array (present).
-- External `events.json` loaded with `fetch()`.
-- Base64-encoded data blob inside the HTML.
+### Current State
+Everything lives in a plain JavaScript array in memory. Perfect for a quick prototype, but it disappears on refresh.
 
-**Simple dynamic options**
-- `localStorage` / `sessionStorage` (easiest next step — survives refresh, still single-file).
-- Download / export as JSON file.
-- Clipboard copy of the data.
-- IndexedDB later if the dataset grows.
-- Creative / experimental: encode data as a short “data song” (Base64 or even Web Audio tones) for fun sandbox demos.
+### Static Approaches (no real persistence, still easy to ship)
+- Keep the seed data as a hardcoded JS constant (what we have now).
+- Move the initial data into a separate `events.json` file and `fetch()` it on load. Still static, but cleaner separation.
+- Embed the data as a big Base64 string or even as a data-URI inside the HTML (extreme but fully self-contained).
 
-Recommended immediate upgrade: keep the in-memory array as source of truth and sync it to `localStorage` on every Save + on page load.
+### Dynamic / Simple Persistence Options
 
-## Expanding the Calendar
+| Method                    | Score (1 = best, 10 = worst) | Complexity | Pros                                      | Cons                                      | Best for                          |
+|---------------------------|------------------------------|------------|-------------------------------------------|-------------------------------------------|-----------------------------------|
+| **localStorage**          | **2**                        | Very low   | Survives refresh, zero backend, dead simple | ~5 MB limit, synchronous, string-only     | Quick prototype persistence       |
+| **sessionStorage**        | **4**                        | Very low   | Cleared when tab closes                   | Same limits as localStorage               | Temporary sessions                |
+| **IndexedDB**             | **5**                        | Medium     | Larger storage, structured, async         | More boilerplate                          | Future multi-month / year data    |
+| **Download JSON**         | **3**                        | Low        | User can save/export a real file          | Manual step required                      | Sharing or backup                 |
+| **Clipboard copy**        | **6**                        | Lowest     | Instant                                   | Easy to lose, not automatic               | Debugging / quick transfer        |
+| **File System Access API**| **7**                        | Medium     | Real file read/write in supporting browsers | Chrome-centric, permission prompts      | Power-user local tools            |
 
-### Month View
-- Classic 7-column day grid.
-- Show colored dots or mini event bars per day.
-- Click a day → switch to Day view or open the create modal for that date.
-- Requires upgrading the data model to full dates (`YYYY-MM-DDTHH:mm`).
-- Navigation arrows + “Today” button.
+**“Writing to a song” / ultra-simple creative ideas**  
+- Encode the JSON as a short Base64 string and treat it like a “data song” the user can copy-paste.  
+- Generate a tiny downloadable `.json` or even a `.txt` file on Save.  
+- For pure fun: convert event data into a simple tone sequence (Web Audio API) — more art than practical storage, but memorable for a sandbox experiment.
 
-### Year View
-- Twelve mini-month calendars (or a vertical month list).
-- High-level overview only (event count dots).
-- Click month → Month view; click day → Day view.
-- Same underlying event array; just aggregate by month/day.
+**Recommended next step for this project**  
+Add optional `localStorage` persistence right away (score 2). Keep the in-memory array as the source of truth, and sync to/from localStorage on load and after every Save. It is the simplest reliable dynamic method that still fits the single-file constraint.
 
-Suggested build order: finish Day view polish → add localStorage + full dates → Month view → Year view.
-
-## Changelog (latest)
-- Labels are now single-select only.
-- Selected label determines the event block color on the day view.
-- Email updated to `me@joeldombek.com`.
-- Added privacy note: never use personal information.
-- Added demo link at the top of the README.
-
-## Next Steps
-- Fix overlapping of times, currently overwrites previous entries
-- Add button to start a timer that will add an entry on the day for time tracking
-- Currently it goes from 7 AM to 8 PM → it should be an actual 24 hr day
-- Date in top right should reflect the current day (currently hard-coded as August 5th)
-- Add selection functionality to have a notification (will not actually work but should save in entry if set and show what kind of notification would trigger)
-- Location should allow to be set and then have a free text input to add a description or able to handle a link added to it so it should render the input as the output as formatted
-- Explore simple persistence (localStorage) and full-date data model
-- Begin planning Month view layout
-
-Collect further feedback and continue iterating in the sandbox.
-
-## Related
-- Reference: Google Calendar mobile create-event UI (dark mode)
-- Agent workflow: https://joeldom.github.io/redesign/AGENTS.md
+**Data model upgrade needed soon**:
+```js
+{
+  id: number,
+  title: string,
+  start: "2026-08-05T12:00",  // full ISO-like string
+  end:   "2026-08-05T13:00",
+  label: "To Do",
+  // future fields
+  notification: null | "10min" | "1hour" | ...,
+  location: string | null
+}
