@@ -19,11 +19,7 @@
       --event-border: #5c6bc0;
     }
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Roboto', system-ui, sans-serif;
@@ -33,7 +29,6 @@
       overflow-x: hidden;
     }
 
-    /* ========== DAY VIEW ========== */
     .app {
       max-width: 900px;
       margin: 0 auto;
@@ -153,7 +148,7 @@
       margin-top: 2px;
     }
 
-    /* ========== MODAL ========== */
+    /* Modal */
     .modal-overlay {
       position: fixed;
       inset: 0;
@@ -166,9 +161,7 @@
       overflow-y: auto;
     }
 
-    .modal-overlay.open {
-      display: flex;
-    }
+    .modal-overlay.open { display: flex; }
 
     .modal {
       background: var(--surface);
@@ -207,9 +200,7 @@
       justify-content: center;
     }
 
-    .modal-header button:hover {
-      background: var(--surface-2);
-    }
+    .modal-header button:hover { background: var(--surface-2); }
 
     .save-btn {
       background: var(--accent) !important;
@@ -220,9 +211,7 @@
       font-size: 0.9rem;
     }
 
-    .modal-body {
-      padding: 8px 16px 24px;
-    }
+    .modal-body { padding: 8px 16px 24px; }
 
     .title-input {
       width: 100%;
@@ -236,9 +225,7 @@
       outline: none;
     }
 
-    .title-input:focus {
-      border-bottom-color: var(--accent);
-    }
+    .title-input:focus { border-bottom-color: var(--accent); }
 
     .type-pills {
       display: flex;
@@ -308,9 +295,7 @@
       border-radius: 50%;
     }
 
-    .chip.active {
-      background: var(--surface-2);
-    }
+    .chip.active { background: var(--surface-2); }
 
     .form-row {
       display: flex;
@@ -349,9 +334,7 @@
       transition: background 0.2s;
     }
 
-    .toggle.on {
-      background: var(--accent);
-    }
+    .toggle.on { background: var(--accent); }
 
     .toggle::after {
       content: '';
@@ -365,9 +348,7 @@
       transition: transform 0.2s;
     }
 
-    .toggle.on::after {
-      transform: translateX(18px);
-    }
+    .toggle.on::after { transform: translateX(18px); }
 
     .time-inputs {
       display: flex;
@@ -396,44 +377,31 @@
       margin-top: 4px;
     }
 
-    .action-btn:hover {
-      background: var(--surface-2);
-    }
+    .action-btn:hover { background: var(--surface-2); }
 
-    /* Responsive */
     @media (min-width: 600px) {
-      .modal {
-        margin-top: 40px;
-      }
-      .time-column {
-        width: 72px;
-      }
-      .event-block {
-        left: 12px;
-        right: 12px;
-      }
+      .modal { margin-top: 40px; }
+      .time-column { width: 72px; }
+      .event-block { left: 12px; right: 12px; }
     }
   </style>
 </head>
 <body>
   <div class="app">
-    <!-- Header / Logo branding area -->
     <header class="header">
       <div class="logo-area">
         <span class="material-icons">calendar_today</span>
         <span>Day View</span>
       </div>
-      <div class="date-label" id="currentDateLabel">Wed, Aug 5, 2026</div>
+      <div class="date-label">Wed, Aug 5, 2026</div>
     </header>
 
-    <!-- Day grid -->
     <div class="day-view">
       <div class="time-column" id="timeColumn"></div>
       <div class="grid" id="grid"></div>
     </div>
   </div>
 
-  <!-- Modal -->
   <div class="modal-overlay" id="modalOverlay">
     <div class="modal">
       <div class="modal-header">
@@ -444,7 +412,7 @@
       </div>
 
       <div class="modal-body">
-        <input type="text" class="title-input" id="titleInput" placeholder="Add title" value="Lunch">
+        <input type="text" class="title-input" id="titleInput" placeholder="Add title">
 
         <div class="type-pills">
           <button class="type-pill active" data-type="event">Event</button>
@@ -466,47 +434,36 @@
           <div class="chip active"><span class="dot" style="background:#34a853"></span> To Do</div>
         </div>
 
-        <!-- All-day -->
         <div class="form-row">
           <span class="material-icons">schedule</span>
-          <div class="content">
-            <span>All-day</span>
-          </div>
+          <div class="content"><span>All-day</span></div>
           <div class="toggle" id="allDayToggle"></div>
         </div>
 
-        <!-- Start / End times (working) -->
         <div class="form-row">
           <span class="material-icons">event</span>
           <div class="content time-inputs">
             <div>
               <div class="label">Start</div>
-              <input type="datetime-local" id="startInput" value="2026-08-05T12:00">
+              <input type="datetime-local" id="startInput">
             </div>
             <div>
               <div class="label">End</div>
-              <input type="datetime-local" id="endInput" value="2026-08-05T13:00">
+              <input type="datetime-local" id="endInput">
             </div>
           </div>
         </div>
 
-        <!-- Timezone (visual) -->
         <div class="form-row">
           <span class="material-icons">public</span>
-          <div class="content">
-            <span>Eastern Daylight Time</span>
-          </div>
+          <div class="content"><span>Eastern Daylight Time</span></div>
         </div>
 
-        <!-- Repeat (visual) -->
         <div class="form-row">
           <span class="material-icons">repeat</span>
-          <div class="content">
-            <span>Does not repeat</span>
-          </div>
+          <div class="content"><span>Does not repeat</span></div>
         </div>
 
-        <!-- Add people (visual) -->
         <div class="form-row">
           <span class="material-icons">person_add</span>
           <div class="content">
@@ -515,46 +472,43 @@
           </div>
         </div>
 
-        <!-- Video (visual) -->
         <div class="form-row">
           <span class="material-icons">videocam</span>
-          <div class="content">
-            <span>Add video conferencing</span>
-          </div>
+          <div class="content"><span>Add video conferencing</span></div>
         </div>
 
-        <!-- Location (visual) -->
         <div class="form-row">
           <span class="material-icons">place</span>
-          <div class="content">
-            <span>Add location</span>
-          </div>
+          <div class="content"><span>Add location</span></div>
         </div>
 
-        <!-- Notification (visual) -->
         <div class="form-row">
           <span class="material-icons">notifications</span>
-          <div class="content">
-            <span>Add notification</span>
-          </div>
+          <div class="content"><span>Add notification</span></div>
         </div>
       </div>
     </div>
   </div>
 
   <script>
-    // ========== CONFIG ==========
-    const HOURS = Array.from({length: 14}, (_, i) => i + 7); // 7 AM – 8 PM
-    const SAMPLE_EVENT = {
-      id: 1,
-      title: "Lunch",
-      startHour: 12,
-      startMin: 0,
-      endHour: 13,
-      endMin: 0
-    };
+    // ========== DATA ==========
+    let events = [
+      {
+        id: 1,
+        title: "Lunch",
+        startHour: 12,
+        startMin: 0,
+        endHour: 13,
+        endMin: 0
+      }
+    ];
+    let nextId = 2;
+    let editingId = null; // null = new event
 
-    // ========== RENDER DAY VIEW ==========
+    const HOURS = Array.from({length: 14}, (_, i) => i + 7); // 7 AM – 8 PM
+    const MAX_EVENTS = 48; // soft limit for testing
+
+    // ========== RENDER ==========
     const timeColumn = document.getElementById('timeColumn');
     const grid = document.getElementById('grid');
 
@@ -573,34 +527,38 @@
       grid.appendChild(row);
     });
 
-    // Sample event (lunch 12–1)
-    function renderEvent(ev) {
-      const top = (ev.startHour - 7) * 60 + ev.startMin;
-      const height = ((ev.endHour - ev.startHour) * 60 + (ev.endMin - ev.startMin));
-      const block = document.createElement('div');
-      block.className = 'event-block';
-      block.style.top = top + 'px';
-      block.style.height = height + 'px';
-      block.innerHTML = `
-        <div class="event-title">${ev.title}</div>
-        <div class="event-time">${formatTime(ev.startHour, ev.startMin)} – ${formatTime(ev.endHour, ev.endMin)}</div>
-      `;
-      block.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openModalForEdit(ev);
-      });
-      grid.appendChild(block);
-    }
-
     function formatTime(h, m) {
       const ampm = h >= 12 ? 'PM' : 'AM';
       const display = h > 12 ? h - 12 : (h === 0 ? 12 : h);
       return `${display}:${m.toString().padStart(2,'0')} ${ampm}`;
     }
 
-    renderEvent(SAMPLE_EVENT);
+    function renderAllEvents() {
+      // Clear existing blocks
+      document.querySelectorAll('.event-block').forEach(el => el.remove());
 
-    // ========== MODAL LOGIC ==========
+      events.forEach(ev => {
+        const top = (ev.startHour - 7) * 60 + ev.startMin;
+        const height = Math.max(30, ((ev.endHour - ev.startHour) * 60 + (ev.endMin - ev.startMin)));
+        const block = document.createElement('div');
+        block.className = 'event-block';
+        block.style.top = top + 'px';
+        block.style.height = height + 'px';
+        block.innerHTML = `
+          <div class="event-title">${ev.title}</div>
+          <div class="event-time">${formatTime(ev.startHour, ev.startMin)} – ${formatTime(ev.endHour, ev.endMin)}</div>
+        `;
+        block.addEventListener('click', (e) => {
+          e.stopPropagation();
+          openModalForEdit(ev);
+        });
+        grid.appendChild(block);
+      });
+    }
+
+    renderAllEvents();
+
+    // ========== MODAL ==========
     const overlay = document.getElementById('modalOverlay');
     const titleInput = document.getElementById('titleInput');
     const startInput = document.getElementById('startInput');
@@ -610,22 +568,31 @@
     const saveBtn = document.getElementById('saveBtn');
 
     function openModalForNew(hour) {
+      if (events.length >= MAX_EVENTS) {
+        alert(`Maximum of ${MAX_EVENTS} events reached for this test prototype.`);
+        return;
+      }
+      editingId = null;
       titleInput.value = '';
       const date = '2026-08-05';
       startInput.value = `${date}T${hour.toString().padStart(2,'0')}:00`;
-      endInput.value = `${date}T${(hour+1).toString().padStart(2,'0')}:00`;
+      endInput.value = `${date}T${(hour + 1).toString().padStart(2,'0')}:00`;
       overlay.classList.add('open');
+      titleInput.focus();
     }
 
     function openModalForEdit(ev) {
+      editingId = ev.id;
       titleInput.value = ev.title;
       startInput.value = `2026-08-05T${ev.startHour.toString().padStart(2,'0')}:${ev.startMin.toString().padStart(2,'0')}`;
       endInput.value = `2026-08-05T${ev.endHour.toString().padStart(2,'0')}:${ev.endMin.toString().padStart(2,'0')}`;
       overlay.classList.add('open');
+      titleInput.focus();
     }
 
     function closeModal() {
       overlay.classList.remove('open');
+      editingId = null;
     }
 
     closeBtn.addEventListener('click', closeModal);
@@ -633,23 +600,39 @@
       if (e.target === overlay) closeModal();
     });
 
-    // Working Save (just updates the visual sample event for demo – no persistence)
     saveBtn.addEventListener('click', () => {
       const newTitle = titleInput.value.trim() || 'Untitled';
       const start = new Date(startInput.value);
       const end = new Date(endInput.value);
 
-      // Update the single sample event visually
-      SAMPLE_EVENT.title = newTitle;
-      SAMPLE_EVENT.startHour = start.getHours();
-      SAMPLE_EVENT.startMin = start.getMinutes();
-      SAMPLE_EVENT.endHour = end.getHours();
-      SAMPLE_EVENT.endMin = end.getMinutes();
+      if (isNaN(start) || isNaN(end) || end <= start) {
+        alert('Please enter a valid start and end time (end must be after start).');
+        return;
+      }
 
-      // Re-render
-      document.querySelectorAll('.event-block').forEach(el => el.remove());
-      renderEvent(SAMPLE_EVENT);
+      const eventData = {
+        title: newTitle,
+        startHour: start.getHours(),
+        startMin: start.getMinutes(),
+        endHour: end.getHours(),
+        endMin: end.getMinutes()
+      };
 
+      if (editingId === null) {
+        // New event
+        events.push({
+          id: nextId++,
+          ...eventData
+        });
+      } else {
+        // Update existing
+        const idx = events.findIndex(e => e.id === editingId);
+        if (idx !== -1) {
+          events[idx] = { ...events[idx], ...eventData };
+        }
+      }
+
+      renderAllEvents();
       closeModal();
     });
 
@@ -666,7 +649,7 @@
       allDayToggle.classList.toggle('on');
     });
 
-    // Chips (visual only)
+    // Chips
     document.querySelectorAll('.chip').forEach(chip => {
       chip.addEventListener('click', () => chip.classList.toggle('active'));
     });
