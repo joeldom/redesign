@@ -15,8 +15,6 @@
       --text-secondary: #9aa0a6;
       --accent: #8ab4f8;
       --border: #3c4043;
-      --event-bg: #3949ab;
-      --event-border: #5c6bc0;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -118,8 +116,6 @@
       position: absolute;
       left: 8px;
       right: 8px;
-      background: var(--event-bg);
-      border-left: 4px solid var(--event-border);
       border-radius: 6px;
       padding: 6px 10px;
       font-size: 0.85rem;
@@ -128,6 +124,7 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.3);
       overflow: hidden;
       transition: transform 0.15s, box-shadow 0.15s;
+      color: #fff;
     }
 
     .event-block:hover {
@@ -144,7 +141,7 @@
 
     .event-time {
       font-size: 0.75rem;
-      opacity: 0.85;
+      opacity: 0.9;
       margin-top: 2px;
     }
 
@@ -287,6 +284,7 @@
       cursor: pointer;
       background: transparent;
       color: var(--text);
+      transition: background 0.15s, border-color 0.15s;
     }
 
     .chip .dot {
@@ -295,7 +293,10 @@
       border-radius: 50%;
     }
 
-    .chip.active { background: var(--surface-2); }
+    .chip.active {
+      background: var(--surface-2);
+      border-color: var(--accent);
+    }
 
     .form-row {
       display: flex;
@@ -422,16 +423,26 @@
 
         <div class="account-row">
           <div class="account-avatar">J</div>
-          <span>dombekj890@gmail.com</span>
+          <span>me@joeldombek.com</span>
           <span class="material-icons" style="margin-left:auto;font-size:18px;">expand_more</span>
         </div>
 
-        <div class="label-chips">
-          <div class="chip"><span class="dot" style="background:#ea4335"></span> Family</div>
-          <div class="chip active"><span class="dot" style="background:#fbbc04"></span> Friends</div>
-          <div class="chip"><span class="dot" style="background:#4285f4"></span> Sports</div>
-          <div class="chip"><span class="dot" style="background:#ea4335"></span> Time</div>
-          <div class="chip active"><span class="dot" style="background:#34a853"></span> To Do</div>
+        <div class="label-chips" id="labelChips">
+          <div class="chip" data-label="Family" data-color="#c5221f">
+            <span class="dot" style="background:#ea4335"></span> Family
+          </div>
+          <div class="chip" data-label="Friends" data-color="#f9ab00">
+            <span class="dot" style="background:#fbbc04"></span> Friends
+          </div>
+          <div class="chip" data-label="Sports" data-color="#1a73e8">
+            <span class="dot" style="background:#4285f4"></span> Sports
+          </div>
+          <div class="chip" data-label="Time" data-color="#d93025">
+            <span class="dot" style="background:#ea4335"></span> Time
+          </div>
+          <div class="chip active" data-label="To Do" data-color="#188038">
+            <span class="dot" style="background:#34a853"></span> To Do
+          </div>
         </div>
 
         <div class="form-row">
@@ -492,6 +503,14 @@
 
   <script>
     // ========== DATA ==========
+    const LABEL_COLORS = {
+      "Family":  { bg: "#c5221f", border: "#ea4335" },
+      "Friends": { bg: "#f9ab00", border: "#fbbc04" },
+      "Sports":  { bg: "#1a73e8", border: "#4285f4" },
+      "Time":    { bg: "#d93025", border: "#ea4335" },
+      "To Do":   { bg: "#188038", border: "#34a853" }
+    };
+
     let events = [
       {
         id: 1,
@@ -499,14 +518,16 @@
         startHour: 12,
         startMin: 0,
         endHour: 13,
-        endMin: 0
+        endMin: 0,
+        label: "To Do"
       }
     ];
     let nextId = 2;
-    let editingId = null; // null = new event
+    let editingId = null;
+    let selectedLabel = "To Do"; // default
 
     const HOURS = Array.from({length: 14}, (_, i) => i + 7); // 7 AM – 8 PM
-    const MAX_EVENTS = 48; // soft limit for testing
+    const MAX_EVENTS = 48;
 
     // ========== RENDER ==========
     const timeColumn = document.getElementById('timeColumn');
@@ -534,16 +555,20 @@
     }
 
     function renderAllEvents() {
-      // Clear existing blocks
       document.querySelectorAll('.event-block').forEach(el => el.remove());
 
       events.forEach(ev => {
+        const colors = LABEL_COLORS[ev.label] || LABEL_COLORS["To Do"];
         const top = (ev.startHour - 7) * 60 + ev.startMin;
         const height = Math.max(30, ((ev.endHour - ev.startHour) * 60 + (ev.endMin - ev.startMin)));
+
         const block = document.createElement('div');
         block.className = 'event-block';
         block.style.top = top + 'px';
         block.style.height = height + 'px';
+        block.style.background = colors.bg;
+        block.style.borderLeft = `4px solid ${colors.border}`;
+
         block.innerHTML = `
           <div class="event-title">${ev.title}</div>
           <div class="event-time">${formatTime(ev.startHour, ev.startMin)} – ${formatTime(ev.endHour, ev.endMin)}</div>
@@ -557,6 +582,22 @@
     }
 
     renderAllEvents();
+
+    // ========== LABEL CHIPS (single select) ==========
+    const chips = document.querySelectorAll('.chip');
+
+    function setActiveChip(labelName) {
+      chips.forEach(chip => {
+        chip.classList.toggle('active', chip.dataset.label === labelName);
+      });
+      selectedLabel = labelName;
+    }
+
+    chips.forEach(chip => {
+      chip.addEventListener('click', () => {
+        setActiveChip(chip.dataset.label);
+      });
+    });
 
     // ========== MODAL ==========
     const overlay = document.getElementById('modalOverlay');
@@ -574,6 +615,7 @@
       }
       editingId = null;
       titleInput.value = '';
+      setActiveChip("To Do"); // default
       const date = '2026-08-05';
       startInput.value = `${date}T${hour.toString().padStart(2,'0')}:00`;
       endInput.value = `${date}T${(hour + 1).toString().padStart(2,'0')}:00`;
@@ -584,6 +626,7 @@
     function openModalForEdit(ev) {
       editingId = ev.id;
       titleInput.value = ev.title;
+      setActiveChip(ev.label || "To Do");
       startInput.value = `2026-08-05T${ev.startHour.toString().padStart(2,'0')}:${ev.startMin.toString().padStart(2,'0')}`;
       endInput.value = `2026-08-05T${ev.endHour.toString().padStart(2,'0')}:${ev.endMin.toString().padStart(2,'0')}`;
       overlay.classList.add('open');
@@ -615,17 +658,16 @@
         startHour: start.getHours(),
         startMin: start.getMinutes(),
         endHour: end.getHours(),
-        endMin: end.getMinutes()
+        endMin: end.getMinutes(),
+        label: selectedLabel
       };
 
       if (editingId === null) {
-        // New event
         events.push({
           id: nextId++,
           ...eventData
         });
       } else {
-        // Update existing
         const idx = events.findIndex(e => e.id === editingId);
         if (idx !== -1) {
           events[idx] = { ...events[idx], ...eventData };
@@ -647,11 +689,6 @@
     // All-day toggle
     allDayToggle.addEventListener('click', () => {
       allDayToggle.classList.toggle('on');
-    });
-
-    // Chips
-    document.querySelectorAll('.chip').forEach(chip => {
-      chip.addEventListener('click', () => chip.classList.toggle('active'));
     });
   </script>
 </body>
