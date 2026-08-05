@@ -1,5 +1,7 @@
 # Google Calendar-Style Day View + Event Modal Prototype
 
+[Demo](http://joeldom.github.io/redesign/sandbox/cal/)
+
 **Experiment**: Single-page day-view calendar with complex event scheduler modal  
 **Date**: August 5, 2026 (updated later same day)  
 **Author / Agent context**: Built following [joeldom.github.io/redesign/AGENTS.md](https://joeldom.github.io/redesign/AGENTS.md) sandbox guidelines  
