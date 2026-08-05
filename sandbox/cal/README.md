@@ -76,6 +76,15 @@ A self-contained single-page prototype that mimics the core interaction of Googl
 - Added demo link at the top of the README.
 
 ## Next Steps
+
+- Fix overlapping of times, currently overwrites previous entries
+- add button to start a timer that will add an entry on the day for time tracking
+- currently it goes from 7 AM to 8 PM -> it should be an actual 24hr day
+- date in top right should reflect the current day (currently hard coded as August 5th I believe)
+- add selection functionality to have a notification (will not actually work but should save in entry if set and show what kind of notification would trigger.
+- location should allow to be set and then have a free text input to add a description or able to handle a link added to it so it should render the input as the output as formatted
+- 
+
 Collect further feedback and continue iterating in the sandbox.
 
 ## Related
