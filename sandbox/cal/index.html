@@ -578,9 +578,9 @@
                 bg: "rgba(26, 115, 232, 0.2)",
                 border: "#4285f4"
             },
-            "Time": {
-                bg: "#d93025",
-                border: "#ea4335"
+            "Special": {
+                bg: "rgba(135, 37, 217, 0.2)",
+                border: "rgb(125, 40, 184)"
             },
             "To Do": {
                 bg: "rgba(52, 168, 83, 0.2)",
@@ -620,8 +620,16 @@
             endHour: 17,
             endMin: 0,
             label: "Friends"
+        }, {
+            id: 5,
+            title: "Special",
+            startHour: 19,
+            startMin: 0,
+            endHour: 20,
+            endMin: 0,
+            label: "Special"
         }];
-        let nextId = 5;
+        let nextId = 6;
         let editingId = null;
         let selectedLabel = "To Do"; // default
 
