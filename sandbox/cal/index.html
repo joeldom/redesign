@@ -67,7 +67,7 @@
         }
         
         .logo-area .material-icons {
-            color: var(--accent);
+            color: #791c17;
             font-size: 28px;
         }
         
@@ -279,11 +279,18 @@
             width: 28px;
             height: 28px;
             border-radius: 50%;
-            background: #5f6368;
+            background: var(--surface-D);
             display: flex;
             align-items: center;
             justify-content: center;
             font-size: 14px;
+            border: 1px solid var(--border);
+        }
+        
+        .account-avatar:hover {
+            background: var(--surface-D2);
+            border-color: var(--main-D);
+            color: var(--main-D);
         }
         
         .label-chips {
@@ -408,7 +415,7 @@
         
         @media (min-width: 600px) {
             .modal {
-                margin-top: 40px;
+                margin-top: 48px;
             }
             .time-column {
                 width: 72px;
@@ -560,15 +567,15 @@
         // ========== DATA ==========
         const LABEL_COLORS = {
             "Family": {
-                bg: "#c5221f",
-                border: "#ea4335"
+                bg: "rgba(197, 34, 31, 0.2)",
+                border: "#791c17"
             },
             "Friends": {
-                bg: "#f9ab00",
-                border: "#fbbc04"
+                bg: "rgba(249, 171, 0, 0.2)",
+                border: "rgb(164, 123, 1)"
             },
             "Sports": {
-                bg: "#1a73e8",
+                bg: "rgba(26, 115, 232, 0.2)",
                 border: "#4285f4"
             },
             "Time": {
@@ -576,7 +583,7 @@
                 border: "#ea4335"
             },
             "To Do": {
-                bg: "#188038",
+                bg: "rgba(52, 168, 83, 0.2)",
                 border: "#34a853"
             }
         };
@@ -589,8 +596,32 @@
             endHour: 13,
             endMin: 0,
             label: "To Do"
+        }, {
+            id: 2,
+            title: "Meeting",
+            startHour: 14,
+            startMin: 0,
+            endHour: 15,
+            endMin: 0,
+            label: "Family"
+        }, {
+            id: 3,
+            title: "Appointment",
+            startHour: 8,
+            startMin: 0,
+            endHour: 9,
+            endMin: 0,
+            label: "Sports"
+        }, {
+            id: 4,
+            title: "Urgent",
+            startHour: 16,
+            startMin: 0,
+            endHour: 17,
+            endMin: 0,
+            label: "Friends"
         }];
-        let nextId = 2;
+        let nextId = 5;
         let editingId = null;
         let selectedLabel = "To Do"; // default
 
@@ -637,7 +668,7 @@
                 block.style.top = top + 'px';
                 block.style.height = height + 'px';
                 block.style.background = colors.bg;
-                block.style.borderLeft = `4px solid ${colors.border}`;
+                block.style.border = `1px solid ${colors.border}`;
 
                 block.innerHTML = `
           <div class="event-title">${ev.title}</div>
