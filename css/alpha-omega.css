@@ -41,7 +41,6 @@
 
 .omega {
     display: block;
-    position: absolute;
     bottom: 0;
     margin: 0 auto;
     width: 100%;
@@ -53,6 +52,14 @@
     border-top: 1px solid #000000;
     transition: background 1.3s ease;
     z-index: 9999;
+}
+
+.abso {
+    position: absolute;
+}
+
+.rela {
+    position: relative;
 }
 
 .alpha:hover,

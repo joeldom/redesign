@@ -7,6 +7,7 @@
     <title>Day View Calendar Prototype</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/alpha-omega.css">
     <style>
          :root {
             --bg: #121212;
@@ -20,6 +21,7 @@
             --accent: #8ab4f8;
             --main-D: #a2f88a;
             --border: #3c4043;
+            --top: 42px;
         }
         
         * {
@@ -38,7 +40,7 @@
         
         .app {
             max-width: 900px;
-            margin: 0 auto;
+            margin: 3em auto 0 auto;
             min-height: 100vh;
             display: flex;
             flex-direction: column;
@@ -52,7 +54,7 @@
             background: var(--bg-D);
             border-bottom: 1px solid var(--border);
             position: sticky;
-            top: 0;
+            top: var(--top);
             z-index: 10;
         }
         
@@ -172,9 +174,10 @@
             border-radius: 2px;
             margin-top: 24px;
             margin-bottom: 40px;
-            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 22px 40px rgba(0, 0, 0, 0.5);
             overflow: hidden;
             animation: slideUp 0.25s ease;
+            border: 1px solid var(--border);
         }
         
         @keyframes slideUp {
@@ -238,7 +241,7 @@
         }
         
         .title-input:focus {
-            border-bottom-color: var(--accent);
+            border-bottom-color: var(--main-D);
         }
         
         .type-pills {
@@ -353,7 +356,7 @@
         }
         
         .toggle.on {
-            background: var(--accent);
+            background: var(--main-D);
         }
         
         .toggle::after {
@@ -419,6 +422,10 @@
 </head>
 
 <body>
+    <p class="alpha">
+        <a href="https://joeldom.github.io/redesign/" title="← Return"></a>
+    </p>
+
     <div class="app">
         <header class="header">
             <div class="logo-area">
@@ -546,6 +553,8 @@
             </div>
         </div>
     </div>
+
+    <p class="omega rela"><a href="https://joeldom.github.io/redesign/">Joel Dombek</a> © 2026 <a href="https://joeldom.github.io/redesign/sandbox/#login">v1</a></p>
 
     <script>
         // ========== DATA ==========
