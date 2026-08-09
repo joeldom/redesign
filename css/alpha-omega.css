@@ -1,0 +1,66 @@
+.alpha {
+    display: block;
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 1;
+    font-size: 14px;
+    line-height: 1.78571;
+    text-align: center;
+    background: #171717b2;
+    transition: background 1.3s ease;
+    z-index: 9999;
+}
+
+.alpha a {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #98ffd863;
+    font-size: 12px;
+    padding: 6px 8px 6px 0;
+    text-decoration: none;
+}
+
+.alpha a:hover {
+    color: #c1e6d8;
+}
+
+.alpha a:after {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin: 0 0 0 8px;
+    content: "";
+    background: url("https://joeldom.github.io/asset/chip-logo.png") no-repeat 0 0;
+    background-size: 100%;
+}
+
+.omega {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    opacity: 0.5;
+    font-size: 14px;
+    line-height: 1.78571;
+    text-align: center;
+    background: #203135b2;
+    border-top: 1px solid #000000;
+    transition: background 1.3s ease;
+    z-index: 9999;
+}
+
+.alpha:hover,
+.omega:hover {
+    background: #000000;
+}
+
+.omega a {
+    text-decoration: none;
+    color: #ccc;
+}
