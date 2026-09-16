@@ -67,27 +67,30 @@
     <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
 
     <link rel="stylesheet" href="https://joeldom.github.io/style-guide/css/theme.css" />
-    <link rel="stylesheet" href="css/coma.css" />
-    <link rel="stylesheet" href="css/tao.css" />
-    <link rel="stylesheet" href="css/lib.css" />
-    <link rel="stylesheet" href="css/sandbox.css" />
-    <link rel="stylesheet" href="css/packet.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/coma.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/tao.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/lib.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/sandbox.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/packet.css" />
 
 
-    <link rel="stylesheet" href="css/prompt.css" />
-    <link rel="stylesheet" href="css/viewer.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/prompt.css" />
+    <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/viewer.css" />
 
     <style id="vid-hero-v10-styles">
+        .tile-splash {
+            border: 1px solid rgba(55, 55, 55, 0);
+        }
         /* ============================================================================
            VID HERO V10 — HOMEPAGE INTEGRATION
            Scoped to #collapse1 so the viewer behaves like a section-owned media layer.
            ============================================================================ */
-
+        
         #collapse1 {
             position: relative;
             isolation: isolate;
         }
-
+        
         #collapse1 .vid-hero-viewer {
             position: absolute;
             inset: 0;
@@ -95,7 +98,7 @@
             pointer-events: none;
             overflow: hidden;
         }
-
+        
         #collapse1 .vid-hero-media {
             position: absolute;
             inset: 0;
@@ -108,19 +111,19 @@
             filter: brightness(0.7) contrast(1.1);
             transition: opacity 0.6s ease;
         }
-
+        
         #collapse1 .vid-hero-viewer.is-visible .vid-hero-media {
             opacity: 1;
         }
-
         /* Homepage content stays above the media surface. */
-        #collapse1 > .row {
+        
+        #collapse1>.row {
             position: relative;
             z-index: 2;
         }
-
         /* Persistent player-relative discovery region. This is a sibling of the media
            surface so it can sit above homepage content while remaining section-relative. */
+        
         #collapse1 .vid-hero-control-dock {
             position: absolute;
             right: 8px;
@@ -130,7 +133,7 @@
             z-index: 5;
             pointer-events: auto;
         }
-
+        
         #collapse1 .vid-hero-controls {
             position: absolute;
             right: 12px;
@@ -144,14 +147,14 @@
             transition: opacity 0.25s ease, transform 0.25s ease;
             pointer-events: auto;
         }
-
+        
         #collapse1 .vid-hero-controls.is-visible,
         #collapse1 .vid-hero-controls:hover,
         #collapse1 .vid-hero-control-dock:focus-within .vid-hero-controls {
             opacity: 1;
             transform: translateY(0);
         }
-
+        
         #collapse1 .vid-hero-control-btn {
             position: relative;
             width: 32px;
@@ -168,7 +171,7 @@
             font-size: 14px;
             transition: all 0.2s ease;
         }
-
+        
         #collapse1 .vid-hero-control-btn:hover,
         #collapse1 .vid-hero-control-btn:focus-visible,
         #collapse1 .vid-hero-control-btn.is-active {
@@ -178,16 +181,16 @@
             outline: 1px solid #e0e9fe;
             outline-offset: 2px;
         }
-
+        
         #collapse1 .vid-hero-control-btn i {
             pointer-events: none;
         }
-
+        
         #collapse1 .vid-hero-control-dock.is-locked .vid-hero-controls {
             opacity: 1;
             transform: translateY(0);
         }
-
+        
         .vid-hero-mouse-indicator {
             position: fixed;
             left: 18px;
@@ -203,11 +206,11 @@
             transform: translate(-50%, -50%);
             transition: opacity 0.15s ease;
         }
-
+        
         .vid-hero-mouse-indicator.is-active {
             opacity: 1;
         }
-
+        
         @media (prefers-reduced-motion: reduce) {
             #collapse1 .vid-hero-media,
             #collapse1 .vid-hero-controls,
@@ -215,7 +218,8 @@
                 transition: none;
             }
         }
-    </style>    <!-- Top Scripts -->
+    </style>
+    <!-- Top Scripts -->
     <script src="https://joeldom.github.io/14-redesign/js/modernizr.min.js"></script>
     <script type="text/javascript" src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery.js?ver=1.11.3"></script>
     <script type="text/javascript" src="https://www.joeldombek.com/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1"></script>
@@ -328,16 +332,8 @@
              #collapse1; the dock is kept above page content so it remains discoverable.
              ============================================================================ -->
         <div class="vid-hero-viewer" id="vidHeroViewer" aria-label="Ambient media viewer">
-            <video
-                class="vid-hero-media"
-                id="gundam"
-                loop
-                autoplay
-                muted
-                playsinline
-                preload="metadata"
-                aria-hidden="true">
-                <source src="gundam-hottoto.mp4" type="video/mp4">
+            <video class="vid-hero-media" id="gundam" loop autoplay muted playsinline preload="metadata" aria-hidden="true">
+                <source src="../gundam-hottoto.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
@@ -833,12 +829,12 @@
 
     <script>
         /* ============================================================================
-           VID HERO V10 — HOMEPAGE CONTROLLER
-           ----------------------------------------------------------------------------
-           Phase 1 is intentionally narrow: one MP4 source, no queue, no media switching.
-           This controller is scoped inside an IIFE so the homepage does not inherit
-           player globals from the prototype.
-           ============================================================================ */
+                                                                                                           VID HERO V10 — HOMEPAGE CONTROLLER
+                                                                                                           ----------------------------------------------------------------------------
+                                                                                                           Phase 1 is intentionally narrow: one MP4 source, no queue, no media switching.
+                                                                                                           This controller is scoped inside an IIFE so the homepage does not inherit
+                                                                                                           player globals from the prototype.
+                                                                                                           ============================================================================ */
         (() => {
             'use strict';
 
@@ -856,7 +852,12 @@
                 isHoveringControls: false
             };
 
-            const timers = { idle: null, active: null, controls: null, pointer: null };
+            const timers = {
+                idle: null,
+                active: null,
+                controls: null,
+                pointer: null
+            };
 
             const section = document.getElementById('collapse1');
             const viewer = document.getElementById('vidHeroViewer');
@@ -1108,9 +1109,15 @@
             video.addEventListener('play', updatePlayButton);
             video.addEventListener('pause', updatePlayButton);
 
-            document.addEventListener('mousemove', handlePointerMove, { passive: true });
-            document.addEventListener('touchstart', handlePointerMove, { passive: true });
-            document.addEventListener('touchmove', handlePointerMove, { passive: true });
+            document.addEventListener('mousemove', handlePointerMove, {
+                passive: true
+            });
+            document.addEventListener('touchstart', handlePointerMove, {
+                passive: true
+            });
+            document.addEventListener('touchmove', handlePointerMove, {
+                passive: true
+            });
 
             setMode('active');
             updatePlayButton();
