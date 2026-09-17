@@ -41,11 +41,61 @@ When a request is specific, execute it directly. When the request is exploratory
 
 ---
 
+## 2.1 Change Safety: Do Not Create Work by Removing Work
+
+An agent can create significant human recovery work by making a change that appears to simplify the repository.
+
+Before removing, consolidating, renaming, or substantially restructuring existing material, inspect what purpose it may serve beyond its most obvious function.
+
+This includes:
+
+- visual elements in documentation
+- changelogs
+- content maps
+- timelines
+- nice-to-have or future-work sections
+- comments and metadata
+- versioned experiments
+- unusual terminology
+- historical or backup artifacts
+
+These may be useful to humans, agents, navigation, authorship, continuity, or thought lineage even when they are not required for the document's primary operational purpose.
+
+Do not remove something merely because it is not necessary for an agent to execute a task.
+
+When a simplification could make the human author reconstruct, rediscover, or backtrace previous work, treat that recovery cost as part of the change.
+
+### Research Before Rewrite
+
+For changes that cross files, versions, or system boundaries, trace the existing relationships before consolidating them.
+
+Example:
+
+    live page
+    → source HTML
+    → CSS / JS dependencies
+    → shared system
+    → experiment
+    → version history
+    → current direction
+
+When multiple versions of an experiment exist, determine what changed conceptually and functionally before assuming the newest version makes earlier versions obsolete.
+
+A newer version may contain implementation progress while an older version preserves the reasoning, discovery, or constraints that produced it.
+
+The default sequence is:
+
+**understand → preserve → change → verify**
+
+rather than:
+
+**simplify → discover what was lost → reconstruct**
+
 # 3. Tonal Modality
 
-**Tonal Modality** is a deliberate part of how this repository communicates.
+**Tonal Modality** is a deliberate part of how this repository communicates and how an agent should interpret context.
 
-It describes the ability for language to change register without losing continuity of thought.
+It is not a single writing style. It is a contextual switching system: the agent should choose an appropriate register, abstraction level, information density, and degree of detail without losing continuity of thought.
 
 An agent should not force every response, changelog, project description, or technical note into one voice.
 
@@ -193,6 +243,10 @@ The repository may intentionally contain a vocabulary that behaves somewhat like
 This does **not** mean inventing hidden meanings. It means preserving established terminology when the context indicates that it is intentional.
 
 When documenting a feature, prefer the established term first and explain it when necessary.
+
+When an unusual term, version name, feature name, metaphor, or repeated phrase appears, treat it as potentially meaningful before normalizing it. A particular term may be a compact reference to a larger body of previous work.
+
+This is **semantic compression**: a small piece of language can point to an earlier experiment, decision, constraint, or conceptual relationship. The agent does not need to decode a secret; it needs to avoid destroying the pointer.
 
 ---
 
