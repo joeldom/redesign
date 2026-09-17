@@ -2,17 +2,68 @@
 
 > A living workspace for experiments, prototypes, visual studies, interface ideas, code experiments, and things that are not ready to become projects yet.
 
-This directory is both a **human development space** and an **agent-readable workspace**. It exists to make experimentation cheap: ideas can be tried, changed, broken, rebuilt, documented, and revisited without needing to become polished projects first.
+The sandbox is the **playground of the redesign**.
 
-## Where the Sandbox Lives
+It is both a human development space and an agent-readable workspace. Ideas can be tried, broken, rebuilt, documented, featured, promoted, abandoned, or simply left alone.
 
-The active sandbox is currently `gh-pages/sandbox/` inside [`joeldom/redesign`](https://github.com/joeldom/redesign/tree/gh-pages/sandbox). This is intentional: experiments can be developed and featured alongside the portfolio while the repository remains a solo-contributor workspace.
+---
 
-A separate [`joeldom/sandbox`](https://github.com/joeldom/sandbox) repository is intended for deeper agent-assisted work, reusable sandbox infrastructure, automation, or experiments that eventually outgrow `redesign/sandbox`.
+## Where It Lives
 
-High commit activity is fine while this remains an active solo workspace. There is no need to create branches merely to make the repository history look quieter.
+The active sandbox is:
 
-## Current Sandbox Inventory
+```text
+joeldom/redesign
+└── gh-pages
+    └── sandbox/
+```
+
+This is currently the right place for experiments that are being developed alongside or featured by the site.
+
+A separate `joeldom/sandbox` repository is intended for deeper agent-assisted work, reusable tooling, automation, or experiments that become large or independent enough to need their own lifecycle.
+
+**Do not move work simply because the sandbox is active.** High commit activity is acceptable in the current solo-contributor workflow.
+
+---
+
+## Start Here
+
+| File | Purpose |
+|---|---|
+| [`README.md`](./README.md) | Quick sandbox map |
+| [`HUMANS.md`](./HUMANS.md) | Human context and creative intent |
+| [`AGENTS.md`](./AGENTS.md) | Agent operating rules and communication model |
+| [`SANDBOX.md`](./SANDBOX.md) | Detailed sandbox and viewer architecture |
+
+The general repository context remains available in [`../README.md`](../README.md), [`../HUMANS.md`](../HUMANS.md), and [`../AGENTS.md`](../AGENTS.md).
+
+---
+
+## What Belongs Here
+
+An item may belong in the sandbox because it:
+
+- tests an interaction
+- explores a visual idea
+- prototypes HTML/CSS/JS
+- tests a component or viewer
+- explores animation or motion
+- tests responsive behavior
+- tests accessibility
+- experiments with metadata
+- develops a writing or content concept
+- explores media presentation
+- investigates a technical problem
+- may eventually become a feature or project
+- is useful enough to keep without needing to become a project
+
+The sandbox is allowed to be unfinished, strange, redundant, technical, visual, temporary, or difficult to categorize.
+
+**Experiment first. Organize when organization becomes useful.**
+
+---
+
+## Current Inventory
 
 | Item | Type | Link |
 |---|---|---|
@@ -51,145 +102,96 @@ High commit activity is fine while this remains an active solo workspace. There 
 | viewer | System / Experiment | [viewer](./viewer/) |
 | writing | Experiment | [writing](./writing/) |
 
-## Human Working Rules
+This inventory is useful as a human-readable index. The eventual registry should become the source of truth and generate the inventory rather than requiring the list to be maintained twice.
 
-- Experiment first; organize when organization becomes useful.
-- Keep unfinished work. A rough experiment can become a feature, project, reference, or nothing at all.
-- Prefer small, reversible changes while exploring.
-- Reuse existing site infrastructure when useful, especially the shared style guide and established CSS variables/utilities.
-- Document an experiment when its purpose, behavior, or setup would otherwise be easy to lose.
-- Do not optimize the sandbox prematurely.
+---
 
-## Agent Working Rules
+## Tonal Modality in the Sandbox
 
-Before changing anything:
+Sandbox notes may be rough. Documentation may be formal. A project walkthrough may become visual or conceptual. A changelog may reduce everything to one sentence.
 
-1. Inspect the existing experiment and its surrounding files.
-2. Identify dependencies on shared assets or the style guide.
-3. Check whether existing viewer configuration or conventions apply.
-4. Preserve unrelated work, comments, and structure unless a change requires otherwise.
-5. Prefer the smallest useful change over a broad refactor.
-6. Test the rendered result when working on HTML/CSS/JS.
-7. Update documentation or viewer metadata when behavior changes.
+This is intentional.
 
-Do not assume every sandbox item needs to be production-ready, generalized, framework-based, or cleaned up. The sandbox is explicitly allowed to be strange, redundant, temporary, visual, technical, or unfinished.
+**Tonal Modality** allows the language around an experiment to change with the kind of thought being recorded.
 
-## Sandbox Viewer
+```text
+shorthand
+   ↓
+experiment
+   ↓
+matter-of-fact result
+   ↓
+technical detail
+   ↓
+visual / conceptual interpretation
+```
 
-The sandbox index is intended to become more than a directory listing. Selecting an experiment should eventually open it through a reusable **Sandbox Viewer**.
+Agents should preserve the distinction instead of flattening every note into one generic documentation voice.
 
-The experiment and its viewer are separate concepts: an experiment declares what it is, while the viewer decides how it should be experienced.
+A short note can contain a surprisingly dense idea. A long technical note can contain the exact detail that makes an implementation worth keeping. Neither should be judged by length alone.
+
+---
+
+## Metadata + Accessibility
+
+The sandbox is also a place to test information that may not be visually obvious.
+
+Treat the following as first-class experimental material:
+
+- semantic HTML
+- headings and document structure
+- accessible names
+- alt text
+- ARIA where appropriate
+- keyboard interaction
+- focus behavior
+- reduced-motion behavior
+- contrast
+- responsive behavior
+- Open Graph / social metadata
+- viewer metadata
+- filenames and identifiers
+
+A high-density metadata surface may be intentional. Do not remove metadata merely because it is invisible in the rendered interface.
+
+---
+
+## Thought Lineage
+
+Names inside the sandbox may persist across experiments.
+
+A word can be a feature name, a reference to an earlier prototype, a visual metaphor, a technical shorthand, or a compact pointer to a larger body of thought.
+
+Some terminology therefore behaves almost like a symbolic key: small on the surface, connected to more context underneath.
+
+Preserve established names unless there is a reason to change them.
+
+Do not invent hidden meaning where none exists, but do not erase meaningful vocabulary simply because it looks unusual.
+
+---
+
+## Viewer Direction
+
+The sandbox index is intended to become a reusable **Sandbox Viewer**, not merely a directory listing.
+
+An experiment declares what it is. The viewer decides how it should be experienced.
 
 Possible viewer types:
 
 | Viewer | Purpose |
 |---|---|
-| `iframe` | Run an HTML/CSS/JS experiment in an isolated document |
-| `document` | Render Markdown or other readable content |
-| `code` | Display source code |
-| `media` | Display image, video, animation, or other media |
-| `page` | Navigate directly to a sandbox page |
+| `iframe` | Isolated executable HTML/CSS/JS experiment |
+| `document` | Markdown or other readable content |
+| `code` | Source display |
+| `media` | Image, video, animation, or other media |
+| `page` | Direct navigation |
 | `custom` | Specialized viewer behavior |
 
-Example metadata:
+The detailed viewer model lives in [`SANDBOX.md`](./SANDBOX.md).
 
-```js
-{
-  id: "color-flow",
-  title: "Generative ColorFlow",
-  path: "./color-flow/",
-  type: "html",
-  viewer: {
-    type: "iframe",
-    mode: "fullscreen"
-  }
-}
-```
-
-For executable experiments, an iframe should generally be preferred so experiment CSS and JavaScript remain isolated from the viewer shell. A restrictive starting point is:
-
-```html
-<iframe sandbox="allow-scripts"></iframe>
-```
-
-Additional permissions should only be added when an experiment actually requires them.
-
-## Viewer Layout
-
-The viewer should support a small set of reusable responsive primitives rather than hard-coded layouts for individual experiments.
-
-The current direction is roughly:
-
-```text
-LARGE SCREEN
-
-20%              60%              20%
-┌────────────────┬────────────────┬────────────────┐
-│                │                │                │
-│    CONTEXT     │   EXPERIMENT   │     CONTEXT    │
-│                │                │                │
-└────────────────┴────────────────┴────────────────┘
-```
-
-The central 60% acts as a narrow, devtools-like development viewport. On smaller screens, the viewer should collapse toward a full-width experience using the site's existing responsive variables and viewport conventions.
-
-Conceptually this may use `100vh`, `$full`, `$mobile`, `$padding`, and related design-system values rather than duplicating hard-coded values across experiments.
-
-## Markdown Is a First-Class Viewer Format
-
-Markdown files should eventually open through the same viewer system as live experiments. Rendered Markdown can use the site's existing typography, spacing, colors, CSS variables, and style-guide primitives.
-
-That makes Markdown useful for:
-
-- experiment notes
-- design studies
-- technical documentation
-- agent instructions
-- specifications
-- source material
-- temporary planning documents
-
-## Style Guide Integration
-
-Sandbox experiments should be able to consume the shared site's visual language when useful: typography, spacing, colors, CSS variables, utility classes, component styles, responsive variables, viewer primitives, and interaction conventions.
-
-The goal is not to force every experiment into one visual treatment. An experiment may intentionally depart from the style guide when that departure is what is being tested.
-
-## Registry Direction
-
-The sandbox index should eventually maintain a registry that becomes the source of truth for item presentation and viewer behavior:
-
-```js
-const sandboxItems = [
-  {
-    id: "example",
-    title: "Example Experiment",
-    path: "./example/",
-    type: "html",
-    viewer: "iframe"
-  }
-];
-```
-
-The eventual architecture is:
-
-```text
-sandbox/index.html
-        │
-        ├── sandbox registry
-        ├── item list
-        └── viewer
-              ├── iframe
-              ├── document
-              ├── media
-              └── code
-```
-
-The registry should eventually generate both the rendered item list and the copyable Markdown inventory rather than requiring two manually maintained lists.
+---
 
 ## Experiment Lifecycle
-
-A useful path is:
 
 ```text
 idea
@@ -200,56 +202,48 @@ live preview
   ↓
 viewer
   ↓
-style-guide / UX testing
+style-guide / UX test
   ↓
-feature or project
+feature
+  ↓
+project
 ```
 
-There is no requirement that an experiment graduate. Keeping something in the sandbox is a valid outcome.
+Or simply:
+
+```text
+idea
+  ↓
+experiment
+  ↓
+done
+```
+
+No experiment is required to graduate.
+
+---
+
+## Promotion / Migration
+
+Keep an experiment here while it benefits from being developed with the site.
+
+Consider moving or duplicating it into `joeldom/sandbox` when it becomes:
+
+- reusable infrastructure
+- an agent-oriented tool
+- automation
+- substantially larger
+- independent of the portfolio
+- something that needs a dedicated development lifecycle
+
+The repository boundary should serve the work.
+
+---
 
 ## Related Files
 
-- [`SANDBOX.md`](./SANDBOX.md) — the detailed combined human/agent operating guide.
-- [`index.html`](./index.html) — sandbox index/viewer surface when present.
-- [`viewer/`](./viewer/) — viewer-related experimentation.
-
-## Copyable Inventory
-
-```markdown
-| Item | Type | Link |
-|---|---|---|
-| R-TYPE | Experiment | [R-TYPE](./R-TYPE/) |
-| TAS | Experiment | [TAS](./TAS/) |
-| absolute | Experiment | [absolute](./absolute/) |
-| album | Experiment | [album](./album/) |
-| apparel | Experiment | [apparel](./apparel/) |
-| arise | Experiment | [arise](./arise/) |
-| cal | Experiment | [cal](./cal/) |
-| destroy | Experiment | [destroy](./destroy/) |
-| downflare | Experiment | [downflare](./downflare/) |
-| ecco | Experiment | [ecco](./ecco/) |
-| genre | Experiment | [genre](./genre/) |
-| hidden | Experiment | [hidden](./hidden/) |
-| img | Support | [img](./img/) |
-| kronos | Experiment | [kronos](./kronos/) |
-| layers | Experiment | [layers](./layers/) |
-| modsynth | Experiment | [modsynth](./modsynth/) |
-| motherbase | Experiment | [motherbase](./motherbase/) |
-| neogeo | Experiment | [neogeo](./neogeo/) |
-| opcost | Experiment | [opcost](./opcost/) |
-| packets | Experiment | [packets](./packets/) |
-| products | Experiment | [products](./products/) |
-| prompt | Experiment | [prompt](./prompt/) |
-| scam | Experiment | [scam](./scam/) |
-| sorta | Experiment | [sorta](./sorta/) |
-| static | Support | [static](./static/) |
-| stream | Experiment | [stream](./stream/) |
-| tagcloud | Experiment | [tagcloud](./tagcloud/) |
-| tests | Tests | [tests](./tests/) |
-| timecries | Experiment | [timecries](./timecries/) |
-| uxbg | Experiment | [uxbg](./uxbg/) |
-| v2 | Experiment | [v2](./v2/) |
-| vidjs | Experiment | [vidjs](./vidjs/) |
-| viewer | System / Experiment | [viewer](./viewer/) |
-| writing | Experiment | [writing](./writing/) |
-```
+- [`SANDBOX.md`](./SANDBOX.md) — detailed combined sandbox and viewer guide
+- [`AGENTS.md`](./AGENTS.md) — agent rules
+- [`HUMANS.md`](./HUMANS.md) — human context
+- [`index.html`](./index.html) — sandbox index when present
+- [`viewer/`](./viewer/) — viewer experiments
