@@ -1,241 +1,293 @@
-<a href="http://joeldom.github.io/redesign/sandbox/" target="_blank">
-  <img class="aligncenter" alt="Joel Dombek Design 2022" src="https://raw.githubusercontent.com/joeldom/asset/main/twitter-header.png" width="847" height="120" />
-</a>
-
-<!-- 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-- Interests
-  - Swiss Type
-  - H. R. Geiger
-- Inspiration
-  - Sony Playstation
-    - PS1 + PS1 20th Anniversary
-  - Resident Evil
-    - Requiem - Grace in puzzle building. Color
-  - Metal Gear Solid
-    - Menus  & Group Symbols
-  - Ninja Gaiden
-    - UI & Lore / History designs
-  - Final Fantasy
-    -FFXV - Noctis & Luna. Night Sky Prince. World of Darkness. https://youtu.be/bGKS0q7wl08 [] Etro Godess of Sleep/Dreams/Death. Love after Death. Love & Death
-    
-- Hero spot visuals
-  - iceberg 
-  - ocean waves
-  - oil rig
-  - f35 jet
-  - gundam
-- References
-  - Alien Universe - Nostromo, Xenomorph
-  - House of Leaves - Overly detailed documentation and web of content
-  - Sphere - Talk with Alien/AI
-  - 3 Body Problem - idealized future tech - post-modern UI
-  - HEALTH RAT: WARS, R-TYPE
-  - Marilyn Manson - Mechanical Animals - Coma White
-  - XBOW - Pen Testing "Dark Mode" theme
-  - X / Twitter - Grok - Dark Mode - Chat Prompt
-  
-- Collaborators
-  - tbd
-- Shot Plans
- - Ethan Honda - Cemetery - Garage
- - Marchelle GTI -Banksville (passing shot)(from distance to close)
--->
-
 # HUMANS.md
 
-This is the human-facing companion to `AGENTS.md`. Where that file instructs AI agents on workflow and conventions, this one captures intent — what the project is, where it lives, how to run it, and what's been built so far.
+> Human context for `joeldom/redesign`.
 
-The project runs on a simple principle: **iteration and creation happen at the same time.** New ideas get collected while existing ones are being tested. Nothing waits for everything else to be ready. The redesign environment is live, the sandbox is always open, and the changelog is the roadmap.
+This repository is the working environment for the redesign of [joeldombek.com](https://www.joeldombek.com): a place where interface development, visual experimentation, writing, technical investigation, and the history of the work can exist together.
 
----
-
-## Content Map
-
-- Port > [joeldombek.com](http://www.joeldombek.com)
-- [joeldom.github.com/redesign](http://www.joeldom.github.com/redesign) `repo` `page`
-- [joeldom.github.com/resume](http://www.joeldom.github.com/resume) `repo` `page`
-- [joeldom.github.com/redesign/sandbox](http://www.joeldom.github.com/redesign/sandbox) `temp`
-- [joeldom.github.com/work/writing](https://chatgpt.com/share/6800e003-3fe8-800b-8e18-66c83498ee0d) `gpt` `claude`
-- [joeldom.github.com/asset](http://www.joeldom.github.com/asset) `repo` `api`
+The important distinction is that this is not intended to be a perfectly clean representation of finished work. It is the place where finished work comes from.
 
 ---
 
-## Running the Site
+## The Principle
 
-### Local / Development
-The redesign environment runs as a static site. Open any `.html` file directly in a browser, or serve from the repo root:
+**Iteration and creation happen at the same time.**
 
-```bash
-npx serve .
-# or
-python3 -m http.server
+Ideas do not need to be completely formed before they can be built. A feature can begin as a sketch, a strange interaction, a line of shorthand, a visual reference, a technical problem, or a question that is easier to answer by making something.
+
+The repository should make that cheap.
+
+Some things become features.
+
+Some become projects.
+
+Some become documentation.
+
+Some remain experiments.
+
+Some are abandoned.
+
+That is all useful history.
+
+---
+
+# The Sandbox Is a Playground
+
+The active sandbox lives inside `redesign` because that is where many ideas currently need to be developed, tested, and sometimes featured directly alongside the site.
+
+A separate `joeldom/sandbox` repository is intended for work that eventually benefits from a larger or more independent environment, especially agent-assisted experiments, reusable tooling, automation, or infrastructure.
+
+There is no requirement to move something merely because it becomes active.
+
+High commit activity is acceptable in a solo development workspace.
+
+The repository should follow the work rather than forcing the work to follow an artificial repository structure.
+
+---
+
+# How the Work Is Written
+
+There is no single correct voice for this project.
+
+The writing can move between:
+
+- shorthand and conversational notes
+- concise changelog language
+- matter-of-fact technical documentation
+- detailed implementation analysis
+- reflective design rationale
+- visual description
+- artistic or conceptual storytelling
+
+This movement is intentional.
+
+The term **Tonal Modality** describes this behavior: the register changes according to what the writing is trying to accomplish.
+
+A bug report does not need the same language as a project description.
+
+A changelog should not sound like an essay.
+
+A visual experiment should not be forced into technical language when the visual idea itself is important.
+
+A technical explanation should not become vague simply because the project has an artistic side.
+
+---
+
+# Shorthand Is Part of the Process
+
+Working notes may be extremely compressed:
+
+```text
+viewer needs context but keep 60% center
+maybe iframe
+metadata should be visible to agent but not UI
 ```
 
-Sandbox experiments live under `redesign/sandbox/` and run the same way. Each subdirectory is self-contained.
+Or they may over-explain one small point and then jump immediately to a concise instruction.
 
-### Production / FTP Deploy
-The `/site` directory holds the portable production build — cleaned, self-contained, and ready to FTP directly to the host at [joeldombek.com](http://www.joeldombek.com). No build step required. Upload the contents of `/site` to the server root.
+That is normal.
 
-```
-/site  →  FTP  →  joeldombek.com
-```
+Shorthand is often a way of thinking in motion. It is not automatically final copy.
 
-Keep `/site` in sync with promoted changes from the redesign repo before each deploy.
+An agent should recover the intent from the shorthand rather than mechanically reproduce its surface form.
 
-### Meta Header
+Conversely, polished documentation should not erase the underlying thought merely because the original note was informal.
 
-```
-<!DOCTYPE html>
-<html lang="en-US" prefix="og: https://ogp.me/ns# fb: https://ogp.me/ns/fb#">
+---
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-    <meta property="og:url" content="http://joeldom.github.io/resume/" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="Joel Dombek - Multi-Disciplinary Designer & Developer" />
-    <meta property="og:description" content="The portfolio of Joel Dombek, a multi-disciplinary designer : developer and brand specialist with a focus on user interaction and design." />
-    <meta property="og:image" content="https://joeldom.github.io/asset/images/chip-24.png" />
-    <meta name="twitter:card" content="The portfolio of Joel Dombek, a multi-disciplinary designer : developer and brand specialist with a focus on user interaction and design." />
-    <meta name="twitter:creator" content="@joeldombek" />
-    <link rel='shortlink' href='http://www.joeldombek.com/' />
+# Matter of Fact → Conceptual
 
-    <title>Joel Dombek Design</title>
+Project descriptions often work best when they establish concrete facts first and then allow the language to expand.
 
-    <!--==============================================================================================================================
+For example:
 
+```text
+The viewer isolates each experiment in an iframe.
 
+That creates a boundary between the experiment and the interface presenting it.
 
-           @@@  @@@@@@  @@@@@@@@ @@@       @@@@@@@   @@@@@@  @@@@@@@@@@  @@@@@@@  @@@@@@@@ @@@  @@@       @@@@@@@  @@@@@@  @@@@@@@@@@
-           @@@ @@@@@@@@ @@@@@@@@ @@@       @@@@@@@@ @@@@@@@@ @@@@@@@@@@@ @@@@@@@@ @@@@@@@@ @@@  @@@      @@@@@@@@ @@@@@@@@ @@@@@@@@@@@
-           @@! @@!  @@@ @@!      @@!       @@!  @@@ @@!  @@@ @@! @@! @@! @@!  @@@ @@!      @@!  !@@      !@@      @@!  @@@ @@! @@! @@!
-           !@! !@!  @!@ !@!      !@!       !@!  @!@ !@!  @!@ !@! !@! !@! !@   @!@ !@!      !@!  @!!      !@!      !@!  @!@ !@! !@! !@!
-           !!@ @!@  !@! @!!!:!   @!!       @!@  !@! @!@  !@! @!! !!@ @!@ @!@!@!@  @!!!:!   @!@@!@!       !@!      @!@  !@! @!! !!@ @!@
-           !!! !@!  !!! !!!!!:   !!!       !@!  !!! !@!  !!! !@!   ! !@! !!!@!!!! !!!!!:   !!@!!!        !!!      !@!  !!! !@!   ! !@!
-           !!: !!:  !!! !!:      !!:       !!:  !!! !!:  !!! !!:     !!: !!:  !!! !!:      !!: :!!       :!!      !!:  !!! !!:     !!:
-      !!:  :!: :!:  !:! :!:       :!:      :!:  !:! :!:  !:! :!:     :!: :!:  !:! :!:      :!:  !:! :!:  :!:      :!:  !:! :!:     :!:
-      ::: : :: ::::: ::  :: ::::  :: ::::   :::: :: ::::: :: :::     ::   :: ::::  :: :::: :::  ::: :::   ::: ::: ::::: :: :::     ::
-       : :::    : :  :  : :: ::  : :: : :  :: :  :   : :  :   :      :   :: : ::  : :: ::   :   ::  :::   :: :: :  : :  :   :      :
-
-                                                    ~ ~ ~ ~ ~ ~ v404 ~ ~ ~ ~ ~ ~
-
-     =====================================  Hi, there! Taking a look at my code I see. Nice!  =======================================-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
-    <link rel="shortlink" href="https://www.joeldombek.com/" />
-    <link rel="shortcut icon" href="https://joeldom.github.io/asset/favicon.ico" type="image/x-icon">
-    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/64x64.png" sizes="64x64" />
-    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/128x128.png" sizes="128x128" />
-    <link rel="icon shortcut" href="https://joeldom.github.io/asset/favicon/192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/76x76.png" sizes="76x76" />
-    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/120x120.png" sizes="120x120" />
-    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/152x152.png" sizes="152x152" />
-    <link rel="apple-touch-icon" href="https://joeldom.github.io/asset/favicon/180x180.png" sizes="180x180" />
-    <link rel="manifest" href="https://www.redditstatic.com/shreddit/assets/favicon/manifest.json" />
+The boundary is also part of the idea: the sandbox can contain something unstable without requiring the surrounding system to become unstable with it.
 ```
 
-### Charts
+The first sentence explains behavior.
 
-**Types of Work**
+The second explains the relationship.
 
-Demoing all of the types of work with [Chart.js - Radar](https://www.chartjs.org/docs/latest/samples/other-charts/radar.html) to show how the balance of my projects and work items look from 500ft.
+The third explains the concept.
 
----
-
-**Contribution Cal**
-
-[Chart.js - Scatter](https://www.chartjs.org/docs/latest/samples/other-charts/scatter.html)
+That progression is useful because it lets technical and artistic language support each other instead of competing.
 
 ---
 
-### Social Preview
+# Self-Reference
 
-<img title="EXO Logo" alt="EXO Logo" style="border-radius:52px;display:inline-block;width:150px;height:150px;" src="https://pbs.twimg.com/profile_images/1948797731247435777/l39Djua6_400x400.jpg"><img title="EXO - Content Manger v1" alt="EXO - Content Manger hero v1 " style="display:inline-block;height:150px;min-height:100%;" src="https://pbs.twimg.com/profile_banners/1948686367573291008/1753445934/1500x500">
+The writing generally avoids unnecessary self-reference.
 
-<img title="JD Logo" alt="JD" style="display:inline-block;height:auto;max-width:150px" src="https://joeldom.github.io/asset/chip-logo.png">
+The work, system, interaction, result, or effect should usually be the subject of the sentence.
 
-<img title="Annual Report : Process & Findings" alt="S-Tier Tag" style="display:inline-block;height:auto;max-width:400px" src="https://joeldom.github.io/asset/images/chip-2025.png">
+First person is still appropriate when authorship, intent, experience, or impact is the point.
 
-<img title="JD Disc Portfolio" style="" alt="JD Disc" src="https://joeldom.github.io/asset/images/Disc%20Case%20red.png" >
-
-<img title="Adobe Photoshop CS6 Pro Extended Edition" alt="Jill Adobe PS CS6 Splash" src="https://joeldom.github.io/asset/PS%20CS6%20Splash/PS%20CS6%20Splash.png" >
+The goal is not to remove personality. It is to avoid turning every description into a biography of the person who made it.
 
 ---
 
-## Version History
+# Detail Has a Purpose
 
-| Version | Date | Notes |
-|---------|------|-------|
-| v1.6 | March 2026 | Grey Box layout refinement, `AGENTS.md` workflow documentation |
-| v1.5 | January 2026 | Sandbox flow consolidation, Night Mode audit and fixes |
-| v1.4 | November 2025 | Theme toggle sync across dark/light modes |
-| v1.3 | October 2025 | Work section expanded, image enlarge on tiles, footer link refinement |
-| v1.2 | September 2025 | Night Mode design pass, footer componentization, top-level `_temp_` pages |
-| v1.1 | August 2025 | Landing page refresh, Sandbox + App `_temp_` consistency pass |
-| v1.0 | July 2025 | Initial environment setup, asset repo, EXO project init, S-Tier links |
+Some work deserves to be documented deeply.
+
+Technical weeds are welcome when they expose an interesting decision, constraint, experiment, implementation detail, or piece of reasoning.
+
+Granularity should answer a useful question:
+
+> Why was this worth thinking about?
+
+A good technical note can show enough of the thought process that another person can understand not only what was built, but why this particular solution exists.
+
+That is different from adding detail merely to make a document longer.
+
+---
+
+# Changelogs Are Different
+
+Changelogs cut straight to the useful takeaway.
+
+They should answer:
+
+- What changed?
+- What was added or removed?
+- What meaningful behavior is different?
+
+They generally should not contain the entire reasoning chain.
+
+If the reasoning is important, it belongs in project documentation, an experiment note, or another durable artifact.
 
 ---
 
-## Changelog
+# Metadata, Accessibility, and Meaning
 
-### March 2026
-- Continued refinement of Grey Box layouts for interaction-first testing
-- Documented agent workflows in `AGENTS.md` for sandbox and repo operations
+The site treats metadata as part of the interface.
 
-### January 2026
-- Began consolidating redesign experiments into sandbox flows
-- Audited Night Mode styles across top-level templates
+Titles, descriptions, filenames, alt text, accessible names, ARIA, document structure, social metadata, viewer metadata, and other machine-readable information can carry real meaning even when they are not visible on the page.
 
-### November 2025
-- Adjusted theme dark/light modes for main navigation and landing
-- Synced theme toggles across `_temp_` pages (Sandbox, Gallery, Landing)
+Accessibility is therefore not a separate cleanup pass. It is part of making the system understandable across different ways of experiencing it.
 
-### October 2025
-- Added pages/directories for `brand`, `interface`, `photography`, `writing`, `all`
-- Added `img` enlarge function to tile
-- Refined footer `links` with `title`
-- Navbar-brand `night-mode`
-- Added [strings](https://joeldom.github.io/asset/array/strings.json) to assets
-
-### September 2025
-- Night Mode designs across remaining main visual components
-- Footer links sizing and parallax componentization
-- Top-level `_temp_` pages → Sandbox, Gallery, Landing
-- Clothing links on: Twitch, Facebook, LinkedIn
-
-### August 2025
-- Landing page updated to show more relevant info
-- Sandbox + App page consistency pass (`_temp_`)
-- Pages made consistent and portable for FTP to [joeldombek.com](http://www.joeldombek.com)
-
-### July 2025
-- Asset repo and contents added for features
-- Off-platform refresh of links
-- EXO project `-init`
-- Environment changes `github.com/pages`
-- S-Tier clothing line assets added
-- Go-live notification messages and prompts set up for OBS, Twitch, and Discord status — [Project + issue](https://github.com/users/joeldom/projects/9/views/1?pane=issue&itemId=123799890&issue=joeldom%7CEXO%7C1)
+High metadata density can also be intentional. Do not remove information merely because it is invisible to the casual viewer.
 
 ---
-<x-cell x-flex="" ai="center" jc="start" jc-s="center" class="payment-icons"><x-flex ai="center" style="gap:var(--margin);"><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-amazon"><title id="pi-amazon">Amazon</title><path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000" fill-rule="nonzero" opacity=".07"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32" fill="#FFF" fill-rule="nonzero"></path><path d="M25.26 16.23c-1.697 1.48-4.157 2.27-6.275 2.27-2.97 0-5.644-1.3-7.666-3.463-.16-.17-.018-.402.173-.27 2.183 1.504 4.882 2.408 7.67 2.408 1.88 0 3.95-.46 5.85-1.416.288-.145.53.222.248.47v.001zm.706-.957c-.216-.328-1.434-.155-1.98-.078-.167.024-.193-.148-.043-.27.97-.81 2.562-.576 2.748-.305.187.272-.047 2.16-.96 3.063-.14.138-.272.064-.21-.12.205-.604.664-1.96.446-2.29h-.001z" fill="#F90" fill-rule="nonzero"></path><path d="M21.814 15.291c-.574-.498-.676-.73-.993-1.205-.947 1.012-1.618 1.315-2.85 1.315-1.453 0-2.587-.938-2.587-2.818 0-1.467.762-2.467 1.844-2.955.94-.433 2.25-.51 3.25-.628v-.235c0-.43.033-.94-.208-1.31-.212-.333-.616-.47-.97-.47-.66 0-1.25.353-1.392 1.085-.03.163-.144.323-.3.33l-1.677-.187c-.14-.033-.296-.153-.257-.38.386-2.125 2.223-2.766 3.867-2.766.84 0 1.94.234 2.604.9.842.82.762 1.918.762 3.11v2.818c0 .847.335 1.22.65 1.676.113.164.138.36-.003.482-.353.308-.98.88-1.326 1.2a.367.367 0 0 1-.414.038zm-1.659-2.533c.34-.626.323-1.214.323-1.918v-.392c-1.25 0-2.57.28-2.57 1.82 0 .782.386 1.31 1.05 1.31.487 0 .922-.312 1.197-.82z" fill="#221F1F"></path></svg>
-<svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pi-american_express" viewBox="0 0 38 24" width="38" height="24"><title id="pi-american_express">American Express</title><path fill="#000" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3Z" opacity=".07"></path><path fill="#006FCF" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32Z"></path><path fill="#FFF" d="M22.012 19.936v-8.421L37 11.528v2.326l-1.732 1.852L37 17.573v2.375h-2.766l-1.47-1.622-1.46 1.628-9.292-.02Z"></path><path fill="#006FCF" d="M23.013 19.012v-6.57h5.572v1.513h-3.768v1.028h3.678v1.488h-3.678v1.01h3.768v1.531h-5.572Z"></path><path fill="#006FCF" d="m28.557 19.012 3.083-3.289-3.083-3.282h2.386l1.884 2.083 1.89-2.082H37v.051l-3.017 3.23L37 18.92v.093h-2.307l-1.917-2.103-1.898 2.104h-2.321Z"></path><path fill="#FFF" d="M22.71 4.04h3.614l1.269 2.881V4.04h4.46l.77 2.159.771-2.159H37v8.421H19l3.71-8.421Z"></path><path fill="#006FCF" d="m23.395 4.955-2.916 6.566h2l.55-1.315h2.98l.55 1.315h2.05l-2.904-6.566h-2.31Zm.25 3.777.875-2.09.873 2.09h-1.748Z"></path><path fill="#006FCF" d="M28.581 11.52V4.953l2.811.01L32.84 9l1.456-4.046H37v6.565l-1.74.016v-4.51l-1.644 4.494h-1.59L30.35 7.01v4.51h-1.768Z"></path></svg>
-<svg class="payment-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" role="img" x="0" y="0" width="38" height="24" viewBox="0 0 165.521 105.965" xml:space="preserve" aria-labelledby="pi-apple_pay"><title id="pi-apple_pay">Apple Pay</title><path fill="#000" d="M150.698 0H14.823c-.566 0-1.133 0-1.698.003-.477.004-.953.009-1.43.022-1.039.028-2.087.09-3.113.274a10.51 10.51 0 0 0-2.958.975 9.932 9.932 0 0 0-4.35 4.35 10.463 10.463 0 0 0-.975 2.96C.113 9.611.052 10.658.024 11.696a70.22 70.22 0 0 0-.022 1.43C0 13.69 0 14.256 0 14.823v76.318c0 .567 0 1.132.002 1.699.003.476.009.953.022 1.43.028 1.036.09 2.084.275 3.11a10.46 10.46 0 0 0 .974 2.96 9.897 9.897 0 0 0 1.83 2.52 9.874 9.874 0 0 0 2.52 1.83c.947.483 1.917.79 2.96.977 1.025.183 2.073.245 3.112.273.477.011.953.017 1.43.02.565.004 1.132.004 1.698.004h135.875c.565 0 1.132 0 1.697-.004.476-.002.952-.009 1.431-.02 1.037-.028 2.085-.09 3.113-.273a10.478 10.478 0 0 0 2.958-.977 9.955 9.955 0 0 0 4.35-4.35c.483-.947.789-1.917.974-2.96.186-1.026.246-2.074.274-3.11.013-.477.02-.954.022-1.43.004-.567.004-1.132.004-1.699V14.824c0-.567 0-1.133-.004-1.699a63.067 63.067 0 0 0-.022-1.429c-.028-1.038-.088-2.085-.274-3.112a10.4 10.4 0 0 0-.974-2.96 9.94 9.94 0 0 0-4.35-4.35A10.52 10.52 0 0 0 156.939.3c-1.028-.185-2.076-.246-3.113-.274a71.417 71.417 0 0 0-1.431-.022C151.83 0 151.263 0 150.698 0z"></path><path fill="#FFF" d="M150.698 3.532l1.672.003c.452.003.905.008 1.36.02.793.022 1.719.065 2.583.22.75.135 1.38.34 1.984.648a6.392 6.392 0 0 1 2.804 2.807c.306.6.51 1.226.645 1.983.154.854.197 1.783.218 2.58.013.45.019.9.02 1.36.005.557.005 1.113.005 1.671v76.318c0 .558 0 1.114-.004 1.682-.002.45-.008.9-.02 1.35-.022.796-.065 1.725-.221 2.589a6.855 6.855 0 0 1-.645 1.975 6.397 6.397 0 0 1-2.808 2.807c-.6.306-1.228.511-1.971.645-.881.157-1.847.2-2.574.22-.457.01-.912.017-1.379.019-.555.004-1.113.004-1.669.004H14.801c-.55 0-1.1 0-1.66-.004a74.993 74.993 0 0 1-1.35-.018c-.744-.02-1.71-.064-2.584-.22a6.938 6.938 0 0 1-1.986-.65 6.337 6.337 0 0 1-1.622-1.18 6.355 6.355 0 0 1-1.178-1.623 6.935 6.935 0 0 1-.646-1.985c-.156-.863-.2-1.788-.22-2.578a66.088 66.088 0 0 1-.02-1.355l-.003-1.327V14.474l.002-1.325a66.7 66.7 0 0 1 .02-1.357c.022-.792.065-1.717.222-2.587a6.924 6.924 0 0 1 .646-1.981c.304-.598.7-1.144 1.18-1.623a6.386 6.386 0 0 1 1.624-1.18 6.96 6.96 0 0 1 1.98-.646c.865-.155 1.792-.198 2.586-.22.452-.012.905-.017 1.354-.02l1.677-.003h135.875"></path><g><g><path fill="#000" d="M43.508 35.77c1.404-1.755 2.356-4.112 2.105-6.52-2.054.102-4.56 1.355-6.012 3.112-1.303 1.504-2.456 3.959-2.156 6.266 2.306.2 4.61-1.152 6.063-2.858"></path><path fill="#000" d="M45.587 39.079c-3.35-.2-6.196 1.9-7.795 1.9-1.6 0-4.049-1.8-6.698-1.751-3.447.05-6.645 2-8.395 5.1-3.598 6.2-.95 15.4 2.55 20.45 1.699 2.5 3.747 5.25 6.445 5.151 2.55-.1 3.549-1.65 6.647-1.65 3.097 0 3.997 1.65 6.696 1.6 2.798-.05 4.548-2.5 6.247-5 1.95-2.85 2.747-5.6 2.797-5.75-.05-.05-5.396-2.101-5.446-8.251-.05-5.15 4.198-7.6 4.398-7.751-2.399-3.548-6.147-3.948-7.447-4.048"></path></g><g><path fill="#000" d="M78.973 32.11c7.278 0 12.347 5.017 12.347 12.321 0 7.33-5.173 12.373-12.529 12.373h-8.058V69.62h-5.822V32.11h14.062zm-8.24 19.807h6.68c5.07 0 7.954-2.729 7.954-7.46 0-4.73-2.885-7.434-7.928-7.434h-6.706v14.894z"></path><path fill="#000" d="M92.764 61.847c0-4.809 3.665-7.564 10.423-7.98l7.252-.442v-2.08c0-3.04-2.001-4.704-5.562-4.704-2.938 0-5.07 1.507-5.51 3.82h-5.252c.157-4.86 4.731-8.395 10.918-8.395 6.654 0 10.995 3.483 10.995 8.89v18.663h-5.38v-4.497h-.13c-1.534 2.937-4.914 4.782-8.579 4.782-5.406 0-9.175-3.222-9.175-8.057zm17.675-2.417v-2.106l-6.472.416c-3.64.234-5.536 1.585-5.536 3.95 0 2.288 1.975 3.77 5.068 3.77 3.95 0 6.94-2.522 6.94-6.03z"></path><path fill="#000" d="M120.975 79.652v-4.496c.364.051 1.247.103 1.715.103 2.573 0 4.029-1.09 4.913-3.899l.52-1.663-9.852-27.293h6.082l6.863 22.146h.13l6.862-22.146h5.927l-10.216 28.67c-2.34 6.577-5.017 8.735-10.683 8.735-.442 0-1.872-.052-2.261-.157z"></path></g></g></svg>
-<svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-diners_club"><title id="pi-diners_club">Diners Club</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z" fill="#3086C8"></path></svg><svg class="payment-icon" viewBox="0 0 38 24" width="38" height="24" role="img" aria-labelledby="pi-discover" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="pi-discover">Discover</title><path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#fff"></path><path d="M3.57 7.16H2v5.5h1.57c.83 0 1.43-.2 1.96-.63.63-.52 1-1.3 1-2.11-.01-1.63-1.22-2.76-2.96-2.76zm1.26 4.14c-.34.3-.77.44-1.47.44h-.29V8.1h.29c.69 0 1.11.12 1.47.44.37.33.59.84.59 1.37 0 .53-.22 1.06-.59 1.39zm2.19-4.14h1.07v5.5H7.02v-5.5zm3.69 2.11c-.64-.24-.83-.4-.83-.69 0-.35.34-.61.8-.61.32 0 .59.13.86.45l.56-.73c-.46-.4-1.01-.61-1.62-.61-.97 0-1.72.68-1.72 1.58 0 .76.35 1.15 1.35 1.51.42.15.63.25.74.31.21.14.32.34.32.57 0 .45-.35.78-.83.78-.51 0-.92-.26-1.17-.73l-.69.67c.49.73 1.09 1.05 1.9 1.05 1.11 0 1.9-.74 1.9-1.81.02-.89-.35-1.29-1.57-1.74zm1.92.65c0 1.62 1.27 2.87 2.9 2.87.46 0 .86-.09 1.34-.32v-1.26c-.43.43-.81.6-1.29.6-1.08 0-1.85-.78-1.85-1.9 0-1.06.79-1.89 1.8-1.89.51 0 .9.18 1.34.62V7.38c-.47-.24-.86-.34-1.32-.34-1.61 0-2.92 1.28-2.92 2.88zm12.76.94l-1.47-3.7h-1.17l2.33 5.64h.58l2.37-5.64h-1.16l-1.48 3.7zm3.13 1.8h3.04v-.93h-1.97v-1.48h1.9v-.93h-1.9V8.1h1.97v-.94h-3.04v5.5zm7.29-3.87c0-1.03-.71-1.62-1.95-1.62h-1.59v5.5h1.07v-2.21h.14l1.48 2.21h1.32l-1.73-2.32c.81-.17 1.26-.72 1.26-1.56zm-2.16.91h-.31V8.03h.33c.67 0 1.03.28 1.03.82 0 .55-.36.85-1.05.85z" fill="#231F20"></path><path d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint0_linear)"></path><path opacity=".65" d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint1_linear)"></path><path d="M36.57 7.506c0-.1-.07-.15-.18-.15h-.16v.48h.12v-.19l.14.19h.14l-.16-.2c.06-.01.1-.06.1-.13zm-.2.07h-.02v-.13h.02c.06 0 .09.02.09.06 0 .05-.03.07-.09.07z" fill="#231F20"></path><path d="M36.41 7.176c-.23 0-.42.19-.42.42 0 .23.19.42.42.42.23 0 .42-.19.42-.42 0-.23-.19-.42-.42-.42zm0 .77c-.18 0-.34-.15-.34-.35 0-.19.15-.35.34-.35.18 0 .33.16.33.35 0 .19-.15.35-.33.35z" fill="#231F20"></path><path d="M37 12.984S27.09 19.873 8.976 23h26.023a2 2 0 002-1.984l.024-3.02L37 12.985z" fill="#F48120"></path><defs><linearGradient id="pi-paint0_linear" x1="21.657" y1="12.275" x2="19.632" y2="9.104" gradientUnits="userSpaceOnUse"><stop stop-color="#F89F20"></stop><stop offset=".25" stop-color="#F79A20"></stop><stop offset=".533" stop-color="#F68D20"></stop><stop offset=".62" stop-color="#F58720"></stop><stop offset=".723" stop-color="#F48120"></stop><stop offset="1" stop-color="#F37521"></stop></linearGradient><linearGradient id="pi-paint1_linear" x1="21.338" y1="12.232" x2="18.378" y2="6.446" gradientUnits="userSpaceOnUse"><stop stop-color="#F58720"></stop><stop offset=".359" stop-color="#E16F27"></stop><stop offset=".703" stop-color="#D4602C"></stop><stop offset=".982" stop-color="#D05B2E"></stop></linearGradient></defs></svg><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-google_pay"><title id="pi-google_pay">Google Pay</title><path d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000" opacity=".07"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32" fill="#FFF"></path><path d="M18.093 11.976v3.2h-1.018v-7.9h2.691a2.447 2.447 0 0 1 1.747.692 2.28 2.28 0 0 1 .11 3.224l-.11.116c-.47.447-1.098.69-1.747.674l-1.673-.006zm0-3.732v2.788h1.698c.377.012.741-.135 1.005-.404a1.391 1.391 0 0 0-1.005-2.354l-1.698-.03zm6.484 1.348c.65-.03 1.286.188 1.778.613.445.43.682 1.03.65 1.649v3.334h-.969v-.766h-.049a1.93 1.93 0 0 1-1.673.931 2.17 2.17 0 0 1-1.496-.533 1.667 1.667 0 0 1-.613-1.324 1.606 1.606 0 0 1 .613-1.336 2.746 2.746 0 0 1 1.698-.515c.517-.02 1.03.093 1.49.331v-.208a1.134 1.134 0 0 0-.417-.901 1.416 1.416 0 0 0-.98-.368 1.545 1.545 0 0 0-1.319.717l-.895-.564a2.488 2.488 0 0 1 2.182-1.06zM23.29 13.52a.79.79 0 0 0 .337.662c.223.176.5.269.785.263.429-.001.84-.17 1.146-.472.305-.286.478-.685.478-1.103a2.047 2.047 0 0 0-1.324-.374 1.716 1.716 0 0 0-1.03.294.883.883 0 0 0-.392.73zm9.286-3.75l-3.39 7.79h-1.048l1.281-2.728-2.224-5.062h1.103l1.612 3.885 1.569-3.885h1.097z" fill="#5F6368"></path><path d="M13.986 11.284c0-.308-.024-.616-.073-.92h-4.29v1.747h2.451a2.096 2.096 0 0 1-.9 1.373v1.134h1.464a4.433 4.433 0 0 0 1.348-3.334z" fill="#4285F4"></path><path d="M9.629 15.721a4.352 4.352 0 0 0 3.01-1.097l-1.466-1.14a2.752 2.752 0 0 1-4.094-1.44H5.577v1.17a4.53 4.53 0 0 0 4.052 2.507z" fill="#34A853"></path><path d="M7.079 12.05a2.709 2.709 0 0 1 0-1.735v-1.17H5.577a4.505 4.505 0 0 0 0 4.075l1.502-1.17z" fill="#FBBC04"></path><path d="M9.629 8.44a2.452 2.452 0 0 1 1.74.68l1.3-1.293a4.37 4.37 0 0 0-3.065-1.183 4.53 4.53 0 0 0-4.027 2.5l1.502 1.171a2.715 2.715 0 0 1 2.55-1.875z" fill="#EA4335"></path></svg>
-<svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg><svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" width="38" height="24" role="img" aria-labelledby="pi-paypal"><title id="pi-paypal">PayPal</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path fill="#003087" d="M23.9 8.3c.2-1 0-1.7-.6-2.3-.6-.7-1.7-1-3.1-1h-4.1c-.3 0-.5.2-.6.5L14 15.6c0 .2.1.4.3.4H17l.4-3.4 1.8-2.2 4.7-2.1z"></path><path fill="#3086C8" d="M23.9 8.3l-.2.2c-.5 2.8-2.2 3.8-4.6 3.8H18c-.3 0-.5.2-.6.5l-.6 3.9-.2 1c0 .2.1.4.3.4H19c.3 0 .5-.2.5-.4v-.1l.4-2.4v-.1c0-.2.3-.4.5-.4h.3c2.1 0 3.7-.8 4.1-3.2.2-1 .1-1.8-.4-2.4-.1-.5-.3-.7-.5-.8z"></path><path fill="#012169" d="M23.3 8.1c-.1-.1-.2-.1-.3-.1-.1 0-.2 0-.3-.1-.3-.1-.7-.1-1.1-.1h-3c-.1 0-.2 0-.2.1-.2.1-.3.2-.3.4l-.7 4.4v.1c0-.3.3-.5.6-.5h1.3c2.5 0 4.1-1 4.6-3.8v-.2c-.1-.1-.3-.2-.5-.2h-.1z"></path></svg><svg class="payment-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"></path><path d="M35.889 0C37.05 0 38 .982 38 2.182v19.636c0 1.2-.95 2.182-2.111 2.182H2.11C.95 24 0 23.018 0 21.818V2.182C0 .982.95 0 2.111 0H35.89z" fill="#5A31F4"></path><path d="M9.35 11.368c-1.017-.223-1.47-.31-1.47-.705 0-.372.306-.558.92-.558.54 0 .934.238 1.225.704a.079.079 0 00.104.03l1.146-.584a.082.082 0 00.032-.114c-.475-.831-1.353-1.286-2.51-1.286-1.52 0-2.464.755-2.464 1.956 0 1.275 1.15 1.597 2.17 1.82 1.02.222 1.474.31 1.474.705 0 .396-.332.582-.993.582-.612 0-1.065-.282-1.34-.83a.08.08 0 00-.107-.035l-1.143.57a.083.083 0 00-.036.111c.454.92 1.384 1.437 2.627 1.437 1.583 0 2.539-.742 2.539-1.98s-1.155-1.598-2.173-1.82v-.003zM15.49 8.855c-.65 0-1.224.232-1.636.646a.04.04 0 01-.069-.03v-2.64a.08.08 0 00-.08-.081H12.27a.08.08 0 00-.08.082v8.194a.08.08 0 00.08.082h1.433a.08.08 0 00.081-.082v-3.594c0-.695.528-1.227 1.239-1.227.71 0 1.226.521 1.226 1.227v3.594a.08.08 0 00.081.082h1.433a.08.08 0 00.081-.082v-3.594c0-1.51-.981-2.577-2.355-2.577zM20.753 8.62c-.778 0-1.507.24-2.03.588a.082.082 0 00-.027.109l.632 1.088a.08.08 0 00.11.03 2.5 2.5 0 011.318-.366c1.25 0 2.17.891 2.17 2.068 0 1.003-.736 1.745-1.669 1.745-.76 0-1.288-.446-1.288-1.077 0-.361.152-.657.548-.866a.08.08 0 00.032-.113l-.596-1.018a.08.08 0 00-.098-.035c-.799.299-1.359 1.018-1.359 1.984 0 1.46 1.152 2.55 2.76 2.55 1.877 0 3.227-1.313 3.227-3.195 0-2.018-1.57-3.492-3.73-3.492zM28.675 8.843c-.724 0-1.373.27-1.845.746-.026.027-.069.007-.069-.029v-.572a.08.08 0 00-.08-.082h-1.397a.08.08 0 00-.08.082v8.182a.08.08 0 00.08.081h1.433a.08.08 0 00.081-.081v-2.683c0-.036.043-.054.069-.03a2.6 2.6 0 001.808.7c1.682 0 2.993-1.373 2.993-3.157s-1.313-3.157-2.993-3.157zm-.271 4.929c-.956 0-1.681-.768-1.681-1.783s.723-1.783 1.681-1.783c.958 0 1.68.755 1.68 1.783 0 1.027-.713 1.783-1.681 1.783h.001z" fill="#fff"></path></svg>
-<svg class="payment-icon" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg></x-flex></x-cell>
 
+# Words Can Carry Lineage
 
-<img title="S-Tier b y Joel Dombek NEW! clothing line for Fall 2025" alt="S-Tier Tag" style="display:inline-block;height:auto;max-width:400px" src="https://pbs.twimg.com/media/GtQwDMYXUAE_4G5?format=png&name=large">
+Some words in this project are chosen because they connect multiple points in the work.
+
+A feature name may refer to an earlier prototype. A version label may preserve an old idea. A seemingly unusual word may describe a visual relationship, technical behavior, or conceptual thread that is easier to recognize later than to explain in the moment.
+
+This vocabulary can function almost like a lightweight symbolic system.
+
+In places, it may border on cryptographic thinking: a particular word acts as a compact reference to a larger body of thought.
+
+That does not mean every unusual word contains a secret.
+
+It means established terminology should be treated with care.
+
+When a term has already acquired meaning, preserve it unless there is a reason to change it.
+
+---
+
+# Design Thought as an Artifact
+
+The repository is not only a collection of outputs.
+
+It records some of the path between them.
+
+That path may appear as:
+
+```text
+note
+→
+experiment
+→
+failed version
+→
+technical discovery
+→
+visual refinement
+→
+feature
+→
+project
+```
+
+The discarded or strange parts can be useful because they explain how the vocabulary and behavior of the finished work developed.
+
+The goal is not to preserve every thought forever.
+
+The goal is to preserve the thoughts that became part of the system.
+
+---
+
+# Human Working Rules
+
+- Build before over-organizing.
+- Keep experiments that are still teaching something.
+- Do not confuse unfinished with useless.
+- Prefer direct implementations when they are sufficient.
+- Reuse the existing design system when it helps.
+- Depart from it when the experiment is specifically testing a departure.
+- Document decisions that would otherwise disappear.
+- Keep changelogs concise.
+- Let project documentation become detailed when the detail has value.
+- Preserve established terminology and lineage.
+- Treat accessibility and metadata as first-class concerns.
+- Let technical and conceptual language coexist when both describe the work accurately.
+
+---
+
+# Content Map
+
+- Production / portfolio → [joeldombek.com](https://www.joeldombek.com)
+- Development environment → [joeldom.github.io/redesign](https://joeldom.github.io/redesign)
+- Active sandbox → [`redesign/sandbox`](./sandbox/)
+- Dedicated future sandbox → [`joeldom/sandbox`](https://github.com/joeldom/sandbox)
+- Shared assets → [`joeldom/asset`](https://github.com/joeldom/asset)
+- Resume → [`joeldom/resume`](https://github.com/joeldom/resume)
+
+---
+
+# Documentation Relationship
+
+```text
+README
+  orientation
+
+HUMANS
+  intent + philosophy
+
+AGENTS
+  operating behavior
+
+SANDBOX
+  experimentation rules
+
+PROJECT NOTES
+  thought + implementation
+
+CHANGELOG
+  key takeaways
+```
+
+Each layer should make the next layer easier to understand without requiring all of the information to be duplicated.
+
+---
+
+# Direction
+
+The redesign should remain a place where a technical system can still feel authored.
+
+A page can be accessible, metadata-rich, responsive, and carefully implemented while also carrying visual language, references, strange details, and conceptual intent.
+
+The code can explain the machine.
+
+The documentation can explain the decision.
+
+The project can explain the idea.
+
+And sometimes a very particular word can quietly connect all three.
