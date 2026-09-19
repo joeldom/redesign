@@ -172,9 +172,3 @@ The same fact does not need to be repeated at every level. Each document should 
 - Initialized EXO work.
 - Continued GitHub Pages environment changes.
 - Added S-Tier clothing-line assets.
-
----
-
-### Resume v2
-
-- [Resume v2 test directory](https://github.com/joeldom/resume/tree/master/v2) — experimental resume layout/content pass with embedded print styling.
