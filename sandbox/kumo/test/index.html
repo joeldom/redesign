@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hide Button Test</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #111;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    .btn-hide {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 6px 28px;
+      min-width: 90px;
+      height: 28px;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+      border: none;
+      border-radius: 2px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.18s ease;
+      color: #ff2a2a;
+
+      /* Dark patterned background */
+      background-color: #1a0505;
+      background-image:
+        repeating-linear-gradient(
+          0deg,
+          transparent 0px,
+          transparent 1px,
+          rgba(255, 40, 40, 0.07) 1px,
+          rgba(255, 40, 40, 0.07) 2px
+        ),
+        repeating-linear-gradient(
+          45deg,
+          transparent 0px,
+          transparent 3px,
+          rgba(180, 20, 20, 0.18) 3px,
+          rgba(180, 20, 20, 0.18) 4px
+        ),
+        repeating-linear-gradient(
+          -45deg,
+          transparent 0px,
+          transparent 3px,
+          rgba(120, 10, 10, 0.15) 3px,
+          rgba(120, 10, 10, 0.15) 4px
+        ),
+        linear-gradient(
+          to bottom,
+          rgba(255, 50, 50, 0.08) 0%,
+          transparent 40%,
+          transparent 60%,
+          rgba(0, 0, 0, 0.35) 100%
+        );
+    }
+
+    .btn-hide:hover {
+      color: #ffffff;
+      background-color: #e01212;
+      background-image: none;
+      box-shadow: 0 0 12px rgba(255, 30, 30, 0.45);
+    }
+
+    .btn-hide:active {
+      transform: scale(0.97);
+      background-color: #c00e0e;
+    }
+  </style>
+</head>
+<body>
+  <button class="btn-hide">Hide</button>
+</body>
+</html>
