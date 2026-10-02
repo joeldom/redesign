@@ -498,6 +498,11 @@ animation: color-change 3s infinite; */
     animation: tile-arrow 5s !important;
 }
 
+.雲血 .tile-splash a:hover svg path,
+.雲血 .tile-splash p:hover svg path {
+    animation: tile-arrow-kumochi-v2 1s infinite !important;
+}
+
 .tile-splash a:hover svg.inline,
 .tile-splash p:hover svg.inline {
     margin: 6px 0 6px36px;
@@ -666,6 +671,39 @@ animation: color-change 1s infinite;
     }
     100% {
         fill: #1a3acc;
+    }
+}
+
+@keyframes tile-arrow-kumochi {
+    0% {
+        fill: #ffadad;
+    }
+    15% {
+        fill: #a8a8a8;
+    }
+    50% {
+        fill: #c79f9f;
+    }
+    75% {
+        fill: #a8a8a8;
+    }
+    100% {
+        fill: #ff0000;
+    }
+}
+
+@keyframes tile-arrow-kumochi-v2 {
+    15% {
+        fill: #a8a8a8;
+        opacity: 1;
+    }
+    25% {
+        fill: #ff8080;
+        opacity: 1;
+    }
+    75% {
+        fill: #5a0909;
+        opacity: .25;
     }
 }
 
