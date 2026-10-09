@@ -118,6 +118,18 @@ The same fact does not need to be repeated at every level. Each document should 
 
 ---
 
+
+## Features Under Development
+
+The development site is both a portfolio surface and a place to build, isolate, and verify new interactions before they are promoted.
+
+- **KUMO / 雲血** — an opt-in visual treatment for the landing-page splash. The [KUMO v2 proof of concept](./sandbox/kumo/v2/) tests the discreet footer activation and interaction with the shared light/dark theme control. It is experimental and is not the default theme.
+- **Viewer.js** — full-browser media viewing for experiments, collections, and project content.
+- **UXBG / Player.js** — embedded media and navigation/player behavior, including control visibility and interaction states.
+- **Work / Projects data model** — a planned move toward reusable project data that individual work pages can selectively load. This is a goal, not yet a completed architecture.
+
+Treat these as active development areas unless a feature's own notes explicitly identify it as complete. Prototypes should be tested in the sandbox before being integrated into the main landing page.
+
 ## Version History
 
 | Version | Date | Notes |
