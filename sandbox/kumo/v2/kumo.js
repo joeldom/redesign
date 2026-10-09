@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function resetKumo() {
         splash.classList.remove("雲血");
+        splash.classList.add("grid-bg");
         kumoChiSwitch.setAttribute("aria-pressed", "false");
     }
 
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     kumoChiSwitch.addEventListener("click", function () {
         document.body.classList.remove("light-mode", "dark-mode-lights");
         document.body.classList.add("dark-mode");
+        splash.classList.remove("grid-bg");
         splash.classList.add("雲血");
         kumoChiSwitch.setAttribute("aria-pressed", "true");
         themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
