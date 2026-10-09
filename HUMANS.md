@@ -287,7 +287,7 @@ These workstreams share the redesign environment, but they do not need to ship t
 
 KUMO is an experimental visual treatment applied to the landing splash section (`#collapse1`) through the `雲血` class. It explores a distinct deep, dark, red-accented visual language alongside the established site theme rather than replacing the default theme.
 
-The intended interaction is discreet and opt-in: activating the footer name adds `雲血` and ensures the page is in dark mode. Switching the shared theme control to light mode removes `雲血`, returning the splash to its base light-theme styling. Keep this behavior scoped to the splash section; do not turn KUMO into a global body theme or make it the default without an explicit decision.
+The intended interaction is discreet and opt-in: activating the footer name adds `雲血` and ensures the page is in dark mode. `theme.js` remains responsible for global light/dark mode; the KUMO-specific behavior belongs in `sandbox/kumo/v2/kumo.js`. Switching the shared theme control to light mode removes `雲血`, returning the splash to its base light-theme styling. Keep this behavior scoped to the splash section; do not turn KUMO into a global body theme or make it the default without an explicit decision.
 
 The first proof of concept lives at [`sandbox/kumo/v2/`](./sandbox/kumo/v2/). Verify activation, repeated light/dark switching, keyboard focus, and the return to base styling there before integrating the behavior into the main landing page. The current KUMO page is a visual reference, not permission to change the production-facing default.
 
