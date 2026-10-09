@@ -123,7 +123,7 @@ The same fact does not need to be repeated at every level. Each document should 
 
 The development site is both a portfolio surface and a place to build, isolate, and verify new interactions before they are promoted.
 
-- **KUMO / 雲血** — an opt-in visual treatment for the landing-page splash. The [KUMO v2 proof of concept](./sandbox/kumo/v2/) tests the discreet footer activation and interaction with the shared light/dark theme control. It is experimental and is not the default theme.
+- **KUMO / 雲血** — an opt-in visual treatment for the landing-page splash. The [KUMO v2 proof of concept](./sandbox/kumo/v2/) uses a dedicated `kumo.js` for activation while the shared `theme.js` remains responsible for global light/dark mode. Keep KUMO experimental and non-default.
 - **Viewer.js** — full-browser media viewing for experiments, collections, and project content.
 - **UXBG / Player.js** — embedded media and navigation/player behavior, including control visibility and interaction states.
 - **Work / Projects data model** — a planned move toward reusable project data that individual work pages can selectively load. This is a goal, not yet a completed architecture.
