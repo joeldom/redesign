@@ -278,6 +278,27 @@ Each layer should make the next layer easier to understand without requiring all
 
 ---
 
+
+# Feature Directions and Experiments
+
+These workstreams share the redesign environment, but they do not need to ship together. Prototypes should establish behavior and design intent before a feature is promoted to the main landing page.
+
+## KUMO / 雲血 — Opt-in Visual Mode
+
+KUMO is an experimental visual treatment applied to the landing splash section (`#collapse1`) through the `雲血` class. It explores a distinct deep, dark, red-accented visual language alongside the established site theme rather than replacing the default theme.
+
+The intended interaction is discreet and opt-in: activating the footer name adds `雲血` and ensures the page is in dark mode. `theme.js` remains responsible for global light/dark mode; the KUMO-specific behavior belongs in `sandbox/kumo/kumo.js`. Switching the shared theme control to light mode removes `雲血`, returning the splash to its base light-theme styling. The page's default global theme is dark mode, with `grid-bg` on the splash. KUMO activation swaps the splash class from `grid-bg` to `雲血`; leaving KUMO restores `grid-bg`. Keep the KUMO treatment scoped to the splash section; do not turn it into a global body theme or make the red treatment the default.
+
+The first proof of concept lives at [`sandbox/kumo/`](./sandbox/kumo/). Verify activation, repeated light/dark switching, keyboard focus, and the return to base styling there before integrating the behavior into the main landing page. The current KUMO page is a visual reference, not permission to change the production-facing default.
+
+## Viewer and UXBG / Media Player
+
+Continue developing the viewer as a way to present experiments and media in a controlled, full-browser surface. Continue UXBG / Player.js as the embedded media experience, with attention to control placement, visibility, hover/focus behavior, idle states, and how media controls coexist with the surrounding interface. Keep these systems distinct where their interaction models differ, and reuse shared behavior only when it remains clear and reliable.
+
+## Work / Projects as Selectively Loaded Data
+
+A future goal is to represent reusable Work / Projects content as a structured data object rather than duplicating project content across page markup. Individual work pages should be able to select and render only the relevant entries. Define the data shape and page-selection approach before broad migration; preserve existing URLs, content, metadata, and presentation while transitioning. This is a nice-to-have architecture goal, not part of the KUMO v2 implementation.
+
 # Direction
 
 The redesign should remain a place where a technical system can still feel authored.
