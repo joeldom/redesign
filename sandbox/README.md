@@ -6,44 +6,44 @@ The sandbox is both a **human development space** and an **agent-readable worksp
 
 ## Current sandbox
 
-The active sandbox lives at [`redesign/sandbox`](https://github.com/joeldom/redesign/tree/gh-pages/sandbox) on the `gh-pages` branch. The directory currently contains the experiments and supporting spaces below. This README is the quick entry point; [`SANDBOX.md`](./SANDBOX.md) is the deeper operating guide.
+The active sandbox lives at [`redesign/sandbox`](https://github.com/joeldom/redesign/tree/gh-pages/sandbox) on the `gh-pages` branch. The directory contains the experiments and supporting spaces below. This README is the single entry point and operating guide for both humans and agents.
 
-| Item | Type | Link |
-|---|---|---|
-| R-TYPE | Experiment | [R-TYPE](./R-TYPE/) |
-| TAS | Experiment | [TAS](./TAS/) |
-| absolute | Experiment | [absolute](./absolute/) |
-| album | Experiment | [album](./album/) |
-| apparel | Experiment | [apparel](./apparel/) |
-| arise | Experiment | [arise](./arise/) |
-| cal | Experiment | [cal](./cal/) |
-| destroy | Experiment | [destroy](./destroy/) |
-| downflare | Experiment | [downflare](./downflare/) |
-| ecco | Experiment | [ecco](./ecco/) |
-| genre | Experiment | [genre](./genre/) |
-| hidden | Experiment | [hidden](./hidden/) |
-| img | Support | [img](./img/) |
-| kronos | Experiment | [kronos](./kronos/) |
-| layers | Experiment | [layers](./layers/) |
-| modsynth | Experiment | [modsynth](./modsynth/) |
-| motherbase | Experiment | [motherbase](./motherbase/) |
-| neogeo | Experiment | [neogeo](./neogeo/) |
-| opcost | Experiment | [opcost](./opcost/) |
-| packets | Experiment | [packets](./packets/) |
-| products | Experiment | [products](./products/) |
-| prompt | Experiment | [prompt](./prompt/) |
-| scam | Experiment | [scam](./scam/) |
-| sorta | Experiment | [sorta](./sorta/) |
-| static | Support | [static](./static/) |
-| stream | Experiment | [stream](./stream/) |
-| tagcloud | Experiment | [tagcloud](./tagcloud/) |
-| tests | Tests | [tests](./tests/) |
-| timecries | Experiment | [timecries](./timecries/) |
-| uxbg | Experiment | [uxbg](./uxbg/) |
-| v2 | Experiment | [v2](./v2/) |
-| vidjs | Experiment | [vidjs](./vidjs/) |
-| viewer | System / Experiment | [viewer](./viewer/) |
-| writing | Experiment | [writing](./writing/) |
+| ITEM | TYPE | REPO | PAGE |
+|---|---|---|---|
+| R-TYPE | Experiment | [R-TYPE](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/R-TYPE/) | [R-TYPE](https://joeldom.github.io/redesign/sandbox/R-TYPE/) |
+| TAS | Experiment | [TAS](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/TAS/) | [TAS](https://joeldom.github.io/redesign/sandbox/TAS/) |
+| absolute | Experiment | [absolute](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/absolute/) | [absolute](https://joeldom.github.io/redesign/sandbox/absolute/) |
+| album | Experiment | [album](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/album/) | [album](https://joeldom.github.io/redesign/sandbox/album/) |
+| apparel | Experiment | [apparel](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/apparel/) | [apparel](https://joeldom.github.io/redesign/sandbox/apparel/) |
+| arise | Experiment | [arise](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/arise/) | [arise](https://joeldom.github.io/redesign/sandbox/arise/) |
+| cal | Experiment | [cal](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/cal/) | [cal](https://joeldom.github.io/redesign/sandbox/cal/) |
+| destroy | Experiment | [destroy](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/destroy/) | [destroy](https://joeldom.github.io/redesign/sandbox/destroy/) |
+| downflare | Experiment | [downflare](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/downflare/) | [downflare](https://joeldom.github.io/redesign/sandbox/downflare/) |
+| ecco | Experiment | [ecco](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/ecco/) | [ecco](https://joeldom.github.io/redesign/sandbox/ecco/) |
+| genre | Experiment | [genre](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/genre/) | [genre](https://joeldom.github.io/redesign/sandbox/genre/) |
+| hidden | Experiment | [hidden](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/) | [hidden](https://joeldom.github.io/redesign/sandbox/hidden/) |
+| img | Support | [img](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/) | [img](https://joeldom.github.io/redesign/sandbox/img/) |
+| kronos | Experiment | [kronos](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/) | [kronos](https://joeldom.github.io/redesign/sandbox/kronos/) |
+| layers | Experiment | [layers](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/) | [layers](https://joeldom.github.io/redesign/sandbox/layers/) |
+| modsynth | Experiment | [modsynth](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/) | [modsynth](https://joeldom.github.io/redesign/sandbox/modsynth/) |
+| motherbase | Experiment | [motherbase](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/) | [motherbase](https://joeldom.github.io/redesign/sandbox/motherbase/) |
+| neogeo | Experiment | [neogeo](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/neogeo/) | [neogeo](https://joeldom.github.io/redesign/sandbox/neogeo/) |
+| opcost | Experiment | [opcost](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/opcost/) | [opcost](https://joeldom.github.io/redesign/sandbox/opcost/) |
+| packets | Experiment | [packets](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/packets/) | [packets](https://joeldom.github.io/redesign/sandbox/packets/) |
+| products | Experiment | [products](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/products/) | [products](https://joeldom.github.io/redesign/sandbox/products/) |
+| prompt | Experiment | [prompt](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/prompt/) | [prompt](https://joeldom.github.io/redesign/sandbox/prompt/) |
+| scam | Experiment | [scam](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/scam/) | [scam](https://joeldom.github.io/redesign/sandbox/scam/) |
+| sorta | Experiment | [sorta](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/sorta/) | [sorta](https://joeldom.github.io/redesign/sandbox/sorta/) |
+| static | Support | [static](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/static/) | [static](https://joeldom.github.io/redesign/sandbox/static/) |
+| stream | Experiment | [stream](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/stream/) | [stream](https://joeldom.github.io/redesign/sandbox/stream/) |
+| tagcloud | Experiment | [tagcloud](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tagcloud/) | [tagcloud](https://joeldom.github.io/redesign/sandbox/tagcloud/) |
+| tests | Tests | [tests](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tests/) | [tests](https://joeldom.github.io/redesign/sandbox/tests/) |
+| timecries | Experiment | [timecries](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/timecries/) | [timecries](https://joeldom.github.io/redesign/sandbox/timecries/) |
+| uxbg | Experiment | [uxbg](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/uxbg/) | [uxbg](https://joeldom.github.io/redesign/sandbox/uxbg/) |
+| v2 | Experiment | [v2](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/v2/) | [v2](https://joeldom.github.io/redesign/sandbox/v2/) |
+| vidjs | Experiment | [vidjs](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/) | [vidjs](https://joeldom.github.io/redesign/sandbox/vidjs/) |
+| viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
+| writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
 
 ## How to use it
 
@@ -151,7 +151,6 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 
 ## Related files
 
-- [`SANDBOX.md`](./SANDBOX.md) — detailed sandbox operating guide and combined human/agent instructions.
 - [`index.html`](./index.html) — current sandbox index/viewer surface.
 - [`viewer/`](./viewer/) — viewer-related experimentation.
 
@@ -160,40 +159,40 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 ### Copy/paste inventory
 
 ```markdown
-| Item | Type | Link |
-|---|---|---|
-| R-TYPE | Experiment | [R-TYPE](./R-TYPE/) |
-| TAS | Experiment | [TAS](./TAS/) |
-| absolute | Experiment | [absolute](./absolute/) |
-| album | Experiment | [album](./album/) |
-| apparel | Experiment | [apparel](./apparel/) |
-| arise | Experiment | [arise](./arise/) |
-| cal | Experiment | [cal](./cal/) |
-| destroy | Experiment | [destroy](./destroy/) |
-| downflare | Experiment | [downflare](./downflare/) |
-| ecco | Experiment | [ecco](./ecco/) |
-| genre | Experiment | [genre](./genre/) |
-| hidden | Experiment | [hidden](./hidden/) |
-| img | Support | [img](./img/) |
-| kronos | Experiment | [kronos](./kronos/) |
-| layers | Experiment | [layers](./layers/) |
-| modsynth | Experiment | [modsynth](./modsynth/) |
-| motherbase | Experiment | [motherbase](./motherbase/) |
-| neogeo | Experiment | [neogeo](./neogeo/) |
-| opcost | Experiment | [opcost](./opcost/) |
-| packets | Experiment | [packets](./packets/) |
-| products | Experiment | [products](./products/) |
-| prompt | Experiment | [prompt](./prompt/) |
-| scam | Experiment | [scam](./scam/) |
-| sorta | Experiment | [sorta](./sorta/) |
-| static | Support | [static](./static/) |
-| stream | Experiment | [stream](./stream/) |
-| tagcloud | Experiment | [tagcloud](./tagcloud/) |
-| tests | Tests | [tests](./tests/) |
-| timecries | Experiment | [timecries](./timecries/) |
-| uxbg | Experiment | [uxbg](./uxbg/) |
-| v2 | Experiment | [v2](./v2/) |
-| vidjs | Experiment | [vidjs](./vidjs/) |
-| viewer | System / Experiment | [viewer](./viewer/) |
-| writing | Experiment | [writing](./writing/) |
+| ITEM | TYPE | REPO | PAGE |
+|---|---|---|---|
+| R-TYPE | Experiment | [R-TYPE](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/R-TYPE/) | [R-TYPE](https://joeldom.github.io/redesign/sandbox/R-TYPE/) |
+| TAS | Experiment | [TAS](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/TAS/) | [TAS](https://joeldom.github.io/redesign/sandbox/TAS/) |
+| absolute | Experiment | [absolute](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/absolute/) | [absolute](https://joeldom.github.io/redesign/sandbox/absolute/) |
+| album | Experiment | [album](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/album/) | [album](https://joeldom.github.io/redesign/sandbox/album/) |
+| apparel | Experiment | [apparel](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/apparel/) | [apparel](https://joeldom.github.io/redesign/sandbox/apparel/) |
+| arise | Experiment | [arise](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/arise/) | [arise](https://joeldom.github.io/redesign/sandbox/arise/) |
+| cal | Experiment | [cal](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/cal/) | [cal](https://joeldom.github.io/redesign/sandbox/cal/) |
+| destroy | Experiment | [destroy](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/destroy/) | [destroy](https://joeldom.github.io/redesign/sandbox/destroy/) |
+| downflare | Experiment | [downflare](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/downflare/) | [downflare](https://joeldom.github.io/redesign/sandbox/downflare/) |
+| ecco | Experiment | [ecco](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/ecco/) | [ecco](https://joeldom.github.io/redesign/sandbox/ecco/) |
+| genre | Experiment | [genre](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/genre/) | [genre](https://joeldom.github.io/redesign/sandbox/genre/) |
+| hidden | Experiment | [hidden](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/) | [hidden](https://joeldom.github.io/redesign/sandbox/hidden/) |
+| img | Support | [img](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/) | [img](https://joeldom.github.io/redesign/sandbox/img/) |
+| kronos | Experiment | [kronos](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/) | [kronos](https://joeldom.github.io/redesign/sandbox/kronos/) |
+| layers | Experiment | [layers](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/) | [layers](https://joeldom.github.io/redesign/sandbox/layers/) |
+| modsynth | Experiment | [modsynth](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/) | [modsynth](https://joeldom.github.io/redesign/sandbox/modsynth/) |
+| motherbase | Experiment | [motherbase](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/) | [motherbase](https://joeldom.github.io/redesign/sandbox/motherbase/) |
+| neogeo | Experiment | [neogeo](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/neogeo/) | [neogeo](https://joeldom.github.io/redesign/sandbox/neogeo/) |
+| opcost | Experiment | [opcost](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/opcost/) | [opcost](https://joeldom.github.io/redesign/sandbox/opcost/) |
+| packets | Experiment | [packets](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/packets/) | [packets](https://joeldom.github.io/redesign/sandbox/packets/) |
+| products | Experiment | [products](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/products/) | [products](https://joeldom.github.io/redesign/sandbox/products/) |
+| prompt | Experiment | [prompt](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/prompt/) | [prompt](https://joeldom.github.io/redesign/sandbox/prompt/) |
+| scam | Experiment | [scam](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/scam/) | [scam](https://joeldom.github.io/redesign/sandbox/scam/) |
+| sorta | Experiment | [sorta](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/sorta/) | [sorta](https://joeldom.github.io/redesign/sandbox/sorta/) |
+| static | Support | [static](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/static/) | [static](https://joeldom.github.io/redesign/sandbox/static/) |
+| stream | Experiment | [stream](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/stream/) | [stream](https://joeldom.github.io/redesign/sandbox/stream/) |
+| tagcloud | Experiment | [tagcloud](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tagcloud/) | [tagcloud](https://joeldom.github.io/redesign/sandbox/tagcloud/) |
+| tests | Tests | [tests](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tests/) | [tests](https://joeldom.github.io/redesign/sandbox/tests/) |
+| timecries | Experiment | [timecries](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/timecries/) | [timecries](https://joeldom.github.io/redesign/sandbox/timecries/) |
+| uxbg | Experiment | [uxbg](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/uxbg/) | [uxbg](https://joeldom.github.io/redesign/sandbox/uxbg/) |
+| v2 | Experiment | [v2](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/v2/) | [v2](https://joeldom.github.io/redesign/sandbox/v2/) |
+| vidjs | Experiment | [vidjs](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/) | [vidjs](https://joeldom.github.io/redesign/sandbox/vidjs/) |
+| viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
+| writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
 ```
