@@ -24,6 +24,7 @@ The active sandbox lives at [`redesign/sandbox`](https://github.com/joeldom/rede
 | hidden | Experiment | [hidden](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/) | [hidden](https://joeldom.github.io/redesign/sandbox/hidden/) |
 | img | Support | [img](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/) | [img](https://joeldom.github.io/redesign/sandbox/img/) |
 | kronos | Experiment | [kronos](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/) | [kronos](https://joeldom.github.io/redesign/sandbox/kronos/) |
+| kumo | Theme / Experiment | [kumo](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kumo/) | [kumo](https://joeldom.github.io/redesign/sandbox/kumo/) |
 | layers | Experiment | [layers](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/) | [layers](https://joeldom.github.io/redesign/sandbox/layers/) |
 | modsynth | Experiment | [modsynth](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/) | [modsynth](https://joeldom.github.io/redesign/sandbox/modsynth/) |
 | motherbase | Experiment | [motherbase](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/) | [motherbase](https://joeldom.github.io/redesign/sandbox/motherbase/) |
@@ -175,6 +176,7 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 | hidden | Experiment | [hidden](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/) | [hidden](https://joeldom.github.io/redesign/sandbox/hidden/) |
 | img | Support | [img](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/) | [img](https://joeldom.github.io/redesign/sandbox/img/) |
 | kronos | Experiment | [kronos](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/) | [kronos](https://joeldom.github.io/redesign/sandbox/kronos/) |
+| kumo | Theme / Experiment | [kumo](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kumo/) | [kumo](https://joeldom.github.io/redesign/sandbox/kumo/) |
 | layers | Experiment | [layers](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/) | [layers](https://joeldom.github.io/redesign/sandbox/layers/) |
 | modsynth | Experiment | [modsynth](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/) | [modsynth](https://joeldom.github.io/redesign/sandbox/modsynth/) |
 | motherbase | Experiment | [motherbase](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/) | [motherbase](https://joeldom.github.io/redesign/sandbox/motherbase/) |
