@@ -2,196 +2,136 @@
 
 > A living workspace for experiments, prototypes, visual studies, interface ideas, code experiments, and things that are not ready to become projects yet.
 
-The sandbox is the **playground of the redesign**.
+The sandbox is both a **human development space** and an **agent-readable workspace**. It exists to make experimentation cheap: ideas can be tried, changed, broken, rebuilt, documented, and revisited without needing to become polished projects first.
 
-It is both a human development space and an agent-readable workspace. Ideas can be tried, broken, rebuilt, documented, featured, promoted, abandoned, or simply left alone.
+## Current sandbox
 
----
+The active sandbox lives at [`redesign/sandbox`](https://github.com/joeldom/redesign/tree/gh-pages/sandbox) on the `gh-pages` branch. The directory contains the experiments and supporting spaces below. This README is the single entry point and operating guide for both humans and agents.
 
-## Where It Lives
+| ITEM | TYPE | REPO | PAGE |
+|---|---|---|---|
+| R-TYPE | Experiment | [R-TYPE](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/R-TYPE/) | [R-TYPE](https://joeldom.github.io/redesign/sandbox/R-TYPE/) |
+| TAS | Experiment | [TAS](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/TAS/) | [TAS](https://joeldom.github.io/redesign/sandbox/TAS/) |
+| absolute | Experiment | [absolute](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/absolute/) | [absolute](https://joeldom.github.io/redesign/sandbox/absolute/) |
+| album | Experiment | [album](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/album/) | [album](https://joeldom.github.io/redesign/sandbox/album/) |
+| apparel | Experiment | [apparel](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/apparel/) | [apparel](https://joeldom.github.io/redesign/sandbox/apparel/) |
+| arise | Experiment | [arise](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/arise/) | [arise](https://joeldom.github.io/redesign/sandbox/arise/) |
+| cal | Experiment | [cal](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/cal/) | [cal](https://joeldom.github.io/redesign/sandbox/cal/) |
+| destroy | Experiment | [destroy](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/destroy/) | [destroy](https://joeldom.github.io/redesign/sandbox/destroy/) |
+| downflare | Experiment | [downflare](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/downflare/) | [downflare](https://joeldom.github.io/redesign/sandbox/downflare/) |
+| ecco | Experiment | [ecco](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/ecco/) | [ecco](https://joeldom.github.io/redesign/sandbox/ecco/) |
+| genre | Experiment | [genre](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/genre/) | [genre](https://joeldom.github.io/redesign/sandbox/genre/) |
+| hidden | Experiment | [hidden](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/) | [hidden](https://joeldom.github.io/redesign/sandbox/hidden/) |
+| img | Support | [img](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/) | [img](https://joeldom.github.io/redesign/sandbox/img/) |
+| kronos | Experiment | [kronos](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/) | [kronos](https://joeldom.github.io/redesign/sandbox/kronos/) |
+| layers | Experiment | [layers](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/) | [layers](https://joeldom.github.io/redesign/sandbox/layers/) |
+| modsynth | Experiment | [modsynth](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/) | [modsynth](https://joeldom.github.io/redesign/sandbox/modsynth/) |
+| motherbase | Experiment | [motherbase](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/) | [motherbase](https://joeldom.github.io/redesign/sandbox/motherbase/) |
+| neogeo | Experiment | [neogeo](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/neogeo/) | [neogeo](https://joeldom.github.io/redesign/sandbox/neogeo/) |
+| opcost | Experiment | [opcost](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/opcost/) | [opcost](https://joeldom.github.io/redesign/sandbox/opcost/) |
+| packets | Experiment | [packets](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/packets/) | [packets](https://joeldom.github.io/redesign/sandbox/packets/) |
+| products | Experiment | [products](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/products/) | [products](https://joeldom.github.io/redesign/sandbox/products/) |
+| prompt | Experiment | [prompt](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/prompt/) | [prompt](https://joeldom.github.io/redesign/sandbox/prompt/) |
+| scam | Experiment | [scam](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/scam/) | [scam](https://joeldom.github.io/redesign/sandbox/scam/) |
+| sorta | Experiment | [sorta](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/sorta/) | [sorta](https://joeldom.github.io/redesign/sandbox/sorta/) |
+| static | Support | [static](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/static/) | [static](https://joeldom.github.io/redesign/sandbox/static/) |
+| stream | Experiment | [stream](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/stream/) | [stream](https://joeldom.github.io/redesign/sandbox/stream/) |
+| tagcloud | Experiment | [tagcloud](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tagcloud/) | [tagcloud](https://joeldom.github.io/redesign/sandbox/tagcloud/) |
+| tests | Tests | [tests](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tests/) | [tests](https://joeldom.github.io/redesign/sandbox/tests/) |
+| timecries | Experiment | [timecries](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/timecries/) | [timecries](https://joeldom.github.io/redesign/sandbox/timecries/) |
+| uxbg | Experiment | [uxbg](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/uxbg/) | [uxbg](https://joeldom.github.io/redesign/sandbox/uxbg/) |
+| v2 | Experiment | [v2](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/v2/) | [v2](https://joeldom.github.io/redesign/sandbox/v2/) |
+| vidjs | Experiment | [vidjs](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/) | [vidjs](https://joeldom.github.io/redesign/sandbox/vidjs/) |
+| viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
+| writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
 
-The active sandbox is:
+## How to use it
 
-```text
-joeldom/redesign
-└── gh-pages
-    └── sandbox/
+### For humans
+
+- Experiment first; organize when organization becomes useful.
+- Keep unfinished work. A rough experiment can become a feature, a project, a reference, or nothing at all.
+- Prefer small, reversible changes while exploring.
+- Reuse existing site infrastructure when it helps, especially the shared style guide and established CSS variables/utilities.
+- Document an experiment when its purpose, behavior, or setup would otherwise be easy to lose.
+
+### For agents
+
+Before changing anything:
+
+1. Inspect the existing sandbox item and its surrounding files.
+2. Preserve unrelated work and existing comments/structure unless a change requires otherwise.
+3. Prefer the smallest useful change over a broad refactor.
+4. Reuse existing site/style-guide resources instead of introducing duplicate systems.
+5. Test the rendered result when working on HTML/CSS/JS.
+6. Keep experiments independently understandable where practical.
+7. Update documentation or viewer metadata when a change affects how an item is opened or understood.
+
+Do not assume every sandbox item needs to be production-ready, generalized, framework-based, or cleaned up. The sandbox is explicitly allowed to be strange, redundant, temporary, visual, technical, or unfinished.
+
+## Viewer direction
+
+The sandbox is intended to grow into a viewer-driven workspace rather than simply a directory of links.
+
+A sandbox item can eventually declare how it should be opened:
+
+```js
+{
+  id: "example",
+  title: "Example Experiment",
+  path: "./example/",
+  type: "html",
+  viewer: {
+    type: "iframe",
+    mode: "fullscreen"
+  }
+}
 ```
 
-This is currently the right place for experiments that are being developed alongside or featured by the site.
+Possible viewer types include:
 
-A separate `joeldom/sandbox` repository is intended for deeper agent-assisted work, reusable tooling, automation, or experiments that become large or independent enough to need their own lifecycle.
+- `iframe` — isolated live HTML/CSS/JS experiments.
+- `document` — Markdown or other readable documents.
+- `code` — source/code inspection.
+- `media` — image, video, audio, or other media.
+- `page` — a normal sandbox page.
+- `custom` — specialized viewer behavior when an experiment needs it.
 
-**Do not move work simply because the sandbox is active.** High commit activity is acceptable in the current solo-contributor workflow.
+The default live-code direction is an iframe so an experiment's CSS and JavaScript can remain isolated from the sandbox shell. Where sandboxing is appropriate, use restrictive iframe permissions such as `sandbox="allow-scripts"` rather than granting capabilities automatically.
 
----
+The eventual viewer can provide responsive layouts such as a full viewport, mobile presentation, padded presentation, or a large-screen central viewer with surrounding context. The current direction is roughly a 20% / 60% / 20% composition on large screens, with the central 60% acting like a narrow, devtools-like experiment viewport.
 
-## Start Here
+## Markdown is a first-class sandbox format
 
-| File | Purpose |
-|---|---|
-| [`README.md`](./README.md) | Quick sandbox map |
-| [`HUMANS.md`](./HUMANS.md) | Human context and creative intent |
-| [`AGENTS.md`](./AGENTS.md) | Agent operating rules and communication model |
-| [`SANDBOX.md`](./SANDBOX.md) | Detailed sandbox and viewer architecture |
+Markdown files should be viewable through the same viewer system. A rendered Markdown document can use the site's existing typography, spacing, colors, CSS variables, and other style-guide primitives instead of becoming a separate visual system.
 
-The general repository context remains available in [`../README.md`](../README.md), [`../HUMANS.md`](../HUMANS.md), and [`../AGENTS.md`](../AGENTS.md).
+This makes Markdown useful for:
 
----
+- experiment notes
+- design studies
+- technical documentation
+- agent instructions
+- specifications
+- source material
+- temporary planning documents
 
-## What Belongs Here
+## Style guide
 
-An item may belong in the sandbox because it:
+Sandbox experiments should be able to consume the shared site's style language when useful. The goal is not to force every experiment into the same visual treatment, but to make the style guide available as a common foundation for typography, spacing, color, responsive behavior, components, and viewer UI.
 
-- tests an interaction
-- explores a visual idea
-- prototypes HTML/CSS/JS
-- tests a component or viewer
-- explores animation or motion
-- tests responsive behavior
-- tests accessibility
-- experiments with metadata
-- develops a writing or content concept
-- explores media presentation
-- investigates a technical problem
-- may eventually become a feature or project
-- is useful enough to keep without needing to become a project
+An experiment may intentionally depart from the style guide when the experiment itself is testing a different visual or interaction direction.
 
-The sandbox is allowed to be unfinished, strange, redundant, technical, visual, temporary, or difficult to categorize.
+## Repository model
 
-**Experiment first. Organize when organization becomes useful.**
+The current active workspace is `joeldom/redesign/sandbox` because it is also where experiments can be featured directly on the portfolio site.
 
----
+A separate [`joeldom/sandbox`](https://github.com/joeldom/sandbox) repository is intended for deeper or more autonomous agent work as the sandbox grows. Moving an experiment there should be treated as an organizational decision, not a requirement for every experiment.
 
-## Current Inventory
+High commit activity in `redesign` is acceptable while the sandbox is actively being developed and maintained as a solo-contributor workspace. There is no need to create branches solely to make the repository history look quieter.
 
-| Item | Type | Link |
-|---|---|---|
-| R-TYPE | Experiment | [R-TYPE](./R-TYPE/) |
-| TAS | Experiment | [TAS](./TAS/) |
-| absolute | Experiment | [absolute](./absolute/) |
-| album | Experiment | [album](./album/) |
-| apparel | Experiment | [apparel](./apparel/) |
-| arise | Experiment | [arise](./arise/) |
-| cal | Experiment | [cal](./cal/) |
-| destroy | Experiment | [destroy](./destroy/) |
-| downflare | Experiment | [downflare](./downflare/) |
-| ecco | Experiment | [ecco](./ecco/) |
-| genre | Experiment | [genre](./genre/) |
-| hidden | Experiment | [hidden](./hidden/) |
-| img | Support | [img](./img/) |
-| kronos | Experiment | [kronos](./kronos/) |
-| layers | Experiment | [layers](./layers/) |
-| modsynth | Experiment | [modsynth](./modsynth/) |
-| motherbase | Experiment | [motherbase](./motherbase/) |
-| neogeo | Experiment | [neogeo](./neogeo/) |
-| opcost | Experiment | [opcost](./opcost/) |
-| packets | Experiment | [packets](./packets/) |
-| products | Experiment | [products](./products/) |
-| prompt | Experiment | [prompt](./prompt/) |
-| scam | Experiment | [scam](./scam/) |
-| sorta | Experiment | [sorta](./sorta/) |
-| static | Support | [static](./static/) |
-| stream | Experiment | [stream](./stream/) |
-| tagcloud | Experiment | [tagcloud](./tagcloud/) |
-| tests | Tests | [tests](./tests/) |
-| timecries | Experiment | [timecries](./timecries/) |
-| uxbg | Experiment | [uxbg](./uxbg/) |
-| v2 | Experiment | [v2](./v2/) |
-| vidjs | Experiment | [vidjs](./vidjs/) |
-| viewer | System / Experiment | [viewer](./viewer/) |
-| writing | Experiment | [writing](./writing/) |
+## Experiment lifecycle
 
-This inventory is useful as a human-readable index. The eventual registry should become the source of truth and generate the inventory rather than requiring the list to be maintained twice.
-
----
-
-## Tonal Modality in the Sandbox
-
-Sandbox notes may be rough. Documentation may be formal. A project walkthrough may become visual or conceptual. A changelog may reduce everything to one sentence.
-
-This is intentional.
-
-**Tonal Modality** allows the language around an experiment to change with the kind of thought being recorded.
-
-```text
-shorthand
-   ↓
-experiment
-   ↓
-matter-of-fact result
-   ↓
-technical detail
-   ↓
-visual / conceptual interpretation
-```
-
-Agents should preserve the distinction instead of flattening every note into one generic documentation voice.
-
-A short note can contain a surprisingly dense idea. A long technical note can contain the exact detail that makes an implementation worth keeping. Neither should be judged by length alone.
-
----
-
-## Metadata + Accessibility
-
-The sandbox is also a place to test information that may not be visually obvious.
-
-Treat the following as first-class experimental material:
-
-- semantic HTML
-- headings and document structure
-- accessible names
-- alt text
-- ARIA where appropriate
-- keyboard interaction
-- focus behavior
-- reduced-motion behavior
-- contrast
-- responsive behavior
-- Open Graph / social metadata
-- viewer metadata
-- filenames and identifiers
-
-A high-density metadata surface may be intentional. Do not remove metadata merely because it is invisible in the rendered interface.
-
----
-
-## Thought Lineage
-
-Names inside the sandbox may persist across experiments.
-
-A word can be a feature name, a reference to an earlier prototype, a visual metaphor, a technical shorthand, or a compact pointer to a larger body of thought.
-
-Some terminology therefore behaves almost like a symbolic key: small on the surface, connected to more context underneath.
-
-Preserve established names unless there is a reason to change them.
-
-Do not invent hidden meaning where none exists, but do not erase meaningful vocabulary simply because it looks unusual.
-
----
-
-## Viewer Direction
-
-The sandbox index is intended to become a reusable **Sandbox Viewer**, not merely a directory listing.
-
-An experiment declares what it is. The viewer decides how it should be experienced.
-
-Possible viewer types:
-
-| Viewer | Purpose |
-|---|---|
-| `iframe` | Isolated executable HTML/CSS/JS experiment |
-| `document` | Markdown or other readable content |
-| `code` | Source display |
-| `media` | Image, video, animation, or other media |
-| `page` | Direct navigation |
-| `custom` | Specialized viewer behavior |
-
-The detailed viewer model lives in [`SANDBOX.md`](./SANDBOX.md).
-
----
-
-## Experiment Lifecycle
+A useful path is:
 
 ```text
 idea
@@ -202,48 +142,57 @@ live preview
   ↓
 viewer
   ↓
-style-guide / UX test
+style-guide / UX testing
   ↓
-feature
-  ↓
-project
+feature or project
 ```
 
-Or simply:
+There is no requirement that an experiment graduate. Keeping something in the sandbox is a valid outcome.
 
-```text
-idea
-  ↓
-experiment
-  ↓
-done
-```
+## Related files
 
-No experiment is required to graduate.
+- [`index.html`](./index.html) — current sandbox index/viewer surface.
+- [`viewer/`](./viewer/) — viewer-related experimentation.
 
 ---
 
-## Promotion / Migration
+### Copy/paste inventory
 
-Keep an experiment here while it benefits from being developed with the site.
-
-Consider moving or duplicating it into `joeldom/sandbox` when it becomes:
-
-- reusable infrastructure
-- an agent-oriented tool
-- automation
-- substantially larger
-- independent of the portfolio
-- something that needs a dedicated development lifecycle
-
-The repository boundary should serve the work.
-
----
-
-## Related Files
-
-- [`SANDBOX.md`](./SANDBOX.md) — detailed combined sandbox and viewer guide
-- [`AGENTS.md`](./AGENTS.md) — agent rules
-- [`HUMANS.md`](./HUMANS.md) — human context
-- [`index.html`](./index.html) — sandbox index when present
-- [`viewer/`](./viewer/) — viewer experiments
+```markdown
+| ITEM | TYPE | REPO | PAGE |
+|---|---|---|---|
+| R-TYPE | Experiment | [R-TYPE](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/R-TYPE/) | [R-TYPE](https://joeldom.github.io/redesign/sandbox/R-TYPE/) |
+| TAS | Experiment | [TAS](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/TAS/) | [TAS](https://joeldom.github.io/redesign/sandbox/TAS/) |
+| absolute | Experiment | [absolute](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/absolute/) | [absolute](https://joeldom.github.io/redesign/sandbox/absolute/) |
+| album | Experiment | [album](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/album/) | [album](https://joeldom.github.io/redesign/sandbox/album/) |
+| apparel | Experiment | [apparel](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/apparel/) | [apparel](https://joeldom.github.io/redesign/sandbox/apparel/) |
+| arise | Experiment | [arise](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/arise/) | [arise](https://joeldom.github.io/redesign/sandbox/arise/) |
+| cal | Experiment | [cal](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/cal/) | [cal](https://joeldom.github.io/redesign/sandbox/cal/) |
+| destroy | Experiment | [destroy](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/destroy/) | [destroy](https://joeldom.github.io/redesign/sandbox/destroy/) |
+| downflare | Experiment | [downflare](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/downflare/) | [downflare](https://joeldom.github.io/redesign/sandbox/downflare/) |
+| ecco | Experiment | [ecco](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/ecco/) | [ecco](https://joeldom.github.io/redesign/sandbox/ecco/) |
+| genre | Experiment | [genre](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/genre/) | [genre](https://joeldom.github.io/redesign/sandbox/genre/) |
+| hidden | Experiment | [hidden](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/) | [hidden](https://joeldom.github.io/redesign/sandbox/hidden/) |
+| img | Support | [img](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/) | [img](https://joeldom.github.io/redesign/sandbox/img/) |
+| kronos | Experiment | [kronos](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/) | [kronos](https://joeldom.github.io/redesign/sandbox/kronos/) |
+| layers | Experiment | [layers](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/) | [layers](https://joeldom.github.io/redesign/sandbox/layers/) |
+| modsynth | Experiment | [modsynth](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/) | [modsynth](https://joeldom.github.io/redesign/sandbox/modsynth/) |
+| motherbase | Experiment | [motherbase](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/) | [motherbase](https://joeldom.github.io/redesign/sandbox/motherbase/) |
+| neogeo | Experiment | [neogeo](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/neogeo/) | [neogeo](https://joeldom.github.io/redesign/sandbox/neogeo/) |
+| opcost | Experiment | [opcost](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/opcost/) | [opcost](https://joeldom.github.io/redesign/sandbox/opcost/) |
+| packets | Experiment | [packets](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/packets/) | [packets](https://joeldom.github.io/redesign/sandbox/packets/) |
+| products | Experiment | [products](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/products/) | [products](https://joeldom.github.io/redesign/sandbox/products/) |
+| prompt | Experiment | [prompt](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/prompt/) | [prompt](https://joeldom.github.io/redesign/sandbox/prompt/) |
+| scam | Experiment | [scam](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/scam/) | [scam](https://joeldom.github.io/redesign/sandbox/scam/) |
+| sorta | Experiment | [sorta](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/sorta/) | [sorta](https://joeldom.github.io/redesign/sandbox/sorta/) |
+| static | Support | [static](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/static/) | [static](https://joeldom.github.io/redesign/sandbox/static/) |
+| stream | Experiment | [stream](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/stream/) | [stream](https://joeldom.github.io/redesign/sandbox/stream/) |
+| tagcloud | Experiment | [tagcloud](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tagcloud/) | [tagcloud](https://joeldom.github.io/redesign/sandbox/tagcloud/) |
+| tests | Tests | [tests](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tests/) | [tests](https://joeldom.github.io/redesign/sandbox/tests/) |
+| timecries | Experiment | [timecries](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/timecries/) | [timecries](https://joeldom.github.io/redesign/sandbox/timecries/) |
+| uxbg | Experiment | [uxbg](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/uxbg/) | [uxbg](https://joeldom.github.io/redesign/sandbox/uxbg/) |
+| v2 | Experiment | [v2](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/v2/) | [v2](https://joeldom.github.io/redesign/sandbox/v2/) |
+| vidjs | Experiment | [vidjs](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/) | [vidjs](https://joeldom.github.io/redesign/sandbox/vidjs/) |
+| viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
+| writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
+```
