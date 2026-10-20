@@ -138,7 +138,7 @@ Page source: [all/index.html on GitHub](https://github.com/joeldom/redesign/blob
                     </article>
 ```
 
-**Project note:** Card label is “Emotive Chat feedback”; image is `ecco-ohno.png`; viewer content is absent. Add confirmed purpose, feedback problem, approach, evaluation, and outcome.
+**Project note ([updated:10.20.2026 - 2:00pm]; pending until the actual project details are reflected in the page):** Card label is “Emotive Chat feedback”; image is `ecco-ohno.png`; viewer content is absent. Add confirmed purpose, feedback problem, approach, evaluation, and outcome.
 
 ### 03. Ecco — Umbrella brand
 
@@ -160,7 +160,7 @@ Page source: [all/index.html on GitHub](https://github.com/joeldom/redesign/blob
                     </article>
 ```
 
-**Project note:** Card label is “Umbrella brand”; image is `App Logo EccoAi.png`. Clarify Ecco's role and its relationship to Ghost/Exo only when confirmed.
+**Project note ([updated:10.20.2026 - 2:00pm]; pending until the actual project details are reflected in the page):** Card label is “Umbrella brand”; image is `App Logo EccoAi.png`. Clarify Ecco's role and its relationship to Ghost/Exo only when confirmed.
 
 ### 04. Cred — JD
 
@@ -182,7 +182,7 @@ Page source: [all/index.html on GitHub](https://github.com/joeldom/redesign/blob
                     </article>
 ```
 
-**Project note:** Card label is “Cred”; image is `Card-Concept.gif`; viewer content is absent. Define what Cred is, audience/use case, and what the card concept represents.
+**Project note ([updated:10.20.2026 - 2:00pm]; pending until the actual project details are reflected in the page):** Card label is “Cred”; image is `Card-Concept.gif`; viewer content is absent. Define what Cred is, audience/use case, and what the card concept represents.
 
 ### 05. S-Tier — Clothing line
 
@@ -204,7 +204,7 @@ Page source: [all/index.html on GitHub](https://github.com/joeldom/redesign/blob
                     </article>
 ```
 
-**Project note:** Card label is “Clothing line”; image is `stier tag v2 text F.png`; viewer content is absent. Explain concept, audience, identity system, and applications.
+**Project note ([updated:10.20.2026 - 2:00pm]; pending until the actual project details are reflected in the page):** Card label is “Clothing line”; image is `stier tag v2 text F.png`; viewer content is absent. Explain concept, audience, identity system, and applications.
 
 ### 06. Annual Report — 2025
 
@@ -226,7 +226,7 @@ Page source: [all/index.html on GitHub](https://github.com/joeldom/redesign/blob
                     </article>
 ```
 
-**Project note:** Card label is “Annual Report”; image is `chip-2025.png`; viewer content is absent. Add purpose, audience, content hierarchy, visual system, and deliverables.
+**Project note ([updated:10.20.2026 - 2:00pm]; pending until the actual project details are reflected in the page):** Card label is “Annual Report”; image is `chip-2025.png`; viewer content is absent. Add purpose, audience, content hierarchy, visual system, and deliverables.
 
 ### 07. Supplemental Icons — File System
 
@@ -544,7 +544,7 @@ Page source: [all/index.html on GitHub](https://github.com/joeldom/redesign/blob
                     </article>
 ```
 
-**Project note:** Existing viewer says this was the first round of proper branding used across profiles and the overall aesthetic applied to personal work/site. Add confirmed rationale, applications, and evolution.
+**Project note ([updated:10.20.2026 - 2:00pm]; pending until the actual project details are reflected in the page):** Existing viewer says this was the first round of proper branding used across profiles and the overall aesthetic applied to personal work/site. Add confirmed rationale, applications, and evolution.
 
 ### 15. Tao-Do — App Logo
 
