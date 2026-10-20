@@ -18,8 +18,15 @@ Before changing anything:
 4. Identify shared assets, CSS variables, style-guide dependencies, viewer conventions, and related experiments.
 5. Determine whether the requested work is exploratory, corrective, documentary, or intended for production.
 6. Preserve unrelated work.
+7. For edits to `/all/`, read [`all/ALL_WORK.md`](./all/ALL_WORK.md) as the project-catalog workflow and cross-check it against [`all/index.html`](./all/index.html). For sandbox experiments or support items, read [`sandbox/README.md`](./sandbox/README.md) to understand how non-portfolio work is categorized and described.
 
 Do not treat unfamiliar code as bad code merely because it is unconventional.
+
+### Catalog and sandbox documentation are complementary
+
+- [`all/ALL_WORK.md`](./all/ALL_WORK.md) explains why the `/all/` catalog exists and how to maintain it alongside `all/index.html`. Keep the catalog in page order, preserve source markup verbatim, separate interpretation from transcription, do not guess at unknown projects or assets, and keep the page and companion review notes aligned.
+- [`sandbox/README.md`](./sandbox/README.md) covers the broader sandbox inventory and the language used to describe experiments, support areas, viewer work, visual studies, and unfinished ideas. Do not force every sandbox item into a portfolio-project template.
+- These documents serve different purposes. Use the catalog for confirmed `/all/` page content and its reconciliation workflow; use the sandbox guide for understanding and describing work outside that narrower catalog. Cross-reference rather than duplicating large sections of either document.
 
 ---
 
