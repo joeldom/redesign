@@ -246,6 +246,8 @@ The goal is to preserve the thoughts that became part of the system.
 - Production / portfolio → [joeldombek.com](https://www.joeldombek.com)
 - Development environment → [joeldom.github.io/redesign](https://joeldom.github.io/redesign)
 - Active sandbox → [`redesign/sandbox`](./sandbox/)
+- Sandbox guide → [`sandbox/README.md`](./sandbox/README.md), for describing experiments, support areas, and work that is not necessarily a portfolio project
+- All Work catalog → [`all/ALL_WORK.md`](./all/ALL_WORK.md), for the purpose, constraints, and maintenance workflow of the `/all/` project catalog
 - Dedicated future sandbox → [`joeldom/sandbox`](https://github.com/joeldom/sandbox)
 - Shared assets → [`joeldom/asset`](https://github.com/joeldom/asset)
 - Resume → [`joeldom/resume`](https://github.com/joeldom/resume)
@@ -275,6 +277,10 @@ CHANGELOG
 ```
 
 Each layer should make the next layer easier to understand without requiring all of the information to be duplicated.
+
+For portfolio project content, read [`all/ALL_WORK.md`](./all/ALL_WORK.md) before editing [`all/index.html`](./all/index.html). The catalog preserves page order and source content while separating confirmed markup from notes, unknowns, and future implementation ideas. It is a working reference, not a replacement for the live HTML or a signal to migrate the page to a data-driven system.
+
+For the broader range of sandbox work—including experiments, visual studies, support directories, viewer prototypes, and unfinished ideas—use the [sandbox README](./sandbox/README.md). Not every sandbox item is a project, and not every experiment needs to graduate into the portfolio.
 
 ---
 
