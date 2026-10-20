@@ -4,6 +4,10 @@
 
 ## Workflow and source of truth
 
+**Purpose:** Work is a visual sampler and overview of created work across its underlying categories. Inclusion is not limited to large projects or full case studies: a logo, photograph, or other small piece can qualify when it is developed enough to stand on its own. An entry means the work has been snapshotted as something worth representing in the broader body of work, while remaining open to future iteration; it does not mean the work is permanently final.
+
+**Boundary with Sandbox:** [`../sandbox/README.md`](../sandbox/README.md) describes the functional-design workspace for features, prototypes, interaction experiments, utilities, and viewer/player behavior. Sandbox explores what something can do; Work records what has been created. A sandbox demo is not automatically a Work entry, and a Work entry does not need a corresponding functional prototype. When a sandbox feature is integrated into the site, keep the experiment available as a demo until a deliberate, reviewable snapshot is selected for promotion; version meaningful refinements rather than treating the demo and the promoted feature as interchangeable.
+
 - **Canonical page:** [all/index.html](./index.html) in this same directory. The live page is [the All Work page](https://joeldom.github.io/redesign/all/index.html).
 - **This companion file:** [all/ALL_WORK.md](./ALL_WORK.md), beside `index.html`. Start here for the catalog workflow, then open the page; do not search another folder or branch for this file.
 - **Related broader context:** [sandbox/README.md](../sandbox/README.md) explains how experiments, visual studies, support items, and unfinished work are described outside this portfolio-specific catalog. Not every sandbox item belongs in `/all/`; when an item is promoted, confirm its identity and details before adding it here.
