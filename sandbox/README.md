@@ -10,7 +10,7 @@ The sandbox is both a **human development space** and an **agent-readable worksp
 
 **Work is a visual sampler and overview.** The `/all/` page represents created work across its underlying categories. A piece can be small—a logo, photograph, or other discrete visual result—and still merit inclusion when it is developed enough to stand on its own. Inclusion means it has been snapshotted as a recognized piece of work, with the possibility of future iteration; it does not mean it is permanently final.
 
-The distinction is not simply unfinished versus finished. Sandbox explores what something can do; Work records what has been created. Some work may inform both, but the two spaces should not be forced into one-to-one parity. See [`../all/ALL_WORK.md`](../all/ALL_WORK.md) for the separate rules governing the Work catalog.
+The distinction is not simply unfinished versus finished. Sandbox explores what something can do; Work records what has been created. Some work may inform both, but the two spaces should not be forced into one-to-one parity. See [`https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) for the separate rules governing the Work catalog.
 
 ## Current sandbox
 
@@ -116,7 +116,7 @@ Possible viewer types include:
 
 The default live-code direction is an iframe so an experiment's CSS and JavaScript can remain isolated from the sandbox shell. Where sandboxing is appropriate, use restrictive iframe permissions such as `sandbox="allow-scripts"` rather than granting capabilities automatically.
 
-The sandbox's descriptions are intentionally broader than the portfolio's project catalog. An item may be an experiment, visual study, support utility, prototype, or unfinished idea without being a finished portfolio project. When work is explicitly represented on the `/all/` page, use [`all/ALL_WORK.md`](../all/ALL_WORK.md) for the separate catalog rules: page-order tracking, verbatim source transcription, confirmed details, and reconciliation with `all/index.html`.
+The sandbox's descriptions are intentionally broader than the portfolio's project catalog. An item may be an experiment, visual study, support utility, prototype, or unfinished idea without being a finished portfolio project. When work is explicitly represented on the `/all/` page, use [`all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) for the separate catalog rules: page-order tracking, verbatim source transcription, confirmed details, and reconciliation with `all/index.html`.
 
 The eventual viewer can provide responsive layouts such as a full viewport, mobile presentation, padded presentation, or a large-screen central viewer with surrounding context. The current direction is roughly a 20% / 60% / 20% composition on large screens, with the central 60% acting like a narrow, devtools-like experiment viewport.
 
@@ -172,7 +172,7 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 
 - [`index.html`](./index.html) — current sandbox index/viewer surface.
 - [`viewer/`](./viewer/) — viewer-related experimentation.
-- [`all/ALL_WORK.md`](../all/ALL_WORK.md) — separate workflow for the portfolio's `/all/` project catalog; use it when a sandbox experiment is promoted into that page.
+- [`all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) — separate workflow for the portfolio's `/all/` project catalog; use it when a sandbox experiment is promoted into that page.
 
 ---
 
