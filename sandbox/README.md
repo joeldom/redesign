@@ -100,6 +100,8 @@ Possible viewer types include:
 
 The default live-code direction is an iframe so an experiment's CSS and JavaScript can remain isolated from the sandbox shell. Where sandboxing is appropriate, use restrictive iframe permissions such as `sandbox="allow-scripts"` rather than granting capabilities automatically.
 
+The sandbox's descriptions are intentionally broader than the portfolio's project catalog. An item may be an experiment, visual study, support utility, prototype, or unfinished idea without being a finished portfolio project. When work is explicitly represented on the `/all/` page, use [`all/ALL_WORK.md`](../all/ALL_WORK.md) for the separate catalog rules: page-order tracking, verbatim source transcription, confirmed details, and reconciliation with `all/index.html`.
+
 The eventual viewer can provide responsive layouts such as a full viewport, mobile presentation, padded presentation, or a large-screen central viewer with surrounding context. The current direction is roughly a 20% / 60% / 20% composition on large screens, with the central 60% acting like a narrow, devtools-like experiment viewport.
 
 ## Markdown is a first-class sandbox format
@@ -154,6 +156,7 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 
 - [`index.html`](./index.html) — current sandbox index/viewer surface.
 - [`viewer/`](./viewer/) — viewer-related experimentation.
+- [`all/ALL_WORK.md`](../all/ALL_WORK.md) — separate workflow for the portfolio's `/all/` project catalog; use it when a sandbox experiment is promoted into that page.
 
 ---
 
