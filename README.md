@@ -82,6 +82,8 @@ That difference is intentional and is documented more fully in `AGENTS.md` and `
 - Production / portfolio → [joeldombek.com](https://www.joeldombek.com)
 - Development site → [joeldom.github.io/redesign](https://joeldom.github.io/redesign)
 - Active sandbox → [redesign/sandbox](https://github.com/joeldom/redesign/tree/gh-pages/sandbox)
+- All Work catalog → [`all/ALL_WORK.md`](./all/ALL_WORK.md), the companion reference for the `/all/` page and its project-content workflow
+- Sandbox guide → [`sandbox/README.md`](./sandbox/README.md), covering how experiments and non-portfolio work are organized and described
 - Dedicated future sandbox → [joeldom/sandbox](https://github.com/joeldom/sandbox)
 - Shared assets → [joeldom/asset](https://github.com/joeldom/asset)
 - Resume → [joeldom/resume](https://github.com/joeldom/resume)
@@ -128,7 +130,7 @@ changelog
 key takeaways
 ```
 
-The same fact does not need to be repeated at every level. Each document should add the context its reader needs.
+The same fact does not need to be repeated at every level. Each document should add the context its reader needs. For `/all/` content, use [`all/ALL_WORK.md`](./all/ALL_WORK.md) alongside [`all/index.html`](./all/index.html): it explains why the catalog exists, how entries are transcribed and reconciled, and which changes must stay synchronized. For work that is still an experiment or does not belong in the portfolio catalog, use the [sandbox README](./sandbox/README.md) for its broader classification and description conventions.
 
 ---
 
