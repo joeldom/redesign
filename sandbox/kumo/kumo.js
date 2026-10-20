@@ -2,7 +2,7 @@
  * KUMO — opt-in visual mode
  *
  * theme.js remains the source of truth for the global light/dark theme.
- * This file only coordinates the KUMO splash class with that shared switch.
+ * This file coordinates the KUMO splash class with the shared theme switch.
  */
 document.addEventListener("DOMContentLoaded", function () {
     const splash = document.getElementById("collapse1");
@@ -17,8 +17,18 @@ document.addEventListener("DOMContentLoaded", function () {
         kumoChiSwitch.setAttribute("aria-pressed", "false");
     }
 
-    // KUMO is opt-in and always requires the established dark theme.
+    // Clicking JOELDOMBEK toggles KUMO on and off.
     kumoChiSwitch.addEventListener("click", function () {
+        if (splash.classList.contains("雲血")) {
+            // Return directly to the base dark theme without requiring another control.
+            document.body.classList.remove("light-mode", "dark-mode-lights");
+            document.body.classList.add("dark-mode");
+            resetKumo();
+            themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+            return;
+        }
+
+        // KUMO always requires the established dark theme.
         document.body.classList.remove("light-mode", "dark-mode-lights");
         document.body.classList.add("dark-mode");
         splash.classList.remove("grid-bg");
