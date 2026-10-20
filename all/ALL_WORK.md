@@ -212,7 +212,7 @@ These are currently placeholders or cannot be identified confidently enough to w
 |---|---|
 | TBD — Brand info byline | The title/name is explicitly TBD; only the card image is present. |
 | Coming Soon — transaction-card image | Generic title and repeated Mellon viewer title; intended project/feature is unknown. |
-| Coming Soon cards (12) | Generic titles, copied Mellon viewer content, and/or placeholder images. Identify each card and its image before creating a project section. |
+| Remaining Coming Soon cards (11 additional) | Generic titles, copied Mellon viewer content, and/or placeholder images. Together with the separate transaction-card placeholder above, there are 12 generic Coming Soon cards. Identify each card and its image before creating a project section. |
 | Working on it — stay tuned | Temporary label and repeated Mellon viewer content; intended project is unconfirmed. |
 
 ### Cross-entry corrections to resolve
