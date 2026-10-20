@@ -18,6 +18,7 @@ The distinction between those roles matters: **Sandbox is for functional design*
 | [`AGENTS.md`](./AGENTS.md) | Agent operating instructions and communication model |
 | [`HUMANS.md`](./HUMANS.md) | Human context, intent, and project philosophy |
 | [`TODO.md`](./TODO.md) | Active work and contribution context |
+| [`NEXT_SPRINT.md`](./NEXT_SPRINT.md) | Current Viewer / Player / Work sprint checklist and restart protocol |
 | [`sandbox/README.md`](./sandbox/README.md) | Sandbox entry point |
 | [`sandbox/AGENTS.md`](./sandbox/AGENTS.md) | Sandbox-specific agent rules |
 | [`sandbox/HUMANS.md`](./sandbox/HUMANS.md) | Sandbox-specific human context |
