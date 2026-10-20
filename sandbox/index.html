@@ -709,6 +709,7 @@
         <div class="container">
             <div class="row">
                 <footer class="footer" itemscope="" itemtype="https://schema.org/Organization">
+                    <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-sun"></i></button>
                     <button title="Light / Dark" style="display: block; margin: 0 auto;" id="themeSwitch"><i class="fas fa-moon"></i></button>
                     <span id="back-top"><a href="#top"><i class="material-icons">keyboard_arrow_up</i></a></span>
                     <div class="row">
@@ -773,7 +774,7 @@
 
                                 <div class="col-sm-4 col-xs-12">
                                     <p class="text-right">
-                                        JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small>
+                                        <button type="button" id="kumoChiSwitch" class="kumo-chi-trigger" aria-pressed="false" aria-label="Activate KUMO visual mode" title="Activate KUMO visual mode">JOEL<strong>DOMBEK</strong></button><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small>
                                     </p>
                                     <br /><br /><br />
                                 </div>
@@ -802,6 +803,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://joeldom.github.io/redesign/js/typed-content.js"></script>
     <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
+    <!-- KUMO visual mode is opt-in; keep its behavior isolated to this sandbox page. -->
+    <style>
+        #kumoChiSwitch {
+            appearance: none;
+            -webkit-appearance: none;
+            border: 0;
+            padding: 0;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            cursor: pointer;
+            text-align: inherit;
+        }
+        #kumoChiSwitch:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 4px;
+        }
+    </style>
+    <script src="https://joeldom.github.io/redesign/sandbox/kumo/kumo.js"></script>
 </body>
 
 </html>
