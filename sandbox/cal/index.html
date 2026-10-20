@@ -8,10 +8,14 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://joeldom.github.io/redesign/css/alpha-omega.css">
+
     <style>
          :root {
             --bg: #121212;
             --bg-D: rgb(18, 18, 30);
+            --bg-L: rgb(18, 18, 30);
+            --bg-L2: rgb(143, 166, 136);
+            --bg-L3: rgb(121, 125, 107);
             --surface: #1e1e1e;
             --surface-2: #2a2a2a;
             --surface-D: #151729;
@@ -314,6 +318,10 @@
             transition: background 0.15s, border-color 0.15s;
         }
         
+        .chip:hover {
+            border: 1px solid var(--text);
+        }
+        
         .chip .dot {
             width: 10px;
             height: 10px;
@@ -329,9 +337,10 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            padding: 12px 0;
+            padding: 12px 24px;
             border-bottom: 1px solid var(--border);
             font-size: 0.95rem;
+            margin: 0 -16px;
         }
         
         .form-row .material-icons {
@@ -398,6 +407,12 @@
             width: 100%;
         }
         
+        input:focus {
+            outline: none;
+            /* box-shadow: 0 -12px 12px rgba(0, 0, 0, 0.4) inset; */
+            box-shadow: 0 -12px 12px var(--main-D) inset;
+        }
+        
         .action-btn {
             background: transparent;
             border: 1px solid var(--border);
@@ -426,11 +441,12 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="light-v2.css">
 </head>
 
 <body>
     <p class="alpha">
-        <a href="https://joeldom.github.io/redesign/" title="← Return"></a>
+        <a href="https://joeldom.github.io/redesign/sandbox" title="← Return"></a>
     </p>
 
     <div class="app">
@@ -479,8 +495,8 @@
                     <div class="chip" data-label="Friends" data-color="#f9ab00">
                         <span class="dot" style="background:#fbbc04"></span> Friends
                     </div>
-                    <div class="chip" data-label="Sports" data-color="#1a73e8">
-                        <span class="dot" style="background:#4285f4"></span> Sports
+                    <div class="chip" data-label="Sports" data-color="#1a3acc">
+                        <span class="dot" style="background:#001C9B"></span> Sports
                     </div>
                     <div class="chip" data-label="Time" data-color="#d93025">
                         <span class="dot" style="background:#ea4335"></span> Time
@@ -494,8 +510,8 @@
                     <div class="chip" data-label="Urgent" data-color="rgb(164, 123, 1)">
                         <span class="dot" style="background:#fbbc04"></span> Urgent
                     </div>
-                    <div class="chip" data-label="Appointment" data-color="#1a73e8">
-                        <span class="dot" style="background:#4285f4"></span> App
+                    <div class="chip" data-label="Appointment" data-color="#1a3acc">
+                        <span class="dot" style="background:#5f7aa6"></span> App
                     </div>
                     <div class="chip" data-label="Special" data-color="rgb(125, 40, 184)">
                         <span class="dot" style="background:rgb(125, 40, 184)"></span> Special
@@ -569,22 +585,57 @@
             "Meeting": {
                 bg: "rgba(197, 34, 31, 0.2)",
                 border: "#791c17"
+                    // Light Mode colors
+                    // element {
+                    //     top: 420 px;
+                    //     height: 60 px;
+                    //     background: rgb(39, 6, 6);
+                    //     border: 1 px solid rgb(121, 28, 23);
+                    // }
             },
             "Urgent": {
                 bg: "rgba(249, 171, 0, 0.2)",
                 border: "rgb(164, 123, 1)"
+                    // Light Mode colors
+                    // element {
+                    //     top: 540 px;
+                    //     height: 60 px;
+                    //     background: rgb(37, 27, 3);
+                    //     border: 1 px solid rgb(164, 123, 1);
+                    // }
             },
             "Appointment": {
                 bg: "rgba(26, 115, 232, 0.2)",
                 border: "#4285f4"
+                    // Light Mode colors
+                    // element {
+                    //     top: 60 px;
+                    //     height: 60 px;
+                    //     background: rgb(15, 21, 41);
+                    //     border: 1 px solid rgb(66, 133, 244);
+                    // }
             },
             "Special": {
                 bg: "rgba(135, 37, 217, 0.2)",
                 border: "rgb(125, 40, 184)"
+                    // Light Mode colors
+                    // element {
+                    //     top: 720 px;
+                    //     height: 60 px;
+                    //     background: rgb(25, 13, 35);
+                    //     border: 1 px solid rgb(125, 40, 184);
+                    // }
             },
             "To Do": {
                 bg: "rgba(52, 168, 83, 0.2)",
                 border: "#34a853"
+                    // Light Mode colors
+                    // element {
+                    //     top: 300 px;
+                    //     height: 60 px;
+                    //     background: rgb(7, 22, 5);
+                    //     border: 1 px solid rgb(52, 168, 83);
+                    // }
             }
         };
 
