@@ -5,12 +5,14 @@
  * This file coordinates the KUMO splash class with the shared theme switch.
  * Load it on pages that contain #collapse1, #themeSwitch, and #kumoChiSwitch.
  */
-document.addEventListener("DOMContentLoaded", function () {
+function initKumo() {
     const splash = document.getElementById("collapse1");
     const themeSwitch = document.getElementById("themeSwitch");
     const kumoChiSwitch = document.getElementById("kumoChiSwitch");
 
-    if (!splash || !themeSwitch || !kumoChiSwitch) return;
+    // The shared script is also used by the standalone KUMO proof of concept.
+    // Only the KUMO trigger and splash are essential; the theme switch is optional.
+    if (!splash || !kumoChiSwitch) return;
 
     function resetKumo() {
         splash.classList.remove("雲血");
@@ -28,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.body.classList.remove("light-mode", "dark-mode-lights");
             document.body.classList.add("dark-mode");
             resetKumo();
-            themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+            if (themeSwitch) themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
             kumoChiSwitch.setAttribute("aria-label", "Activate KUMO visual mode");
             kumoChiSwitch.setAttribute("title", "Activate KUMO visual mode");
             return;
@@ -42,17 +44,26 @@ document.addEventListener("DOMContentLoaded", function () {
         kumoChiSwitch.setAttribute("aria-pressed", "true");
         kumoChiSwitch.setAttribute("aria-label", "Deactivate KUMO visual mode");
         kumoChiSwitch.setAttribute("title", "Deactivate KUMO visual mode");
-        themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+        if (themeSwitch) themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
     });
 
     // Let the shared theme.js listener finish first, then sync KUMO to its result.
-    themeSwitch.addEventListener("click", function () {
-        window.setTimeout(function () {
-            if (document.body.classList.contains("light-mode")) {
-                resetKumo();
-                kumoChiSwitch.setAttribute("aria-label", "Activate KUMO visual mode");
-                kumoChiSwitch.setAttribute("title", "Activate KUMO visual mode");
-            }
-        }, 0);
-    });
-});
+    if (themeSwitch) {
+        themeSwitch.addEventListener("click", function () {
+            window.setTimeout(function () {
+                if (document.body.classList.contains("light-mode")) {
+                    resetKumo();
+                    kumoChiSwitch.setAttribute("aria-label", "Activate KUMO visual mode");
+                    kumoChiSwitch.setAttribute("title", "Activate KUMO visual mode");
+                }
+            }, 0);
+        });
+    }
+}
+
+// Support normal bottom-of-page loading and scripts loaded after DOMContentLoaded.
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initKumo);
+} else {
+    initKumo();
+}
