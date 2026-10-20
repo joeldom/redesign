@@ -1894,7 +1894,7 @@ These are currently placeholders or cannot be identified confidently enough to w
 
 ## Checklist for a new or revised project
 
-- [ ] Add the project to the correct category section in this file first, using only confirmed details.
+- [ ] Add the project at the matching position in the page-order catalog, using only confirmed details.
 - [ ] Set the card's visible category/label and title in `all/index.html`.
 - [ ] Verify the card image and any additional image-set assets.
 - [ ] Add/update the hidden `.viewer-content` block with the correct category, title, overview, project-specific details, goal/outcome, and destination link when available.
@@ -1904,4 +1904,4 @@ These are currently placeholders or cannot be identified confidently enough to w
 - [ ] Update the catalog status and remove the HTML follow-up comment only when the gap is resolved.
 
 ---
-_Last reviewed: 2026-10-20. The page-order transcription is reconciled against `all/index.html` on `gh-pages`. This document is a manually maintained catalog, not a runtime data source._
+_Last reviewed: 2026-10-20. Page-order transcription and workflow note aligned with `all/index.html` on `gh-pages`. This document is a manually maintained catalog, not a runtime data source._
