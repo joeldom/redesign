@@ -22,11 +22,12 @@ Before changing anything:
 
 Do not treat unfamiliar code as bad code merely because it is unconventional.
 
-### Catalog and sandbox documentation are complementary
+### Functional Sandbox vs. Visual Work catalog
 
-- [`all/ALL_WORK.md`](./all/ALL_WORK.md) explains why the `/all/` catalog exists and how to maintain it alongside `all/index.html`. Keep the catalog in page order, preserve source markup verbatim, separate interpretation from transcription, do not guess at unknown projects or assets, and keep the page and companion review notes aligned.
-- [`sandbox/README.md`](./sandbox/README.md) covers the broader sandbox inventory and the language used to describe experiments, support areas, viewer work, visual studies, and unfinished ideas. Do not force every sandbox item into a portfolio-project template.
-- These documents serve different purposes. Use the catalog for confirmed `/all/` page content and its reconciliation workflow; use the sandbox guide for understanding and describing work outside that narrower catalog. Cross-reference rather than duplicating large sections of either document.
+- [`sandbox/README.md`](./sandbox/README.md) defines the sandbox as a **functional design workspace**: features, interaction experiments, prototypes, viewer/player behavior, utilities, and other explorations of what something can do or how it behaves. A sandbox item can remain a demo or experiment without becoming a portfolio entry.
+- [`all/ALL_WORK.md`](./all/ALL_WORK.md) documents **Work** as a visual sampler and overview of created work across its underlying categories. An entry can be small—a logo, photograph, or other discrete visual piece—and does not need to be a large case study. Inclusion means the work is sufficiently realized to deserve a snapshot and a place in the broader body of work; it can still be iterated later.
+- These are complementary spaces, not a simple unfinished/finished pipeline. Sandbox explores functionality; Work records visual output worth representing. Some work can inform both, but do not force every sandbox experiment into Work or require every Work entry to have a functional prototype.
+- Keep the catalog in page order, preserve source markup verbatim, separate interpretation from transcription, do not guess at unknown projects or assets, and keep the page and companion review notes aligned. Cross-reference rather than duplicating large sections of either document.
 
 ---
 
