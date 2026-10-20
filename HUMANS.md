@@ -30,17 +30,21 @@ That is all useful history.
 
 ---
 
-# The Sandbox Is a Playground
+# The Sandbox Is a Functional Design Workspace
 
-The active sandbox lives inside `redesign` because that is where many ideas currently need to be developed, tested, and sometimes featured directly alongside the site.
+The sandbox is where functionality is explored: features, interactions, prototypes, experiments, utilities, viewer/player behavior, and tests of how something works or behaves. It is allowed to contain demos and unfinished explorations. An experiment does not need to become a portfolio entry to justify its existence.
 
 A separate `joeldom/sandbox` repository is intended for work that eventually benefits from a larger or more independent environment, especially agent-assisted experiments, reusable tooling, automation, or infrastructure.
 
-There is no requirement to move something merely because it becomes active.
+There is no requirement to move something merely because it becomes active. High commit activity is acceptable in a solo development workspace. The repository should follow the work rather than forcing the work to follow an artificial structure.
 
-High commit activity is acceptable in a solo development workspace.
+## Work Is a Visual Sampler and Overview
 
-The repository should follow the work rather than forcing the work to follow an artificial repository structure.
+The `/all/` Work page serves a different purpose. It represents created work across its underlying categories and gives a sampler/overview of that body of work. Inclusion is not limited to large projects or polished case studies: a logo, photograph, or other small piece can belong if the concept is developed enough to stand on its own.
+
+An entry's inclusion means it has been snapshotted as a recognized piece of work, with the possibility of later iteration. It does not mean the piece is immutable or that it can never be refined. The catalog records what currently deserves a place in the pantheon of work; it is not simply a list of sandbox experiments.
+
+**In short: Sandbox explores what something can do; Work records what has been created.** The two can inform each other without containing the same things.
 
 ---
 
