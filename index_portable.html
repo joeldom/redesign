@@ -175,7 +175,7 @@
             <div class="col-xs-12 col-sm-8 col-md-4">
                 <section class="tile-splash first">
                     <!-- <a href="https://www.joeldombek.com/"> -->
-                    <a href="https://joeldom.github.io/redesign/" id="kumoChiSwitch" class="kumo-chi-trigger" aria-pressed="false" aria-label="Activate KUMO visual mode" title="Activate KUMO visual mode">
+                    <a href="https://joeldom.github.io/redesign/">
                         <p>
                             JOEL<strong>DOMBEK</strong><span id="brand-term-container">名前</span>
                             <!-- <span class="tile-detail">v1.2.17</span> -->
@@ -602,7 +602,7 @@
 
                                 <div class="col-sm-4 col-xs-12">
                                     <p class="text-right">
-                                        JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small>
+                                        <button type="button" id="kumoChiSwitch" class="kumo-chi-trigger" aria-pressed="false" aria-label="Activate KUMO visual mode" title="Activate KUMO visual mode">JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small></button>
                                     </p>
                                     <br /><br /><br />
                                 </div>
@@ -626,74 +626,28 @@
     <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
 
     <!-- KUMO theme switching: integrated here so this page does not depend on a separate JS request. -->
-    <script>
-    (function () {
-        function initKumoThemeSwitching() {
-            const splash = document.getElementById("collapse1");
-            const trigger = document.getElementById("kumoChiSwitch");
-            const themeSwitch = document.getElementById("themeSwitch");
+    
 
-            if (!splash || !trigger) {
-                console.error("KUMO: required #collapse1 or #kumoChiSwitch element is missing.");
-                return;
-            }
 
-            function setKumo(active) {
-                if (active) {
-                    // KUMO is a dark-mode visual variant.
-                    document.body.classList.remove("light-mode", "dark-mode-lights");
-                    document.body.classList.add("dark-mode");
-                    splash.classList.remove("grid-bg");
-                    splash.classList.add("雲血");
-                    trigger.setAttribute("aria-pressed", "true");
-                    trigger.setAttribute("aria-label", "Deactivate KUMO visual mode");
-                    trigger.setAttribute("title", "Deactivate KUMO visual mode");
-                    if (themeSwitch) themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
-                    return;
-                }
-
-                splash.classList.remove("雲血");
-                splash.classList.add("grid-bg");
-                trigger.setAttribute("aria-pressed", "false");
-                trigger.setAttribute("aria-label", "Activate KUMO visual mode");
-                trigger.setAttribute("title", "Activate KUMO visual mode");
-            }
-
-            trigger.addEventListener("click", function (event) {
-                // JOELDOMBEK is a link in the main page; clicking it toggles KUMO, not navigation.
-                if (trigger.tagName === "A") event.preventDefault();
-
-                if (splash.classList.contains("雲血")) {
-                    // Turning KUMO off returns to the established dark theme.
-                    document.body.classList.remove("light-mode", "dark-mode-lights");
-                    document.body.classList.add("dark-mode");
-                    setKumo(false);
-                    if (themeSwitch) themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
-                } else {
-                    setKumo(true);
-                }
-            });
-
-            // The global theme switch remains in charge of light/dark mode.
-            // If it switches to light, leave KUMO and restore the regular grid.
-            if (themeSwitch) {
-                themeSwitch.addEventListener("click", function () {
-                    window.setTimeout(function () {
-                        if (document.body.classList.contains("light-mode")) {
-                            setKumo(false);
-                        }
-                    }, 0);
-                });
-            }
+    <!-- KUMO footer trigger styling and shared theme-switching behavior, matching the sandbox POC. -->
+    <style>
+        #kumoChiSwitch {
+            appearance: none;
+            -webkit-appearance: none;
+            border: 0;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            padding: 0;
+            cursor: pointer;
+            text-align: inherit;
         }
-
-        if (document.readyState === "loading") {
-            document.addEventListener("DOMContentLoaded", initKumoThemeSwitching);
-        } else {
-            initKumoThemeSwitching();
+        #kumoChiSwitch:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 4px;
         }
-    })();
-    </script>
+    </style>
+    <script src="https://joeldom.github.io/redesign/js/kumo.js?v=20261020-3"></script>
 
 </body>
 
