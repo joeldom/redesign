@@ -175,7 +175,7 @@
             <div class="col-xs-12 col-sm-8 col-md-4">
                 <section class="tile-splash first">
                     <!-- <a href="https://www.joeldombek.com/"> -->
-                    <a href="https://joeldom.github.io/redesign/" id="kumoChiSwitch" class="kumo-chi-trigger" aria-pressed="false" aria-label="Activate KUMO visual mode" title="Activate KUMO visual mode">
+                    <a href="https://joeldom.github.io/redesign/">
                         <p>
                             JOEL<strong>DOMBEK</strong><span id="brand-term-container">名前</span>
                             <!-- <span class="tile-detail">v1.2.17</span> -->
@@ -602,7 +602,7 @@
 
                                 <div class="col-sm-4 col-xs-12">
                                     <p class="text-right">
-                                        JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small>
+                                        <button type="button" id="kumoChiSwitch" class="kumo-chi-trigger" aria-pressed="false" aria-label="Activate KUMO visual mode" title="Activate KUMO visual mode">JOEL<strong>DOMBEK</strong><small class="hidden-sm hidden-md hidden-lg">&nbsp;©2026</small><small><br class="test-hidden-sm">V3.09.10.26<br class="hidden-xs"><span class="hidden-xs">©2026</span></small></button>
                                     </p>
                                     <br /><br /><br />
                                 </div>
@@ -624,7 +624,31 @@
     <script src="https://joeldom.github.io/redesign/js/sandbox.js"></script>
     <script src="https://joeldom.github.io/redesign/js/keyShuffle.js"></script>
     <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
-    <script src="https://joeldom.github.io/redesign/js/kumo.js"></script>
+
+    <!-- KUMO theme switching: integrated here so this page does not depend on a separate JS request. -->
+    
+
+
+    <!-- KUMO footer trigger styling and shared theme-switching behavior, matching the sandbox POC. -->
+    <style>
+        #kumoChiSwitch {
+            appearance: none;
+            -webkit-appearance: none;
+            border: 0;
+            background: transparent;
+            color: inherit;
+            font: inherit;
+            padding: 0;
+            cursor: pointer;
+            text-align: inherit;
+        }
+        #kumoChiSwitch:focus-visible {
+            outline: 2px solid currentColor;
+            outline-offset: 4px;
+        }
+    </style>
+    <script src="https://joeldom.github.io/redesign/js/kumo.js?v=20261020-3"></script>
+
 </body>
 
 </html>
