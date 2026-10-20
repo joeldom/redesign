@@ -86,6 +86,20 @@ That difference is intentional and is documented more fully in `AGENTS.md` and `
 - Shared assets → [joeldom/asset](https://github.com/joeldom/asset)
 - Resume → [joeldom/resume](https://github.com/joeldom/resume)
 
+### Landing page: portable / FTP workflow
+
+The GitHub Pages landing page is maintained in `index.html`. When a top-page feature changes, the FTP-uploadable portable copy must be brought into parity; updating only `index.html` is not a complete integration.
+
+| File | Role |
+|---|---|
+| [`index.html`](./index.html) | Main GitHub Pages landing page and source for top-page integration |
+| [`index_portable.html`](./index_portable.html) | Current portable copy for manual FTP upload; **all local asset references must be absolute URLs** |
+| [`index_portable-10-20-2026.html`](./index_portable-10-20-2026.html) | Dated portable backup; preserve as historical backup |
+| [`bkup/10-20-2026/index.html`](./bkup/10-20-2026/index.html) | Undated-name snapshot of the main page as of 2026-10-20 |
+| [`bkup/10-20-2026/portable.html`](./bkup/10-20-2026/portable.html) | Undated-name snapshot of the portable page as of 2026-10-20 |
+
+For top-page work, prototype and verify the behavior in the relevant sandbox first, then integrate it into the main page and portable copy. Refresh the undated snapshot files after the implementation is settled; retain dated backups unchanged. See [`AGENTS.md`](./AGENTS.md) for the required integration and verification checklist.
+
 ---
 
 ## Documentation Model
@@ -123,7 +137,7 @@ The same fact does not need to be repeated at every level. Each document should 
 
 The development site is both a portfolio surface and a place to build, isolate, and verify new interactions before they are promoted.
 
-- **KUMO / 雲血** — an opt-in visual treatment for the landing-page splash. The [KUMO proof of concept](./sandbox/kumo/) starts in dark mode with the standard `grid-bg` splash. Its dedicated `kumo.js` swaps `grid-bg` for the KUMO `雲血` treatment when activated, while shared `theme.js` remains responsible for global light/dark mode. Keep the KUMO treatment opt-in and experimental; dark mode itself is the default.
+- **KUMO / 雲血** — an opt-in visual treatment for the landing-page splash, introduced in [the KUMO proof of concept](./sandbox/kumo/) and then integrated into the main page. The footer `JOELDOMBEK` trigger toggles the splash between `grid-bg` and `雲血`; the shared `theme.js` remains responsible for global light/dark mode, while [`js/kumo.js`](./js/kumo.js) owns the KUMO behavior. Keep it opt-in; dark mode remains the default. Top-page KUMO changes must be reflected in the [portable page](./index_portable.html) for FTP upload.
 - **Viewer.js** — full-browser media viewing for experiments, collections, and project content.
 - **UXBG / Player.js** — embedded media and navigation/player behavior, including control visibility and interaction states.
 - **Work / Projects data model** — a planned move toward reusable project data that individual work pages can selectively load. This is a goal, not yet a completed architecture.
