@@ -344,7 +344,34 @@ See `sandbox/AGENTS.md` and `sandbox/SANDBOX.md` for sandbox-specific rules.
 
 ---
 
-# 10. Testing
+# 10. Main Landing Page, Portable Copy, and FTP Parity
+
+Treat the main landing page and portable page as paired deliverables whenever a feature affects the top page.
+
+- Main GitHub Pages source: [`index.html`](./index.html)
+- FTP-uploadable portable copy: [`index_portable.html`](./index_portable.html)
+- Shared KUMO behavior: [`js/kumo.js`](./js/kumo.js)
+- Sandbox KUMO proof of concept: [`sandbox/kumo/`](./sandbox/kumo/)
+- Snapshot directory: [`bkup/10-20-2026/`](./bkup/10-20-2026/)
+
+## Required integration sequence
+
+1. Inspect the existing sandbox prototype and identify the actual interaction, target element, styling, theme dependencies, and script-loading behavior.
+2. Integrate the feature into the main `index.html`; preserve unrelated behavior and the existing top navigation. For the KUMO feature, the footer `JOELDOMBEK` button is the trigger—not the top brand/navigation link.
+3. Port the same user-facing behavior to `index_portable.html`. Do not assume a main-page change automatically reaches the FTP copy.
+4. Keep local asset references in the portable file **absolute** (CSS, JavaScript, images, video, fonts, and other files). The portable file must not depend on relative paths resolving from the GitHub Pages repository structure.
+5. Prefer one shared behavior script when appropriate. If the sandbox needs a local script copy, keep it intentionally aligned and confirm which file each page loads. Update a cache-busting query parameter when changing a shared script.
+6. After implementation and source checks, refresh the undated-name snapshots in `bkup/10-20-2026/`:
+   - [`index.html`](./bkup/10-20-2026/index.html) — current main-page snapshot.
+   - [`portable.html`](./bkup/10-20-2026/portable.html) — current portable snapshot.
+7. Preserve dated backup files as historical references. Do not overwrite dated backups when refreshing the current snapshots.
+8. Verify each page independently: trigger location and action, theme interaction, script URL, asset paths, responsive behavior, and keyboard focus as relevant. Source inspection is not the same as live browser testing; state clearly what was and was not tested.
+
+This process was established during the KUMO / 雲血 integration. Apply the same parity discipline to future top-page features, including Viewer.js and UXBG / Player.js / hero-background media behavior. A feature is not fully integrated until both the main page and portable copy are updated and checked.
+
+---
+
+# 11. Testing
 
 For HTML/CSS/JS changes:
 
@@ -359,7 +386,7 @@ For documentation-only changes, check links, code fences, headings, and consiste
 
 ---
 
-# 11. Changelog Behavior
+# 12. Changelog Behavior
 
 When making a changelog entry:
 
