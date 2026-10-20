@@ -6,6 +6,7 @@
 
 - **Canonical page:** [all/index.html](./index.html) in this same directory. The live page is [the All Work page](https://joeldom.github.io/redesign/all/index.html).
 - **This companion file:** [all/ALL_WORK.md](./ALL_WORK.md), beside `index.html`. Start here for the catalog workflow, then open the page; do not search another folder or branch for this file.
+- **Related broader context:** [sandbox/README.md](../sandbox/README.md) explains how experiments, visual studies, support items, and unfinished work are described outside this portfolio-specific catalog. Not every sandbox item belongs in `/all/`; when an item is promoted, confirm its identity and details before adding it here.
 - The gallery cards and viewer content remain hand-authored in `index.html`. **Do not move gallery entries into a JavaScript/data object.**
 - **Keep the catalog in page order.** The `Project catalog in page order` section below follows the gallery from first card to last; do not regroup entries into category sections.
 - For every entry, preserve the page's content verbatim, including all paragraphs, headings, lists, GOAL text, and links. Keep notes/interpretations separate from the verbatim source transcription.
