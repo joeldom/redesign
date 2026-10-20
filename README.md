@@ -6,6 +6,8 @@
 
 The repository is intentionally part portfolio, part laboratory, and part development record.
 
+The distinction between those roles matters: **Sandbox is for functional design**—features, behavior, prototypes, and experiments—while **Work is a visual sampler and overview** of created pieces across their categories. Work can include a small logo or photograph as well as a larger project; inclusion means it is developed enough to snapshot and recognize, not that it can never be iterated.
+
 ---
 
 ## Start Here
@@ -52,9 +54,11 @@ The point is to preserve the path well enough that useful work can be revisited.
 
 ## Sandbox
 
-The active experimental space is [`sandbox/`](./sandbox/).
+The active functional-design workspace is [`sandbox/`](./sandbox/).
 
-It is intentionally permissive: visual studies, HTML/CSS/JS experiments, interaction tests, writing, media, accessibility work, viewer development, and unfinished ideas can coexist there.
+It is intentionally permissive: feature experiments, HTML/CSS/JS prototypes, interaction tests, viewer/player development, utilities, and unfinished behavior studies can coexist there. Its purpose is to explore how something works or behaves; it is not a staging queue that every item must leave.
+
+The `/all/` Work page has a different job: it is a visual sampler and overview of created work across categories. A logo, photograph, or other small piece can qualify if it is sufficiently realized to stand on its own. Its inclusion records a snapshot of work worth representing while leaving room for later iteration. See [`all/ALL_WORK.md`](./all/ALL_WORK.md) for catalog rules and [`sandbox/README.md`](./sandbox/README.md) for functional experiments.
 
 A separate `joeldom/sandbox` repository is intended for larger or more agent-oriented work when an experiment benefits from an independent lifecycle.
 
