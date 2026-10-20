@@ -377,6 +377,13 @@ Treat the main landing page and portable page as paired deliverables whenever a 
 
 This process was established during the KUMO / 雲血 integration. Apply the same parity discipline to future top-page features, including Viewer.js and UXBG / Player.js / hero-background media behavior. A feature is not fully integrated until both the main page and portable copy are updated and checked.
 
+## Feature lifecycle: demo, snapshot, promotion
+
+- A sandbox demo is not automatically a promoted site feature. Keep the current demo/reference available until a deliberate snapshot captures the version selected for promotion.
+- **KUMO / 雲血 is already integrated into the top of the site. Pause further KUMO development by default**; only reopen it for a concrete refinement. Version each meaningful refinement rather than silently replacing the existing demo.
+- Apply the same lifecycle to Viewer and UXBG / Player: keep their sandbox versions as demos while they are being explored, then make a deliberate, reviewable snapshot before promoting a version into a proper site feature.
+- A promotion snapshot is a milestone, not a declaration that the work can never change. Preserve the experiment's lineage and keep main-page, portable, and snapshot files in parity when the feature is integrated.
+
 ---
 
 # 11. Testing
