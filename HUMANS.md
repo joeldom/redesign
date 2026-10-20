@@ -287,9 +287,19 @@ These workstreams share the redesign environment, but they do not need to ship t
 
 KUMO is an experimental visual treatment applied to the landing splash section (`#collapse1`) through the `雲血` class. It explores a distinct deep, dark, red-accented visual language alongside the established site theme rather than replacing the default theme.
 
-The intended interaction is discreet and opt-in: activating the footer name adds `雲血` and ensures the page is in dark mode. `theme.js` remains responsible for global light/dark mode; the KUMO-specific behavior belongs in `sandbox/kumo/kumo.js`. Switching the shared theme control to light mode removes `雲血`, returning the splash to its base light-theme styling. The page's default global theme is dark mode, with `grid-bg` on the splash. KUMO activation swaps the splash class from `grid-bg` to `雲血`; leaving KUMO restores `grid-bg`. Keep the KUMO treatment scoped to the splash section; do not turn it into a global body theme or make the red treatment the default.
+The interaction is discreet and opt-in: activating the footer `JOELDOMBEK` name toggles `雲血` on the splash (`#collapse1`) and ensures dark mode. The page starts in dark mode with `grid-bg`; activating KUMO swaps `grid-bg` for `雲血`, and deactivating it restores `grid-bg`. Switching the shared theme control to light mode also exits KUMO. Keep the effect scoped to the splash and do not make the red treatment the default.
 
-The first proof of concept lives at [`sandbox/kumo/`](./sandbox/kumo/). Verify activation, repeated light/dark switching, keyboard focus, and the return to base styling there before integrating the behavior into the main landing page. The current KUMO page is a visual reference, not permission to change the production-facing default.
+The first proof of concept lives at [`sandbox/kumo/`](./sandbox/kumo/). After the behavior was tested there, it was integrated into the main landing page through the footer trigger and the shared [`js/kumo.js`](./js/kumo.js) script. The sandbox retains its local `kumo.js` copy; the main page and portable page load the shared script. The trigger is a button, not the top navigation/brand link, so activating it does not navigate away.
+
+### Landing-page integration and FTP parity
+
+The main page and portable page are separate deliverables. Any top-page feature that is integrated into `index.html` must also be deliberately ported to [`index_portable.html`](./index_portable.html), the version prepared for manual FTP upload. Do not assume the portable page updates automatically.
+
+The portable copy must use **absolute URLs for every local asset reference** so its CSS, JavaScript, media, and images continue to resolve when uploaded to the production site. Prefer shared behavior where practical rather than maintaining divergent inline implementations. For KUMO, both copies load [`js/kumo.js`](./js/kumo.js) with a version query for cache busting.
+
+Use the [main page](./index.html), [current portable file](./index_portable.html), [dated portable backup](./index_portable-10-20-2026.html), and [2026-10-20 main-page snapshot](./bkup/10-20-2026/index.html) / [portable snapshot](./bkup/10-20-2026/portable.html) as the reference points. Keep dated backups unchanged; refresh the undated-name snapshot files when the current implementation is ready. This parity process is intended to cover future top-page integrations too, including Viewer.js and UXBG / Player.js.
+
+Before calling a feature integrated, check the actual interaction—not only that the script tag or trigger exists. Verify the main page and portable page separately, inspect responsive and keyboard behavior where relevant, and clearly state if live browser testing was not performed.
 
 ## Viewer and UXBG / Media Player
 
