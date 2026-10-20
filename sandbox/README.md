@@ -1,8 +1,16 @@
 # Sandbox
 
-> A living workspace for experiments, prototypes, visual studies, interface ideas, code experiments, and things that are not ready to become projects yet.
+> A functional design workspace for features, interaction experiments, prototypes, utilities, viewer/player behavior, and other explorations of how things work.
 
-The sandbox is both a **human development space** and an **agent-readable workspace**. It exists to make experimentation cheap: ideas can be tried, changed, broken, rebuilt, documented, and revisited without needing to become polished projects first.
+The sandbox is both a **human development space** and an **agent-readable workspace**. It exists to make functional experimentation cheap: ideas can be tried, changed, broken, rebuilt, documented, and revisited without needing to become promoted features or portfolio entries first.
+
+## Sandbox and Work serve different purposes
+
+**Sandbox is for functional design.** It is where features and experiments are built, tested, and iterated. An item may remain a demo or prototype indefinitely; it does not need to be a finished portfolio project.
+
+**Work is a visual sampler and overview.** The `/all/` page represents created work across its underlying categories. A piece can be small—a logo, photograph, or other discrete visual result—and still merit inclusion when it is developed enough to stand on its own. Inclusion means it has been snapshotted as a recognized piece of work, with the possibility of future iteration; it does not mean it is permanently final.
+
+The distinction is not simply unfinished versus finished. Sandbox explores what something can do; Work records what has been created. Some work may inform both, but the two spaces should not be forced into one-to-one parity. See [`../all/ALL_WORK.md`](../all/ALL_WORK.md) for the separate rules governing the Work catalog.
 
 ## Current sandbox
 
@@ -69,6 +77,14 @@ Before changing anything:
 7. Update documentation or viewer metadata when a change affects how an item is opened or understood.
 
 Do not assume every sandbox item needs to be production-ready, generalized, framework-based, or cleaned up. The sandbox is explicitly allowed to be strange, redundant, temporary, visual, technical, or unfinished.
+
+## From Sandbox Demo to Promoted Feature
+
+A demo in the sandbox is not automatically a site feature. Keep it available as a working experiment until a deliberate snapshot captures the version being considered for promotion. That snapshot is a reviewable milestone: it lets the feature be promoted from a sandbox demo into a proper site feature without erasing the experiment's history or assuming that every future refinement belongs in the demo.
+
+KUMO / 雲血 is the current example. Since KUMO has been integrated into the top of the site, pause further KUMO development by default. Reopen it only when a specific refinement is needed; make that refinement in a clearly versioned iteration, and keep the existing sandbox implementation as the demo/reference until a deliberate snapshot is made for promotion. Apply the same lifecycle to Viewer and the player/UXBG work: the existing sandbox versions remain useful demos until a snapshot is chosen for promotion to a proper feature.
+
+Promotion is a deliberate decision, not an automatic consequence of a prototype becoming useful. Before promotion, compare the candidate snapshot with the current main and portable implementations, document the intended behavior, and verify the integration paths.
 
 ## Viewer direction
 
