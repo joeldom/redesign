@@ -1,8 +1,16 @@
 # Sandbox
 
-> A living workspace for experiments, prototypes, visual studies, interface ideas, code experiments, and things that are not ready to become projects yet.
+> A functional design workspace for features, interaction experiments, prototypes, utilities, viewer/player behavior, and other explorations of how things work.
 
-The sandbox is both a **human development space** and an **agent-readable workspace**. It exists to make experimentation cheap: ideas can be tried, changed, broken, rebuilt, documented, and revisited without needing to become polished projects first.
+The sandbox is both a **human development space** and an **agent-readable workspace**. It exists to make functional experimentation cheap: ideas can be tried, changed, broken, rebuilt, documented, and revisited without needing to become promoted features or portfolio entries first.
+
+## Sandbox and Work serve different purposes
+
+**Sandbox is for functional design.** It is where features and experiments are built, tested, and iterated. An item may remain a demo or prototype indefinitely; it does not need to be a finished portfolio project.
+
+**Work is a visual sampler and overview.** The `/all/` page represents created work across its underlying categories. A piece can be small—a logo, photograph, or other discrete visual result—and still merit inclusion when it is developed enough to stand on its own. Inclusion means it has been snapshotted as a recognized piece of work, with the possibility of future iteration; it does not mean it is permanently final.
+
+The distinction is not simply unfinished versus finished. Sandbox explores what something can do; Work records what has been created. Some work may inform both, but the two spaces should not be forced into one-to-one parity. See [`https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) for the separate rules governing the Work catalog.
 
 ## Current sandbox
 
@@ -70,6 +78,14 @@ Before changing anything:
 
 Do not assume every sandbox item needs to be production-ready, generalized, framework-based, or cleaned up. The sandbox is explicitly allowed to be strange, redundant, temporary, visual, technical, or unfinished.
 
+## From Sandbox Demo to Promoted Feature
+
+A demo in the sandbox is not automatically a site feature. Keep it available as a working experiment until a deliberate snapshot captures the version being considered for promotion. That snapshot is a reviewable milestone: it lets the feature be promoted from a sandbox demo into a proper site feature without erasing the experiment's history or assuming that every future refinement belongs in the demo.
+
+KUMO / 雲血 is the current example. Since KUMO has been integrated into the top of the site, pause further KUMO development by default. Reopen it only when a specific refinement is needed; make that refinement in a clearly versioned iteration, and keep the existing sandbox implementation as the demo/reference until a deliberate snapshot is made for promotion. Apply the same lifecycle to Viewer and the player/UXBG work: the existing sandbox versions remain useful demos until a snapshot is chosen for promotion to a proper feature.
+
+Promotion is a deliberate decision, not an automatic consequence of a prototype becoming useful. Before promotion, compare the candidate snapshot with the current main and portable implementations, document the intended behavior, and verify the integration paths.
+
 ## Viewer direction
 
 The sandbox is intended to grow into a viewer-driven workspace rather than simply a directory of links.
@@ -99,6 +115,8 @@ Possible viewer types include:
 - `custom` — specialized viewer behavior when an experiment needs it.
 
 The default live-code direction is an iframe so an experiment's CSS and JavaScript can remain isolated from the sandbox shell. Where sandboxing is appropriate, use restrictive iframe permissions such as `sandbox="allow-scripts"` rather than granting capabilities automatically.
+
+The sandbox's descriptions are intentionally broader than the portfolio's project catalog. An item may be an experiment, visual study, support utility, prototype, or unfinished idea without being a finished portfolio project. When work is explicitly represented on the `/all/` page, use [`all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) for the separate catalog rules: page-order tracking, verbatim source transcription, confirmed details, and reconciliation with `all/index.html`.
 
 The eventual viewer can provide responsive layouts such as a full viewport, mobile presentation, padded presentation, or a large-screen central viewer with surrounding context. The current direction is roughly a 20% / 60% / 20% composition on large screens, with the central 60% acting like a narrow, devtools-like experiment viewport.
 
@@ -154,6 +172,7 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 
 - [`index.html`](./index.html) — current sandbox index/viewer surface.
 - [`viewer/`](./viewer/) — viewer-related experimentation.
+- [`all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) — separate workflow for the portfolio's `/all/` project catalog; use it when a sandbox experiment is promoted into that page.
 
 ---
 
