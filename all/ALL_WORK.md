@@ -11,6 +11,9 @@
 - For each project, capture the information that applies: **overview, category, role/contribution, audience/problem, approach/key decisions, outcome/goal, deliverables, image(s), destination link, status**.
 - Clearly generic placeholders are intentionally kept out of the project write-ups below. They remain listed in the placeholder section at the end so they can be identified and replaced later.
 - The category sections below are the place to write the actual content first; the scanning tables are only for inventory and technical comparisons.
+- Look for ones with [updated:DATE - TIME] to move the info into the page. Once added remove the date time and add ✅.
+- Content of each entry should be captured verbatim from the page and added here where it exists and reconciled with any content here. Confirm this by checking if any file changes happened on the `https://joeldom.github.io/redesign/all/index.html` file.
+- Make a version note in the page and `ALL_WORK.md` that should always align with each update [this doesn't currently exist].
 
 ## Viewer prototype comparison — v5 to v6
 
@@ -64,30 +67,36 @@ Use these sections to write or refine project content. The notes below distingui
 
 ## Brand and identity
 
-### Exo — AI Agent Account
+### Exo — AI Agent Account [missing content from page]
 - **Category:** Brand.
 - **Current overview:** An AI agent developed to change the author's content-creation workflow. It takes ideas/prompts from assigned tickets, drafts posts in pull requests for approval, and sends notifications through Discord or X/Twitter. The stated broader aim is to connect content ideation, social previews, and emerging DevOps/agent patterns.
 - **Technical details already in the page:** OpenAI/Anthropic APIs; Twitter API v2 via `twitter-api-v2`; Discord.js; GitHub Actions; environment-based secrets; Node readline CLI; service/utilities/log separation.
 - **Links in current copy:** [Repository](https://github.com/joeldom/exo), [@ecco_exo on X](https://x.com/ecco_exo), [case study](https://joeldom.github.io/redesign/sandbox/prompt/).
 - **Next:** Proofread the description for clarity and accuracy; verify current implementation/status and make sure the case study describes the same version of the project.
+- **NOTE**: There is more info on the page than shown here. This needs reconciled to include the current page content. This is the template for other entries on how to show long-form content and sections.
 
-### Ecco — Umbrella brand
+### Ecco — Umbrella brand [updated:10.20.2026 - 2:00pm]
+- **Category:** Brand.
 - **Current evidence:** Card is labeled “Umbrella brand” and uses an Ecco AI app-logo image.
 - **Next:** Write the role of Ecco as an umbrella identity; clarify how it relates to Ghost and Exo, which products/projects it covers, and what identity elements are shared. Do not assume those relationships without confirmation.
 
-### Ghost — Emotive Chat feedback
+### Ghost — Emotive Chat feedback [updated:10.20.2026 - 2:00pm]
+- **Category:** Brand, Design System.
 - **Current evidence:** Card label “Emotive Chat feedback”; image is `ecco-ohno.png`; no viewer content exists.
 - **Next:** Explain the feedback/user problem, the role of emotive chat feedback, the design or interaction approach, what was evaluated, and the outcome. Confirm whether Ghost is a product, concept, or identity.
 
-### Cred — JD
+### Cred — JD [updated:10.20.2026 - 2:00pm]
+- **Category shown:** Brand
 - **Current evidence:** Card label “Cred”; image is `Card-Concept.gif`; no viewer content exists.
 - **Next:** Define what Cred is, the audience/use case, what the card concept represents, and the design decisions/status.
 
-### S-Tier — Clothing line
+### S-Tier — Clothing line [updated:10.20.2026 - 2:00pm]
+- **Category shown:** Brand, Design
 - **Current evidence:** Card label “Clothing line”; image is `stier tag v2 text F.png`; no viewer content exists.
 - **Next:** Explain the clothing-line concept, intended audience, brand/label system, and applications. Confirm what “S-Tier” means in the project's own context.
 
-### Annual Report — 2025
+### Annual Report — 2025  [updated:10.20.2026 - 2:00pm]
+- **Category shown:** Brand, Design
 - **Current evidence:** Card label “Annual Report”; image is `chip-2025.png`; no viewer content exists.
 - **Next:** Add the report's purpose, audience, content hierarchy, visual system, and deliverables. Confirm what organization/product the report represents.
 
@@ -109,7 +118,8 @@ Use these sections to write or refine project content. The notes below distingui
 - **Current evidence:** Card label “Accounts Identity”; viewer title “JD Profile”; image is `J-lattice-logo.png`. The viewer category currently says Community, which may be wrong.
 - **Next:** Confirm whether this is a personal account/profile identity system, a logo, or a broader account family. Then document the system's scope, applications, rationale, and correct category.
 
-### JD Legacy Logo — v1
+### JD Legacy Logo — v1  [updated:10.20.2026 - 2:00pm]
+- **Category shown:** Brand.
 - **Current evidence:** Viewer copy says this was the first round of proper branding used across profiles and the overall aesthetic applied to personal work/site. The remaining template fields are placeholders.
 - **Next:** Preserve that existing historical note, then add what the mark looked like, where it was used, its design rationale, and what later identity versions changed. Verify the current Community category.
 
