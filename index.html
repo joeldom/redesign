@@ -656,8 +656,78 @@
     <script src="https://joeldom.github.io/redesign/js/sandbox.js"></script>
     <script src="https://joeldom.github.io/redesign/js/keyShuffle.js"></script>
     <script src="https://joeldom.github.io/style-guide/js/theme.js"></script>
-    <script src="https://joeldom.github.io/redesign/js/kumo.js"></script>
     <script src="js/player.js"></script>
+
+
+    <!-- KUMO theme switching: integrated here so this page does not depend on a separate JS request. -->
+    <script>
+    (function () {
+        function initKumoThemeSwitching() {
+            const splash = document.getElementById("collapse1");
+            const trigger = document.getElementById("kumoChiSwitch");
+            const themeSwitch = document.getElementById("themeSwitch");
+
+            if (!splash || !trigger) {
+                console.error("KUMO: required #collapse1 or #kumoChiSwitch element is missing.");
+                return;
+            }
+
+            function setKumo(active) {
+                if (active) {
+                    // KUMO is a dark-mode visual variant.
+                    document.body.classList.remove("light-mode", "dark-mode-lights");
+                    document.body.classList.add("dark-mode");
+                    splash.classList.remove("grid-bg");
+                    splash.classList.add("雲血");
+                    trigger.setAttribute("aria-pressed", "true");
+                    trigger.setAttribute("aria-label", "Deactivate KUMO visual mode");
+                    trigger.setAttribute("title", "Deactivate KUMO visual mode");
+                    if (themeSwitch) themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+                    return;
+                }
+
+                splash.classList.remove("雲血");
+                splash.classList.add("grid-bg");
+                trigger.setAttribute("aria-pressed", "false");
+                trigger.setAttribute("aria-label", "Activate KUMO visual mode");
+                trigger.setAttribute("title", "Activate KUMO visual mode");
+            }
+
+            trigger.addEventListener("click", function (event) {
+                // JOELDOMBEK is a link in the main page; clicking it toggles KUMO, not navigation.
+                if (trigger.tagName === "A") event.preventDefault();
+
+                if (splash.classList.contains("雲血")) {
+                    // Turning KUMO off returns to the established dark theme.
+                    document.body.classList.remove("light-mode", "dark-mode-lights");
+                    document.body.classList.add("dark-mode");
+                    setKumo(false);
+                    if (themeSwitch) themeSwitch.innerHTML = '<i class="fas fa-sun"></i>';
+                } else {
+                    setKumo(true);
+                }
+            });
+
+            // The global theme switch remains in charge of light/dark mode.
+            // If it switches to light, leave KUMO and restore the regular grid.
+            if (themeSwitch) {
+                themeSwitch.addEventListener("click", function () {
+                    window.setTimeout(function () {
+                        if (document.body.classList.contains("light-mode")) {
+                            setKumo(false);
+                        }
+                    }, 0);
+                });
+            }
+        }
+
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", initKumoThemeSwitching);
+        } else {
+            initKumoThemeSwitching();
+        }
+    })();
+    </script>
 
 </body>
 
