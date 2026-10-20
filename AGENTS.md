@@ -518,6 +518,16 @@ The response should match the same Tonal Modality as the work: concise for a fix
 
 ## Timeline
 
+### October 2026
+
+- **Work catalog:** Started the `all/ALL_WORK.md` inventory to document and reconcile the visual Work page, preserving page order and distinguishing source content from interpretation and unknowns.
+- **Sandbox:** Clarified Sandbox as the functional-design workspace for features, experiments, prototypes, and interaction studies; it is not simply a queue of unfinished portfolio projects. Compared Viewer v5/v6 and documented implementation-relevant changes.
+- **Work vs. Sandbox lifecycle:** Defined Work as a visual sampler of sufficiently realized output—including small pieces such as logos and photographs—while Sandbox explores functionality. Work entries can be snapshotted and iterated; Sandbox demos can remain independent until a deliberate version is snapshotted and promoted.
+- **KUMO / 雲血:** Integrated KUMO theme switching into the main landing page using the footer `JOELDOMBEK` trigger, aligned the portable FTP copy and shared behavior, and established current snapshots. Pause further KUMO development unless a specific refinement is needed; version refinements and preserve the demo as a reference.
+- **Resume v3:** Promoted v3 from its versioned location to the root of `/resume`, adjusting asset paths and reviewing theme styling, print behavior, page title, social preview, and favicon consistency.
+- **Repository documentation:** Updated and cross-linked `README.md`, `HUMANS.md`, `AGENTS.md`, `sandbox/README.md`, and `all/ALL_WORK.md` so repository orientation, human intent, agent rules, functional experiments, and the visual Work catalog reinforce one another.
+- **Integration discipline:** Recorded the main-page/portable-copy/snapshot parity workflow and the demo → snapshot → promotion lifecycle for future Viewer and UXBG / Player work.
+
 ### March 2026
 
 - Continued refinement of Grey Box layouts for interaction-first testing.
