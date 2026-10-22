@@ -87,6 +87,41 @@ KUMO / 雲血 is the current example. Since KUMO has been integrated into the to
 
 Promotion is a deliberate decision, not an automatic consequence of a prototype becoming useful. Before promotion, compare the candidate snapshot with the current main and portable implementations, document the intended behavior, and verify the integration paths.
 
+## Future-state concepts
+
+These are recorded ideas, not active builds. Keep them here until there is time to prototype them; do not treat their inclusion as a commitment to a release date. The concepts could eventually become standalone pages linked from the portfolio or sandbox.
+
+### 1. Door Index — a link portal with a random door
+
+A page that collects as many useful links as practical, with a recognizable *Resident Evil 1*-style door sprite as the central interaction. Activating the door randomly selects and opens one destination from the curated link set.
+
+- **Purpose:** Turn a dense link index into a small, memorable discovery interaction rather than a conventional directory.
+- **Core behavior:** Maintain a clear list of destinations; choose one at random when the door is activated; make the destination understandable and ensure the interaction remains usable with keyboard and assistive technology.
+- **Visual direction:** Use the visual language of classic RE1 door-transition sprites as inspiration. Confirm appropriate sprite assets and usage before implementation rather than assuming assets are already available.
+- **Design consideration:** Randomness should feel playful, not obstructive. Keep a conventional way to browse or inspect the links so visitors are not forced to rely on chance.
+
+### 2. Influence Library — a Steam-like reference grid
+
+A compact, tightly packed tile grid for browsing influences, references, and inspirations. The presentation should evoke the density and scannability of a Steam library, adapted to a visual/design reference collection rather than a game launcher.
+
+- **Content:** Influences and references across defined categories; each tile should lead to more context where useful.
+- **Layout:** Dense, consistent tiles with enough visual material to recognize each reference quickly.
+- **Filtering:** Category filters update the visible collection without losing the overall sense of a unified library.
+- **Motion:** Tiles animate into view when the page loads and when a filter changes, using a restrained white-or-black reveal/transition that works against the current theme.
+- **Design consideration:** Keep filtering and motion fast, readable, and accessible; support reduced-motion preferences and avoid animation that delays access to the content.
+
+### 3. Masks — a 5 × 4 design-ethos grid
+
+A page containing **20 masks**, arranged five columns wide by four rows high at the intended desktop layout. Each mask represents a different design ethos, visual mode, or style the work tends to draw upon.
+
+- **Content:** Each mask should explain a distinct approach or sensibility, not merely name a color palette. The collection can describe recurring design instincts, influences, and modes of expression.
+- **Presentation:** Treat each tile as a recognizable identity with its own visual character, while keeping the overall grid cohesive.
+- **Interaction:** Selecting a mask can reveal its explanation and examples of where that ethos appears in the work.
+- **Responsive behavior:** Preserve the 20-item collection while allowing the grid to reflow naturally on narrower screens; five-by-four describes the target desktop composition, not a requirement to squeeze mobile.
+- **Open question for a later pass:** Define the 20 mask identities and whether the masks are presented as archetypes, selectable modes, or descriptive labels for existing work.
+
+These three ideas have different jobs: the **Door Index** is playful navigation, the **Influence Library** is a searchable reference archive, and **Masks** is a self-portrait of the design approaches behind the work. They should remain distinct even if they eventually share styling or components.
+
 ## Viewer direction
 
 The sandbox is intended to grow into a viewer-driven workspace rather than simply a directory of links.
