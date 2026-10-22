@@ -578,6 +578,13 @@ When an agent is asked to work in this sandbox:
 11. Keep documentation close to the experiment when the reasoning is specific to that experiment.
 12. Treat this document as the shared operating context for both humans and agents.
 
+
+## External experiments and cross-repository links
+
+Not every useful experiment lives inside `redesign/gh-pages/sandbox/`. When an experiment is hosted in another repository but supports this site's design, testing, or development workflow, list it in the sandbox inventory and provide both its source-repository path and live page. Keep the entry clearly marked as external rather than implying that its files live in this directory.
+
+**Resume V4 — Scale Diagnostics** ([live test](https://joeldom.github.io/resume/v4/) · [source](https://github.com/joeldom/resume/tree/master/v4/)) is an external, low-priority smoke test for diagnosing apparent page scaling differences across restricted workstations and browsers. Its browser-visible diagnostics are useful even if manual scaling controls do not resolve the issue. It is a test utility and exploratory feature idea, not a reusable template or a promoted production fix. The current implementation intentionally does not apply automatic scaling.
+
 ---
 
 # Direction
