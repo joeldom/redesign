@@ -53,6 +53,7 @@ The active sandbox lives at [`redesign/sandbox`](https://github.com/joeldom/rede
 | vidjs | Experiment | [vidjs](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/) | [vidjs](https://joeldom.github.io/redesign/sandbox/vidjs/) |
 | viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
 | writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
+| resume-v4 | External experiment / smoke test | [v4](https://github.com/joeldom/resume/tree/master/v4/) | [Scale Diagnostics](https://joeldom.github.io/resume/v4/) |
 
 ## How to use it
 
@@ -216,4 +217,5 @@ There is no requirement that an experiment graduate. Keeping something in the sa
 | vidjs | Experiment | [vidjs](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/) | [vidjs](https://joeldom.github.io/redesign/sandbox/vidjs/) |
 | viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
 | writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
+| resume-v4 | External experiment / smoke test | [v4](https://github.com/joeldom/resume/tree/master/v4/) | [Scale Diagnostics](https://joeldom.github.io/resume/v4/) |
 ```
