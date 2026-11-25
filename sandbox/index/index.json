@@ -1,0 +1,1387 @@
+{
+  "schemaVersion": "1.0.0",
+  "catalog": {
+    "title": "Joel Dombek — Site Index",
+    "description": "A structured guide to Joel Dombek’s design, product, development, experiments, case studies, and connected profiles.",
+    "siteName": "Joel Dombek",
+    "canonical": "https://joeldom.github.io/redesign/sandbox/index/",
+    "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+    "socialImageAlt": "Social preview for Joel Dombek’s resume",
+    "locale": "en_US",
+    "author": "Joel Dombek",
+    "keywords": [
+      "Joel Dombek",
+      "UX design",
+      "product design",
+      "UX engineering",
+      "front-end development",
+      "design systems",
+      "branding",
+      "interaction design",
+      "accessibility",
+      "creative technology"
+    ]
+  },
+  "navigation": [
+    {
+      "id": "home",
+      "title": "Home",
+      "description": "The main portfolio landing page and entry point to Joel Dombek’s design and development work.",
+      "url": "https://joeldom.github.io/redesign/",
+      "type": "landing",
+      "audience": [
+        "recruiters",
+        "clients",
+        "collaborators",
+        "visitors"
+      ],
+      "journey": [
+        "overview",
+        "work",
+        "about"
+      ],
+      "socialTitle": "Joel Dombek — Design, UX and Development",
+      "socialDescription": "Explore the work, ideas, design systems, and interactive experiments of Joel Dombek."
+    },
+    {
+      "id": "work",
+      "title": "All Work",
+      "description": "A visual sampler of projects and creative work across disciplines and categories.",
+      "url": "https://joeldom.github.io/redesign/all/",
+      "type": "collection",
+      "parent": "home",
+      "audience": [
+        "recruiters",
+        "clients",
+        "designers"
+      ],
+      "journey": [
+        "overview",
+        "selected-work",
+        "case-studies"
+      ],
+      "socialTitle": "Selected Work — Joel Dombek",
+      "socialDescription": "A collection of product design, branding, interface, visual, and creative work by Joel Dombek."
+    },
+    {
+      "id": "sandbox",
+      "title": "Sandbox",
+      "description": "Functional design workspace for prototypes, interaction experiments, utilities, and exploratory systems.",
+      "url": "https://joeldom.github.io/redesign/sandbox/",
+      "type": "workspace",
+      "parent": "home",
+      "audience": [
+        "designers",
+        "developers",
+        "technical-recruiters"
+      ],
+      "journey": [
+        "experiments",
+        "systems",
+        "implementation"
+      ],
+      "socialTitle": "Sandbox — Interactive Design & Development",
+      "socialDescription": "Explore functional prototypes, interaction experiments, tools, and creative technology."
+    },
+    {
+      "id": "site-index",
+      "title": "Site Index",
+      "description": "A structured map of site pages, sandbox experiments, visitor paths, and connected profiles.",
+      "url": "https://joeldom.github.io/redesign/sandbox/index/",
+      "type": "index",
+      "parent": "sandbox",
+      "audience": [
+        "visitors",
+        "crawlers",
+        "collaborators"
+      ],
+      "journey": [
+        "discover",
+        "browse",
+        "connect"
+      ],
+      "socialTitle": "Site Index — Joel Dombek",
+      "socialDescription": "Navigate the portfolio, sandbox, case studies, resume, and connected creative profiles."
+    },
+    {
+      "id": "resume",
+      "title": "Resume",
+      "description": "Professional experience spanning UX engineering, product design, front-end development, design systems, branding, and creative leadership.",
+      "url": "https://joeldom.github.io/resume/",
+      "type": "profile",
+      "parent": "home",
+      "audience": [
+        "recruiters",
+        "hiring-managers",
+        "clients"
+      ],
+      "journey": [
+        "overview",
+        "experience",
+        "contact"
+      ],
+      "socialTitle": "Joel Dombek — Resume",
+      "socialDescription": "UX engineering and product design leadership, front-end development, design systems, and creative direction.",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png"
+    },
+    {
+      "id": "case-studies",
+      "title": "UX Case Studies",
+      "description": "Detailed case studies covering product design, user experience, research, problem solving, and implementation.",
+      "url": "https://joeldom.github.io/style-guide/ux/Case-Studies/",
+      "type": "collection",
+      "parent": "work",
+      "audience": [
+        "recruiters",
+        "clients",
+        "designers"
+      ],
+      "journey": [
+        "selected-work",
+        "process",
+        "outcomes"
+      ],
+      "socialTitle": "UX Case Studies — Joel Dombek",
+      "socialDescription": "Explore product design case studies, UX process, research, interaction decisions, and outcomes."
+    },
+    {
+      "id": "style-guide",
+      "title": "Beyond Design System",
+      "description": "A living design system and reference for interface patterns, typography, color, components, and interaction behavior.",
+      "url": "https://joeldom.github.io/style-guide/",
+      "type": "system",
+      "parent": "work",
+      "audience": [
+        "designers",
+        "developers"
+      ],
+      "journey": [
+        "design-system",
+        "components",
+        "implementation"
+      ],
+      "socialTitle": "Beyond Design System — Joel Dombek",
+      "socialDescription": "A living design system exploring interface patterns, components, visual language, and implementation."
+    },
+    {
+      "id": "about",
+      "title": "About",
+      "description": "Background, approach, capabilities, and professional context.",
+      "url": "https://www.joeldombek.com/about/",
+      "type": "profile",
+      "parent": "home",
+      "audience": [
+        "recruiters",
+        "clients",
+        "collaborators"
+      ],
+      "journey": [
+        "overview",
+        "about",
+        "contact"
+      ],
+      "socialTitle": "About Joel Dombek",
+      "socialDescription": "Background and approach to design, user experience, development, and creative problem solving."
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "description": "Contact and collaboration entry point.",
+      "url": "https://joeldom.github.io/redesign/contact/",
+      "type": "utility",
+      "parent": "home",
+      "audience": [
+        "clients",
+        "recruiters",
+        "collaborators"
+      ],
+      "journey": [
+        "overview",
+        "connect"
+      ],
+      "socialTitle": "Contact — Joel Dombek",
+      "socialDescription": "Get in touch with Joel Dombek about design, UX, development, and creative projects."
+    },
+    {
+      "id": "writing",
+      "title": "Writing",
+      "description": "Writing, notes, and collected thoughts.",
+      "url": "https://joeldom.github.io/redesign/sandbox/writing/",
+      "type": "collection",
+      "parent": "sandbox",
+      "audience": [
+        "visitors",
+        "designers"
+      ],
+      "journey": [
+        "ideas",
+        "writing",
+        "perspective"
+      ],
+      "socialTitle": "Writing & Notes — Joel Dombek",
+      "socialDescription": "Writing and collected thoughts on design, technology, creativity, and related ideas."
+    },
+    {
+      "id": "ideas",
+      "title": "Ideas",
+      "description": "A collection of ideas and conceptual explorations.",
+      "url": "https://joeldom.github.io/redesign/ideas/",
+      "type": "collection",
+      "parent": "home",
+      "audience": [
+        "visitors",
+        "collaborators"
+      ],
+      "journey": [
+        "ideas",
+        "exploration"
+      ],
+      "socialTitle": "Ideas — Joel Dombek",
+      "socialDescription": "Concepts, observations, and explorations across design and technology."
+    },
+    {
+      "id": "quotes",
+      "title": "Quotes",
+      "description": "Collected quotes related to design, development, philosophy, and creative practice.",
+      "url": "https://joeldom.github.io/redesign/quotes/",
+      "type": "collection",
+      "parent": "ideas",
+      "audience": [
+        "visitors"
+      ],
+      "journey": [
+        "ideas",
+        "perspective"
+      ],
+      "socialTitle": "Quotes — Joel Dombek",
+      "socialDescription": "A collection of quotes on design, development, philosophy, and creative practice."
+    }
+  ],
+  "sandbox": {
+    "title": "Sandbox Experiments",
+    "description": "Functional experiments and support areas cataloged from the sandbox directory. Entries retain directory hierarchy and can later gain deeper page-level metadata.",
+    "url": "https://joeldom.github.io/redesign/sandbox/",
+    "items": [
+      {
+        "id": "sandbox-r-type",
+        "title": "R-TYPE",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/R-TYPE/",
+        "url": "https://joeldom.github.io/redesign/sandbox/R-TYPE/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/R-TYPE/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the R-TYPE directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "R-TYPE — Joel Dombek Sandbox",
+        "socialDescription": "Explore R-TYPE, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-tas",
+        "title": "TAS",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/TAS/",
+        "url": "https://joeldom.github.io/redesign/sandbox/TAS/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/TAS/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the TAS directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "TAS — Joel Dombek Sandbox",
+        "socialDescription": "Explore TAS, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-absolute",
+        "title": "absolute",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/absolute/",
+        "url": "https://joeldom.github.io/redesign/sandbox/absolute/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/absolute/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the absolute directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "absolute — Joel Dombek Sandbox",
+        "socialDescription": "Explore absolute, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-album",
+        "title": "album",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/album/",
+        "url": "https://joeldom.github.io/redesign/sandbox/album/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/album/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the album directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "album — Joel Dombek Sandbox",
+        "socialDescription": "Explore album, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-apparel",
+        "title": "apparel",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/apparel/",
+        "url": "https://joeldom.github.io/redesign/sandbox/apparel/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/apparel/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the apparel directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "apparel — Joel Dombek Sandbox",
+        "socialDescription": "Explore apparel, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-arise",
+        "title": "arise",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/arise/",
+        "url": "https://joeldom.github.io/redesign/sandbox/arise/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/arise/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the arise directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "arise — Joel Dombek Sandbox",
+        "socialDescription": "Explore arise, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-cal",
+        "title": "cal",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/cal/",
+        "url": "https://joeldom.github.io/redesign/sandbox/cal/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/cal/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the cal directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "cal — Joel Dombek Sandbox",
+        "socialDescription": "Explore cal, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-destroy",
+        "title": "destroy",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/destroy/",
+        "url": "https://joeldom.github.io/redesign/sandbox/destroy/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/destroy/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the destroy directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "destroy — Joel Dombek Sandbox",
+        "socialDescription": "Explore destroy, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-downflare",
+        "title": "downflare",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/downflare/",
+        "url": "https://joeldom.github.io/redesign/sandbox/downflare/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/downflare/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the downflare directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "downflare — Joel Dombek Sandbox",
+        "socialDescription": "Explore downflare, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-ecco",
+        "title": "ecco",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/ecco/",
+        "url": "https://joeldom.github.io/redesign/sandbox/ecco/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/ecco/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the ecco directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "ecco — Joel Dombek Sandbox",
+        "socialDescription": "Explore ecco, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-genre",
+        "title": "genre",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/genre/",
+        "url": "https://joeldom.github.io/redesign/sandbox/genre/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/genre/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the genre directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "genre — Joel Dombek Sandbox",
+        "socialDescription": "Explore genre, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-hidden",
+        "title": "hidden",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/hidden/",
+        "url": "https://joeldom.github.io/redesign/sandbox/hidden/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/hidden/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the hidden directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "hidden — Joel Dombek Sandbox",
+        "socialDescription": "Explore hidden, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-img",
+        "title": "img",
+        "type": "Support",
+        "path": "/redesign/sandbox/img/",
+        "url": "https://joeldom.github.io/redesign/sandbox/img/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/img/",
+        "parent": "sandbox",
+        "description": "Sandbox support in the img directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "img — Joel Dombek Sandbox",
+        "socialDescription": "Explore img, a support in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-kronos",
+        "title": "kronos",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/kronos/",
+        "url": "https://joeldom.github.io/redesign/sandbox/kronos/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kronos/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the kronos directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "kronos — Joel Dombek Sandbox",
+        "socialDescription": "Explore kronos, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-kumo",
+        "title": "kumo",
+        "type": "Theme / Experiment",
+        "path": "/redesign/sandbox/kumo/",
+        "url": "https://joeldom.github.io/redesign/sandbox/kumo/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/kumo/",
+        "parent": "sandbox",
+        "description": "Sandbox theme / experiment in the kumo directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "kumo — Joel Dombek Sandbox",
+        "socialDescription": "Explore kumo, a theme / experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-layers",
+        "title": "layers",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/layers/",
+        "url": "https://joeldom.github.io/redesign/sandbox/layers/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/layers/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the layers directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "layers — Joel Dombek Sandbox",
+        "socialDescription": "Explore layers, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-modsynth",
+        "title": "modsynth",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/modsynth/",
+        "url": "https://joeldom.github.io/redesign/sandbox/modsynth/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/modsynth/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the modsynth directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "modsynth — Joel Dombek Sandbox",
+        "socialDescription": "Explore modsynth, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-motherbase",
+        "title": "motherbase",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/motherbase/",
+        "url": "https://joeldom.github.io/redesign/sandbox/motherbase/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/motherbase/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the motherbase directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "motherbase — Joel Dombek Sandbox",
+        "socialDescription": "Explore motherbase, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-neogeo",
+        "title": "neogeo",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/neogeo/",
+        "url": "https://joeldom.github.io/redesign/sandbox/neogeo/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/neogeo/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the neogeo directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "neogeo — Joel Dombek Sandbox",
+        "socialDescription": "Explore neogeo, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-opcost",
+        "title": "opcost",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/opcost/",
+        "url": "https://joeldom.github.io/redesign/sandbox/opcost/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/opcost/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the opcost directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "opcost — Joel Dombek Sandbox",
+        "socialDescription": "Explore opcost, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-packets",
+        "title": "packets",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/packets/",
+        "url": "https://joeldom.github.io/redesign/sandbox/packets/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/packets/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the packets directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "packets — Joel Dombek Sandbox",
+        "socialDescription": "Explore packets, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-products",
+        "title": "products",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/products/",
+        "url": "https://joeldom.github.io/redesign/sandbox/products/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/products/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the products directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "products — Joel Dombek Sandbox",
+        "socialDescription": "Explore products, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-prompt",
+        "title": "prompt",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/prompt/",
+        "url": "https://joeldom.github.io/redesign/sandbox/prompt/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/prompt/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the prompt directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "prompt — Joel Dombek Sandbox",
+        "socialDescription": "Explore prompt, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-scam",
+        "title": "scam",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/scam/",
+        "url": "https://joeldom.github.io/redesign/sandbox/scam/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/scam/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the scam directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "scam — Joel Dombek Sandbox",
+        "socialDescription": "Explore scam, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-sorta",
+        "title": "sorta",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/sorta/",
+        "url": "https://joeldom.github.io/redesign/sandbox/sorta/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/sorta/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the sorta directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "sorta — Joel Dombek Sandbox",
+        "socialDescription": "Explore sorta, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-static",
+        "title": "static",
+        "type": "Support",
+        "path": "/redesign/sandbox/static/",
+        "url": "https://joeldom.github.io/redesign/sandbox/static/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/static/",
+        "parent": "sandbox",
+        "description": "Sandbox support in the static directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "static — Joel Dombek Sandbox",
+        "socialDescription": "Explore static, a support in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-stream",
+        "title": "stream",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/stream/",
+        "url": "https://joeldom.github.io/redesign/sandbox/stream/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/stream/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the stream directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "stream — Joel Dombek Sandbox",
+        "socialDescription": "Explore stream, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-tagcloud",
+        "title": "tagcloud",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/tagcloud/",
+        "url": "https://joeldom.github.io/redesign/sandbox/tagcloud/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tagcloud/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the tagcloud directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "tagcloud — Joel Dombek Sandbox",
+        "socialDescription": "Explore tagcloud, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-tests",
+        "title": "tests",
+        "type": "Tests",
+        "path": "/redesign/sandbox/tests/",
+        "url": "https://joeldom.github.io/redesign/sandbox/tests/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/tests/",
+        "parent": "sandbox",
+        "description": "Sandbox tests in the tests directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "tests — Joel Dombek Sandbox",
+        "socialDescription": "Explore tests, a tests in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-timecries",
+        "title": "timecries",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/timecries/",
+        "url": "https://joeldom.github.io/redesign/sandbox/timecries/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/timecries/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the timecries directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "timecries — Joel Dombek Sandbox",
+        "socialDescription": "Explore timecries, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-uxbg",
+        "title": "uxbg",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/uxbg/",
+        "url": "https://joeldom.github.io/redesign/sandbox/uxbg/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/uxbg/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the uxbg directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "uxbg — Joel Dombek Sandbox",
+        "socialDescription": "Explore uxbg, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-v2",
+        "title": "v2",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/v2/",
+        "url": "https://joeldom.github.io/redesign/sandbox/v2/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/v2/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the v2 directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "v2 — Joel Dombek Sandbox",
+        "socialDescription": "Explore v2, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-vidjs",
+        "title": "vidjs",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/vidjs/",
+        "url": "https://joeldom.github.io/redesign/sandbox/vidjs/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/vidjs/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the vidjs directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "vidjs — Joel Dombek Sandbox",
+        "socialDescription": "Explore vidjs, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-viewer",
+        "title": "viewer",
+        "type": "System / Experiment",
+        "path": "/redesign/sandbox/viewer/",
+        "url": "https://joeldom.github.io/redesign/sandbox/viewer/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/",
+        "parent": "sandbox",
+        "description": "Sandbox system / experiment in the viewer directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "viewer — Joel Dombek Sandbox",
+        "socialDescription": "Explore viewer, a system / experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "sandbox-writing",
+        "title": "writing",
+        "type": "Experiment",
+        "path": "/redesign/sandbox/writing/",
+        "url": "https://joeldom.github.io/redesign/sandbox/writing/",
+        "repository": "https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/",
+        "parent": "sandbox",
+        "description": "Sandbox experiment in the writing directory. Add a verified page-specific summary, keywords, and preview when the entry is reviewed.",
+        "audience": [
+          "designers",
+          "developers"
+        ],
+        "journey": [
+          "sandbox",
+          "experiments"
+        ],
+        "socialTitle": "writing — Joel Dombek Sandbox",
+        "socialDescription": "Explore writing, a experiment in Joel Dombek’s design and development sandbox.",
+        "status": "directory-listed",
+        "viewer": {
+          "type": "page"
+        }
+      },
+      {
+        "id": "resume-v4",
+        "title": "Resume v4 / Scale Diagnostics",
+        "type": "External experiment",
+        "path": "/resume/v4/",
+        "url": "https://joeldom.github.io/resume/v4/",
+        "repository": "https://github.com/joeldom/resume/tree/master/v4/",
+        "parent": "resume",
+        "description": "Resume v4 scale-diagnostics experiment, listed here because it is referenced by the sandbox inventory.",
+        "audience": [
+          "recruiters",
+          "developers"
+        ],
+        "journey": [
+          "resume",
+          "diagnostics"
+        ],
+        "socialTitle": "Resume v4 — Scale Diagnostics",
+        "socialDescription": "A diagnostic experiment for resume viewport and scale behavior.",
+        "status": "external-reference",
+        "viewer": {
+          "type": "page"
+        }
+      }
+    ]
+  },
+  "journeys": [
+    {
+      "id": "recruiter",
+      "title": "Recruiter / Hiring Manager",
+      "description": "A short route from professional overview to evidence of experience and implementation depth.",
+      "steps": [
+        "home",
+        "resume",
+        "case-studies",
+        "style-guide",
+        "contact"
+      ]
+    },
+    {
+      "id": "client",
+      "title": "Client / Collaborator",
+      "description": "Move from a broad overview to selected work, functional examples, and a contact point.",
+      "steps": [
+        "home",
+        "work",
+        "case-studies",
+        "sandbox",
+        "contact"
+      ]
+    },
+    {
+      "id": "designer-developer",
+      "title": "Designer / Developer",
+      "description": "Explore the design system, working prototypes, and implementation experiments.",
+      "steps": [
+        "home",
+        "style-guide",
+        "sandbox",
+        "site-index",
+        "writing"
+      ]
+    },
+    {
+      "id": "curious-visitor",
+      "title": "Open exploration",
+      "description": "Browse ideas, writing, experiments, and connected creative work.",
+      "steps": [
+        "home",
+        "ideas",
+        "quotes",
+        "sandbox",
+        "site-index"
+      ]
+    }
+  ],
+  "affiliates": {
+    "title": "Elsewhere / Connected Profiles",
+    "description": "Official or affiliated profiles that extend the site’s identity across professional, creative, media, and developer platforms. Replace placeholder URLs only after verifying ownership and preferred profile destinations.",
+    "profiles": [
+      {
+        "id": "github",
+        "platform": "GitHub",
+        "url": "https://github.com/joeldom",
+        "status": "verified",
+        "category": "development",
+        "title": "Joel Dombek on GitHub",
+        "description": "Repositories, code, experiments, and development work by Joel Dombek.",
+        "sameAs": true
+      },
+      {
+        "id": "instagram",
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/joeld/",
+        "status": "existing-link",
+        "category": "social",
+        "title": "Joel Dombek on Instagram",
+        "description": "Visual updates and creative work from Joel Dombek.",
+        "sameAs": true
+      },
+      {
+        "id": "x",
+        "platform": "X / Twitter",
+        "url": "https://twitter.com/joeldombek",
+        "status": "existing-link",
+        "category": "social",
+        "title": "Joel Dombek on X",
+        "description": "Social updates and professional commentary.",
+        "sameAs": true
+      },
+      {
+        "id": "linkedin",
+        "platform": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joel-dombek-6b056828/",
+        "status": "existing-link",
+        "category": "professional",
+        "title": "Joel Dombek on LinkedIn",
+        "description": "Professional profile, experience, and career history.",
+        "sameAs": true
+      },
+      {
+        "id": "youtube",
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@REPLACE_WITH_HANDLE",
+        "status": "placeholder",
+        "category": "video",
+        "title": "Joel Dombek on YouTube",
+        "description": "Video, motion, demos, process, and media work.",
+        "sameAs": false
+      },
+      {
+        "id": "spotify",
+        "platform": "Spotify",
+        "url": "https://open.spotify.com/user/REPLACE_WITH_ID",
+        "status": "placeholder",
+        "category": "audio",
+        "title": "Joel Dombek on Spotify",
+        "description": "Music profile and listening presence.",
+        "sameAs": false
+      },
+      {
+        "id": "twitch",
+        "platform": "Twitch",
+        "url": "https://www.twitch.tv/REPLACE_WITH_HANDLE",
+        "status": "placeholder",
+        "category": "live-media",
+        "title": "Joel Dombek on Twitch",
+        "description": "Live streams, creative process, and interactive media.",
+        "sameAs": false
+      },
+      {
+        "id": "dribbble",
+        "platform": "Dribbble",
+        "url": "https://dribbble.com/REPLACE_WITH_HANDLE",
+        "status": "placeholder",
+        "category": "design",
+        "title": "Joel Dombek on Dribbble",
+        "description": "Selected interface, product, and visual design work.",
+        "sameAs": false
+      },
+      {
+        "id": "facebook",
+        "platform": "Facebook Business",
+        "url": "https://www.facebook.com/REPLACE_WITH_BUSINESS_PAGE",
+        "status": "placeholder",
+        "category": "business",
+        "title": "Joel Dombek Design on Facebook",
+        "description": "Business page and public updates.",
+        "sameAs": false
+      },
+      {
+        "id": "behance",
+        "platform": "Behance",
+        "url": "https://www.behance.net/REPLACE_WITH_HANDLE",
+        "status": "suggested",
+        "category": "design",
+        "title": "Joel Dombek on Behance",
+        "description": "Long-form creative and design project presentations.",
+        "sameAs": false
+      },
+      {
+        "id": "vimeo",
+        "platform": "Vimeo",
+        "url": "https://vimeo.com/REPLACE_WITH_HANDLE",
+        "status": "suggested",
+        "category": "video",
+        "title": "Joel Dombek on Vimeo",
+        "description": "A focused home for motion design and video presentation.",
+        "sameAs": false
+      },
+      {
+        "id": "codepen",
+        "platform": "CodePen",
+        "url": "https://codepen.io/REPLACE_WITH_HANDLE",
+        "status": "suggested",
+        "category": "development",
+        "title": "Joel Dombek on CodePen",
+        "description": "Small front-end experiments and interactive demonstrations.",
+        "sameAs": false
+      },
+      {
+        "id": "are-na",
+        "platform": "Are.na",
+        "url": "https://www.are.na/REPLACE_WITH_HANDLE",
+        "status": "suggested",
+        "category": "research",
+        "title": "Joel Dombek on Are.na",
+        "description": "Curated visual references, research, and inspiration.",
+        "sameAs": false
+      },
+      {
+        "id": "pinterest",
+        "platform": "Pinterest",
+        "url": "https://www.pinterest.com/REPLACE_WITH_HANDLE",
+        "status": "suggested",
+        "category": "visual-research",
+        "title": "Joel Dombek on Pinterest",
+        "description": "Visual references and inspiration collections.",
+        "sameAs": false
+      },
+      {
+        "id": "medium",
+        "platform": "Medium",
+        "url": "https://medium.com/@REPLACE_WITH_HANDLE",
+        "status": "suggested",
+        "category": "writing",
+        "title": "Joel Dombek on Medium",
+        "description": "Long-form writing and articles, if actively maintained.",
+        "sameAs": false
+      }
+    ]
+  },
+  "metadata": {
+    "socialPreview": {
+      "image": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "imageAlt": "Social preview for Joel Dombek’s resume",
+      "note": "Shared preview reference for this POC. Individual pages should eventually provide page-specific Open Graph and X card metadata while retaining a consistent visual identity."
+    },
+    "linkFields": [
+      "title",
+      "ariaLabel",
+      "url",
+      "target",
+      "rel",
+      "socialTitle",
+      "socialDescription",
+      "socialImage",
+      "socialImageAlt",
+      "keywords",
+      "audience",
+      "journey",
+      "parent",
+      "type",
+      "status"
+    ],
+    "externalLinkPolicy": {
+      "target": "_blank",
+      "rel": "noopener noreferrer",
+      "title": "Required descriptive title",
+      "ariaLabel": "Required descriptive accessible name"
+    },
+    "internalLinkPolicy": {
+      "target": "_self",
+      "rel": "No target override required",
+      "title": "Required descriptive title",
+      "ariaLabel": "Required descriptive accessible name"
+    },
+    "structuredData": [
+      "WebSite",
+      "Person",
+      "CollectionPage",
+      "ItemList",
+      "sameAs"
+    ],
+    "seoGuidance": [
+      "Use accurate page-specific metadata, not repeated keyword stuffing.",
+      "Keep canonical URLs unique and consistent with the deployed root.",
+      "Use JSON-LD to describe real entities and relationships; do not create fake profiles or links.",
+      "Use XML sitemap and robots.txt at each canonical root when the site architecture is finalized.",
+      "Ensure every important page has a crawlable HTML anchor; JavaScript enhances rather than replaces navigation."
+    ]
+  }
+}
