@@ -290,3 +290,9 @@ The footer is intentionally a separate reusable parallax/reveal treatment: its b
 | writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
 | resume-v4 | External experiment / smoke test | [v4](https://github.com/joeldom/resume/tree/master/v4/) | [Scale Diagnostics](https://joeldom.github.io/resume/v4/) |
 ```
+
+### Index POC refinement notes
+
+The first visual refinement uses a full-bleed main content surface with consistent responsive page gutters; the fixed footer sits behind the page and is revealed as the document reaches its end. The decorative footer wordmark/image treatment has been removed for now. The header now follows the site's fixed `#navbar.navbar.navbar-fixed-top.headroom` pattern and uses the JOELDOMBEK wordmark rather than a generic “Go Back” control.
+
+At compact breakpoints, primary destination cards and sandbox directory tiles collapse to a single full-width column to avoid narrow, awkwardly wrapped tiles. The JSON now reserves `socialImage`, `socialImageAlt`, and `socialImageSource` on every internal navigation and sandbox page record. Existing pages currently inherit the shared resume social-preview image as a marked default; replace it with a page-specific image as each page's SEO is audited. These fields are intended to act as both the index's social-preview data and a baseline reference for comparing/standardizing the actual metadata on each page.
