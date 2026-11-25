@@ -23,7 +23,7 @@ main{position:relative;z-index:1;width:100%;margin:0;padding:0 var(--page-gutter
 .intro-links{display:flex;gap:2rem;margin-top:2rem}
 .catalog-section{padding:50px 0 70px;border-top:1px solid var(--line)}
 .section-heading{display:flex;align-items:end;justify-content:space-between;gap:2rem;margin-bottom:2rem}
-.section-heading h2{font-size:1.5rem;letter-spacing:-.04em;line-height:1.15;margin:0;font-weight:500}
+.section-heading h2{font-size:clamp(1.5rem,3vw,2.5rem);letter-spacing:-.04em;line-height:1.1;margin:0;font-weight:500}
 .count{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.8rem}
 .site-map{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .directory-card{min-width:0;background:linear-gradient(145deg,rgba(224,233,254,.07),rgba(224,233,254,.018));border:1px solid var(--line);padding:22px;min-height:150px;overflow-wrap:anywhere}
