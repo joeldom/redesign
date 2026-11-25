@@ -1,6 +1,6 @@
 (function () {
   "use strict";
-  const DATA_URL = "./index.json";
+  const DATA_URL = document.currentScript?.dataset.catalogSrc || "./index.json";
   const $ = (selector, root = document) => root.querySelector(selector);
   const escapeHTML = (value = "") => String(value).replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
   const external = url => /^https?:\/\//i.test(url) && !/joeldom\.github\.io|joeldombek\.com/i.test(url);
