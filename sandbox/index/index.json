@@ -1385,7 +1385,7 @@
       },
       {
         "id": "resume-v4",
-        "title": "Resume v4 / Scale Diagnostics",
+        "title": "Resume & Diagnostic",
         "type": "External experiment",
         "path": "/resume/v4/",
         "url": "https://joeldom.github.io/resume/v4/",
@@ -1406,7 +1406,7 @@
         "viewer": {
           "type": "page"
         },
-        "ariaLabel": "Resume v4 / Scale Diagnostics",
+        "ariaLabel": "Resume & Diagnostic",
         "target": "_self",
         "rel": "",
         "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
