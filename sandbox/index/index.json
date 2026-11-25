@@ -1386,7 +1386,7 @@
       {
         "id": "resume-v4",
         "title": "Resume & Diagnostic",
-        "type": "External experiment",
+        "type": "Experiment",
         "path": "/resume/v4/",
         "url": "https://joeldom.github.io/resume/v4/",
         "repository": "https://github.com/joeldom/resume/tree/master/v4/",
