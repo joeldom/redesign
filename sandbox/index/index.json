@@ -41,7 +41,10 @@
         "about"
       ],
       "socialTitle": "Joel Dombek — Design, UX and Development",
-      "socialDescription": "Explore the work, ideas, design systems, and interactive experiments of Joel Dombek."
+      "socialDescription": "Explore the work, ideas, design systems, and interactive experiments of Joel Dombek.",
+      "ariaLabel": "Home",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "work",
@@ -61,7 +64,10 @@
         "case-studies"
       ],
       "socialTitle": "Selected Work — Joel Dombek",
-      "socialDescription": "A collection of product design, branding, interface, visual, and creative work by Joel Dombek."
+      "socialDescription": "A collection of product design, branding, interface, visual, and creative work by Joel Dombek.",
+      "ariaLabel": "All Work",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "sandbox",
@@ -81,7 +87,10 @@
         "implementation"
       ],
       "socialTitle": "Sandbox — Interactive Design & Development",
-      "socialDescription": "Explore functional prototypes, interaction experiments, tools, and creative technology."
+      "socialDescription": "Explore functional prototypes, interaction experiments, tools, and creative technology.",
+      "ariaLabel": "Sandbox",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "site-index",
@@ -101,7 +110,10 @@
         "connect"
       ],
       "socialTitle": "Site Index — Joel Dombek",
-      "socialDescription": "Navigate the portfolio, sandbox, case studies, resume, and connected creative profiles."
+      "socialDescription": "Navigate the portfolio, sandbox, case studies, resume, and connected creative profiles.",
+      "ariaLabel": "Site Index",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "resume",
@@ -122,7 +134,10 @@
       ],
       "socialTitle": "Joel Dombek — Resume",
       "socialDescription": "UX engineering and product design leadership, front-end development, design systems, and creative direction.",
-      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png"
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "ariaLabel": "Resume",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "case-studies",
@@ -142,7 +157,10 @@
         "outcomes"
       ],
       "socialTitle": "UX Case Studies — Joel Dombek",
-      "socialDescription": "Explore product design case studies, UX process, research, interaction decisions, and outcomes."
+      "socialDescription": "Explore product design case studies, UX process, research, interaction decisions, and outcomes.",
+      "ariaLabel": "UX Case Studies",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "style-guide",
@@ -161,7 +179,10 @@
         "implementation"
       ],
       "socialTitle": "Beyond Design System — Joel Dombek",
-      "socialDescription": "A living design system exploring interface patterns, components, visual language, and implementation."
+      "socialDescription": "A living design system exploring interface patterns, components, visual language, and implementation.",
+      "ariaLabel": "Beyond Design System",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "about",
@@ -181,7 +202,10 @@
         "contact"
       ],
       "socialTitle": "About Joel Dombek",
-      "socialDescription": "Background and approach to design, user experience, development, and creative problem solving."
+      "socialDescription": "Background and approach to design, user experience, development, and creative problem solving.",
+      "ariaLabel": "About",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "contact",
@@ -200,7 +224,10 @@
         "connect"
       ],
       "socialTitle": "Contact — Joel Dombek",
-      "socialDescription": "Get in touch with Joel Dombek about design, UX, development, and creative projects."
+      "socialDescription": "Get in touch with Joel Dombek about design, UX, development, and creative projects.",
+      "ariaLabel": "Contact",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "writing",
@@ -219,7 +246,10 @@
         "perspective"
       ],
       "socialTitle": "Writing & Notes — Joel Dombek",
-      "socialDescription": "Writing and collected thoughts on design, technology, creativity, and related ideas."
+      "socialDescription": "Writing and collected thoughts on design, technology, creativity, and related ideas.",
+      "ariaLabel": "Writing",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "ideas",
@@ -237,7 +267,10 @@
         "exploration"
       ],
       "socialTitle": "Ideas — Joel Dombek",
-      "socialDescription": "Concepts, observations, and explorations across design and technology."
+      "socialDescription": "Concepts, observations, and explorations across design and technology.",
+      "ariaLabel": "Ideas",
+      "target": "_self",
+      "rel": ""
     },
     {
       "id": "quotes",
@@ -254,7 +287,10 @@
         "perspective"
       ],
       "socialTitle": "Quotes — Joel Dombek",
-      "socialDescription": "A collection of quotes on design, development, philosophy, and creative practice."
+      "socialDescription": "A collection of quotes on design, development, philosophy, and creative practice.",
+      "ariaLabel": "Quotes",
+      "target": "_self",
+      "rel": ""
     }
   ],
   "sandbox": {
@@ -284,7 +320,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "R-TYPE",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-tas",
@@ -308,7 +347,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "TAS",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-absolute",
@@ -332,7 +374,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "absolute",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-album",
@@ -356,7 +401,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "album",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-apparel",
@@ -380,7 +428,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "apparel",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-arise",
@@ -404,7 +455,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "arise",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-cal",
@@ -428,7 +482,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "cal",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-destroy",
@@ -452,7 +509,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "destroy",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-downflare",
@@ -476,7 +536,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "downflare",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-ecco",
@@ -500,7 +563,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "ecco",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-genre",
@@ -524,7 +590,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "genre",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-hidden",
@@ -548,7 +617,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "hidden",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-img",
@@ -572,7 +644,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "img",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-kronos",
@@ -596,7 +671,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "kronos",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-kumo",
@@ -620,7 +698,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "kumo",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-layers",
@@ -644,7 +725,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "layers",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-modsynth",
@@ -668,7 +752,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "modsynth",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-motherbase",
@@ -692,7 +779,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "motherbase",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-neogeo",
@@ -716,7 +806,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "neogeo",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-opcost",
@@ -740,7 +833,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "opcost",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-packets",
@@ -764,7 +860,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "packets",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-products",
@@ -788,7 +887,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "products",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-prompt",
@@ -812,7 +914,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "prompt",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-scam",
@@ -836,7 +941,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "scam",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-sorta",
@@ -860,7 +968,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "sorta",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-static",
@@ -884,7 +995,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "static",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-stream",
@@ -908,7 +1022,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "stream",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-tagcloud",
@@ -932,7 +1049,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "tagcloud",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-tests",
@@ -956,7 +1076,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "tests",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-timecries",
@@ -980,7 +1103,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "timecries",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-uxbg",
@@ -1004,7 +1130,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "uxbg",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-v2",
@@ -1028,7 +1157,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "v2",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-vidjs",
@@ -1052,7 +1184,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "vidjs",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-viewer",
@@ -1076,7 +1211,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "viewer",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "sandbox-writing",
@@ -1100,7 +1238,10 @@
         "status": "directory-listed",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "writing",
+        "target": "_self",
+        "rel": ""
       },
       {
         "id": "resume-v4",
@@ -1124,7 +1265,10 @@
         "status": "external-reference",
         "viewer": {
           "type": "page"
-        }
+        },
+        "ariaLabel": "Resume v4 / Scale Diagnostics",
+        "target": "_self",
+        "rel": ""
       }
     ]
   },
@@ -1190,7 +1334,10 @@
         "category": "development",
         "title": "Joel Dombek on GitHub",
         "description": "Repositories, code, experiments, and development work by Joel Dombek.",
-        "sameAs": true
+        "sameAs": true,
+        "ariaLabel": "Joel Dombek on GitHub — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "instagram",
@@ -1200,7 +1347,10 @@
         "category": "social",
         "title": "Joel Dombek on Instagram",
         "description": "Visual updates and creative work from Joel Dombek.",
-        "sameAs": true
+        "sameAs": true,
+        "ariaLabel": "Joel Dombek on Instagram — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "x",
@@ -1210,7 +1360,10 @@
         "category": "social",
         "title": "Joel Dombek on X",
         "description": "Social updates and professional commentary.",
-        "sameAs": true
+        "sameAs": true,
+        "ariaLabel": "Joel Dombek on X — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "linkedin",
@@ -1220,7 +1373,10 @@
         "category": "professional",
         "title": "Joel Dombek on LinkedIn",
         "description": "Professional profile, experience, and career history.",
-        "sameAs": true
+        "sameAs": true,
+        "ariaLabel": "Joel Dombek on LinkedIn — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "youtube",
@@ -1230,7 +1386,10 @@
         "category": "video",
         "title": "Joel Dombek on YouTube",
         "description": "Video, motion, demos, process, and media work.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on YouTube — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "spotify",
@@ -1240,7 +1399,10 @@
         "category": "audio",
         "title": "Joel Dombek on Spotify",
         "description": "Music profile and listening presence.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Spotify — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "twitch",
@@ -1250,7 +1412,10 @@
         "category": "live-media",
         "title": "Joel Dombek on Twitch",
         "description": "Live streams, creative process, and interactive media.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Twitch — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "dribbble",
@@ -1260,7 +1425,10 @@
         "category": "design",
         "title": "Joel Dombek on Dribbble",
         "description": "Selected interface, product, and visual design work.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Dribbble — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "facebook",
@@ -1270,7 +1438,10 @@
         "category": "business",
         "title": "Joel Dombek Design on Facebook",
         "description": "Business page and public updates.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek Design on Facebook — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "behance",
@@ -1280,7 +1451,10 @@
         "category": "design",
         "title": "Joel Dombek on Behance",
         "description": "Long-form creative and design project presentations.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Behance — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "vimeo",
@@ -1290,7 +1464,10 @@
         "category": "video",
         "title": "Joel Dombek on Vimeo",
         "description": "A focused home for motion design and video presentation.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Vimeo — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "codepen",
@@ -1300,7 +1477,10 @@
         "category": "development",
         "title": "Joel Dombek on CodePen",
         "description": "Small front-end experiments and interactive demonstrations.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on CodePen — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "are-na",
@@ -1310,7 +1490,10 @@
         "category": "research",
         "title": "Joel Dombek on Are.na",
         "description": "Curated visual references, research, and inspiration.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Are.na — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "pinterest",
@@ -1320,7 +1503,10 @@
         "category": "visual-research",
         "title": "Joel Dombek on Pinterest",
         "description": "Visual references and inspiration collections.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Pinterest — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       },
       {
         "id": "medium",
@@ -1330,7 +1516,10 @@
         "category": "writing",
         "title": "Joel Dombek on Medium",
         "description": "Long-form writing and articles, if actively maintained.",
-        "sameAs": false
+        "sameAs": false,
+        "ariaLabel": "Joel Dombek on Medium — opens in a new tab",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
       }
     ]
   },
