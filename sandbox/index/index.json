@@ -44,7 +44,10 @@
       "socialDescription": "Explore the work, ideas, design systems, and interactive experiments of Joel Dombek.",
       "ariaLabel": "Home",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "work",
@@ -67,7 +70,10 @@
       "socialDescription": "A collection of product design, branding, interface, visual, and creative work by Joel Dombek.",
       "ariaLabel": "All Work",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "sandbox",
@@ -90,7 +96,10 @@
       "socialDescription": "Explore functional prototypes, interaction experiments, tools, and creative technology.",
       "ariaLabel": "Sandbox",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "site-index",
@@ -113,7 +122,10 @@
       "socialDescription": "Navigate the portfolio, sandbox, case studies, resume, and connected creative profiles.",
       "ariaLabel": "Site Index",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "resume",
@@ -137,7 +149,9 @@
       "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
       "ariaLabel": "Resume",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "case-studies",
@@ -160,7 +174,10 @@
       "socialDescription": "Explore product design case studies, UX process, research, interaction decisions, and outcomes.",
       "ariaLabel": "UX Case Studies",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "style-guide",
@@ -182,7 +199,10 @@
       "socialDescription": "A living design system exploring interface patterns, components, visual language, and implementation.",
       "ariaLabel": "Beyond Design System",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "about",
@@ -205,7 +225,10 @@
       "socialDescription": "Background and approach to design, user experience, development, and creative problem solving.",
       "ariaLabel": "About",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "contact",
@@ -227,7 +250,10 @@
       "socialDescription": "Get in touch with Joel Dombek about design, UX, development, and creative projects.",
       "ariaLabel": "Contact",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "writing",
@@ -249,7 +275,10 @@
       "socialDescription": "Writing and collected thoughts on design, technology, creativity, and related ideas.",
       "ariaLabel": "Writing",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "ideas",
@@ -270,7 +299,10 @@
       "socialDescription": "Concepts, observations, and explorations across design and technology.",
       "ariaLabel": "Ideas",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     },
     {
       "id": "quotes",
@@ -290,7 +322,10 @@
       "socialDescription": "A collection of quotes on design, development, philosophy, and creative practice.",
       "ariaLabel": "Quotes",
       "target": "_self",
-      "rel": ""
+      "rel": "",
+      "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+      "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+      "socialImageSource": "shared-default"
     }
   ],
   "sandbox": {
@@ -323,7 +358,10 @@
         },
         "ariaLabel": "R-TYPE",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-tas",
@@ -350,7 +388,10 @@
         },
         "ariaLabel": "TAS",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-absolute",
@@ -377,7 +418,10 @@
         },
         "ariaLabel": "absolute",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-album",
@@ -404,7 +448,10 @@
         },
         "ariaLabel": "album",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-apparel",
@@ -431,7 +478,10 @@
         },
         "ariaLabel": "apparel",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-arise",
@@ -458,7 +508,10 @@
         },
         "ariaLabel": "arise",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-cal",
@@ -485,7 +538,10 @@
         },
         "ariaLabel": "cal",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-destroy",
@@ -512,7 +568,10 @@
         },
         "ariaLabel": "destroy",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-downflare",
@@ -539,7 +598,10 @@
         },
         "ariaLabel": "downflare",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-ecco",
@@ -566,7 +628,10 @@
         },
         "ariaLabel": "ecco",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-genre",
@@ -593,7 +658,10 @@
         },
         "ariaLabel": "genre",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-hidden",
@@ -620,7 +688,10 @@
         },
         "ariaLabel": "hidden",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-img",
@@ -647,7 +718,10 @@
         },
         "ariaLabel": "img",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-kronos",
@@ -674,7 +748,10 @@
         },
         "ariaLabel": "kronos",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-kumo",
@@ -701,7 +778,10 @@
         },
         "ariaLabel": "kumo",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-layers",
@@ -728,7 +808,10 @@
         },
         "ariaLabel": "layers",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-modsynth",
@@ -755,7 +838,10 @@
         },
         "ariaLabel": "modsynth",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-motherbase",
@@ -782,7 +868,10 @@
         },
         "ariaLabel": "motherbase",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-neogeo",
@@ -809,7 +898,10 @@
         },
         "ariaLabel": "neogeo",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-opcost",
@@ -836,7 +928,10 @@
         },
         "ariaLabel": "opcost",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-packets",
@@ -863,7 +958,10 @@
         },
         "ariaLabel": "packets",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-products",
@@ -890,7 +988,10 @@
         },
         "ariaLabel": "products",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-prompt",
@@ -917,7 +1018,10 @@
         },
         "ariaLabel": "prompt",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-scam",
@@ -944,7 +1048,10 @@
         },
         "ariaLabel": "scam",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-sorta",
@@ -971,7 +1078,10 @@
         },
         "ariaLabel": "sorta",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-static",
@@ -998,7 +1108,10 @@
         },
         "ariaLabel": "static",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-stream",
@@ -1025,7 +1138,10 @@
         },
         "ariaLabel": "stream",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-tagcloud",
@@ -1052,7 +1168,10 @@
         },
         "ariaLabel": "tagcloud",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-tests",
@@ -1079,7 +1198,10 @@
         },
         "ariaLabel": "tests",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-timecries",
@@ -1106,7 +1228,10 @@
         },
         "ariaLabel": "timecries",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-uxbg",
@@ -1133,7 +1258,10 @@
         },
         "ariaLabel": "uxbg",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-v2",
@@ -1160,7 +1288,10 @@
         },
         "ariaLabel": "v2",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-vidjs",
@@ -1187,7 +1318,10 @@
         },
         "ariaLabel": "vidjs",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-viewer",
@@ -1214,7 +1348,10 @@
         },
         "ariaLabel": "viewer",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "sandbox-writing",
@@ -1241,7 +1378,10 @@
         },
         "ariaLabel": "writing",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       },
       {
         "id": "resume-v4",
@@ -1268,7 +1408,10 @@
         },
         "ariaLabel": "Resume v4 / Scale Diagnostics",
         "target": "_self",
-        "rel": ""
+        "rel": "",
+        "socialImage": "https://joeldom.github.io/resume/img/resume%20social%20preview.png",
+        "socialImageAlt": "Joel Dombek site preview — page-specific image pending review",
+        "socialImageSource": "shared-default"
       }
     ]
   },
