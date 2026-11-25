@@ -140,6 +140,10 @@ The same fact does not need to be repeated at every level. Each document should 
 ---
 
 
+## Site Index / Site Map
+
+A structured site index is being prototyped in [`sandbox/index/`](./sandbox/index/). It separates directory hierarchy from intended visitor journeys and catalogs primary pages, sandbox experiments, and affiliated profiles in JSON. The POC keeps its JSON, HTML, CSS, and JS together; after validation, the catalog data is intended to move to the shared [`joeldom/asset`](https://github.com/joeldom/asset) repository while the page shell, stylesheet, and renderer remain portable for installation at both GitHub Pages roots (`/` and `/redesign/`). The page also establishes a reusable parallax footer intended for the resume and case-study pages. See the [sandbox README](./sandbox/README.md#site-index--site-map-poc) for the schema, metadata rules, and promotion checklist.
+
 ## Features Under Development
 
 The development site is both a portfolio surface and a place to build, isolate, and verify new interactions before they are promoted.
@@ -165,6 +169,10 @@ Treat these as active development areas unless a feature's own notes explicitly 
 | v1.0 | July 2025 | Initial environment, asset repo, EXO project, S-Tier links |
 
 ## Changelog
+
+### November 2026
+- Added the Site Index / Site Map proof of concept with a JSON catalog, visitor journeys, affiliated profile placeholders, structured metadata, and a portable parallax footer.
+- Documented the planned catalog move to the shared asset repository and deployment to both GitHub Pages roots.
 
 ### September 2026
 - Reframed repository documentation around a shared human/agent communication model.
