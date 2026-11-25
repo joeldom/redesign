@@ -204,9 +204,45 @@ feature or project
 
 There is no requirement that an experiment graduate. Keeping something in the sandbox is a valid outcome.
 
+## Site Index / Site Map (POC)
+
+A structured **Site Index** is being prototyped at [index/](./index/). The initial test location is [/redesign/sandbox/index/](https://joeldom.github.io/redesign/sandbox/index/); the intended canonical placements are the GitHub Pages root [https://joeldom.github.io/](https://joeldom.github.io/) and the redesign root [https://joeldom.github.io/redesign/](https://joeldom.github.io/redesign/). The sandbox location is a proof of concept, not the final canonical destination.
+
+### Data model and responsibilities
+
+- [index/index.json](./index/index.json) is the source of truth for the POC: primary site pages, parent/child hierarchy, directory-listed sandbox entries, intended visitor journeys, and affiliated external profiles.
+- [index/index.html](./index/index.html) is the semantic page shell with page-level metadata, canonical URL, Open Graph/X card tags, the shared resume v4 social-preview image, and a no-JavaScript fallback for key destinations.
+- [index/index.js](./index/index.js) loads the catalog, renders accessible links and visitor paths, filters the sandbox directory, and generates Schema.org JSON-LD from catalog data.
+- [index/index.css](./index/index.css) owns the presentation, responsive behavior, reduced-motion handling, print treatment, and reusable footer styling.
+
+The catalog distinguishes the site's directory hierarchy from **intended visitor pathing**. Hierarchy answers where a page lives; journeys describe why a visitor might move from one page to another. The sandbox inventory remains broader than `/all/`: sandbox items are functional experiments/support spaces, while `/all/` remains the visual sampler of recognized work. Preserve the existing `ITEM | TYPE | REPO | PAGE` inventory convention in this README.
+
+### Metadata and affiliated profiles
+
+Each catalog entry carries a stable ID, page title, descriptive summary, canonical URL, parent/category, audience, visitor journey, social title/description, and status. Link metadata includes `title`, `ariaLabel`, `target`, and `rel`; external destinations open with `target="_blank"` and `rel="noopener noreferrer"`, while internal links remain same-tab. The current data includes existing GitHub, Instagram, X, and LinkedIn destinations plus clearly marked placeholders for YouTube, Spotify, Twitch, Dribbble, and a Facebook business page. Behance, Vimeo, CodePen, Are.na, Pinterest, and Medium are suggested only where an active profile or useful body of work exists. Replace placeholders only after the user supplies and verifies the preferred URLs.
+
+The POC reuses the resume v4 preview at `https://joeldom.github.io/resume/img/resume%20social%20preview.png`. This is a shared identity fallback, not a substitute for page-specific social previews. As pages are templated or updated, give each a unique title, description, canonical URL, Open Graph image/alt text, and X card metadata. Structured data should describe real pages, the person/site relationship, lists, and verified `sameAs` profiles; it must not become keyword stuffing or a collection of unverified links. A crawlable XML sitemap and matching `robots.txt` should be considered when the canonical root taxonomy is settled.
+
+### Portability and planned asset move
+
+The POC keeps JSON, HTML, CSS, and JS together in `sandbox/index/` so the full unit can be tested and moved without build tooling. Once the schema and rendering behavior are established, move the catalog JSON into the shared [joeldom/asset](https://github.com/joeldom/asset) repository (the current shared-assets repository; its GitHub Pages/CDN path is `/asset/`). Keep the HTML, CSS, and JS portable so copies can be installed at `/`, `/redesign/`, or another required root without rewriting the component. At that point, change only the catalog data URL (the `data-catalog-src` override on the script tag or the `DATA_URL` default in `index.js`) to the shared asset URL, and set each installed page's canonical/OG URL to its own root. Do not leave the sandbox POC canonical URL in a promoted copy.
+
+The footer is intentionally a separate reusable parallax/reveal treatment: its branding and compact navigation can be adapted into the resume and case-study pages so visitors have a clear way back to the main site. Keep its links and layout easy to tune per host page; do not force the entire index page's typography or catalog layout into those other pages. Before integrating it into `/resume/`, inspect the resume's existing print/theme behavior and ensure the footer is hidden or suitably simplified in print.
+
+### Promotion checklist
+
+1. Validate the POC at `/redesign/sandbox/index/`, including keyboard navigation, filtering, mobile layout, reduced motion, and JavaScript-disabled fallback.
+2. Review every directory entry and page description against the actual page; promote `directory-listed` descriptions to specific summaries as each page is audited.
+3. Supply and verify official affiliate profile URLs; remove unused suggested platforms rather than publishing empty profiles.
+4. Move the JSON to `joeldom/asset`, configure the data URL, and preserve the same schema/version.
+5. Copy the portable HTML/CSS/JS to the GitHub Pages root and `/redesign/`; set each canonical URL and social metadata to its actual deployed URL.
+6. Add/verify XML sitemap and robots directives at the canonical roots; ensure internal navigation and footer paths work from each installation.
+7. Reuse the footer in the resume and case studies only after the standalone component is stable and tested against their themes and print styles.
+
 ## Related files
 
-- [`index.html`](./index.html) — current sandbox index/viewer surface.
+- [`index.html`](./index.html) — current sandbox landing/viewer surface.
+- [`index/`](./index/) — structured site index/site map proof of concept and portable footer.
 - [`viewer/`](./viewer/) — viewer-related experimentation.
 - [`all/ALL_WORK.md`](https://github.com/joeldom/redesign/blob/gh-pages/all/ALL_WORK.md) — separate workflow for the portfolio's `/all/` project catalog; use it when a sandbox experiment is promoted into that page.
 
