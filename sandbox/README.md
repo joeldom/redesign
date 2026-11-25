@@ -54,6 +54,7 @@ The active sandbox lives at [`redesign/sandbox`](https://github.com/joeldom/rede
 | viewer | System / Experiment | [viewer](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/viewer/) | [viewer](https://joeldom.github.io/redesign/sandbox/viewer/) |
 | writing | Experiment | [writing](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/writing/) | [writing](https://joeldom.github.io/redesign/sandbox/writing/) |
 | resume-v4 | External experiment / smoke test | [v4](https://github.com/joeldom/resume/tree/master/v4/) | [Scale Diagnostics](https://joeldom.github.io/resume/v4/) |
+| Index | Template | [index](https://github.com/joeldom/redesign/tree/gh-pages/sandbox/index/) | [Index](https://joeldom.github.io/redesign/sandbox/index/) |
 
 ## How to use it
 
@@ -228,6 +229,16 @@ The POC reuses the resume v4 preview at `https://joeldom.github.io/resume/img/re
 The POC keeps JSON, HTML, CSS, and JS together in `sandbox/index/` so the full unit can be tested and moved without build tooling. Once the schema and rendering behavior are established, move the catalog JSON into the shared [joeldom/asset](https://github.com/joeldom/asset) repository (the current shared-assets repository; its GitHub Pages/CDN path is `/asset/`). Keep the HTML, CSS, and JS portable so copies can be installed at `/`, `/redesign/`, or another required root without rewriting the component. At that point, change only the catalog data URL (the `data-catalog-src` override on the script tag or the `DATA_URL` default in `index.js`) to the shared asset URL, and set each installed page's canonical/OG URL to its own root. Do not leave the sandbox POC canonical URL in a promoted copy.
 
 The footer is intentionally a separate reusable parallax/reveal treatment: its branding and compact navigation can be adapted into the resume and case-study pages so visitors have a clear way back to the main site. Keep its links and layout easy to tune per host page; do not force the entire index page's typography or catalog layout into those other pages. Before integrating it into `/resume/`, inspect the resume's existing print/theme behavior and ensure the footer is hidden or suitably simplified in print.
+
+### Deferred quotes layer (planned)
+
+The existing introduction and directory copy remain the page's primary, immediately available content. The quotes collection should **supplement that writing, never replace it**. The quote layer can appear after the introduction has had time to register and after the index's core catalog has rendered; its data request should be independent and non-blocking so a slow asset request cannot delay navigation or the page's main content.
+
+The shared source already exists at [`joeldom/asset/array/quotes.json`](https://github.com/joeldom/asset/blob/main/array/quotes.json), served from [`https://joeldom.github.io/asset/array/quotes.json`](https://joeldom.github.io/asset/array/quotes.json). It currently contains **286 entries** in a top-level `quotes` array. Each entry has `id`, `num`, and `quote` fields. Preserve this object as the source of truth; do not copy the quote text into the Index catalog or duplicate the data locally. The current records do not include a consistent author/source field, so do not invent attribution when presenting them.
+
+The intended implementation is a separate, delayed enhancement: retain the current intro in full, fetch the quote object after a short initial dwell/idle period, then introduce a dedicated quote presentation below or alongside the intro without shifting or replacing the established directory structure. Use a restrained transition inspired by the existing [Quotes page](https://joeldom.github.io/redesign/quotes/), but implement it with the Index's own CSS and lightweight JavaScript rather than importing the legacy page's jQuery/Bootstrap stack. Respect reduced-motion preferences and keep the content readable if the data request fails. The existing quote page's rotating list, three-column tile break, dropdown navigation, and footer are useful design references; the tile break is not required for this first integration.
+
+**No `/v2` is warranted at this stage.** The current Index is already separated into portable HTML, CSS, JavaScript, and catalog data, and its visual system is isolated from the older Quotes page dependencies. Reuse the current implementation and selectively adapt proven patterns. Revisit versioning only if the quote layer or navigation redesign requires a structural rewrite rather than a contained enhancement.
 
 ### Promotion checklist
 
